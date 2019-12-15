@@ -9,40 +9,36 @@ class FakeHome extends React.Component {
 
     this.state = {
       attributeArray: [],
-      categories: [],
     }
   }
 
-  writeUserData = () => {
-    fire.database().ref('/').set(this.state);
-    console.log('DATA SAVED');
-  }
+  // writeUserData = () => {
+  //   fire.database().ref('/attributes').set(this.state);
+  // }
 
   getUserData = () => {
-    let ref = fire.database().ref('/');
+    let ref = fire.database().ref('/userAttributes/carly');
     ref.on('value', snapshot => {
       const state = snapshot.val();
       this.setState(state);
+      console.log(state)
+      console.log(this.state)
     });
-    console.log('DATA RETRIEVED');
   }
 
   componentDidMount() {
     this.getUserData();
   }
 
-  componentDidUpdate(prevProps, prevState) {
-    if (prevState !== this.state) {
-      this.writeUserData();
-    }
-  }
+  // componentDidUpdate(prevProps, prevState) {
+  //   if (prevState !== this.state) {
+  //     this.writeUserData();
+  //   }
+  // }
 
   render() {
     const { attributeArray } = this.state;
     return(
-
-      // <Route exact path="/" component={Home} />
-
       <div className="container">
         <div className="row">
           <div className='col-xl-12'>
