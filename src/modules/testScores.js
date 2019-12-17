@@ -13,7 +13,8 @@ class QuizResults extends React.Component {
             acceptScore: 0,
             rejectScore: 0,
             reflectScore: 0,
-            salvationScore: 0
+            salvationScore: 0,
+            topReflections: []
         }
       }
 
@@ -25,13 +26,22 @@ class QuizResults extends React.Component {
                          rejectScore: state.rejectScore,
                          reflectScore: state.reflectScore,
                          salvationScore: state.salvationScore});
-          console.log(this.state)
         });
-      }
 
-      componentDidMount() {
-        this.getUserData();
-      }
+        let top3 = fire.database().ref('/userAttributes/carly').orderByChild('reflect').limitToLast(3);
+
+        top3.on('value', snap => {
+          let foo = [];
+          snap.forEach(att => {
+              foo.push(att.key)
+          });
+          this.setState({ topReflections: foo });
+      });
+    }
+
+    componentDidMount() {
+      this.getUserData();
+    }
 
   render() {
     return(
@@ -41,6 +51,13 @@ class QuizResults extends React.Component {
         <p>my reflect score is {this.state.reflectScore}</p>
         <p>my reject score is {this.state.rejectScore}</p>
         <p>my salvation score is {this.state.salvationScore}</p>
+        <div>my top three attributes are
+        {
+          this.state.topReflections.map(att =>
+            <p key={att}>{att}</p>
+          )
+        }
+        </div>
         </>
     )
   }

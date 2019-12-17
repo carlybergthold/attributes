@@ -8,21 +8,19 @@ class FakeHome extends React.Component {
     super(props);
 
     this.state = {
-      attributeArray: [],
+      attributes: [],
     }
   }
 
-  // writeUserData = () => {
-  //   fire.database().ref('/attributes').set(this.state);
-  // }
+  writeUserData = () => {
+    fire.database().ref('/attributes').set(this.state);
+  }
 
   getUserData = () => {
-    let ref = fire.database().ref('/userAttributes/carly');
+    let ref = fire.database().ref('/attributes');
     ref.on('value', snapshot => {
       const state = snapshot.val();
       this.setState(state);
-      console.log(state)
-      console.log(this.state)
     });
   }
 
@@ -30,11 +28,11 @@ class FakeHome extends React.Component {
     this.getUserData();
   }
 
-  // componentDidUpdate(prevProps, prevState) {
-  //   if (prevState !== this.state) {
-  //     this.writeUserData();
-  //   }
-  // }
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState !== this.state) {
+      this.writeUserData();
+    }
+  }
 
   render() {
     const { attributeArray } = this.state;

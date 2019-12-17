@@ -12,14 +12,17 @@ class Quiz extends Component {
     });
 
     questions.forEach(q => {
-        fire.database().ref(`/userAttributes/${uid}/${q.attribute}/${q.category}`).set({
-            score: 0
-        });
         fire.database().ref(`/userAttributes/${uid}/scores`).set({
           acceptScore: 0,
           rejectScore: 0,
           reflectScore: 0,
           salvationScore: 0
+      })
+
+      fire.database().ref(`/userAttributes/${uid}/${q.attribute}`).set({
+        accept: 0,
+        reject: 0,
+        reflect: 0
       })
     })
   }
@@ -45,20 +48,25 @@ class Quiz extends Component {
         else if (category === 'accept')
         {
           totalAcceptanceScore += parseInt(radio.value);
+
         } else if (category === 'reject')
         {
           totalRejectionScore += parseInt(radio.value);
         } else totalReflectionScore += parseInt(radio.value);
+      }
 
-        console.log(`${attribute}/${category} + ${radio.value}`)
+      if (radio.checked)
+      {
+        let attribute = radio.className.split("-")[0];
+        let category = radio.className.split("-")[1];
 
-        return fire.database().ref(`/userAttributes/${uid}/${attribute}/${category}`).update({
-            score: parseInt(radio.value)
+        fire.database().ref(`/userAttributes/${uid}/${attribute}`).update({
+          [category]: parseInt(radio.value)
         });
       }
     })
 
-    return fire.database().ref(`/userAttributes/${uid}/scores`).update({
+    fire.database().ref(`/userAttributes/${uid}/scores`).update({
       acceptScore: totalAcceptanceScore,
       rejectScore: totalRejectionScore,
       reflectScore: totalReflectionScore,
