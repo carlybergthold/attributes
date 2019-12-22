@@ -10,6 +10,7 @@ class QuizResults extends React.Component {
         super(props);
 
         this.state = {
+            user: '',
             acceptScore: 0,
             rejectScore: 0,
             reflectScore: 0,
@@ -19,16 +20,17 @@ class QuizResults extends React.Component {
       }
 
       getUserData = () => {
-        let ref = fire.database().ref('/userAttributes/carly/scores');
+        let ref = fire.database().ref(`/userAttributes/${this.state.user}/scores`);
         ref.on('value', snapshot => {
           const state = snapshot.val();
-          this.setState({acceptScore: state.acceptScore,
-                         rejectScore: state.rejectScore,
-                         reflectScore: state.reflectScore,
-                         salvationScore: state.salvationScore});
+          this.setState({acceptScore: this.state.acceptScore,
+                         rejectScore: this.state.rejectScore,
+                         reflectScore: this.state.reflectScore,
+                         salvationScore: this.state.salvationScore});
         });
 
-        let top3 = fire.database().ref('/userAttributes/carly').orderByChild('reflect').limitToLast(3);
+        let top3 = fire.database().ref(`/userAttributes/${this.state.user}`)
+                                  .orderByChild('reflect').limitToLast(3);
 
         top3.on('value', snap => {
           let foo = [];
@@ -40,7 +42,16 @@ class QuizResults extends React.Component {
     }
 
     componentDidMount() {
-      this.getUserData();
+
+      fire.auth().onAuthStateChanged(user => {
+        if (user) {
+          this.setState({ user: user.displayName });
+          this.getUserData();
+          console.log(this.state)
+        } else {
+          console.log('no user')
+         }
+      });
     }
 
   render() {
