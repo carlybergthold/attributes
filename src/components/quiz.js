@@ -18,7 +18,6 @@ class Quiz extends Component {
     fire.auth().onAuthStateChanged(user => {
       if (user) {
         this.setState({ user: user.displayName });
-        this.getUserData();
         console.log(this.state)
       } else {
         console.log('no user')
@@ -76,6 +75,7 @@ class Quiz extends Component {
   render() {
     return(
       <>
+      <div className="container">
           {
             questions
             .map(q =>
@@ -95,6 +95,7 @@ class Quiz extends Component {
         <div>
           <button onClick={this.updateUserAttributes} type="submit" className="btn btn-primary">Save</button>
         </div>
+      </div>
       </>
     )
   }

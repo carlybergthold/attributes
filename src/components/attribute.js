@@ -35,6 +35,8 @@ class Attribute extends Component {
       render() {
           return(
               <>
+              <div className="container">
+
               <button onClick={userMethods.addAtts}>add atts</button>
               <div className="attributeNav">
             {
@@ -50,6 +52,7 @@ class Attribute extends Component {
                 <p>{this.state.symbol}</p>
                 <p>{this.state.whoSaintsAre}</p>
                 <p>{this.state.whoUnsavedAre}</p>
+                </div>
               </>
           )
       }

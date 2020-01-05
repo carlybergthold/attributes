@@ -54,6 +54,7 @@ class QuizResults extends React.Component {
   render() {
     return(
         <>
+        <div className="container">
         <div>hello</div>
         <p>my accept score is {this.state.acceptScore}</p>
         <p>my reflect score is {this.state.reflectScore}</p>
@@ -65,6 +66,7 @@ class QuizResults extends React.Component {
             <p key={att}>{att}</p>
           )
         }
+        </div>
         </div>
         </>
     )

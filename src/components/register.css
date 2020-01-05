@@ -1,13 +1,4 @@
 .form {
-    background-color: lightcyan;
-    margin: 2rem;
-    border: solid black 1px;
-}
-
-input {
-    margin: 1rem;
-}
-
-button {
-    
+    margin: 3rem 10rem 3rem 10rem;
+    padding: 3rem;
 }

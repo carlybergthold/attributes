@@ -5,7 +5,7 @@ import Attribute from './components/attribute'
 import Quiz from './components/quiz'
 import QuizResults from './modules/testScores'
 import Register from './components/register'
-import Login from './components/login'
+import Login from './components/login.jsx'
 
 class App extends Component {
 

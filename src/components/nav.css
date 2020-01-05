@@ -1,11 +1,3 @@
-li {
-  text-decoration: none;
-  list-style-type: none;
-  margin: 1rem;
-}
-
-#menuBullets {
-    color: blue;
-    display: flex;
-    flex-flow: row wrap;
+a {
+  color: black;
 }
