@@ -2,13 +2,12 @@ import React, { Component } from "react";
 import './register.css'
 import userMethods from '../modules/userMethods'
 
-class Register extends Component {
+class Login extends Component {
 
     constructor(props){
         super(props);
 
         this.state = {
-            username: '',
             email: '',
             password: ''
         }
@@ -22,23 +21,21 @@ class Register extends Component {
         return(
             <div className="form">
                 <form className="register-form">
-                    <input type="text" placeholder="name" id="username"
+                    <input type="text" placeholder="email address" id="email"
                         onChange={this.handleChange.bind(this)} />
                     <input type="password" placeholder="password" id="password"
-                        onChange={this.handleChange.bind(this)} />
-                    <input type="text" placeholder="email address" id="email"
                         onChange={this.handleChange.bind(this)} />
                     <button type="submit" className="submitBtn"
                     onClick={(e) => {
                         e.preventDefault()
-                        userMethods.addUser(this.state.email, this.state.password, this.state.username)
+                        userMethods.signIn(this.state.email, this.state.password)
                         }
                     }
-                    >submit</button>
+                    >Log In</button>
                     </form>
             </div>
         )
     }
 }
 
-export default Register;
+export default Login;

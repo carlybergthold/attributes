@@ -5,6 +5,7 @@ import Attribute from './components/attribute'
 import Quiz from './components/quiz'
 import QuizResults from './modules/testScores'
 import Register from './components/register'
+import Login from './components/login'
 
 class App extends Component {
 
@@ -19,6 +20,7 @@ class App extends Component {
       <Route exact path="/quiz" component={Quiz} />
       <Route exact path="/results" component={QuizResults} />
       <Route exact path="/register" component={Register} />
+      <Route exact path="/login" component={Login} />
       </>
     )
   }

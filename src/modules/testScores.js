@@ -1,6 +1,3 @@
-// On quiz submission, show component with Top three individual reflecting scores = array of 5’s - return random
-// Same for lows
-
 import React from 'react';
 import fire from '../config/fire'
 

@@ -1,14 +1,27 @@
 import fire from '../config/fire'
 import questions from './testArray'
+import atts from './attributeArray'
 
 const userMethods = {
 
-    addUser: () => {
-        fire.auth().createUserWithEmailAndPassword(this.state.email, this.state.password)
+  addAtts: () => {
+    console.log("woah")
+    atts.forEach(att => {
+      fire.database().ref(`/attributeList/${att.attributeName}`).set({
+        description: att.description,
+        symbol: att.symbol,
+        seenInJesus: att.seenInJesus,
+        whoSaintsAre: att.whoSaintsAre,
+        whoUnsavedAre: att.whoUnsavedAre
+    })
+  })},
+
+    addUser: (email, password, username) => {
+        fire.auth().createUserWithEmailAndPassword(email, password)
         .then((userCredentials)=>{
             if(userCredentials.user) {
                 userCredentials.user.updateProfile({
-                    displayName: this.state.username
+                    displayName: username
                 })
             }
         })
@@ -17,14 +30,14 @@ const userMethods = {
         });
 
         questions.forEach(q => {
-            fire.database().ref(`/userAttributes/${this.state.username}/scores`).set({
+            fire.database().ref(`/userAttributes/${username}/scores`).set({
               acceptScore: 0,
               rejectScore: 0,
               reflectScore: 0,
               salvationScore: 0
           })
 
-          fire.database().ref(`/userAttributes/${this.state.username}/${q.attribute}`).set({
+          fire.database().ref(`/userAttributes/${username}/${q.attribute}`).set({
             accept: 0,
             reject: 0,
             reflect: 0
@@ -32,7 +45,7 @@ const userMethods = {
         })
     },
 
-    signIn: () => {
+    signIn: (email, password) => {
         fire.auth().signInWithEmailAndPassword(email, password).catch(error => {
         console.log(error.message);
       });

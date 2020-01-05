@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { withRouter, Link } from "react-router-dom"
 import './nav.css'
+import userMethods from '../modules/userMethods'
 
 
 class TopNav extends Component {
@@ -14,6 +15,8 @@ class TopNav extends Component {
                         <Link to="/quiz"><li>quiz</li></Link>
                         <Link to="/results"><li>results</li></Link>
                         <Link to="/register"><li>register</li></Link>
+                        <Link to="/login"><li>log in</li></Link>
+                        <li onClick={userMethods.signOut}>logout</li>
                     </ul>
                 </div>
             </nav>
