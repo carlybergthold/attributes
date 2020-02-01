@@ -1,5 +1,8 @@
 import React from 'react';
+import { withRouter, Link } from "react-router-dom"
 import fire from '../config/fire'
+import './testScores.css'
+import attArray from './attributeArray'
 
 class QuizResults extends React.Component {
 
@@ -44,30 +47,46 @@ class QuizResults extends React.Component {
         if (user) {
           this.setState({ user: user.displayName });
           this.getUserData();
-          console.log(this.state)
         } else {
-          console.log('no user')
+          console.log('')
          }
       });
     }
 
+    getDescriptions = () => {
+      {attArray.find(a => a.attributeName === 'wrath')}
+    }
+
+
   render() {
     return(
         <>
-        <div className="container">
-        <div>hello</div>
-        <p>my accept score is {this.state.acceptScore}</p>
-        <p>my reflect score is {this.state.reflectScore}</p>
-        <p>my reject score is {this.state.rejectScore}</p>
-        <p>my salvation score is {this.state.salvationScore}</p>
-        <div>my top three attributes are
-        {
-          this.state.topReflections.map(att =>
-            <p key={att}>{att}</p>
-          )
-        }
-        </div>
-        </div>
+        <section class="section">
+          <div className="container">
+            <h1 className="title">Here are your results, {this.state.user}!</h1>
+            <h2 className="subtitle">Click on any attribute to find out more.</h2>
+            <div className="top-3-container">
+            {
+              this.state.topReflections.map(att =>
+                <div key={att} className="card">
+                  <div className="card-content">
+                    <p className="title">{att}</p>
+                    <p className="subtitle">description
+              </p>
+                  </div>
+                  <footer className="card-footer">
+                    <p className="card-footer-item">
+                      <span>
+                      <Link to="/attribute">See more</Link>
+                      </span>
+                    </p>
+                  </footer>
+                </div>
+              )
+            }
+            </div>
+          </div>
+        </section>
         </>
     )
   }

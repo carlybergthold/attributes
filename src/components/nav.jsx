@@ -2,9 +2,28 @@ import React, { Component } from "react"
 import { withRouter, Link } from "react-router-dom"
 import './nav.css'
 import userMethods from '../modules/userMethods'
+import fire from "../config/fire"
 
 
 class TopNav extends Component {
+
+    constructor(props){
+        super(props);
+
+        this.state = {
+            loggedIn: true,
+        }
+      }
+
+      componentDidMount() {
+        fire.auth().onAuthStateChanged(user => {
+          if (user) {
+            this.setState({ loggedIn: true });
+          } else {
+            this.setState({ loggedIn: false });
+           }
+        });
+      }
 
     render() {
         return (
@@ -66,9 +85,15 @@ class TopNav extends Component {
                 <span className="button is-primary">
                 <Link to="/register"><strong>Sign up</strong></Link>
                 </span>
-                <span className="button is-light">
-                <Link to="/login">Log in</Link>
-                </span>
+                {
+                    this.state.loggedIn ?
+                    <span className="button is-light" onClick={userMethods.signOut}>
+                    Log Out
+                    </span> :
+                    <span className="button is-light">
+                        <Link to="/login">Log In</Link>
+                    </span>
+                }
             </div>
             </div>
             </div>

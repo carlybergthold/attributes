@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import { withRouter, Link } from "react-router-dom"
 import questions from "../modules/testArray"
 import fire from "../config/fire"
+import "./quiz.css"
 
 
 class Quiz extends Component {
@@ -18,9 +20,8 @@ class Quiz extends Component {
     fire.auth().onAuthStateChanged(user => {
       if (user) {
         this.setState({ user: user.displayName });
-        console.log(this.state)
       } else {
-        console.log('no user')
+        console.log('')
        }
     });
   }
@@ -58,13 +59,13 @@ class Quiz extends Component {
         let attribute = radio.className.split("-")[0];
         let category = radio.className.split("-")[1];
 
-        fire.database().ref(`/userAttributes/${this.state.user}/${attribute}`).update({
+        fire.database().ref(`/userAttributes/${this.props.user}/${attribute}`).update({
           [category]: parseInt(radio.value)
         });
       }
     })
 
-    fire.database().ref(`/userAttributes/${this.state.user}/scores`).update({
+    fire.database().ref(`/userAttributes/${this.props.user}/scores`).update({
       acceptScore: totalAcceptanceScore,
       rejectScore: totalRejectionScore,
       reflectScore: totalReflectionScore,
@@ -76,24 +77,38 @@ class Quiz extends Component {
     return(
       <>
       <div className="container">
+      <h1 className="title">Take the quiz!</h1>
           {
             questions
             .map(q =>
               <div key={q.id} id={q.id} className="question-card">
                   <p className="question-header">{q.question}</p>
                   <div className="question-inputs">
+                    <label className="radio">
+                    <input type="radio" className="is-hidden" disabled></input>
+                    Least like me</label>
+
                     <input type="radio" value="1" className={`${q.attribute}-${q.category}`} name={q.id}></input>
+
                     <input type="radio" value="2" className={`${q.attribute}-${q.category}`} name={q.id}></input>
+
                     <input type="radio" value="3" className={`${q.attribute}-${q.category}`} name={q.id}></input>
+
                     <input type="radio" value="4" className={`${q.attribute}-${q.category}`} name={q.id}></input>
+
+                    <label className="radio">
                     <input type="radio" value="5" className={`${q.attribute}-${q.category}`} name={q.id}></input>
+                    Most like me</label>
+
                   </div>
               </div>
               )
           }
 
         <div>
-          <button onClick={this.updateUserAttributes} type="submit" className="btn btn-primary">Save</button>
+          <button onClick={this.updateUserAttributes} type="submit" className="btn btn-primary">
+          <Link to="/results">Submit</Link>
+          </button>
         </div>
       </div>
       </>

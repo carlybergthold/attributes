@@ -49,6 +49,7 @@ const userMethods = {
         fire.auth().signInWithEmailAndPassword(email, password).catch(error => {
         console.log(error.message);
       });
+      console.log('user signed in');
     },
 
     signOut: () => {

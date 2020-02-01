@@ -20,23 +20,65 @@ class Register extends Component {
 
     render() {
         return(
+            <>
             <div className="form">
-                <form className="register-form">
-                    <input type="text" placeholder="name" id="username"
-                        onChange={this.handleChange.bind(this)} />
-                    <input type="password" placeholder="password" id="password"
-                        onChange={this.handleChange.bind(this)} />
-                    <input type="text" placeholder="email address" id="email"
-                        onChange={this.handleChange.bind(this)} />
-                    <button type="submit" className="submitBtn"
-                    onClick={(e) => {
-                        e.preventDefault()
-                        userMethods.addUser(this.state.email, this.state.password, this.state.username)
-                        }
-                    }
-                    >submit</button>
-                    </form>
+                <div className="field">
+                <label className="label">Username</label>
+                    <div className="control has-icons-left has-icons-right">
+                        <input className="input is-success" type="text" placeholder="Username" id="username" onChange={this.handleChange.bind(this)}></input>
+                        <span className="icon is-small is-left">
+                        <i className="fas fa-user"></i>
+                        </span>
+                        <span className="icon is-small is-right">
+                        <i className="fas fa-check"></i>
+                        </span>
+                    </div>
+                <p className="help is-success">This username is available</p>
+                </div>
+
+                <div className="field">
+                <label className="label">Email</label>
+                    <div className="control has-icons-left has-icons-right">
+                        <input className="input is-danger" type="email" placeholder="Email" id="email" onChange={this.handleChange.bind(this)}></input>
+                        <span className="icon is-small is-left">
+                        <i className="fas fa-envelope"></i>
+                        </span>
+                        <span className="icon is-small is-right">
+                        <i className="fas fa-exclamation-triangle"></i>
+                        </span>
+                    </div>
+                <p className="help is-danger">This email is invalid</p>
+                </div>
+
+                <div className="field">
+                <label className="label">Password</label>
+                    <div className="control has-icons-left has-icons-right">
+                        <input className="input is-success" type="text" placeholder="Password" id="password" onChange={this.handleChange.bind(this)}></input>
+                        <span className="icon is-small is-left">
+                        <i className="fas fa-user"></i>
+                        </span>
+                        <span className="icon is-small is-right">
+                        <i className="fas fa-check"></i>
+                        </span>
+                    </div>
+                <p className="help is-success">This password works</p>
+                </div>
+
+                <div className="field is-grouped">
+                    <div className="control">
+                        <button className="button is-link"
+                                            onClick={(e) => {
+                                            userMethods.addUser(this.state.email, this.state.password, this.state.username)
+                                            }
+                                        }
+                                        >Register</button>
+                    </div>
+                    <div className="control">
+                        <button className="button is-link is-light">Cancel</button>
+                    </div>
+                </div>
             </div>
+        </>
         )
     }
 }
