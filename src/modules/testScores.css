@@ -1,0 +1,9 @@
+.top-3-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 15rem;
+}

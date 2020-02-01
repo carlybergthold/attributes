@@ -1,0 +1,16 @@
+.container {
+    margin-top: 2rem;
+}
+
+input {
+    margin-right: 0.5rem;
+}
+
+label {
+    font-size: 0.7rem;
+    margin-right: 0.5rem;
+}
+
+.question-card {
+    margin: 1rem 1rem 1rem 0;
+}
