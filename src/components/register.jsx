@@ -20,13 +20,13 @@ class Register extends Component {
         this.setState({[e.target.id]: e.target.value})
     }
 
-    goHome = () => {
-        fire.auth().onAuthStateChanged(user => {
-            if (user) {
-                this.props.history.push("/home");
-            }
-        })
-    }
+    // goHome = () => {
+    //     fire.auth().onAuthStateChanged(user => {
+    //         if (user) {
+    //             this.props.history.push("/home");
+    //         }
+    //     })
+    // }
 
     render() {
         return(
@@ -78,8 +78,8 @@ class Register extends Component {
                     <div className="control">
                         <button className="button is-link"
                                             onClick={(e) => {
-                                            userMethods.addUser(this.state.email, this.state.password, this.state.username);
-                                            this.goHome();
+                                            this.props.addUser(this.state.email, this.state.password, this.state.username);
+                                            // this.goHome();
                                             }
                                         }
                                         >Register</button>
