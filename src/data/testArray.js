@@ -519,7 +519,7 @@ const questionArray = [
     id: 87,
     attribute: 'Truth',
     category: 'accept',
-    question: 'I view and act on Godâ€™s Word in the Bible as real and true.'
+    question: "I view and act on God's Word in the Bible as real and true."
     },
     {
     id: 88,

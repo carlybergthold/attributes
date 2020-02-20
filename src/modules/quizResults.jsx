@@ -1,8 +1,8 @@
 import React from 'react';
 import { withRouter, Link } from "react-router-dom"
 import fire from '../config/fire'
-import './testScores.css'
-import attArray from './attributeArray'
+import '../styles/testScores.css'
+import attArray from '../data/attributeArray'
 
 class QuizResults extends React.Component {
 
@@ -76,8 +76,9 @@ class QuizResults extends React.Component {
                   </div>
                   <footer className="card-footer">
                     <p className="card-footer-item">
-                      <span>
-                      <Link to="/attribute">See more</Link>
+                      <span onClick={() => this.props.history.push({
+                        pathname: '/attribute',
+                        state: { attribute: att } })}>Learn more!
                       </span>
                     </p>
                   </footer>
@@ -92,4 +93,4 @@ class QuizResults extends React.Component {
   }
 }
 
-export default QuizResults;
+export default withRouter(QuizResults);
