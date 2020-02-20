@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
-import questions from "../modules/testArray"
+import questions from "../data/testArray"
 import fire from "../config/fire"
-import "./quiz.css"
+import "../styles/quiz.css"
 
 
 class Quiz extends Component {
@@ -21,9 +21,27 @@ class Quiz extends Component {
       if (user) {
         this.setState({ user: user.displayName });
       } else {
-        console.log('')
+        alert("you're not logged in - your results won't be saved")
        }
     });
+  }
+
+  validateQuiz = () => {
+    let radios = document.querySelectorAll('input');
+    let checkedRadios = [];
+
+    radios.forEach(radio => {
+      if (radio.checked) {
+        checkedRadios.push(radio.key);
+      }
+    })
+
+    if (checkedRadios.length < 2) {
+      alert('Please select one option in each question.');
+    } else {
+      this.updateUserAttributes();
+      this.props.history.push("/results");
+    }
   }
 
   updateUserAttributes = () => {
@@ -82,7 +100,7 @@ class Quiz extends Component {
             questions
             .map(q =>
               <div key={q.id} id={q.id} className="question-card">
-                  <p className="question-header">{q.question}</p>
+                <p className="question-header">{q.id}. {q.question}</p>
                   <div className="question-inputs">
                     <label className="radio">
                     <input type="radio" className="is-hidden" disabled></input>
@@ -106,9 +124,8 @@ class Quiz extends Component {
           }
 
         <div>
-          <button onClick={this.updateUserAttributes} type="submit" className="btn btn-primary">
-          <Link to="/results">Submit</Link>
-          </button>
+          <button onClick={this.validateQuiz} type="submit" className="btn btn-primary">
+          Submit</button>
         </div>
       </div>
       </>
@@ -116,4 +133,4 @@ class Quiz extends Component {
   }
 }
 
-export default Quiz;
+export default withRouter(Quiz);

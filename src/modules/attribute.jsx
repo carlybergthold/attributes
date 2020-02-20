@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import { withRouter, Link } from "react-router-dom"
 import fire from '../config/fire'
-import attributeArray from '../modules/attributeArray'
-import './attributePage.css'
-import userMethods from "../modules/userMethods";
-import Sidebar from './sidebar'
+import attributeArray from '../data/attributeArray'
+import '../styles/attributePage.css'
+import userMethods from "../methods/userMethods";
+import Sidebar from '../components/sidebar'
 
 class Attribute extends Component {
 
@@ -11,7 +12,7 @@ class Attribute extends Component {
         super(props);
 
         this.state = {
-            attribute: '',
+            attribute: 'creative',
             description: '',
             seenInJesus: '',
             symbol: '',
@@ -47,17 +48,12 @@ class Attribute extends Component {
             onClick={() => this.getAttData(att.attributeName)}>{att.attributeName}</span> )
             }
             </div>
-                <h1>attribute page</h1>
-                <h2>{this.state.attribute}</h2>
-                <p>{this.state.description}</p>
-                <p>{this.state.seenInJesus}</p>
-                <p>{this.state.symbol}</p>
-                <p>{this.state.whoSaintsAre}</p>
-                <p>{this.state.whoUnsavedAre}</p>
             </div>
             <section className="section">
               <div className="container">
-                <h1 className="title">Attribute Definition & Evidence of Reflection</h1>
+                <h1 className="title">
+                  {/* {this.props.location.state.attribute}  */}
+                  Definition & Evidence of Reflection</h1>
                 <h2 className="subtitle">
                   A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
                 </h2>
@@ -112,4 +108,4 @@ class Attribute extends Component {
 
 }
 
-export default Attribute;
+export default withRouter(Attribute);

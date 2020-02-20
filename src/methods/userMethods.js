@@ -1,6 +1,7 @@
 import fire from '../config/fire'
-import questions from './testArray'
-import atts from './attributeArray'
+import questions from '../data/testArray'
+import atts from '../data/attributeArray'
+import { withRouter } from "react-router-dom"
 
 const userMethods = {
 
@@ -26,7 +27,7 @@ const userMethods = {
             }
         })
         .catch(function(error) {
-        console.log(error.message);
+        alert(error.message);
         });
 
         questions.forEach(q => {
@@ -61,4 +62,4 @@ const userMethods = {
     },
 }
 
-export default userMethods;
+export default withRouter(userMethods);

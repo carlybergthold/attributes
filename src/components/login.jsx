@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import './register.css'
-import userMethods from '../modules/userMethods'
+import '../styles/register.css'
+import userMethods from '../methods/userMethods'
 
 class Login extends Component {
 

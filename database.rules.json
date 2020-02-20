@@ -1,9 +1,6 @@
 {
   "rules": {
     ".read": true,
-    ".write": true,
-    "userAttributes/carly": {
-      ".indexOn": "reflect"
-    }
+    ".write": true
   }
 }
