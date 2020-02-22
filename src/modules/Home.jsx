@@ -7,7 +7,6 @@ class Home extends React.Component {
 
   render() {
     return(
-      <>
        <body className="homepage">
         <section className="section homepage-welcome">
           <div className="container">
@@ -44,7 +43,6 @@ class Home extends React.Component {
           </div>
         </section>
         </body>
-      </>
     )
   }
 }

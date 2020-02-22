@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import '../styles/register.css'
-import userMethods from '../methods/userMethods'
 
 class Login extends Component {
 
@@ -12,6 +11,10 @@ class Login extends Component {
             email: '',
             password: ''
         }
+    }
+
+    componentDidMount() {
+        console.log(this.props);
     }
 
     handleChange = (e) =>{
@@ -55,7 +58,7 @@ class Login extends Component {
                         <button className="button is-link"
                                             onClick={(e) => {
                                             e.preventDefault()
-                                            userMethods.signIn(this.state.email, this.state.password)
+                                            this.props.signIn(this.state.email, this.state.password)
                                             }
                                         }>Log In</button>
                     </div>

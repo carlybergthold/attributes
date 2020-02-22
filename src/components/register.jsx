@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom"
 import '../styles/register.css'
-import userMethods from '../methods/userMethods'
 import fire from "../config/fire"
 
 class Register extends Component {
@@ -20,13 +19,13 @@ class Register extends Component {
         this.setState({[e.target.id]: e.target.value})
     }
 
-    // goHome = () => {
-    //     fire.auth().onAuthStateChanged(user => {
-    //         if (user) {
-    //             this.props.history.push("/home");
-    //         }
-    //     })
-    // }
+    goHome = () => {
+        fire.auth().onAuthStateChanged(user => {
+            if (user) {
+                this.props.history.push("/home");
+            }
+        })
+    }
 
     render() {
         return(
@@ -79,7 +78,7 @@ class Register extends Component {
                         <button className="button is-link"
                                             onClick={(e) => {
                                             this.props.addUser(this.state.email, this.state.password, this.state.username);
-                                            // this.goHome();
+                                            this.goHome();
                                             }
                                         }
                                         >Register</button>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter, Link } from "react-router-dom"
+import { withRouter } from "react-router-dom"
 import fire from '../config/fire'
 import '../styles/testScores.css'
 import attArray from '../data/attributeArray'

@@ -60,6 +60,19 @@ const userMethods = {
         console.log(error)
       });
     },
+
+        //   getAttData = (attribute) => {
+    //     let ref = fire.database().ref(`/attributeList/${attribute}`);
+    //     ref.on('value', snapshot => {
+    //       const state = snapshot.val();
+    //       this.setState({attribute: attribute,
+    //                      description: state.attDescription,
+    //                      seenInJesus: state.seenInJesus,
+    //                      symbol: state.symbol,
+    //                      whoSaintsAre: state.whoSaintsAre,
+    //                      whoUnsavedAre: state.whoUnsavedAre});
+    //     });
+    // }
 }
 
 export default withRouter(userMethods);

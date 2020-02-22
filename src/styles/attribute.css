@@ -1,0 +1,53 @@
+.attributeFlexbox {
+    display: flex;
+}
+
+.attPage {
+    flex: 3.5;
+    /* margin: 0rem 1rem 0rem 1rem; */
+    padding: 1rem;
+    background-color: white;
+}
+
+#header {
+    font-size: 4rem;
+    padding: 0rem 1.5rem;
+}
+
+#header h1 {
+    text-transform: uppercase;
+}
+
+.attHeader {
+    margin-top: 0rem;
+}
+
+aside {
+    flex: 0.5;
+}
+
+.section {
+    padding: 1rem 1.5rem;
+}
+
+.attListItem {
+    border: 1px solid black;
+    width: 100%;
+    padding: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+}
+
+.attListItem:hover {
+    cursor: pointer;
+    filter: brightness(85%);
+}
+
+ul>li:nth-child(odd) {
+    background-color: gray;
+}
+
+ul>li:nth-child(even) {
+    background-color: #00d1b2;
+}

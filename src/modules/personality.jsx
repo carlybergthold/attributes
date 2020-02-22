@@ -1,30 +1,18 @@
 import React, { Component } from "react";
-import { withRouter, Link } from "react-router-dom"
-import fire from '../config/fire'
-import attributeArray from '../data/attributeArray'
-import '../styles/attributePage.css'
-import userMethods from "../methods/userMethods";
-import Sidebar from '../components/sidebar'
+import { withRouter } from "react-router-dom"
+import '../styles/personality.css'
 
 class Personality extends Component {
 
     constructor(props){
         super(props);
 
-        this.state = {
-            attribute: 'creative',
-            description: '',
-            seenInJesus: '',
-            symbol: '',
-            whoSaintsAre: '',
-            whoUnsavedAre: ''
-        }
       }
 
       render() {
           return(
-              <>
-              <body className="attPage">
+            <div className='page'>
+              <body className="personalityPage">
               <h1 className="title">Browse by Personality</h1>
               <section className="section">
                 <h2 className="subtitle">The Enneagram</h2>
@@ -45,7 +33,7 @@ class Personality extends Component {
               </div>
               </section>
               </body>
-              </>
+            </div>
           )
       }
 
