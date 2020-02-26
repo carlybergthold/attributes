@@ -31,7 +31,7 @@ class TopNav extends Component {
             <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
                 <Link to="/home" className="navbar-item">
-                    <img src="https://daks2k3a4ib2z.cloudfront.net/52f90f6d1ae8cb6a1900073e/59972e97ab717100012c14d8_RC-logo.png" width="112" height="28" alt="logo"></img>
+                    Home
                 </Link>
                 <span role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
