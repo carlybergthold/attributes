@@ -8,6 +8,9 @@ import Login from './components/login.jsx'
 import TopNav from './components/nav.jsx'
 import Home from './modules/Home'
 import Personality from './modules/personality'
+import Enneagram from './components/enneagram'
+import MyersBriggs from './components/myersBriggs'
+import DISC from './components/DISC'
 
 
 class AppViews extends Component {
@@ -16,21 +19,20 @@ class AppViews extends Component {
     super(props);
   }
 
-  componentDidMount() {
-    console.log(this.props)
-  }
-
   render() {
     return(
       <>
       <TopNav user={this.props.user} signIn={this.props.signIn} signOut={this.props.signOut} />
       <Route exact path="/home" component={Home}  user={this.props.user} />
-      <Route exact path="/attribute" component={Attribute}  user={this.props.user} />
-      <Route exact path="/quiz" component={Quiz} user={this.props.user} />
-      <Route exact path="/results" component={QuizResults} user={this.props.user} />
+      <Route exact path="/attribute" component={Attribute} user={this.props.user} />
+      <Route exact path="/quiz" render={(props) => (<Quiz {...props} user={this.props.user} /> )} />
+      <Route exact path="/results" render={(props) => (<QuizResults {...props} user={this.props.user} /> )} />
       <Route exact path="/personality" component={Personality} user={this.props.user} />
       <Route exact path="/register" render={(props) => (<Register {...props} addUser={this.props.addUser} user={this.props.user} /> )} />
       <Route exact path="/login" render={(props) => (<Login {...props}  user={this.props.user} signIn={this.props.signIn} /> )} />
+      <Route exact path="/enneagram" render={(props) => (<Enneagram {...props}  user={this.props.user} /> )} />
+      <Route exact path="/myersbriggs" render={(props) => (<MyersBriggs {...props}  user={this.props.user} /> )} />
+      <Route exact path="/disc" render={(props) => (<DISC {...props}  user={this.props.user} /> )} />
       </>
     )
   }

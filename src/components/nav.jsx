@@ -3,7 +3,7 @@ import { withRouter, Link } from "react-router-dom"
 import '../styles/nav.css'
 import userMethods from '../methods/userMethods'
 import fire from "../config/fire"
-
+import girl from '../images/girl.png'
 
 class TopNav extends Component {
 
@@ -31,7 +31,7 @@ class TopNav extends Component {
             <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
                 <Link to="/home" className="navbar-item">
-                    Home
+                    <img src={girl} className="nav-logo"></img>
                 </Link>
                 <span role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
@@ -44,16 +44,16 @@ class TopNav extends Component {
 
             <div className="navbar-start">
                 <span className="navbar-item">
-                <Link to="/attribute">Attributes</Link>
+                <Link to="/attribute">Explore Attributes</Link>
                 </span>
 
                 <span className="navbar-item">
-                <Link to="/quiz">Quiz</Link>
+                <Link to="/quiz">Take the Quiz</Link>
                 </span>
 
             <div className="navbar-item has-dropdown is-hoverable">
             <span className="navbar-link">
-                Explore Attributes
+                Explore
             </span>
 
             <div className="navbar-dropdown">
@@ -78,15 +78,12 @@ class TopNav extends Component {
         <div className="navbar-end">
             <div className="navbar-item">
             <div className="buttons">
-                <span className="button is-primary">
-                <Link to="/register"><strong>Sign up</strong></Link>
-                </span>
                 {
                     this.state.loggedIn ?
-                    <span className="button is-light" onClick={userMethods.signOut}>
+                    <span className="button is-primary" onClick={userMethods.signOut}>
                     Log Out
                     </span> :
-                    <span className="button is-light">
+                    <span className="button is-primary">
                         <Link to="/login">Log In</Link>
                     </span>
                 }

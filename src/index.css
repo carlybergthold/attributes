@@ -12,8 +12,14 @@ code {
     monospace;
 }
 
-.page {
-  background-color: lightgray;
+/* .page {
   padding: 2rem;
-}
+} */
 
+:root {
+  --purple: #540D6E;
+  --pink: #EE4266;
+  --yellow: #FFD23F;
+  --teal: #00d1b2;
+  --green: #0EAD69
+}

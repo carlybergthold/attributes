@@ -16,7 +16,8 @@ class Quiz extends Component {
     if (checkedRadios.length < 2) {
       alert('Please select one option in each question.');
     } else {
-      this.updateUserAttributes().then(() => this.props.history.push("/results"));
+      this.updateUserAttributes();
+      this.props.history.push("/results");
     }
   }
 
