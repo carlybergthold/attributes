@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { Component }  from 'react';
 import { withRouter } from "react-router-dom"
 import fire from '../config/fire'
 import '../styles/testScores.css'
 import attArray from '../data/attributeArray'
+import Components from '../methods/card'
+import girl from '../images/girl.png'
+import { isThisTypeNode } from 'typescript';
 
 class QuizResults extends React.Component {
 
@@ -10,17 +13,20 @@ class QuizResults extends React.Component {
         super(props);
 
         this.state = {
-            user: '',
             acceptScore: 0,
             rejectScore: 0,
             reflectScore: 0,
             salvationScore: 0,
-            topReflections: []
+            topReflections: [],
+            topObjects: [],
+            one: {},
+            two: {},
+            three: {}
         }
       }
 
       getUserData = () => {
-        let ref = fire.database().ref(`/userAttributes/${this.state.user}/scores`);
+        let ref = fire.database().ref(`/userAttributes/${this.props.user}/scores`);
         ref.on('value', snapshot => {
           const state = snapshot.val();
           this.setState({acceptScore: this.state.acceptScore,
@@ -29,50 +35,44 @@ class QuizResults extends React.Component {
                          salvationScore: this.state.salvationScore});
         });
 
-        let top3 = fire.database().ref(`/userAttributes/${this.state.user}`)
+        let top3 = fire.database().ref(`/userAttributes/${this.props.user}`)
                                   .orderByChild('reflect').limitToLast(3);
 
         top3.on('value', snap => {
-          let foo = [];
+          let foo = []
           snap.forEach(att => {
+//if not RESULTS.....
               foo.push(att.key)
           });
-          this.setState({ topReflections: foo });
+          this.setState({ topReflections: foo})
       });
     }
 
     componentDidMount() {
-
-      fire.auth().onAuthStateChanged(user => {
-        if (user) {
-          this.setState({ user: user.displayName });
-          this.getUserData();
-        } else {
-          console.log('')
-         }
-      });
+        if (this.props.user != 'anon') {
+          this.getUserData()
+        } else alert('no user!')
     }
-
-    getDescriptions = () => {
-      {attArray.find(a => a.attributeName === 'wrath')}
-    }
-
 
   render() {
     return(
         <>
-        <section class="section">
+        <div className='page'>
+        <section className="section">
           <div className="container">
-            <h1 className="title">Here are your results, {this.state.user}!</h1>
+            <h1 className="title">Here are your results, {this.props.user}!</h1>
             <h2 className="subtitle">Click on any attribute to find out more.</h2>
             <div className="top-3-container">
             {
-              this.state.topReflections.map(att =>
+                this.state.topReflections.map(att =>
                 <div key={att} className="card">
+                  <div className="card-image">
+                    <figure className="image is-4by3">
+                      <img src={girl} alt="Placeholder image" className="personalityIcon"></img>
+                    </figure>
+                  </div>
                   <div className="card-content">
                     <p className="title">{att}</p>
-                    <p className="subtitle">description
-              </p>
                   </div>
                   <footer className="card-footer">
                     <p className="card-footer-item">
@@ -88,6 +88,7 @@ class QuizResults extends React.Component {
             </div>
           </div>
         </section>
+        </div>
         </>
     )
   }

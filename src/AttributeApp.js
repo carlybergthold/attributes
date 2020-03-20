@@ -8,7 +8,7 @@ class AttributeApp extends Component {
     state = {
         user: localStorage.getItem('user')
               ? localStorage.getItem('user')
-              : 'no user'
+              : 'anon'
     }
 
 

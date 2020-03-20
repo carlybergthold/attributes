@@ -14,7 +14,7 @@ class Sidebar extends Component {
     render() {
       return(
       <aside>
-        <ul>
+        <ul className="attList">
         {
         attributeArray.map(att => <li className='attListItem' id={att.attributeName}
                                       onClick={this.props.setAttribute.bind(this)}>{att.attributeName}</li>)

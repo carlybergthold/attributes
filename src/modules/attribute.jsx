@@ -10,7 +10,7 @@ class Attribute extends Component {
         super(props);
 
         this.state = {
-            attribute: '',
+            attribute: 'Creative',
             attributeInfo: {}
         }
       }
@@ -35,7 +35,7 @@ class Attribute extends Component {
               <body className="attPage">
               <section className="section" id="header">
                 <h1 className="title attHeader">{this.state.attribute}</h1>
-                <h2 className="subtitle">{this.state.attributeInfo.description}</h2>
+                <h2 className="subtitle">{this.state.attributeInfo ? this.state.attributeInfo.description : ''}</h2>
               </section>
               <section className="section">
                 <div className="container">

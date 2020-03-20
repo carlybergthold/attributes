@@ -1,16 +1,113 @@
-.homepage-welcome {
-    background-color: lightgray;
+.homepage {
+    text-align: center;
 }
 
-.homepage-quiz {
-    background-color: lightcyan;
+.homepage-welcome {
+    height: 100vh;
+    background: url(../images/womanByOcean.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    margin: -5rem 6rem 0 6rem;
+}
+
+.welcome-title {
+    font-size: 2.8rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.welcome-subtitle {
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    padding: 3rem 0 1.5rem 0;
 }
 
 .homepage-personality {
-    background-color: lightpink;
+    background-color: var(--yellow);
+    height: 100vh;
+    padding: 4rem;
 }
 
-.homepage-movies {
-    background-color: lightsteelblue;
+.home-personality-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
+.navbar {
+    height: 5rem;
+}
+
+/* #background {
+    position:absolute;
+    z-index:0;
+    background:white;
+    display:block;
+    min-height:50%;
+    min-width:50%;
+    color:yellow;
+} */
+
+.homepage-attributes {
+    /* position:absolute;
+    z-index:1; */
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 4rem;
+    height: 100vh;
+}
+
+/* #bg-text {
+    color:lightgray;
+    font-size:2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+} */
+
+.bg-att {
+    margin: 0 0.1rem 0 0.1rem;
+}
+
+.right {
+    width: 50%;
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.left {
+    width: 50%;
+    margin-right: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    text-align: center;
+}
+
+.att-card-desc {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+.att-card-title {
+    text-align: center;
+}
+
+/* .card-attribute {
+    transform: scale(1.01);
+} */
