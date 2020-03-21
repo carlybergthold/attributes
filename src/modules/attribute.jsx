@@ -32,6 +32,11 @@ class Attribute extends Component {
           return(
               <div className='page attributeFlexbox'>
               <Sidebar setAttribute={this.setAttribute}/>
+              <button type="button" className="edit-animal-btn"
+                    onClick={() => {
+                        this.props.history.push(`/attributes/${this.state.attribute}`);
+                    }}  >Edit
+                    </button>
               <body className="attPage">
               <section className="section" id="header">
                 <h1 className="title attHeader">{this.state.attribute}</h1>

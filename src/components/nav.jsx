@@ -44,7 +44,7 @@ class TopNav extends Component {
 
             <div className="navbar-start">
                 <span className="navbar-item">
-                <Link to="/attribute">Explore Attributes</Link>
+                <Link to="/attributes">Explore Attributes</Link>
                 </span>
 
                 <span className="navbar-item">
