@@ -483,7 +483,7 @@ const questionArray = [
     id: 81,
     attribute: 'Sovereign',
     category: 'accept',
-    question: 'I gratefully submit to Godâ€™s authority.'
+    question: "I gratefully submit to God's authority."
     },
     {
     id: 82,

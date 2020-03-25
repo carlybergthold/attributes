@@ -3,15 +3,56 @@
     padding: 1rem;
 }
 
+.quiz-header {
+    display: flex;
+    justify-content: center;
+}
+
+.quiz-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.quiz-flex {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.question-inputs {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+}
+
 input {
-    margin-right: 0.5rem;
+    margin: 1.2rem;
+}
+
+.big {
+    transform: scale(2.5);
+}
+
+.medium {
+    transform: scale(2);
+}
+
+.small {
+    transform: scale(1.5);
 }
 
 label {
-    font-size: 0.7rem;
+    font-size: 1.1rem;
     margin-right: 0.5rem;
 }
 
 .question-card {
-    margin: 1rem 1rem 1rem 0;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.question-header {
+    font-size: 1.4rem;
 }

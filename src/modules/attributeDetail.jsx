@@ -1,35 +1,12 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom"
-import '../styles/attribute-detail.css'
-import attArray from '../data/attributeArray'
-import girl from '../images/girl.png'
 
 class AttributeDetail extends Component {
-
-    constructor(props){
-        super(props);
-
-        this.state = {
-            attributeInfo: {}
-        }
-      }
-
-    getAttributeInfo = () => {
-      if (this.props.attribute)
-      {
-        let obj = attArray.find(a => a.attributeName == this.props.attribute);
-        this.setState({attributeInfo: obj});
-      }
-    }
 
       render() {
           return(
               <div key={this.props.attribute} className='page attributeDetail'>
               <body className="attDetailPage">
-              <section className="section att-detail-header" id="header">
-                <section><h1 className="title attHeader">{this.props.attribute}</h1></section>
-                <img src={girl} className="att-image"></img>
-              </section>
 
               <section className="section att-detail-definition">
                   <h1 className="title">Definition</h1>
