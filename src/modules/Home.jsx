@@ -51,7 +51,12 @@ class Home extends React.Component {
                 <li>Through your fears</li>
               </ul>
             </h2>
-            <button className="button is-light">Explore All Attributes</button>
+            <button className="button is-light">
+            <span onClick={() => this.props.history.push({
+              pathname: '/attributes',
+              state: { attribute: 'creative' } })}>Explore all Attributes
+            </span>
+            </button>
             <section className="atrributeImages">
             </section>
           </div>
@@ -109,7 +114,7 @@ class Home extends React.Component {
                 <div className="content">
                 This is a short description of this personality type.
                   <br></br>
-                  <Link to="/personalityDetail" className="persLink">Read More</Link>                </div>
+                  <Link to="/enneagram" className="persLink">Read More</Link>                </div>
               </div>
             </div>
             <div className="card">
@@ -127,7 +132,7 @@ class Home extends React.Component {
                 <div className="content">
                 This is a short description of this personality type.
                   <br></br>
-                  <Link to="/personalityDetail" className="persLink">Read More</Link>                </div>
+                  <Link to="/myersbriggs" className="persLink">Read More</Link>                </div>
               </div>
             </div>
             <div className="card">
@@ -145,7 +150,7 @@ class Home extends React.Component {
                 <div className="content">
                 This is a short description of this personality type.
                   <br></br>
-                  <Link to="/personalityDetail" className="persLink">Read More</Link>                </div>
+                  <Link to="/disc" className="persLink">Read More</Link>                </div>
               </div>
             </div>
             </section>

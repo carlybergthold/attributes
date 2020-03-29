@@ -13,7 +13,7 @@
     justify-content: center;
 }
 
-.quiz-flex {
+#quiz-flex {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -29,16 +29,20 @@ input {
     margin: 1.2rem;
 }
 
-.big {
-    transform: scale(2.5);
+input[value='1'] {
+    transform: scale(1.8);
 }
 
-.medium {
-    transform: scale(2);
+input[value='2'] {
+    transform: scale(1.4);
 }
 
-.small {
-    transform: scale(1.5);
+input[value='4'] {
+    transform: scale(1.4);
+}
+
+input[value='5'] {
+    transform: scale(1.8);
 }
 
 label {

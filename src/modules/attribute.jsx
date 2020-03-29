@@ -12,15 +12,14 @@ class Attribute extends Component {
         super(props);
 
         this.state = {
-            attribute: 'Creative',
+            attribute: this.props.location.state.attribute,
             attributeInfo: {}
         }
-      }
+    }
 
     setAttribute = (e) => {
       this.setState({attribute: e.target.id});
       this.getAttributeInfo();
-      // this.props.history.push(`/attributes/${this.state.attribute}`);
     }
 
     getAttributeInfo = () => {
@@ -31,20 +30,20 @@ class Attribute extends Component {
       }
     }
 
-      render() {
-          return(
-              <div className='page attributeFlexbox'>
-              <Sidebar setAttribute={this.setAttribute} />
-              <body className="attPage">
-              <section className="section att-detail-header" id="header">
-                <section><h1 className="title attHeader">{this.state.attribute}</h1></section>
-                <img src={girl} className="att-image"></img>
-              </section>
-              <AttributeDetail attribute={this.state.attribute} attributeInfo={this.state.attributeInfo} />
-            </body>
-            </div>
-          )
-      }
+    render() {
+        return(
+            <div className='page attributeFlexbox'>
+            <Sidebar setAttribute={this.setAttribute} />
+            <body className="attPage">
+            <section className="section att-detail-header" id="header">
+              <section><h1 className="title attHeader">{this.state.attribute}</h1></section>
+              <img src={girl} className="att-image"></img>
+            </section>
+            <AttributeDetail attribute={this.state.attribute} attributeInfo={this.state.attributeInfo} />
+          </body>
+          </div>
+        )
+    }
 
 }
 

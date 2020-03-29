@@ -3,6 +3,7 @@ import { withRouter } from "react-router-dom"
 import questions from "../data/testArray"
 import fire from "../config/fire"
 import "../styles/quiz.css"
+import line from '../images/grey-line-png.png'
 
 
 class Quiz extends Component {
@@ -11,27 +12,39 @@ class Quiz extends Component {
     super(props);
 
     this.state = {
-      currentPage: 1,
-      recordsPerPage: 5,
+      startingIndex: 1,
+      endingIndex: 5,
+      questions: []
     }
+  }
+
+  componentDidMount() {
+    this.getQuestions();
   }
 
   validateQuiz = () => {
     let radios = document.querySelectorAll('input');
     let checkedRadios = [];
+    let button = document.querySelector('.quiz-btn');
 
     radios.forEach(radio => {if (radio.checked) checkedRadios.push(radio.key)});
 
-    if (checkedRadios.length < 2) {
+    if (checkedRadios.length < 5) {
       alert('Please select one option in each question.');
     } else {
       this.updateUserAttributes();
+    }
+
+    if (button.textContent != 'Submit') {
+      this.nextPageClick()
+    } else {
       this.props.history.push("/results");
     }
   }
 
   updateUserAttributes = () => {
-    let radios = document.querySelectorAll('input');
+    var baseElement = document.querySelector("#quiz-flex");
+    let radios = baseElement.querySelectorAll('input');
     let totalAcceptanceScore = 0;
     let totalRejectionScore = 0;
     let totalReflectionScore = 0;
@@ -42,6 +55,8 @@ class Quiz extends Component {
       {
         let attribute = radio.className.split("-")[0];
         let category = radio.className.split("-")[1];
+
+        console.log(attribute, category)
 
         if (category === 'accept' && attribute === 'grace')
         {
@@ -63,6 +78,8 @@ class Quiz extends Component {
         let category = radio.className.split("-")[1];
 
         fire.database().ref(`/userAttributes/${this.props.user}/${attribute}`).update({[category]: parseInt(radio.value)});
+        console.log(attribute)
+
       }
     })
 
@@ -74,54 +91,24 @@ class Quiz extends Component {
     });
   }
 
-  nextPage = () => {
-    var newPage = this.state.currentPage + 1;
+  getQuestions = () => {
+    let questionsSection = questions.filter(q => q.id >= this.state.startingIndex &&
+                                                 q.id <= this.state.endingIndex);
+    this.setState( {questions: questionsSection} );
+    console.log(this.state.startingIndex, this.state.endingIndex)
+  }
 
-      if (this.state.currentPage < this.numPages()) {
-        this.setState({currentPage: newPage})
-        this.changePage(this.state.currentPage);
+  nextPageClick = () => {
+    let newStart = this.state.startingIndex + 5;
+    let newEnd = this.state.endingIndex + 5;
+    let button = document.querySelector('.quiz-btn');
+
+      if (newStart < 100) {
+        this.setState( {startingIndex: newStart, endingIndex: newEnd} );
+        this.getQuestions();
+      } else {
+        button.textContent = 'Submit'
       }
-      // else view results
-  };
-
-  changePage = (page) => {
-
-      var questionSection = document.querySelector(".quiz-flex");
-      var page_span = document.getElementById("page");
-
-      if (page < 1) page = 1;
-      if (page > this.numPages()) page = this.numPages();
-
-      questionSection.innerHTML = "";
-
-      for (var i = (page-1) * this.state.recordsPerPage; i < (page * this.state.recordsPerPage) && i < questions.length; i++) {
-        questionSection.innerHTML +=
-          `<div key=${questions[i].id} id=${questions[i].id} className="question-card">
-            <p className="question-header">${questions[i].id}. ${questions[i].question}</p>
-            <div className="question-inputs">
-              <label className="radio">
-              <input type="radio" className="is-hidden" disabled></input>
-              Agree</label>
-
-              <input type="radio" value="1" className={${questions[i].attribute}-${questions[i].category} big} name=${questions[i].id}></input>
-
-              <input type="radio" value="2" className={${questions[i].attribute}-${questions[i].category} medium} name=${questions[i].id}></input>
-
-              <input type="radio" value="3" className={${questions[i].attribute}-${questions[i].category} small} name=${questions[i].id}></input>
-
-              <input type="radio" value="4" className={${questions[i].attribute}-${questions[i].category} medium} name=${questions[i].id}></input>
-
-              <label className="radio">
-              <input type="radio" value="5" className={${questions[i].attribute}-${questions[i].category} big} name=${questions[i].id}></input>
-              Disagree</label>
-
-            </div>
-          </div>`
-      }
-  };
-
-  numPages = () => {
-      return Math.ceil(questions.length / this.state.recordsPerPage);
   };
 
   render() {
@@ -133,45 +120,40 @@ class Quiz extends Component {
             <h1 className="title">Take the quiz!</h1>
           </div>
         </section>
-      <section className="quiz-flex">
-          {/* {
-            questions
-            .map(q =>
-              <div key={q.id} id={q.id} className="question-card">
-                <p className="question-header">{q.id}. {q.question}</p>
-                  <div className="question-inputs">
-                    <label className="radio">
-                    <input type="radio" className="is-hidden" disabled></input>
-                    Agree</label>
+      <section id="quiz-flex">
+      {
+        this.state.questions
+        .map(q =>
+          <div key={q.id} id={q.id} className="question-card">
+            <p className="question-header">{q.id}. {q.question}</p>
+              <div className="question-inputs">
+                <label className="radio">
+                <input type="radio" className="is-hidden" disabled></input>
+                Least like me</label>
 
-                    <input type="radio" value="1" className={`${q.attribute}-${q.category} big`} name={q.id}></input>
+                <input type="radio" value="1" className={`${q.attribute}-${q.category}`} name={q.id}></input>
 
-                    <input type="radio" value="2" className={`${q.attribute}-${q.category} medium`} name={q.id}></input>
+                <input type="radio" value="2" className={`${q.attribute}-${q.category}`} name={q.id}></input>
 
-                    <input type="radio" value="3" className={`${q.attribute}-${q.category} small`} name={q.id}></input>
+                <input type="radio" value="3" className={`${q.attribute}-${q.category}`} name={q.id}></input>
 
-                    <input type="radio" value="4" className={`${q.attribute}-${q.category} medium`} name={q.id}></input>
+                <input type="radio" value="4" className={`${q.attribute}-${q.category}`} name={q.id}></input>
 
-                    <label className="radio">
-                    <input type="radio" value="5" className={`${q.attribute}-${q.category} big`} name={q.id}></input>
-                    Disagree</label>
+                <label className="radio">
+                <input type="radio" value="5" className={`${q.attribute}-${q.category}`} name={q.id}></input>
+                Most like me</label>
 
-                  </div>
               </div>
-              )
-          } */}
+          </div>
+          )
+          }
         </section>
         <div>
         <section className="section quiz-footer">
           <div className="control">
-          <button className="button is-primary is-large" onClick={this.validateQuiz} type="submit">
-          Submit</button>
+          <button className="button is-primary is-large quiz-btn" onClick={this.validateQuiz} type="submit">
+          Next Page</button>
           </div>
-        </section>
-        <section className="section quiz-footer">
-        <nav className="pagination" role="navigation" aria-label="pagination">
-          <a className="pagination-next button is-large" onClick={this.nextPage}>Next page</a>
-        </nav>
         </section>
         </div>
       </div>

@@ -77,7 +77,7 @@ class QuizResults extends React.Component {
                   <footer className="card-footer">
                     <p className="card-footer-item">
                       <span onClick={() => this.props.history.push({
-                        pathname: '/attribute',
+                        pathname: '/attributes',
                         state: { attribute: att } })}>Learn more!
                       </span>
                     </p>

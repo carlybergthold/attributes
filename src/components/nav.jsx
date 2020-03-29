@@ -44,7 +44,10 @@ class TopNav extends Component {
 
             <div className="navbar-start">
                 <span className="navbar-item">
-                <Link to="/attributes">Explore Attributes</Link>
+                <span onClick={() => this.props.history.push({
+                    pathname: '/attributes',
+                    state: { attribute: 'creative' } })}>Explore all Attributes
+                </span>
                 </span>
 
                 <span className="navbar-item">
