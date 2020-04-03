@@ -25,6 +25,10 @@ class QuizResults extends React.Component {
         }
       }
 
+      componentDidMount() {
+        window.scrollTo(0, 0);
+      }
+
       getUserData = () => {
         let ref = fire.database().ref(`/userAttributes/${this.props.user}/scores`);
         ref.on('value', snapshot => {
@@ -58,9 +62,11 @@ class QuizResults extends React.Component {
     return(
         <>
         <div className='page'>
+          <section id="header">
+            <h1 className="title">Here are your results, {this.props.user}!</h1>
+          </section>
         <section className="section">
           <div className="container">
-            <h1 className="title">Here are your results, {this.props.user}!</h1>
             <h2 className="subtitle">Click on any attribute to find out more.</h2>
             <div className="top-3-container">
             {
@@ -76,9 +82,9 @@ class QuizResults extends React.Component {
                   </div>
                   <footer className="card-footer">
                     <p className="card-footer-item">
-                      <span onClick={() => this.props.history.push({
-                        pathname: '/attributes',
-                        state: { attribute: att } })}>Learn more!
+                      <span className="likeLink" onClick={() => this.props.history.push({
+                                                          pathname: '/attributes',
+                                                          state: { attribute: att } })}>Learn more!
                       </span>
                     </p>
                   </footer>

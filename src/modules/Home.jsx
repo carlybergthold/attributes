@@ -3,6 +3,7 @@ import { withRouter, Link } from "react-router-dom"
 import '../styles/home.css'
 import boy from '../images/man.png'
 import attArray from '../data/attributeArray'
+import PersonalityTestList from '../components/personality/personalityTestList'
 
 
 class Home extends React.Component {
@@ -15,6 +16,10 @@ class Home extends React.Component {
         attribute: 'omniscient',
         description: 'omniscient'
     }
+  }
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
   }
 
   randomize = () => {
@@ -52,10 +57,7 @@ class Home extends React.Component {
               </ul>
             </h2>
             <button className="button is-light">
-            <span onClick={() => this.props.history.push({
-              pathname: '/attributes',
-              state: { attribute: 'creative' } })}>Explore all Attributes
-            </span>
+            <Link to="/attributeList">Explore the Attributes</Link>
             </button>
             <section className="atrributeImages">
             </section>
@@ -76,7 +78,10 @@ class Home extends React.Component {
                 <div className="content att-card-desc">
                 {this.state.description}
                 <br></br>
-                  <Link to="/personalityDetail" className="persLink" onClick={this.randomize}>Read More</Link>
+                <span className="randomLink" onClick={() => this.props.history.push({
+                                                      pathname: '/attributes',
+                                                      state: { attribute: this.state.attribute } })}>Read More
+                </span>
                   </div>
               </div>
             </div>
@@ -93,68 +98,11 @@ class Home extends React.Component {
 	      </div> */}
 
         <section className="section homepage-personality">
-          <div className="container">
-            <h1 className="title">You are unique.</h1>
-            <h2 className="subtitle">
-               Personality tests are a helpful way to understand yourself and others better. Browse the personality types below to see how your results reflect God.
-            </h2>
-            <section className="home-personality-container">
-            <div className="card">
-              <div className="card-image">
-                <figure className="image is-4by3">
-                  <img src={boy} alt="Placeholder image" className="personalityIcon"></img>
-                </figure>
-              </div>
-              <div className="card-content">
-                <div className="media">
-                  <div className="media-content">
-                    <p className="title is-4">The Enneagram</p>
-                  </div>
-                </div>
-                <div className="content">
-                This is a short description of this personality type.
-                  <br></br>
-                  <Link to="/enneagram" className="persLink">Read More</Link>                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className="card-image">
-                <figure className="image is-4by3">
-                  <img src={boy} alt="Placeholder image" className="personalityIcon"></img>
-                </figure>
-              </div>
-              <div className="card-content">
-                <div className="media">
-                  <div className="media-content">
-                    <p className="title is-4">Myers Briggs</p>
-                  </div>
-                </div>
-                <div className="content">
-                This is a short description of this personality type.
-                  <br></br>
-                  <Link to="/myersbriggs" className="persLink">Read More</Link>                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className="card-image">
-                <figure className="image is-4by3">
-                  <img src={boy} alt="Placeholder image" className="personalityIcon"></img>
-                </figure>
-              </div>
-              <div className="card-content">
-                <div className="media">
-                  <div className="media-content">
-                    <p className="title is-4">DISC</p>
-                  </div>
-                </div>
-                <div className="content">
-                This is a short description of this personality type.
-                  <br></br>
-                  <Link to="/disc" className="persLink">Read More</Link>                </div>
-              </div>
-            </div>
-            </section>
-          </div>
+        <h1 className="title">You are unique.</h1>
+        <h2 className="subtitle">
+            Personality tests are a helpful way to understand yourself and others better. Browse the personality types below to see how your results reflect God.
+        </h2>
+          <PersonalityTestList />
         </section>
         </body>
     )

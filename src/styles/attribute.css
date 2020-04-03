@@ -1,9 +1,5 @@
-.attributeFlexbox {
-    display: flex;
-}
-
 .attPage {
-    flex: 3.5;
+    display: flex;
     padding: 0 1rem 0 1rem;
     background-color: white;
 }
@@ -11,6 +7,11 @@
 #header {
     font-size: 4rem;
     padding: 0rem 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    background-color: var(--yellow)
 }
 
 #header h1 {
@@ -23,10 +24,22 @@
 
 aside {
     flex: 0.8;
+    position: relative;
 }
 
-.section {
-    padding: 1rem 1.5rem;
+main {
+    flex: 3.5;
+}
+
+.section-header {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin-bottom: 0.5rem;
+}
+
+.definition-header {
+    background-color: var(--green);
 }
 
 .attListItem {
@@ -63,23 +76,19 @@ aside {
     flex-flow: column nowrap;
 }
 
-.att-detail-display {
-    background-color: var(--yellow);
-}
-
 .att-detail-distinctives {
     background-color: white
-}
-
-.att-detail-other {
-    background-color: var(--yellow);
 }
 
 .att-detail-definition-container {
     display: flex;
     display: row nowrap;
-    margin: 2rem;
+    margin-bottom: 2rem;
     border: 1px solid black;
+}
+
+.att-detail-definition-container h2 {
+    color: var(--green);
 }
 
 .att-detail-definition-subtitle {
@@ -96,8 +105,16 @@ aside {
 .att-detail-display-container {
     display: flex;
     display: row nowrap;
-    margin: 2rem;
+    margin-bottom: 2rem;
     border: 1px solid black;
+}
+
+.display-header {
+    background-color: var(--purple);
+}
+
+.att-detail-display-container h2 {
+    color: var(--purple);
 }
 
 .att-detail-display-subtitle {
@@ -114,8 +131,16 @@ aside {
 .att-detail-distinctives-container {
     display: flex;
     display: row nowrap;
-    margin: 2rem;
+    margin-bottom: 2rem;
     border: 1px solid black;
+}
+
+.distinctives-header {
+    background-color: var(--teal);
+}
+
+.att-detail-distinctives-container h2 {
+    color: var(--teal);
 }
 
 .att-detail-distinctives-subtitle {
@@ -132,8 +157,16 @@ aside {
 .att-detail-other-container {
     display: flex;
     display: row nowrap;
-    margin: 2rem;
+    margin-bottom: 2rem;
     border: 1px solid black;
+}
+
+.other-header {
+    background-color: var(--pink);
+}
+
+.att-detail-other-container h2 {
+    color: var(--pink);
 }
 
 .att-detail-other-subtitle {
@@ -145,4 +178,20 @@ aside {
 .att-detail-other-p {
     padding: 1rem;
     flex: 0.5;
+}
+
+/* SIDEBAR */
+
+.sidebar2 {
+    position: absolute;
+    top: 3rem;
+    left: 1.5rem;
+}
+
+.sidebar-li {
+    margin: 0.5rem;
+}
+
+.sidebar-li:hover {
+    cursor: pointer;
 }

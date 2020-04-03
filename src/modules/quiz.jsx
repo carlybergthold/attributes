@@ -20,6 +20,7 @@ class Quiz extends Component {
 
   componentDidMount() {
     this.getQuestions();
+    window.scrollTo(0, 0);
   }
 
   validateQuiz = () => {
@@ -114,12 +115,10 @@ class Quiz extends Component {
   render() {
     return(
       <div className='page'>
-      <div className="quizPage container">
-        <section className="section">
-          <div className="container quiz-header">
+        <section id="header">
             <h1 className="title">Take the quiz!</h1>
-          </div>
         </section>
+      <div className="quizPage container">
       <section id="quiz-flex">
       {
         this.state.questions

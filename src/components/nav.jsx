@@ -11,7 +11,7 @@ class TopNav extends Component {
         super(props);
 
         this.state = {
-            loggedIn: true,
+            loggedIn: true
         }
       }
 
@@ -44,10 +44,7 @@ class TopNav extends Component {
 
             <div className="navbar-start">
                 <span className="navbar-item">
-                <span onClick={() => this.props.history.push({
-                    pathname: '/attributes',
-                    state: { attribute: 'creative' } })}>Explore all Attributes
-                </span>
+                <Link to="/attributeList">Explore the Attributes</Link>
                 </span>
 
                 <span className="navbar-item">

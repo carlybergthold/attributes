@@ -16,9 +16,11 @@ class MyersBriggs extends Component {
         return(
             <>
             <div className="page">
+            <section id="header">
+                <h1 className="title">Myers Briggs</h1>
+            </section>
                 <div className="section">
                     <div className="container">
-                        <h1 className="title">Myers Briggs</h1>
                     </div>
                 </div>
             </div>

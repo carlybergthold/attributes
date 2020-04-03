@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom"
 import '../styles/attribute.css'
-import Sidebar from '../components/sidebar'
+import Sidebar2 from '../components/sidebar copy'
 import attArray from '../data/attributeArray'
 import AttributeDetail from '../modules/attributeDetail'
 import girl from '../images/girl.png'
@@ -15,6 +15,10 @@ class Attribute extends Component {
             attribute: this.props.location.state.attribute,
             attributeInfo: {}
         }
+    }
+
+    componentDidMount() {
+      window.scrollTo(0, 0);
     }
 
     setAttribute = (e) => {
@@ -32,14 +36,20 @@ class Attribute extends Component {
 
     render() {
         return(
-            <div className='page attributeFlexbox'>
-            <Sidebar setAttribute={this.setAttribute} />
-            <body className="attPage">
+            <div className='page'>
             <section className="section att-detail-header" id="header">
-              <section><h1 className="title attHeader">{this.state.attribute}</h1></section>
+              <section>
+                <h1 className="title attHeader">{this.state.attribute}</h1>
+              </section>
               <img src={girl} className="att-image"></img>
             </section>
-            <AttributeDetail attribute={this.state.attribute} attributeInfo={this.state.attributeInfo} />
+            <body className="attPage">
+            <aside className="sidebar-aside">
+              <Sidebar2 />
+            </aside>
+            <main>
+              <AttributeDetail attribute={this.state.attribute} attributeInfo={this.state.attributeInfo} />
+            </main>
           </body>
           </div>
         )
