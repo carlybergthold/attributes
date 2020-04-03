@@ -108,6 +108,15 @@
     text-align: center;
 }
 
-/* .card-attribute {
-    transform: scale(1.01);
-} */
+.media-content {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-transform: capitalize;
+}
+
+.randomLink:hover {
+    cursor: pointer;
+}

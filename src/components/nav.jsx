@@ -11,7 +11,7 @@ class TopNav extends Component {
         super(props);
 
         this.state = {
-            loggedIn: true,
+            loggedIn: true
         }
       }
 
@@ -44,7 +44,7 @@ class TopNav extends Component {
 
             <div className="navbar-start">
                 <span className="navbar-item">
-                <Link to="/attribute">Explore Attributes</Link>
+                <Link to="/attributeList">Explore the Attributes</Link>
                 </span>
 
                 <span className="navbar-item">

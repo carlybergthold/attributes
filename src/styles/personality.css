@@ -3,6 +3,16 @@
     padding: 1rem;
 }
 
+#header {
+    font-size: 4rem;
+    padding: 0rem 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    background-color: var(--yellow)
+}
+
 .enneagramContainer {
     display: flex;
     flex-flow: row wrap;

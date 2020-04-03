@@ -3,15 +3,65 @@
     padding: 1rem;
 }
 
+#header {
+    font-size: 4rem;
+    padding: 0rem 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    background-color: var(--yellow)
+}
+
+.quiz-footer {
+    display: flex;
+    justify-content: center;
+}
+
+#quiz-flex {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.question-inputs {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+}
+
 input {
-    margin-right: 0.5rem;
+    margin: 1.2rem;
+}
+
+input[value='1'] {
+    transform: scale(1.8);
+}
+
+input[value='2'] {
+    transform: scale(1.4);
+}
+
+input[value='4'] {
+    transform: scale(1.4);
+}
+
+input[value='5'] {
+    transform: scale(1.8);
 }
 
 label {
-    font-size: 0.7rem;
+    font-size: 1.1rem;
     margin-right: 0.5rem;
 }
 
 .question-card {
-    margin: 1rem 1rem 1rem 0;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.question-header {
+    font-size: 1.4rem;
 }

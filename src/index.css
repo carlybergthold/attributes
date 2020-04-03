@@ -12,9 +12,9 @@ code {
     monospace;
 }
 
-/* .page {
-  padding: 2rem;
-} */
+.likeLink:hover {
+  cursor: pointer;
+}
 
 :root {
   --purple: #540D6E;
