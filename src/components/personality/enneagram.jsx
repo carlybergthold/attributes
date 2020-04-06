@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import enneagramArray from '../data/enneagramArray'
-import { withRouter, Link } from "react-router-dom"
-import girl from '../images/girl.png'
+import enneagramArray from '../../data/enneagramArray'
+import girl from '../../images/girl.png'
 
 class Enneagram extends Component {
 
@@ -42,7 +41,10 @@ class Enneagram extends Component {
                                 <div className="content">
                                 {e.description}
                                 <br></br>
-                                <Link to="/personalityDetail" className="persLink">Read More</Link>
+                                <span className="likeLink" onClick={() => this.props.history.push({
+                                                                    pathname: '/personalityDetail',
+                                                                    state: { test: 'enneagram', personality: e.type } })}>Read More
+                                </span>
                                 </div>
                             </div>
                             </div>

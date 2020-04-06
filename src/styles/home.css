@@ -4,7 +4,8 @@
 
 .homepage-welcome {
     height: 100vh;
-    background: url(../images/womanByOcean.jpg) no-repeat center center fixed;
+    /* background: url(../images/womanByOcean.jpg) no-repeat center center fixed; */
+    background-color: var(--teal);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -29,7 +30,8 @@
 .welcome-subtitle {
     font-size: 1.5rem;
     font-family: 'Lato', sans-serif;
-    padding: 3rem 0 1.5rem 0;
+    padding: 3rem 1rem 1.5rem 1rem;
+    margin: 0 2rem 0 2rem;
 }
 
 .homepage-personality {
@@ -119,4 +121,9 @@
 
 .randomLink:hover {
     cursor: pointer;
+}
+
+.splash-btn {
+    border: none;
+    background-color: white;
 }

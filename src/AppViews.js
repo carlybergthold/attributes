@@ -4,14 +4,15 @@ import Attribute from './modules/attribute'
 import AttributeDetail from './modules/attributeDetail'
 import Quiz from './modules/quiz'
 import QuizResults from './modules/quizResults'
-import Register from './components/register'
-import Login from './components/login.jsx'
+import Register from './components/users/register'
+import Login from './components/users/login.jsx'
 import TopNav from './components/nav.jsx'
 import Home from './modules/Home'
 import Personality from './modules/personality'
-import Enneagram from './components/enneagram'
-import MyersBriggs from './components/myersBriggs'
-import DISC from './components/DISC'
+import PersonalityDetail from './components/personality/personalityDetail'
+import Enneagram from './components/personality/enneagram'
+import MyersBriggs from './components/personality/myersBriggs'
+import DISC from './components/personality/DISC'
 import attArray from './data/attributeArray'
 import AttributeList from './modules/attributeList'
 
@@ -25,7 +26,7 @@ class AppViews extends Component {
   render() {
     return(
       <>
-      <TopNav user={this.props.user} signIn={this.props.signIn} signOut={this.props.signOut} />
+      <TopNav user={this.props.user} signOut={this.props.signOut} button={this.props.button} />
       <Route exact path="/home" component={Home}  user={this.props.user} />
       <Route exact path="/attributes" component={Attribute} user={this.props.user} />
       <Route exact path="/attributeList" component={AttributeList} user={this.props.user} />
@@ -33,6 +34,7 @@ class AppViews extends Component {
       <Route exact path="/quiz" render={(props) => (<Quiz {...props} user={this.props.user} /> )} />
       <Route exact path="/results" render={(props) => (<QuizResults {...props} user={this.props.user} /> )} />
       <Route exact path="/personality" component={Personality} user={this.props.user} />
+      <Route exact path="/personalityDetail" component={PersonalityDetail} user={this.props.user} />
       <Route exact path="/register" render={(props) => (<Register {...props} addUser={this.props.addUser} user={this.props.user} /> )} />
       <Route exact path="/login" render={(props) => (<Login {...props}  user={this.props.user} signIn={this.props.signIn} /> )} />
       <Route exact path="/enneagram" render={(props) => (<Enneagram {...props}  user={this.props.user} /> )} />

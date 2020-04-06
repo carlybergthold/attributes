@@ -1,29 +1,9 @@
 import React, { Component } from "react"
 import { withRouter, Link } from "react-router-dom"
 import '../styles/nav.css'
-import userMethods from '../methods/userMethods'
-import fire from "../config/fire"
 import girl from '../images/girl.png'
 
 class TopNav extends Component {
-
-    constructor(props){
-        super(props);
-
-        this.state = {
-            loggedIn: true
-        }
-      }
-
-      componentDidMount() {
-        fire.auth().onAuthStateChanged(user => {
-          if (user) {
-            this.setState({ loggedIn: true });
-          } else {
-            this.setState({ loggedIn: false });
-           }
-        });
-      }
 
     render() {
         return (
@@ -79,8 +59,8 @@ class TopNav extends Component {
             <div className="navbar-item">
             <div className="buttons">
                 {
-                    this.state.loggedIn ?
-                    <span className="button is-primary" onClick={userMethods.signOut}>
+                    this.props.button == 'log in' ?
+                    <span className="button is-primary" onClick={this.props.signOut}>
                     Log Out
                     </span> :
                     <span className="button is-primary">

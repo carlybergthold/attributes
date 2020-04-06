@@ -31,7 +31,8 @@ class Home extends React.Component {
 
   render() {
     return(
-       <body className="homepage">
+      <>
+       <div className="homepage">
         <section className="section homepage-welcome">
           <div className="container welcome-container">
             <h1 className="title welcome-title">Who is God?</h1>
@@ -79,8 +80,8 @@ class Home extends React.Component {
                 {this.state.description}
                 <br></br>
                 <span className="randomLink" onClick={() => this.props.history.push({
-                                                      pathname: '/attributes',
-                                                      state: { attribute: this.state.attribute } })}>Read More
+                                                            pathname: '/attributes',
+                                                            state: { attribute: this.state.attribute } })}>Read More
                 </span>
                   </div>
               </div>
@@ -104,7 +105,8 @@ class Home extends React.Component {
         </h2>
           <PersonalityTestList />
         </section>
-        </body>
+        </div>
+        </>
     )
   }
 }

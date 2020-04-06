@@ -2,27 +2,23 @@ import React, { Component } from "react";
 import questions from './data/testArray'
 import fire from "./config/fire"
 import AppViews from './AppViews'
+import { withRouter } from "react-router-dom"
 
 class AttributeApp extends Component {
 
     state = {
-        user: localStorage.getItem('user')
-              ? localStorage.getItem('user')
-              : 'anon'
+        user: 'anon',
+        button: 'log in'
     }
 
 
   addUser = (email, password, username) => {
     fire.auth().createUserWithEmailAndPassword(email, password)
-    .then((userCredentials)=>{
-        if(userCredentials.user) {
-            userCredentials.user.updateProfile({
-                displayName: username
-            })
-        }
-    }).catch(function(error) {alert(error.message)});
+    .then(user => {if(user.user) user.user.updateProfile({displayName: username})})
+    .catch(error => alert(error.message));
 
-    questions.forEach(q => {
+    if (username != 'undefined'  && username != 'anon') {
+      questions.forEach(q => {
         fire.database().ref(`/userAttributes/${username}/scores`).set({
           acceptScore: 0,
           rejectScore: 0,
@@ -35,31 +31,38 @@ class AttributeApp extends Component {
         reject: 0,
         reflect: 0
       })
-    })
+      })
+    }
+    this.handleUserChange();
+  }
 
-    localStorage.setItem('user', username);
+  handleUserChange = () => {
+    fire.auth().onAuthStateChanged(user =>
+      user ? localStorage.setItem('user', user.displayName) : localStorage.removeItem('user')
+    );
+
+    this.setState({ user: localStorage.getItem('user') ? localStorage.getItem('user') : 'anon'});
+    this.state.user != 'anon' ? this.setState({ button: 'log out'}) : this.setState({ button: 'log in'});
+    this.props.history.push("/home");
   }
 
   signIn = (email, password) => {
-    fire.auth().signInWithEmailAndPassword(email, password)
-    .then((userCredentials)=>{
-      if(userCredentials.user) {
-        localStorage.setItem('user', userCredentials.displayName)
-      }
-    }).catch(error => {console.log(error.message);});
+    fire.auth().signInWithEmailAndPassword(email, password).catch(error => alert(error.message));
+    this.handleUserChange();
   }
 
   signOut = () => {
-    fire.auth().signOut().then(() => {localStorage.removeItem('user')}).catch(error => console.log(error));
+    fire.auth().signOut().catch(error => alert(error));
+    this.handleUserChange();
   }
 
   render() {
     return(
       <>
-      <AppViews addUser={this.addUser} signIn={this.signIn} signOut={this.signOut} user={this.state.user} />
+      <AppViews addUser={this.addUser} signIn={this.signIn} signOut={this.signOut} user={this.state.user} button={this.state.button} />
       </>
     )
   }
 }
 
-export default AttributeApp;
+export default withRouter(AttributeApp);

@@ -16,6 +16,19 @@
 .enneagramContainer {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+}
+
+.myersBriggsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.discContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .card-image {
