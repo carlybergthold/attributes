@@ -59,7 +59,7 @@ class TopNav extends Component {
             <div className="navbar-item">
             <div className="buttons">
                 {
-                    this.props.button == 'log in' ?
+                    this.props.user != 'anon' ?
                     <span className="button is-primary" onClick={this.props.signOut}>
                     Log Out
                     </span> :

@@ -7,8 +7,7 @@ import { withRouter } from "react-router-dom"
 class AttributeApp extends Component {
 
     state = {
-        user: 'anon',
-        button: 'log in'
+        user: 'foo'
     }
 
 
@@ -37,13 +36,18 @@ class AttributeApp extends Component {
   }
 
   handleUserChange = () => {
-    fire.auth().onAuthStateChanged(user =>
-      user ? localStorage.setItem('user', user.displayName) : localStorage.removeItem('user')
-    );
-
-    this.setState({ user: localStorage.getItem('user') ? localStorage.getItem('user') : 'anon'});
-    this.state.user != 'anon' ? this.setState({ button: 'log out'}) : this.setState({ button: 'log in'});
-    this.props.history.push("/home");
+    fire.auth().onAuthStateChanged(user => {
+      if (user) {
+        localStorage.setItem('user', user.displayName);
+        this.setState({ user: localStorage.getItem('user') },
+        () =>
+          this.props.history.push("/home")
+        );
+      } else {
+        localStorage.removeItem('user');
+        this.setState({ user: 'anon' });
+      }
+    });
   }
 
   signIn = (email, password) => {
@@ -59,7 +63,7 @@ class AttributeApp extends Component {
   render() {
     return(
       <>
-      <AppViews addUser={this.addUser} signIn={this.signIn} signOut={this.signOut} user={this.state.user} button={this.state.button} />
+      <AppViews addUser={this.addUser} signIn={this.signIn} signOut={this.signOut} user={this.state.user} />
       </>
     )
   }

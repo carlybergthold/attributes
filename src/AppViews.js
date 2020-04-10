@@ -26,7 +26,7 @@ class AppViews extends Component {
   render() {
     return(
       <>
-      <TopNav user={this.props.user} signOut={this.props.signOut} button={this.props.button} />
+      <TopNav user={this.props.user} signOut={this.props.signOut} />
       <Route exact path="/home" component={Home}  user={this.props.user} />
       <Route exact path="/attributes" component={Attribute} user={this.props.user} />
       <Route exact path="/attributeList" component={AttributeList} user={this.props.user} />
