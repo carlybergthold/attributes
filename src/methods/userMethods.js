@@ -1,7 +1,6 @@
 import fire from '../config/fire'
 import questions from '../data/testArray'
 import atts from '../data/attributeArray'
-import { withRouter } from "react-router-dom"
 
 const userMethods = {
 
@@ -44,35 +43,7 @@ const userMethods = {
             reflect: 0
           })
         })
-    },
-
-    signIn: (email, password) => {
-        fire.auth().signInWithEmailAndPassword(email, password).catch(error => {
-        console.log(error.message);
-      });
-      console.log('user signed in');
-    },
-
-    signOut: () => {
-        fire.auth().signOut().then(function() {
-        console.log('user signed out')
-      }).catch(function(error) {
-        console.log(error)
-      });
-    },
-
-        //   getAttData = (attribute) => {
-    //     let ref = fire.database().ref(`/attributeList/${attribute}`);
-    //     ref.on('value', snapshot => {
-    //       const state = snapshot.val();
-    //       this.setState({attribute: attribute,
-    //                      description: state.attDescription,
-    //                      seenInJesus: state.seenInJesus,
-    //                      symbol: state.symbol,
-    //                      whoSaintsAre: state.whoSaintsAre,
-    //                      whoUnsavedAre: state.whoUnsavedAre});
-    //     });
-    // }
+    }
 }
 
-export default withRouter(userMethods);
+export default userMethods;

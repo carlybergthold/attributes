@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom"
-import '../styles/register.css'
-import fire from "../config/fire"
+import '../../styles/register.css'
+import fire from "../../config/fire"
 
 class Register extends Component {
 
@@ -11,7 +11,10 @@ class Register extends Component {
         this.state = {
             username: '',
             email: '',
-            password: ''
+            password: '',
+            usernameInput: 'is-danger',
+            emailInput: 'is-danger',
+            passwordInput: 'is-danger'
         }
     }
 
@@ -19,13 +22,9 @@ class Register extends Component {
         this.setState({[e.target.id]: e.target.value})
     }
 
-    goHome = () => {
-        fire.auth().onAuthStateChanged(user => {
-            if (user) {
-                this.props.history.push("/home");
-            }
-        })
-    }
+    // handleLength = (input) => {
+    //     //when input is correct length or field, make green
+    // }
 
     render() {
         return(
@@ -34,7 +33,7 @@ class Register extends Component {
                 <div className="field">
                 <label className="label">Username</label>
                     <div className="control has-icons-left has-icons-right">
-                        <input className="input is-success" type="text" placeholder="Username" id="username" onChange={this.handleChange.bind(this)}></input>
+                        <input className={`input ${this.state.usernameInput}`} type="text" placeholder="Username" id="username" onChange={this.handleChange.bind(this)}></input>
                         <span className="icon is-small is-left">
                         <i className="fas fa-user"></i>
                         </span>
@@ -42,13 +41,13 @@ class Register extends Component {
                         <i className="fas fa-check"></i>
                         </span>
                     </div>
-                <p className="help is-success">This username is available</p>
+                {/* <p className="help is-success">This username is available</p> */}
                 </div>
 
                 <div className="field">
                 <label className="label">Email</label>
                     <div className="control has-icons-left has-icons-right">
-                        <input className="input is-danger" type="email" placeholder="Email" id="email" onChange={this.handleChange.bind(this)}></input>
+                        <input className={`input ${this.state.emailInput}`} type="email" placeholder="Email" id="email" onChange={this.handleChange.bind(this)}></input>
                         <span className="icon is-small is-left">
                         <i className="fas fa-envelope"></i>
                         </span>
@@ -56,13 +55,13 @@ class Register extends Component {
                         <i className="fas fa-exclamation-triangle"></i>
                         </span>
                     </div>
-                <p className="help is-danger">This email is invalid</p>
+                {/* <p className="help is-danger">This email is invalid</p> */}
                 </div>
 
                 <div className="field">
                 <label className="label">Password</label>
                     <div className="control has-icons-left has-icons-right">
-                        <input className="input is-success" type="text" placeholder="Password" id="password" onChange={this.handleChange.bind(this)}></input>
+                        <input className={`input ${this.state.passwordInput}`} type="text" placeholder="Password" id="password" onChange={this.handleChange.bind(this)}></input>
                         <span className="icon is-small is-left">
                         <i className="fas fa-user"></i>
                         </span>
@@ -70,15 +69,15 @@ class Register extends Component {
                         <i className="fas fa-check"></i>
                         </span>
                     </div>
-                <p className="help is-success">This password works</p>
+                {/* <p className="help is-success">This password works</p> */}
                 </div>
 
                 <div className="field is-grouped">
                     <div className="control">
                         <button className="button is-link"
                                             onClick={(e) => {
+                                            e.preventDefault();
                                             this.props.addUser(this.state.email, this.state.password, this.state.username);
-                                            this.goHome();
                                             }
                                         }
                                         >Register</button>

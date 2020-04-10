@@ -23,3 +23,11 @@ code {
   --teal: #00d1b2;
   --green: #0EAD69
 }
+
+.button {
+  background-color: var(--teal);
+}
+
+Link {
+  background-color: var(--teal);
+}
