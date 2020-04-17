@@ -12,8 +12,8 @@ class Quiz extends Component {
     super(props);
 
     this.state = {
-      startingIndex: 1,
-      endingIndex: 5,
+      startingIndex: 81,
+      endingIndex: 86,
       questions: []
     }
   }
@@ -30,8 +30,10 @@ class Quiz extends Component {
 
     radios.forEach(radio => {if (radio.checked) checkedRadios.push(radio.key)});
 
-    if (checkedRadios.length < 5) {
+    console.log(checkedRadios.length, radios.length)
+    if (checkedRadios.length < this.state.questions.count) {
       alert('Please select one option in each question.');
+      return;
     } else {
       this.updateUserAttributes();
     }
@@ -84,7 +86,7 @@ class Quiz extends Component {
       }
     })
 
-    fire.database().ref(`/userAttributes/${this.props.user}/scores`).update({
+    fire.database().ref(`/userAttributes/scores/${this.props.user}`).update({
       acceptScore: totalAcceptanceScore,
       rejectScore: totalRejectionScore,
       reflectScore: totalReflectionScore,
@@ -96,20 +98,17 @@ class Quiz extends Component {
     let questionsSection = questions.filter(q => q.id >= this.state.startingIndex &&
                                                  q.id <= this.state.endingIndex);
     this.setState( {questions: questionsSection} );
-    console.log(this.state.startingIndex, this.state.endingIndex)
+    window.scrollTo(0, 0);
   }
 
   nextPageClick = () => {
-    let newStart = this.state.startingIndex + 5;
-    let newEnd = this.state.endingIndex + 5;
+    let newStart = this.state.startingIndex + 6;
+    let newEnd = this.state.endingIndex + 6;
     let button = document.querySelector('.quiz-btn');
 
-      if (newStart < 100) {
-        this.setState( {startingIndex: newStart, endingIndex: newEnd} );
-        this.getQuestions();
-      } else {
-        button.textContent = 'Submit'
-      }
+    this.setState( {startingIndex: newStart, endingIndex: newEnd}, () => this.getQuestions());
+
+    if (newEnd > questions.length) button.textContent = 'Submit';
   };
 
   render() {

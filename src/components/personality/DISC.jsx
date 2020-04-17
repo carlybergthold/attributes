@@ -14,6 +14,10 @@ class DISC extends Component {
         }
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return(
             <>
@@ -34,10 +38,10 @@ class DISC extends Component {
                     <div className="card-content">
                         <div className="media">
                         <div className="media-content">
-                            <p className="title is-4">{d.type}</p>
+                            <p className="title is-4 card-title">{d.type}</p>
                         </div>
                         </div>
-                        <div className="content">
+                        <div className="content card-desc">
                         {d.description}
                         <br></br>
                         <span className="likeLink" onClick={() => this.props.history.push({

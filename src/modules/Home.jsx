@@ -72,14 +72,14 @@ class Home extends React.Component {
               </div>
               <div className="card-content">
                 <div className="media">
-                  <div className="media-content att-card-title">
+                  <div className="media-content card-title">
                     <p className="title is-4">{this.state.attribute}</p>
                   </div>
                 </div>
-                <div className="content att-card-desc">
+                <div className="content card-desc">
                 {this.state.description}
                 <br></br>
-                <span className="randomLink" onClick={() => this.props.history.push({
+                <span className="randomLink likeLink" onClick={() => this.props.history.push({
                                                             pathname: '/attributes',
                                                             state: { attribute: this.state.attribute } })}>Read More
                 </span>

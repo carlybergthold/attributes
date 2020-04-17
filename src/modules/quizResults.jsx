@@ -18,10 +18,7 @@ class QuizResults extends React.Component {
             reflectScore: 0,
             salvationScore: 0,
             topReflections: [],
-            topObjects: [],
-            one: {},
-            two: {},
-            three: {}
+            bottomReflections: []
         }
       }
 
@@ -30,7 +27,7 @@ class QuizResults extends React.Component {
       }
 
       getUserData = () => {
-        let ref = fire.database().ref(`/userAttributes/${this.props.user}/scores`);
+        let ref = fire.database().ref(`/userAttributes/scores/${this.props.user}`);
         ref.on('value', snapshot => {
           const state = snapshot.val();
           this.setState({acceptScore: this.state.acceptScore,
@@ -42,14 +39,24 @@ class QuizResults extends React.Component {
         let top3 = fire.database().ref(`/userAttributes/${this.props.user}`)
                                   .orderByChild('reflect').limitToLast(3);
 
+        let bottom3 = fire.database().ref(`/userAttributes/${this.props.user}`)
+                                     .orderByChild('reflect').limitToFirst(3);
+
         top3.on('value', snap => {
           let foo = []
           snap.forEach(att => {
-//if not RESULTS.....
               foo.push(att.key)
           });
           this.setState({ topReflections: foo})
-      });
+        });
+
+        bottom3.on('value', snap => {
+          let foo = []
+          snap.forEach(att => {
+              foo.push(att.key)
+          });
+          this.setState({ bottomReflections: foo})
+        });
     }
 
     componentDidMount() {
@@ -67,10 +74,35 @@ class QuizResults extends React.Component {
           </section>
         <section className="section">
           <div className="container">
-            <h2 className="subtitle">Click on any attribute to find out more.</h2>
+            <h2 className="subtitle">These are your top three attributes.</h2>
             <div className="top-3-container">
             {
                 this.state.topReflections.map(att =>
+                <div key={att} className="card">
+                  <div className="card-image">
+                    <figure className="image is-4by3">
+                      <img src={girl} alt="Placeholder image" className="personalityIcon"></img>
+                    </figure>
+                  </div>
+                  <div className="card-content">
+                    <p className="title">{att}</p>
+                  </div>
+                  <footer className="card-footer">
+                    <p className="card-footer-item">
+                      <span className="likeLink" onClick={() => this.props.history.push({
+                                                          pathname: '/attributes',
+                                                          state: { attribute: att } })}>Learn more!
+                      </span>
+                    </p>
+                  </footer>
+                </div>
+              )
+            }
+            </div>
+            <h2 className="subtitle bottom3subtitle">These are your bottom three attributes.</h2>
+            <div className="bottom-3-container">
+            {
+                this.state.bottomReflections.map(att =>
                 <div key={att} className="card">
                   <div className="card-image">
                     <figure className="image is-4by3">

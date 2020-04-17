@@ -7,7 +7,7 @@ import { withRouter } from "react-router-dom"
 class AttributeApp extends Component {
 
     state = {
-        user: 'foo'
+        user: 'anon'
     }
 
 
@@ -18,7 +18,7 @@ class AttributeApp extends Component {
 
     if (username != 'undefined'  && username != 'anon') {
       questions.forEach(q => {
-        fire.database().ref(`/userAttributes/${username}/scores`).set({
+        fire.database().ref(`/userAttributes/scores/${username}`).set({
           acceptScore: 0,
           rejectScore: 0,
           reflectScore: 0,
