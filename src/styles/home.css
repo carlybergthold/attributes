@@ -100,16 +100,6 @@
     text-align: center;
 }
 
-.att-card-desc {
-    display: flex;
-    justify-content: center;
-    flex-flow: column nowrap;
-}
-
-.att-card-title {
-    text-align: center;
-}
-
 .media-content {
     display: flex;
     justify-content: center;

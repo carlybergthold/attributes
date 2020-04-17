@@ -12,10 +12,6 @@ code {
     monospace;
 }
 
-.likeLink:hover {
-  cursor: pointer;
-}
-
 :root {
   --purple: #540D6E;
   --pink: #EE4266;
@@ -24,10 +20,41 @@ code {
   --green: #0EAD69
 }
 
+.likeLink:hover {
+  cursor: pointer;
+}
+
+.likeLink {
+  color: var(--teal);
+}
+
 .button {
   background-color: var(--teal);
 }
 
 Link {
   background-color: var(--teal);
+}
+
+/* CARDS */
+.card-content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  text-align: center;
+}
+
+.card {
+  width: 15rem;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+}
+
+.card {
+  margin: 1.5rem;
+  width: 14rem;
 }

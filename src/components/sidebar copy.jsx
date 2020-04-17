@@ -14,6 +14,7 @@ class Sidebar2 extends Component {
       return(
       <aside className="sidebar2">
         <h2>Explore This Attribute</h2>
+        <div className="sticky">
         <ul className="sidebar-ul">
           <li className="sidebar-li">
             <a href="#definition">Definition</a>
@@ -43,6 +44,7 @@ class Sidebar2 extends Component {
             <a href="#reflections">Reflections in the World</a>
           </li>
         </ul>
+        </div>
       </aside>
       )
     }

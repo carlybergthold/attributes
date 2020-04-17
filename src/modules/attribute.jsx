@@ -44,7 +44,7 @@ class Attribute extends Component {
               <img src={girl} className="att-image"></img>
             </section>
             <body className="attPage">
-            <aside className="sidebar-aside">
+            <aside className="sidebar-aside sticky">
               <Sidebar2 />
             </aside>
             <main>

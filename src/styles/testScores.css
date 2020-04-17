@@ -4,10 +4,16 @@
     justify-content: space-evenly;
 }
 
-.card {
-    width: 15rem;
+.bottom-3-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
 .container {
     text-align: center;
+}
+
+.bottom3subtitle {
+    margin-top: 2rem;
 }

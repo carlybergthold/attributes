@@ -9,7 +9,6 @@ import Login from './components/users/login.jsx'
 import TopNav from './components/nav.jsx'
 import Home from './modules/Home'
 import Personality from './modules/personality'
-import PersonalityDetail from './components/personality/personalityDetail'
 import Enneagram from './components/personality/enneagram'
 import MyersBriggs from './components/personality/myersBriggs'
 import DISC from './components/personality/DISC'
@@ -34,7 +33,6 @@ class AppViews extends Component {
       <Route exact path="/quiz" render={(props) => (<Quiz {...props} user={this.props.user} /> )} />
       <Route exact path="/results" render={(props) => (<QuizResults {...props} user={this.props.user} /> )} />
       <Route exact path="/personality" component={Personality} user={this.props.user} />
-      <Route exact path="/personalityDetail" component={PersonalityDetail} user={this.props.user} />
       <Route exact path="/register" render={(props) => (<Register {...props} addUser={this.props.addUser} user={this.props.user} /> )} />
       <Route exact path="/login" render={(props) => (<Login {...props}  user={this.props.user} signIn={this.props.signIn} /> )} />
       <Route exact path="/enneagram" render={(props) => (<Enneagram {...props}  user={this.props.user} /> )} />

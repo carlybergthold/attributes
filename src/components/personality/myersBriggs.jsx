@@ -14,6 +14,10 @@ class MyersBriggs extends Component {
         }
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return(
             <>
@@ -26,7 +30,7 @@ class MyersBriggs extends Component {
                     {
                     myersBriggsArray.map(m =>
                     <div className="card">
-                    <div className="card-image ennea-Img">
+                    <div className="card-image">
                         <figure className="image is-4by3">
                         <img src={girl} alt="Placeholder image" className="personalityIcon"></img>
                         </figure>

@@ -37,7 +37,7 @@ class AttributeList extends Component {
                         <div className="content">
                           {a.description}
                           <br></br>
-                          <span onClick={() => this.props.history.push({
+                          <span className="likeLink" onClick={() => this.props.history.push({
                             pathname: '/attributes',
                             state: { attribute: a.attributeName } })}>Explore
                           </span>
