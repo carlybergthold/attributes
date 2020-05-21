@@ -1,23 +1,27 @@
 const discArray = [
     {
     number: 1,
-    type: 'dominant',
-    description: 'dominant'
+    type: 'dominance',
+    description: 'direct, strong-willed and forceful',
+    attribute: 'Omnipotent'
     },
     {
     number: 2,
-    type: 'inspiring',
-    description: 'inspiring'
+    type: 'influence',
+    description: 'sociable, talkative and lively',
+    attribute: 'Relational'
     },
     {
     number: 3,
-    type: 'supportive',
-    description: 'supportive'
+    type: 'steadiness',
+    description: 'gentle, accommodating and soft-hearted',
+    attribute: 'Peaceful'
     },
     {
     number: 4,
-    type: 'cautious',
-    description: 'cautious'
+    type: 'Conscientiousness',
+    description: 'private, analytical and logical',
+    attribute: 'Wise'
     }
 ]
 

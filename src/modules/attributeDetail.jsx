@@ -51,7 +51,7 @@ class AttributeDetail extends Component {
             </div>
             <div className="container att-detail-display-container">
             <section className="att-detail-display-subtitle"><h2 className="subtitle">in what we fear</h2></section>
-            <p className="att-detail-display-p">Blessed is the man who doesn't walk in the counsel of the wicked, nor stand in the way of sinners, nor sit in the seat of scoffers; but his delight is in Yahweh's law.</p>    
+            <p className="att-detail-display-p">Blessed is the man who doesn't walk in the counsel of the wicked, nor stand in the way of sinners, nor sit in the seat of scoffers; but his delight is in Yahweh's law.</p>
             </div>
             <div className="container att-detail-display-container">
             <p className="att-detail-display-p">Blessed is the man who doesn't walk in the counsel of the wicked, nor stand in the way of sinners, nor sit in the seat of scoffers; but his delight is in Yahweh's law.</p>                      <section className="att-detail-display-subtitle"><h2 className="subtitle">in our struggles</h2></section>

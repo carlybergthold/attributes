@@ -17,3 +17,22 @@
 .bottom3subtitle {
     margin-top: 2rem;
 }
+
+.is-child {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.tile-head {
+    flex: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-desc {
+    flex: 2.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

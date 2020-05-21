@@ -1,38 +1,8 @@
-#quickviewBtn {
-    position: fixed;
-    top: 5rem;
-    left: 0.2rem;
-    width: 4rem;
+.sidebarVisible {
+    background-color: var(--yellow);
 }
 
-#quickviewDefault {
-    position: fixed;
-    top: 0rem;
-    bottom: 0rem;
-    width: 10rem;
-    transition: all 0.3s;
-    background-color: blue;
-}
-
-.quickview-body {
-    position: absolute;
-    top: 10rem;
-}
-
-.delete {
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-}
-
-.quickview-block1 {
-    background-color: orange;
-}
-
-.quickview-block2 {
-    background-color: teal;
-}
-
-.quickview-block3 {
-    background-color: purple;
+.sidebar-ul {
+    text-transform: uppercase;
+    font-weight: 300;
 }

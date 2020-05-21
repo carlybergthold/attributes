@@ -1,14 +1,30 @@
 import React, { Component } from "react"
 import { withRouter, Link } from "react-router-dom"
 import '../styles/nav.css'
-import girl from '../images/girl.png'
+import girl from '../images/attributeIcons/creative.png'
 
 class TopNav extends Component {
+
+    constructor(props){
+        super(props);
+
+        this.state = {
+            navBackground: 'white'
+        }
+      }
+
+    // componentDidMount() {
+    //     document.addEventListener("scroll", () => {
+    //       const backgroundcolor = window.scrollY < 100 ? "white" : "gray";
+
+    //       this.setState({ navBackground: backgroundcolor });
+    //     });
+    //   }
 
     render() {
         return (
             <>
-            <nav className="navbar" role="navigation" aria-label="main navigation">
+            <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor: this.state.navBackground}}>
             <div className="navbar-brand">
                 <Link to="/home" className="navbar-item">
                     <img src={girl} className="nav-logo"></img>
@@ -24,7 +40,7 @@ class TopNav extends Component {
 
             <div className="navbar-start">
                 <span className="navbar-item">
-                <Link to="/attributeList">Explore the Attributes</Link>
+                <Link to="/attributes">Explore the Attributes</Link>
                 </span>
 
                 <span className="navbar-item">
@@ -41,21 +57,20 @@ class TopNav extends Component {
                 <Link to="/personality">By Personality</Link>
                 </span>
                 <span className="navbar-item">
-                By Movies
+                <Link to="/emotion">By Emotion</Link>
                 </span>
                 <span className="navbar-item">
-                By the Quiz
+                <Link to="/fear">By Fear</Link>
                 </span>
-                <hr className="navbar-divider"></hr>
                 <span className="navbar-item">
-                And So On
+                <Link to="/struggle">By Struggle</Link>
                 </span>
             </div>
             </div>
         </div>
             </div>
 
-        <div className="navbar-end">
+        {/* <div className="navbar-end">
             <div className="navbar-item">
             <div className="buttons">
                 {
@@ -69,7 +84,7 @@ class TopNav extends Component {
                 }
             </div>
             </div>
-            </div>
+            </div> */}
         </nav>
         </>
         )

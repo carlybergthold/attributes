@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../styles/personality.css'
 import PersonalityTestList from "../components/personality/personalityTestList";
+import Hero from '../components/hero'
 
 class Personality extends Component {
 
@@ -12,9 +13,7 @@ class Personality extends Component {
       render() {
           return(
             <div className='page'>
-              <section id="header">
-                <h1 className="title">Browse by Personality</h1>
-              </section>
+            <Hero title="Browse by personality" img="girl.png" />
               <body className="personalityPage">
               <section className="section">
               <div className="container">

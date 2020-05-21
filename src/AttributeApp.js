@@ -18,7 +18,7 @@ class AttributeApp extends Component {
 
     if (username != 'undefined'  && username != 'anon') {
       questions.forEach(q => {
-        fire.database().ref(`/userAttributes/scores/${username}`).set({
+        fire.database().ref(`/scores/${username}`).set({
           acceptScore: 0,
           rejectScore: 0,
           reflectScore: 0,

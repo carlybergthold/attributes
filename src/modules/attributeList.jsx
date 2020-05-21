@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../styles/personality.css'
-import girl from '../images/girl.png'
 import attrray from '../data/attributeArray'
+import Hero from '../components/hero'
+
 
 class AttributeList extends Component {
 
@@ -13,9 +14,7 @@ class AttributeList extends Component {
       render() {
           return(
             <div className='page'>
-              <section id="header">
-                <h1 className="title">All Attributes</h1>
-              </section>
+              <Hero title="All Attributes" img="girl.png"/>
               <body className="personalityPage">
               <section className="section">
               <div className="container">
@@ -25,7 +24,7 @@ class AttributeList extends Component {
                       <div className="card">
                       <div className="card-image ennea-Img">
                         <figure className="image is-4by3">
-                          <img src={girl} alt="Placeholder image" className="personalityIcon"></img>
+                          <img src={`${process.env.PUBLIC_URL}/images/attributeIcons/${a.attributeName}.png`} alt="Placeholder image" className="personalityIcon"></img>
                         </figure>
                       </div>
                       <div className="card-content">
@@ -37,10 +36,7 @@ class AttributeList extends Component {
                         <div className="content">
                           {a.description}
                           <br></br>
-                          <span className="likeLink" onClick={() => this.props.history.push({
-                            pathname: '/attributes',
-                            state: { attribute: a.attributeName } })}>Explore
-                          </span>
+                            <Link to={`/attributes/${a.attributeName}`}>Explore</Link>
                         </div>
                       </div>
                     </div>

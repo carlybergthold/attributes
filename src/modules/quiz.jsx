@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom"
 import questions from "../data/testArray"
 import fire from "../config/fire"
 import "../styles/quiz.css"
-import line from '../images/grey-line-png.png'
+import Hero from '../components/hero'
 
 
 class Quiz extends Component {
@@ -30,8 +30,7 @@ class Quiz extends Component {
 
     radios.forEach(radio => {if (radio.checked) checkedRadios.push(radio.key)});
 
-    console.log(checkedRadios.length, radios.length)
-    if (checkedRadios.length < this.state.questions.count) {
+    if (checkedRadios.length < this.state.questions.length) {
       alert('Please select one option in each question.');
       return;
     } else {
@@ -59,8 +58,6 @@ class Quiz extends Component {
         let attribute = radio.className.split("-")[0];
         let category = radio.className.split("-")[1];
 
-        console.log(attribute, category)
-
         if (category === 'accept' && attribute === 'grace')
         {
           salvationScore = parseInt(radio.value);
@@ -80,13 +77,13 @@ class Quiz extends Component {
         let attribute = radio.className.split("-")[0];
         let category = radio.className.split("-")[1];
 
-        fire.database().ref(`/userAttributes/${this.props.user}/${attribute}`).update({[category]: parseInt(radio.value)});
-        console.log(attribute)
+        console.log(attribute, radio.value)
 
+        fire.database().ref(`/userAttributes/anonymous/${attribute}`).update({[category]: parseInt(radio.value)});
       }
     })
 
-    fire.database().ref(`/userAttributes/scores/${this.props.user}`).update({
+    fire.database().ref(`/scores/anonymous`).update({
       acceptScore: totalAcceptanceScore,
       rejectScore: totalRejectionScore,
       reflectScore: totalReflectionScore,
@@ -114,9 +111,7 @@ class Quiz extends Component {
   render() {
     return(
       <div className='page'>
-        <section id="header">
-            <h1 className="title">Take the quiz!</h1>
-        </section>
+      <Hero title="Take the Quiz!" img="girl.png" />
       <div className="quizPage container">
       <section id="quiz-flex">
       {

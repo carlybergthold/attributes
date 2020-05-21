@@ -1,11 +1,10 @@
 import React, { Component }  from 'react';
-import { withRouter } from "react-router-dom"
+import { withRouter, Link } from "react-router-dom"
 import fire from '../config/fire'
 import '../styles/testScores.css'
+import Hero from '../components/hero'
 import attArray from '../data/attributeArray'
-import Components from '../methods/card'
-import girl from '../images/girl.png'
-import { isThisTypeNode } from 'typescript';
+
 
 class QuizResults extends React.Component {
 
@@ -27,7 +26,7 @@ class QuizResults extends React.Component {
       }
 
       getUserData = () => {
-        let ref = fire.database().ref(`/userAttributes/scores/${this.props.user}`);
+        let ref = fire.database().ref(`/scores/anonymous`);
         ref.on('value', snapshot => {
           const state = snapshot.val();
           this.setState({acceptScore: this.state.acceptScore,
@@ -36,10 +35,10 @@ class QuizResults extends React.Component {
                          salvationScore: this.state.salvationScore});
         });
 
-        let top3 = fire.database().ref(`/userAttributes/${this.props.user}`)
+        let top3 = fire.database().ref(`/userAttributes/anonymous`)
                                   .orderByChild('reflect').limitToLast(3);
 
-        let bottom3 = fire.database().ref(`/userAttributes/${this.props.user}`)
+        let bottom3 = fire.database().ref(`/userAttributes/anonymous`)
                                      .orderByChild('reflect').limitToFirst(3);
 
         top3.on('value', snap => {
@@ -60,69 +59,92 @@ class QuizResults extends React.Component {
     }
 
     componentDidMount() {
-        if (this.props.user != 'anon') {
-          this.getUserData()
-        } else alert('no user!')
+        this.getUserData();
+    }
+
+    getDescription = () => {
+      let att = attArray.find(x => x.attributeName === 'unique');
+      return <p>{att.description}</p>
     }
 
   render() {
     return(
         <>
         <div className='page'>
-          <section id="header">
-            <h1 className="title">Here are your results, {this.props.user}!</h1>
-          </section>
+        <Hero title="Your results" img="girl.png"/>
         <section className="section">
           <div className="container">
             <h2 className="subtitle">These are your top three attributes.</h2>
-            <div className="top-3-container">
-            {
-                this.state.topReflections.map(att =>
-                <div key={att} className="card">
-                  <div className="card-image">
-                    <figure className="image is-4by3">
-                      <img src={girl} alt="Placeholder image" className="personalityIcon"></img>
-                    </figure>
+
+            <div className="tile is-ancestor">
+              <div className="tile is-vertical is-12">
+                <div className="tile">
+                  <div className="tile is-parent">
+                    <article className="tile is-child notification">
+                      <section className="tile-head">
+                        <p className="title">1. <Link to={`/attributes/${this.state.topReflections[0]}`}>{this.state.topReflections[0]}</Link>
+                      </p>
+                      </section>
+                      <p className="tile-desc">
+                      {this.getDescription(this.state.topReflections[0])}
+                      </p>
+                    </article>
                   </div>
-                  <div className="card-content">
-                    <p className="title">{att}</p>
+                  <div className="tile is-parent is-vertical">
+                    <article className="tile is-child notification">
+                    <section className="tile-head">
+                      <p className="title">2. <Link to={`/attributes/${this.state.topReflections[1]}`}>{this.state.topReflections[1]}</Link>
+                      </p>
+                      </section>
+                      <p className="tile-desc">
+                      {this.getDescription(this.state.topReflections[1])}
+                      </p>
+                      </article>
+                    <article class="tile is-child notification">
+                    <section className="tile-head">
+                      <p className="title">3. <Link to={`/attributes/${this.state.topReflections[2]}`}>{this.state.topReflections[2]}</Link>
+                      </p>
+                      </section>
+                      <p className="tile-desc">
+                      {this.getDescription(this.state.topReflections[2])}
+                      </p>
+                      </article>
                   </div>
-                  <footer className="card-footer">
-                    <p className="card-footer-item">
-                      <span className="likeLink" onClick={() => this.props.history.push({
-                                                          pathname: '/attributes',
-                                                          state: { attribute: att } })}>Learn more!
-                      </span>
-                    </p>
-                  </footer>
                 </div>
-              )
-            }
+              </div>
             </div>
+
             <h2 className="subtitle bottom3subtitle">These are your bottom three attributes.</h2>
-            <div className="bottom-3-container">
-            {
-                this.state.bottomReflections.map(att =>
-                <div key={att} className="card">
-                  <div className="card-image">
-                    <figure className="image is-4by3">
-                      <img src={girl} alt="Placeholder image" className="personalityIcon"></img>
-                    </figure>
+            <div className="tile is-ancestor">
+              <div className="tile is-vertical is-12">
+                <div className="tile">
+                  <div className="tile is-parent">
+                    <article className="tile is-child notification">
+                      <p className="title tile-head">1. <Link to={`/attributes/${this.state.bottomReflections[0]}`}>{this.state.bottomReflections[0]}</Link>
+                      </p>
+                      <p className="tile-desc">
+                      {this.getDescription(this.state.bottomReflections[0])}
+                      </p>
+                    </article>
                   </div>
-                  <div className="card-content">
-                    <p className="title">{att}</p>
+                  <div className="tile is-parent is-vertical">
+                    <article className="tile is-child notification">
+                      <p className="title tile-head">2. <Link to={`/attributes/${this.state.bottomReflections[1]}`}>{this.state.bottomReflections[1]}</Link>
+                      </p>
+                      <p className="tile-desc">
+                      {this.getDescription(this.state.bottomReflections[1])}
+                      </p>
+                    </article>
+                    <article class="tile is-child notification">
+                      <p className="title tile-head">3. <Link to={`/attributes/${this.state.bottomReflections[2]}`}>{this.state.bottomReflections[2]}</Link>
+                      </p>
+                      <p className="tile-desc">
+                      {this.getDescription(this.state.bottomReflections[2])}
+                      </p>
+                    </article>
                   </div>
-                  <footer className="card-footer">
-                    <p className="card-footer-item">
-                      <span className="likeLink" onClick={() => this.props.history.push({
-                                                          pathname: '/attributes',
-                                                          state: { attribute: att } })}>Learn more!
-                      </span>
-                    </p>
-                  </footer>
                 </div>
-              )
-            }
+              </div>
             </div>
           </div>
         </section>
