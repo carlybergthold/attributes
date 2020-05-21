@@ -58,7 +58,7 @@ class Home extends React.Component {
               </ul>
             </h2>
             <button className="button is-light">
-            <Link to="/attributeList">Explore the Attributes</Link>
+            <Link to="/attributes">Explore the Attributes</Link>
             </button>
             <section className="atrributeImages">
             </section>
@@ -79,10 +79,7 @@ class Home extends React.Component {
                 <div className="content card-desc">
                 {this.state.description}
                 <br></br>
-                <span className="randomLink likeLink" onClick={() => this.props.history.push({
-                                                            pathname: '/attributes',
-                                                            state: { attribute: this.state.attribute } })}>Read More
-                </span>
+                <Link to={`/attributes/${this.state.attribute}`}>Read More</Link>
                   </div>
               </div>
             </div>
