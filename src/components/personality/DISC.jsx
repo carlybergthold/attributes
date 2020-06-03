@@ -25,7 +25,7 @@ class DISC extends Component {
             <div className="page">
                 <Hero title="DISC" subtitle="DISC" img="girl.png" />
                 <div className="section">
-                    <div className="personalityContainer">
+                    <div className="connectorContainer">
                     {
                         discArray.map(d =>
                             <Media title={d.type} description={d.description} img="girl.png" className="personalityMedia" />

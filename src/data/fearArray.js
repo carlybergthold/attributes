@@ -1,131 +1,131 @@
 const fearArray = [
     {
     attributeName: 'creative',
-    fearName: '',
+    fearName: 'insignificance',
     },
     {
     attributeName: 'eternal',
-    fearName: '',
+    fearName: 'death',
     },
     {
     attributeName: 'faithful',
-    fearName: '',
+    fearName: 'disappointment in others',
     },
     {
     attributeName: 'glorious',
-    fearName: '',
+    fearName: 'opinion of others',
     },
     {
     attributeName: 'good',
-    fearName: '',
+    fearName: 'unworthiness',
     },
     {
     attributeName: 'gracious',
-    fearName: '',
+    fearName: 'abuse',
     },
     {
     attributeName: 'holy',
-    fearName: '',
+    fearName: 'unworthy of God',
     },
     {
     attributeName: 'humble',
-    fearName: '',
+    fearName: 'others opinion of me',
     },
     {
     attributeName: 'immutable',
-    fearName: '',
+    fearName: 'loss',
     },
     {
     attributeName: 'incomprehensible',
-    fearName: '',
+    fearName: 'full comprehension',
     },
     {
     attributeName: 'independent',
-    fearName: '',
+    fearName: 'becoming dependent',
     },
     {
     attributeName: 'invisible',
-    fearName: '',
+    fearName: 'the hidden',
     },
     {
     attributeName: 'jealous',
-    fearName: '',
+    fearName: 'punishment',
     },
     {
     attributeName: 'joyful',
-    fearName: '',
+    fearName: 'continued negative emotions',
     },
     {
     attributeName: 'just',
-    fearName: '',
+    fearName: 'being wrong',
     },
     {
     attributeName: 'loving',
-    fearName: '',
+    fearName: 'being unlovable',
     },
     {
     attributeName: 'merciful',
-    fearName: '',
+    fearName: 'unworthy of mercy',
     },
     {
     attributeName: 'omnipotent',
-    fearName: '',
+    fearName: 'failure',
     },
     {
     attributeName: 'omnipresent',
-    fearName: '',
+    fearName: 'missing out',
     },
     {
     attributeName: 'omniscient',
-    fearName: '',
+    fearName: 'insufficient information',
     },
     {
     attributeName: 'patient',
-    fearName: '',
+    fearName: 'impending trouble',
     },
     {
     attributeName: 'peaceful',
-    fearName: '',
+    fearName: 'lack of peace',
     },
     {
     attributeName: 'planning',
-    fearName: '',
+    fearName: 'the future',
     },
     {
     attributeName: 'providing',
-    fearName: '',
+    fearName: 'poverty',
     },
     {
     attributeName: 'relational',
-    fearName: '',
+    fearName: 'loneliness',
     },
     {
     attributeName: 'saving',
-    fearName: '',
+    fearName: 'hopelessness',
     },
     {
     attributeName: 'sovereign',
-    fearName: '',
+    fearName: 'losing control',
     },
     {
     attributeName: 'teaching',
-    fearName: '',
+    fearName: 'inability to learn',
     },
     {
     attributeName: 'truthful',
-    fearName: '',
+    fearName: 'deception',
     },
     {
     attributeName: 'unique',
-    fearName: '',
+    fearName: 'being average or common',
     },
     {
     attributeName: 'wise',
-    fearName: '',
+    fearName: 'seen as foolish',
     },
     {
     attributeName: 'wrathful',
-    fearName: '',
+    fearName: 'being found out',
     }
 ]
 

@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import { withRouter, Link } from "react-router-dom"
 import struggleArray from '../../data/struggleArray'
-import girl from '../../images/girl.png'
+import Media from '../../components/media'
 import Hero from '../hero'
-
+import '../../styles/connectors.css'
 
 class Struggles extends Component {
 
@@ -18,30 +17,10 @@ class Struggles extends Component {
             <Hero title="Struggle" subtitle="struggle" img="girl.png" />
                 <div className="section">
                     <div className="container">
-                        <section className="enneagramContainer">
+                        <section className="connectorContainer">
                         {
-                            struggleArray.map(s =>
-                            <div className="card">
-                            <div className="card-image ennea-Img">
-                                <figure className="image is-4by3">
-                                <img src={girl} alt="Placeholder image" className="personalityIcon"></img>
-                                </figure>
-                            </div>
-                            <div className="card-content">
-                                <div className="media">
-                                <div className="media-content">
-                                    <p className="title is-4">{s.struggleName}</p>
-                                </div>
-                                </div>
-                                <div className="content">
-                                {s.struggleName}
-                                <br></br>
-                                <br></br>
-                                <span>I am: </span>
-                                <Link to={`/attributes/${s.struggleName}#struggle`}>{s.attributeName}</Link>
-                                </div>
-                            </div>
-                            </div>
+                            struggleArray.map(d =>
+                                <Media title={d.struggleName} description={d.description} attribute={d.attributeName} img="girl.png" className="personalityMedia" />
                             )
                         }
                         </section>

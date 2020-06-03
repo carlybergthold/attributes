@@ -48,20 +48,29 @@ class Home extends React.Component {
           <div className="container left">
             <h1 className="title">There are many ways to relate attributes to your life.</h1>
             <br></br>
-            <h2 className="subtitle">
-              <ul>
-                <li>Through your personality</li>
-                <li>Through your thoughts on sex</li>
-                <li>Through science</li>
-                <li>Through entertainment</li>
-                <li>Through your fears</li>
-              </ul>
-            </h2>
-            <button className="button is-light">
-            <Link to="/attributes">Explore the Attributes</Link>
-            </button>
-            <section className="atrributeImages">
-            </section>
+
+            <div className="tile is-ancestor">
+              <div className="tile">
+                <div className="tile">
+                  <div class="tile is-parent is-vertical is-6">
+                    <article class="tile is-child notification is-primary">
+                      <Link to="/personality">Personality</Link>
+                    </article>
+                    <article class="tile is-child notification is-warning">
+                      <Link to="/emotion">Emotion</Link>
+                    </article>
+                  </div>
+                  <div class="tile is-parent is-vertical is-6">
+                    <article class="tile is-child notification is-primary">
+                      <Link to="/fear">Fear</Link>
+                    </article>
+                    <article class="tile is-child notification is-warning">
+                      <Link to="/struggle">Struggle</Link>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="container right">
           <div className="card card-attribute">
