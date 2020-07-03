@@ -200,14 +200,15 @@ main {
 aside {
     flex: 0.6;
     text-align: left;
-    background-color: var(--yellow);
 }
 
 #sidebar {
     position: -webkit-sticky;
     position: sticky;
-    top: 0.5rem;
+    top: 0rem;
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar-li:hover {

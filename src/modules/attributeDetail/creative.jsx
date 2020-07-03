@@ -30,21 +30,19 @@ class Creative extends Component {
                   <h1 className="title has-text-info tracking-wide padded">Creative means to make something new.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">We love to watch new movies and dine in the newest restaurants. Our personal creativity can take many forms - doodling on a guitar, building a new deck, or adding our twist to Uncle Wayne’s chili recipe. Not only do we enjoy the newness, we often end up loving our creations.</p>
-                  <p className="is-size-6 leading-normal padded">Creativity and newness can lead to a wonderful feeling of excitement, but it can also leave me wondering whether I am creative enough.  Am I really significant in this big world?  I can struggle to understand what my ultimate purpose in this life should be.</p>
+                  <p className="is-size-6 leading-normal padded">Creativity and newness can lead to a wonderful feeling of excitement, but it can also leave me wondering whether I am creative enough - whether I have significance in this big world.  It can also cause me to question my life’s purpose.</p>
                 </div>
 
                 <div className="attSection" id="emotion">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">What is new that brings me excitement?</h1>
+                  <h1 className="title has-text-info tracking-wide padded">What is something new that makes me excited?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">	The world delivers so much newness, whether through people I meet or what I wear, drive or eat.  God, our Creator, is the ultimate source behind all this newness.  He also creates in believers a new spirit which lets us see this world with His eyes - creating an excitement which is worthy of song! </p>
+                  <p className="is-size-6 leading-normal padded">The world delivers so much newness, whether through people I meet or what I wear, drive or eat.  God, our Creator, is the ultimate source behind all this newness.  He also creates in each believer a new spirit which lets me see not only through my own eyes, but His as well - creating an excitement worthy of song!</p>
                   <br></br>
                   <Testimonial quote="Oh sing to the LORD a new song; sing to the LORD, all the earth!
                   Sing to the LORD, bless his name; tell of his salvation from day to day.
                   Declare his glory among the nations, his marvelous works among all the peoples!
-                  For great is the LORD, and greatly to be praised; he is to be feared above all gods.
-                  For all the gods of the peoples are worthless idols, but the LORD made the heavens.
-                  Splendor and majesty are before him; strength and beauty are in his sanctuary." reference="Psalm 96:1-6" color="var(--teal)"/>
+                  For great is the LORD, and greatly to be praised." reference="Psalm 96:1-6" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="fear">
@@ -60,23 +58,23 @@ class Creative extends Component {
                 <section>
                   <h1 className="title has-text-info tracking-wide padded">Why was I created?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">I struggle some days to have purpose and fulfillment. The Westminster Catechism describes the Creator’s purpose for our life succinctly: “Man’s chief end is to glorify God, and to enjoy him forever. “  To glorify God, I must first believe in Him, and then begin to know and love Him.</p>
+                  <p className="is-size-6 leading-normal padded">I struggle some days to have purpose and fulfillment. The Westminster Catechism describes the Creator’s purpose for our life succinctly: “Man’s chief end is to glorify God, and to enjoy him forever.“ To glorify God, I must first believe in Him, and then begin to know and love Him. And our ultimate joy in this relationship comes when our will begins to align with the good He has planned for us.</p>
                   <br></br>
                   <Testimonial quote="“For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope." reference="Jer 29:11" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">Only God can (and did!) create something from absolutely nothing.</h1></section>
-                  <p className="is-size-6 leading-normal padded">	He is the Creator of me and of all things.  I am created in His image and thus have His desire to create - so my ability, ingredients, and impulse to create come not from myself, but from God.</p>
+                  <h1 className="title has-text-info tracking-wide padded">Only God can create something from absolutely nothing.</h1></section>
+                  <p className="is-size-6 leading-normal padded">He created me and all things.  I am created in His image and thus have His desire to create - so my ability, ingredients, and impulse to create come not from myself, but from God.</p>
                   <br></br>
                   <Testimonial quote="Through him all things were made, without him nothing was made that has been made." reference="John 1:3" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
-                  <h1 className="title has-text-info tracking-wide padded">Jesus made possible something completely new when He died on the cross.</h1></section>
-                  <p className="is-size-6 leading-normal padded">Those “in Christ” believe Jesus is actually God who died to pay the penalty for our sins and in turn provides us with His righteousness, allowing our fellowship with God forever.  With this newness comes a completely different perspective to my life and my present circumstances, along with a magnified awareness and value for our Creator God.</p>
+                  <h1 className="title has-text-info tracking-wide padded">Jesus made possible something completely new - to live “in Christ.”</h1></section>
+                  <p className="is-size-6 leading-normal padded">Being “in Christ” means I believe that Jesus is actually God who died on the cross to pay the penalty for my sins and, in turn, provides me with His righteousness, allowing me to fellowship with God forever.  With this new relationship comes a completely different perspective to my life and my present circumstances, along with a magnified awareness and value for Creator God.</p>
                   <Testimonial quote="Therefore, if anyone is in Christ, he is a new creation." reference="2 Cor 5:17" color="var(--teal)"/>
                 </div>
 
@@ -92,7 +90,7 @@ class Creative extends Component {
                   <section>
                   <h1 className="title has-text-info tracking-wide padded">Prayer</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Creator God, thank you for making me a person with creative purpose.  Forgive me for thinking I am the ultimate creator of things when I am really your creation. I am creative because I am of your image.  Help me to create to your glory alone.</p>
+                  <p className="is-size-6 leading-normal padded">Creator God, thank you for making me a person with creative purpose. Forgive me for thinking I am the ultimate creator of things when I am really your creation. I am creative because I am of your image.  Help me to create to your glory alone.</p>
                   <Testimonial quote="Through him all things were made, without him nothing was made that has been made." reference="John 1:3" color="var(--teal)"/>
                 </div>
 
@@ -100,18 +98,18 @@ class Creative extends Component {
                 <section>
                   <h1 className="title has-text-info tracking-wide padded">Science does not rule out the potential of a Creator God</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded"> In fact, the current theory of the “Big Bang” aligns well with all matter being created with a spoken word from God.  Evolution and/or creation of man is in much greater gridlock, with intelligent design theory at the center, science on one end mostly seeking to answer the “How” questions, and Christianity and the Bible on the other end mostly seeking to answer “Why”.</p>
+                  <p className="is-size-6 leading-normal padded">In fact, the current theory of the “Big Bang” aligns well with all matter being created with a spoken word from God. Evolution and/or creation of man is in much greater gridlock. Science camps on one end of the spectrum, seeking to answer all the “How” questions.  Christianity and the Bible occupy the other end, mostly seeking to answer “Why.” Intelligent design theory sits squarely in the center, seeking the compatible middle ground.</p>
                   <p className="is-size-6 leading-normal padded">Big Bang theory and creation (Data from Wikipedia): “By the middle of the 20th century, cosmologists had developed two different theories to explain the creation of the universe. Some supported the steady-state theory, which states that the universe has always existed and will continue to survive without noticeable change. Others believed in the Big Bang theory, which states that the universe was created in a massive explosion-like event billions of years ago (later determined to be approximately 13.8 billion years)</p>
                   <p className="is-size-6 leading-normal padded">The discovery of cosmic microwave background radiation (CMB) in 1941 constitutes a major development in modern physical cosmology….. In 1964, US physicist Arno Penzias and radio-astronomer Robert Woodrow Wilson rediscovered the CMB…. and new measurements were accepted as important evidence for a hot early Universe (big bang theory) and as evidence against the rival steady state theory.[4] In 1978, Penzias and Wilson were awarded the Nobel Prize for Physics for their joint measurement.</p>
-                  <p className="is-size-6 leading-normal padded">”Evolutionary Beliefs and Creation (2/6/19 article from Pew Research): Roughly 1/3 of US adults believe humans have always existed in their current form (i.e. consistent with Biblical conservative creation account).  Another 1/3 believe humans evolved over time, but that this process was guided by God or a higher power (i.e. consistent with a more liberal Biblical account or intelligent design theory).  And 1/3 believe in evolution with no higher power role. "</p>
+                  <p className="is-size-6 leading-normal padded">Evolutionary Beliefs and Creation (2/6/19 article from Pew Research): Roughly 1/3 of US adults believe humans have always existed in their current form (i.e. consistent with Biblical conservative creation account). Another 1/3 believe humans evolved over time, but that this process was guided by God or a higher power (i.e. consistent with a more liberal Biblical account or intelligent design theory). And 1/3 believe in evolution with no higher power role.</p>
                 </div>
 
                 <div className="attSection" id="history">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">Can we produce new life using science?</h1>
+                  <h1 className="title has-text-info tracking-wide padded">Have we created life on our own yet?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">If this is ever done, it would be difficult to prove that God was not behind it. After all, He is the author and sustainer of life, with physical life only being the lesser part of the story. Spiritual life creation is much more important!</p>
-                  <p className="is-size-6 leading-normal padded">Recent scientific advancement has created headlines like "Can We Create Life From Scratch?". The answer is no, at least for now. A "synthetic bacteria" was created in 2010 (by Venter), but that was introducing a synthetic DNA into an already living cell, and this cell was able to replicate. But making the cell winds up being the hardest part:</p>
+                  <p className="is-size-6 leading-normal padded">Recent scientific advancement has created headlines like "Can We Create Life From Scratch?". The answer is no, at least for now. A "synthetic bacteria" was created in 2010 (by Venter), but that was introducing a synthetic DNA into an already living cell, and this cell was then able to replicate. But making the cell winds up being the hardest part.</p>
+                  <p className="is-size-6 leading-normal padded">If this is ever done, it would be difficult to prove that God was not behind it.  After all, He is the author and sustainer of life, with physical life only being the lesser part of the story.  Spiritual life creation is much more important!</p>
 
                   <Grid />
                 </div>
@@ -124,7 +122,7 @@ class Creative extends Component {
                     And worship Him in humbleness,
                     O praise Him! Alleluia!
                     Praise, praise the Father, praise the Son,
-                    And praise the Spirit, Three in One!"</p>
+                    And praise the Spirit, Three in One!" -Last verse</p>
                 </div>
 
             </main>
