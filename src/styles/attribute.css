@@ -7,12 +7,6 @@ main {
     flex: 3;
 }
 
-aside {
-    flex: 1;
-    text-align: left;
-    background-color: var(--yellow);
-}
-
 #header h1 {
     text-transform: uppercase;
 }
@@ -29,12 +23,18 @@ aside {
 .section-header {
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px dotted lightgray;
     margin-bottom: 0.5rem;
 }
 
 .definition-header {
     background-color: var(--green);
+}
+
+.attributeListContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .attListItem {
@@ -197,23 +197,24 @@ aside {
 
 /* SIDEBAR */
 
-#sidebar {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 1rem;
+aside {
+    flex: 0.6;
     text-align: left;
 }
 
-.sidebar-li {
-    margin: 0.5rem;
+#sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar-li:hover {
     cursor: pointer;
 }
 
-.sidebarVisible {
-    position: absolute;
-    top: 5;
-    left: 2rem;
+.padded {
+    padding: 1rem;
 }

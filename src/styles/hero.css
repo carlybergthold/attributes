@@ -1,0 +1,13 @@
+.heroContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.heroTitle {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5rem;
+}

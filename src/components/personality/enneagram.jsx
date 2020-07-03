@@ -17,7 +17,7 @@ class Enneagram extends Component {
             <Hero title="Enneagram" subtitle="Enneagram" img="girl.png"/>
                 <div className="section">
                     <div className="container">
-                        <section className="personalityContainer">
+                        <section className="connectorContainer">
                         {
                             enneagramArray.map(e =>
                                 <Media title={e.type} description={e.description} img="girl.png" className="personalityMedia" />

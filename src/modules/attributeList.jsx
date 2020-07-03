@@ -14,17 +14,17 @@ class AttributeList extends Component {
       render() {
           return(
             <div className='page'>
-              <Hero title="All Attributes" img="girl.png"/>
+              <Hero title="All Attributes" subtitle="Learn More" img="girl.png"/>
               <body className="personalityPage">
               <section className="section">
               <div className="container">
-                <section className="enneagramContainer">
+                <section className="attributeListContainer">
                   {
                     attrray.map(a =>
                       <div className="card">
                       <div className="card-image ennea-Img">
                         <figure className="image is-4by3">
-                          <img src={`${process.env.PUBLIC_URL}/images/attributeIcons/${a.attributeName}.png`} alt="Placeholder image" className="personalityIcon"></img>
+                          <img src={ require(`../images/attributeIcons/creative.png`) } alt="Placeholder image" className="personalityIcon"></img>
                         </figure>
                       </div>
                       <div className="card-content">

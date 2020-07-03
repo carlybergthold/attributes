@@ -1,8 +1,34 @@
-.sidebarVisible {
-    background-color: var(--yellow);
-}
+/* #sidebarWithin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
 
 .sidebar-ul {
     text-transform: uppercase;
     font-weight: 300;
+}
+
+.sidebar-div {
+    margin-bottom: -0.7rem;
+}
+
+.section1 {
+    background-color: blue;
+    height: 25vh;
+}
+
+.section2 {
+    background-color: pink;
+    height: 25vh;
+}
+
+.section3 {
+    background-color: teal;
+    height: 25vh;
+}
+
+.section4 {
+    background-color: orange;
+    height: 25vh;
 }

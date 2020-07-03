@@ -1,131 +1,131 @@
 const struggleArray = [
     {
     attributeName: 'creative',
-    struggleName: '',
+    struggleName: 'purpose',
     },
     {
     attributeName: 'eternal',
-    struggleName: '',
+    struggleName: 'pessimism',
     },
     {
     attributeName: 'faithful',
-    struggleName: '',
+    struggleName: 'reliability',
     },
     {
     attributeName: 'glorious',
-    struggleName: '',
+    struggleName: 'reputation',
     },
     {
     attributeName: 'good',
-    struggleName: '',
+    struggleName: 'failure',
     },
     {
     attributeName: 'gracious',
-    struggleName: '',
+    struggleName: 'no free lunch',
     },
     {
     attributeName: 'holy',
-    struggleName: '',
+    struggleName: 'making comparisons',
     },
     {
     attributeName: 'humble',
-    struggleName: '',
+    struggleName: 'urgent schedule',
     },
     {
     attributeName: 'immutable',
-    struggleName: '',
+    struggleName: 'security',
     },
     {
     attributeName: 'incomprehensible',
-    struggleName: '',
+    struggleName: 'ability to learn',
     },
     {
     attributeName: 'independent',
-    struggleName: '',
+    struggleName: 'must do it myself',
     },
     {
     attributeName: 'invisible',
-    struggleName: '',
+    struggleName: 'worshipping someone unseen',
     },
     {
     attributeName: 'jealous',
-    struggleName: '',
+    struggleName: 'idols',
     },
     {
     attributeName: 'joyful',
-    struggleName: '',
+    struggleName: 'source of joy',
     },
     {
     attributeName: 'just',
-    struggleName: '',
+    struggleName: 'what is fair',
     },
     {
     attributeName: 'loving',
-    struggleName: '',
+    struggleName: 'loving others',
     },
     {
     attributeName: 'merciful',
-    struggleName: '',
+    struggleName: 'forgiveness',
     },
     {
     attributeName: 'omnipotent',
-    struggleName: '',
+    struggleName: 'with weakness',
     },
     {
     attributeName: 'omnipresent',
-    struggleName: '',
+    struggleName: 'gods absence',
     },
     {
     attributeName: 'omniscient',
-    struggleName: '',
+    struggleName: 'information overload',
     },
     {
     attributeName: 'patient',
-    struggleName: '',
+    struggleName: 'current hardship',
     },
     {
     attributeName: 'peaceful',
-    struggleName: '',
+    struggleName: 'ongoing conflict',
     },
     {
     attributeName: 'planning',
-    struggleName: '',
+    struggleName: 'perfectionism',
     },
     {
     attributeName: 'providing',
-    struggleName: '',
+    struggleName: 'unmet needs',
     },
     {
     attributeName: 'relational',
-    struggleName: '',
+    struggleName: 'good relationships',
     },
     {
     attributeName: 'saving',
-    struggleName: '',
+    struggleName: 'codependency',
     },
     {
     attributeName: 'sovereign',
-    struggleName: '',
+    struggleName: 'maintaining control',
     },
     {
     attributeName: 'teaching',
-    struggleName: '',
+    struggleName: 'difficulty in learning',
     },
     {
     attributeName: 'truthful',
-    struggleName: '',
+    struggleName: 'knowing what is true',
     },
     {
     attributeName: 'unique',
-    struggleName: '',
+    struggleName: 'acceptance',
     },
     {
     attributeName: 'wise',
-    struggleName: '',
+    struggleName: 'keeping perspective',
     },
     {
     attributeName: 'wrathful',
-    struggleName: '',
+    struggleName: 'obedience',
     }
 ]
 

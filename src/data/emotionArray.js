@@ -1,131 +1,131 @@
 const emotionArray = [
     {
     attributeName: 'creative',
-    emotionName: '',
+    emotionName: 'excitement',
     },
     {
     attributeName: 'eternal',
-    emotionName: '',
+    emotionName: 'grief',
     },
     {
     attributeName: 'faithful',
-    emotionName: '',
+    emotionName: 'disappointment',
     },
     {
     attributeName: 'glorious',
-    emotionName: '',
+    emotionName: 'rejection',
     },
     {
     attributeName: 'good',
-    emotionName: '',
+    emotionName: 'satisfaction',
     },
     {
     attributeName: 'gracious',
-    emotionName: '',
+    emotionName: 'love',
     },
     {
     attributeName: 'holy',
-    emotionName: '',
+    emotionName: 'guilt',
     },
     {
     attributeName: 'humble',
-    emotionName: '',
+    emotionName: 'anger',
     },
     {
     attributeName: 'immutable',
-    emotionName: '',
+    emotionName: 'insecurity',
     },
     {
     attributeName: 'incomprehensible',
-    emotionName: '',
+    emotionName: 'doubt',
     },
     {
     attributeName: 'independent',
-    emotionName: '',
+    emotionName: 'contentment',
     },
     {
     attributeName: 'invisible',
-    emotionName: '',
+    emotionName: 'distress',
     },
     {
     attributeName: 'jealous',
-    emotionName: '',
+    emotionName: 'fear',
     },
     {
     attributeName: 'joyful',
-    emotionName: '',
+    emotionName: 'happiness',
     },
     {
     attributeName: 'just',
-    emotionName: '',
+    emotionName: 'indignation',
     },
     {
     attributeName: 'loving',
-    emotionName: '',
+    emotionName: 'shame',
     },
     {
     attributeName: 'merciful',
-    emotionName: '',
+    emotionName: 'resentment',
     },
     {
     attributeName: 'omnipotent',
-    emotionName: '',
+    emotionName: 'nervousness',
     },
     {
     attributeName: 'omnipresent',
-    emotionName: '',
+    emotionName: 'loneliness',
     },
     {
     attributeName: 'omniscient',
-    emotionName: '',
+    emotionName: 'misunderstood',
     },
     {
     attributeName: 'patient',
-    emotionName: '',
+    emotionName: 'self pity annoyance',
     },
     {
     attributeName: 'peaceful',
-    emotionName: '',
+    emotionName: 'dissatisfaction',
     },
     {
     attributeName: 'planning',
-    emotionName: '',
+    emotionName: 'worry',
     },
     {
     attributeName: 'providing',
-    emotionName: '',
+    emotionName: 'pride',
     },
     {
     attributeName: 'relational',
-    emotionName: '',
+    emotionName: 'frustration',
     },
     {
     attributeName: 'saving',
-    emotionName: '',
+    emotionName: 'desperation',
     },
     {
     attributeName: 'sovereign',
-    emotionName: '',
+    emotionName: 'sadness',
     },
     {
     attributeName: 'teaching',
-    emotionName: '',
+    emotionName: 'reluctance',
     },
     {
     attributeName: 'truthful',
-    emotionName: '',
+    emotionName: 'distrust',
     },
     {
     attributeName: 'unique',
-    emotionName: '',
+    emotionName: 'humiliation',
     },
     {
     attributeName: 'wise',
-    emotionName: '',
+    emotionName: 'regret',
     },
     {
     attributeName: 'wrathful',
-    emotionName: '',
+    emotionName: 'contempt',
     }
 ]
 
