@@ -35,7 +35,7 @@ class Creative extends Component {
 
                 <div className="attSection" id="emotion">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">What is something new that makes me excited?</h1>
+                  <h1 className="title has-text-info tracking-wide padded">What is something new that makes me happy?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">The world delivers so much newness, whether through people I meet or what I wear, drive or eat.  God, our Creator, is the ultimate source behind all this newness.  He also creates in each believer a new spirit which lets me see not only through my own eyes, but His as well - creating an excitement worthy of song!</p>
                   <br></br>
