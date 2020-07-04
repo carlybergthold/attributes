@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import stylingCSS from '../styles/fuck.css'
 
 
 class fuck extends Component {
