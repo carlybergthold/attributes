@@ -20,7 +20,7 @@ class fuck extends Component {
                             Dashboard
                         </span>
                     </a>
-                  
+
                 </li>
                 <li class="has-subnav">
                     <a href="#">
@@ -29,7 +29,7 @@ class fuck extends Component {
                             Stars Components
                         </span>
                     </a>
-                    
+
                 </li>
                 <li class="has-subnav">
                     <a href="#">
@@ -38,7 +38,7 @@ class fuck extends Component {
                             Forms
                         </span>
                     </a>
-                    
+
                 </li>
                 <li class="has-subnav">
                     <a href="#">
@@ -47,7 +47,7 @@ class fuck extends Component {
                             Pages
                         </span>
                     </a>
-                   
+
                 </li>
                 <li>
                     <a href="#">
