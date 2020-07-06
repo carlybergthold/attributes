@@ -180,7 +180,7 @@ main {
 }
 
 .attSection {
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .doubleSided {
@@ -200,12 +200,13 @@ main {
 aside {
     flex: 0.6;
     text-align: left;
+    margin-top: 3rem;
 }
 
 #sidebar {
     position: -webkit-sticky;
     position: sticky;
-    top: 0rem;
+    top: 2rem;
     text-align: left;
     display: flex;
     flex-direction: column;

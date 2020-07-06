@@ -9,9 +9,9 @@ import AttributeSidebar from "../../components/attSidebar";
 
 class Creative extends Component {
 
-    componentDidMount() {
-      window.scrollTo(0, 0);
-    }
+    // componentDidMount() {
+    //   window.scrollTo(0, 0);
+    // }
 
     render() {
         return(
@@ -27,7 +27,7 @@ class Creative extends Component {
               <main>
                 <div className="attSection" id="definition">
                   <section>
-                  <h1 className="title has-text-info tracking-wide padded">Creative means to make something new.
+                  <h1 className="title has-text-primary tracking-wide padded">Creative means to make something new.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">We love to watch new movies and dine in the newest restaurants. Our personal creativity can take many forms - doodling on a guitar, building a new deck, or adding our twist to Uncle Wayne’s chili recipe. Not only do we enjoy the newness, we often end up loving our creations.</p>
                   <p className="is-size-6 leading-normal padded">Creativity and newness can lead to a wonderful feeling of excitement, but it can also leave me wondering whether I am creative enough - whether I have significance in this big world.  It can also cause me to question my life’s purpose.</p>
@@ -35,7 +35,7 @@ class Creative extends Component {
 
                 <div className="attSection" id="emotion">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">What is something new that makes me excited?</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">What is something new that makes me excited?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">The world delivers so much newness, whether through people I meet or what I wear, drive or eat.  God, our Creator, is the ultimate source behind all this newness.  He also creates in each believer a new spirit which lets me see not only through my own eyes, but His as well - creating an excitement worthy of song!</p>
                   <br></br>
@@ -47,7 +47,7 @@ class Creative extends Component {
 
                 <div className="attSection" id="fear">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">How do I leave my own creative mark on this world?</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">How do I leave my own creative mark on this world?</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">I should first realize that I have already created some kind of legacy. Then know that an ongoing fear of insignificance always points inward, when much of life is found outside ourselves.  In truth,  my most compelling significance will only be found through knowing and experiencing the One who created me.</p>
                   <br></br>
@@ -56,7 +56,7 @@ class Creative extends Component {
 
                 <div className="attSection" id="struggle">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">Why was I created?</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">Why was I created?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">I struggle some days to have purpose and fulfillment. The Westminster Catechism describes the Creator’s purpose for our life succinctly: “Man’s chief end is to glorify God, and to enjoy him forever.“ To glorify God, I must first believe in Him, and then begin to know and love Him. And our ultimate joy in this relationship comes when our will begins to align with the good He has planned for us.</p>
                   <br></br>
@@ -65,7 +65,7 @@ class Creative extends Component {
 
                 <div className="attSection" id="whoAmI">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">Only God can create something from absolutely nothing.</h1></section>
+                  <h1 className="title has-text-primary tracking-wide padded">Only God can create something from absolutely nothing.</h1></section>
                   <p className="is-size-6 leading-normal padded">He created me and all things.  I am created in His image and thus have His desire to create - so my ability, ingredients, and impulse to create come not from myself, but from God.</p>
                   <br></br>
                   <Testimonial quote="Through him all things were made, without him nothing was made that has been made." reference="John 1:3" color="var(--teal)"/>
@@ -73,14 +73,14 @@ class Creative extends Component {
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
-                  <h1 className="title has-text-info tracking-wide padded">Jesus made possible something completely new - to live “in Christ.”</h1></section>
+                  <h1 className="title has-text-primary tracking-wide padded">Jesus made possible something completely new - to live “in Christ.”</h1></section>
                   <p className="is-size-6 leading-normal padded">Being “in Christ” means I believe that Jesus is actually God who died on the cross to pay the penalty for my sins and, in turn, provides me with His righteousness, allowing me to fellowship with God forever.  With this new relationship comes a completely different perspective to my life and my present circumstances, along with a magnified awareness and value for Creator God.</p>
                   <Testimonial quote="Therefore, if anyone is in Christ, he is a new creation." reference="2 Cor 5:17" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">So what do I do now?</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">In humility and gratitude, give credit and appreciation to others who have made it possible for me to create, including our ultimate Creator. Ask: Who has helped me most in forming one of my creative endeavors?</p>
                   <Testimonial quote="So, whether you eat or drink, or whatever you do, do all to the glory of God." reference="1 Cor 10:31" color="var(--teal)"/>
@@ -88,7 +88,7 @@ class Creative extends Component {
 
                   <div className="attSection" id="prayer">
                   <section>
-                  <h1 className="title has-text-info tracking-wide padded">Prayer</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Creator God, thank you for making me a person with creative purpose. Forgive me for thinking I am the ultimate creator of things when I am really your creation. I am creative because I am of your image.  Help me to create to your glory alone.</p>
                   <Testimonial quote="Through him all things were made, without him nothing was made that has been made." reference="John 1:3" color="var(--teal)"/>
@@ -96,7 +96,7 @@ class Creative extends Component {
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">Science does not rule out the potential of a Creator God</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">Science does not rule out the potential of a Creator God</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">In fact, the current theory of the “Big Bang” aligns well with all matter being created with a spoken word from God. Evolution and/or creation of man is in much greater gridlock. Science camps on one end of the spectrum, seeking to answer all the “How” questions.  Christianity and the Bible occupy the other end, mostly seeking to answer “Why.” Intelligent design theory sits squarely in the center, seeking the compatible middle ground.</p>
                   <p className="is-size-6 leading-normal padded">Big Bang theory and creation (Data from Wikipedia): “By the middle of the 20th century, cosmologists had developed two different theories to explain the creation of the universe. Some supported the steady-state theory, which states that the universe has always existed and will continue to survive without noticeable change. Others believed in the Big Bang theory, which states that the universe was created in a massive explosion-like event billions of years ago (later determined to be approximately 13.8 billion years)</p>
@@ -106,7 +106,7 @@ class Creative extends Component {
 
                 <div className="attSection" id="history">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">Have we created life on our own yet?</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">Have we created life on our own yet?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Recent scientific advancement has created headlines like "Can We Create Life From Scratch?". The answer is no, at least for now. A "synthetic bacteria" was created in 2010 (by Venter), but that was introducing a synthetic DNA into an already living cell, and this cell was then able to replicate. But making the cell winds up being the hardest part.</p>
                   <p className="is-size-6 leading-normal padded">If this is ever done, it would be difficult to prove that God was not behind it.  After all, He is the author and sustainer of life, with physical life only being the lesser part of the story.  Spiritual life creation is much more important!</p>
@@ -116,7 +116,7 @@ class Creative extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-info tracking-wide padded">All Creatures of our God and King - Francis of Assisi</h1>
+                    <h1 className="title has-text-primary tracking-wide padded">All Creatures of our God and King - Francis of Assisi</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"Let all things their creator bless,
                     And worship Him in humbleness,

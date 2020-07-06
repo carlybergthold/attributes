@@ -1,7 +1,6 @@
 import React from 'react';
 import { withRouter, Link } from "react-router-dom"
 import '../styles/home.css'
-import boy from '../images/man.png'
 import attArray from '../data/attributeArray'
 import PersonalityTestList from '../components/personality/personalityTestList'
 
@@ -20,6 +19,7 @@ class Home extends React.Component {
 
   componentDidMount() {
     window.scrollTo(0, 0);
+    this.randomize();
   }
 
   randomize = () => {
@@ -75,8 +75,8 @@ class Home extends React.Component {
           <div className="container right">
           <div className="card card-attribute">
               <div className="card-image">
-                <figure className="image is-4by3">
-                  <img src={boy} alt="Placeholder image" className="personalityIcon"></img>
+                <figure className="image">
+                  <img src={ require(`../images/attributeIcons/${this.state.attribute}.png`) }></img>
                 </figure>
               </div>
               <div className="card-content">
