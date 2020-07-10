@@ -60,7 +60,7 @@ class Creative extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">I struggle some days to have purpose and fulfillment. The Westminster Catechism describes the Creator’s purpose for our life succinctly: “Man’s chief end is to glorify God, and to enjoy him forever.“ To glorify God, I must first believe in Him, and then begin to know and love Him. And our ultimate joy and feeling of significance in this relationship comes when our will begins to align with the good He has planned for us.</p>
                   <br></br>
-                  <Testimonial quote="“For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope." reference="Jer 29:11" color="var(--teal)"/>
+                  <Testimonial quote="For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope." reference="Jer 29:11" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
