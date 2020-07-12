@@ -1,9 +1,3 @@
-/* #sidebarWithin {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
-
 .sidebar-ul {
     text-transform: uppercase;
     font-weight: 300;
