@@ -16,7 +16,7 @@ class Invisible extends Component {
         return(
             <body className="attPage">
             <Hero title="Invisible" subtitle="To exist beyond our current senses" img="girl.png" />
-            <div className="container is-fullhd has-text-left relativeMaybe" id="invisibleContainer">
+            <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside>
                 <section id="sidebar">
                   <AttributeSidebar />

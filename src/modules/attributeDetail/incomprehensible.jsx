@@ -16,7 +16,7 @@ class Incomprehensible extends Component {
         return(
             <body className="attPage">
             <Hero title="Incomprehensible" subtitle="More than we can humanly fathom" img="girl.png" />
-            <div className="container is-fullhd has-text-left relativeMaybe" id="incomprehensibleContainer">
+            <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside>
                 <section id="sidebar">
                   <AttributeSidebar />

@@ -1,4 +1,4 @@
-#creativeContainer {
+#attributeContainer {
     display: flex;
     flex-flow: row nowrap;
 }

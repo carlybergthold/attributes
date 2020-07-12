@@ -16,7 +16,7 @@ class Humble extends Component {
         return(
             <body className="attPage">
             <Hero title="Humble" subtitle="To rightly consider yourself and elevate others" img="girl.png" />
-            <div className="container is-fullhd has-text-left relativeMaybe" id="humbleContainer">
+            <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside>
                 <section id="sidebar">
                   <AttributeSidebar />

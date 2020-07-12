@@ -16,7 +16,7 @@ class Glorious extends Component {
         return(
             <body className="attPage">
             <Hero title="Glorious" subtitle="Who God is" img="girl.png" />
-            <div className="container is-fullhd has-text-left relativeMaybe" id="gloriousContainer">
+            <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside>
                 <section id="sidebar">
                   <AttributeSidebar />

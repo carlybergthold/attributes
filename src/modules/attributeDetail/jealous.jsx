@@ -16,7 +16,7 @@ class Jealous extends Component {
         return(
             <body className="attPage">
             <Hero title="Jealous" subtitle="To desire the best  for our own" img="girl.png" />
-            <div className="container is-fullhd has-text-left relativeMaybe" id="JealousContainer">
+            <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside>
                 <section id="sidebar">
                   <AttributeSidebar />

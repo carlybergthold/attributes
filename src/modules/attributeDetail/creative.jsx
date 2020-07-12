@@ -16,7 +16,7 @@ class Creative extends Component {
         return(
             <body className="attPage">
             <Hero title="Creative" subtitle="To make new from nothing" img="girl.png" />
-            <div className="container is-fullhd has-text-left relativeMaybe" id="creativeContainer">
+            <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside>
                 <section id="sidebar">
                   <AttributeSidebar />

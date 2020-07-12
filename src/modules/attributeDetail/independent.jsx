@@ -16,7 +16,7 @@ class Independent extends Component {
         return(
             <body className="attPage">
             <Hero title="Independent" subtitle="To depend on no others" img="girl.png" />
-            <div className="container is-fullhd has-text-left relativeMaybe" id="independentContainer">
+            <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside>
                 <section id="sidebar">
                   <AttributeSidebar />

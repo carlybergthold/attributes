@@ -16,7 +16,7 @@ class Holy extends Component {
         return(
             <body className="attPage">
             <Hero title="Holy" subtitle="To to be made worthy" img="girl.png" />
-            <div className="container is-fullhd has-text-left relativeMaybe" id="holyContainer">
+            <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside>
                 <section id="sidebar">
                   <AttributeSidebar />

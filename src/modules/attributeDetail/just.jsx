@@ -16,7 +16,7 @@ class Just extends Component {
         return(
             <body className="attPage">
             <Hero title="Just" subtitle="To make all things right" img="girl.png" />
-            <div className="container is-fullhd has-text-left relativeMaybe" id="JustContainer">
+            <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside>
                 <section id="sidebar">
                   <AttributeSidebar />
