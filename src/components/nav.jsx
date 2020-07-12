@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import { withRouter, Link } from "react-router-dom"
 import '../styles/nav.css'
 import girl from '../images/attributeIcons/creative.png'
+import attArray from '../data/attributeArray'
 
 class TopNav extends Component {
 
@@ -11,15 +12,11 @@ class TopNav extends Component {
         this.state = {
             navBackground: 'white'
         }
-      }
+    }
 
-    // componentDidMount() {
-    //     document.addEventListener("scroll", () => {
-    //       const backgroundcolor = window.scrollY < 100 ? "white" : "gray";
-
-    //       this.setState({ navBackground: backgroundcolor });
-    //     });
-    //   }
+    capitalize = (string) => {
+        return string.charAt(0).toUpperCase() + string.slice(1)
+    }
 
     render() {
         return (
@@ -39,35 +36,48 @@ class TopNav extends Component {
             <div id="navbarBasicExample" className="navbar-menu">
 
             <div className="navbar-start">
-                <span className="navbar-item">
-                <Link to="/attributes">Explore the Attributes</Link>
-                </span>
+
+                <div className="navbar-item has-dropdown is-hoverable">
+                    <span className="navbar-link">
+                        All Attributes
+                    </span>
+
+                    <div className="navbar-dropdown">
+                        {
+                        attArray.map(a =>
+                            <span className="navbar-item">
+                                <Link to={`/attributes/${a.attributeName}`}>{this.capitalize(a.attributeName)}</Link>
+                            </span>
+                        )
+                        }
+                    </div>
+                </div>
 
                 <span className="navbar-item">
                 <Link to="/quiz">Take the Quiz</Link>
                 </span>
 
-            <div className="navbar-item has-dropdown is-hoverable">
-            <span className="navbar-link">
-                Explore
-            </span>
+                <div className="navbar-item has-dropdown is-hoverable">
+                    <span className="navbar-link">
+                        Explore
+                    </span>
 
-            <div className="navbar-dropdown">
-                <span className="navbar-item">
-                <Link to="/personality">By Personality</Link>
-                </span>
-                <span className="navbar-item">
-                <Link to="/emotion">By Emotion</Link>
-                </span>
-                <span className="navbar-item">
-                <Link to="/fear">By Fear</Link>
-                </span>
-                <span className="navbar-item">
-                <Link to="/struggle">By Struggle</Link>
-                </span>
+                    <div className="navbar-dropdown">
+                        <span className="navbar-item">
+                        <Link to="/personality">By Personality</Link>
+                        </span>
+                        <span className="navbar-item">
+                        <Link to="/emotion">By Emotion</Link>
+                        </span>
+                        <span className="navbar-item">
+                        <Link to="/fear">By Fear</Link>
+                        </span>
+                        <span className="navbar-item">
+                        <Link to="/struggle">By Struggle</Link>
+                        </span>
+                    </div>
+                </div>
             </div>
-            </div>
-        </div>
             </div>
 
         {/* <div className="navbar-end">

@@ -11,8 +11,8 @@ class Hero extends Component {
         <div className={`container heroContainer ${this.props.title}`}>
             {/* <img src={ require(`../images/${this.props.img}`) } className="heroImage"></img> */}
             <section className="heroTitle">
-            <h1 className="title">{this.props.title}  |</h1>
-            <h2 className="subtitle">&nbsp;&nbsp;{this.props.subtitle}</h2>
+            <h1 className="title" id="heroTitle">{this.props.title}  |</h1>
+            <h2 className="subtitle" id="heroSubtitle">&nbsp;&nbsp;{this.props.subtitle}</h2>
             </section>
         </div>
         </div>

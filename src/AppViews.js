@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Route } from 'react-router-dom'
-import AttributeDetail from './modules/attributeDetail'
+import attArray from './data/attributeArray'
 import Quiz from './modules/quiz'
 import QuizResults from './modules/quizResults'
 import Register from './components/users/register'
@@ -14,8 +14,6 @@ import DISC from './components/personality/DISC'
 import Fear from './components/connectors/fears'
 import Emotion from './components/connectors/emotions'
 import Struggle from './components/connectors/struggles'
-import attArray from './data/attributeArray'
-import AttributeList from './modules/attributeList'
 import Creative from './modules/attributeDetail/creative'
 import eternal from './modules/attributeDetail/eternal'
 import faithful from './modules/attributeDetail/faithful'
@@ -52,7 +50,6 @@ import just from './modules/attributeDetail/just'
 // import truthful from './modules/attributeDetail/truthful'
 // import wrathful from './modules/attributeDetail/wrathful'
 
-
 class AppViews extends Component {
 
   constructor(props){
@@ -64,8 +61,6 @@ class AppViews extends Component {
       <>
       <TopNav user={this.props.user} signOut={this.props.signOut} />
       <Route exact path="/home" component={Home}  user={this.props.user} />
-      <Route exact path="/attributes" component={AttributeList} user={this.props.user} />
-      <Route exact path="/attributeDetail" component={AttributeDetail} user={this.props.user} />
       <Route exact path="/quiz" render={(props) => (<Quiz {...props} user={this.props.user} /> )} />
       <Route exact path="/results" render={(props) => (<QuizResults {...props} user={this.props.user} /> )} />
       <Route exact path="/personality" component={Personality} user={this.props.user} />
@@ -121,6 +116,13 @@ class AppViews extends Component {
       <Route exact path="/wise" component={wise} user={this.props.user} />
       <Route exact path="/truthful" component={truthful} user={this.props.user} />
       <Route exact path="/wrathful" component={wrathful} /> */}
+
+      {/*{
+        attArray.map(a =>
+          <Route exact path={`/attributes/${a.attributeName}`} render={(props) => (<Creative /> )} />
+        )
+      }*/}
+
       </>
     )
   }
