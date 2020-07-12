@@ -27,7 +27,7 @@ class Grid extends Component {
                         <div>
                             {/* <img src={ require(`../images/${this.props.img3}`) }></img> */}
                             <h1 className="title is-uppercase has-text-info tracking-wide font-normal">2000</h1>
-                            <div className="is-size-6">There were two leading ideas on how life was formed - those in the "RNA World" which assumed that self-replicating cells were needed most - and those in the "metabolism-first" camp which assumed life began in hydrothermal vents in the deep sea.  Both ideas were found to have fatal flaws.</div>
+                            <div className="is-size-6">There were two leading ideas on how life was formed - those in the "RNA world" which assumed that self-replicating cells were needed most - and those in the "metabolism-first" camp which assumed life began in hydrothermal vents in the deep sea.  Both ideas were found to have fatal flaws.</div>
                         </div>
                     </div>
 

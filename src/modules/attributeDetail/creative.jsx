@@ -29,7 +29,7 @@ class Creative extends Component {
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Creative means to make something new.
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">We love to watch new movies and dine in the newest restaurants. Our personal creativity can take many forms - doodling on a guitar, building a new deck, or adding our twist to Uncle Wayne’s chili recipe. Not only do we enjoy the newness, we often end up loving our creations.</p>
+                  <p className="is-size-6 leading-normal padded">We love to watch new movies and dine in the newest restaurants. Our personal creativity can take many forms - noodling on a guitar, building a new deck, or adding our twist to Uncle Wayne’s chili recipe. Not only do we enjoy the newness, we often end up loving our creations.</p>
                   <p className="is-size-6 leading-normal padded">Creativity and newness can lead to a wonderful feeling of excitement, but it can also leave me wondering whether I am creative enough - whether I have significance in this big world.  It can also cause me to question my life’s purpose.</p>
                 </div>
 
@@ -49,7 +49,7 @@ class Creative extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">How do I leave my own creative mark on this world?</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">I should first realize that I have already created some kind of legacy. Then know that an ongoing fear of insignificance always points inward, when much of life is found outside ourselves.  In truth,  my most compelling significance will only be found through knowing and experiencing the One who created me.</p>
+                  <p className="is-size-6 leading-normal padded">I should first realize that I have already created some kind of legacy (such as what, who and how I love). Then know that an ongoing fear of insignificance always points inward, when much of life is found outside ourselves.  In truth,  my most compelling significance will only be found through knowing and experiencing the One who created me.</p>
                   <br></br>
                   <Testimonial quote="The end of the matter; all has been heard. Fear God and keep his commandments, for this is the whole duty of man." reference="Eccl 12:13" color="var(--teal)"/>
                 </div>
@@ -58,9 +58,9 @@ class Creative extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">Why was I created?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">I struggle some days to have purpose and fulfillment. The Westminster Catechism describes the Creator’s purpose for our life succinctly: “Man’s chief end is to glorify God, and to enjoy him forever.“ To glorify God, I must first believe in Him, and then begin to know and love Him. And our ultimate joy in this relationship comes when our will begins to align with the good He has planned for us.</p>
+                  <p className="is-size-6 leading-normal padded">I struggle some days to have purpose and fulfillment. The Westminster Catechism describes the Creator’s purpose for our life succinctly: “Man’s chief end is to glorify God, and to enjoy him forever.“ To glorify God, I must first believe in Him, and then begin to know and love Him. And our ultimate joy and feeling of significance in this relationship comes when our will begins to align with the good He has planned for us.</p>
                   <br></br>
-                  <Testimonial quote="“For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope." reference="Jer 29:11" color="var(--teal)"/>
+                  <Testimonial quote="For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope." reference="Jer 29:11" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -98,9 +98,9 @@ class Creative extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">Science does not rule out the potential of a Creator God</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">In fact, the current theory of the “Big Bang” aligns well with all matter being created with a spoken word from God. Evolution and/or creation of man is in much greater gridlock. Science camps on one end of the spectrum, seeking to answer all the “How” questions.  Christianity and the Bible occupy the other end, mostly seeking to answer “Why.” Intelligent design theory sits squarely in the center, seeking the compatible middle ground.</p>
-                  <p className="is-size-6 leading-normal padded">Big Bang theory and creation (Data from Wikipedia): “By the middle of the 20th century, cosmologists had developed two different theories to explain the creation of the universe. Some supported the steady-state theory, which states that the universe has always existed and will continue to survive without noticeable change. Others believed in the Big Bang theory, which states that the universe was created in a massive explosion-like event billions of years ago (later determined to be approximately 13.8 billion years)</p>
-                  <p className="is-size-6 leading-normal padded">The discovery of cosmic microwave background radiation (CMB) in 1941 constitutes a major development in modern physical cosmology….. In 1964, US physicist Arno Penzias and radio-astronomer Robert Woodrow Wilson rediscovered the CMB…. and new measurements were accepted as important evidence for a hot early Universe (big bang theory) and as evidence against the rival steady state theory.[4] In 1978, Penzias and Wilson were awarded the Nobel Prize for Physics for their joint measurement.</p>
+                  <p className="is-size-6 leading-normal padded">In fact, the current theory of the “Big Bang” aligns well with all matter being created with a spoken word from God. Evolution and/or creation of man is in much greater gridlock. Science camps on one end of the spectrum, seeking to answer all the “How” questions.  Christianity and the Bible occupy the other end, mostly seeking to answer “Who and Why.” Intelligent design theory sits squarely in the center, seeking the compatible middle ground.</p>
+                  <p className="is-size-6 leading-normal padded">Big Bang theory and creation (Data from Wikipedia): “By the middle of the 20th century, cosmologists had developed two different theories to explain the creation of the universe. Some supported the steady-state theory, which states that the universe has always existed and will continue to survive without noticeable change. Others believed in the Big Bang theory, which states that the universe was created in a massive explosion-like event billions of years ago (later determined to be approximately 13.8 billion years).</p>
+                  <p className="is-size-6 leading-normal padded">The discovery of cosmic microwave background radiation (CMB) in 1941 constitutes a major development in modern physical cosmology….. In 1964, US physicist Arno Penzias and radio-astronomer Robert Woodrow Wilson rediscovered the CMB…. and new measurements were accepted as important evidence for a hot early Universe (Big Bang theory) and as evidence against the rival steady state theory.[4] In 1978, Penzias and Wilson were awarded the Nobel Prize for Physics for their joint measurement.</p>
                   <p className="is-size-6 leading-normal padded">Evolutionary Beliefs and Creation (2/6/19 article from Pew Research): Roughly 1/3 of US adults believe humans have always existed in their current form (i.e. consistent with Biblical conservative creation account). Another 1/3 believe humans evolved over time, but that this process was guided by God or a higher power (i.e. consistent with a more liberal Biblical account or intelligent design theory). And 1/3 believe in evolution with no higher power role.</p>
                 </div>
 
@@ -122,7 +122,7 @@ class Creative extends Component {
                     And worship Him in humbleness,
                     O praise Him! Alleluia!
                     Praise, praise the Father, praise the Son,
-                    And praise the Spirit, Three in One!" -Last verse</p>
+                    And praise the Spirit, Three in One!" - Last verse</p>
                 </div>
 
             </main>
