@@ -17,20 +17,20 @@ import Struggle from './components/connectors/struggles'
 import attArray from './data/attributeArray'
 import AttributeList from './modules/attributeList'
 import Creative from './modules/attributeDetail/creative'
-// import eternal from './modules/attributeDetail/creative'
-// import faithful from './modules/attributeDetail/creative'
-// import glorious from './modules/attributeDetail/creative'
-// import good from './modules/attributeDetail/creative'
-// import gracious from './modules/attributeDetail/creative'
-// import holy from './modules/attributeDetail/creative'
-// import humble from './modules/attributeDetail/creative'
-// import immutable from './modules/attributeDetail/creative'
-// import incomprehensible from './modules/attributeDetail/creative'
-// import independent from './modules/attributeDetail/creative'
-// import invisible from './modules/attributeDetail/creative'
-// import jealous from './modules/attributeDetail/creative'
-// import joyful from './modules/attributeDetail/creative'
-// import just from './modules/attributeDetail/creative'
+import eternal from './modules/attributeDetail/eternal'
+import faithful from './modules/attributeDetail/faithful'
+import glorious from './modules/attributeDetail/glorious'
+import good from './modules/attributeDetail/good'
+import gracious from './modules/attributeDetail/gracious'
+import holy from './modules/attributeDetail/holy'
+import humble from './modules/attributeDetail/humble'
+import immutable from './modules/attributeDetail/immutable'
+import incomprehensible from './modules/attributeDetail/incomprehensible'
+import independent from './modules/attributeDetail/independent'
+import invisible from './modules/attributeDetail/invisible'
+import jealous from './modules/attributeDetail/jealous'
+import joyful from './modules/attributeDetail/joyful'
+import just from './modules/attributeDetail/just'
 // import loving from './modules/attributeDetail/creative'
 // import merciful from './modules/attributeDetail/creative'
 // import omnipotent from './modules/attributeDetail/creative'
@@ -77,8 +77,8 @@ class AppViews extends Component {
       <Route exact path="/fear" render={(props) => (<Fear /> )} />
       <Route exact path="/emotion" render={(props) => (<Emotion /> )} />
       <Route exact path="/struggle" render={(props) => (<Struggle /> )} />
-
-      {/* <Route exact path="/attributes/:attribute(\d+)" render={(props) => {
+{/* 
+      <Route exact path="/attributes/:attribute(\d+)" render={(props) => {
                 let attribute = attArray.find(att =>
                     att.attributeName === props.match.params.attribute
                 )
@@ -88,21 +88,21 @@ class AppViews extends Component {
 
       {/* attributes */}
       <Route exact path="/attributes/creative" component={Creative} user={this.props.user} />
-      {/* <Route exact path="/eternal" component={eternal} user={this.props.user} />
-      <Route exact path="/faithful" component={faithful} user={this.props.user} />
-      <Route exact path="/glorious" component={glorious} user={this.props.user} />
-      <Route exact path="/good" component={good} user={this.props.user} />
-      <Route exact path="/gracious" component={gracious} user={this.props.user} />
-      <Route exact path="/holy" component={holy} user={this.props.user} />
-      <Route exact path="/humble" component={humble} user={this.props.user} />
-      <Route exact path="/immutable" component={immutable} user={this.props.user} />
-      <Route exact path="/incomprehensible" component={incomprehensible} user={this.props.user} />
-      <Route exact path="/independent" component={independent} user={this.props.user} />
-      <Route exact path="/invisible" component={invisible} user={this.props.user} />
-      <Route exact path="/jealous" component={jealous} user={this.props.user} />
-      <Route exact path="/joyful" component={joyful} user={this.props.user} />
-      <Route exact path="/just" component={just} user={this.props.user} />
-      <Route exact path="/loving" component={loving} user={this.props.user} />
+      <Route exact path="/attributes/eternal" component={eternal} user={this.props.user} />
+      <Route exact path="/attributes/faithful" component={faithful} user={this.props.user} />
+      <Route exact path="/attributes/glorious" component={glorious} user={this.props.user} />
+      <Route exact path="/attributes/good" component={good} user={this.props.user} />
+      <Route exact path="/attributes/gracious" component={gracious} user={this.props.user} />
+      <Route exact path="/attributes/holy" component={holy} user={this.props.user} />
+      <Route exact path="/attributes/humble" component={humble} user={this.props.user} />
+      <Route exact path="/attributes/immutable" component={immutable} user={this.props.user} />
+      <Route exact path="/attributes/incomprehensible" component={incomprehensible} user={this.props.user} />
+      <Route exact path="/attributes/independent" component={independent} user={this.props.user} />
+      <Route exact path="/attributes/invisible" component={invisible} user={this.props.user} />
+      <Route exact path="/attributes/jealous" component={jealous} user={this.props.user} />
+      <Route exact path="/attributes/joyful" component={joyful} user={this.props.user} />
+      <Route exact path="/attributes/just" component={just} user={this.props.user} />
+      {/* <Route exact path="/loving" component={loving} user={this.props.user} />
       <Route exact path="/merciful" component={merciful} user={this.props.user} />
       <Route exact path="/omnipotent" component={omnipotent} user={this.props.user} />
       <Route exact path="/omnipresent" component={omnipresent} user={this.props.user} />

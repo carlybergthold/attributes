@@ -3,7 +3,6 @@ import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
 import Grid from '../../components/grid'
 import Testimonial from '../../components/testimonial'
-import good from '../../images/attributeIcons/good.png'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -134,4 +133,4 @@ Mount of Thy unchanging love" - 1st verse</p>
 
 }
 
-export default withRouter(Creative);
+export default withRouter(Good);

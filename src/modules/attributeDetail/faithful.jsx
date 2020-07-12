@@ -3,7 +3,6 @@ import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
 import Grid from '../../components/grid'
 import Testimonial from '../../components/testimonial'
-import creative from '../../images/attributeIcons/faithful.png'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 

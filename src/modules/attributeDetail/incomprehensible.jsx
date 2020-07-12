@@ -3,7 +3,6 @@ import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
 import Grid from '../../components/grid'
 import Testimonial from '../../components/testimonial'
-import Incomprehensible from '../../images/attributeIcons/Incomprehensible.png'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -126,4 +125,4 @@ class Incomprehensible extends Component {
 
 }
 
-export default withRouter(Creative);
+export default withRouter(Incomprehensible);

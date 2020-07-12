@@ -3,7 +3,6 @@ import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
 import Grid from '../../components/grid'
 import Testimonial from '../../components/testimonial'
-import Invisible from '../../images/attributeIcons/Invisible.png'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -129,4 +128,4 @@ Almighty, victorious, Thy great name we praise." - 1st verse</p>
 
 }
 
-export default withRouter(Creative);
+export default withRouter(Invisible);
