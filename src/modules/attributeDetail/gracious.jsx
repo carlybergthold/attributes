@@ -3,7 +3,6 @@ import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
 import Grid from '../../components/grid'
 import Testimonial from '../../components/testimonial'
-import gracious from '../../images/attributeIcons/gracious.png'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -132,4 +131,4 @@ In her owns words - "For I had to do it–I knew that. The message that God forg
 
 }
 
-export default withRouter(Creative);
+export default withRouter(Gracious);

@@ -3,7 +3,6 @@ import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
 import Grid from '../../components/grid'
 import Testimonial from '../../components/testimonial'
-import holy from '../../images/attributeIcons/holy.png'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -131,4 +130,4 @@ Though the eye of sinful man, Thy glory may not see: Only Thou art holy, there i
 
 }
 
-export default withRouter(Creative);
+export default withRouter(Holy);

@@ -3,7 +3,6 @@ import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
 import Grid from '../../components/grid'
 import Testimonial from '../../components/testimonial'
-import humble from '../../images/attributeIcons/humble.png'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -136,4 +135,4 @@ O Lamb of God, I come, I come." - 5th verse</p>
 
 }
 
-export default withRouter(Creative);
+export default withRouter(Humble);

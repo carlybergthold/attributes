@@ -3,7 +3,6 @@ import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
 import Grid from '../../components/grid'
 import Testimonial from '../../components/testimonial'
-import eternal from '../../images/attributeIcons/eternal.png'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -39,11 +38,11 @@ class Eternal extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">It could have been the death of a loved one or any other thing that held importance, such as a job, a relationship or an item with monetary or sentimental value.  The pain of grief follows any significant loss as the reality of a different future is absorbed.   Full recovery, if there is such a thing, can be a long process which I can help by keeping up loving relationships and listening to wise counsel.</p>
                   <br></br>
-                  <Testimonial quote=“For all our days pass away under your wrath; we bring our years to an end like a sigh.
+                  <Testimonial quote="For all our days pass away under your wrath; we bring our years to an end like a sigh.
 The years of our life are seventy, or even by reason of strength eighty;
 yet their span is but toil and trouble; they are soon gone, and we fly away…..…So teach us to number our days that we may get a heart of wisdom.
 Return, O LORD! How long? Have pity on your servants!
-Satisfy us in the morning with your steadfast love, that we may rejoice and be glad all our days.” reference="Psalm 90:9-10, 12-14" color="var(--teal)"/>
+Satisfy us in the morning with your steadfast love, that we may rejoice and be glad all our days." reference="Psalm 90:9-10, 12-14" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="fear">
@@ -61,7 +60,7 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
                   </section>
                   <p className="is-size-6 leading-normal padded">Perceiving troubles in the future can help me plan today for a better tomorrow.  But the truth is that my thoughts of the future are always influencing what I do today, so how I view my future is critical.  The certainty of a poor future translates to a bad day today, but a certainty of a brighter future brings a hope which can help me plow through today's most difficult situation.</p>
                   <br></br>
-                  <Testimonial quote=""Where there is no vision, the people perish: but he that keepeth the law, happy is he." reference="Prov 29:18" color="var(--teal)"/>
+                  <Testimonial quote="Where there is no vision, the people perish: but he that keepeth the law, happy is he." reference="Prov 29:18" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -69,7 +68,7 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
                   <h1 className="title has-text-info tracking-wide padded">Only God exists independent of time.</h1></section>
                   <p className="is-size-6 leading-normal padded">He created this concept of time in which I am now bound. He does not have to use time efficiently, or be controlled by it.  He was never born and will never cease to exist. He is the Alpha and Omega.</p>
                   <br></br>
-                  <Testimonial quote=“ ‘I am the Alpha and the Omega,’ says the Lord God, ‘who is and who was and who is to come, the Almighty.’ ” reference="John 1:3" color="var(--teal)"/>
+                  <Testimonial quote="'I am the Alpha and the Omega,’ says the Lord God, ‘who is and who was and who is to come, the Almighty.’" reference="John 1:3" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">
@@ -135,4 +134,4 @@ lead on, O God of might." - 3rd verse</p>
 
 }
 
-export default withRouter(Creative);
+export default withRouter(Eternal);
