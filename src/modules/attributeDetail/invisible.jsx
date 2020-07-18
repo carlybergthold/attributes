@@ -108,7 +108,6 @@ class Invisible extends Component {
                   <p className="is-size-6 leading-normal padded">God will reveal what cannot now be seen by restoring what was once lost.  God was visible to Adam and Eve in Eden, but this benefit was lost when they were banned from the garden.  But they also began to see who they actually were - in God’s image, but not with His perfection.  God then progressively revealed Himself through history (as recorded in the Bible), as well as to individual believers (through sanctification).  Heaven restores the full visibility of God.</p>
                   <p className="is-size-6 leading-normal padded">"The LORD God took the man and put him in the garden of Eden to work it and keep it.....Then the eyes of both were opened, and they knew that they were naked. " - Gen 2:15, 3:7</p>
 
-                  <Grid />
                 </div>
 
                 <div className="attSection" id="liturgy" >
