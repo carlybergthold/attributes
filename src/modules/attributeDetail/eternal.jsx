@@ -37,7 +37,7 @@ class Eternal extends Component {
                 <section>
                   <h1 className="title has-text-info tracking-wide padded">Who or what have I lost that grieved me the most?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">It could have been the death of a loved one or any other thing that held importance, such as a job, a relationship or an item with monetary or sentimental value.  The pain of grief follows any significant loss as the reality of a different future is absorbed.   Full recovery, if there is such a thing, can be a long process which I can help by keeping up loving relationships and listening to wise counsel.</p>
+                  <p className="is-size-6 leading-normal padded">It could have been the death of a loved one or anything that held importance, such as a job, a relationship or an item with monetary or sentimental value.  The pain of grief follows any significant loss as the reality of a different future is absorbed.   Full recovery, if there is such a thing, can be a long process, helped by keeping up loving relationships and listening to wise counsel.</p>
                   <br></br>
                   <Testimonial quote=“For all our days pass away under your wrath; we bring our years to an end like a sigh.
 The years of our life are seventy, or even by reason of strength eighty;
@@ -59,7 +59,7 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
                 <section>
                   <h1 className="title has-text-info tracking-wide padded">Why do I often have this sinking feeling that things will not turn out very well? </h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Perceiving troubles in the future can help me plan today for a better tomorrow.  But the truth is that my thoughts of the future are always influencing what I do today, so how I view my future is critical.  The certainty of a poor future translates to a bad day today, but a certainty of a brighter future brings a hope which can help me plow through today's most difficult situation.</p>
+                  <p className="is-size-6 leading-normal padded">Imagining possible troubles in the future can help me plan today for a better tomorrow.  But the truth is that my thoughts of the future are always influencing what I do today, so how I view my future is critical.  The certainty of a poor future translates to a gloomy, hopeless day today, but a certainty of a brighter future brings a hope which can help me plow through today's most difficult situations.</p>
                   <br></br>
                   <Testimonial quote=""Where there is no vision, the people perish: but he that keepeth the law, happy is he." reference="Prov 29:18" color="var(--teal)"/>
                 </div>
@@ -75,7 +75,7 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
                 <div className="attSection" id="biblicalChristianity">
                   <section>
                   <h1 className="title has-text-info tracking-wide padded">Jesus is the way for believers to live eternally with God.</h1></section>
-                  <p className="is-size-6 leading-normal padded">Without Him, imperfect people would never be compatible with a perfectly righteous and just God.  True justice cannot tolerate unrighteousness - what allows the two to coexist today is only a matter of time.</p>
+                  <p className="is-size-6 leading-normal padded">Without Him, imperfect people would never be compatible with a perfectly righteous and just God.  True justice cannot tolerate unrighteousness - what allows the two to coexist today is only a matter of time.  Only time (through God's patience and mercy) delays justice's instant obliteration of all unrighteousness.</p>
                   <Testimonial quote="In flaming fire, inflicting vengeance on those who do not know God and on those who do not obey the gospel of our Lord Jesus. They will suffer the punishment of eternal destruction, away from the presence of the Lord and from the glory of his might," reference="2 Thess 1:8-9" color="var(--teal)"/>
                 </div>
 
@@ -83,7 +83,7 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
                 <section>
                   <h1 className="title has-text-info tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Believe in Jesus Christ and seek a long-term perspective which includes an eternal citizenship in heaven.  Allow this long-term perspective to impact the short-term, making it more urgent to savor current moments while making it needless to cling to them.  It is quite like the positive feeling of being at work just before the weekend or holiday. Ask: How far out is my longest perspective?</p>
+                  <p className="is-size-6 leading-normal padded">Believe in Jesus Christ, which includes being sure you have an eternal citizenship in heaven.  Knowing you will live eternally allows you to seek a long-term perspective.  Allow this long-term perspective to impact the present, making it more urgent to savor current moments while making it needless to cling to them.  It is quite like the positive feeling of being at work just before the weekend or holiday.  Ask: How far out is my longest perspective?</p>
                   <Testimonial quote="But our citizenship is in heaven. And we eagerly await a Savior from there, the Lord Jesus Christ, who, by the power that enables him to bring everything under his control, will transform our lowly bodies so that they will be like his glorious body." reference="Phil 3:20-21" color="var(--teal)"/>
                 </div>
 
@@ -91,40 +91,40 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
                   <section>
                   <h1 className="title has-text-info tracking-wide padded">Prayer</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Eternal God, thank you for always being present - in my past, present and future.  Help me to appreciate this moment in time as well as how short this life really is.</p>
+                  <p className="is-size-6 leading-normal padded">Eternal God, thank you for always being present - in my past, present and future.  Help me to appreciate this moment in time as well as how short this life really is.  Help me to live my temporary life on earth based on my eternal life in heaven with You.</p>
                   <Testimonial quote="Remember how short my time is!  For what vanity you have created all the children of man!" reference="Psalm 89:47" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">Nothing we see around us lives eternally, but how long can they live? </h1>
+                  <h1 className="title has-text-info tracking-wide padded">How long do things live? </h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Mayflies live the shortest life on Earth - only 24 hours. Compare that with the common housefly at 4 weeks.  Humans live on average almost 80 years old in the US.  The oldest person (independently verified) is Jeanne Calment (1875–1997) of France, who lived to the age of 122 years, 164 days. The oldest verified man ever is Jiroemon Kimura (1897–2013) of Japan, who lived to the age of 116 years, 54 days.  The oldest person from Biblical accounts was Methuselah, at 969 years (Genesis 5:27).</p>
-                  <p className="is-size-6 leading-normal padded">But some animals live even longer (verified) lives - a famous Giant Galapagos Tortoise made 152 years.  Greenland Sharks can reach 200 years old, although one individual was found that was 400 years old – making it the oldest vertebrate in the world. A bivalve mollusk, aka "Ming", lived 507±2 years.</p>
-                  <p className="is-size-6 leading-normal padded">But plants currently rule the longevity contest.  A Great Basin Bristlecone Pine called Methuselah is 4,848 years old (as of 2017) and the Bristlecone Pine called Prometheus was a little older still, at least 4,844 years (and possibly as old as 5,000 years), when it was cut down in 1964. The oldest known plant (possibly oldest living thing) is a clonal Quaking Aspen tree colony in the Fishlake National Forest in Utah called Pando at about 80,000 years.</p>
+                  <p className="is-size-6 leading-normal padded">Nothing we see lives forever.  Mayflies live the shortest life on Earth - only 24 hours. Compare that with the common housefly at 4 weeks.  Humans in the USA live on average almost 80 years old.  The oldest person (independently verified) is Jeanne Calment (1875–1997) of France, who lived to the age of 122 years, 164 days. The oldest verified man ever is Jiroemon Kimura (1897–2013) of Japan, who lived to the age of 116 years, 54 days.  The oldest person from Biblical accounts was Methuselah, at 969 years (Genesis 5:27).</p>
+                  <p className="is-size-6 leading-normal padded">But some animals live even longer (verified) lives - a famous Giant Galapagos Tortoise made 152 years.  Greenland Sharks can reach 200 years old, although one individual was found that was 400 years old – making it the oldest vertebrate in the world. A bivalve mollusk, aka "Ming", lived 507, plus or minus 2 years.</p>
+                  <p className="is-size-6 leading-normal padded">But plants currently rule the longevity contest.  A Great Basin Bristlecone Pine called Methuselah is 4,851 years old (as of 2020).  A Bristlecone Pine called Prometheus was a little older still, estimated at 4844-5000 years old when it was cut down in 1964. The oldest known plant (possibly oldest living thing) is a clonal Quaking Aspen tree colony in the Fishlake National Forest in Utah called Pando at about 80,000 years.</p>
                 </div>
 
                 <div className="attSection" id="history">
                 <section>
                   <h1 className="title has-text-info tracking-wide padded">Is the fountain of youth real?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Ponce de León searching for the Fountain of Youth when he traveled to what is now Florida in 1513 was only a myth. It was a continuation of tales begun as early as 500 B.C. about Herodotus and 300 A.D. regarding Alexander the Great. The idea of drinking special water to live much longer is false, but does reflect the Biblical truth expressed in Jesus' encounter with the Samaritan woman at the well in John 4.  The water there is symbolic of the Holy Spirit, who does bring eternal life to those in whom He lives.</p>
+                  <p className="is-size-6 leading-normal padded">Ponce de León searching for the Fountain of Youth when he traveled to what is now Florida in 1513 was only a myth. It was a continuation of tales begun as early as 500 B.C. about Herodotus and 300 A.D. regarding Alexander the Great. The idea of drinking special water to live much longer is false, but does reflect the Biblical truth expressed in Jesus' encounter with the Samaritan woman at the well in John 4, where the water is symbolic of the Holy Spirit, who actually and uniquely does bring eternal life to those in whom He lives.</p>
                   <p className="is-size-6 leading-normal padded">"Jesus said to her, “Everyone who drinks of this water will be thirsty again, but whoever drinks of the water that I will give him will never be thirsty again. The water that I will give him will become in him a spring of water welling up to eternal life.' ” - John 4:13-14</p>
 
                 </div>
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-info tracking-wide padded">Lead On, Oh King Eternal - Ernest Shurtleff</h1>
+                    <h1 className="title has-text-info tracking-wide padded">Amazing Grace - John Newton</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Lead on, O King eternal;
-we follow, not with fears,
-for gladness breaks like morning
-where'er your face appears.
-Your cross is lifted o'er us,
-we journey in its light;
-the crown awaits the conquest;
-lead on, O God of might." - 3rd verse</p>
+                    <p className="is-size-6 leading-normal padded">"Yea, when this flesh and heart shall fail,
+and mortal life shall cease,
+I shall possess within the veil,
+A life of joy and peace.
+When we've been there ten thousand years
+Bright shining as the sun,
+We've no less days to sing God's praise
+Than when we've first begun." - 5th and 6th verse</p>
                 </div>
 
             </main>
