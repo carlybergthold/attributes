@@ -110,7 +110,6 @@ class Just extends Component {
                   <p className="is-size-6 leading-normal padded">"But if in the open country a man meets a young woman who is betrothed, and the man seizes her and lies with her, then only the man who lay with her shall die. But you shall do nothing to the young woman; she has committed no offense punishable by death. For this case is like that of a man attacking and murdering his neighbor" - Deut 22:25-26</p>
                   <p className="is-size-6 leading-normal padded">Even Jewish law from 3500 years ago was revolutionary for the dignity of women. These verses recognize rape as a violent crime - on par with murder. Before the fall of Adam and Eve, their relationship was synergistic, complementary - reflecting the ideal relationship within the Trinity and between Christ and His Church.  The fall resulted in much distortion and combativeness between the genders - and today's reality of sexual abuse is a testimony of this truth.</p>
 
-                  <Grid />
                 </div>
 
                 <div className="attSection" id="liturgy" >

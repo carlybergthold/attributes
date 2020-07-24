@@ -28,7 +28,7 @@ class Glorious extends Component {
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Glorious describes the summation of all of God’s attributes, often known as God’s beauty. 
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">Every human is in God’s image, so we not only reflect His glory, but can be attracted to imitations of His glory called fame and pride. Like God, we are pleased when others listen to us, appreciate us, and value us for who we are and what we do.  Glory’s root word indicates “heaviness” - so what we glory is what we hold to be most important.  Who or what would you say is your own glory?</p>
+                  <p className="is-size-6 leading-normal padded">Every human is created in God’s image, so we not only reflect His glory, but can be attracted to imitations of His glory called fame and pride. Like God, we are pleased when others listen to us, appreciate us, and value us for who we are and what we do.  Glory’s root word indicates “heaviness” - so what we glory is what we hold to be most important.  Who or what would you say is your own glory?</p>
                   <p className="is-size-6 leading-normal padded"> When I am not appreciated by others I can feel rejected.  I can obsess at times over what others think of me and work hard to make people think highly of me, maybe even better than who I really am.</p>
                 </div>
 
@@ -55,15 +55,16 @@ May the LORD give strength to his people! May the LORD bless his people with pea
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">Isn’t it beneficial to have a good reputation?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Yes, when my reputation is based on fact and reflects God’s image, it is very beneficial.  And it feels good when someone thinks or speaks well of me, especially when I was not seeking it out.  But when I crave a good reputation as much as I do sweets or other pleasures, I am seeking my own glory and inevitably lessening God’s.</p>
+                  <p className="is-size-6 leading-normal padded">Yes, when my reputation is based on fact and reflects God’s image, it is very beneficial.  And it feels good when someone thinks or speaks well of me, especially when I was not seeking it out.  But when I crave a good reputation, I am seeking my own glory and inevitably lessening God’s.</p>
                   <br></br>
                   <Testimonial quote="It is not good to eat much honey, nor is it glorious to seek one's own glory." reference="Prov 25:27" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Only God originates glory.</h1></section>
-                  <p className="is-size-6 leading-normal padded">All my true glory is a reflection of His glory and is not additive to His glory.  God's full glory must actually be diminished for me to safely perceive it.  Manmade glory is often marketed or exaggerated in order to capture my attention, which is its primary purpose.</p>
+                  <h1 className="title has-text-info tracking-wide padded">Only God originates glory.</h1></section>
+                  <p className="is-size-6 leading-normal padded">All my true glory is a reflection of God's glory - it does not add to His glory.  God's full glory must actually be diminished for me to safely perceive it.  Manmade glory is often marketed or exaggerated in order to capture my attention, which is its primary purpose.</p>
+
                   <br></br>
                   <Testimonial quote="I (Jesus speaking) do not receive glory from people….How can you believe, when you receive glory from one another and do not seek the glory that comes from the only God?" reference="John 5:41,44" color="var(--teal)"/>
                 </div>
@@ -93,20 +94,22 @@ May the LORD give strength to his people! May the LORD bless his people with pea
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">We often associate the color white with perfection, cleanliness, or purity. A black object absorbs most of the light that strikes its surface.  White objects reflect all visible light wavelengths (or colors) equally.  God's glory is the “white light” summation of all His combined attributes.  But it can lose its brilliance if not reflected well or if an attribute is over-emphasized to the detriment of others. </h1>
+                  <h1 className="title has-text-info tracking-wide padded">How is God's glory like white light?</h1>
+
                   </section>
+                  <p className="is-size-6 leading-normal padded">We often associate the color white with perfection, cleanliness, or purity. A black object absorbs most of the light that strikes its surface.  White objects reflect all visible light wavelengths (or colors) equally.  God's glory is the “white light” summation of all His combined attributes.  But it can lose its brilliance if not reflected well or if an attribute is over-emphasized to the detriment of others. </p>
                   <p className="is-size-6 leading-normal padded">“Scientists have engineered perhaps the whitest natural substance, using the same physics behind one ghostly white Southeast Asian beetle….A team of European scientists have essentially created the whitest paper using this physical property. … white materials should scatter light of all wavelengths equally—and the key to creating a white material is creating a rough, porous surface that light can bounce around in….The researchers were inspired by the white Cyphochilus beetle, whose scales scatter light through a complex web of a biological structure called chitin. The new material uses cellulose nanofibrils—nanometer-scale fibers of cellulose, a plant-based material similar to chitin used to make paper.” - 3/13/18 article in Gizmodo</p>
                 </div>
 
                 <div className="attSection" id="history">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Jonathan Edwards (1703-1758) was a revivalist preacher, philosopher, Congregationalist Protestant theologian and grandfather of Aaron Burr, third Vice President of the United States.  He entered Yale College at age 12 and played a critical role in the First Great Awakening, delivering the classic sermon "Sinners in the Hands of an Angry God”.</h1>
+                  <h1 className="title has-text-info tracking-wide padded">Jonathan Edwards - More Wrath or Beauty? </h1>
                   </section>
+                  <p className="is-size-6 leading-normal padded">Jonathan Edwards (1703-1758) was a revivalist preacher, philosopher, Congregationalist Protestant theologian and grandfather of Aaron Burr, third Vice President of the United States.  He entered Yale College at age 12 and played a critical role in the First Great Awakening, delivering the classic sermon "Sinners in the Hands of an Angry God”.</p>
                   <p className="is-size-6 leading-normal padded">“Few Americans have known that Edwards was actually obsessed not by God’s wrath but by God’s beauty….In fact, the historian of theological aesthetics Patrick Sherry has shown that Edwards made beauty more central to theology than anyone else in the history of Christian thought, including Augustine and (the 20th-century Swiss Catholic) Hans Urs von Balthasar….</p>
                   <p className="is-size-6 leading-normal padded">When I first saw Edwards’s depiction of God’s beauty, it changed my view of God.
 I realized afresh that He does not drive us by duty, but draws us by beauty, not by fear but by irresistible attraction.  It is like the way the most beautiful music and works of art draw us closer and closer.  Once we hear and see their beauty, we want more and more.  When it is great art or music, and we have eyes and ears to see and hear, we feel overtaken and absorbed by the beauty—so much so that sometimes we forget ourselves and are drawn to that beauty outside of ourselves.  That is how Edwards described true religious experience.  It is what compels us to abandon love for self as the central principle of our lives and turn to the beauty of God.  We feel compelled, and yet we are not coerced.  We are drawn ineluctably.” - ‘Drawn by God's Beauty: The Surprising Jonathan Edwards’, 11/7/18 article by Gerald McDermott</p>
 
-                  <Grid />
                 </div>
 
                 <div className="attSection" id="liturgy" >

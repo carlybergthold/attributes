@@ -28,8 +28,8 @@ class Jealous extends Component {
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jealous means to eagerly desire the best for our own and thus not tolerate rivals.
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">We want what is good for those closest to us - and we expect those close to us to want and do good for us as well.  84% of Americans surveyed in a 2013 Pew Research Center study believed cheating on one’s spouse was morally unacceptable.  At least 60% of respondents viewed infidelity as wrong in 38 of 39 nations polled (only exception: France). </p>
-                  <p className="is-size-6 leading-normal padded">My biggest fears show what I value the most.  I work hard to avoid losing what I value (fear is often about potential loss).  When others take away what I value, it seems like punishment, for which I may blame God.  But when I sense God’s jealous love for me, I realize the high value He has for me and that every action He takes is for my good.</p>
+                  <p className="is-size-6 leading-normal padded">We want what is good for those we care for - and we expect those who care for us to want and do good for us as well.  84% of Americans surveyed in a 2013 Pew Research Center study believed cheating on one’s spouse was morally unacceptable.  At least 60% of respondents viewed infidelity as wrong in 38 of 39 nations polled (only exception: France). </p>
+                  <p className="is-size-6 leading-normal padded">My biggest fears show what I value the most.  Fear is often about potential loss and I work hard to avoid losing what I value most.  When others take away what I value, it seems like punishment, for which I may blame God.  But when I sense God’s jealous love for me, I realize the high value He has for me and that every action He takes is for my good.</p>
                 </div>
 
                 <div className="attSection" id="emotion">
@@ -39,7 +39,7 @@ class Jealous extends Component {
                   <p className="is-size-6 leading-normal padded">Fear anticipates danger which could harm me or something I love.  If I don’t fear God, I will live in life’s abundance of fears. Each fear will remind me that what I value is always vulnerable.  And I will likely overlook the greatest danger of life - not knowing, trusting and loving God.</p>
                   <p className="is-size-6 leading-normal padded">When I fear God, I recognize His power and authority over me, and realize how dangerous He is and how vulnerable I am.  But fear of God is so much more.  It includes realizing His protective love for me - like a shelter or shadow which can never be removed.  It does not protect me from all trouble - because God promises to be with me IN trouble - but rather protects me from what can truly harm me, a separation from Him.  And my fear of God will diminish all other fears because they only anticipate a loss of something with much less value than God. </p>
                   <br></br>
-                  <Testimonial quote="He who dwells in the shelter of the Most High will abide in the shadow of the Almighty.  I will say to the LORD, ‘My refuge and my fortress, my God, in whom I trust.’ ….….You will not fear the terror of the night, nor the arrow that flies by day, nor the pestilence that stalks in darkness, nor the destruction that wastes at noonday…..’Because he holds fast to me (God) in love, I will deliver him; I will protect him, because he knows my name.  When he calls to me, I will answer him; I will be with him in trouble;  I will rescue him and honor him.  With long life I will satisfy him and show him my salvation.’ " reference="Psalm 91:1-2, 5-6, 14-16" color="var(--teal)"/>
+                  <Testimonial quote="He who dwells in the shelter of the Most High will abide in the shadow of the Almighty.  I will say to the LORD, ‘My refuge and my fortress, my God, in whom I trust.’ ….….You will not fear the terror of the night, nor the arrow that flies by day, nor the pestilence that stalks in darkness, nor the destruction that wastes at noonday…..’(God says) Because he holds fast to me in love, I will deliver him; I will protect him, because he knows my name.  When he calls to me, I will answer him; I will be with him in trouble;  I will rescue him and honor him.  With long life I will satisfy him and show him my salvation.’ " reference="Psalm 91:1-2, 5-6, 14-16" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="fear">
@@ -55,7 +55,7 @@ class Jealous extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">Doesn’t God want me to enjoy the things of this life?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">God wants me to enjoy life to the fullest and He knows that this comes first from loving Him.  God distastes any competing affections that cause me to love Him less because I will then gravitate to a self-centered life, with little-to-no capacity to truly love others, including myself.  This is so important that He uses the first four "ten commandments" to emphasize it - 1) don't have other gods, 2) don't make any idols (i.e. anything more important than God), 3) don't take God's name in vain (anything which devalues who He is), and 4) remember the Sabbath (which constantly reminds me of #1-3).</p>
+                  <p className="is-size-6 leading-normal padded">God wants me to enjoy life to the fullest and He knows that this comes first from loving Him.  God detests any competing affections that cause me to love Him less because I will then gravitate to a self-centered life, with little-to-no capacity to truly love others, including myself.  This is so important that He uses the first four "ten commandments" to emphasize it - 1) don't have other gods, 2) don't make any idols (i.e. anything more important than God), 3) don't take God's name in vain (anything which devalues who He is), and 4) remember the Sabbath (which constantly reminds me of #1-3).</p>
                   <br></br>
                   <Testimonial quote=" 'You shall have no other gods before me. You shall not make for yourself a carved image, or any likeness of anything that is in heaven above, or that is in the earth beneath, or that is in the water under the earth. You shall not bow down to them or serve them, for I the LORD your God am a jealous God...'" reference="Exod 20:3-5a" color="var(--teal)"/>
                 </div>
@@ -108,14 +108,16 @@ class Jealous extends Component {
                   <p className="is-size-6 leading-normal padded">Jews have pursued God through a religion of works for centuries.  And although God chose Israel and the Jewish people to be His faithful ones, many refused to accept Jesus in faith as Messiah.  This rejection allowed this gift to be offered to Gentiles (all non-Jews), resulting in Christianity. Some Jews now and more in the future will become jealous of this gracious faith and be drawn to Jesus.</p>
                   <p className="is-size-6 leading-normal padded">"Now I am speaking to you Gentiles. Inasmuch then as I am an apostle to the Gentiles, I magnify my ministry in order somehow to make my fellow Jews jealous, and thus save some of them." - Rom 11:13-14</p>
 
-                  <Grid />
                 </div>
 
                 <div className="attSection" id="liturgy" >
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">Jealous God - Know Hope Collective</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Now I know you would stop at nothing, to pull me close, steal my heart away. So here I am broken and listening.Held captive here and I just wanna stay." - First verse</p>
+                    <p className="is-size-6 leading-normal padded">"Now I know you would stop at nothing, 
+                    to pull me close, steal my heart away. 
+                    So here I am broken and listening. 
+                    Held captive here and I just wanna stay." - First verse</p>
                 </div>
 
             </main>
