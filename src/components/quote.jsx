@@ -5,17 +5,12 @@ class Quote extends Component {
     render() {
 
         return(
-        <div class="testimonial-quote group">
-            <div class="quote-container">
-                <div>
+                <div style={{margin: "0 2rem"}}>
                     <blockquote>
-                        <p>{this.props.scripture}</p>
+                        <p style={{fontFamily: "helvetica", fontSize: "1.2rem", fontStyle: "italic", paddingLeft: "2rem", borderLeft: "3px solid lightgray"}}>{this.props.scripture}</p>
                     </blockquote>
-                    <cite><span>{this.props.reference}</span>
-                    </cite>
+                    <footer style={{textTransform: "uppercase", color: "#b5b5b5", marginTop: "0.5rem"}}>{this.props.reference}</footer>
                 </div>
-            </div>
-        </div>
         )
     }
 }
