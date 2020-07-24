@@ -3,7 +3,6 @@ import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
 import Grid from '../../components/grid'
 import Testimonial from '../../components/testimonial'
-import glorious from '../../images/attributeIcons/glorious.png'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -17,7 +16,7 @@ class Glorious extends Component {
         return(
             <body className="attPage">
             <Hero title="Glorious" subtitle="Who God is" img="girl.png" />
-            <div className="container is-fullhd has-text-left relativeMaybe" id="gloriousContainer">
+            <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside>
                 <section id="sidebar">
                   <AttributeSidebar />
@@ -27,7 +26,7 @@ class Glorious extends Component {
               <main>
                 <div className="attSection" id="definition">
                   <section>
-                  <h1 className="title has-text-info tracking-wide padded">Glorious describes the summation of all of God’s attributes, often known as God’s beauty. 
+                  <h1 className="title has-text-primary tracking-wide padded">Glorious describes the summation of all of God’s attributes, often known as God’s beauty. 
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">Every human is created in God’s image, so we not only reflect His glory, but can be attracted to imitations of His glory called fame and pride. Like God, we are pleased when others listen to us, appreciate us, and value us for who we are and what we do.  Glory’s root word indicates “heaviness” - so what we glory is what we hold to be most important.  Who or what would you say is your own glory?</p>
                   <p className="is-size-6 leading-normal padded"> When I am not appreciated by others I can feel rejected.  I can obsess at times over what others think of me and work hard to make people think highly of me, maybe even better than who I really am.</p>
@@ -35,7 +34,7 @@ class Glorious extends Component {
 
                 <div className="attSection" id="emotion">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">Will I be accepted for who I really am?</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">Will I be accepted for who I really am?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Rejection hurts, regardless of its source.  I can wonder what’s wrong with me and my “glory” - and whether I can ever be accepted for who I really am.  Our neural reaction to rejection is very similar to pain - studies have even shown that Tylenol reduces the emotional pain from rejection.  Ironically, when I reject God, it hurts me, not God (whose glory is full forever).  When I reject God, I dismiss His glory, His beauty, His image in me and those around me - leaving me with less than I was designed to have.  But when I ascribe (or attribute) all glory to God, I am strengthened by knowing I have His image and am given peace by His love and acceptance. </p>
                   <br></br>
@@ -45,7 +44,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
 
                 <div className="attSection" id="fear">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">Should I be concerned about the opinions of others?</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">Should I be concerned about the opinions of others?</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">This question pops up in everyone’s life periodically (or very often!).  If others’ opinions reflect God, they may help and encourage me.  If the opinions oppose God, they will likely hurt me.  But whether helpful or harmful, when I place more weight on what others think than what God has said, I have made that person an idol and subjected myself to their power.  I have loved their glory more than God’s.</p>
                   <br></br>
@@ -54,7 +53,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
 
                 <div className="attSection" id="struggle">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">Isn’t it beneficial to have a good reputation?</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">Isn’t it beneficial to have a good reputation?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Yes, when my reputation is based on fact and reflects God’s image, it is very beneficial.  And it feels good when someone thinks or speaks well of me, especially when I was not seeking it out.  But when I crave a good reputation, I am seeking my own glory and inevitably lessening God’s.</p>
                   <br></br>
@@ -65,20 +64,21 @@ May the LORD give strength to his people! May the LORD bless his people with pea
                 <section>
                   <h1 className="title has-text-info tracking-wide padded">Only God originates glory.</h1></section>
                   <p className="is-size-6 leading-normal padded">All my true glory is a reflection of God's glory - it does not add to His glory.  God's full glory must actually be diminished for me to safely perceive it.  Manmade glory is often marketed or exaggerated in order to capture my attention, which is its primary purpose.</p>
+
                   <br></br>
                   <Testimonial quote="I (Jesus speaking) do not receive glory from people….How can you believe, when you receive glory from one another and do not seek the glory that comes from the only God?" reference="John 5:41,44" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
-                  <h1 className="title has-text-info tracking-wide padded">Jesus was glorious because He was both man and God.</h1></section>
+                  <h1 className="title has-text-primary tracking-wide padded">Jesus was glorious because He was both man and God.</h1></section>
                   <p className="is-size-6 leading-normal padded">Not a man who was very godly, nor God in the shell of a man’s body.  He gloriously lived as fully God and man without sin so that He could be the perfect sacrifice on the cross to cover man’s sins.</p>
                   <Testimonial quote="And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth." reference="John 1:14" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">So what do I do now?</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Begin to see Who God is with more clarity, discovering how perfect and beautiful are His attributes. Discern that any glory I see in other people is either a reflection of God or not true glory. Seek His glory and not my own.  Ask: Have I recently seen evidence of God’s glory in other people?</p>
                   <Testimonial quote="The one who speaks on his own authority seeks his own glory; but the one who seeks the glory of him who sent him is true, and in him there is no falsehood." reference="John 7:18" color="var(--teal)"/>
@@ -86,7 +86,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
 
                   <div className="attSection" id="prayer">
                   <section>
-                  <h1 className="title has-text-info tracking-wide padded">Prayer</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Lord, help me to see and savor your Glory and Beauty. Let this new understanding impact my priorities - what I choose to give weight to - your eternal Beauty versus temporary glitter.</p>
                   <Testimonial quote="Oh, taste and see that the LORD is good! Blessed is the man who takes refuge in him!" reference="Psalm 34:8" color="var(--teal)"/>
@@ -95,6 +95,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
                 <div className="attSection has-background-light" id="scienceAndHealth">
                 <section>
                   <h1 className="title has-text-info tracking-wide padded">How is God's glory like white light?</h1>
+
                   </section>
                   <p className="is-size-6 leading-normal padded">We often associate the color white with perfection, cleanliness, or purity. A black object absorbs most of the light that strikes its surface.  White objects reflect all visible light wavelengths (or colors) equally.  God's glory is the “white light” summation of all His combined attributes.  But it can lose its brilliance if not reflected well or if an attribute is over-emphasized to the detriment of others. </p>
                   <p className="is-size-6 leading-normal padded">“Scientists have engineered perhaps the whitest natural substance, using the same physics behind one ghostly white Southeast Asian beetle….A team of European scientists have essentially created the whitest paper using this physical property. … white materials should scatter light of all wavelengths equally—and the key to creating a white material is creating a rough, porous surface that light can bounce around in….The researchers were inspired by the white Cyphochilus beetle, whose scales scatter light through a complex web of a biological structure called chitin. The new material uses cellulose nanofibrils—nanometer-scale fibers of cellulose, a plant-based material similar to chitin used to make paper.” - 3/13/18 article in Gizmodo</p>
@@ -113,7 +114,7 @@ I realized afresh that He does not drive us by duty, but draws us by beauty, not
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-info tracking-wide padded">To God Be the Glory - Fanny Crosby</h1>
+                    <h1 className="title has-text-primary tracking-wide padded">To God Be the Glory - Fanny Crosby</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"Praise the Lord, praise the Lord,
   Let the earth hear His voice;

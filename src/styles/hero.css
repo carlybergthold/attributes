@@ -1,6 +1,5 @@
 .heroContainer {
     display: flex;
-    flex-flow: row nowrap;
     align-items: center;
 }
 
@@ -10,4 +9,12 @@
     justify-content: flex-start;
     align-items: center;
     padding-left: 5rem;
+}
+
+#heroTitle {
+    margin-bottom: 0;
+}
+
+#heroSubtitle {
+    margin-top: 0;
 }
