@@ -47,7 +47,7 @@ class Gracious extends Component {
                 </section>
                   <p className="is-size-6 leading-normal padded">We should expect some level of suffering when we love and offer grace, because doing so is a sacrifice, and when we sacrifice our own wants in order to help another, it causes discomfort and inconvenience. Sometimes people abuse our desire to help.  When the negative impact escalates, we ought to forgive.  However, forgiveness does not tolerate continued abuse nor release all forms of accountability. It does not mean you must continue the relationship, especially in the same manner.  It does involve giving up the desire to hurt someone who has hurt me.  And ideally it involves repentance (a true change of behavior) of the abuser.  But even absent repentance, I can still seek what is graciously best for both me and the other.</p>
                   <br></br>
-                  <Testimonial quote="Then Peter came up and said to him, 'Lord, how often will my brother sin against me, and I forgive him? As many as seven times?' Jesus said to him, 'I do not say to you seven times, but seventy-seven times.' " reference="Matt 18:21-22" color="var(--teal)"/>
+                  <Testimonial quote="Then Peter came up and said to him, 'Lord, how often will my brother sin against me, and I forgive him? As many as seven times?' Jesus said to him, 'I do not say to you seven times, but seventy-seven times.' " reference="Matthew 18:21-22" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -71,7 +71,7 @@ class Gracious extends Component {
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus was the sacrifice lovingly made and given to us, the undeserving.</h1></section>
                   <p className="is-size-6 leading-normal padded">No one deserves eternal salvation.  I must recognize this critical truth before Jesus, a gracious and precious gift, can be received and valued in my life. </p>
-                  <Testimonial quote="For all have sinned and fall short of the glory of God, and are justified by his grace as a gift, through the redemption that is in Christ Jesus." reference="Rom 3:23-24" color="var(--teal)"/>
+                  <Testimonial quote="For all have sinned and fall short of the glory of God, and are justified by his grace as a gift, through the redemption that is in Christ Jesus." reference="Romans 3:23-24" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -80,7 +80,7 @@ class Gracious extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">Remove all thoughts of earning salvation; recognize it as fully independent of my works, actions, thoughts or motives.  Receive salvation through faith in Christ alone, with gratitude, as a true gift.  </p>
                   <p className="is-size-6 leading-normal padded">Ask: How do I feel about helping someone who is either ungrateful or not deserving?  Does my graciousness depend on what I view as their worthiness?</p>
-                  <Testimonial quote="For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast." reference="Eph 2:8-9" color="var(--teal)"/>
+                  <Testimonial quote="For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast." reference="Ephesians 2:8-9" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -119,9 +119,9 @@ In her owns words - "For I had to do it–I knew that. The message that God forg
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">Grace, Greater Than Our Sin - Julia Johnson</h1>
+                    <h1 className="title has-text-primary tracking-wide padded">"Grace, Greater Than Our Sin" - Julia Johnson</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Marvelous grace of our loving Lord, Grace that exceeds our sin and our guilt! Yonder on Calvary’s mount outpoured, There where the blood of the Lamb was spilled." - 1st verse</p>      <Testimonial quote="Now the law came in to increase the trespass, but where sin increased, grace abounded all the more, so that, as sin reigned in death, grace also might reign through righteousness leading to eternal life through Jesus Christ our Lord." reference="Rom 5:20-21" color="var(--teal)"/>
+                    <p className="is-size-6 leading-normal padded">"Marvelous grace of our loving Lord, Grace that exceeds our sin and our guilt! Yonder on Calvary’s mount outpoured, There where the blood of the Lamb was spilled." - 1st verse</p>      <Testimonial quote="Now the law came in to increase the trespass, but where sin increased, grace abounded all the more, so that, as sin reigned in death, grace also might reign through righteousness leading to eternal life through Jesus Christ our Lord." reference="Romans 5:20-21" color="var(--teal)"/>
                 </div>
 
             </main>
