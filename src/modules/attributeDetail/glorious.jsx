@@ -57,7 +57,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
                   </section>
                   <p className="is-size-6 leading-normal padded">Yes, when my reputation is based on fact and reflects God’s image, it is very beneficial.  And it feels good when someone thinks or speaks well of me, especially when I was not seeking it out.  But when I crave a good reputation, I am seeking my own glory and inevitably lessening God’s.</p>
                   <br></br>
-                  <Testimonial quote="It is not good to eat much honey, nor is it glorious to seek one's own glory." reference="Prov 25:27" color="var(--teal)"/>
+                  <Testimonial quote="It is not good to eat much honey, nor is it glorious to seek one's own glory." reference="Proverbs 25:27" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -115,7 +115,7 @@ I realized afresh that He does not drive us by duty, but draws us by beauty, not
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">To God Be the Glory - Fanny Crosby</h1>
+                    <h1 className="title has-text-primary tracking-wide padded">"To God Be the Glory" - Fanny Crosby</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"Praise the Lord, praise the Lord,
   Let the earth hear His voice;
