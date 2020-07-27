@@ -38,7 +38,7 @@ class Holy extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">TFew people tremble with appropriate guilt before a Holy God.  Believers often wallow inappropriately in toxic shame (painful self-condemnation for sinful acts), with little assurance of God’s forgiveness.  Unbelievers may defiantly stand in brazen shamelessness, recognizing no accountability to God or others. My best response is to acknowledge wrongs and seek God’s forgiveness made possible by Christ’s death, and rest in His powerful freedom from guilt.</p>
                   <br></br>
-                  <Testimonial quote="Blessed is the one whose transgression is forgiven, whose sin is covered. Blessed is the man against whom the LORD counts no iniquity, and in whose spirit there is no deceit. For when I kept silent, my bones wasted away through my groaning all day long. For day and night your hand was heavy upon me; my strength was dried up as by the heat of summer. Selah. I acknowledged my sin to you, and I did not cover my iniquity; I said, “I will confess my transgressions to the LORD,” and you forgave the iniquity of my sin." reference="1 John 1:9" color="var(--teal)"/>
+                  <Testimonial quote="Blessed is the one whose transgression is forgiven, whose sin is covered. Blessed is the man against whom the LORD counts no iniquity, and in whose spirit there is no deceit. For when I kept silent, my bones wasted away through my groaning all day long. For day and night your hand was heavy upon me; my strength was dried up as by the heat of summer. Selah. I acknowledged my sin to you, and I did not cover my iniquity; I said, “I will confess my transgressions to the LORD,” and you forgave the iniquity of my sin." reference="Psalm 32:1-5" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="fear">
@@ -64,7 +64,7 @@ class Holy extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Only God is truly holy.</h1></section>
                   <p className="is-size-6 leading-normal padded">I may not even like to hear the word “Holy” because it only makes me feel more guilty.  No one can be made holy through self-effort - only God is able to make something or someone holy and fully worthy of Himself. Even when He makes me holy, however, I do not become a god, but rather a sacrifice to God, joining Him in His work and fellowship.</p>
                   <br></br>
-                  <Testimonial quote="Who will not fear, O Lord, and glorify your name?  For you alone are holy." reference="Rev 15:4a" color="var(--teal)"/>
+                  <Testimonial quote="Who will not fear, O Lord, and glorify your name?  For you alone are holy." reference="Revelation 15:4a" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">
@@ -79,7 +79,7 @@ class Holy extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Recognize that any unworthiness I feel in this life can be traced back to my true unworthiness with God.  Seek God on His merciful terms alone - surrender in repentance and become holy through faith in Jesus Christ.  Ask: Just how holy is my life?</p>
-                  <Testimonial quote="Remember that you were at that time separated from Christ, alienated from the commonwealth of Israel and strangers to the covenants of promise, having no hope and without God in the world." reference="Eph 2:12" color="var(--teal)"/>
+                  <Testimonial quote="Remember that you were at that time separated from Christ, alienated from the commonwealth of Israel and strangers to the covenants of promise, having no hope and without God in the world." reference="Ephesians 2:12" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -87,7 +87,7 @@ class Holy extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Holy God, all my worth comes from you.  Without you, I abound in unholiness - sin.  But even in the midst of sin, you make me fully acceptable and worthy to be and do all you want me to do in this life.  Help me to always remember and act upon this truth.</p>
-                  <Testimonial quote="I appeal to you therefore, brothers, by the mercies of God, to present your bodies as a living sacrifice, holy and acceptable to God, which is your spiritual worship." reference="Rom 12:1" color="var(--teal)"/>
+                  <Testimonial quote="I appeal to you therefore, brothers, by the mercies of God, to present your bodies as a living sacrifice, holy and acceptable to God, which is your spiritual worship." reference="Romans 12:1" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
@@ -103,7 +103,7 @@ class Holy extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">The Jewish nation of Israel was created by God in order to receive God's word, be separate from those around it, and represent God to the world. </h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Israel today remains quite separate from all those nearby, but the Christian faith is found in only 2% of its population.  However, the two largest religions of the world (Christianity and Islam), today covering over half the world's population, have their roots in this tiny nation.  "And I will make of you a great nation, and I will bless you and make your name great, so that you will be a blessing. I will bless those who bless you, and him who dishonors you I will curse, and in you all the families of the earth shall be blessed.” - Gen 12:2-3</p>
+                  <p className="is-size-6 leading-normal padded">Israel today remains quite separate from all those nearby, but the Christian faith is found in only 2% of its population.  However, the two largest religions of the world (Christianity and Islam), today covering over half the world's population, have their roots in this tiny nation.  "And I will make of you a great nation, and I will bless you and make your name great, so that you will be a blessing. I will bless those who bless you, and him who dishonors you I will curse, and in you all the families of the earth shall be blessed.” - Genesis 12:2-3</p>
                   <p className="is-size-6 leading-normal padded">"Israel is the very embodiment of Jewish continuity: It is the only nation on earth that inhabits the same land, bears the same name, speaks the same language, and worships the same God that it did 3,000 years ago. You dig the soil and you find pottery from Davidic times, coins from Bar Kokhba, and 2,000-year-old scrolls written in a script remarkably like the one that today advertises ice cream at the corner candy store." - Quote from Charles Krauthammer - The Weekly Standard, May 11, 1998</p><p className="is-size-6 leading-normal padded">A day after the declaration of independence of the State of Israel in 1948, armies of five Arab countries, Egypt, Syria, Transjordan, Lebanon and Iraq, invaded Israel. This marked the beginning of the War of Independence. Arab states have jointly waged four full scale wars against Israel:
 
 1948 War of Independence
@@ -116,7 +116,7 @@ Despite the numerical superiority of the Arab armies, Israel defended itself eac
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">Holy Holy Holy - Reginald Heber</h1>
+                    <h1 className="title has-text-primary tracking-wide padded">"Holy Holy Holy" - Reginald Heber</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"Holy, Holy, Holy! though the darkness hide Thee,
 Though the eye of sinful man, Thy glory may not see: Only Thou art holy, there is none beside Thee, Perfect in power in love,and purity." - Third verse (of four)</p>
