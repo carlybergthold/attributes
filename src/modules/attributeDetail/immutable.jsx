@@ -47,7 +47,7 @@ class Immutable extends Component {
                 </section>
                   <p className="is-size-6 leading-normal padded">Nobel prize research in economics showed the psychological impact of a loss is two and a half times as powerful as that for a gain.  About half of all people fear losing their job.  90% of people suffer "low battery anxiety”.  Fear of loss grows with the more we have.  And when we have so much already, gaining more is not as important as losing what we have.  But change, especially loss, is a constant part of our human existence.</p>
                   <br></br>
-                  <Testimonial quote=" 'For the mountains may depart and the hills be removed, but my steadfast love shall not depart from you, and my covenant of peace shall not be removed,' says the LORD, who has compassion on you." reference="Isa 54:10" color="var(--teal)"/>
+                  <Testimonial quote=" 'For the mountains may depart and the hills be removed, but my steadfast love shall not depart from you, and my covenant of peace shall not be removed,' says the LORD, who has compassion on you." reference="Isaiah 54:10" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -64,14 +64,14 @@ class Immutable extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Only God is immutable for eternity.</h1></section>
                   <p className="is-size-6 leading-normal padded">To understand that I am not immutable is easy - I change constantly, physically, emotionally, intellectually and more.  It is more difficult to comprehend One Who has not, does not, and never will change. For anyone who depends upon God for salvation and guidance, immutability is vital and may be a bit under-appreciated.  What if He kept changing His laws and truths?</p>
                   <br></br>
-                  <Testimonial quote="For I the LORD do not change;" reference="Mal 3:6a" color="var(--teal)"/>
+                  <Testimonial quote="For I the LORD do not change;" reference="Malachi 3:6a" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus was, is, and will always be God.</h1></section>
                   <p className="is-size-6 leading-normal padded">As God, Jesus has the same attributes.  The God of the Old and New Testaments is not only the same, but has the same message - live by faith in what an immutable God has promised.</p>
-                  <Testimonial quote="Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfill them." reference="Matt 5:17" color="var(--teal)"/>
+                  <Testimonial quote="Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfill them." reference="Matthew 5:17" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -109,7 +109,7 @@ class Immutable extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">Rock of Ages - Augustus  Toplady</h1>
+                    <h1 className="title has-text-primary tracking-wide padded">"Rock of Ages" - Augustus  Toplady</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"While I draw this fleeting breath, When my eyes shall close in death, When I rise to worlds unknown, And behold Thee on Thy throne, Rock of Ages, cleft for me, Let me hide myself in Thee." - Last verse</p>
                 </div>
