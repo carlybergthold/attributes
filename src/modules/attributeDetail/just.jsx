@@ -28,7 +28,7 @@ class Just extends Component {
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Just means to make all things right or good.
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">We like being right and often assume we are even when we are not. We like things to “be right” - our relationships, our food, our commute and jobs, where we live.  And when they are not right, we become unsettled and may even begin to see life as “unfair”.</p>
+                  <p className="is-size-6 leading-normal padded">We like being right and often assume we are even when we are not. We like things to “be right” - our relationships, our food, our commute, our jobs, and where we live.  And when they are not right, we become unsettled and may even begin to see life as “unfair”.</p>
                   <p className="is-size-6 leading-normal padded">I can become annoyed or angered when I perceive unfairness.  My sense of what is right fuels this indignation and my need to be right can direct this feeling in the wrong direction.  It can drive me to blame others (i.e. traffic put me in a foul mood) or deny truth in order to protect myself.</p>
                 </div>
 
@@ -45,7 +45,7 @@ class Just extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">What if I can’t stand being wrong?</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">My thirst for being right is God-given - I seek justice because God is just and I am made in His image.  But my fear of being found wrong is also well-founded - I (and everyone around me) have taken and will continue in a pattern of being wrong, in violation of God's standard of righteousness and thus also subject to His justice. And I cannot fix what only God can.</p>
+                  <p className="is-size-6 leading-normal padded">My thirst for being right is God-given. I seek justice because God is just and I am made in His image.  My fear of being found wrong is also valid. Everyone has been wrong and will continue in a pattern of being wrong, in violation of God's standard of righteousness, and thus are also subject to His justice. And I cannot fix what only God can.</p>
                   <br></br>
                   <Testimonial quote="Create in me a clean heart, O God; and renew a right spirit within me." reference="Ps 51:10" color="var(--teal)"/>
                 </div>
@@ -54,7 +54,7 @@ class Just extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">“That’s not fair!”</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">It’s an expression most often heard from kids, but just as often thought by adults.  Like beauty, fairness is found in the eye of the beholder.  And this world has many different eyes.  I can get lost and hurt in all the resulting confusion.  True forgiveness of others is often what I need.  Forgiveness is taking seriously the awfulness of what has happened when you are treated unfairly. Forgiveness is not pretending that things are other than the way they are.
+                  <p className="is-size-6 leading-normal padded">It’s an expression most often heard from kids, but just as often thought by adults.  Like beauty, fairness is found in the eye of the beholder.  And this world has many different eyes.  I can get lost and hurt in all the resulting confusion.  True forgiveness for others is often what I need.  Forgiveness is taking seriously the awfulness of what has happened when you are treated unfairly. Forgiveness is not pretending that things are other than the way they are.
 - Desmond Tutu</p>
                   <br></br>
                   <Testimonial quote="And whenever you stand praying, forgive, if you have anything against anyone, so that your Father also who is in heaven may forgive you your trespasses." reference="Mark 11:25" color="var(--teal)"/>
@@ -71,7 +71,7 @@ class Just extends Component {
                 <div className="attSection" id="biblicalChristianity">
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus provided a way for sinners to be made right with God.</h1></section>
-                  <p className="is-size-6 leading-normal padded">By going to the cross in obedience to His Father, Jesus dealt justly with sin - through righteousness. “Righteousness is similar to goodness and holiness, but differs in that it requires works to establish it. Something (like Adam) can be holy, but not righteous if good works do not accompany it. God is good, but He refers to Himself as righteous because He works the good as well. Christians are called righteous, not because they have any ability to accomplish good works, but because they reside in the good works (or righteousness) of Christ. Christ's obedience is transferred to us and God grants us eternal life as a result!” - Blue Letter Bible</p>
+                  <p className="is-size-6 leading-normal padded">By going to the cross in obedience to His Father, Jesus dealt justly with sin - through righteousness. “Righteousness is similar to goodness and holiness, but differs in that it requires works to establish it. Something can be holy, but not righteous if good works do not accompany it. God is good, but He refers to Himself as righteous because He works the good as well. Christians are called righteous, not because they have any ability to accomplish good works, but because they reside in the good works (or righteousness) of Christ. Christ's obedience is transferred to us and God grants us eternal life as a result!” - Blue Letter Bible</p>
                   <Testimonial quote="God has often forgiven sinners, but He never forgives sin; and the sinner is only forgiven on the ground of Another having born his punishment: for 'without shedding of blood there is no remission of sins'. (Heb 9:22)." reference="A.W.Pink" color="var(--teal)"/>
                 </div>
 
@@ -79,7 +79,7 @@ class Just extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Remember often that faith in Christ is the only thing that makes me right with God. Then rest in the goodness of God's judgment in any unfairness which is not within my given authority or control. And for what is in my control, let God use me as His instrument for good through obedience to His word.  Ask: What unfair thing has happened in my life?</p>
+                  <p className="is-size-6 leading-normal padded">Remember often that faith in Christ is the only thing that makes me right with God. Then rest in the goodness of God's judgment in any unfairness which is not within my given authority or control. And for what is in my control, let God use me as His instrument for good through obedience to His word.  Ask: What unfair thing has happened in my life?  And what is the right response to it?</p>
                   <Testimonial quote="Do not present your members to sin as instruments for unrighteousness, but present yourselves to God as those who have been brought from death to life, and your members to God as instruments for righteousness." reference="Rom 6:13" color="var(--teal)"/>
                 </div>
 
