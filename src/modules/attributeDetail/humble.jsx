@@ -47,7 +47,7 @@ class Humble extends Component {
                 </section>
                   <p className="is-size-6 leading-normal padded">When I seek to impress someone, I change when they are present.  Doing this with multiple people creates multiple versions of myself, most of which are not truly me.  Deliberating on who I really am and who God sees me as is much more important than assessing and conforming to others’ views.</p>
                   <br></br>
-                  <Testimonial quote="The fear of man lays a snare, but whoever trusts in the LORD is safe." reference="Prov 29:25" color="var(--teal)"/>
+                  <Testimonial quote="The fear of man lays a snare, but whoever trusts in the LORD is safe." reference="Proverbs 29:25" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -87,7 +87,7 @@ class Humble extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Mighty God, thank you for humbly considering what is best for me, and fixing my own sins by sending your own Son to a lowly cross.  Help me to humbly assess my own situation and lift you and others up in my thoughts, words and actions.</p>
-                  <Testimonial quote="Do nothing from selfish ambition or conceit, but in humility count others more significant than yourselves. Let each of you look not only to his own interests, but also to the interests of others. Have this mind among yourselves, which is yours in Christ Jesus, who, though he was in the form of God, did not count equality with God a thing to be grasped, but emptied himself, by taking the form of a servant, being born in the likeness of men. And being found in human form, he humbled himself by becoming obedient to the point of death, even death on a cross." reference="Phil 2:3-8" color="var(--teal)"/>
+                  <Testimonial quote="Do nothing from selfish ambition or conceit, but in humility count others more significant than yourselves. Let each of you look not only to his own interests, but also to the interests of others. Have this mind among yourselves, which is yours in Christ Jesus, who, though he was in the form of God, did not count equality with God a thing to be grasped, but emptied himself, by taking the form of a servant, being born in the likeness of men. And being found in human form, he humbled himself by becoming obedient to the point of death, even death on a cross." reference="Philippians 2:3-8" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
@@ -109,7 +109,7 @@ class Humble extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded"> Just As I Am - Charlotte Elliott</h1>
+                    <h1 className="title has-text-primary tracking-wide padded"> "Just As I Am" - Charlotte Elliott</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"Just as I am, without one plea,
 But that Thy blood was shed for me,
