@@ -56,7 +56,7 @@ class Incomprehensible extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">No one “gets” everything, especially the first time they approach a subject.  But I do need to work at learning what is really important to me in life - investing in my line of work and  in those close to me.  Consider also who and why I was created.  This last subject can be phrased into a single question: “Who is Jesus?”.  The answer is revealed by God, who also gives me the curiosity to ask the question.</p>
                   <br></br>
-                  <Testimonial quote="He said to them, 'But who do you say that I am?' Simon Peter replied, 'You are the Christ, the Son of the living God.' And Jesus answered him, 'Blessed are you, Simon Bar-Jonah! For flesh and blood has not revealed this to you, but my Father who is in heaven.' " reference="Matt 16:15-17" color="var(--teal)"/>
+                  <Testimonial quote="He said to them, 'But who do you say that I am?' Simon Peter replied, 'You are the Christ, the Son of the living God.' And Jesus answered him, 'Blessed are you, Simon Bar-Jonah! For flesh and blood has not revealed this to you, but my Father who is in heaven.' " reference="Matthew 16:15-17" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -72,7 +72,7 @@ class Incomprehensible extends Component {
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus in the flesh was the most comprehensible form of an incomprehensible God.</h1></section>
                   <p className="is-size-6 leading-normal padded"> Jesus was fully God and fully man.  A mystery prophesied, born, lived and revealed in the Bible, yet still mysterious. </p>
-                  <Testimonial quote="He said to them, 'But who do you say that I am?' Simon Peter replied, 'You are the Christ, the Son of the living God.' And Jesus answered him, 'Blessed are you, Simon Bar-Jonah! For flesh and blood has not revealed this to you, but my Father who is in heaven.' " reference="Matt 16:15-17" color="var(--teal)"/>
+                  <Testimonial quote="He said to them, 'But who do you say that I am?' Simon Peter replied, 'You are the Christ, the Son of the living God.' And Jesus answered him, 'Blessed are you, Simon Bar-Jonah! For flesh and blood has not revealed this to you, but my Father who is in heaven.' " reference="Matthew 16:15-17" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -80,7 +80,7 @@ class Incomprehensible extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Search out the most legitimate revelation from God and build a life aligned with the revealed truths.  Strongly consider Christianity as revealed through the Bible, the most unique revelation of God ever. Ask: Who is God?</p>
-                  <Testimonial quote="I love those who love me, and those who seek me diligently find me." reference="Prov 8:17" color="var(--teal)"/>
+                  <Testimonial quote="I love those who love me, and those who seek me diligently find me." reference="Proverbs 8:17" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -88,7 +88,7 @@ class Incomprehensible extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">God, I do not fully understand you.  You created me as your image, but I find you to be so different from me.  How can I ever know you?  Especially when my faith includes doubt?  Help me to honestly seek and to find you, the One True God.</p>
-                  <Testimonial quote="But from there you will seek the LORD your God and you will find him, if you search after him with all your heart and with all your soul." reference="Deut 4:29" color="var(--teal)"/>
+                  <Testimonial quote="But from there you will seek the LORD your God and you will find him, if you search after him with all your heart and with all your soul." reference="Deuteronomy 4:29" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
@@ -112,7 +112,7 @@ class Incomprehensible extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">Indescribable - Chris Tomlin</h1>
+                    <h1 className="title has-text-primary tracking-wide padded">"Indescribable" - Chris Tomlin</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"Indescribable, uncontainable, You placed the stars in the sky and You know them by name. You are amazing God, All powerful, untameable, Awestruck we fall to our knees as we humbly proclaim. You are amazing God." - Chorus</p>
                 </div>
