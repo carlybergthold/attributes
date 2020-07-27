@@ -48,7 +48,7 @@ class Good extends Component {
                 </section>
                   <p className="is-size-6 leading-normal padded">Life is hard - I go to work, make and keep relationships, all while juggling a myriad of daily tasks.  While others seem to live easily, I ask myself “Will I be good enough?”  In reality, everyone asks this basic life question.  And the key truth is that no one is good enough to earn a relationship with God apart from the work of Christ.  So I can only achieve “success” with God when I realize I am not good enough.</p>
                   <br></br>
-                  <Testimonial quote="For all have sinned and fall short of the glory of God," reference="Rom 3:23" color="var(--teal)"/>
+                  <Testimonial quote="For all have sinned and fall short of the glory of God," reference="Romans 3:23" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -72,7 +72,7 @@ class Good extends Component {
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus was called good by many.</h1></section>
                   <p className="is-size-6 leading-normal padded">But fewer saw that He was also God.  He equated the two in this verse to confess that He was indeed God, something any “good” man would never do (unless true).  God can and does turn what I may see as evil into good, such as the cross - a shameful instrument of death transformed into saving grace through love.</p>
-                  <Testimonial quote="And Jesus said to him, 'Why do you call me good? No one is good except God alone.'" reference="2 Mark 10:18" color="var(--teal)"/>
+                  <Testimonial quote="And Jesus said to him, 'Why do you call me good? No one is good except God alone.'" reference="Mark 10:18" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
