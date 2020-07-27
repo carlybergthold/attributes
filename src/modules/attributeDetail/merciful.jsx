@@ -107,13 +107,13 @@ class Merciful extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">It was only because of God's abundant mercy, lavishly poured out from God on one who understood his desperate need for God's forgiveness.  David came to the point of recognizing his need and asked fGod for mercy.  Much later, two blind men also asked for mercy from Jesus while calling Him the ‘Son of David’.</p>
                   <p className="is-size-6 leading-normal padded">"A Psalm of David, when Nathan the prophet went to him, after he had gone in to Bathsheba.  Have mercy on me, O God, according to your steadfast love; according to your abundant mercy blot out my transgressions." - Psalm 51</p>
-                  <p className="is-size-6 leading-normal padded">"And as Jesus passed on from there, two blind men followed him, crying aloud, “Have mercy on us, Son of David.” - Matt 9:27</p>
+                  <p className="is-size-6 leading-normal padded">"And as Jesus passed on from there, two blind men followed him, crying aloud, “Have mercy on us, Son of David.” - Matthew 9:27</p>
 
                 </div>
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-info tracking-wide padded">At Calvary - Newell</h1>
+                    <h1 className="title has-text-info tracking-wide padded">"At Calvary" - Newell</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"By God’s Word at last my sin I learned; Then I trembled at the law I’d spurned,
 Till my guilty soul imploring turned, To Calvary.
@@ -130,4 +130,4 @@ There my burdened soul found liberty, At Calvary." - 2nd verse and chorus</p>
 
 }
 
-export default withRouter(Creative);
+export default withRouter(Merciful);
