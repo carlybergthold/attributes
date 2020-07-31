@@ -92,7 +92,6 @@ class Independent extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">God, you need nothing from me and I owe all to you.  Help me to see your own greatness and my own need.  Meet that need with You.</p>
                   <Testimonial quote="Do nothing from selfish ambition or conceit, but in humility count others more significant than yourselves." reference="Phil 2:3" color="var(--teal)"/>
-                  <Testimonial quote="In theology, endless mistakes result from supposing that the conditions, bounds, and limits of our own finite existence apply to God….It is vital for spiritual health to believe that God is great." reference="J.I. Packer" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
