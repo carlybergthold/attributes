@@ -63,7 +63,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
                 <div className="attSection" id="whoAmI">
                 <section>
                   <h1 className="title has-text-info tracking-wide padded">Only God originates glory.</h1></section>
-                  <p className="is-size-6 leading-normal padded">All my true glory is a reflection of God's glory and can not add to His glory.  God's full glory must actually be diminished for me to safely perceive it.  Manmade glory is often marketed or exaggerated in order to capture my attention, which is its primary purpose.</p>
+                  <p className="is-size-6 leading-normal padded">All my true glory is a reflection of God's glory and can not add to His glory.  God's full glory must be diminished for me to safely perceive it.  Manmade glory is often marketed or exaggerated in order to capture my attention, which is its primary purpose.</p>
 
                   <br></br>
                   <Testimonial quote="I (Jesus speaking) do not receive glory from people….How can you believe, when you receive glory from one another and do not seek the glory that comes from the only God?" reference="John 5:41,44" color="var(--teal)"/>
@@ -88,7 +88,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Lord, help me to see and savor your Glory and Beauty. Let this new understanding impact my priorities - what I choose to give weight to. Help me to seek and prioritize your eternal Beauty rather than temporary glitter.</p>
+                  <p className="is-size-6 leading-normal padded">Lord, help me to see and savor your Glory and Beauty. Let this new understanding impact my priorities - what I choose to value as weighty. Help me to seek and prioritize your eternal Beauty rather than temporary glitter.</p>
                   <Testimonial quote="Oh, taste and see that the LORD is good! Blessed is the man who takes refuge in him!" reference="Psalm 34:8" color="var(--teal)"/>
                 </div>
 
