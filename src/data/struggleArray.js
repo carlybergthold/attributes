@@ -73,7 +73,7 @@ const struggleArray = [
     },
     {
     attributeName: 'omnipresent',
-    struggleName: 'God's Absence - It seems God is absent.',
+    struggleName: 'Absence of God - It seems God is absent.',
     },
     {
     attributeName: 'omniscient',
