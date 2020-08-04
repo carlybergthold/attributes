@@ -29,14 +29,14 @@ class Humble extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Humble means rightly considering yourself and elevating others.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">Being humble does not mean to demean yourself or only think of others.  We work hard to accurately assess ourselves - to get a true picture of who we are.</p>
-                  <p className="is-size-6 leading-normal padded">Being angry or too busy for others can be two key warning signs that I am missing humility. And, though accurately assessing who I am is at the heart of humility, letting others’ opinions shape me more than God destroys my humility.</p>
+                  <p className="is-size-6 leading-normal padded">Being often aggravated or too busy for others can be two key warning signs that I am missing humility. And, though accurately assessing who I am is at the heart of humility, letting others’ opinions shape me more than God destroys my humility.</p>
                 </div>
 
                 <div className="attSection" id="emotion">
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">Why do others make me so angry?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Anger often demands that we quickly punish or push down those who are making our life more difficult.  We too easily dismiss evidence that our anger can spring from our own stress, hunger, nervousness, sadness, envy, fatigue, illness, or boredom.  Humility honestly checks what is going on inside us and also connects with God on how best to elevate the other.</p>
+                  <p className="is-size-6 leading-normal padded">Anger often demands that I quickly punish or push down those who are making my life more difficult.  I too easily dismiss evidence that my anger can spring from my own stress, hunger, nervousness, sadness, envy, fatigue, illness, or boredom.  Or I fail to realize that the other hasn't really hurt me, but just did not live up to my expectations.  Humility honestly checks what is going on inside me and also connects with God on how best to elevate the other.</p>
                   <br></br>
                   <Testimonial quote="Trust in the LORD, and do good; dwell in the land and befriend faithfulness.  Delight yourself in the LORD, and he will give you the desires of your heart.  Commit your way to the LORD; trust in him, and he will act.  He will bring forth your righteousness as the light, and your justice as the noonday.  Be still before the LORD and wait patiently for him; fret not yourself over the one who prospers in his way, over the man who carries out evil devices!  Refrain from anger, and forsake wrath! Fret not yourself; it tends only to evil.  For the evildoers shall be cut off, but those who wait for the LORD shall inherit the land.  In just a little while, the wicked will be no more; though you look carefully at his place, he will not be there.  But the meek (i.e. humble) shall inherit the land and delight themselves in abundant peace." reference="Psalm 37:3-11" color="var(--teal)"/>
                 </div>
@@ -45,7 +45,7 @@ class Humble extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">What makes me act differently depending upon who I am around?</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">When I seek to impress someone, I change when they are present.  Doing this with multiple people creates multiple versions of myself, most of which are not truly me.  Deliberating on who I really am and who God sees me as is much more important than assessing and conforming to others’ views.</p>
+                  <p className="is-size-6 leading-normal padded">When I seek to impress someone, I change when they are present.  Doing this with multiple people creates multiple versions of myself, most of which are not truly me.  People affect my personality, but God created me and knows me best - even better that I know myself.  Humbly deliberating on who I really am and who God sees me as is much more important than assessing and conforming to others’ views.</p>
                   <br></br>
                   <Testimonial quote="The fear of man lays a snare, but whoever trusts in the LORD is safe." reference="Proverbs 29:25" color="var(--teal)"/>
                 </div>
@@ -54,14 +54,14 @@ class Humble extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">I am so busy right now!</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">I am like most people if I have a calendar and keep it full.  Much is required and much seems required.  How can I love anyone else while I am doing so much good for myself?  The best start to elevating others is spending time with one other - Jesus. </p>
+                  <p className="is-size-6 leading-normal padded">I am like most people if I have a calendar and keep it full.  Much is required and much seems required.  How can I love anyone else while taking so much time doing so much good for myself, for my children, for my job, for...?  The best start to elevating others is spending time with one other - Jesus. </p>
                   <br></br>
                   <Testimonial quote="Now as they went on their way, Jesus entered a village. And a woman named Martha welcomed him into her house. And she had a sister called Mary, who sat at the Lord's feet and listened to his teaching. But Martha was distracted with much serving. And she went up to him and said, “Lord, do you not care that my sister has left me to serve alone? Tell her then to help me.” But the Lord answered her, “Martha, Martha, you are anxious and troubled about many things, but one thing is necessary. Mary has chosen the good portion, which will not be taken away from her." reference="Luke 10:38-42" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Only God fully knows Himself and elevates others.</h1></section>
+                  <h1 className="title has-text-primary tracking-wide padded">Only God fully knows Himself and Always elevates others.</h1></section>
                   <p className="is-size-6 leading-normal padded">God elevates others through sanctification and salvation. Does God’s humility cause Him to see me as above Himself?  Of course not.  He accurately assesses Himself as perfect, and knows I am imperfect; yet He still chooses to serve me and elevate me in many ways.</p>
                   <br></br>
                   <Testimonial quote="When he had washed their feet and put on his outer garments and resumed his place, he said to them, “Do you understand what I have done to you? You call me Teacher and Lord, and you are right, for so I am. If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another’s feet. For I have given you an example, that you also should do just as I have done to you." reference="John 13:12-15" color="var(--teal)"/>
@@ -70,7 +70,7 @@ class Humble extends Component {
                 <div className="attSection" id="biblicalChristianity">
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus was humble.</h1></section>
-                  <p className="is-size-6 leading-normal padded">Jesus lived a humble example for us to follow, yes.  But God’s humble step to become human in order to reconcile sinful man to Himself is so much greater.</p>
+                  <p className="is-size-6 leading-normal padded">Jesus lived a humble example for us to follow, yes.  But God’s humble step to become human in the first place in order to make a way for us to know Him is so much greater.</p>
                   <Testimonial quote="Humility is first, second and third in Christianity." reference="Augustine" color="var(--teal)"/>
                 </div>
 
@@ -78,7 +78,7 @@ class Humble extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Trust that what God says is right and true - then humbly build life on this foundation, one day at a time.  Part of this construction work is realizing who I am in Christ.  Ask: If a Christian: Do I know and rest in who I am in Christ?  If not a Christian: Do I know who I am in relation to Jesus according to the Bible?</p>
+                  <p className="is-size-6 leading-normal padded">Humbly trust that what God says is right and true - then humbly build life on this foundation, one day at a time.  Part of this construction work is realizing who I am in Christ.  Humbly ask: If a Christian: Do I know and rest in who I am in Christ?  If not a Christian: Do I know who I am in relation to Jesus according to the Bible?</p>
                   <Testimonial quote="He has told you, O man, what is good; and what does the LORD require of you but to do justice, and to love kindness, and to walk humbly with your God?" reference="Micah 6:8" color="var(--teal)"/>
                 </div>
 
@@ -100,7 +100,7 @@ class Humble extends Component {
 
                 <div className="attSection" id="history">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Abraham Lincoln, often considered one of the greatest presidents, was also one of the most humble.</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">Abraham Lincoln, often considered one of the greatest American presidents, was also one of the most humble.</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">“When Lincoln ran for President his entire national political experience consisted of a single term in Congress that had come to an end nearly a dozen years earlier and two failed Senate races. He had absolutely no administrative experience and only one year of formal schooling. Newspapers described him as 'a third-rate Western lawyer' and a 'fourth-rate lecturer.' Yet, his main rivals for the Republican nomination were William Henry Seward, a celebrated Senator for New York who had been a two term Governor of his state, Salmon P. Chase from Ohio who had also been a Senator and Governor of his state, and the much respected long serving former Congressman, Edward Bates.</p>
                   <p className="is-size-6 leading-normal padded">Despite this, when he beat them to the nomination and then won the election - much to everyone's amazement at the time - instead of consigning his opponents to oblivion, he appointed them all to his cabinet. He recognized their great gifts and, even though newspapers at the time cited this as evidence of his total political naïveté, Lincoln's logic for doing so was simple, ‘I had looked the party over and concluded that these were the very strongest men. Then I had no right to deprive the country of their service.’ ” - Psychology Today, 4/10/12 article by Russell Razzaque M.D.</p>
