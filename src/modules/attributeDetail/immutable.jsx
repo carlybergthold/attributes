@@ -28,15 +28,15 @@ class Immutable extends Component {
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Immutable means to be fully consistent or unchanging.
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">Even though most of us also enjoy variety, we hold our lives together with habits and routines.  By adulthood, we have experimented with and optimized these routines and are either content with them or find them very difficult to change. This foundation may include our beliefs, where we live, what we drink in the morning (for 83% of American adults it is coffee - 3 cups daily on average), who we hang with, the team we root for and much more.  It is what we count on to keep life sane.</p>
-                  <p className="is-size-6 leading-normal padded">When I already have what I want, I want to keep it.  My health, my home, my friends and job.  When I or what I enjoy are under any threat of loss, I will work hard to keep it, whether through buying insurance, working long hours, or taking medications.</p>
+                  <p className="is-size-6 leading-normal padded">Even though most of us enjoy variety, we hold our lives together with habits and routines.  By adulthood, we have experimented with and optimized these routines and are either content with them or find them very difficult to change. This foundation may include our beliefs, where we live, what we drink in the morning (for 83% of American adults it is coffee - 3 cups daily on average), who we hang with, the team we root for and much more.  It is what we count on to keep life sane.</p>
+                  <p className="is-size-6 leading-normal padded">When I already have what I want, I want to keep it.  My health, my home, my friends and job.  When what matters to me is under any threat of loss, I will work hard to keep it, whether through buying insurance, working long hours, or taking medications.</p>
                 </div>
 
                 <div className="attSection" id="emotion">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Why are the things I most enjoy also being threatened the most?</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">Why are the things I most enjoy also the things most threatened?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Threats lurk all around me, but I am more concerned about some than others.  It could be finances, reputation, physical health or looks.  My worst insecurity is about losing what is most important to me.  Unless that most important thing is God, I will constantly live as a “tottering fence”.  What am I most concerned about losing?</p>
+                  <p className="is-size-6 leading-normal padded">Threats lurk all around me, but I am more concerned about some than others.  It could be changes to my finances, reputation, physical health or looks.  My worst insecurity is about losing what is most important to me.  Unless that most important thing is God, Who never changes, I will constantly live as a “tottering fence.”  What am I most concerned about losing?</p>
                   <br></br>
                   <Testimonial quote="How long will all of you attack a man to batter him, like a leaning wall, a tottering fence? They only plan to thrust him down from his high position. They take pleasure in falsehood. They bless with their mouths, but inwardly they curse.  For God alone, O my soul, wait in silence, for my hope is from him.He only is my rock and my salvation, my fortress; I shall not be shaken. On God rests my salvation and my glory; my mighty rock, my refuge is God.  Trust in him at all times, O people; pour out your heart before him; God is a refuge for us." reference="Psalm 62:3-8" color="var(--teal)"/>
                 </div>
@@ -45,7 +45,7 @@ class Immutable extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">Why do I fear loss more than I appreciate gain?</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">Nobel prize research in economics showed the psychological impact of a loss is two and a half times as powerful as that for a gain.  About half of all people fear losing their job.  90% of people suffer "low battery anxiety”.  Fear of loss grows with the more we have.  And when we have so much already, gaining more is not as important as losing what we have.  But change, especially loss, is a constant part of our human existence.</p>
+                  <p className="is-size-6 leading-normal padded">Nobel prize research in economics showed the psychological impact of a loss is two and a half times as powerful as that for a gain.  About half of all people fear losing their job.  90% of people worry their phone may run out of battery charge.  Fear of loss grows with the more we have.  And when we have so much already, gaining more is not as important as losing what we have.  But change, especially loss, is a constant part of our human existence.</p>
                   <br></br>
                   <Testimonial quote=" 'For the mountains may depart and the hills be removed, but my steadfast love shall not depart from you, and my covenant of peace shall not be removed,' says the LORD, who has compassion on you." reference="Isaiah 54:10" color="var(--teal)"/>
                 </div>
@@ -62,7 +62,7 @@ class Immutable extends Component {
                 <div className="attSection" id="whoAmI">
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">Only God is immutable for eternity.</h1></section>
-                  <p className="is-size-6 leading-normal padded">To understand that I am not immutable is easy - I change constantly, physically, emotionally, intellectually and more.  It is more difficult to comprehend One Who has not, does not, and never will change. For anyone who depends upon God for salvation and guidance, immutability is vital and may be a bit under-appreciated.  What if He kept changing His laws and truths?</p>
+                  <p className="is-size-6 leading-normal padded">To understand that I am not immutable is easy - I change constantly, physically, emotionally, intellectually and more.  It is more difficult to comprehend One Who has not, does not, and will never change. For anyone who depends upon God for salvation and guidance, immutability is vital and may be a bit under-appreciated.  What if He kept changing His laws and truths?</p>
                   <br></br>
                   <Testimonial quote="For I the LORD do not change;" reference="Malachi 3:6a" color="var(--teal)"/>
                 </div>
@@ -78,7 +78,7 @@ class Immutable extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Be thankful for God not changing even as my own life is in a mess of change. We come to depend upon gravity and live confidently based upon this truth - I can do the same with the  consistency of God.  Ask: What am I depending on to last more than a decade? Why?</p>
+                  <p className="is-size-6 leading-normal padded">Be thankful for God not changing even as my own life is in a mess of change. We depend upon gravity and live confidently based upon its practically unchanging characteristics.  I can depend even more on the absolute consistency of God.  Ask: What am I depending on to last more than a decade? Why?</p>
                   <Testimonial quote="Every good gift and every perfect gift is from above, coming down from the Father of lights with whom there is no variation or shadow due to change." reference="James 1:17" color="var(--teal)"/>
                 </div>
 
@@ -86,7 +86,7 @@ class Immutable extends Component {
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">God, thank you for never changing - for being an anchor in the wind and sea that is my life.  Help me to trust you and your Word even as it seems I shouldn’t.  Help me to build my life on what will last.</p>
+                  <p className="is-size-6 leading-normal padded">God, thank you for never changing - for being an anchor in the windy and stormy sea that is my life.  Help me to trust you and your Word even as it seems I shouldn’t.  Help me to build my life on what will last.</p>
                   <Testimonial quote="But he is unchangeable, and who can turn him back?  What he desires, that he does." reference="Job 23:13" color="var(--teal)"/>
                 </div>
 
@@ -103,7 +103,7 @@ class Immutable extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">History proves our mutability in that we are constantly changing.</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Fashions and trends are a way of life - if something remains relevant for a decade, it’s rare.  But the historical account of Abraham and the birth of the nation Israel has been relevant for 3500 years.</p>
-                  <p className="is-size-6 leading-normal padded">Abraham lived ~4000 years ago and is considered the father of Judaism, Christianity and Islam - which together have over half the world population as followers today.  We learn about Abraham in the Christian Old Testament and the Jewish Tanakh, which are very similar.  Islam refers to Ibrahim 69 times in the Quran, with a number of those accounts tracking the Christian record. The Christian New Testament (from ~2000 years ago) describes Jesus as the expected Messiah, fulfilling the covenant which God made with Abraham. Islam views Jesus as Messiah as well, though not the son of God.  Thus Abraham and Jesus remain key historical and theological figures, even after multiple millenia.</p>
+                  <p className="is-size-6 leading-normal padded">Abraham lived  about 4000 years ago and is considered the father of Judaism, Christianity and Islam - which together includes over half the world population as followers today.  We learn about Abraham in the Christian Old Testament and the Jewish Tanakh, which are very similar.  Islam refers to Ibrahim 69 times in the Quran, with a number of those accounts tracking the Christian record. The Christian New Testament (written around 2000 years ago) describes Jesus as the expected Messiah, fulfilling the covenant which God made with Abraham 2000 years previously. Islam views Jesus as Messiah as well, though not the son of God.  Thus Abraham and Jesus remain key historical and theological figures, even after multiple millenia.</p>
 
                 </div>
 
