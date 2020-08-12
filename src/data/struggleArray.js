@@ -101,7 +101,7 @@ const struggleArray = [
     },
     {
     attributeName: 'saving',
-    struggleName: 'Codependency - I must fix someone else - save them from drugs, illness, themselves, other danger, etc. without any thought of God.',
+    struggleName: 'Codependency - I must fix someone else - save them from drugs, illness, themselves, other danger, etc. without any thought of myself (or God).',
     },
     {
     attributeName: 'sovereign',
