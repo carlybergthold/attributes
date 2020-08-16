@@ -9,3 +9,15 @@
     border: 1px solid black;
     margin: 2rem;
 }
+
+.connectorGrouping {
+    width: 15%;
+    margin: 0 2rem;
+    background-color: gray;
+}
+
+.connectorGrouping:after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+  }

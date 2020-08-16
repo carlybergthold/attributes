@@ -1,7 +1,195 @@
 const fearArray = [
     {
     attributeName: 'creative',
-    fearName: 'Insignificance - Am I significant?',
+    fearName: 'insignificance',
+    fearDescription: 'Am I significant?',
+    group: 'Survival'
+    },
+    {
+    attributeName: 'eternal',
+    fearName: 'death',
+    fearDescription: 'I fear dying',
+    group: 'Rejection'
+    },
+    {
+    attributeName: 'faithful',
+    fearName: 'disappointment in others',
+    fearDescription: '',
+    group: 'Loss of Control'
+    },
+    {
+    attributeName: 'glorious',
+    fearName: 'opinion of others',    
+    fearDescription: '',
+    group: 'Shame'
+    },
+    {
+    attributeName: 'good',
+    fearName: 'unworthiness',
+    fearDescription: '',
+    group: 'Shame'
+    },
+    {
+    attributeName: 'gracious',
+    fearName: 'abuse',
+    fearDescription: '',
+    group: 'Shame'
+    },
+    {
+    attributeName: 'holy',
+    fearName: 'unworthy of God',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'humble',
+    fearName: 'others opinion of me',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'immutable',
+    fearName: 'loss',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'incomprehensible',
+    fearName: 'full comprehension',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'independent',
+    fearName: 'becoming dependent',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'invisible',
+    fearName: 'the hidden',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'jealous',
+    fearName: 'punishment',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'joyful',
+    fearName: 'continued negative emotions',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'just',
+    fearName: 'being wrong',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'loving',
+    fearName: 'being unlovable',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'merciful',
+    fearName: 'unworthy of mercy',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'omnipotent',
+    fearName: 'failure',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'omnipresent',
+    fearName: 'missing out',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'omniscient',
+    fearName: 'insufficient information',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'patient',
+    fearName: 'impending trouble',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'peaceful',
+    fearName: 'lack of peace',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'planning',
+    fearName: 'the future',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'providing',
+    fearName: 'poverty',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'relational',
+    fearName: 'loneliness',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'saving',
+    fearName: 'hopelessness',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'sovereign',
+    fearName: 'losing control',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'teaching',
+    fearName: 'inability to learn',
+        fearDescription: '',
+group: 'Shame'
+    },
+    {
+    attributeName: 'truthful',
+    fearName: 'deception',
+       fearDescription: '',
+ group: 'Shame'
+    },
+    {
+    attributeName: 'unique',
+    fearDescription: '',
+    fearName: 'being average or common',
+    group: 'Shame'
+    },
+    {
+    attributeName: 'wise',
+    fearName: 'seen as foolish',
+    fearDescription: '',
+    group: 'Shame'
+    },
+    {
+    attributeName: 'wrathful',
+    fearName: 'being found out',
+    fearDescription: '',
+    group: 'Shame'
     },
     {
     attributeName: 'eternal',

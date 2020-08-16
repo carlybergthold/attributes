@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
-import Grid from '../../components/grid'
-import Testimonial from '../../components/testimonial'
+import Quote from '../../components/quote'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -38,7 +37,8 @@ class Holy extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">TFew people tremble with appropriate guilt before a Holy God.  Believers often wallow inappropriately in toxic shame (painful self-condemnation for sinful acts), with little assurance of God’s forgiveness.  Unbelievers may defiantly stand in brazen shamelessness, recognizing no accountability to God or others. My best response is to acknowledge wrongs and seek God’s forgiveness made possible by Christ’s death, and rest in His powerful freedom from guilt.</p>
                   <br></br>
-                  <Testimonial quote="Blessed is the one whose transgression is forgiven, whose sin is covered. Blessed is the man against whom the LORD counts no iniquity, and in whose spirit there is no deceit. For when I kept silent, my bones wasted away through my groaning all day long. For day and night your hand was heavy upon me; my strength was dried up as by the heat of summer. Selah. I acknowledged my sin to you, and I did not cover my iniquity; I said, “I will confess my transgressions to the LORD,” and you forgave the iniquity of my sin." reference="Psalm 32:1-5" color="var(--teal)"/>
+
+                  <Quote scripture="Blessed is the one whose transgression is forgiven, whose sin is covered. Blessed is the man against whom the LORD counts no iniquity, and in whose spirit there is no deceit. For when I kept silent, my bones wasted away through my groaning all day long. For day and night your hand was heavy upon me; my strength was dried up as by the heat of summer. Selah. I acknowledged my sin to you, and I did not cover my iniquity; I said, “I will confess my transgressions to the LORD,” and you forgave the iniquity of my sin." reference="Psalm 32:1-5" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="fear">
@@ -47,7 +47,7 @@ class Holy extends Component {
                 </section>
                   <p className="is-size-6 leading-normal padded">No one is good enough to earn a relationship with perfectly Holy God.  That is why God Himself sent Jesus to earth as a human - to live, die and be resurrected - in order to forgive me of my unworthiness and provide me with the needed righteousness to join with Him.  In Christ, I am worthy regardless of what I have done or will do.</p>
                   <br></br>
-                  <Testimonial quote="If we confess our sins, He is faithful and just to forgive us and to cleanse us of all unrighteousness." reference="1 John 1:9" color="var(--teal)"/>
+                  <Quote scripture="If we confess our sins, He is faithful and just to forgive us and to cleanse us of all unrighteousness." reference="1 John 1:9" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -56,7 +56,7 @@ class Holy extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">When I join in the comparison game, I can pick out specific criteria so I will come out better - and bask in shallow pride.  Or I can find the criteria where I am already insecure and wallow in unworthiness.  Either extreme is unhealthy and unhelpful.  My holiness must come from my faith in Christ and not anything else.</p>
                   <br></br>
-                  <Testimonial quote="His (i.e. man's) own idea of sin is practically limited to what the world calls 'crime' Anything short of that, man palliates as 'defects', 'mistakes', 'infirmities', etc. And even where sin is owned at all, excuses and extenuations are made for it." reference="A.W. Pink" color="var(--teal)"/>
+                  <Quote scripture="His (i.e. man's) own idea of sin is practically limited to what the world calls 'crime' Anything short of that, man palliates as 'defects', 'mistakes', 'infirmities', etc. And even where sin is owned at all, excuses and extenuations are made for it." reference="A.W. Pink" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -64,14 +64,15 @@ class Holy extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Only God is truly holy.</h1></section>
                   <p className="is-size-6 leading-normal padded">I may not even like to hear the word “Holy” because it only makes me feel more guilty.  No one can be made holy through self-effort - only God is able to make something or someone holy and fully worthy of Himself. Even when He makes me holy, however, I do not become a god, but rather a sacrifice to God, joining Him in His work and fellowship.</p>
                   <br></br>
-                  <Testimonial quote="Who will not fear, O Lord, and glorify your name?  For you alone are holy." reference="Revelation 15:4a" color="var(--teal)"/>
+
+                  <Quote scripture="Who will not fear, O Lord, and glorify your name?  For you alone are holy." reference="Revelation 15:4a" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus is the way I become holy.</h1></section>
                   <p className="is-size-6 leading-normal padded">Jesus was not only holy (i.e. without sin), but He is the means by which man becomes worthy in the sight of Holy God.</p>
-                  <Testimonial quote="God's holiness is best manifested at the cross. Wondrously and yet most solemnly does the atonement display God's infinite holiness and abhorrence of sin. How hateful sin must be to God for Him to punish it to its utmost deserts when it was imputed to His Son!" reference="A.W. Pink" color="var(--teal)"/>
+                  <Quote scripture="God's holiness is best manifested at the cross. Wondrously and yet most solemnly does the atonement display God's infinite holiness and abhorrence of sin. How hateful sin must be to God for Him to punish it to its utmost deserts when it was imputed to His Son!" reference="A.W. Pink" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -79,7 +80,8 @@ class Holy extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Recognize that any unworthiness I feel in this life can be traced back to my true unworthiness with God.  Seek God on His merciful terms alone - surrender in repentance and become holy through faith in Jesus Christ.  Ask: Just how holy is my life?</p>
-                  <Testimonial quote="Remember that you were at that time separated from Christ, alienated from the commonwealth of Israel and strangers to the covenants of promise, having no hope and without God in the world." reference="Ephesians 2:12" color="var(--teal)"/>
+
+                  <Quote scripture="Remember that you were at that time separated from Christ, alienated from the commonwealth of Israel and strangers to the covenants of promise, having no hope and without God in the world." reference="Ephesians 2:12" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -87,7 +89,8 @@ class Holy extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Holy God, all my worth comes from you.  Without you, I abound in unholiness - sin.  But even in the midst of sin, you make me fully acceptable and worthy to be and do all you want me to do in this life.  Help me to always remember and act upon this truth.</p>
-                  <Testimonial quote="I appeal to you therefore, brothers, by the mercies of God, to present your bodies as a living sacrifice, holy and acceptable to God, which is your spiritual worship." reference="Romans 12:1" color="var(--teal)"/>
+
+                  <Quote scripture="I appeal to you therefore, brothers, by the mercies of God, to present your bodies as a living sacrifice, holy and acceptable to God, which is your spiritual worship." reference="Romans 12:1" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">

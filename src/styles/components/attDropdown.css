@@ -1,0 +1,29 @@
+.attribute-dropdown {
+    display: flex;
+    flex-wrap: wrap;
+    width: 36rem;
+}
+
+.attribute-dropdown-item {
+    width: 23%;
+    box-sizing: border-box;
+    margin: 0.3rem;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.attribute-dropdown-item:nth-child(-n+8) {
+    background-color: gainsboro;
+}
+
+.attribute-dropdown-item:nth-child(n+9):nth-child(-n+16) {
+    background-color: lightsteelblue;
+}
+
+.attribute-dropdown-item:nth-child(n+17):nth-child(-n+24) {
+    background-color: lightslategrey;
+}
+
+.attribute-dropdown-item:nth-child(n+25):nth-child(-n+32) {
+    background-color: gray;
+}

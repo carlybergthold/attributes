@@ -12,8 +12,8 @@ class Quiz extends Component {
     super(props);
 
     this.state = {
-      startingIndex: 81,
-      endingIndex: 86,
+      startingIndex: 1,
+      endingIndex: 6,
       questions: []
     }
   }

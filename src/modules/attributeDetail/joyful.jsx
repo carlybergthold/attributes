@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
-import Grid from '../../components/grid'
-import Testimonial from '../../components/testimonial'
+import Quote from '../../components/quote'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -38,7 +37,7 @@ class Joyful extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">Supreme Court Justice Anthony Kennedy noted that in modern times there is a “hedonistic component” to the definition of happiness, for the framers of the Declaration of Independence happiness meant that “feeling of self-worth and dignity you acquire by contributing to your community and to its civic life.”  This definition points to the need for something outside of me to attain happiness within me. The psalmist describes joy and gladness as coming from my “Lord”, who gives an “inheritance”, “counsel” and His very “presence” forever.  This perspective and reality can brighten even the darkest of circumstances.</p>
                   <br></br>
-                  <Testimonial quote="The LORD is my chosen portion and my cup; you hold my lot.  The lines have fallen for me in pleasant places; indeed, I have a beautiful inheritance.  I bless the LORD who gives me counsel; in the night also my heart instructs me.  I have set the LORD always before me; because he is at my right hand, I shall not be shaken.  Therefore my heart is glad, and my whole being rejoices; my flesh also dwells secure.  For you will not abandon my soul to Sheol, or let your holy one see corruption.  You make known to me the path of life; in your presence there is fullness of joy; at your right hand are pleasures forevermore." reference="Psalm 16:5-11" color="var(--teal)"/>
+                  <Quote scripture="The LORD is my chosen portion and my cup; you hold my lot.  The lines have fallen for me in pleasant places; indeed, I have a beautiful inheritance.  I bless the LORD who gives me counsel; in the night also my heart instructs me.  I have set the LORD always before me; because he is at my right hand, I shall not be shaken.  Therefore my heart is glad, and my whole being rejoices; my flesh also dwells secure.  For you will not abandon my soul to Sheol, or let your holy one see corruption.  You make known to me the path of life; in your presence there is fullness of joy; at your right hand are pleasures forevermore." reference="Psalm 16:5-11" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="fear">
@@ -47,7 +46,7 @@ class Joyful extends Component {
                 </section>
                   <p className="is-size-6 leading-normal padded">The staying power of happiness again depends upon its source.  If I rely upon circumstances (entertainment, bank account, right relationships, etc.), my happiness will come and go.  If I rely upon God and His word, I always have a reason for joy and happiness.  Also, my present joy recognizes that this world cannot fully provide me with what only heaven ultimately will.</p>
                   <br></br>
-                  <Testimonial quote="And the disciples were filled with joy and with the Holy Spirit." reference="Acts 13:52" color="var(--teal)"/>
+                  <Quote scripture="And the disciples were filled with joy and with the Holy Spirit." reference="Acts 13:52" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -56,7 +55,7 @@ class Joyful extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">True joy that stands up in all circumstances comes only from God.  Jesus explains in John 15 that He is the Vine and I am a branch of the Vine.  Just as sap moves from a tree to a branch, life-giving joy enters my life only through an intimate connection - a relationship with God based on love and obedience.  “Lack of joy leads to sin. And, conversely, sin leads to a lack of joy.” - Bob Deffinbaugh in “Let Me See Thy Glory”.</p>
                   <br></br>
-                  <Testimonial quote="These things I have spoken to you, that my joy may be in you, and that your joy may be full." reference=" John 15:11" color="var(--teal)"/>
+                  <Quote scripture="These things I have spoken to you, that my joy may be in you, and that your joy may be full." reference=" John 15:11" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -64,14 +63,15 @@ class Joyful extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Only God is the real source of joy.</h1></section>
                   <p className="is-size-6 leading-normal padded">As Creator, He designed me to experience joy through an affection of Him.  Seeking beauty and pleasure apart from God may generate the same feeling, but it cannot be sustained. If my primary affection is other than God, it will resemble an addiction, having diminished pleasure over time. “Affection is responsible for nine-tenths of whatever solid and durable happiness there is in our lives.” - C. S. Lewis</p>
                   <br></br>
-                  <Testimonial quote="I always thought of the joy referred to here as the joy which God gives, and so it is. I now realize this does not say quite enough. It is also the joy which God possesses and experiences. God gives us joy because He is joyful. He is the source of joy, just as He is the source of love, of truth, of mercy, and so on. Joy is both a description of God and a description of what He gives." reference="Bob Deffinbaugh in “Let Me See Thy Glory”" color="var(--teal)"/>
+                  <Quote scripture="I always thought of the joy referred to here as the joy which God gives, and so it is. I now realize this does not say quite enough. It is also the joy which God possesses and experiences. God gives us joy because He is joyful. He is the source of joy, just as He is the source of love, of truth, of mercy, and so on. Joy is both a description of God and a description of what He gives." reference="Bob Deffinbaugh in “Let Me See Thy Glory”" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus was driven to the cross by joy.</h1></section>
                   <p className="is-size-6 leading-normal padded">Not for God’s joy because He already had an infinite amount.  But for my joy - that which I experience from a reconciled relationship with God.</p>
-                  <Testimonial quote="Looking to Jesus, the founder and perfecter of our faith, who for the joy that was set before him endured the cross…" reference="Hebrews 12:2a" color="var(--teal)"/>
+
+                  <Quote scripturee="Looking to Jesus, the founder and perfecter of our faith, who for the joy that was set before him endured the cross…" reference="Hebrews 12:2a" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -79,7 +79,8 @@ class Joyful extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Recognize that the source of all pleasure is God.  Seek the pleasure to be found in His word and the beauty of Christ in the world. “Christian joy is a good feeling in the soul, produced by the Holy Spirit, as he causes us to see the beauty of Christ in the word and in the world.” - John Piper.  Ask: What gives me pleasure?  What is its ultimate source?</p>
-                  <Testimonial quote="Restore to me the joy of your salvation, and uphold me with a willing spirit." reference="Psalm 51:12" color="var(--teal)"/>
+
+                  <Quote scripture="Restore to me the joy of your salvation, and uphold me with a willing spirit." reference="Psalm 51:12" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -87,7 +88,8 @@ class Joyful extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Lord, let me joyfully adore you.  Thank you for all the pleasures in this world - and remind me constantly that they are but gifts from you.</p>
-                  <Testimonial quote="But understand this, that in the last days there will come times of difficulty. For people will be lovers of self, lovers of money, proud, arrogant, abusive, disobedient to their parents, ungrateful, unholy, heartless, unappeasable, slanderous, without self-control, brutal, not loving good, treacherous, reckless, swollen with conceit, lovers of pleasure rather than lovers of God, having the appearance of godliness, but denying its power." reference="2 Timothy 3:1-5a" color="var(--teal)"/>
+
+                  <Quote scripture="But understand this, that in the last days there will come times of difficulty. For people will be lovers of self, lovers of money, proud, arrogant, abusive, disobedient to their parents, ungrateful, unholy, heartless, unappeasable, slanderous, without self-control, brutal, not loving good, treacherous, reckless, swollen with conceit, lovers of pleasure rather than lovers of God, having the appearance of godliness, but denying its power." reference="2 Timothy 3:1-5a" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
