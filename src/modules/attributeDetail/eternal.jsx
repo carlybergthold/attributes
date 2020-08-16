@@ -50,7 +50,8 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
                 </section>
                   <p className="is-size-6 leading-normal padded">It is life’s biggest loss, in one sense.  Studies show that this fear decreases with age, so time helps here!  Just remembering that death is inevitable can make every day of life even more precious. And those who believe in life after death have the advantage of living now with a perspective that stretches even into eternity. </p>
                   <br></br>
-                  <Quote scripture="Therefore, brothers, be all the more diligent to confirm your calling and election, for if you practice these qualities you will never fall. For in this way there will be richly provided for you an entrance into the eternal kingdom of our Lord and Savior Jesus Christ." reference="2 Pet 1:10-11" color="var(--teal)"/>
+
+                  <Quote scripture="Therefore, brothers, be all the more diligent to confirm your calling and election, for if you practice these qualities you will never fall. For in this way there will be richly provided for you an entrance into the eternal kingdom of our Lord and Savior Jesus Christ." reference="2 Peter 1:10-11" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -59,7 +60,8 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
                   </section>
                   <p className="is-size-6 leading-normal padded">Imagining possible troubles in the future can help me plan today for a better tomorrow.  But the truth is that my thoughts of the future are always influencing what I do today, so how I view my future is critical.  The certainty of a poor future translates to a gloomy, hopeless day today, but a certainty of a brighter future brings a hope which can help me plow through today's most difficult situations.</p>
                   <br></br>
-                  <Quote scripture="Where there is no vision, the people perish: but he that keepeth the law, happy is he." reference="Prov 29:18" color="var(--teal)"/>
+
+                  <Quote scripture="Where there is no vision, the people perish: but he that keepeth the law, happy is he." reference="Proverbs 29:18" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -75,7 +77,8 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
                   <h1 className="title has-text-primary tracking-wide padded">Jesus is the way for believers to live eternally with God.</h1></section>
                   <p className="is-size-6 leading-normal padded">Without Him, imperfect people would never be compatible with a perfectly righteous and just God.  True justice cannot tolerate unrighteousness - what allows the two to coexist today is only a matter of time.  Only time (through God's patience and mercy) delays justice's instant obliteration of all unrighteousness.</p>
 
-                  <Quote scripture="In flaming fire, inflicting vengeance on those who do not know God and on those who do not obey the gospel of our Lord Jesus. They will suffer the punishment of eternal destruction, away from the presence of the Lord and from the glory of his might," reference="2 Thess 1:8-9" color="var(--teal)"/>
+
+                  <Quote scripture="In flaming fire, inflicting vengeance on those who do not know God and on those who do not obey the gospel of our Lord Jesus. They will suffer the punishment of eternal destruction, away from the presence of the Lord and from the glory of his might," reference="2 Thessalonians 1:8-9" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -83,7 +86,8 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Believe in Jesus Christ, which includes being sure you have an eternal citizenship in heaven.  Knowing you will live eternally allows you to seek a long-term perspective.  Allow this long-term perspective to impact the present, making it more urgent to savor current moments while making it needless to cling to them.  It is quite like the positive feeling of being at work just before the weekend or holiday.  Ask: How far out is my longest perspective?</p>
-                  <Quote scripture="But our citizenship is in heaven. And we eagerly await a Savior from there, the Lord Jesus Christ, who, by the power that enables him to bring everything under his control, will transform our lowly bodies so that they will be like his glorious body." reference="Phil 3:20-21" color="var(--teal)"/>
+
+                  <Quote scripture="But our citizenship is in heaven. And we eagerly await a Savior from there, the Lord Jesus Christ, who, by the power that enables him to bring everything under his control, will transform our lowly bodies so that they will be like his glorious body." reference="Philippians 3:20-21" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -114,7 +118,7 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">Amazing Grace - John Newton</h1>
+                    <h1 className="title has-text-primary tracking-wide padded">"Amazing Grace" - John Newton</h1>
                 </section>
                     <p className="is-size-6 leading-normal padded">"Yea, when this flesh and heart shall fail,
                     and mortal life shall cease,

@@ -49,7 +49,8 @@ class Loving extends Component {
                 </section>
                   <p className="is-size-6 leading-normal padded">When I believe that I must earn love from others, I will also require others to earn my love. Believing that love is transactional or conditional is a cycle that must be broken by an example of truly unconditional love. But even then I can reject unconditional love with the stubborn notion that it is too good to be true.</p>
                   <br></br>
-                  <Quote scripture="And I pray that you, being rooted and established in love, may have power, together with all the saints, to grasp how wide and long and high and deep is the love of Christ, and to know this love that surpasses knowledge - that you may be filled to the measure of all the fullness of God." reference="Eph 3:17b-19" color="var(--teal)"/>
+
+                  <Quote scripture="And I pray that you, being rooted and established in love, may have power, together with all the saints, to grasp how wide and long and high and deep is the love of Christ, and to know this love that surpasses knowledge - that you may be filled to the measure of all the fullness of God." reference="Ephesians 3:17b-19" color="var(--teal)"/>
                 <br></br>
                   <Quote scripture="My command is this: Love each other as I have loved you." reference="John 15:12" color="var(--teal)"/>
                 </div>
@@ -117,12 +118,12 @@ It's easy"
                   <p className="is-size-6 leading-normal padded">"Marriage was a way of turning strangers into relatives, of making peace, and of making permanent trading connections." - 14th century marriage mindset</p>
                   <p className="is-size-6 leading-normal padded">"Husbands, love your wives, just as Christ loved the church and gave Himself up for her." - Ephesians 5:25</p>
                   <p className="is-size-6 leading-normal padded">The love of Christ allows us to enter into a marriage relationship that is very similar to the 14th century marriage mindset.  It transforms a stranger (even enemy) of God into a relative (even brother or sister). It brings peace with God where there was once eternal conflict and resulting judgment and wrath.  And it makes permanent (eternal) trading connections - prayer, fruit, sanctification, glory, and resurrected body.</p>
-
                 </div>
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">The Love of God is Greater Far - Lehman</h1>
+
+                    <h1 className="title has-text-primary tracking-wide padded">"The Love of God is Greater Far" - Lehman</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"Could we with ink the ocean fill,
   And were the skies of parchment made;

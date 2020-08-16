@@ -82,7 +82,8 @@ class Omniscient extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Pray - in full confidence that I will not only be heard, but fully understood, and with a response that considers all the options and other factors of which I am currently clueless.  Let my confession become more self-admittance and begin my true learning with God.  Ask: How do I pray if God truly knows all?</p>
-                  <Quote scripture="Before they call I will answer; while they are yet speaking I will hear." reference="Isa 65:24" color="var(--teal)"/>
+
+                  <Quote scripture="Before they call I will answer; while they are yet speaking I will hear." reference="Isaiah 65:24" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -90,7 +91,8 @@ class Omniscient extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">God, you know me - more than I know myself.  I can only know what you have revealed to me through the eyes and ears you have given me, and now, through your Spirit inside me.  Help me to depend upon You and your Word more than my own limited understanding.</p>
-                  <Quote scripture="But the LORD said to Samuel, 'Do not look on his appearance or on the height of his stature, because I have rejected him. For the LORD sees not as man sees: man looks on the outward appearance, but the LORD looks on the heart.'" reference="1 Sam 16:7" color="var(--teal)"/>
+
+                  <Quote scripture="But the LORD said to Samuel, 'Do not look on his appearance or on the height of his stature, because I have rejected him. For the LORD sees not as man sees: man looks on the outward appearance, but the LORD looks on the heart.'" reference="1 Samuel 16:7" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
@@ -106,7 +108,7 @@ class Omniscient extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">Getting good information has always been difficult - sharing it for good use within a business (or a family) has been even more onerous.  The ideal state is having an omni-channel experience.</p>
                   <p className="is-size-6 leading-normal padded">Many companies (think Bank of America and Disney) have been working hard toward making the the same data set available to multiple people (sales, manufacturing, customer service, shipping, customer…) from multiple platforms (I-phone, tablet, in-person, lap-top, call center…). Communication channels and their supporting resources are designed and orchestrated to cooperate.  New technology is good, but can end up complicating this goal.  However, a successful result mimics a small part of God's omniscience. </p>
-                  <p className="is-size-6 leading-normal padded">"So everyone who acknowledges me before men, I also will acknowledge before my Father who is in heaven, but whoever denies me before men, I also will deny before my Father who is in heaven." - Matt 10:32-33</p>
+                  <p className="is-size-6 leading-normal padded">"So everyone who acknowledges me before men, I also will acknowledge before my Father who is in heaven, but whoever denies me before men, I also will deny before my Father who is in heaven." - Matthew 10:32-33</p>
                 </div>
 
                 <div className="attSection" id="liturgy" >

@@ -47,7 +47,8 @@ class Invisible extends Component {
                   <p className="is-size-6 leading-normal padded">I wash my hands even when they look clean in order to remove germs which could give me a disease (thanks to Ignaz Semmelweis, a Hungarian doctor who clearly showed hand washing to reduce childbirth mortality, but was shunned by the 1850s medical community and died in an asylum without vindication).</p>
                   <p className="is-size-6 leading-normal padded">The truth of the Bible says that sin, causing separation from God, is indeed a real problem for me.  God provides an effective solution in the form of His son, Jesus Christ, who willingly took on the penalty for my sin if I simply believe in Him.  Another simple, yet invisible, solution to an invisible, yet deadly, disease.</p>
                   <br></br>
-                  <Quote scripture="For we do not wrestle against flesh and blood, but against the rulers, against the authorities, against the cosmic powers over this present darkness, against the spiritual forces of evil in the heavenly places." reference="Eph 6:12" color="var(--teal)"/>
+
+                  <Quote scripture="For we do not wrestle against flesh and blood, but against the rulers, against the authorities, against the cosmic powers over this present darkness, against the spiritual forces of evil in the heavenly places." reference="Ephesians 6:12" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -56,7 +57,8 @@ class Invisible extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">"Blessed are the pure in heart, for they shall see God." - Matt 5:8   A truly pure heart comes only from Jesus and is rooted in faith.  It does not magically display God clearly, but allows me to begin a daily discovery of who He is.  His attributes may form an outline of His image and His fruit may provide colors within the outline.  I can now catch wonderful glimpses of Him, but will not bring His full being into focus in this life.  But it will be sufficient.  </p>
                   <br></br>
-                  <Quote scripture="But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness and self-control.  Against such things there is no law." reference="Gal 5:22-23" color="var(--teal)"/>
+
+                  <Quote scripture="But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness and self-control.  Against such things there is no law." reference="Galatians 5:22-23" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -71,8 +73,9 @@ class Invisible extends Component {
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus in human form was the actual image of invisible God.</h1></section>
                   <p className="is-size-6 leading-normal padded">Although Christianity is based in faith, it is grounded in sensory evidence and truth.  Jesus spoke of His kingdom which was not of this world, but which was being revealed and now exists.</p>
-                  <Quote scripture="He (Jesus) is the image of the invisible God." reference="Col 1:15a" color="var(--teal)"/>
-                  <Quote scripture="Faith is…being convinced of what we do not see." reference="Heb 11:1" color="var(--teal)"/>
+
+                  <Quote scripture="He (Jesus) is the image of the invisible God." reference="Colossians 1:15a" color="var(--teal)"/>
+                  <Quote scripture="Faith is…being convinced of what we do not see." reference="Hebrews 11:1" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -88,8 +91,9 @@ class Invisible extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">You are Invisible, God, yet always present.  Help me to remember this truth and not be overcome by what I see before me.  Help me now to see your Kingdom here on earth, built on your Word. </p>
-                  <Quote scripture="For we walk by faith, not by sight." reference="2 Cor 5:7" color="var(--teal)"/>
-                  <Quote scripture="So faith comes from hearing, and hearing through the word of Christ." reference="Rom 10:17" color="var(--teal)"/>
+
+                  <Quote scripture="For we walk by faith, not by sight." reference="2 Corinthians 5:7" color="var(--teal)"/>
+                  <Quote scripture="So faith comes from hearing, and hearing through the word of Christ." reference="Romans 10:17" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
@@ -104,13 +108,13 @@ class Invisible extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">God is revealing who He is and who we are over history.</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">God will reveal what cannot now be seen by restoring what was once lost.  God was visible to Adam and Eve in Eden, but this benefit was lost when they were banned from the garden.  But they also began to see who they actually were - in God’s image, but not with His perfection.  God then progressively revealed Himself through history (as recorded in the Bible), as well as to individual believers (through sanctification).  Heaven restores the full visibility of God.</p>
-                  <p className="is-size-6 leading-normal padded">"The LORD God took the man and put him in the garden of Eden to work it and keep it.....Then the eyes of both were opened, and they knew that they were naked. " - Gen 2:15, 3:7</p>
+                  <p className="is-size-6 leading-normal padded">"The LORD God took the man and put him in the garden of Eden to work it and keep it.....Then the eyes of both were opened, and they knew that they were naked. " - Genesis 2:15, 3:7</p>
 
                 </div>
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">Immortal, Invisible, God only Wise - Walter C. Smith</h1>
+                    <h1 className="title has-text-primary tracking-wide padded">"Immortal, Invisible, God only Wise" - Walter C. Smith</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"Immortal, invisible, God only wise,
 In light inaccessible, hid from our eyes,

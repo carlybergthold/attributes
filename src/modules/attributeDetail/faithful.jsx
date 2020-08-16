@@ -58,7 +58,8 @@ class Faithful extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">Unforeseen circumstances will sometimes cause us to fail.  But a pattern of unreliability can often be traced back to the time of commitment.  Do I earnestly promise more than I can reasonably do?  I might be tempted  to project a better image of myself than reality warrants.  Do I sometimes just not do what I could have easily done?  I may not have really meant or cared about the commitment.  Both of these point to the need for our commitments to be both faithful and true.</p>
                   <br></br>
-                  <Quote scripture="Let what you say be simply ‘Yes’ or ‘No’; anything more than this comes from evil." reference="Matt 5:37" color="var(--teal)"/>
+
+                  <Quote scripture="Let what you say be simply ‘Yes’ or ‘No’; anything more than this comes from evil." reference="Matthew 5:37" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -66,7 +67,8 @@ class Faithful extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Only God is perfectly faithful.</h1></section>
                   <p className="is-size-6 leading-normal padded">To believe that my loyalty to God is what makes me secure is faulty works-based theology.  God alone has the perfect track record.  Whenever I regard God as unfaithful, I am likely confusing my wants with His promises. His covenantal promises to Abraham/Israel are already being fulfilled in Jesus and are mine to enjoy.</p>
                   <br></br>
-                  <Quote scripture="Know therefore that the LORD your God is God, the faithful God who keeps covenant and steadfast love with those who love him and keep his commandments, to a thousand generations," reference="Deut 7:9" color="var(--teal)"scripture="But the Lord is faithful. He will establish you and guard you against the evil one." reference="2 Thes 3:3" color="var(--teal)"/>
+
+                  <Quote scripture="Know therefore that the LORD your God is God, the faithful God who keeps covenant and steadfast love with those who love him and keep his commandments, to a thousand generations," reference="Deuteronomy 7:9" color="var(--teal)"quote="But the Lord is faithful. He will establish you and guard you against the evil one." reference="2 Thessalonians 3:3" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">
@@ -89,7 +91,7 @@ class Faithful extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Faithful Lord, let me see You more clearly than what is made visible by my physical senses. I know my own faithfulness is weak, so I pray that you will help me to be faithful and to trust fully in your faithfulness.  Even now I thank you for what you will do in the future.</p>
-                  <Quote scripture="Let us hold fast the confession of our hope without wavering, for he who promised is faithful." reference="Heb 10:23" color="var(--teal)"/>
+                  <Quote scripture="Let us hold fast the confession of our hope without wavering, for he who promised is faithful." reference="Hebrews 10:23" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">

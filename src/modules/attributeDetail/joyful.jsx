@@ -70,7 +70,8 @@ class Joyful extends Component {
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus was driven to the cross by joy.</h1></section>
                   <p className="is-size-6 leading-normal padded">Not for God’s joy because He already had an infinite amount.  But for my joy - that which I experience from a reconciled relationship with God.</p>
-                  <Quote scripture="Looking to Jesus, the founder and perfecter of our faith, who for the joy that was set before him endured the cross…" reference="Heb 12:2a" color="var(--teal)"/>
+
+                  <Quote scripturee="Looking to Jesus, the founder and perfecter of our faith, who for the joy that was set before him endured the cross…" reference="Hebrews 12:2a" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -78,7 +79,8 @@ class Joyful extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Recognize that the source of all pleasure is God.  Seek the pleasure to be found in His word and the beauty of Christ in the world. “Christian joy is a good feeling in the soul, produced by the Holy Spirit, as he causes us to see the beauty of Christ in the word and in the world.” - John Piper.  Ask: What gives me pleasure?  What is its ultimate source?</p>
-                  <Quote scripture="Restore to me the joy of your salvation, and uphold me with a willing spirit." reference="Ps 51:12" color="var(--teal)"/>
+
+                  <Quote scripture="Restore to me the joy of your salvation, and uphold me with a willing spirit." reference="Psalm 51:12" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -86,7 +88,8 @@ class Joyful extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Lord, let me joyfully adore you.  Thank you for all the pleasures in this world - and remind me constantly that they are but gifts from you.</p>
-                  <Quote scripture="But understand this, that in the last days there will come times of difficulty. For people will be lovers of self, lovers of money, proud, arrogant, abusive, disobedient to their parents, ungrateful, unholy, heartless, unappeasable, slanderous, without self-control, brutal, not loving good, treacherous, reckless, swollen with conceit, lovers of pleasure rather than lovers of God, having the appearance of godliness, but denying its power." reference="2 Tim 3:1-5a" color="var(--teal)"/>
+
+                  <Quote scripture="But understand this, that in the last days there will come times of difficulty. For people will be lovers of self, lovers of money, proud, arrogant, abusive, disobedient to their parents, ungrateful, unholy, heartless, unappeasable, slanderous, without self-control, brutal, not loving good, treacherous, reckless, swollen with conceit, lovers of pleasure rather than lovers of God, having the appearance of godliness, but denying its power." reference="2 Timothy 3:1-5a" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
@@ -111,7 +114,7 @@ class Joyful extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">Joyful, Joyful, We Adore Thee - Henry J. van Dyke (Adoration of God leads to the light of joy.)</h1>
+                    <h1 className="title has-text-primary tracking-wide padded">"Joyful, Joyful, We Adore Thee" - Henry J. van Dyke (Adoration of God leads to the light of joy.)</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">“Joyful, joyful, we adore Thee, God of glory, Lord of love; Hearts unfold like flow’rs before Thee, Op’ning to the sun above. Melt the clouds of sin and sadness; Drive the dark of doubt away; Giver of immortal gladness, Fill us with the light of day!” - 1st verse</p>
                 </div>

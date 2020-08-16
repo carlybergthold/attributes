@@ -56,7 +56,7 @@ Patience is an acquired trait - something we need to grow into.”</p>
                   <p className="is-size-6 leading-normal padded">“We take the good things for granted and blow up the problems. As a consequence, we tend to fall prey to the petty concerns and annoyances in our lives, letting them determine our well-being….A growing number of studies inspired by Acceptance and Commitment Therapy and  Mindfulness are showing that - rather than resisting them - embracing difficult situations (e.g. pain or dependency due to illness) increases well-being. We can either choose to let the negative experiences we encounter bring us down, or we can choose to embrace them and thereby rise above them…..Learn from it….Appreciate what you do have….Use it to help others….” - Psychology Today, 6/29/15 article</p>
                   <p className="is-size-6 leading-normal padded">Patient hope is powerful.  It realizes all troubles eventually leave and, when they do, can lift me up more than a large dose of happy news.  Ecclesiastes 7:1 says our day of death is actually better than the day of our birth.  This makes sense only by comparing the joyful eternal reality of heaven versus our temporal life, which always contains a mixture of happiness and hardship.</p>
                   <br></br>
-                  <Quote scripture="Better is the end of a thing than its beginning, and the patient in spirit is better than the proud in spirit." reference="Eccl 7:8" color="var(--teal)"/>
+                  <Quote scripture="Better is the end of a thing than its beginning, and the patient in spirit is better than the proud in spirit." reference="Ecclesiastes 7:8" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -92,7 +92,7 @@ Patience is an acquired trait - something we need to grow into.”</p>
                   <section>
                   <h1 className="title has-text-prpmaryary tracking-wide padded">Jesus patiently gave of Himself to help others know Him more.</h1></section>
                   <p className="is-size-6 leading-normal padded">God meticulously set-up the cross since creation (foreseeing Adam’s sin), and is even now patiently waiting for our collective response to the message of the Cross.</p>
-                  <Quote scripture="The Lord is not slow to fulfill his promise as some count slowness, but is patient toward you, not wishing that any should perish, but that all should reach repentance." reference="2 Pet 3:9" color="var(--teal)"/>
+                  <Quote scripture="The Lord is not slow to fulfill his promise as some count slowness, but is patient toward you, not wishing that any should perish, but that all should reach repentance." reference="2 Peter 3:9" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -100,7 +100,7 @@ Patience is an acquired trait - something we need to grow into.”</p>
                   <h1 className="title has-text-prpmaryary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Be slow to anger, even with true injustices, especially given others’ need to be patient with me.  Be content, even joyful, in the present hard circumstances.  Accept as God's timing whatever is outside of my control or influence. God's patience is often expressed as 'slow to anger' - Ex 34:6, Nu 14:18, Psalm 103:8 & more.   Ask: What resulted from my most recent impatience?</p>
-                  <Quote scripture="Not only that, but we rejoice in our sufferings, knowing that suffering produces endurance, and endurance produces character, and character produces hope, and hope does not put us to shame, because God’s love has been poured into our hearts through the Holy Spirit who has been given to us." reference="Rom 5:3-5" color="var(--teal)"/>
+                  <Quote scripture="Not only that, but we rejoice in our sufferings, knowing that suffering produces endurance, and endurance produces character, and character produces hope, and hope does not put us to shame, because God’s love has been poured into our hearts through the Holy Spirit who has been given to us." reference="Romans 5:3-5" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -108,7 +108,7 @@ Patience is an acquired trait - something we need to grow into.”</p>
                   <h1 className="title has-text-prpmaryary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">God, thank you for being patient with me when I do not listen, obey or glorify You.  Help me to remember Your patience on the cross and with me when I need to be patient with others.</p>
-                  <Quote scripture="Looking to Jesus, the founder and perfecter of our faith, who for the joy that was set before him endured the cross," reference="Heb 12:2a" color="var(--teal)"/>
+                  <Quote scripture="Looking to Jesus, the founder and perfecter of our faith, who for the joy that was set before him endured the cross," reference="Hebrews 12:2a" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
