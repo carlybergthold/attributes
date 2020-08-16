@@ -51,7 +51,7 @@ class Creative extends Component {
                 </section>
                   <p className="is-size-6 leading-normal padded">I should first realize that I have already created some kind of legacy (such as what, who and how I love). Then know that an ongoing fear of insignificance always points inward, when much of life is found outside ourselves.  In truth,  my most compelling significance will only be found through knowing and experiencing the One who created me.</p>
                   <br></br>
-                  <Quote scripture="The end of the matter; all has been heard. Fear God and keep his commandments, for this is the whole duty of man." reference="Eccl 12:13" color="var(--teal)"/>
+                  <Quote scripture="The end of the matter; all has been heard. Fear God and keep his commandments, for this is the whole duty of man." reference="Ecclesiastes 12:13" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -60,7 +60,7 @@ class Creative extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">I struggle some days to have purpose and fulfillment. The Westminster Catechism describes the Creator’s purpose for our life succinctly: “Man’s chief end is to glorify God, and to enjoy him forever.“ To glorify God, I must first believe in Him, and then begin to know and love Him. And our ultimate joy and feeling of significance in this relationship comes when our will begins to align with the good He has planned for us.</p>
                   <br></br>
-                  <Quote scripture="For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope." reference="Jer 29:11" />
+                  <Quote scripture="For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope." reference="Jeremiah 29:11" />
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -76,7 +76,7 @@ class Creative extends Component {
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus made possible something completely new - to live “in Christ.”</h1></section>
                   <p className="is-size-6 leading-normal padded">Being “in Christ” means I believe that Jesus is actually God who died on the cross to pay the penalty for my sins and, in turn, provides me with His righteousness, allowing me to fellowship with God forever.  With this new relationship comes a completely different perspective to my life and my present circumstances, along with a magnified awareness and value for Creator God.</p>
-                  <Quote scripture="Therefore, if anyone is in Christ, he is a new creation." reference="2 Cor 5:17" color="var(--teal)"/>
+                  <Quote scripture="Therefore, if anyone is in Christ, he is a new creation." reference="2 Corinthians 5:17" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -84,7 +84,7 @@ class Creative extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">In humility and gratitude, give credit and appreciation to others who have made it possible for me to create, including our ultimate Creator. Ask: Who has helped me most in forming one of my creative endeavors?</p>
-                  <Quote scripture="So, whether you eat or drink, or whatever you do, do all to the glory of God." reference="1 Cor 10:31" color="var(--teal)"/>
+                  <Quote scripture="So, whether you eat or drink, or whatever you do, do all to the glory of God." reference="1 Corinthians 10:31" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -117,7 +117,7 @@ class Creative extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">All Creatures of our God and King - Francis of Assisi</h1>
+                    <h1 className="title has-text-primary tracking-wide padded">"All Creatures of our God and King" - Francis of Assisi</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"Let all things their creator bless,
                     And worship Him in humbleness,

@@ -50,7 +50,7 @@ class Independent extends Component {
                   <p className="is-size-6 leading-normal padded">No person (or country) is ever fully independent of others.  I might work hard to become as independent as possible, but I can see where dependence is also beneficial.  Unless I am not thinking rationally…..</p>
                   <p className="is-size-6 leading-normal padded">"Soteriophobia" is the irrational fear of becoming dependent on others. This can include a young adult who was overtaught the importance of independence and now never wants to seek help of any kind.  Many articles stress the difficult predicament this poses - one who does not seek help rarely will get help, resulting in the sufferer left to tackle problems alone, even when it is not the best course.</p>
                   <br></br>
-                  <Testimonial quote="The eye cannot say to the hand, 'I have no need of you,' nor again the head to the feet, 'I have no need of you.' " reference="1 Cor 12:21" color="var(--teal)"/>
+                  <Testimonial quote="The eye cannot say to the hand, 'I have no need of you,' nor again the head to the feet, 'I have no need of you.' " reference="1 Corinthians 12:21" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -59,7 +59,7 @@ class Independent extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">The more I depend on others, the more they will fail me and the more I could be a burden on them.  The more I do not depend on others, the less opportunity I have to love them and have them love me back.  Love requires nothing in return, but flourishes in mutual generosity and dependence.</p>
                   <br></br>
-                  <Testimonial quote="Now concerning brotherly love you have no need for anyone to write to you, for you yourselves have been taught by God to love one another, for that indeed is what you are doing to all the brothers throughout Macedonia. But we urge you, brothers, to do this more and more, and to aspire to live quietly, and to mind your own affairs, and to work with your hands, as we instructed you, so that you may walk properly before outsiders and be dependent on no one." reference="1 Thess 4:9-12" color="var(--teal)"/>
+                  <Testimonial quote="Now concerning brotherly love you have no need for anyone to write to you, for you yourselves have been taught by God to love one another, for that indeed is what you are doing to all the brothers throughout Macedonia. But we urge you, brothers, to do this more and more, and to aspire to live quietly, and to mind your own affairs, and to work with your hands, as we instructed you, so that you may walk properly before outsiders and be dependent on no one." reference="1 Thessalonians 4:9-12" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -74,7 +74,7 @@ class Independent extends Component {
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus was independent as God, yet chose to remain dependent on His Father.</h1></section>
                   <p className="is-size-6 leading-normal padded">Christianity is made up of people who recognize both their independence from God and their deep dependence upon Him.    </p>
-                  <Testimonial quote="Live as people who are free, not using your freedom as a cover-up for evil, but living as servants of God." reference="1 Pet 2:16" color="var(--teal)"/>
+                  <Testimonial quote="Live as people who are free, not using your freedom as a cover-up for evil, but living as servants of God." reference="1 Peter 2:16" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -92,7 +92,6 @@ class Independent extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">God, you need nothing from me and I owe all to you.  Help me to see your own greatness and my own need.  Meet that need with You.</p>
                   <Testimonial quote="Do nothing from selfish ambition or conceit, but in humility count others more significant than yourselves." reference="Phil 2:3" color="var(--teal)"/>
-                  <Testimonial quote="In theology, endless mistakes result from supposing that the conditions, bounds, and limits of our own finite existence apply to God….It is vital for spiritual health to believe that God is great." reference="J.I. Packer" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
@@ -116,7 +115,7 @@ class Independent extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">Rock of Ages - Agustus M. Toplady</h1>
+                    <h1 className="title has-text-primary tracking-wide padded">"Rock of Ages" - Agustus M. Toplady</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"Nothing in my hand I bring;  Simply to Thy Cross I cling;  Naked, come to Thee for dress;  Helpless, look to Thee for grace;  Foul, I to the fountain fly,  Wash me, Savior, or I die." - 2nd verse</p>
                 </div>

@@ -60,7 +60,7 @@ class Omnipresent extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">In the midst of suffering, pain, sickness, sorrow, warfare, and other natural disasters, it is hard to perceive a loving and merciful God simply watching it all go down.  I can deal with this apparent disconnect by denying His presence or by trusting that God is present and has a reason for allowing the difficulty.</p>
                   <br></br>
-                  <Testimonial quote=" 'Am I a God at hand,' declares the LORD, 'and not a God far away? Can a man hide himself in secret places so that I cannot see him?' declares the LORD. 'Do I not fill heaven and earth?' declares the LORD." reference="Jer 23:23-24" color="var(--teal)"/>
+                  <Testimonial quote=" 'Am I a God at hand,' declares the LORD, 'and not a God far away? Can a man hide himself in secret places so that I cannot see him?' declares the LORD. 'Do I not fill heaven and earth?' declares the LORD." reference="Jeremiah 23:23-24" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -75,8 +75,8 @@ class Omnipresent extends Component {
                   <section>
                   <h1 className="title has-text-info tracking-wide padded">Jesus is also omnipresent.</h1></section>
                   <p className="is-size-6 leading-normal padded">Jesus, as God, shares all of God’s attributes.  Jesus willingly limited Himself to his physical body while on earth, but then affirmed His omnipresence for eternity. His blood is the means by which I am brought near to God.  God can be very close to me while I am yet far from Him.</p>
-                  <Testimonial quote="And behold, I (Jesus speaking) am with you always, to the end of the age." reference="Matt 28:20" color="var(--teal)"/>
-                  <Testimonial quote="But now in Christ Jesus you who once were far off have been brought near by the blood of Christ." reference="Eph 2:13" color="var(--teal)"/>
+                  <Testimonial quote="And behold, I (Jesus speaking) am with you always, to the end of the age." reference="Matthew 28:20" color="var(--teal)"/>
+                  <Testimonial quote="But now in Christ Jesus you who once were far off have been brought near by the blood of Christ." reference="Ephesians 2:13" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -150,4 +150,4 @@ Help us know that Thou art present everywhere."</p>
 
 }
 
-export default withRouter(Creative);
+export default withRouter(Omnipresent);
