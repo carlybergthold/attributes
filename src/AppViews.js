@@ -35,10 +35,11 @@ import omnipotent from './modules/attributeDetail/omnipotent'
 import omnipresent from './modules/attributeDetail/omnipresent'
 import omniscient from './modules/attributeDetail/omniscient'
 import patient from './modules/attributeDetail/patient'
-// import planning from './modules/attributeDetail/planning'
-// import providing from './modules/attributeDetail/providing'
-// import relational from './modules/attributeDetail/relational'
-// import saving from './modules/attributeDetail/saving'
+import peaceful from './modules/attributeDetail/peaceful'
+import planning from './modules/attributeDetail/planning'
+import providing from './modules/attributeDetail/providing'
+import relational from './modules/attributeDetail/relational'
+import saving from './modules/attributeDetail/saving'
 // import sovereign from './modules/attributeDetail/sovereign'
 // import teaching from './modules/attributeDetail/teaching'
 // import shepherd from './modules/attributeDetail/shepherd'
@@ -100,11 +101,12 @@ class AppViews extends Component {
       <Route exact path="/attributes/omnipresent" component={omnipresent} user={this.props.user} />
       <Route exact path="/attributes/omniscient" component={omniscient} user={this.props.user} />
       <Route exact path="/attributes/patient" component={patient} user={this.props.user} />
-      {/* <Route exact path="/planning" component={planning} user={this.props.user} /> */}
-      {/* <Route exact path="/providing" component={providing} user={this.props.user} />
-      <Route exact path="/relational" component={relational} user={this.props.user} />
-      <Route exact path="/saving" component={saving} user={this.props.user} />
-      <Route exact path="/sovereign" component={sovereign} user={this.props.user} />
+      <Route exact path="/attributes/peaceful" component={peaceful} user={this.props.user} />
+      <Route exact path="/attributes/planning" component={planning} user={this.props.user} />
+      <Route exact path="/attributes/providing" component={providing} user={this.props.user} />
+      <Route exact path="/attributes/relational" component={relational} user={this.props.user} />
+      <Route exact path="/attributes/saving" component={saving} user={this.props.user} />
+      {/* <Route exact path="/sovereign" component={sovereign} user={this.props.user} />
       <Route exact path="/teaching" component={teaching} user={this.props.user} />
       <Route exact path="/shepherd" component={shepherd} user={this.props.user} />
       <Route exact path="/truthful" component={truthful} user={this.props.user} />

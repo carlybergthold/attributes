@@ -25,18 +25,18 @@ class Patient extends Component {
               <main>
                 <div className="attSection" id="definition">
                   <section>
-                  <h1 className="title has-text-prpmaryary tracking-wide padded">Patient means to bear with suffering caused by others.
+                  <h1 className="title has-text-primary tracking-wide padded">Patient means to bear with suffering caused by others.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">We expect patience from others and want it from ourselves.  We notice most when it is missing.  It seems a bit unfair to suffer from the hand of others, until we realize we need patience from others as much as they need it from us.</p>
                   <p className="is-size-6 leading-normal padded">We are an impatient people who recognize the abiding value of patience.  This excerpt from a Psychology Today article (1/3/17 issue) clarifies some of the misunderstandings of patience:</p>
                   <p className="is-size-6 leading-normal padded">“The world does not see patience as a position of strength but rather as a position of weakness, of wanting, of lack.  Patience allows you to take back control over the capricious and unstable world and plant that control firmly within yourself.  Patience does not give you the power over circumstances; patience allows you to control yourself in the midst of circumstances. 
-Patience is not apathy or surrender.  Being patient means accepting both how you feel about a given situation and what you can realistically do about it. 
-Patience is not static.  It is the act of preparing for the new day to come. 
-Patience is optimistic expectation.  The engine of patience is hope.  
-Patience is based on the end, not the beginning.  It gives us the endurance to see it through to the better end.      
-Patience is based on the long view - out over the horizon, around the bend, through the hills and valleys of life.  When you are assured of the eventual, you can patiently endure the immediate. 
-Patience is a wise response to life.  You could go around getting angry and engaging in battle over every slight and unfair circumstance, but remaining in full battle mode produces incredible stress, alienates the people around you, and distorts your ability to enjoy and appreciate life.
-Patience is an acquired trait - something we need to grow into.”</p>
+                  Patience is not apathy or surrender.  Being patient means accepting both how you feel about a given situation and what you can realistically do about it. 
+                  Patience is not static.  It is the act of preparing for the new day to come. 
+                  Patience is optimistic expectation.  The engine of patience is hope.  
+                  Patience is based on the end, not the beginning.  It gives us the endurance to see it through to the better end.      
+                  Patience is based on the long view - out over the horizon, around the bend, through the hills and valleys of life.  When you are assured of the eventual, you can patiently endure the immediate. 
+                  Patience is a wise response to life.  You could go around getting angry and engaging in battle over every slight and unfair circumstance, but remaining in full battle mode produces incredible stress, alienates the people around you, and distorts your ability to enjoy and appreciate life.
+                  Patience is an acquired trait - something we need to grow into.”</p>
                   <p className="is-size-6 leading-normal padded">When I become impatient, I can turn inward and wallow in self-pity or look outward and become annoyed with the perceived sponsor of my impatience.  When my current difficulty or trouble seems like it will never end, I have already lost proper perspective.  Or when I am always worried that another shoe is soon to drop, I have lost perspective as well - because, well, another shoe WILL drop!</p>
                 </div>
 

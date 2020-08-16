@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
-import Grid from '../../components/grid'
-import Testimonial from '../../components/testimonial'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 import Quote from '../../components/quote'
@@ -62,12 +60,12 @@ class Peaceful extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">This life will always have troubles, so my perspective of them is what is most critical.  How I see the situation I am in is aided tremendously by God’s Word.  And my single biggest help is to take my focus off myself and onto God and others.</p>
                   <p className="is-size-6 leading-normal padded">A Family Life article by Dennis Rainey lists six key steps to resolve conflict in marriage:
- 1 - Resolving conflict requires knowing, accepting, and adjusting to your differences. 
- 2 - Resolving conflict requires defeating selfishness.
- 3 - Resolving conflict requires pursuing the other person.
- 4 - Resolving conflict requires loving confrontation.
- 5 - Resolving conflict requires forgiveness.
- 6 - Resolving conflict requires returning a blessing for an insult.</p>
+                  1 - Resolving conflict requires knowing, accepting, and adjusting to your differences. 
+                  2 - Resolving conflict requires defeating selfishness.
+                  3 - Resolving conflict requires pursuing the other person.
+                  4 - Resolving conflict requires loving confrontation.
+                  5 - Resolving conflict requires forgiveness.
+                  6 - Resolving conflict requires returning a blessing for an insult.</p>
                   <br></br>
                   <Quote scripture="I have said these things to you, that in me you may have peace. In the world you will have tribulation. But take heart; I have overcome the world." reference="John 16:33" />
                 </div>
