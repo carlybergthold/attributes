@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
-import Grid from '../../components/grid'
-import Testimonial from '../../components/testimonial'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 import Quote from '../../components/quote'

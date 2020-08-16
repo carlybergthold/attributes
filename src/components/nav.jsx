@@ -3,7 +3,6 @@ import { withRouter, Link } from "react-router-dom"
 import AttributeDropdown from "../components/attDropdown"
 import '../styles/nav.css'
 import girl from '../images/attributeIcons/creative.png'
-import attArray from '../data/attributeArray'
 
 class TopNav extends Component {
 

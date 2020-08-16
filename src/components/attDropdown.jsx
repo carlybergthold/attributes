@@ -14,7 +14,7 @@ class AttributeDropdown extends Component {
         <span className="attribute-dropdown">
         {
             attArray.map(a =>
-            <Link key={a.id} className="attribute-dropdown-item" to={`/attributes/${a.attributeName}`}>
+            <Link key={a.attributeName} className="attribute-dropdown-item" to={`/attributes/${a.attributeName}`}>
                 <span>{this.capitalize(a.attributeName)}</span>
             </Link>
         )
