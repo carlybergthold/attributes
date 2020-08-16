@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
-import Grid from '../../components/grid'
-import Testimonial from '../../components/testimonial'
+import Quote from '../../components/quote'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -38,7 +37,7 @@ class Invisible extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">When distressed, I understandably want immediate and tangible help. If I seek God in one of these foxhole moments (and I should!) it’s quite likely I will not see “God’s footprints” immediately, maybe even never.  God’s loving response for His own, however, is always present - sometimes fused with the actions of another person, sometimes only in guiding my perspective of what’s going on.  But what I can immediately see is never the full picture of what’s really going on.</p>
                   <br></br>
-                  <Testimonial quote="I cry aloud to God, aloud to God, and he will hear me.  In the day of my trouble I seek the Lord; in the night my hand is stretched out without wearying; my soul refuses to be comforted.  When I remember God, I moan; when I meditate, my spirit faints…..Has his steadfast love forever ceased?  Are his promises at an end for all time?  Has God forgotten to be gracious?  Has he in anger shut up his compassion?…Then I said, ‘I will appeal to this, to the years of the right hand of the Most High.’  I will remember the deeds of the LORD; yes, I will remember your wonders of old. I will ponder all your work, and meditate on your mighty deeds…Your way was through the sea, your path through the great waters; yet your footprints were unseen.  You led your people like a flock by the hand of Moses and Aaron." reference="Psalm 77:1-3, 8-12, 19-20" color="var(--teal)"/>
+                  <Quote scripture="I cry aloud to God, aloud to God, and he will hear me.  In the day of my trouble I seek the Lord; in the night my hand is stretched out without wearying; my soul refuses to be comforted.  When I remember God, I moan; when I meditate, my spirit faints…..Has his steadfast love forever ceased?  Are his promises at an end for all time?  Has God forgotten to be gracious?  Has he in anger shut up his compassion?…Then I said, ‘I will appeal to this, to the years of the right hand of the Most High.’  I will remember the deeds of the LORD; yes, I will remember your wonders of old. I will ponder all your work, and meditate on your mighty deeds…Your way was through the sea, your path through the great waters; yet your footprints were unseen.  You led your people like a flock by the hand of Moses and Aaron." reference="Psalm 77:1-3, 8-12, 19-20" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="fear">
@@ -48,7 +47,7 @@ class Invisible extends Component {
                   <p className="is-size-6 leading-normal padded">I wash my hands even when they look clean in order to remove germs which could give me a disease (thanks to Ignaz Semmelweis, a Hungarian doctor who clearly showed hand washing to reduce childbirth mortality, but was shunned by the 1850s medical community and died in an asylum without vindication).</p>
                   <p className="is-size-6 leading-normal padded">The truth of the Bible says that sin, causing separation from God, is indeed a real problem for me.  God provides an effective solution in the form of His son, Jesus Christ, who willingly took on the penalty for my sin if I simply believe in Him.  Another simple, yet invisible, solution to an invisible, yet deadly, disease.</p>
                   <br></br>
-                  <Testimonial quote="For we do not wrestle against flesh and blood, but against the rulers, against the authorities, against the cosmic powers over this present darkness, against the spiritual forces of evil in the heavenly places." reference="Eph 6:12" color="var(--teal)"/>
+                  <Quote scripture="For we do not wrestle against flesh and blood, but against the rulers, against the authorities, against the cosmic powers over this present darkness, against the spiritual forces of evil in the heavenly places." reference="Eph 6:12" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -57,7 +56,7 @@ class Invisible extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">"Blessed are the pure in heart, for they shall see God." - Matt 5:8   A truly pure heart comes only from Jesus and is rooted in faith.  It does not magically display God clearly, but allows me to begin a daily discovery of who He is.  His attributes may form an outline of His image and His fruit may provide colors within the outline.  I can now catch wonderful glimpses of Him, but will not bring His full being into focus in this life.  But it will be sufficient.  </p>
                   <br></br>
-                  <Testimonial quote="But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness and self-control.  Against such things there is no law." reference="Gal 5:22-23" color="var(--teal)"/>
+                  <Quote scripture="But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness and self-control.  Against such things there is no law." reference="Gal 5:22-23" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -65,15 +64,15 @@ class Invisible extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Only God is aware of all things invisible.</h1></section>
                   <p className="is-size-6 leading-normal padded">God designed my body not to be able to see Him directly, but, by faith, to perceive Him as He reveals Himself.  Having limited sensors biases my physical body from what is invisible.  I may assume that death fully eliminates the person, when in reality, it only removes the sensors and leaves the spirit.</p>
                   <br></br>
-                  <Testimonial quote="God is spirit, and those who worship Him must worship Him in spirit and truth." reference="John 4:24" color="var(--teal)"/>
+                  <Quote scripture="God is spirit, and those who worship Him must worship Him in spirit and truth." reference="John 4:24" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus in human form was the actual image of invisible God.</h1></section>
                   <p className="is-size-6 leading-normal padded">Although Christianity is based in faith, it is grounded in sensory evidence and truth.  Jesus spoke of His kingdom which was not of this world, but which was being revealed and now exists.</p>
-                  <Testimonial quote="He (Jesus) is the image of the invisible God." reference="Col 1:15a" color="var(--teal)"/>
-                  <Testimonial quote="Faith is…being convinced of what we do not see." reference="Heb 11:1" color="var(--teal)"/>
+                  <Quote scripture="He (Jesus) is the image of the invisible God." reference="Col 1:15a" color="var(--teal)"/>
+                  <Quote scripture="Faith is…being convinced of what we do not see." reference="Heb 11:1" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -81,7 +80,7 @@ class Invisible extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">By faith, embrace what cannot be sensed, but continue to filter the spiritual through what can be sensed.  Investigate the historical evidence of the wise man called Jesus and compare God’s truth revealed to man through the Bible with ongoing observable reality.   Ask: What evidence do I see of an invisible God?</p>
-                  <Testimonial quote="Oh, taste and see that the LORD is good! Blessed is the man who takes refuge in him!" reference="Psalm 34:8" color="var(--teal)"/>
+                  <Quote scripture="Oh, taste and see that the LORD is good! Blessed is the man who takes refuge in him!" reference="Psalm 34:8" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -89,8 +88,8 @@ class Invisible extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">You are Invisible, God, yet always present.  Help me to remember this truth and not be overcome by what I see before me.  Help me now to see your Kingdom here on earth, built on your Word. </p>
-                  <Testimonial quote="For we walk by faith, not by sight." reference="2 Cor 5:7" color="var(--teal)"/>
-                  <Testimonial quote="So faith comes from hearing, and hearing through the word of Christ." reference="Rom 10:17" color="var(--teal)"/>
+                  <Quote scripture="For we walk by faith, not by sight." reference="2 Cor 5:7" color="var(--teal)"/>
+                  <Quote scripture="So faith comes from hearing, and hearing through the word of Christ." reference="Rom 10:17" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">

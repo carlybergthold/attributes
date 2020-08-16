@@ -62,9 +62,10 @@ class QuizResults extends React.Component {
         this.getUserData();
     }
 
-    getDescription = () => {
-      let att = attArray.find(x => x.attributeName === 'unique');
-      return <p>{att.description}</p>
+    getDescription = (attribute) => {
+      if (attribute == undefined) return;
+      const att = attArray.find(x => x.attributeName == attribute);
+      return att != undefined ? <p>{att.description}</p> : ""
     }
 
   render() {

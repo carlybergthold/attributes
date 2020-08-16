@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { withRouter, Link } from "react-router-dom"
+import AttributeDropdown from "../components/attDropdown"
 import '../styles/nav.css'
 import girl from '../images/attributeIcons/creative.png'
 import attArray from '../data/attributeArray'
@@ -12,10 +13,6 @@ class TopNav extends Component {
         this.state = {
             navBackground: 'white'
         }
-    }
-
-    capitalize = (string) => {
-        return string.charAt(0).toUpperCase() + string.slice(1)
     }
 
     render() {
@@ -41,20 +38,17 @@ class TopNav extends Component {
                     <span className="navbar-link">
                         All Attributes
                     </span>
-
                     <div className="navbar-dropdown">
-                        {
-                        attArray.map(a =>
-                            <span className="navbar-item">
-                                <Link to={`/attributes/${a.attributeName}`}>{this.capitalize(a.attributeName)}</Link>
-                            </span>
-                        )
-                        }
+                        <AttributeDropdown />
                     </div>
                 </div>
 
                 <span className="navbar-item">
                 <Link to="/quiz">Take the Quiz</Link>
+                </span>
+
+                <span className="navbar-item">
+                <Link to="/results">Results</Link>
                 </span>
 
                 <div className="navbar-item has-dropdown is-hoverable">

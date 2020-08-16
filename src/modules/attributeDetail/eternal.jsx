@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
-import Grid from '../../components/grid'
-import Testimonial from '../../components/testimonial'
+import Quote from '../../components/quote'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -38,7 +37,7 @@ class Eternal extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">It could have been the death of a loved one or anything that held importance, such as a job, a relationship or an item with monetary or sentimental value.  The pain of grief follows any significant loss as the reality of a different future is absorbed.   Full recovery, if there is such a thing, can be a long process, helped by keeping up loving relationships and listening to wise counsel.</p>
                   <br></br>
-                  <Testimonial quote="For all our days pass away under your wrath; we bring our years to an end like a sigh.
+                  <Quote scripture="For all our days pass away under your wrath; we bring our years to an end like a sigh.
 The years of our life are seventy, or even by reason of strength eighty;
 yet their span is but toil and trouble; they are soon gone, and we fly away…..…So teach us to number our days that we may get a heart of wisdom.
 Return, O LORD! How long? Have pity on your servants!
@@ -51,7 +50,7 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
                 </section>
                   <p className="is-size-6 leading-normal padded">It is life’s biggest loss, in one sense.  Studies show that this fear decreases with age, so time helps here!  Just remembering that death is inevitable can make every day of life even more precious. And those who believe in life after death have the advantage of living now with a perspective that stretches even into eternity. </p>
                   <br></br>
-                  <Testimonial quote="Therefore, brothers, be all the more diligent to confirm your calling and election, for if you practice these qualities you will never fall. For in this way there will be richly provided for you an entrance into the eternal kingdom of our Lord and Savior Jesus Christ." reference="2 Pet 1:10-11" color="var(--teal)"/>
+                  <Quote scripture="Therefore, brothers, be all the more diligent to confirm your calling and election, for if you practice these qualities you will never fall. For in this way there will be richly provided for you an entrance into the eternal kingdom of our Lord and Savior Jesus Christ." reference="2 Pet 1:10-11" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -60,7 +59,7 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
                   </section>
                   <p className="is-size-6 leading-normal padded">Imagining possible troubles in the future can help me plan today for a better tomorrow.  But the truth is that my thoughts of the future are always influencing what I do today, so how I view my future is critical.  The certainty of a poor future translates to a gloomy, hopeless day today, but a certainty of a brighter future brings a hope which can help me plow through today's most difficult situations.</p>
                   <br></br>
-                  <Testimonial quote="Where there is no vision, the people perish: but he that keepeth the law, happy is he." reference="Prov 29:18" color="var(--teal)"/>
+                  <Quote scripture="Where there is no vision, the people perish: but he that keepeth the law, happy is he." reference="Prov 29:18" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -68,15 +67,15 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
                   <h1 className="title has-text-primary tracking-wide padded">Only God exists independent of time.</h1></section>
                   <p className="is-size-6 leading-normal padded">He created this concept of time in which I am now bound. He does not have to use time efficiently, or be controlled by it.  He was never born and will never cease to exist. He is the Alpha and Omega.</p>
                   <br></br>
-                  <Testimonial quote="'I am the Alpha and the Omega,’ says the Lord God, ‘who is and who was and who is to come, the Almighty.’" reference="John 1:3" color="var(--teal)"/>
+                  <Quote scripture="'I am the Alpha and the Omega,’ says the Lord God, ‘who is and who was and who is to come, the Almighty.’" reference="John 1:3" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
-                  <h1 className="title has-text-info tracking-wide padded">Jesus is the way for believers to live eternally with God.</h1></section>
+                  <h1 className="title has-text-primary tracking-wide padded">Jesus is the way for believers to live eternally with God.</h1></section>
                   <p className="is-size-6 leading-normal padded">Without Him, imperfect people would never be compatible with a perfectly righteous and just God.  True justice cannot tolerate unrighteousness - what allows the two to coexist today is only a matter of time.  Only time (through God's patience and mercy) delays justice's instant obliteration of all unrighteousness.</p>
 
-                  <Testimonial quote="In flaming fire, inflicting vengeance on those who do not know God and on those who do not obey the gospel of our Lord Jesus. They will suffer the punishment of eternal destruction, away from the presence of the Lord and from the glory of his might," reference="2 Thess 1:8-9" color="var(--teal)"/>
+                  <Quote scripture="In flaming fire, inflicting vengeance on those who do not know God and on those who do not obey the gospel of our Lord Jesus. They will suffer the punishment of eternal destruction, away from the presence of the Lord and from the glory of his might," reference="2 Thess 1:8-9" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -84,7 +83,7 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Believe in Jesus Christ, which includes being sure you have an eternal citizenship in heaven.  Knowing you will live eternally allows you to seek a long-term perspective.  Allow this long-term perspective to impact the present, making it more urgent to savor current moments while making it needless to cling to them.  It is quite like the positive feeling of being at work just before the weekend or holiday.  Ask: How far out is my longest perspective?</p>
-                  <Testimonial quote="But our citizenship is in heaven. And we eagerly await a Savior from there, the Lord Jesus Christ, who, by the power that enables him to bring everything under his control, will transform our lowly bodies so that they will be like his glorious body." reference="Phil 3:20-21" color="var(--teal)"/>
+                  <Quote scripture="But our citizenship is in heaven. And we eagerly await a Savior from there, the Lord Jesus Christ, who, by the power that enables him to bring everything under his control, will transform our lowly bodies so that they will be like his glorious body." reference="Phil 3:20-21" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -92,12 +91,12 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Eternal God, thank you for always being present - in my past, present and future.  Help me to appreciate this moment in time as well as how short this life really is.  Help me to live my temporary life on earth based on my eternal life in heaven with You.</p>
-                  <Testimonial quote="Remember how short my time is!  For what vanity you have created all the children of man!" reference="Psalm 89:47" color="var(--teal)"/>
+                  <Quote scripture="Remember how short my time is!  For what vanity you have created all the children of man!" reference="Psalm 89:47" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
                 <section>
-                  <h1 className="title has-text-info tracking-wide padded">How long do things live? </h1>
+                  <h1 className="title has-text-primary tracking-wide padded">How long do things live? </h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Nothing we see lives forever.  Mayflies live the shortest life on Earth - only 24 hours. Compare that with the common housefly at 4 weeks.  Humans in the USA live on average almost 80 years old.  The oldest person (independently verified) is Jeanne Calment (1875–1997) of France, who lived to the age of 122 years, 164 days. The oldest verified man ever is Jiroemon Kimura (1897–2013) of Japan, who lived to the age of 116 years, 54 days.  The oldest person from Biblical accounts was Methuselah, at 969 years (Genesis 5:27).</p>
                   <p className="is-size-6 leading-normal padded">But some animals live even longer (verified) lives - a famous Giant Galapagos Tortoise made 152 years.  Greenland Sharks can reach 200 years old, although one individual was found that was 400 years old – making it the oldest vertebrate in the world. A bivalve mollusk, aka "Ming", lived 507, plus or minus 2 years.</p>
@@ -115,7 +114,7 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-info tracking-wide padded">Amazing Grace - John Newton</h1>
+                    <h1 className="title has-text-primary tracking-wide padded">Amazing Grace - John Newton</h1>
                 </section>
                     <p className="is-size-6 leading-normal padded">"Yea, when this flesh and heart shall fail,
                     and mortal life shall cease,

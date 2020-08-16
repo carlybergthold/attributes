@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
-import Grid from '../../components/grid'
-import Testimonial from '../../components/testimonial'
+import Quote from '../../components/quote'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -39,7 +38,7 @@ class Good extends Component {
                   <p className="is-size-6 leading-normal padded">All my needs and desires have been created by God and are good.  However, I can try to meet my needs and desires in ways that disregard God and His design, and are thus harmful. My greatest feeling of satisfaction will come from having my strongest desires met in a way that gratefully honors God.</p>
                   <p className="is-size-6 leading-normal padded"> "Once Eve doubted the goodness of God, it was a great deal easier for her to disobey Him. If God was not good and was not acting for her good, then why should she obey Him?  Indeed, why should she not act independently of God in seeking her own good—the forbidden fruit?" - Deffinbaugh</p>
                   <br></br>
-                  <Testimonial quote="The LORD is gracious and merciful, slow to anger and abounding in steadfast love. The LORD is good to all, and his mercy is over all that he has made. All your works shall give thanks to you, O LORD, and all your saints shall bless you!" reference="Psalm 145:8-10" color="var(--teal)"/>
+                  <Quote scripture="The LORD is gracious and merciful, slow to anger and abounding in steadfast love. The LORD is good to all, and his mercy is over all that he has made. All your works shall give thanks to you, O LORD, and all your saints shall bless you!" reference="Psalm 145:8-10" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="fear">
@@ -48,7 +47,7 @@ class Good extends Component {
                 </section>
                   <p className="is-size-6 leading-normal padded">Life is hard - I go to work, make and keep relationships, all while juggling a myriad of daily tasks.  While others seem to live easily, I ask myself “Will I be good enough?”  In reality, everyone asks this basic life question.  And the key truth is that no one is good enough to earn a relationship with God apart from the work of Christ.  So I can only achieve “success” with God when I realize I am not good enough.</p>
                   <br></br>
-                  <Testimonial quote="For all have sinned and fall short of the glory of God," reference="Rom 3:23" color="var(--teal)"/>
+                  <Quote scripture="For all have sinned and fall short of the glory of God," reference="Rom 3:23" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -57,7 +56,7 @@ class Good extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">Failure is an integral part of life, but it should never define a life.  It brings to me experience, resilience, learning and growth.  Failure can point out my own limitations and help me rely upon others. Sanctification in a believer’s life implies a lifetime of failure, as well as redemption. </p>
                   <br></br>
-                  <Testimonial quote="Nearness to God—intimate fellowship with God—is our highest good. We may say then that whatever interferes with our nearness to God, our fellowship with Him, is actually evil. And whatever draws us into a deeper fellowship with God is actually “good.” When God brings suffering and adversity into our lives, our confidence in His goodness should not be undermined. Instead, we should be reassured of His goodness to us." reference="Deffinbaugh" color="var(--teal)"/>
+                  <Quote scripture="Nearness to God—intimate fellowship with God—is our highest good. We may say then that whatever interferes with our nearness to God, our fellowship with Him, is actually evil. And whatever draws us into a deeper fellowship with God is actually “good.” When God brings suffering and adversity into our lives, our confidence in His goodness should not be undermined. Instead, we should be reassured of His goodness to us." reference="Deffinbaugh" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -65,14 +64,14 @@ class Good extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Only God is good.</h1></section>
                   <p className="is-size-6 leading-normal padded">I may think I am good, but my measuring scale is likely off.  I find someone worse than me so I can feel better about myself.  However, when I compare myself to God, I find I have nothing good in me.  My only goodness stems from His goodness in that I am His creation and work. The original Saxon meaning of our English word God is "The Good” because it was considered that God alone is good.</p>
                   <br></br>
-                  <Testimonial quote="There is none who does good, not even one." reference="Psalm 14:3b" color="var(--teal)"/>
+                  <Quote scripture="There is none who does good, not even one." reference="Psalm 14:3b" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus was called good by many.</h1></section>
                   <p className="is-size-6 leading-normal padded">But fewer saw that He was also God.  He equated the two in this verse to confess that He was indeed God, something any “good” man would never do (unless true).  God can and does turn what I may see as evil into good, such as the cross - a shameful instrument of death transformed into saving grace through love.</p>
-                  <Testimonial quote="And Jesus said to him, 'Why do you call me good? No one is good except God alone.'" reference="2 Mark 10:18" color="var(--teal)"/>
+                  <Quote scripture="And Jesus said to him, 'Why do you call me good? No one is good except God alone.'" reference="2 Mark 10:18" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -80,7 +79,7 @@ class Good extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Define good as whatever comes from God - not just what I want or what brings me pleasure and comfort. Explore His goodness - His words, His commands, His attributes and His innate image within each of us.  Ask: What is good?  And how do I know?</p>
-                  <Testimonial quote="Oh, taste and see that the LORD is good!" reference="Psalm 34:8a" color="var(--teal)"/>
+                  <Quote scripture="Oh, taste and see that the LORD is good!" reference="Psalm 34:8a" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -88,7 +87,7 @@ class Good extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Lord, you are good and act only in good ways.  I may question your goodness when I look from my limited perspective.  Help me to clearly see and meditate on you and your goodness.</p>
-                  <Testimonial quote="Every good gift and every perfect gift is from above, coming down from the Father of lights with whom there is no variation or shadow due to change." reference="James 1:17" color="var(--teal)"/>
+                  <Quote scripture="Every good gift and every perfect gift is from above, coming down from the Father of lights with whom there is no variation or shadow due to change." reference="James 1:17" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
@@ -107,7 +106,7 @@ class Good extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">When I experience much good and should be most grateful, I tend to presume its continuation.  When I eventually experience bad, the contrast shakes thankfulness out of what good there is left.</p>
                   <p className="is-size-6 leading-normal padded">In 1789, George Washington called for an official celebratory “day of public thanksgiving and prayer.” While Congress overwhelmingly agreed to Washington’s suggestion, the holiday did not become an annual event until 1863 (during the middle of the Civil War).  While expressing gratitude for a pivotal Union Army victory at Gettysburg, President Abraham Lincoln announced an official Thanksgiving holiday. </p>
-                  <Testimonial quote="Gratitude is the return justly required from the objects of His beneficence, yet is it often withheld from our great Benefactor simply because His goodness is so constant and so abundant. It is lightly esteemed because it is exercised toward us in the common course of events. It is not felt because we daily experience it." reference="A. W. Pink" color="var(--teal)"/>
+                  <Quote scripture="Gratitude is the return justly required from the objects of His beneficence, yet is it often withheld from our great Benefactor simply because His goodness is so constant and so abundant. It is lightly esteemed because it is exercised toward us in the common course of events. It is not felt because we daily experience it." reference="A. W. Pink" color="var(--teal)"/>
                 </div>
 
 

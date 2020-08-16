@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
-import Grid from '../../components/grid'
-import Testimonial from '../../components/testimonial'
+import Quote from '../../components/quote'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -40,7 +39,7 @@ class Independent extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">Yes, contentment feels good - and should!  It means I am fully enjoying what I already have and not just chasing after what I may never get.  However, when I feel satisfied with my abilities, finances, or health, I can very quickly feel dissatisfied when I lose any part of them.  Contentment without God is short-sighted because I eventually will lose everything else. If my contentment is grounded in thanksgiving and glory to God, it can actually strengthen contentment through temporal loss and endure beyond even death.</p>
                   <br></br>
-                  <Testimonial quote="Offer to God a sacrifice of thanksgiving, and perform your vows to the Most High, and call upon me in the day of trouble; I will deliver you, and you shall glorify me….Mark this, then, you who forget God, lest I tear you apart, and there be none to deliver!  The one who offers thanksgiving as his sacrifice glorifies me; to one who orders his way rightly I will show the salvation of God!" reference="Psalm 50:14-15, 22-23" color="var(--teal)"/>
+                  <Quote scripture="Offer to God a sacrifice of thanksgiving, and perform your vows to the Most High, and call upon me in the day of trouble; I will deliver you, and you shall glorify me….Mark this, then, you who forget God, lest I tear you apart, and there be none to deliver!  The one who offers thanksgiving as his sacrifice glorifies me; to one who orders his way rightly I will show the salvation of God!" reference="Psalm 50:14-15, 22-23" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="fear">
@@ -50,7 +49,7 @@ class Independent extends Component {
                   <p className="is-size-6 leading-normal padded">No person (or country) is ever fully independent of others.  I might work hard to become as independent as possible, but I can see where dependence is also beneficial.  Unless I am not thinking rationally…..</p>
                   <p className="is-size-6 leading-normal padded">"Soteriophobia" is the irrational fear of becoming dependent on others. This can include a young adult who was overtaught the importance of independence and now never wants to seek help of any kind.  Many articles stress the difficult predicament this poses - one who does not seek help rarely will get help, resulting in the sufferer left to tackle problems alone, even when it is not the best course.</p>
                   <br></br>
-                  <Testimonial quote="The eye cannot say to the hand, 'I have no need of you,' nor again the head to the feet, 'I have no need of you.' " reference="1 Cor 12:21" color="var(--teal)"/>
+                  <Quote scripture="The eye cannot say to the hand, 'I have no need of you,' nor again the head to the feet, 'I have no need of you.' " reference="1 Cor 12:21" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -59,7 +58,7 @@ class Independent extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">The more I depend on others, the more they will fail me and the more I could be a burden on them.  The more I do not depend on others, the less opportunity I have to love them and have them love me back.  Love requires nothing in return, but flourishes in mutual generosity and dependence.</p>
                   <br></br>
-                  <Testimonial quote="Now concerning brotherly love you have no need for anyone to write to you, for you yourselves have been taught by God to love one another, for that indeed is what you are doing to all the brothers throughout Macedonia. But we urge you, brothers, to do this more and more, and to aspire to live quietly, and to mind your own affairs, and to work with your hands, as we instructed you, so that you may walk properly before outsiders and be dependent on no one." reference="1 Thess 4:9-12" color="var(--teal)"/>
+                  <Quote scripture="Now concerning brotherly love you have no need for anyone to write to you, for you yourselves have been taught by God to love one another, for that indeed is what you are doing to all the brothers throughout Macedonia. But we urge you, brothers, to do this more and more, and to aspire to live quietly, and to mind your own affairs, and to work with your hands, as we instructed you, so that you may walk properly before outsiders and be dependent on no one." reference="1 Thess 4:9-12" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -67,14 +66,14 @@ class Independent extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Only God is fully independent.</h1></section>
                   <p className="is-size-6 leading-normal padded">The term ‘aseity’ applies to God alone.  He needs no one, not man nor any part of that which He created.  It takes very little thought to realize how different I am from God.  I depend on many - from my close family and friends to the entire supply chain that provides me with a banana in the morning.</p>
                   <br></br>
-                  <Testimonial quote="The God who made the world and everything in it, being Lord of heaven and earth, does not live in temples made by man, nor is he served by human hands, as though he needed anything, since he himself gives to all mankind life and breath and everything." reference="Acts 17:24-25" color="var(--teal)"/>
+                  <Quote scripture="The God who made the world and everything in it, being Lord of heaven and earth, does not live in temples made by man, nor is he served by human hands, as though he needed anything, since he himself gives to all mankind life and breath and everything." reference="Acts 17:24-25" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus was independent as God, yet chose to remain dependent on His Father.</h1></section>
                   <p className="is-size-6 leading-normal padded">Christianity is made up of people who recognize both their independence from God and their deep dependence upon Him.    </p>
-                  <Testimonial quote="Live as people who are free, not using your freedom as a cover-up for evil, but living as servants of God." reference="1 Pet 2:16" color="var(--teal)"/>
+                  <Quote scripture="Live as people who are free, not using your freedom as a cover-up for evil, but living as servants of God." reference="1 Pet 2:16" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -82,8 +81,8 @@ class Independent extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Realize God needs nothing from me, yet I require much from Him.  Be truly thankful to God for a will which is and strives for  independence even while imbedded in a very dependent life.  Ask: What can I give to a God who has everything?</p>
-                  <Testimonial quote=" 'It is God which worketh in you.' He needs no one, but when faith is present He works through anyone. Two statements are in this sentence and a healthy spiritual life requires that we accept both." reference="A.W. Tosier" color="var(--teal)"/>
-                  <Testimonial quote="If I were hungry, I would not tell you, for the world and its fullness are mine.  Do I eat the flesh of bulls or drink the blood of goats? Offer to God a sacrifice of thanksgiving, and perform your vows to the Most High, and call upon me in the day of trouble; I will deliver you, and you shall glorify me." reference="Psalm 50:12-15" color="var(--teal)"/>
+                  <Quote scripture=" 'It is God which worketh in you.' He needs no one, but when faith is present He works through anyone. Two statements are in this sentence and a healthy spiritual life requires that we accept both." reference="A.W. Tosier" color="var(--teal)"/>
+                  <Quote scripture="If I were hungry, I would not tell you, for the world and its fullness are mine.  Do I eat the flesh of bulls or drink the blood of goats? Offer to God a sacrifice of thanksgiving, and perform your vows to the Most High, and call upon me in the day of trouble; I will deliver you, and you shall glorify me." reference="Psalm 50:12-15" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -91,8 +90,8 @@ class Independent extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">God, you need nothing from me and I owe all to you.  Help me to see your own greatness and my own need.  Meet that need with You.</p>
-                  <Testimonial quote="Do nothing from selfish ambition or conceit, but in humility count others more significant than yourselves." reference="Phil 2:3" color="var(--teal)"/>
-                  <Testimonial quote="In theology, endless mistakes result from supposing that the conditions, bounds, and limits of our own finite existence apply to God….It is vital for spiritual health to believe that God is great." reference="J.I. Packer" color="var(--teal)"/>
+                  <Quote scripture="Do nothing from selfish ambition or conceit, but in humility count others more significant than yourselves." reference="Phil 2:3" color="var(--teal)"/>
+                  <Quote scripture="In theology, endless mistakes result from supposing that the conditions, bounds, and limits of our own finite existence apply to God….It is vital for spiritual health to believe that God is great." reference="J.I. Packer" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">

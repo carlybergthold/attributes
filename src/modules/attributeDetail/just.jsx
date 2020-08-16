@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
-import Grid from '../../components/grid'
-import Testimonial from '../../components/testimonial'
+import Quote from '../../components/quote'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -38,7 +37,7 @@ class Just extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">Indignation can motivate me to immediately make things right - sometimes with poor timing, methods and motivation.  David’s prayer in Psalm 17 outlines a few good things to consider when we are filled with indignation:  1) Appeal to God as the final arbiter and rest in His protection and justice.  2) Thoroughly search my own actions and motives, realizing that God can use evil for ultimately good purposes. 3) Realize what is most important.  While unbelievers’ goals are normally all tied to the good in this life, believers’ end game is to become more Christlike for God’s glory and rest in His presence.</p>
                   <br></br>
-                  <Testimonial quote="Hear a just cause, O LORD; attend to my cry!  Give ear to my prayer from lips free of deceit!  From your presence let my vindication come! Let your eyes behold the right!  You have tried my heart, you have visited me by night, you have tested me, and you will find nothing; I have purposed that my mouth will not transgress.  With regard to the works of man, by the word of your lips I have avoided the ways of the violent.  My steps have held fast to your paths; my feet have not slipped. I call upon you, for you will answer me, O God; incline your ear to me; hear my words.  Wondrously show your steadfast love, O Savior of those who seek refuge from their adversaries at your right hand.  Keep me as the apple of your eye; hide me in the shadow of your wings, from the wicked who do me violence, my deadly enemies who surround me. " reference="Psalm 17:1-9" color="var(--teal)"/>
+                  <Quote scripture="Hear a just cause, O LORD; attend to my cry!  Give ear to my prayer from lips free of deceit!  From your presence let my vindication come! Let your eyes behold the right!  You have tried my heart, you have visited me by night, you have tested me, and you will find nothing; I have purposed that my mouth will not transgress.  With regard to the works of man, by the word of your lips I have avoided the ways of the violent.  My steps have held fast to your paths; my feet have not slipped. I call upon you, for you will answer me, O God; incline your ear to me; hear my words.  Wondrously show your steadfast love, O Savior of those who seek refuge from their adversaries at your right hand.  Keep me as the apple of your eye; hide me in the shadow of your wings, from the wicked who do me violence, my deadly enemies who surround me. " reference="Psalm 17:1-9" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="fear">
@@ -47,7 +46,7 @@ class Just extends Component {
                 </section>
                   <p className="is-size-6 leading-normal padded">My thirst for being right is God-given - I seek justice because God is just and I am made in His image.  But my fear of being found wrong is also well-founded - I (and everyone around me) have taken and will continue in a pattern of being wrong, in violation of God's standard of righteousness and thus also subject to His justice. And I cannot fix what only God can.</p>
                   <br></br>
-                  <Testimonial quote="Create in me a clean heart, O God; and renew a right spirit within me." reference="Ps 51:10" color="var(--teal)"/>
+                  <Quote scripture="Create in me a clean heart, O God; and renew a right spirit within me." reference="Ps 51:10" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -57,7 +56,7 @@ class Just extends Component {
                   <p className="is-size-6 leading-normal padded">It’s an expression most often heard from kids, but just as often thought by adults.  Like beauty, fairness is found in the eye of the beholder.  And this world has many different eyes.  I can get lost and hurt in all the resulting confusion.  True forgiveness of others is often what I need.  Forgiveness is taking seriously the awfulness of what has happened when you are treated unfairly. Forgiveness is not pretending that things are other than the way they are.
 - Desmond Tutu</p>
                   <br></br>
-                  <Testimonial quote="And whenever you stand praying, forgive, if you have anything against anyone, so that your Father also who is in heaven may forgive you your trespasses." reference="Mark 11:25" color="var(--teal)"/>
+                  <Quote scripture="And whenever you stand praying, forgive, if you have anything against anyone, so that your Father also who is in heaven may forgive you your trespasses." reference="Mark 11:25" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -65,14 +64,14 @@ class Just extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Only God can make all things right.</h1></section>
                   <p className="is-size-6 leading-normal padded">I can have a part in making some things right, but I cannot make all things right about myself, let alone the world.  I can easily slip into God's place when I decide on my own what is just in a certain situation.</p>
                   <br></br>
-                  <Testimonial quote="There is a way that seems right to a man, but its end is the way to death." reference="Prov 14:12" color="var(--teal)"/>
+                  <Quote scripture="There is a way that seems right to a man, but its end is the way to death." reference="Prov 14:12" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus provided a way for sinners to be made right with God.</h1></section>
                   <p className="is-size-6 leading-normal padded">By going to the cross in obedience to His Father, Jesus dealt justly with sin - through righteousness. “Righteousness is similar to goodness and holiness, but differs in that it requires works to establish it. Something (like Adam) can be holy, but not righteous if good works do not accompany it. God is good, but He refers to Himself as righteous because He works the good as well. Christians are called righteous, not because they have any ability to accomplish good works, but because they reside in the good works (or righteousness) of Christ. Christ's obedience is transferred to us and God grants us eternal life as a result!” - Blue Letter Bible</p>
-                  <Testimonial quote="God has often forgiven sinners, but He never forgives sin; and the sinner is only forgiven on the ground of Another having born his punishment: for 'without shedding of blood there is no remission of sins'. (Heb 9:22)." reference="A.W.Pink" color="var(--teal)"/>
+                  <Quote scripture="God has often forgiven sinners, but He never forgives sin; and the sinner is only forgiven on the ground of Another having born his punishment: for 'without shedding of blood there is no remission of sins'. (Heb 9:22)." reference="A.W.Pink" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -80,7 +79,7 @@ class Just extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Remember often that faith in Christ is the only thing that makes me right with God. Then rest in the goodness of God's judgment in any unfairness which is not within my given authority or control. And for what is in my control, let God use me as His instrument for good through obedience to His word.  Ask: What unfair thing has happened in my life?</p>
-                  <Testimonial quote="Do not present your members to sin as instruments for unrighteousness, but present yourselves to God as those who have been brought from death to life, and your members to God as instruments for righteousness." reference="Rom 6:13" color="var(--teal)"/>
+                  <Quote scripture="Do not present your members to sin as instruments for unrighteousness, but present yourselves to God as those who have been brought from death to life, and your members to God as instruments for righteousness." reference="Rom 6:13" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -88,7 +87,7 @@ class Just extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">You are fully just, God.  Thank you for sending Jesus, the Justifier, and for the gift of His grace given even to me, a creator of injustice for others.  Help me, when I see life as unfair or unjust, to simply obey your Word and rest in You.</p>
-                  <Testimonial quote="For all have sinned and fall short of the glory of God, and are justified by his grace as a gift, through the redemption that is in Christ Jesus, whom God put forward as a propitiation by his blood, to be received by faith. This was to show God’s righteousness, because in his divine forbearance he had passed over former sins. It was to show his righteousness at the present time, so that he might be just and the justifier of the one who has faith in Jesus." reference="Rom 3:23-26" color="var(--teal)"/>
+                  <Quote scripture="For all have sinned and fall short of the glory of God, and are justified by his grace as a gift, through the redemption that is in Christ Jesus, whom God put forward as a propitiation by his blood, to be received by faith. This was to show God’s righteousness, because in his divine forbearance he had passed over former sins. It was to show his righteousness at the present time, so that he might be just and the justifier of the one who has faith in Jesus." reference="Rom 3:23-26" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">

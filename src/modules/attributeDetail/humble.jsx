@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
-import Grid from '../../components/grid'
-import Testimonial from '../../components/testimonial'
+import Quote from '../../components/quote'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -38,7 +37,7 @@ class Humble extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">Anger often demands that we quickly punish or push down those who are making our life more difficult.  We too easily dismiss evidence that our anger can spring from our own stress, hunger, nervousness, sadness, envy, fatigue, illness, or boredom.  Humility honestly checks what is going on inside us and also connects with God on how best to elevate the other.</p>
                   <br></br>
-                  <Testimonial quote="Trust in the LORD, and do good; dwell in the land and befriend faithfulness.  Delight yourself in the LORD, and he will give you the desires of your heart.  Commit your way to the LORD; trust in him, and he will act.  He will bring forth your righteousness as the light, and your justice as the noonday.  Be still before the LORD and wait patiently for him; fret not yourself over the one who prospers in his way, over the man who carries out evil devices!  Refrain from anger, and forsake wrath! Fret not yourself; it tends only to evil.  For the evildoers shall be cut off, but those who wait for the LORD shall inherit the land.  In just a little while, the wicked will be no more; though you look carefully at his place, he will not be there.  But the meek (i.e. humble) shall inherit the land and delight themselves in abundant peace." reference="Psalm 37:3-11" color="var(--teal)"/>
+                  <Quote scripture="Trust in the LORD, and do good; dwell in the land and befriend faithfulness.  Delight yourself in the LORD, and he will give you the desires of your heart.  Commit your way to the LORD; trust in him, and he will act.  He will bring forth your righteousness as the light, and your justice as the noonday.  Be still before the LORD and wait patiently for him; fret not yourself over the one who prospers in his way, over the man who carries out evil devices!  Refrain from anger, and forsake wrath! Fret not yourself; it tends only to evil.  For the evildoers shall be cut off, but those who wait for the LORD shall inherit the land.  In just a little while, the wicked will be no more; though you look carefully at his place, he will not be there.  But the meek (i.e. humble) shall inherit the land and delight themselves in abundant peace." reference="Psalm 37:3-11" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="fear">
@@ -47,7 +46,7 @@ class Humble extends Component {
                 </section>
                   <p className="is-size-6 leading-normal padded">When I seek to impress someone, I change when they are present.  Doing this with multiple people creates multiple versions of myself, most of which are not truly me.  Deliberating on who I really am and who God sees me as is much more important than assessing and conforming to others’ views.</p>
                   <br></br>
-                  <Testimonial quote="The fear of man lays a snare, but whoever trusts in the LORD is safe." reference="Prov 29:25" color="var(--teal)"/>
+                  <Quote scripture="The fear of man lays a snare, but whoever trusts in the LORD is safe." reference="Prov 29:25" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -56,7 +55,7 @@ class Humble extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">I am like most people if I have a calendar and keep it full.  Much is required and much seems required.  How can I love anyone else while I am doing so much good for myself?  The best start to elevating others is spending time with one other - Jesus. </p>
                   <br></br>
-                  <Testimonial quote="Now as they went on their way, Jesus entered a village. And a woman named Martha welcomed him into her house. And she had a sister called Mary, who sat at the Lord's feet and listened to his teaching. But Martha was distracted with much serving. And she went up to him and said, “Lord, do you not care that my sister has left me to serve alone? Tell her then to help me.” But the Lord answered her, “Martha, Martha, you are anxious and troubled about many things, but one thing is necessary. Mary has chosen the good portion, which will not be taken away from her." reference="Luke 10:38-42" color="var(--teal)"/>
+                  <Quote scripture="Now as they went on their way, Jesus entered a village. And a woman named Martha welcomed him into her house. And she had a sister called Mary, who sat at the Lord's feet and listened to his teaching. But Martha was distracted with much serving. And she went up to him and said, “Lord, do you not care that my sister has left me to serve alone? Tell her then to help me.” But the Lord answered her, “Martha, Martha, you are anxious and troubled about many things, but one thing is necessary. Mary has chosen the good portion, which will not be taken away from her." reference="Luke 10:38-42" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -64,14 +63,14 @@ class Humble extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Only God fully knows Himself and elevates others.</h1></section>
                   <p className="is-size-6 leading-normal padded">God elevates others through sanctification and salvation. Does God’s humility cause Him to see me as above Himself?  Of course not.  He accurately assesses Himself as perfect, and knows I am imperfect; yet He still chooses to serve me and elevate me in many ways.</p>
                   <br></br>
-                  <Testimonial quote="When he had washed their feet and put on his outer garments and resumed his place, he said to them, “Do you understand what I have done to you? You call me Teacher and Lord, and you are right, for so I am. If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another’s feet. For I have given you an example, that you also should do just as I have done to you." reference="John 13:12-15" color="var(--teal)"/>
+                  <Quote scripture="When he had washed their feet and put on his outer garments and resumed his place, he said to them, “Do you understand what I have done to you? You call me Teacher and Lord, and you are right, for so I am. If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another’s feet. For I have given you an example, that you also should do just as I have done to you." reference="John 13:12-15" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus was humble.</h1></section>
                   <p className="is-size-6 leading-normal padded">Jesus lived a humble example for us to follow, yes.  But God’s humble step to become human in order to reconcile sinful man to Himself is so much greater.</p>
-                  <Testimonial quote="Humility is first, second and third in Christianity." reference="Augustine" color="var(--teal)"/>
+                  <Quote scripture="Humility is first, second and third in Christianity." reference="Augustine" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -79,7 +78,7 @@ class Humble extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Trust that what God says is right and true - then humbly build life on this foundation, one day at a time.  Part of this construction work is realizing who I am in Christ.  Ask: If a Christian: Do I know and rest in who I am in Christ?  If not a Christian: Do I know who I am in relation to Jesus according to the Bible?</p>
-                  <Testimonial quote="He has told you, O man, what is good; and what does the LORD require of you but to do justice, and to love kindness, and to walk humbly with your God?" reference="Micah 6:8" color="var(--teal)"/>
+                  <Quote scripture="He has told you, O man, what is good; and what does the LORD require of you but to do justice, and to love kindness, and to walk humbly with your God?" reference="Micah 6:8" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -87,7 +86,7 @@ class Humble extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Mighty God, thank you for humbly considering what is best for me, and fixing my own sins by sending your own Son to a lowly cross.  Help me to humbly assess my own situation and lift you and others up in my thoughts, words and actions.</p>
-                  <Testimonial quote="Do nothing from selfish ambition or conceit, but in humility count others more significant than yourselves. Let each of you look not only to his own interests, but also to the interests of others. Have this mind among yourselves, which is yours in Christ Jesus, who, though he was in the form of God, did not count equality with God a thing to be grasped, but emptied himself, by taking the form of a servant, being born in the likeness of men. And being found in human form, he humbled himself by becoming obedient to the point of death, even death on a cross." reference="Phil 2:3-8" color="var(--teal)"/>
+                  <Quote scripture="Do nothing from selfish ambition or conceit, but in humility count others more significant than yourselves. Let each of you look not only to his own interests, but also to the interests of others. Have this mind among yourselves, which is yours in Christ Jesus, who, though he was in the form of God, did not count equality with God a thing to be grasped, but emptied himself, by taking the form of a servant, being born in the likeness of men. And being found in human form, he humbled himself by becoming obedient to the point of death, even death on a cross." reference="Phil 2:3-8" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">

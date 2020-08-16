@@ -1,5 +1,6 @@
 const attributeArray = [
     {
+    id: 0,
     attributeName: 'creative',
     description: 'Make new from nothing',
     symbol: 'World - Made with a Word',
@@ -8,6 +9,7 @@ const attributeArray = [
     whoUnsavedAre: 'Created beings who praise self or creation'
     },
     {
+    id: 1,
     attributeName: 'eternal',
     description: 'Exist independent of time',
     symbol: 'Alpha and Omega',
@@ -16,6 +18,7 @@ const attributeArray = [
     whoUnsavedAre: 'Eternal soul apart from God with a mortal body'
     },
     {
+    id: 2,
     attributeName: 'faithful',
     description: 'Able to be trusted',
     symbol: 'Rock',
@@ -24,6 +27,7 @@ const attributeArray = [
     whoUnsavedAre: 'Barren of praise for God'
     },
     {
+    id: 3,
     attributeName: 'glorious',
     description: 'Who God is - the summation of all His attributes',
     symbol: 'Light - Often Shining Through Some Medium',
@@ -32,6 +36,7 @@ const attributeArray = [
     whoUnsavedAre: 'Missing the key purpose of life - God’s glory'
     },
     {
+    id: 4,
     attributeName: 'good',
     description: 'All God is and does/What pleases God',
     symbol: 'God is good',
@@ -40,6 +45,7 @@ const attributeArray = [
     whoUnsavedAre: 'Partakers of common grace & goodness of God'
     },
     {
+    id: 5,
     attributeName: 'gracious',
     description: 'Sacrificial loving-kindness to the undeserving',
     symbol: 'Gift',
@@ -48,6 +54,7 @@ const attributeArray = [
     whoUnsavedAre: 'Common grace (or mercy) only'
     },
     {
+    id: 6,
     attributeName: 'holy',
     description: 'Worthy - Separate from sin & creation',
     symbol: 'Fire',

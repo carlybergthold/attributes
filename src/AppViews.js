@@ -29,25 +29,22 @@ import invisible from './modules/attributeDetail/invisible'
 import jealous from './modules/attributeDetail/jealous'
 import joyful from './modules/attributeDetail/joyful'
 import just from './modules/attributeDetail/just'
-// import loving from './modules/attributeDetail/creative'
-// import merciful from './modules/attributeDetail/creative'
-// import omnipotent from './modules/attributeDetail/creative'
-// import incomprehensible from './modules/attributeDetail/creative'
-// import omnipresent from './modules/attributeDetail/creative'
-// import omniscient from './modules/attributeDetail/creative'
-// import patient from './modules/attributeDetail/creative'
-// import peaceful from './modules/attributeDetail/creative'
-// import planning from './modules/attributeDetail/creative'
-// import providing from './modules/attributeDetail/creative'
-// import relational from './modules/attributeDetail/creative'
-// import saving from './modules/attributeDetail/creative'
-// import sovereign from './modules/attributeDetail/creative'
-// import teaching from './modules/attributeDetail/creative'
-// import shepherd from './modules/attributeDetail/creative'
+import loving from './modules/attributeDetail/loving'
+import merciful from './modules/attributeDetail/merciful'
+import omnipotent from './modules/attributeDetail/omnipotent'
+import omnipresent from './modules/attributeDetail/omnipresent'
+import omniscient from './modules/attributeDetail/omniscient'
+import patient from './modules/attributeDetail/patient'
+// import planning from './modules/attributeDetail/planning'
+// import providing from './modules/attributeDetail/providing'
+// import relational from './modules/attributeDetail/relational'
+// import saving from './modules/attributeDetail/saving'
+// import sovereign from './modules/attributeDetail/sovereign'
+// import teaching from './modules/attributeDetail/teaching'
+// import shepherd from './modules/attributeDetail/shepherd'
 // import truthful from './modules/attributeDetail/truthful'
 // import unique from './modules/attributeDetail/unique'
 // import wise from './modules/attributeDetail/wise'
-// import truthful from './modules/attributeDetail/truthful'
 // import wrathful from './modules/attributeDetail/wrathful'
 
 class AppViews extends Component {
@@ -97,15 +94,14 @@ class AppViews extends Component {
       <Route exact path="/attributes/jealous" component={jealous} user={this.props.user} />
       <Route exact path="/attributes/joyful" component={joyful} user={this.props.user} />
       <Route exact path="/attributes/just" component={just} user={this.props.user} />
-      {/* <Route exact path="/loving" component={loving} user={this.props.user} />
-      <Route exact path="/merciful" component={merciful} user={this.props.user} />
-      <Route exact path="/omnipotent" component={omnipotent} user={this.props.user} />
-      <Route exact path="/omnipresent" component={omnipresent} user={this.props.user} />
-      <Route exact path="/omniscient" component={omniscient} user={this.props.user} />
-      <Route exact path="/patient" component={patient} user={this.props.user} />
-      <Route exact path="/peaceful" component={peaceful} user={this.props.user} />
-      <Route exact path="/planning" component={planning} user={this.props.user} />
-      <Route exact path="/providing" component={providing} user={this.props.user} />
+      <Route exact path="/attributes/loving" component={loving} user={this.props.user} />
+      <Route exact path="/attributes/merciful" component={merciful} user={this.props.user} />
+      <Route exact path="/attributes/omnipotent" component={omnipotent} user={this.props.user} />
+      <Route exact path="/attributes/omnipresent" component={omnipresent} user={this.props.user} />
+      <Route exact path="/attributes/omniscient" component={omniscient} user={this.props.user} />
+      <Route exact path="/attributes/patient" component={patient} user={this.props.user} />
+      {/* <Route exact path="/planning" component={planning} user={this.props.user} /> */}
+      {/* <Route exact path="/providing" component={providing} user={this.props.user} />
       <Route exact path="/relational" component={relational} user={this.props.user} />
       <Route exact path="/saving" component={saving} user={this.props.user} />
       <Route exact path="/sovereign" component={sovereign} user={this.props.user} />

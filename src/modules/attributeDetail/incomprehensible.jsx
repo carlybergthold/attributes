@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
-import Grid from '../../components/grid'
-import Testimonial from '../../components/testimonial'
+import Quote from '../../components/quote'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -38,7 +37,7 @@ class Incomprehensible extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">Faith in God is vital to Christianity.  My doubt can appear to be an open wound - in need of healing to avoid harmful infection. However, God’s incomprehensibility naturally generates doubt. Does God really name all the stars?  How exactly was Jesus both fully human and fully God?  Can He listen to and love intimately millions of people simultaneously?  Doubt is NOT disbelief.  Disbelief is a willful refusal to believe.  Doubt remains open to persuasion and possible learning.  Voicing my doubts to God and letting Him nurture my comprehension is good and can lead me to greater respect, hope and love of Him.</p>
                   <br></br>
-                  <Testimonial quote="Praise the LORD!  For it is good to sing praises to our God; for it is pleasant, and a song of praise is fitting.  The LORD builds up Jerusalem; he gathers the outcasts of Israel. He heals the brokenhearted and binds up their wounds.  He determines the number of the stars; he gives to all of them their names.  Great is our Lord, and abundant in power; his understanding is beyond measure….His delight is not in the strength of the horse, nor his pleasure in the legs of a man, but the LORD takes pleasure in those who fear him, in those who hope in his steadfast love." reference="Psalm 147:1-5, 10-11" color="var(--teal)"/>
+                  <Quote scripture="Praise the LORD!  For it is good to sing praises to our God; for it is pleasant, and a song of praise is fitting.  The LORD builds up Jerusalem; he gathers the outcasts of Israel. He heals the brokenhearted and binds up their wounds.  He determines the number of the stars; he gives to all of them their names.  Great is our Lord, and abundant in power; his understanding is beyond measure….His delight is not in the strength of the horse, nor his pleasure in the legs of a man, but the LORD takes pleasure in those who fear him, in those who hope in his steadfast love." reference="Psalm 147:1-5, 10-11" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="fear">
@@ -47,7 +46,7 @@ class Incomprehensible extends Component {
                 </section>
                   <p className="is-size-6 leading-normal padded">Some questions are certainly meant to be pondered, yet cannot be fully answered - at least in this life.  God mercifully shields me from some knowledge, leaving room for faith to fill in the gaps.  Just as I assign the best motives to a good friend in times of doubtful actions, I can trust God fully from what I do know of Him.</p>
                   <br></br>
-                  <Testimonial quote="Can you fathom the mysteries of God? Can you probe the limits of the Almighty? They are higher than the heavens—what can you do? They are deeper than the depths of the grave—what can you know? Their measure is longer than the earth and wider than the sea." reference="Job 11:7-9" color="var(--teal)"/>
+                  <Quote scripture="Can you fathom the mysteries of God? Can you probe the limits of the Almighty? They are higher than the heavens—what can you do? They are deeper than the depths of the grave—what can you know? Their measure is longer than the earth and wider than the sea." reference="Job 11:7-9" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -56,7 +55,7 @@ class Incomprehensible extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">No one “gets” everything, especially the first time they approach a subject.  But I do need to work at learning what is really important to me in life - investing in my line of work and  in those close to me.  Consider also who and why I was created.  This last subject can be phrased into a single question: “Who is Jesus?”.  The answer is revealed by God, who also gives me the curiosity to ask the question.</p>
                   <br></br>
-                  <Testimonial quote="He said to them, 'But who do you say that I am?' Simon Peter replied, 'You are the Christ, the Son of the living God.' And Jesus answered him, 'Blessed are you, Simon Bar-Jonah! For flesh and blood has not revealed this to you, but my Father who is in heaven.' " reference="Matt 16:15-17" color="var(--teal)"/>
+                  <Quote scripture="He said to them, 'But who do you say that I am?' Simon Peter replied, 'You are the Christ, the Son of the living God.' And Jesus answered him, 'Blessed are you, Simon Bar-Jonah! For flesh and blood has not revealed this to you, but my Father who is in heaven.' " reference="Matt 16:15-17" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -65,14 +64,14 @@ class Incomprehensible extends Component {
                   <p className="is-size-6 leading-normal padded">I will never fully understand this infinite being.  So how do I know Him to any extent?  I know only what He has revealed to me. </p>
                   <p className="is-size-6 leading-normal padded">In just the last 5 years (2012-2017) Americans who view themselves as religious has plummeted from 65% to 54%.  Self-describing as "religious" appears to be heading to a minority view.  Being spiritual, however, has held strong during this same time, with far more (75%) adherents. This trend is even more apparent in millennials.  Why?  Speculation is that "being spiritual, yet not religious" stems from a consumeristic attitude toward religion ("I pick and choose parts I want and make something unique that is just right for me") on one end, and on the other end a numbness from too many religious choices ("I see all the world's religions and can't or don't want to choose - so I will simply believe there is more that what I can see in this life"). - Pew Research data </p>
                   <br></br>
-                  <Testimonial quote="Man in his pomp yet without understanding is like the beasts that perish." reference="Psalm 49:20" color="var(--teal)"/>
+                  <Quote scripture="Man in his pomp yet without understanding is like the beasts that perish." reference="Psalm 49:20" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus in the flesh was the most comprehensible form of an incomprehensible God.</h1></section>
                   <p className="is-size-6 leading-normal padded"> Jesus was fully God and fully man.  A mystery prophesied, born, lived and revealed in the Bible, yet still mysterious. </p>
-                  <Testimonial quote="He said to them, 'But who do you say that I am?' Simon Peter replied, 'You are the Christ, the Son of the living God.' And Jesus answered him, 'Blessed are you, Simon Bar-Jonah! For flesh and blood has not revealed this to you, but my Father who is in heaven.' " reference="Matt 16:15-17" color="var(--teal)"/>
+                  <Quote scripture="He said to them, 'But who do you say that I am?' Simon Peter replied, 'You are the Christ, the Son of the living God.' And Jesus answered him, 'Blessed are you, Simon Bar-Jonah! For flesh and blood has not revealed this to you, but my Father who is in heaven.' " reference="Matt 16:15-17" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -80,7 +79,7 @@ class Incomprehensible extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Search out the most legitimate revelation from God and build a life aligned with the revealed truths.  Strongly consider Christianity as revealed through the Bible, the most unique revelation of God ever. Ask: Who is God?</p>
-                  <Testimonial quote="I love those who love me, and those who seek me diligently find me." reference="Prov 8:17" color="var(--teal)"/>
+                  <Quote scripture="I love those who love me, and those who seek me diligently find me." reference="Prov 8:17" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -88,7 +87,7 @@ class Incomprehensible extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">God, I do not fully understand you.  You created me as your image, but I find you to be so different from me.  How can I ever know you?  Especially when my faith includes doubt?  Help me to honestly seek and to find you, the One True God.</p>
-                  <Testimonial quote="But from there you will seek the LORD your God and you will find him, if you search after him with all your heart and with all your soul." reference="Deut 4:29" color="var(--teal)"/>
+                  <Quote scripture="But from there you will seek the LORD your God and you will find him, if you search after him with all your heart and with all your soul." reference="Deut 4:29" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">

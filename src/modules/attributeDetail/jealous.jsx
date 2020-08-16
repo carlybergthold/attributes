@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
-import Grid from '../../components/grid'
-import Testimonial from '../../components/testimonial'
+import Quote from '../../components/quote'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 
@@ -39,7 +38,7 @@ class Jealous extends Component {
                   <p className="is-size-6 leading-normal padded">Fear anticipates danger which could harm me or something I love.  If I don’t fear God, I will live in life’s abundance of fears. Each fear will remind me that what I value is always vulnerable.  And I will likely overlook the greatest danger of life - not knowing, trusting and loving God.</p>
                   <p className="is-size-6 leading-normal padded">When I fear God, I recognize His power and authority over me, and realize how dangerous He is and how vulnerable I am.  But fear of God is so much more.  It includes realizing His protective love for me - like a shelter or shadow which can never be removed.  It does not protect me from all trouble - because God promises to be with me IN trouble - but rather protects me from what can truly harm me, a separation from Him.  And my fear of God will diminish all other fears because they only anticipate a loss of something with much less value than God. </p>
                   <br></br>
-                  <Testimonial quote="He who dwells in the shelter of the Most High will abide in the shadow of the Almighty.  I will say to the LORD, ‘My refuge and my fortress, my God, in whom I trust.’ ….….You will not fear the terror of the night, nor the arrow that flies by day, nor the pestilence that stalks in darkness, nor the destruction that wastes at noonday…..’(God says) Because he holds fast to me in love, I will deliver him; I will protect him, because he knows my name.  When he calls to me, I will answer him; I will be with him in trouble;  I will rescue him and honor him.  With long life I will satisfy him and show him my salvation.’ " reference="Psalm 91:1-2, 5-6, 14-16" color="var(--teal)"/>
+                  <Quote scripture="He who dwells in the shelter of the Most High will abide in the shadow of the Almighty.  I will say to the LORD, ‘My refuge and my fortress, my God, in whom I trust.’ ….….You will not fear the terror of the night, nor the arrow that flies by day, nor the pestilence that stalks in darkness, nor the destruction that wastes at noonday…..’(God says) Because he holds fast to me in love, I will deliver him; I will protect him, because he knows my name.  When he calls to me, I will answer him; I will be with him in trouble;  I will rescue him and honor him.  With long life I will satisfy him and show him my salvation.’ " reference="Psalm 91:1-2, 5-6, 14-16" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="fear">
@@ -48,7 +47,7 @@ class Jealous extends Component {
                 </section>
                   <p className="is-size-6 leading-normal padded">God’s jealousy wants the best (that is, Himself) for all people.  An unbeliever is already experiencing the natural consequence of the sin of unbelief - separation from God.  But if I believe in God and then am unfaithful, He only acts for my good.  I may experience natural consequences of sin which are designed to point me in a better direction (but may feel “bad” at the time). I may also experience good from obedience to His law.  But to see God as doling out punishment for every violation and reward for every obedience is missing His true and jealous love - and dismisses Jesus’ work of the cross. </p>
                   <br></br>
-                  <Testimonial quote="And we know that for those who love God all things work together for good, for those who are called according to his purpose." reference="Rom 8:28" color="var(--teal)"/>
+                  <Quote scripture="And we know that for those who love God all things work together for good, for those who are called according to his purpose." reference="Rom 8:28" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -57,7 +56,7 @@ class Jealous extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">God wants me to enjoy life to the fullest and He knows that this comes first from loving Him.  God detests any competing affections that cause me to love Him less because I will then gravitate to a self-centered life, with little-to-no capacity to truly love others, including myself.  This is so important that He uses the first four "ten commandments" to emphasize it - 1) don't have other gods, 2) don't make any idols (i.e. anything more important than God), 3) don't take God's name in vain (anything which devalues who He is), and 4) remember the Sabbath (which constantly reminds me of #1-3).</p>
                   <br></br>
-                  <Testimonial quote=" 'You shall have no other gods before me. You shall not make for yourself a carved image, or any likeness of anything that is in heaven above, or that is in the earth beneath, or that is in the water under the earth. You shall not bow down to them or serve them, for I the LORD your God am a jealous God...'" reference="Exod 20:3-5a" color="var(--teal)"/>
+                  <Quote scripture=" 'You shall have no other gods before me. You shall not make for yourself a carved image, or any likeness of anything that is in heaven above, or that is in the earth beneath, or that is in the water under the earth. You shall not bow down to them or serve them, for I the LORD your God am a jealous God...'" reference="Exod 20:3-5a" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="whoAmI">
@@ -65,14 +64,14 @@ class Jealous extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Only God’s jealousy is not tainted with sin.</h1></section>
                   <p className="is-size-6 leading-normal padded">Two words for jealous are used in the Bible - quana (for human jealousy) and quanna (used only for God's jealousy).  Only quana allows for sin.  We selfishly mix what is best for us in with what we think is best for our own.  God owns believers - we do not own Him.  He protects us with a jealous fire that burns away all that is not best for us. </p>
                   <br></br>
-                  <Testimonial quote="For the LORD your God is a consuming fire, a jealous God." reference=" Deut 4:24" color="var(--teal)"/>
+                  <Quote scripture="For the LORD your God is a consuming fire, a jealous God." reference=" Deut 4:24" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Jesus is the actual bridegroom who is about to wed His bride, the Church (all believers).</h1></section>
                   <p className="is-size-6 leading-normal padded">He protects His bride by defeating her primary opponents, Satan and sin, by dying on the cross so that she/we may become pure.</p>
-                  <Testimonial quote="For the husband is the head of the wife even as Christ is the head of the church, his body, and is himself its Savior…..Husbands, love your wives, as Christ loved the church and gave himself up for her, that he might sanctify her, having cleansed her by the washing of water with the word, so that he might present the church to himself in splendor, without spot or wrinkle or any such thing, that she might be holy and without blemish." reference="Eph 5:23, 25-27" color="var(--teal)"/>
+                  <Quote scripture="For the husband is the head of the wife even as Christ is the head of the church, his body, and is himself its Savior…..Husbands, love your wives, as Christ loved the church and gave himself up for her, that he might sanctify her, having cleansed her by the washing of water with the word, so that he might present the church to himself in splendor, without spot or wrinkle or any such thing, that she might be holy and without blemish." reference="Eph 5:23, 25-27" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -80,7 +79,7 @@ class Jealous extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Recognize and lean into God’s loving protection as a bride into her bridegroom’s arms.  Become His prized possession by fully trusting His promises and accepting His commands as what is best for me.   Ask: Which promises or commands of God do I see as not ultimately for my own good?</p>
-                  <Testimonial quote="But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light." reference="1 Pet 2:9" color="var(--teal)"/>
+                  <Quote scripture="But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light." reference="1 Pet 2:9" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -88,7 +87,7 @@ class Jealous extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">You are Jealous, God, and I am thankful for that.  Your jealousy desires only your best for me.  Help me to see that and live a life in which your protective love casts out all my earthly fears.</p>
-                  <Testimonial quote="So we have come to know and to believe the love that God has for us. God is love, and whoever abides in love abides in God, and God abides in him. By this is love perfected with us, so that we may have confidence for the day of judgment, because as he is so also are we in this world. There is no fear in love, but perfect love casts out fear." reference="1 John 4:16-18a" color="var(--teal)"/>
+                  <Quote scripture="So we have come to know and to believe the love that God has for us. God is love, and whoever abides in love abides in God, and God abides in him. By this is love perfected with us, so that we may have confidence for the day of judgment, because as he is so also are we in this world. There is no fear in love, but perfect love casts out fear." reference="1 John 4:16-18a" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
