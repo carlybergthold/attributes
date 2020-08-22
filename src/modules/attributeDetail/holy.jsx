@@ -118,8 +118,11 @@ Despite the numerical superiority of the Arab armies, Israel defended itself eac
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"Holy Holy Holy" - Reginald Heber</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Holy, Holy, Holy! though the darkness hide Thee,
-Though the eye of sinful man, Thy glory may not see: Only Thou art holy, there is none beside Thee, Perfect in power in love,and purity." - Third verse (of four)</p>
+                    <p className="is-size-6 leading-normal padded">
+                      "Holy, Holy, Holy!  Though the darkness hide Thee,<br></br>
+                      Though the eye of sinful man, Thy glory may not see:<br></br>
+                      Only Thou art holy, there is none beside Thee,<br></br>
+                      Perfect in power in love,and purity." - Third verse (of four)</p>
                 </div>
 
             </main>
