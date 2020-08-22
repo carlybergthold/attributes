@@ -115,11 +115,15 @@ class Merciful extends Component {
                 <section>
                     <h1 className="title has-text-info tracking-wide padded">"At Calvary" - Newell</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"By God’s Word at last my sin I learned; Then I trembled at the law I’d spurned,
-Till my guilty soul imploring turned, To Calvary.
-
-Mercy there was great, and grace was free; Pardon there was multiplied to me;
-There my burdened soul found liberty, At Calvary." - 2nd verse and chorus</p>
+                    <p className="is-size-6 leading-normal padded">
+                      "By God’s Word at last my sin I learned;<br></br>
+                      Then I trembled at the law I’d spurned,<br></br>
+                      Till my guilty soul imploring turned, <br></br>
+                      To Calvary.<br></br><br></br>
+                      Mercy there was great, and grace was free;<br></br>
+                      Pardon there was multiplied to me;<br></br>
+                      There my burdened soul found liberty,<br></br>
+                      At Calvary." - 2nd verse and chorus</p>
                 </div>
 
             </main>
