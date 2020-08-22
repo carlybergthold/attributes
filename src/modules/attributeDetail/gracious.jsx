@@ -121,7 +121,9 @@ In her owns words - "For I had to do it–I knew that. The message that God forg
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"Grace, Greater Than Our Sin" - Julia Johnson</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Marvelous grace of our loving Lord, Grace that exceeds our sin and our guilt! Yonder on Calvary’s mount outpoured, There where the blood of the Lamb was spilled." - 1st verse</p>      <Testimonial quote="Now the law came in to increase the trespass, but where sin increased, grace abounded all the more, so that, as sin reigned in death, grace also might reign through righteousness leading to eternal life through Jesus Christ our Lord." reference="Romans 5:20-21" color="var(--teal)"/>
+                    <p className="is-size-6 leading-normal padded">"Marvelous grace of our loving Lord,<br></br> Grace that exceeds our sin and our guilt!<br></br>
+                    Yonder on Calvary’s mount outpoured,<br></br>
+                    There where the blood of the Lamb was spilled." - 1st verse</p>      <Testimonial quote="Now the law came in to increase the trespass, but where sin increased, grace abounded all the more, so that, as sin reigned in death, grace also might reign through righteousness leading to eternal life through Jesus Christ our Lord." reference="Romans 5:20-21" color="var(--teal)"/>
                 </div>
 
             </main>
