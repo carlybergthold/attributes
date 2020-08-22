@@ -113,10 +113,10 @@ class Invisible extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"Immortal, Invisible, God only Wise" - Walter C. Smith</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Immortal, invisible, God only wise,
-In light inaccessible, hid from our eyes,
-Most blessed, most glorious, the Ancient of Days,
-Almighty, victorious, Thy great name we praise." - 1st verse</p>
+                    <p className="is-size-6 leading-normal padded">"Immortal, invisible, God only wise,<br></br>
+                    In light inaccessible, hid from our eyes,<br></br>
+                    Most blessed, most glorious, the Ancient of Days,<br></br>
+                    Almighty, victorious, Thy great name we praise." - 1st verse</p>
                 </div>
 
             </main>
