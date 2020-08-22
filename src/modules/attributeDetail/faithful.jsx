@@ -121,12 +121,12 @@ class Faithful extends Component {
                     </section>
                     <p className="is-size-6 leading-normal padded">(Note the emphasis on trusting in God's faithfulness versus trusting in my faithfulness to God.)
                     
-                    "I will build my house
-                    Whether storm or drought
-                    On the rock that does not move.
-                    I will set my hope
-                    In your love, O Lord
-                    And your faithfulness will prove
+                    "I will build my house<br></br>
+                    Whether storm or drought<br></br>
+                    On the rock that does not move.<br></br>
+                    I will set my hope<br></br>
+                    In your love, O Lord<br></br>
+                    And your faithfulness will prove<br></br>
                     You are steadfast, steadfast"</p>
                 </div>
 
