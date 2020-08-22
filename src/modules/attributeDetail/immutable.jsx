@@ -111,7 +111,12 @@ class Immutable extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"Rock of Ages" - Augustus  Toplady</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"While I draw this fleeting breath, When my eyes shall close in death, When I rise to worlds unknown, And behold Thee on Thy throne, Rock of Ages, cleft for me, Let me hide myself in Thee." - Last verse</p>
+                    <p className="is-size-6 leading-normal padded">"While I draw this fleeting breath,<br></br>
+                     When my eyes shall close in death,<br></br>
+                     When I rise to worlds unknown,<br></br>
+                     And behold Thee on Thy throne,<br></br>
+                     Rock of Ages, cleft for me,<br></br>
+                     Let me hide myself in Thee." - Last verse</p>
                 </div>
 
             </main>
