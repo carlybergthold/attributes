@@ -114,9 +114,9 @@ class Jealous extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"Jealous God" - Know Hope Collective</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Now I know you would stop at nothing, 
-                    to pull me close, steal my heart away. 
-                    So here I am broken and listening. 
+                    <p className="is-size-6 leading-normal padded">"Now I know you would stop at nothing,<br></br> 
+                    to pull me close, steal my heart away.<br></br>
+                    So here I am broken and listening.<br></br>
                     Held captive here and I just wanna stay." - First verse</p>
                 </div>
 
