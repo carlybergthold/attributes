@@ -115,7 +115,12 @@ class Incomprehensible extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"Indescribable" - Chris Tomlin</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Indescribable, uncontainable, You placed the stars in the sky and You know them by name. You are amazing God, All powerful, untameable, Awestruck we fall to our knees as we humbly proclaim. You are amazing God." - Chorus</p>
+                    <p className="is-size-6 leading-normal padded">"Indescribable, uncontainable,<br></br>
+                     You placed the stars in the sky and You know them by name.<br></br>
+                     You are amazing God,<br></br>
+                     All powerful, untameable,<br></br>
+                     Awestruck we fall to our knees as we humbly proclaim.<br></br>
+                     You are amazing God." - Chorus</p>
                 </div>
 
             </main>
