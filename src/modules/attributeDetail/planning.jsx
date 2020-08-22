@@ -120,9 +120,9 @@ class Planning extends Component {
                     <h1 className="title has-text-primary tracking-wide padded">"Be Thou My Vision" - Dallan Forgaill</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">Our plans are foremost in our minds and we need to consciously sing our way toward God’s plan. </p>
-                    <p className="is-size-6 leading-normal padded">"Be Thou my Vision, O Lord of my heart
-Naught be all else to me, save that Thou art
-Thou my best Thought, by day or by night
+                    <p className="is-size-6 leading-normal padded">"Be Thou my Vision, O Lord of my heart<br></br>
+Naught be all else to me, save that Thou art<br></br>
+Thou my best Thought, by day or by night<br></br>
 Waking or sleeping, Thy presence my light" - First verse</p>
                 </div>
 
