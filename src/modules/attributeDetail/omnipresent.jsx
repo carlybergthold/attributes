@@ -116,29 +116,29 @@ class Omnipresent extends Component {
                 <section>
                     <h1 className="title has-text-info tracking-wide padded">"God is Everywhere" - Ulysses Phillips</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"See, the Lord hath made us by His mighty pow’r,
-And He watches o’er us every day and hour;
-This we do remember when we kneel in prayer,
-God is up in heaven, God is everywhere.
-Refrain:
-  God is everywhere, yes, God is everywhere,
-  God is in the valley, God is in the air;
-  God is in the mountain, God is in the sea,
-  Anywhere we may go, there God will be.
+                    <p className="is-size-6 leading-normal padded">"See, the Lord hath made us by His mighty pow’r,<br></br>
+And He watches o’er us every day and hour;<br></br>
+This we do remember when we kneel in prayer,<br></br>
+God is up in heaven, God is everywhere.<br></br>
+Refrain:<br></br>
+  God is everywhere, yes, God is everywhere,<br></br>
+  God is in the valley, God is in the air;<br></br>
+  God is in the mountain, God is in the sea,<br></br>
+  Anywhere we may go, there God will be.<br></br>
 
-Nothing can we hide from His all-seeing eye,
-Whether on the land, or in the sea or sky;
-Darkness cannot hide us from His blessed face,
-For His holy presence dwells in every place.
+Nothing can we hide from His all-seeing eye,<br></br>
+Whether on the land, or in the sea or sky;<br></br>
+Darkness cannot hide us from His blessed face,<br></br>
+For His holy presence dwells in every place.<br></br><br></br>
 
-All our words and thoughts are to Him fully known,
-We shall surely reap the deeds that we have sown;
-From Thy holy presence we can never flee,
-For the day and night are both the same with Thee.
+All our words and thoughts are to Him fully known,<br></br>
+We shall surely reap the deeds that we have sown;<br></br>
+From Thy holy presence we can never flee,<br></br>
+For the day and night are both the same with Thee.<br></br><br></br>
 
-Look down in our hearts, Lord, let us see today
-If there should be in us any wicked way;
-Help us ever serve Thee with a Godly fear,
+Look down in our hearts, Lord, let us see today<br></br>
+If there should be in us any wicked way;<br></br>
+Help us ever serve Thee with a Godly fear,<br></br>
 Help us know that Thou art present everywhere."</p>
                 </div>
 
