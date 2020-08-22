@@ -117,7 +117,12 @@ class Independent extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"Rock of Ages" - Agustus M. Toplady</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Nothing in my hand I bring;  Simply to Thy Cross I cling;  Naked, come to Thee for dress;  Helpless, look to Thee for grace;  Foul, I to the fountain fly,  Wash me, Savior, or I die." - 2nd verse</p>
+                    <p className="is-size-6 leading-normal padded">"Nothing in my hand I bring;<br></br>
+                     Simply to Thy Cross I cling;<br></br>
+                     Naked, come to Thee for dress;<br></br>
+                     Helpless, look to Thee for grace;<br></br>
+                     Foul, I to the fountain fly,<br></br>
+                     Wash me, Savior, or I die." - 2nd verse</p>
                 </div>
 
             </main>
