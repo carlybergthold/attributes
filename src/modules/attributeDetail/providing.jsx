@@ -126,13 +126,13 @@ to give them their food in due season...When you give it to them, they gather it
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"Come, Thou Fount of Every Blessing" - Robert Robinson</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Come, Thou Fount of every blessing
-Tune my heart to sing Thy grace
-Streams of mercy, never ceasing
-Call for songs of loudest praise
-Teach me some melodious sonnet
-Sung by flaming tongues above
-Praise the mount, I'm fixed upon it
+                    <p className="is-size-6 leading-normal padded">"Come, Thou Fount of every blessing<br></br>
+Tune my heart to sing Thy grace<br></br>
+Streams of mercy, never ceasing<br></br>
+Call for songs of loudest praise<br></br>
+Teach me some melodious sonnet<br></br>
+Sung by flaming tongues above<br></br>
+Praise the mount, I'm fixed upon it<br></br>
 Mount of Thy redeeming love." - First verse</p>
                 </div>
 
