@@ -124,17 +124,16 @@ class Saving extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">“There Is Power In The Blood” - Lewis Edgar Jones  
+                    <h1 className="title has-text-primary tracking-wide padded">“There Is Power In The Blood” - Lewis Edgar Jones<br></br>
                     Propitiation: The act of appeasing a deity.  In the Old Testament, blood was annually spilled on top of the ark of the covenant, deflecting God's wrath from heaven.  This wrath came because of violations of the law which was physically located in the ark (stone tablets).  In the New Testament, Christ’s shed blood on the cross served the same saving purpose, though was a once-for-all-time sacrifice.</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Would you be free from the burden of sin?
-There's power in the blood
-Power in the blood
-Would you o'er evil a victory win?
-There's wonderful power in the blood
-There is power, power, wonder working power
-In the blood of the Lamb
-There is power, power, wonder working power
+                    <p className="is-size-6 leading-normal padded">"Would you be free from the burden of sin?<br></br>
+There's power in the blood, Power in the blood<br></br>
+Would you o'er evil a victory win?<br></br>
+There's wonderful power in the blood<br></br><br></br>
+There is power, power, wonder working power<br></br>
+In the blood of the Lamb<br></br>
+There is power, power, wonder working power<br></br>
 In the precious blood of the Lamb" - First verse and chorus</p>
                 </div>
 
