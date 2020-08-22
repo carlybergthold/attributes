@@ -125,14 +125,11 @@ It's easy"
                 <section>
                     <h1 className="title has-text-info tracking-wide padded">"The Love of God is Greater Far" - Lehman</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Could we with ink the ocean fill,
-  And were the skies of parchment made;
-Were every stalk on earth a quill,
-  And every man a scribe by trade;
-To write the love of God above
-  Would drain the ocean dry;
-Nor could the scroll contain the whole,
-  Though stretched from sky to sky." - Last verse</p>
+                    <p className="is-size-6 leading-normal padded">
+                      "Could we with ink the ocean fill, And were the skies of parchment made;<br></br>
+                      Were every stalk on earth a quill, And every man a scribe by trade;<br></br>
+                      To write the love of God above Would drain the ocean dry;<br></br>
+                      Nor could the scroll contain the whole, Though stretched from sky to sky." - Last verse</p>
                 </div>
 
             </main>
