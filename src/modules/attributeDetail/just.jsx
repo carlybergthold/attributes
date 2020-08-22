@@ -116,7 +116,9 @@ class Just extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"How Firm A Foundation" - Anonymous</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"How firm a foundation, ye saints of the Lord, Is laid for your faith in His excellent word! What more can He say than to you He hath said— To you who for refuge to Jesus have fled?" - First verse</p>
+                    <p className="is-size-6 leading-normal padded">"How firm a foundation, ye saints of the Lord,<br></br>Is laid for your faith in His excellent word!<br></br>
+                    What more can He say than to you He hath said—<br></br>
+                    To you who for refuge to Jesus have fled?" - First verse</p>
                 </div>
 
             </main>
