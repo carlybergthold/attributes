@@ -115,10 +115,10 @@ class Omniscient extends Component {
                 <section>
                     <h1 className="title has-text-info tracking-wide padded">"His Eye Is On The Sparrow" - C.D. Martin</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Whenever I am tempted, whenever clouds arise,
-When songs give place to sighing, when hope within me dies,
-I draw the closer to Him, from care He sets me free;
-His eye is on the sparrow, and I know He watches me;
+                    <p className="is-size-6 leading-normal padded">"Whenever I am tempted, whenever clouds arise,<br></br>
+When songs give place to sighing, when hope within me dies,<br></br>
+I draw the closer to Him, from care He sets me free;<br></br>
+His eye is on the sparrow, and I know He watches me;<br></br>
 His eye is on the sparrow, and I know He watches me.""  (last verse)</p>
                 </div>
 
