@@ -117,11 +117,11 @@ I realized afresh that He does not drive us by duty, but draws us by beauty, not
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"To God Be the Glory" - Fanny Crosby</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Praise the Lord, praise the Lord,
-  Let the earth hear His voice;
-Praise the Lord, praise the Lord,
-  Let the people rejoice;
-Oh, come to the Father, through Jesus the Son,
+                    <p className="is-size-6 leading-normal padded">"Praise the Lord, praise the Lord,<br></br>
+  Let the earth hear His voice;<br></br>
+Praise the Lord, praise the Lord,<br></br>
+  Let the people rejoice;<br></br>
+Oh, come to the Father, through Jesus the Son,<br></br>
   And give Him the glory; great things He hath done." - Chorus</p>
                 </div>
 
