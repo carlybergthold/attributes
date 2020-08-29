@@ -79,7 +79,7 @@ class Gracious extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Remove all thoughts of earning salvation; recognize it as fully independent of my works, actions, thoughts or motives.  Receive salvation through faith in Christ alone, with gratitude, as a true gift.  </p>
-                  <p className="is-size-6 leading-normal padded">Ask: How do I feel about helping someone who is either ungrateful or not deserving?  Does my graciousness depend on what I view as their worthiness?</p>
+                  <p className="is-size-6 leading-normal padded">Ask: How do I feel about helping someone who is either ungrateful or not deserving?  <br></br>Does my graciousness depend on what I view as their worthiness?</p>
                   <Testimonial quote="For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast." reference="Ephesians 2:8-9" color="var(--teal)"/>
                 </div>
 
