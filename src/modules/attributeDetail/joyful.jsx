@@ -78,7 +78,7 @@ class Joyful extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Recognize that the source of all pleasure is God.  Seek the pleasure to be found in His word and the beauty of Christ in the world. “Christian joy is a good feeling in the soul, produced by the Holy Spirit, as he causes us to see the beauty of Christ in the word and in the world.” - John Piper.  Ask: What gives me pleasure?  What is its ultimate source?</p>
+                  <p className="is-size-6 leading-normal padded">Recognize that the source of all pleasure is God.  Seek the pleasure to be found in His word and the beauty of Christ in the world. “Christian joy is a good feeling in the soul, produced by the Holy Spirit, as he causes us to see the beauty of Christ in the word and in the world.” - John Piper.  <br></br>Ask: What gives me pleasure?  What is its ultimate source?</p>
                   <Testimonial quote="Restore to me the joy of your salvation, and uphold me with a willing spirit." reference="Psalm 51:12" color="var(--teal)"/>
                 </div>
 
