@@ -90,7 +90,7 @@ It's easy"
                 <section>
                   <h1 className="title has-text-info tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Be committed to a secure (covenantal) relationship - first with Christ and then another, such as within a good marriage, church body, or friendship. Consider all my daily work first and foremost as a way to love and serve others.  Ask: How am I loving others (according to the definition above)?</p>
+                  <p className="is-size-6 leading-normal padded">Be committed to a secure (covenantal) relationship - first with Christ and then another, such as within a good marriage, church body, or friendship. Consider all my daily work first and foremost as a way to love and serve others.  <br></br>Ask: How am I loving others (according to the definition above)?</p>
                   <Testimonial quote="And this commandment we have from him: whoever loves God must also love his brother." reference="1 John 4:21" color="var(--teal)"/>
                 </div>
 
