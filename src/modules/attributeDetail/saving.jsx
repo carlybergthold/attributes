@@ -90,7 +90,7 @@ class Saving extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Stop trying to justify myself through my works and rely solely on Jesus’ work on the cross to save me.  Realizing I am free from the law and associated judgment, be motivated by my love of Christ in response to the remedy He provides.
-                  Ask:  Why am I doing this good work?</p>
+                  <br></br>Ask:  Why am I doing this good work?</p>
                   <Quote scripture="For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast." reference="Ephesians 2:8-9" color="var(--teal)"/>
                 </div>
 
