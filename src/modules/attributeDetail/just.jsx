@@ -79,7 +79,7 @@ class Just extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Remember often that faith in Christ is the only thing that makes me right with God. Then rest in the goodness of God's judgment in any unfairness which is not within my given authority or control. And for what is in my control, let God use me as His instrument for good through obedience to His word.  Ask: What unfair thing has happened in my life?  And what is the right response to it?</p>
+                  <p className="is-size-6 leading-normal padded">Remember often that faith in Christ is the only thing that makes me right with God. Then rest in the goodness of God's judgment in any unfairness which is not within my given authority or control. And for what is in my control, let God use me as His instrument for good through obedience to His word.  <br></br>Ask: What unfair thing has happened in my life?  And what is the right response to it?</p>
                   <Testimonial quote="Do not present your members to sin as instruments for unrighteousness, but present yourselves to God as those who have been brought from death to life, and your members to God as instruments for righteousness." reference="Romans 6:13" color="var(--teal)"/>
                 </div>
 
