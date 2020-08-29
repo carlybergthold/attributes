@@ -80,7 +80,7 @@ class Invisible extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">By faith, embrace what cannot be sensed, but continue to filter the spiritual through what can be sensed.  Investigate the historical evidence of the wise man called Jesus and compare God’s truth revealed to man through the Bible with ongoing observable reality.   Ask: What evidence do I see of an invisible God?</p>
+                  <p className="is-size-6 leading-normal padded">By faith, embrace what cannot be sensed, but continue to filter the spiritual through what can be sensed.  Investigate the historical evidence of the wise man called Jesus and compare God’s truth revealed to man through the Bible with ongoing observable reality.   <br></br>Ask: What evidence do I see of an invisible God?</p>
                   <Testimonial quote="Oh, taste and see that the LORD is good! Blessed is the man who takes refuge in him!" reference="Psalm 34:8" color="var(--teal)"/>
                 </div>
 
