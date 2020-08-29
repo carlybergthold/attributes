@@ -79,7 +79,7 @@ class Incomprehensible extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Search out the most legitimate revelation from God and build a life aligned with the revealed truths.  Strongly consider Christianity as revealed through the Bible, the most unique revelation of God ever. Ask: Who is God?</p>
+                  <p className="is-size-6 leading-normal padded">Search out the most legitimate revelation from God and build a life aligned with the revealed truths.  Strongly consider Christianity as revealed through the Bible, the most unique revelation of God ever. <br></br>Ask: Who is God?</p>
                   <Testimonial quote="I love those who love me, and those who seek me diligently find me." reference="Proverbs 8:17" color="var(--teal)"/>
                 </div>
 
