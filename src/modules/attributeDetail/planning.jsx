@@ -84,7 +84,7 @@ class Planning extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Accept, even within my own planning and especially when difficulties arise, that God’s plan is made and executed with the full force of all His attributes. For believers, the driving force of His plan is His never-ending love, which He pours into all His plans.  Ask: How could my most recent difficulty bring me good?</p>
+                  <p className="is-size-6 leading-normal padded">Accept, even within my own planning and especially when difficulties arise, that God’s plan is made and executed with the full force of all His attributes. For believers, the driving force of His plan is His never-ending love, which He pours into all His plans.  <br></br>Ask: How could my most recent difficulty bring me good?</p>
                   <Quote scripture="Father, if you are willing, remove this cup from me. Nevertheless, not my will, but yours, be done." reference="Luke 22:42" color="var(--teal)"/>
                 </div>
 
