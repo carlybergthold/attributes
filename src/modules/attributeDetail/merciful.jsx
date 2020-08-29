@@ -81,7 +81,7 @@ class Merciful extends Component {
                 <section>
                   <h1 className="title has-text-info tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Praise God for the mercy He shows me.  Let me eagerly and cheerfully show mercy to others.  While helping others in need, help me to realize that every person has the need to know Christ better.  Ask: When is the last time I have needed mercy?  When is the last time I have shown mercy?</p>
+                  <p className="is-size-6 leading-normal padded">Praise God for the mercy He shows me.  Let me eagerly and cheerfully show mercy to others.  While helping others in need, help me to realize that every person has the need to know Christ better.  <br></br>Ask: When is the last time I have needed mercy?  <br></br>When is the last time I have shown mercy?</p>
                   <Testimonial quote="Blessed are the merciful, for they shall receive mercy." reference="Matthew 5:7" color="var(--teal)"/>
                 </div>
 
