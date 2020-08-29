@@ -79,7 +79,7 @@ class Good extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Define good as whatever comes from God - not just what I want or what brings me pleasure and comfort. Explore His goodness - His words, His commands, His attributes and His innate image within each of us.  Ask: What is good?  And how do I know? What standard do I use to discern good from evil?</p>
+                  <p className="is-size-6 leading-normal padded">Define good as whatever comes from God - not just what I want or what brings me pleasure and comfort. Explore His goodness - His words, His commands, His attributes and His innate image within each of us.  <br></br>Ask: What is good?  And how do I know? What standard do I use to discern good from evil?</p>
                   <Testimonial quote="Every good gift and every perfect gift is from above, coming down from the Father of lights with whom there is no variation or shadow due to change." reference="James 1:17" color="var(--teal)"/>
                 </div>
 
