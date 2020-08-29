@@ -109,7 +109,7 @@ const struggleArray = [
     },
     {
     attributeName: 'teaching',
-    struggleName: 'Difficulty in Learning - I do not learn well and my teacher will get upset with me.',
+    struggleName: 'Difficulty in Learning - I have difficulties learning and my past teachers were often harsh or uncaring.',
     },
     {
     attributeName: 'truthful',
