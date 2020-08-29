@@ -82,7 +82,7 @@ class Relational extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Meditate on who God is as a real person versus an intellectual or theological concept (use the Bible as the key resource). Appreciate and take the initiative to invest further in your current relationships; develop new relationships (take the risk) and even join an organization with the intent to serve others - a family, church, volunteer or work group.  Ask: How do I consider God to be a Person?</p>
+                  <p className="is-size-6 leading-normal padded">Meditate on who God is as a real person versus an intellectual or theological concept (use the Bible as the key resource). Appreciate and take the initiative to invest further in your current relationships; develop new relationships (take the risk) and even join an organization with the intent to serve others - a family, church, volunteer or work group.  <br></br>Ask: How do I consider God to be a Person?</p>
                   <Quote scripture="Then God said, 'Let us make man in our image, after our likeness.'" reference="Genesis 1:26a" color="var(--teal)"/>
                 </div>
 
