@@ -94,7 +94,7 @@ class Peaceful extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">Reconcile my beliefs and life with the foundational truths of the Bible. Bring the current situation to Him and Him to the situation with an intent to reconcile the two.  
 
-                  Let all artificial barriers to unity fall in the one body of Christ (i.e. Jew/Gentile, race/gender, denomination, social class or severity of sin, worship style, etc.).  Rejoice in this peaceful unity!  Ask: Where in my life do I not see peace?</p>
+                  Let all artificial barriers to unity fall in the one body of Christ (i.e. Jew/Gentile, race/gender, denomination, social class or severity of sin, worship style, etc.).  Rejoice in this peaceful unity!  <br></br>Ask: Where in my life do I not see peace?</p>
                   <Quote scripture="You keep him in perfect peace whose mind is stayed on you, because he trusts in you." reference="Isaiah 26:3" color="var(--teal)"/>
                 </div>
 
