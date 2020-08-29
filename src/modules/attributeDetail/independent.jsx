@@ -81,7 +81,7 @@ class Independent extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Realize God needs nothing from me, yet I require much from Him.  Be truly thankful to God for giving me a free will which is and strives for healthy  independence even while acknowledging my total dependence on Him.  Ask: What can I give to a God who has everything?</p>
+                  <p className="is-size-6 leading-normal padded">Realize God needs nothing from me, yet I require much from Him.  Be truly thankful to God for giving me a free will which is and strives for healthy  independence even while acknowledging my total dependence on Him.  <br></br>Ask: What can I give to a God who has everything?</p>
                   <Testimonial quote=" 'It is God which worketh in you.' He needs no one, but when faith is present He works through anyone. Two statements are in this sentence and a healthy spiritual life requires that we accept both." reference="A.W. Tosier" color="var(--teal)"/>
                   <Testimonial quote="If I were hungry, I would not tell you, for the world and its fullness are mine.  Do I eat the flesh of bulls or drink the blood of goats? Offer to God a sacrifice of thanksgiving, and perform your vows to the Most High, and call upon me in the day of trouble; I will deliver you, and you shall glorify me." reference="Psalm 50:12-15" color="var(--teal)"/>
                 </div>
