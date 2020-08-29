@@ -87,7 +87,7 @@ to give them their food in due season...When you give it to them, they gather it
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Accept my role of steward versus owner.  Recognize and be thankful for any God-given ability to work and earn a living.  Ask: Who can I thank for either providing for my needs or for my ability to earn a living?</p>
+                  <p className="is-size-6 leading-normal padded">Accept my role of steward versus owner.  Recognize and be thankful for any God-given ability to work and earn a living.  <br></br>Ask: Who can I thank for either providing for my needs or for my ability to earn a living?</p>
                   <Quote scripture="And Isaac sowed in that land and reaped in the same year a hundredfold. The LORD blessed him." reference="Genesis 26:12" color="var(--teal)"/>
                 </div>
 
