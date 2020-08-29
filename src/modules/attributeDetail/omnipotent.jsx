@@ -81,7 +81,7 @@ class Omnipotent extends Component {
                 <section>
                   <h1 className="title has-text-info tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Recognize that my very existence, strength and authority has been only temporarily delegated to me from God.  First thank God for any difficulty I have been able to endure or overcome and then trust Him with what remains by seeking His wisdom and strength.   Ask: Where do I need more strength or control?</p>
+                  <p className="is-size-6 leading-normal padded">Recognize that my very existence, strength and authority has been only temporarily delegated to me from God.  First thank God for any difficulty I have been able to endure or overcome and then trust Him with what remains by seeking His wisdom and strength.   <br></br>Ask: Where do I need more strength or control?</p>
                   <Testimonial quote="Being strengthened with all power, according to his glorious might, for all endurance and patience with joy, giving thanks to the Father, who has qualified you to share in the inheritance of the saints in light." reference="Colosians 1:11-12" color="var(--teal)"/>
                 </div>
 
