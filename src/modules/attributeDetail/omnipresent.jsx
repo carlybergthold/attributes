@@ -83,7 +83,7 @@ class Omnipresent extends Component {
                 <section>
                   <h1 className="title has-text-info tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Acknowledge the presence of God at any given moment and consider what His presence brings.  Realize God is always very tangibly present in His Word.  "A man may hide God from himself, and yet he cannot hide himself from God." - William Secker (Puritan author)  Ask: How have I recently called on God?</p>
+                  <p className="is-size-6 leading-normal padded">Acknowledge the presence of God at any given moment and consider what His presence brings.  Realize God is always very tangibly present in His Word.  "A man may hide God from himself, and yet he cannot hide himself from God." - William Secker (Puritan author)  <br></br>Ask: How have I recently called on God?</p>
                   <Testimonial quote="The LORD is near to all who call on him, to all who call on him in truth." reference="Psalm 145:18" color="var(--teal)"/>
                 </div>
 
