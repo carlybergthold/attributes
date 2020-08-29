@@ -78,7 +78,7 @@ class Humble extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Humbly trust that what God says is right and true - then humbly build life on this foundation, one day at a time.  Part of this construction work is realizing who I am in Christ.  Humbly ask: If a Christian: Do I know and rest in who I am in Christ?  If not a Christian: Do I know who I am in relation to Jesus according to the Bible?</p>
+                  <p className="is-size-6 leading-normal padded">Humbly trust that what God says is right and true - then humbly build life on this foundation, one day at a time.  Part of this construction work is realizing who I am in Christ.  <br></br>Humbly ask: If a Christian: Do I know and rest in who I am in Christ?  <br></br>If not a Christian: Do I know who I am in relation to Jesus according to the Bible?</p>
                   <Testimonial quote="He has told you, O man, what is good; and what does the LORD require of you but to do justice, and to love kindness, and to walk humbly with your God?" reference="Micah 6:8" color="var(--teal)"/>
                 </div>
 
