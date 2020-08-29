@@ -83,7 +83,7 @@ class Creative extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">In humility and gratitude, give credit and appreciation to others who have made it possible for me to create, including our ultimate Creator. Ask: Who has helped me most in forming one of my creative endeavors?</p>
+                  <p className="is-size-6 leading-normal padded">In humility and gratitude, give credit and appreciation to others who have made it possible for me to create, including our ultimate Creator. <br></br>Ask: Who has helped me most in forming one of my creative endeavors?</p>
                   <Quote scripture="So, whether you eat or drink, or whatever you do, do all to the glory of God." reference="1 Corinthians 10:31" color="var(--teal)"/>
                 </div>
 
