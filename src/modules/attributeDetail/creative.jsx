@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
 import Grid from '../../components/grid'
-import Testimonial from '../../components/testimonial'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 import Quote from '../../components/quote'
@@ -16,7 +15,7 @@ class Creative extends Component {
     render() {
         return(
             <body className="attPage">
-            <Hero title="Creative" subtitle="To make new from nothing" img="girl.png" />
+            <Hero title="Creative" subtitle="To make new from nothing" icon="creative" />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside>
                 <section id="sidebar">

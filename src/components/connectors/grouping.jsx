@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import '../../styles/connectors.css'
+import '../../styles/connectors.css';
+import EmotionGrouping from './emotion/emotionGrouping';
 
 class Group extends Component {
 
@@ -18,30 +19,20 @@ class Group extends Component {
         if (this.state.currentGroup === "firstGroup") {
           return (
             <section className="connectorContainer">
-                <div className='connectorGroup' onClick={() => this.getCurrentGroup("happyGroup")}>HAPPY</div>
-                <div className='connectorGroup' onClick={() => this.getCurrentGroup("sadGroup")}>SAD</div>
-                <div className='connectorGroup' onClick={() => this.getCurrentGroup("scaredGroup")}>SCARED</div>
-                <div className='connectorGroup' onClick={() => this.getCurrentGroup("angryGroup")}>ANGRY</div>
+                <div className='connectorGroup' onClick={() => this.getCurrentGroup("pleasureGroup")}>Pleased</div>
+                <div className='connectorGroup' onClick={() => this.getCurrentGroup("sadnessGroup")}>SAD</div>
+                <div className='connectorGroup' onClick={() => this.getCurrentGroup("fearGroup")}>Afraid</div>
+                <div className='connectorGroup' onClick={() => this.getCurrentGroup("angerGroup")}>ANGRY</div>
             </section>
           )
-        } else if (this.state.currentGroup === "happyGroup") {
-            return (
-                <section className="connectorContainer">
-                    <div className='connectorGroup'>HAPPY</div>
-                </section>
-              )
-        } else if (this.state.currentGroup === "sadGroup") {
-            return (
-                <section className="connectorContainer">
-                    <div className='connectorGroup'>SAD</div>
-                </section>
-              )
-        } else if (this.state.currentGroup === "scaredGroup") {
-            return (
-                <section className="connectorContainer">
-                    <div className='connectorGroup'>SCARED</div>
-                </section>
-                )
+        } else if (this.state.currentGroup === "pleasureGroup") {
+            return <EmotionGrouping emotion="pleasure"></EmotionGrouping>
+        } else if (this.state.currentGroup === "sadnessGroup") {
+            return <EmotionGrouping emotion="sadness"></EmotionGrouping>
+        } else if (this.state.currentGroup === "fearGroup") {
+            return <EmotionGrouping emotion="fear"></EmotionGrouping>
+        } else if (this.state.currentGroup === "angerGroup") {
+            return <EmotionGrouping emotion="anger"></EmotionGrouping>
         }
     }
 
@@ -51,7 +42,7 @@ class Group extends Component {
             {
             this.group()
             }
-            <div>Go back to beginning</div>
+            <div onClick={() => this.getCurrentGroup("firstGroup")}>Go back to beginning</div>
             <div>Or see all emotions</div>
         </>
         )
