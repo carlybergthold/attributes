@@ -79,9 +79,8 @@ class Humble extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-
-                  <p className="is-size-6 leading-normal padded">Humbly trust that what God says is right and true - then humbly build life on this foundation, one day at a time.  Part of this construction work is realizing who I am in Christ.  Humbly ask: If a Christian: Do I know and rest in who I am in Christ?  If not a Christian: Do I know who I am in relation to Jesus according to the Bible?</p>
-                  <Quote scripture="He has told you, O man, what is good; and what does the LORD require of you but to do justice, and to love kindness, and to walk humbly with your God?" reference="Micah 6:8" color="var(--teal)"/>
+                  <p className="is-size-6 leading-normal padded">Humbly trust that what God says is right and true - then humbly build life on this foundation, one day at a time.  Part of this construction work is realizing who I am in Christ.  <br></br>Humbly ask: If a Christian: Do I know and rest in who I am in Christ?  <br></br>If not a Christian: Do I know who I am in relation to Jesus according to the Bible?</p>
+                  <Quote quote="He has told you, O man, what is good; and what does the LORD require of you but to do justice, and to love kindness, and to walk humbly with your God?" reference="Micah 6:8" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -114,19 +113,19 @@ class Humble extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded"> "Just As I Am" - Charlotte Elliott</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Just as I am, without one plea,
-But that Thy blood was shed for me,
-And that Thou bid’st me come to Thee,
-O Lamb of God, I come! I come!" - 1st verse
+                    <p className="is-size-6 leading-normal padded">"Just as I am, without one plea,<br></br>
+But that Thy blood was shed for me,<br></br>
+And that Thou bid’st me come to Thee,<br></br>
+O Lamb of God, I come! I come!" - 1st verse<br></br><br></br>
 
-"Just as I am, though tossed about
-With many a conflict, many a doubt;
-Fightings within, and fears without,
-O Lamb of God, I come, I come!" - 3rd verse
+"Just as I am, though tossed about<br></br>
+With many a conflict, many a doubt;<br></br>
+Fightings within, and fears without,<br></br>
+O Lamb of God, I come, I come!" - 3rd verse<br></br><br></br>
 
-"Just as I am, Thou wilt receive,
-Wilt welcome, pardon, cleanse, relieve;
-Because Thy promise I believe,
+"Just as I am, Thou wilt receive,<br></br>
+Wilt welcome, pardon, cleanse, relieve;<br></br>
+Because Thy promise I believe,<br></br>
 O Lamb of God, I come, I come." - 5th verse</p>
                 </div>
 

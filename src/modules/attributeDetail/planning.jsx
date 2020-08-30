@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../../styles/attribute.css'
 import Grid from '../../components/grid'
-import Testimonial from '../../components/testimonial'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 import Quote from '../../components/quote'
@@ -84,7 +83,7 @@ class Planning extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Accept, even within my own planning and especially when difficulties arise, that God’s plan is made and executed with the full force of all His attributes. For believers, the driving force of His plan is His never-ending love, which He pours into all His plans.  Ask: How could my most recent difficulty bring me good?</p>
+                  <p className="is-size-6 leading-normal padded">Accept, even within my own planning and especially when difficulties arise, that God’s plan is made and executed with the full force of all His attributes. For believers, the driving force of His plan is His never-ending love, which He pours into all His plans.  <br></br>Ask: How could my most recent difficulty bring me good?</p>
                   <Quote scripture="Father, if you are willing, remove this cup from me. Nevertheless, not my will, but yours, be done." reference="Luke 22:42" color="var(--teal)"/>
                 </div>
 
@@ -120,9 +119,9 @@ class Planning extends Component {
                     <h1 className="title has-text-primary tracking-wide padded">"Be Thou My Vision" - Dallan Forgaill</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">Our plans are foremost in our minds and we need to consciously sing our way toward God’s plan. </p>
-                    <p className="is-size-6 leading-normal padded">"Be Thou my Vision, O Lord of my heart
-Naught be all else to me, save that Thou art
-Thou my best Thought, by day or by night
+                    <p className="is-size-6 leading-normal padded">"Be Thou my Vision, O Lord of my heart<br></br>
+Naught be all else to me, save that Thou art<br></br>
+Thou my best Thought, by day or by night<br></br>
 Waking or sleeping, Thy presence my light" - First verse</p>
                 </div>
 

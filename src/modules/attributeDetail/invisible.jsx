@@ -82,8 +82,8 @@ class Invisible extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">By faith, embrace what cannot be sensed, but continue to filter the spiritual through what can be sensed.  Investigate the historical evidence of the wise man called Jesus and compare God’s truth revealed to man through the Bible with ongoing observable reality.   Ask: What evidence do I see of an invisible God?</p>
-                  <Quote scripture="Oh, taste and see that the LORD is good! Blessed is the man who takes refuge in him!" reference="Psalm 34:8" color="var(--teal)"/>
+                  <p className="is-size-6 leading-normal padded">By faith, embrace what cannot be sensed, but continue to filter the spiritual through what can be sensed.  Investigate the historical evidence of the wise man called Jesus and compare God’s truth revealed to man through the Bible with ongoing observable reality.   <br></br>Ask: What evidence do I see of an invisible God?</p>
+                  <Quote quote="Oh, taste and see that the LORD is good! Blessed is the man who takes refuge in him!" reference="Psalm 34:8" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -116,10 +116,10 @@ class Invisible extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"Immortal, Invisible, God only Wise" - Walter C. Smith</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Immortal, invisible, God only wise,
-In light inaccessible, hid from our eyes,
-Most blessed, most glorious, the Ancient of Days,
-Almighty, victorious, Thy great name we praise." - 1st verse</p>
+                    <p className="is-size-6 leading-normal padded">"Immortal, invisible, God only wise,<br></br>
+                    In light inaccessible, hid from our eyes,<br></br>
+                    Most blessed, most glorious, the Ancient of Days,<br></br>
+                    Almighty, victorious, Thy great name we praise." - 1st verse</p>
                 </div>
 
             </main>

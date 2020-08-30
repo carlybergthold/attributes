@@ -80,9 +80,8 @@ class Incomprehensible extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Search out the most legitimate revelation from God and build a life aligned with the revealed truths.  Strongly consider Christianity as revealed through the Bible, the most unique revelation of God ever. Ask: Who is God?</p>
-
-                  <Quote scripture="I love those who love me, and those who seek me diligently find me." reference="Proverbs 8:17" color="var(--teal)"/>
+                  <p className="is-size-6 leading-normal padded">Search out the most legitimate revelation from God and build a life aligned with the revealed truths.  Strongly consider Christianity as revealed through the Bible, the most unique revelation of God ever. <br></br>Ask: Who is God?</p>
+                  <Quote quote="I love those who love me, and those who seek me diligently find me." reference="Proverbs 8:17" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -118,7 +117,12 @@ class Incomprehensible extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"Indescribable" - Chris Tomlin</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Indescribable, uncontainable, You placed the stars in the sky and You know them by name. You are amazing God, All powerful, untameable, Awestruck we fall to our knees as we humbly proclaim. You are amazing God." - Chorus</p>
+                    <p className="is-size-6 leading-normal padded">"Indescribable, uncontainable,<br></br>
+                     You placed the stars in the sky and You know them by name.<br></br>
+                     You are amazing God,<br></br>
+                     All powerful, untameable,<br></br>
+                     Awestruck we fall to our knees as we humbly proclaim.<br></br>
+                     You are amazing God." - Chorus</p>
                 </div>
 
             </main>

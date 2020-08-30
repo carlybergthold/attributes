@@ -83,9 +83,8 @@ class Omnipotent extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Recognize that my very existence, strength and authority has been only temporarily delegated to me from God.  First thank God for any difficulty I have been able to endure or overcome and then trust Him with what remains by seeking His wisdom and strength.   Ask: Where do I need more strength or control?</p>
-
-                  <Quote scripture="Being strengthened with all power, according to his glorious might, for all endurance and patience with joy, giving thanks to the Father, who has qualified you to share in the inheritance of the saints in light." reference="Colosians 1:11-12" color="var(--teal)"/>
+                  <p className="is-size-6 leading-normal padded">Recognize that my very existence, strength and authority has been only temporarily delegated to me from God.  First thank God for any difficulty I have been able to endure or overcome and then trust Him with what remains by seeking His wisdom and strength.   <br></br>Ask: Where do I need more strength or control?</p>
+                  <Quote quote="Being strengthened with all power, according to his glorious might, for all endurance and patience with joy, giving thanks to the Father, who has qualified you to share in the inheritance of the saints in light." reference="Colosians 1:11-12" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -122,9 +121,9 @@ class Omnipotent extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"A Mighty Fortress is Our God" - Martin Luther</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"A mighty Fortress is our God,
-A Bulwark never failing;
-Our Helper He amid the flood
+                    <p className="is-size-6 leading-normal padded">"A mighty Fortress is our God,<br></br>
+A Bulwark never failing;<br></br>
+Our Helper He amid the flood<br></br>
 Of mortal ills prevailing.""             - 1st half of verse #1</p>
                 </div>
 

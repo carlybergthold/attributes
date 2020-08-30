@@ -81,9 +81,8 @@ class Omniscient extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Pray - in full confidence that I will not only be heard, but fully understood, and with a response that considers all the options and other factors of which I am currently clueless.  Let my confession become more self-admittance and begin my true learning with God.  Ask: How do I pray if God truly knows all?</p>
-
-                  <Quote scripture="Before they call I will answer; while they are yet speaking I will hear." reference="Isaiah 65:24" color="var(--teal)"/>
+                  <p className="is-size-6 leading-normal padded">Pray - in full confidence that I will not only be heard, but fully understood, and with a response that considers all the options and other factors of which I am currently clueless.  Let my confession become more self-admittance and begin my true learning with God.  <br></br>Ask: How do I pray if God truly knows all?</p>
+                  <Quote quote="Before they call I will answer; while they are yet speaking I will hear." reference="Isaiah 65:24" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -115,10 +114,10 @@ class Omniscient extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"His Eye Is On The Sparrow" - C.D. Martin</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Whenever I am tempted, whenever clouds arise,
-When songs give place to sighing, when hope within me dies,
-I draw the closer to Him, from care He sets me free;
-His eye is on the sparrow, and I know He watches me;
+                    <p className="is-size-6 leading-normal padded">"Whenever I am tempted, whenever clouds arise,<br></br>
+When songs give place to sighing, when hope within me dies,<br></br>
+I draw the closer to Him, from care He sets me free;<br></br>
+His eye is on the sparrow, and I know He watches me;<br></br>
 His eye is on the sparrow, and I know He watches me.""  (last verse)</p>
                 </div>
 

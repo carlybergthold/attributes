@@ -35,7 +35,7 @@ class Holy extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">How do I deal with my guilt against a Holy God?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">TFew people tremble with appropriate guilt before a Holy God.  Believers often wallow inappropriately in toxic shame (painful self-condemnation for sinful acts), with little assurance of God’s forgiveness.  Unbelievers may defiantly stand in brazen shamelessness, recognizing no accountability to God or others. My best response is to acknowledge wrongs and seek God’s forgiveness made possible by Christ’s death, and rest in His powerful freedom from guilt.</p>
+                  <p className="is-size-6 leading-normal padded">Few people tremble with appropriate guilt before a Holy God.  Believers often wallow inappropriately in toxic shame (painful self-condemnation for sinful acts), with little assurance of God’s forgiveness.  Unbelievers may defiantly stand in brazen shamelessness, recognizing no accountability to God or others. My best response is to acknowledge my wrongs and seek God’s forgiveness, which is made possible by Christ’s death, and then rest in His powerful freedom from guilt.</p>
                   <br></br>
 
                   <Quote scripture="Blessed is the one whose transgression is forgiven, whose sin is covered. Blessed is the man against whom the LORD counts no iniquity, and in whose spirit there is no deceit. For when I kept silent, my bones wasted away through my groaning all day long. For day and night your hand was heavy upon me; my strength was dried up as by the heat of summer. Selah. I acknowledged my sin to you, and I did not cover my iniquity; I said, “I will confess my transgressions to the LORD,” and you forgave the iniquity of my sin." reference="Psalm 32:1-5" color="var(--teal)"/>
@@ -45,7 +45,7 @@ class Holy extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">How can anyone be good enough for Holy God?</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">No one is good enough to earn a relationship with perfectly Holy God.  That is why God Himself sent Jesus to earth as a human - to live, die and be resurrected - in order to forgive me of my unworthiness and provide me with the needed righteousness to join with Him.  In Christ, I am worthy regardless of what I have done or will do.</p>
+                  <p className="is-size-6 leading-normal padded">No one is good enough to earn a relationship with perfectly Holy God.  That is why God Himself sent Jesus to earth as a human to live, die and be resurrected. It is through Jesus that God can forgive me of my unworthiness and provide me with the needed righteousness to join with Him.  In Christ, I am worthy regardless of what I have done or even will do.</p>
                   <br></br>
                   <Quote scripture="If we confess our sins, He is faithful and just to forgive us and to cleanse us of all unrighteousness." reference="1 John 1:9" color="var(--teal)"/>
                 </div>
@@ -79,9 +79,8 @@ class Holy extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Recognize that any unworthiness I feel in this life can be traced back to my true unworthiness with God.  Seek God on His merciful terms alone - surrender in repentance and become holy through faith in Jesus Christ.  Ask: Just how holy is my life?</p>
-
-                  <Quote scripture="Remember that you were at that time separated from Christ, alienated from the commonwealth of Israel and strangers to the covenants of promise, having no hope and without God in the world." reference="Ephesians 2:12" color="var(--teal)"/>
+                  <p className="is-size-6 leading-normal padded">Recognize that any unworthiness I feel in this life can be traced back to my true unworthiness with God.  Seek God on His merciful terms alone - surrender in repentance and become holy through faith in Jesus Christ.  <br></br>Ask: Just how holy is my life?</p>
+                  <Quote quote="Remember that you were at that time separated from Christ, alienated from the commonwealth of Israel and strangers to the covenants of promise, having no hope and without God in the world." reference="Ephesians 2:12" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -107,22 +106,24 @@ class Holy extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">The Jewish nation of Israel was created by God in order to receive God's word, be separate from those around it, and represent God to the world. </h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Israel today remains quite separate from all those nearby, but the Christian faith is found in only 2% of its population.  However, the two largest religions of the world (Christianity and Islam), today covering over half the world's population, have their roots in this tiny nation.  "And I will make of you a great nation, and I will bless you and make your name great, so that you will be a blessing. I will bless those who bless you, and him who dishonors you I will curse, and in you all the families of the earth shall be blessed.” - Genesis 12:2-3</p>
-                  <p className="is-size-6 leading-normal padded">"Israel is the very embodiment of Jewish continuity: It is the only nation on earth that inhabits the same land, bears the same name, speaks the same language, and worships the same God that it did 3,000 years ago. You dig the soil and you find pottery from Davidic times, coins from Bar Kokhba, and 2,000-year-old scrolls written in a script remarkably like the one that today advertises ice cream at the corner candy store." - Quote from Charles Krauthammer - The Weekly Standard, May 11, 1998</p><p className="is-size-6 leading-normal padded">A day after the declaration of independence of the State of Israel in 1948, armies of five Arab countries, Egypt, Syria, Transjordan, Lebanon and Iraq, invaded Israel. This marked the beginning of the War of Independence. Arab states have jointly waged four full scale wars against Israel:
+                  <p className="is-size-6 leading-normal padded">"Israel is the very embodiment of Jewish continuity: It is the only nation on earth that inhabits the same land, bears the same name, speaks the same language, and worships the same God that it did 3,000 years ago. You dig the soil and you find pottery from Davidic times, coins from Bar Kokhba, and 2,000-year-old scrolls written in a script remarkably like the one that today advertises ice cream at the corner candy store." - Quote from Charles Krauthammer - The Weekly Standard, May 11, 1998</p><p className="is-size-6 leading-normal padded">A day after the declaration of independence of the State of Israel in 1948, armies of five Arab countries, Egypt, Syria, Transjordan, Lebanon and Iraq, invaded Israel. This marked the beginning of the War of Independence. Arab states have jointly waged four full scale wars against Israel:<br></br>
+1948 War of Independence<br></br>
+1956 Sinai War<br></br>
+1967 Six Day War<br></br>
+1973 Yom Kippur War<br></br>
 
-1948 War of Independence
-1956 Sinai War
-1967 Six Day War
-1973 Yom Kippur War
-
-Despite the numerical superiority of the Arab armies, Israel defended itself each time and won. After each war Israeli army withdrew from most of the areas it captured. This is unprecedented in world history and shows Israel's willingness to reach peace even at the risk of fighting for its very existence each time anew.</p>
+Despite the numerical superiority of the Arab armies, Israel defended itself each time and won. After each war the Israeli army withdrew from most of the areas it captured. This is unprecedented in world history and shows Israel's willingness to reach peace even at the risk of fighting for its very existence.</p>
                 </div>
 
                 <div className="attSection" id="liturgy" >
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"Holy Holy Holy" - Reginald Heber</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Holy, Holy, Holy! though the darkness hide Thee,
-Though the eye of sinful man, Thy glory may not see: Only Thou art holy, there is none beside Thee, Perfect in power in love,and purity." - Third verse (of four)</p>
+                    <p className="is-size-6 leading-normal padded">
+                      "Holy, Holy, Holy!  Though the darkness hide Thee,<br></br>
+                      Though the eye of sinful man, Thy glory may not see:<br></br>
+                      Only Thou art holy, there is none beside Thee,<br></br>
+                      Perfect in power in love,and purity." - Third verse (of four)</p>
                 </div>
 
             </main>

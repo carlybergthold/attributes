@@ -79,8 +79,8 @@ class Merciful extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Praise God for the mercy He shows me.  Let me eagerly and cheerfully show mercy to others.  While helping others in need, help me to realize that every person has the need to know Christ better.  Ask: When is the last time I have needed mercy?  When is the last time I have shown mercy?</p>
-                  <Quote scripture="Blessed are the merciful, for they shall receive mercy." reference="Matthew 5:7" color="var(--teal)"/>
+                  <p className="is-size-6 leading-normal padded">Praise God for the mercy He shows me.  Let me eagerly and cheerfully show mercy to others.  While helping others in need, help me to realize that every person has the need to know Christ better.  <br></br>Ask: When is the last time I have needed mercy?  <br></br>When is the last time I have shown mercy?</p>
+                  <Quote quote="Blessed are the merciful, for they shall receive mercy." reference="Matthew 5:7" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
@@ -114,11 +114,15 @@ class Merciful extends Component {
 
                     <h1 className="title has-text-primary tracking-wide padded">"At Calvary" - Newell</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"By God’s Word at last my sin I learned; Then I trembled at the law I’d spurned,
-Till my guilty soul imploring turned, To Calvary.
-
-Mercy there was great, and grace was free; Pardon there was multiplied to me;
-There my burdened soul found liberty, At Calvary." - 2nd verse and chorus</p>
+                    <p className="is-size-6 leading-normal padded">
+                      "By God’s Word at last my sin I learned;<br></br>
+                      Then I trembled at the law I’d spurned,<br></br>
+                      Till my guilty soul imploring turned, <br></br>
+                      To Calvary.<br></br><br></br>
+                      Mercy there was great, and grace was free;<br></br>
+                      Pardon there was multiplied to me;<br></br>
+                      There my burdened soul found liberty,<br></br>
+                      At Calvary." - 2nd verse and chorus</p>
                 </div>
 
             </main>

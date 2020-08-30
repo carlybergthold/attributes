@@ -64,7 +64,7 @@ class Creative extends Component {
 
                 <div className="attSection" id="whoAmI">
                 <section>
-                  <Hero title="Only God can create something from absolutely nothing."></Hero>
+                  <h1 className="title has-text-primary tracking-wide padded">Only God can create something from absolutely nothing."</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">He created me and all things.  I am created in His image and thus have His desire to create - so my ability, ingredients, and impulse to create come not from myself, but from God.</p>
                   <br></br>
@@ -82,7 +82,7 @@ class Creative extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">In humility and gratitude, give credit and appreciation to others who have made it possible for me to create, including our ultimate Creator. Ask: Who has helped me most in forming one of my creative endeavors?</p>
+                  <p className="is-size-6 leading-normal padded">In humility and gratitude, give credit and appreciation to others who have made it possible for me to create, including our ultimate Creator. <br></br>Ask: Who has helped me most in forming one of my creative endeavors?</p>
                   <Quote scripture="So, whether you eat or drink, or whatever you do, do all to the glory of God." reference="1 Corinthians 10:31" color="var(--teal)"/>
                 </div>
 
@@ -118,10 +118,10 @@ class Creative extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"All Creatures of our God and King" - Francis of Assisi</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Let all things their creator bless,
-                    And worship Him in humbleness,
-                    O praise Him! Alleluia!
-                    Praise, praise the Father, praise the Son,
+                    <p className="is-size-6 leading-normal padded">"Let all things their creator bless,<br></br>
+                    And worship Him in humbleness,<br></br>
+                    O praise Him! Alleluia!<br></br>
+                    Praise, praise the Father, praise the Son,<br></br>
                     And praise the Spirit, Three in One!" - Last verse</p>
                 </div>
 
