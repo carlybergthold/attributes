@@ -83,7 +83,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Ask God to open my heart and mind to see Who God is with more clarity, to discover how perfect and beautiful are His attributes. Discern that any glory I see in other people is either a reflection of God or not true glory. Seek only His glory and not my own.  <br></br>Ask: Have I recently seen evidence of God’s glory in other people?</p>
-                  <Quote quote="The one who speaks on his own authority seeks his own glory; but the one who seeks the glory of him who sent him is true, and in him there is no falsehood." reference="John 7:18" color="var(--teal)"/>
+                  <Quote scripture="The one who speaks on his own authority seeks his own glory; but the one who seeks the glory of him who sent him is true, and in him there is no falsehood." reference="John 7:18" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">

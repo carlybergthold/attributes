@@ -80,7 +80,7 @@ class Holy extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Recognize that any unworthiness I feel in this life can be traced back to my true unworthiness with God.  Seek God on His merciful terms alone - surrender in repentance and become holy through faith in Jesus Christ.  <br></br>Ask: Just how holy is my life?</p>
-                  <Quote quote="Remember that you were at that time separated from Christ, alienated from the commonwealth of Israel and strangers to the covenants of promise, having no hope and without God in the world." reference="Ephesians 2:12" color="var(--teal)"/>
+                  <Quote scripture="Remember that you were at that time separated from Christ, alienated from the commonwealth of Israel and strangers to the covenants of promise, having no hope and without God in the world." reference="Ephesians 2:12" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">

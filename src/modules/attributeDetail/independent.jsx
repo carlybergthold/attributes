@@ -75,7 +75,7 @@ class Independent extends Component {
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">When Jesus was on earth, was He independent from or dependent on His Father?</h1></section>
                   <p className="is-size-6 leading-normal padded">Jesus was both fully human and fully God while He was on earth.  He was fully independent and need not have relied on His Father for anything, but chose to do so in order to become the obedient sacrifice we needed. I am also both independent from God (in that I can choose to sin) and fully dependent upon Him (for my next breath).    </p>
-                  <Quote quote="Live as people who are free, not using your freedom as a cover-up for evil, but living as servants of God." reference="1 Peter 2:16" color="var(--teal)"/>
+                  <Quote scripture="Live as people who are free, not using your freedom as a cover-up for evil, but living as servants of God." reference="1 Peter 2:16" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
@@ -83,8 +83,8 @@ class Independent extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Realize God needs nothing from me, yet I require much from Him.  Be truly thankful to God for giving me a free will which is and strives for healthy  independence even while acknowledging my total dependence on Him.  <br></br>Ask: What can I give to a God who has everything?</p>
-                  <Quote quote=" 'It is God which worketh in you.' He needs no one, but when faith is present He works through anyone. Two statements are in this sentence and a healthy spiritual life requires that we accept both." reference="A.W. Tosier" color="var(--teal)"/>
-                  <Quote quote="If I were hungry, I would not tell you, for the world and its fullness are mine.  Do I eat the flesh of bulls or drink the blood of goats? Offer to God a sacrifice of thanksgiving, and perform your vows to the Most High, and call upon me in the day of trouble; I will deliver you, and you shall glorify me." reference="Psalm 50:12-15" color="var(--teal)"/>
+                  <Quote scripture=" 'It is God which worketh in you.' He needs no one, but when faith is present He works through anyone. Two statements are in this sentence and a healthy spiritual life requires that we accept both." reference="A.W. Tosier" color="var(--teal)"/>
+                  <Quote scripture="If I were hungry, I would not tell you, for the world and its fullness are mine.  Do I eat the flesh of bulls or drink the blood of goats? Offer to God a sacrifice of thanksgiving, and perform your vows to the Most High, and call upon me in the day of trouble; I will deliver you, and you shall glorify me." reference="Psalm 50:12-15" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">

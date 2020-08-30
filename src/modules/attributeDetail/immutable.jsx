@@ -81,7 +81,7 @@ class Immutable extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Be thankful for God not changing even as my own life is in a mess of change. We depend upon gravity and live confidently based upon its practically unchanging characteristics.  I can depend even more on the absolute consistency of God.  <br></br>Ask: What am I depending on to last more than a decade? Why?</p>
-                  <Quote quote="Every good gift and every perfect gift is from above, coming down from the Father of lights with whom there is no variation or shadow due to change." reference="James 1:17" color="var(--teal)"/>
+                  <Quote scripture="Every good gift and every perfect gift is from above, coming down from the Father of lights with whom there is no variation or shadow due to change." reference="James 1:17" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">

@@ -84,7 +84,7 @@ class Omnipresent extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Acknowledge the presence of God at any given moment and consider what His presence brings.  Realize God is always very tangibly present in His Word.  "A man may hide God from himself, and yet he cannot hide himself from God." - William Secker (Puritan author)  <br></br>Ask: How have I recently called on God?</p>
-                  <Quote quote="The LORD is near to all who call on him, to all who call on him in truth." reference="Psalm 145:18" color="var(--teal)"/>
+                  <Quote scripture="The LORD is near to all who call on him, to all who call on him in truth." reference="Psalm 145:18" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">

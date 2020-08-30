@@ -100,7 +100,7 @@ class Patient extends Component {
                   <h1 className="title has-text-prpmaryary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Be slow to anger, even with true injustices, especially given others’ need to be patient with me.  Be content, even joyful, in the present hard circumstances.  Accept as God's timing whatever is outside of my control or influence. God's patience is often expressed as 'slow to anger' - Ex 34:6, Nu 14:18, Psalm 103:8 & more.   <br></br>Ask: What resulted from my most recent impatience?</p>
-                  <Quote quote="Not only that, but we rejoice in our sufferings, knowing that suffering produces endurance, and endurance produces character, and character produces hope, and hope does not put us to shame, because God’s love has been poured into our hearts through the Holy Spirit who has been given to us." reference="Romans 5:3-5" color="var(--teal)"/>
+                  <Quote scripture="Not only that, but we rejoice in our sufferings, knowing that suffering produces endurance, and endurance produces character, and character produces hope, and hope does not put us to shame, because God’s love has been poured into our hearts through the Holy Spirit who has been given to us." reference="Romans 5:3-5" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">

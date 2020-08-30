@@ -86,7 +86,7 @@ Satisfy us in the morning with your steadfast love, that we may rejoice and be g
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Believe in Jesus Christ, which includes being sure you have an eternal citizenship in heaven.  Knowing you will live eternally allows you to seek a long-term perspective.  Allow this long-term perspective to impact the present, making it more urgent to savor current moments while making it needless to cling to them.  It is quite like the positive feeling of being at work just before the weekend or holiday. <br></br>Ask: How far out is my longest perspective?</p>
-                  <Quote quote="But our citizenship is in heaven. And we eagerly await a Savior from there, the Lord Jesus Christ, who, by the power that enables him to bring everything under his control, will transform our lowly bodies so that they will be like his glorious body." reference="Philippians 3:20-21" color="var(--teal)"/>
+                  <Quote scripture="But our citizenship is in heaven. And we eagerly await a Savior from there, the Lord Jesus Christ, who, by the power that enables him to bring everything under his control, will transform our lowly bodies so that they will be like his glorious body." reference="Philippians 3:20-21" color="var(--teal)"/>
                 </div>
 
                   <div className="attSection" id="prayer">
