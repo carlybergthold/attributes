@@ -99,7 +99,7 @@ class Patient extends Component {
                 <section>
                   <h1 className="title has-text-prpmaryary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Be slow to anger, even with true injustices, especially given others’ need to be patient with me.  Be content, even joyful, in the present hard circumstances.  Accept as God's timing whatever is outside of my control or influence. God's patience is often expressed as 'slow to anger' - Ex 34:6, Nu 14:18, Psalm 103:8 & more.   Ask: What resulted from my most recent impatience?</p>
+                  <p className="is-size-6 leading-normal padded">Be slow to anger, even with true injustices, especially given others’ need to be patient with me.  Be content, even joyful, in the present hard circumstances.  Accept as God's timing whatever is outside of my control or influence. God's patience is often expressed as 'slow to anger' - Ex 34:6, Nu 14:18, Psalm 103:8 & more.   <br></br>Ask: What resulted from my most recent impatience?</p>
                   <Quote scripture="Not only that, but we rejoice in our sufferings, knowing that suffering produces endurance, and endurance produces character, and character produces hope, and hope does not put us to shame, because God’s love has been poured into our hearts through the Holy Spirit who has been given to us." reference="Romans 5:3-5" color="var(--teal)"/>
                 </div>
 
@@ -135,13 +135,12 @@ class Patient extends Component {
                 <section>
                     <h1 className="title has-text-prpmaryary tracking-wide padded">“It Is Well With My Soul” - Horatio Spafford</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">We as humans will always try to interject our own timetable into what God is doing (“…haste the day, Lord…).  Even so, I can always return to the knowledge that God’s timing is the perfect timing. 
-                     
-                    "And Lord, haste the day when the faith shall be sight,
-The clouds be rolled back as a scroll;
-The trump shall resound, and the Lord shall descend,
-Even so, it is well with my soul.""
-    - Last stanza</p>
+                    <p className="is-size-6 leading-normal padded">
+                      We humans will always try to interject our own timetable into what God is doing (we want to “hasten the day).  Even so, we can always return to the knowledge that God’s timing is perfect.<br></br><br></br>
+                     "And Lord, haste the day when the faith shall be sight,<br></br>
+The clouds be rolled back as a scroll;<br></br>
+The trump shall resound, and the Lord shall descend,<br></br>
+Even so, it is well with my soul.""  - Last stanza</p>
                 </div>
 
             </main>

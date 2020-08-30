@@ -78,8 +78,7 @@ class Joyful extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Recognize that the source of all pleasure is God.  Seek the pleasure to be found in His word and the beauty of Christ in the world. “Christian joy is a good feeling in the soul, produced by the Holy Spirit, as he causes us to see the beauty of Christ in the word and in the world.” - John Piper.  Ask: What gives me pleasure?  What is its ultimate source?</p>
-
+                  <p className="is-size-6 leading-normal padded">Recognize that the source of all pleasure is God.  Seek the pleasure to be found in His word and the beauty of Christ in the world. “Christian joy is a good feeling in the soul, produced by the Holy Spirit, as he causes us to see the beauty of Christ in the word and in the world.” - John Piper.  <br></br>Ask: What gives me pleasure?  What is its ultimate source?</p>
                   <Quote scripture="Restore to me the joy of your salvation, and uphold me with a willing spirit." reference="Psalm 51:12" color="var(--teal)"/>
                 </div>
 
@@ -116,7 +115,10 @@ class Joyful extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"Joyful, Joyful, We Adore Thee" - Henry J. van Dyke (Adoration of God leads to the light of joy.)</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">“Joyful, joyful, we adore Thee, God of glory, Lord of love; Hearts unfold like flow’rs before Thee, Op’ning to the sun above. Melt the clouds of sin and sadness; Drive the dark of doubt away; Giver of immortal gladness, Fill us with the light of day!” - 1st verse</p>
+                    <p className="is-size-6 leading-normal padded">“Joyful, joyful, we adore Thee,                 God of glory, Lord of love;<br></br>
+                    Hearts unfold like flow’rs before Thee, Op’ning to the sun above.<br></br>
+                    Melt the clouds of sin and sadness; Drive the dark of doubt away;<br></br>
+                    Giver of immortal gladness, Fill us with the light of day!” - 1st verse</p>
                 </div>
 
             </main>

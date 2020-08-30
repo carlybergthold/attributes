@@ -82,8 +82,7 @@ class Jealous extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Recognize and lean into God’s loving protection as a bride into her bridegroom’s arms.  Become His prized possession by fully trusting His promises and accepting His commands as what is best for me.   Ask: Which promises or commands of God do I see as not ultimately for my own good?</p>
-
+                  <p className="is-size-6 leading-normal padded">Recognize and lean into God’s loving protection as a bride into her bridegroom’s arms.  Become His prized possession by fully trusting His promises and accepting His commands as what is best for me.   <br></br>Ask: Which promises or commands of God do I see as not ultimately for my own good?</p>
                   <Quote scripture="But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light." reference="1 Peter 2:9" color="var(--teal)"/>
                 </div>
 
@@ -118,9 +117,9 @@ class Jealous extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"Jealous God" - Know Hope Collective</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Now I know you would stop at nothing, 
-                    to pull me close, steal my heart away. 
-                    So here I am broken and listening. 
+                    <p className="is-size-6 leading-normal padded">"Now I know you would stop at nothing,<br></br> 
+                    to pull me close, steal my heart away.<br></br>
+                    So here I am broken and listening.<br></br>
                     Held captive here and I just wanna stay." - First verse</p>
                 </div>
 

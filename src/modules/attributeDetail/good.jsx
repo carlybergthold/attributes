@@ -80,8 +80,7 @@ class Good extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-
-                  <p className="is-size-6 leading-normal padded">Define good as whatever comes from God - not just what I want or what brings me pleasure and comfort. Explore His goodness - His words, His commands, His attributes and His innate image within each of us.  Ask: What is good?  And how do I know? What standard do I use to discern good from evil?</p>
+                  <p className="is-size-6 leading-normal padded">Define good as whatever comes from God - not just what I want or what brings me pleasure and comfort. Explore His goodness - His words, His commands, His attributes and His innate image within each of us.  <br></br>Ask: What is good?  And how do I know? What standard do I use to discern good from evil?</p>
                   <Quote scripture="Every good gift and every perfect gift is from above, coming down from the Father of lights with whom there is no variation or shadow due to change." reference="James 1:17" color="var(--teal)"/>
                 </div>
 
@@ -119,13 +118,13 @@ class Good extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"Come Thou Fount of Every Blessing" - Robert Robison (Our need is to "tune our hearts" to what is truly good.)</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Come, Thou Fount of every blessing
-Tune my heart to sing Thy grace
-Streams of mercy, never ceasing
-Call for songs of loudest praise
-Teach me some melodious sonnet
-Sung by flaming tongues above
-Praise the mount, I'm fixed upon it
+                    <p className="is-size-6 leading-normal padded">"Come, Thou Fount of every blessing<br></br>
+Tune my heart to sing Thy grace<br></br>
+Streams of mercy, never ceasing<br></br>
+Call for songs of loudest praise<br></br>
+Teach me some melodious sonnet<br></br>
+Sung by flaming tongues above<br></br>
+Praise the mount, I'm fixed upon it<br></br>
 Mount of Thy unchanging love" - 1st verse</p>
                 </div>
 

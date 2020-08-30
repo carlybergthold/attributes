@@ -81,8 +81,7 @@ class Just extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-
-                  <p className="is-size-6 leading-normal padded">Remember often that faith in Christ is the only thing that makes me right with God. Then rest in the goodness of God's judgment in any unfairness which is not within my given authority or control. And for what is in my control, let God use me as His instrument for good through obedience to His word.  Ask: What unfair thing has happened in my life?  And what is the right response to it?</p>
+                  <p className="is-size-6 leading-normal padded">Remember often that faith in Christ is the only thing that makes me right with God. Then rest in the goodness of God's judgment in any unfairness which is not within my given authority or control. And for what is in my control, let God use me as His instrument for good through obedience to His word.  <br></br>Ask: What unfair thing has happened in my life?  And what is the right response to it?</p>
                   <Quote scripture="Do not present your members to sin as instruments for unrighteousness, but present yourselves to God as those who have been brought from death to life, and your members to God as instruments for righteousness." reference="Romans 6:13" color="var(--teal)"/>
                 </div>
 
@@ -120,7 +119,9 @@ class Just extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"How Firm A Foundation" - Anonymous</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"How firm a foundation, ye saints of the Lord, Is laid for your faith in His excellent word! What more can He say than to you He hath said— To you who for refuge to Jesus have fled?" - First verse</p>
+                    <p className="is-size-6 leading-normal padded">"How firm a foundation, ye saints of the Lord,<br></br>Is laid for your faith in His excellent word!<br></br>
+                    What more can He say than to you He hath said—<br></br>
+                    To you who for refuge to Jesus have fled?" - First verse</p>
                 </div>
 
             </main>

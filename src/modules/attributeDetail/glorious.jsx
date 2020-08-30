@@ -82,8 +82,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-
-                  <p className="is-size-6 leading-normal padded">Ask God to open my heart and mind to see Who God is with more clarity, to discover how perfect and beautiful are His attributes. Discern that any glory I see in other people is either a reflection of God or not true glory. Seek only His glory and not my own.  Ask: Have I recently seen evidence of God’s glory in other people?</p>
+                  <p className="is-size-6 leading-normal padded">Ask God to open my heart and mind to see Who God is with more clarity, to discover how perfect and beautiful are His attributes. Discern that any glory I see in other people is either a reflection of God or not true glory. Seek only His glory and not my own.  <br></br>Ask: Have I recently seen evidence of God’s glory in other people?</p>
                   <Quote scripture="The one who speaks on his own authority seeks his own glory; but the one who seeks the glory of him who sent him is true, and in him there is no falsehood." reference="John 7:18" color="var(--teal)"/>
                 </div>
 
@@ -122,11 +121,11 @@ I realized afresh that He does not drive us by duty, but draws us by beauty, not
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"To God Be the Glory" - Fanny Crosby</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Praise the Lord, praise the Lord,
-  Let the earth hear His voice;
-Praise the Lord, praise the Lord,
-  Let the people rejoice;
-Oh, come to the Father, through Jesus the Son,
+                    <p className="is-size-6 leading-normal padded">"Praise the Lord, praise the Lord,<br></br>
+  Let the earth hear His voice;<br></br>
+Praise the Lord, praise the Lord,<br></br>
+  Let the people rejoice;<br></br>
+Oh, come to the Father, through Jesus the Son,<br></br>
   And give Him the glory; great things He hath done." - Chorus</p>
                 </div>
 

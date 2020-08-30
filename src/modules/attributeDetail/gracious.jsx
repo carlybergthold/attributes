@@ -81,7 +81,7 @@ class Gracious extends Component {
                   </section>
 
                   <p className="is-size-6 leading-normal padded">Remove all thoughts of earning salvation; recognize it as fully independent of my works, actions, thoughts or motives.  Receive salvation through faith in Christ alone, with gratitude, as a true gift.  </p>
-                  <p className="is-size-6 leading-normal padded">Ask: How do I feel about helping someone who is either ungrateful or not deserving?  Does my graciousness depend on what I view as their worthiness?</p>
+                  <p className="is-size-6 leading-normal padded">Ask: How do I feel about helping someone who is either ungrateful or not deserving?  <br></br>Does my graciousness depend on what I view as their worthiness?</p>
                   <Quote scripture="For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast." reference="Ephesians 2:8-9" color="var(--teal)"/>
                 </div>
 
@@ -124,8 +124,10 @@ In her owns words - "For I had to do it–I knew that. The message that God forg
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"Grace, Greater Than Our Sin" - Julia Johnson</h1>
                     </section>
-
-                    <p className="is-size-6 leading-normal padded">"Marvelous grace of our loving Lord, Grace that exceeds our sin and our guilt! Yonder on Calvary’s mount outpoured, There where the blood of the Lamb was spilled." - 1st verse</p>      <Quote scripture="Now the law came in to increase the trespass, but where sin increased, grace abounded all the more, so that, as sin reigned in death, grace also might reign through righteousness leading to eternal life through Jesus Christ our Lord." reference="Romans 5:20-21" color="var(--teal)"/>
+                    <p className="is-size-6 leading-normal padded">"Marvelous grace of our loving Lord,<br></br> Grace that exceeds our sin and our guilt!<br></br>
+                    Yonder on Calvary’s mount outpoured,<br></br>
+                    There where the blood of the Lamb was spilled." - 1st verse</p>      
+                    <Quote scripture="Now the law came in to increase the trespass, but where sin increased, grace abounded all the more, so that, as sin reigned in death, grace also might reign through righteousness leading to eternal life through Jesus Christ our Lord." reference="Romans 5:20-21" color="var(--teal)"/>
                 </div>
 
             </main>

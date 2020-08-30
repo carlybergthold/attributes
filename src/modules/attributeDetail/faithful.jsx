@@ -82,7 +82,7 @@ class Faithful extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Discover what God has actually promised through study of the Bible.  Then test His reliability and find Him faithful.  Along the way, discover that our ability to be reliably faithful to His commands falls short. This is yet another confirmation that what He has already said is true and that He can be trusted. Ask: How have I discovered or tested God’s faithfulness?</p>
+                  <p className="is-size-6 leading-normal padded">Discover what God has actually promised through study of the Bible.  Then test His reliability and find Him faithful.  Along the way, discover that our ability to be reliably faithful to His commands falls short. This is yet another confirmation that what He has already said is true and that He can be trusted. <br></br>Ask: How have I discovered or tested God’s faithfulness?</p>
                   <Quote scripture="The works of his hands are faithful and just; all his precepts are trustworthy;" reference="Psalm 111:7" color="var(--teal)"/>
                 </div>
 
@@ -122,12 +122,12 @@ class Faithful extends Component {
                     </section>
                     <p className="is-size-6 leading-normal padded">(Note the emphasis on trusting in God's faithfulness versus trusting in my faithfulness to God.)
                     
-                    "I will build my house
-                    Whether storm or drought
-                    On the rock that does not move.
-                    I will set my hope
-                    In your love, O Lord
-                    And your faithfulness will prove
+                    "I will build my house<br></br>
+                    Whether storm or drought<br></br>
+                    On the rock that does not move.<br></br>
+                    I will set my hope<br></br>
+                    In your love, O Lord<br></br>
+                    And your faithfulness will prove<br></br>
                     You are steadfast, steadfast"</p>
                 </div>
 

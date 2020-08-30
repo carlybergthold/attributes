@@ -3,10 +3,38 @@ import { withRouter, Link } from "react-router-dom"
 import '../styles/home.css'
 import attArray from '../data/attributeArray'
 import PersonalityTestList from '../components/personality/personalityTestList'
-
+import {ReactComponent as CreativeIcon} from '../images/attributeIcons/SVG/creative.svg';
+import {ReactComponent as EternalIcon} from '../images/attributeIcons/SVG/eternal.svg';
+import {ReactComponent as FaithfulIcon} from '../images/attributeIcons/SVG/faithful.svg';
+import {ReactComponent as GloriousIcon} from '../images/attributeIcons/SVG/glorious.svg';
+import {ReactComponent as GoodIcon} from '../images/attributeIcons/SVG/good.svg';
+import {ReactComponent as GraciousIcon} from '../images/attributeIcons/SVG/gracious.svg';
+import {ReactComponent as HolyIcon} from '../images/attributeIcons/SVG/holy.svg';
+import {ReactComponent as HumbleIcon} from '../images/attributeIcons/SVG/humble.svg';
+import {ReactComponent as ImmutableIcon} from '../images/attributeIcons/SVG/immutable.svg';
+import {ReactComponent as IncomprehensibleIcon} from '../images/attributeIcons/SVG/incomprehensible.svg';
+import {ReactComponent as IndependentIcon} from '../images/attributeIcons/SVG/independent.svg';
+import {ReactComponent as InvisibleIcon} from '../images/attributeIcons/SVG/invisible.svg';
+import {ReactComponent as JealousIcon} from '../images/attributeIcons/SVG/jealous.svg';
+import {ReactComponent as JoyfulIcon} from '../images/attributeIcons/SVG/joyful.svg';
+import {ReactComponent as JustIcon} from '../images/attributeIcons/SVG/just.svg';
+import {ReactComponent as LovingIcon} from '../images/attributeIcons/SVG/loving.svg';
+import {ReactComponent as MercifulIcon} from '../images/attributeIcons/SVG/merciful.svg';
+import {ReactComponent as OmnipotentIcon} from '../images/attributeIcons/SVG/omnipotent.svg';
+import {ReactComponent as OmniscientIcon} from '../images/attributeIcons/SVG/omniscient.svg';
+import {ReactComponent as PatientIcon} from '../images/attributeIcons/SVG/patient.svg';
+import {ReactComponent as PeacefulIcon} from '../images/attributeIcons/SVG/peaceful.svg';
+import {ReactComponent as PlanningIcon} from '../images/attributeIcons/SVG/planning.svg';
+import {ReactComponent as ProvidingIcon} from '../images/attributeIcons/SVG/providing.svg';
+import {ReactComponent as RelationalIcon} from '../images/attributeIcons/SVG/relational.svg';
+import {ReactComponent as SavingIcon} from '../images/attributeIcons/SVG/saving.svg';
+import {ReactComponent as SovereignIcon} from '../images/attributeIcons/SVG/sovereign.svg';
+import {ReactComponent as TeachingIcon} from '../images/attributeIcons/SVG/teaching.svg';
+import {ReactComponent as TruthfulIcon} from '../images/attributeIcons/SVG/truthful.svg';
+import {ReactComponent as UniqueIcon} from '../images/attributeIcons/SVG/unique.svg';
+import {ReactComponent as WiseIcon} from '../images/attributeIcons/SVG/wise.svg';
 
 class Home extends React.Component {
-
 
   constructor(props){
     super(props);
@@ -16,6 +44,39 @@ class Home extends React.Component {
         description: 'omniscient'
     }
   }
+
+  components = {
+    creative: CreativeIcon,
+    eternal: EternalIcon,
+    faithful: FaithfulIcon,
+    glorious: GloriousIcon,
+    good: GoodIcon,
+    gracious: GraciousIcon,
+    holy: HolyIcon,
+    humble: HumbleIcon,
+    immutable: ImmutableIcon,
+    incomprehensible: IncomprehensibleIcon,
+    independent: IndependentIcon,
+    invisible: InvisibleIcon,
+    jealous: JealousIcon,
+    joyful: JoyfulIcon,
+    just: JustIcon,
+    loving: LovingIcon,
+    merciful: MercifulIcon,
+    omnipotent: OmnipotentIcon,
+    omniscient: OmniscientIcon,
+    patient: PatientIcon,
+    peaceful: PeacefulIcon,
+    planning: PlanningIcon,
+    providing: ProvidingIcon,
+    relational: RelationalIcon,
+    saving: SavingIcon,
+    sovereign: SovereignIcon,
+    teaching: TeachingIcon,
+    truthful:	TruthfulIcon,
+    unique: UniqueIcon,
+    wise: WiseIcon
+  };
 
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -30,6 +91,8 @@ class Home extends React.Component {
   }
 
   render() {
+    const Icon = this.components[this.state.attribute]
+
     return(
       <>
        <div className="homepage">
@@ -52,19 +115,19 @@ class Home extends React.Component {
             <div className="tile is-ancestor">
               <div className="tile">
                 <div className="tile">
-                  <div class="tile is-parent is-vertical is-6">
-                    <article class="tile is-child notification is-primary">
+                  <div className="tile is-parent is-vertical is-6">
+                    <article className="tile is-child notification is-primary">
                       <Link to="/personality">Personality</Link>
                     </article>
-                    <article class="tile is-child notification is-warning">
+                    <article className="tile is-child notification is-warning">
                       <Link to="/emotion">Emotion</Link>
                     </article>
                   </div>
-                  <div class="tile is-parent is-vertical is-6">
-                    <article class="tile is-child notification is-primary">
+                  <div className="tile is-parent is-vertical is-6">
+                    <article className="tile is-child notification is-primary">
                       <Link to="/fear">Fear</Link>
                     </article>
-                    <article class="tile is-child notification is-warning">
+                    <article className="tile is-child notification is-warning">
                       <Link to="/struggle">Struggle</Link>
                     </article>
                   </div>
@@ -72,11 +135,12 @@ class Home extends React.Component {
               </div>
             </div>
           </div>
+
           <div className="container right">
           <div className="card card-attribute">
               <div className="card-image">
                 <figure className="image">
-                  <img src={ require(`../images/attributeIcons/${this.state.attribute}.png`) }></img>
+                  <Icon id="homepage-svg" />
                 </figure>
               </div>
               <div className="card-content">
@@ -95,14 +159,6 @@ class Home extends React.Component {
             <button className="button is-primary" onClick={this.randomize}>Get Another</button>
           </div>
         </section>
-        {/* <div id="background">
-          <p id="bg-text">
-            {
-              attArray.map(a =>
-              <span className="bg-att">{a.attributeName}</span>)
-            }
-          </p>
-	      </div> */}
 
         <section className="section homepage-personality">
         <h1 className="title">You are unique.</h1>

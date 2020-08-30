@@ -29,15 +29,15 @@ class Independent extends Component {
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">Our drive for independence builds adults as well as nations.  We seek financial independence.  We seek physical independence from our parents and then again, much later in life, from our children.  Our desire for independence can sometimes come between those we want or need.</p>
                   <p className="is-size-6 leading-normal padded">"In 2014, for the first time in more than 130 years, adults ages 18 to 34 were slightly more likely to be living in their parents’ home than they were to be living with a spouse or partner in their own household." - From pewsocialtrends</p>
-                  <p className="is-size-6 leading-normal padded">So are young adult children seeking more dependence on their parents?  No - the article highlights the root cause of this trend as a reluctance to marry.  In the 1960's the desire for independence drove them to marry early.  Now this desire is driving them to stay at home and avoid yet a new dependent relationship.</p>
-                  <p className="is-size-6 leading-normal padded">Right now I enjoy life and am content with what I can do and what I have.  Becoming more dependent on another can be scary since I might suffer from their inadequacies. I’d really rather just do it myself - or at least be able to.  It’s probably much worse to have had independence and then begin to lose it because of poor health or job loss.</p>
+                  <p className="is-size-6 leading-normal padded">So are young adult children seeking more dependence on their parents?  No - the article highlights the root cause of this trend as a reluctance to marry.  In the 1960's the desire for independence drove them to marry early.  Now this desire is driving them to stay at home and avoid a new dependent relationship.</p>
+                  <p className="is-size-6 leading-normal padded">Right now I enjoy life and am content with what I can do and what I have.  Becoming more dependent on another can be scary since I might suffer from their inadequacies. I’d really rather just do it myself - or at least be able to.  I want to be able to do what I want rather than be pressured to do what someone else wants me to do.  It’s probably much worse to have had independence and then begin to lose it than to not have tasted the independence at all.</p>
                 </div>
 
                 <div className="attSection" id="emotion">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Isn’t being content a good thing?</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">Is it good to be content?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Yes, contentment feels good - and should!  It means I am fully enjoying what I already have and not just chasing after what I may never get.  However, when I feel satisfied with my abilities, finances, or health, I can very quickly feel dissatisfied when I lose any part of them.  Contentment without God is short-sighted because I eventually will lose everything else. If my contentment is grounded in thanksgiving and glory to God, it can actually strengthen contentment through temporal loss and endure beyond even death.</p>
+                  <p className="is-size-6 leading-normal padded">Contentment feels good - and should!  It means I am fully enjoying what I already have and not just chasing after what I may never get.  It often comes when I am also feeling independent - satisfied with my own abilities, finances, or health, and not beholding to another for my needs and wants.  However, contentment without God is short-sighted because I eventually will lose all these things. Contentment with God is grounded in thanksgiving and glory given to Him, a true sacrifice because it reminds my independent spirit of my dependence on Him.</p>
                   <br></br>
                   <Quote scripture="Offer to God a sacrifice of thanksgiving, and perform your vows to the Most High, and call upon me in the day of trouble; I will deliver you, and you shall glorify me….Mark this, then, you who forget God, lest I tear you apart, and there be none to deliver!  The one who offers thanksgiving as his sacrifice glorifies me; to one who orders his way rightly I will show the salvation of God!" reference="Psalm 50:14-15, 22-23" color="var(--teal)"/>
                 </div>
@@ -55,9 +55,9 @@ class Independent extends Component {
 
                 <div className="attSection" id="struggle">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">What then is the right balance between independence and dependence on others?</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">What then is the right balance between independence and dependence?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">The more I depend on others, the more they will fail me and the more I could be a burden on them.  The more I do not depend on others, the less opportunity I have to love them and have them love me back.  Love requires nothing in return, but flourishes in mutual generosity and dependence.</p>
+                  <p className="is-size-6 leading-normal padded">The more I depend on anyone other than God, the more they will fail me and the more I could be a burden on them.  The more I do not depend on others, the less opportunity I have to love them and have them love me back.  Love requires nothing in return, but flourishes in mutual generosity and dependence.</p>
                   <br></br>
 
                   <Quote scripture="Now concerning brotherly love you have no need for anyone to write to you, for you yourselves have been taught by God to love one another, for that indeed is what you are doing to all the brothers throughout Macedonia. But we urge you, brothers, to do this more and more, and to aspire to live quietly, and to mind your own affairs, and to work with your hands, as we instructed you, so that you may walk properly before outsiders and be dependent on no one." reference="1 Thessalonians 4:9-12" color="var(--teal)"/>
@@ -73,9 +73,8 @@ class Independent extends Component {
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Jesus was independent as God, yet chose to remain dependent on His Father.</h1></section>
-                  <p className="is-size-6 leading-normal padded">Christianity is made up of people who recognize both their independence from God and their deep dependence upon Him.    </p>
-
+                  <h1 className="title has-text-primary tracking-wide padded">When Jesus was on earth, was He independent from or dependent on His Father?</h1></section>
+                  <p className="is-size-6 leading-normal padded">Jesus was both fully human and fully God while He was on earth.  He was fully independent and need not have relied on His Father for anything, but chose to do so in order to become the obedient sacrifice we needed. I am also both independent from God (in that I can choose to sin) and fully dependent upon Him (for my next breath).    </p>
                   <Quote scripture="Live as people who are free, not using your freedom as a cover-up for evil, but living as servants of God." reference="1 Peter 2:16" color="var(--teal)"/>
                 </div>
 
@@ -83,7 +82,7 @@ class Independent extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Realize God needs nothing from me, yet I require much from Him.  Be truly thankful to God for a will which is and strives for  independence even while imbedded in a very dependent life.  Ask: What can I give to a God who has everything?</p>
+                  <p className="is-size-6 leading-normal padded">Realize God needs nothing from me, yet I require much from Him.  Be truly thankful to God for giving me a free will which is and strives for healthy  independence even while acknowledging my total dependence on Him.  <br></br>Ask: What can I give to a God who has everything?</p>
                   <Quote scripture=" 'It is God which worketh in you.' He needs no one, but when faith is present He works through anyone. Two statements are in this sentence and a healthy spiritual life requires that we accept both." reference="A.W. Tosier" color="var(--teal)"/>
                   <Quote scripture="If I were hungry, I would not tell you, for the world and its fullness are mine.  Do I eat the flesh of bulls or drink the blood of goats? Offer to God a sacrifice of thanksgiving, and perform your vows to the Most High, and call upon me in the day of trouble; I will deliver you, and you shall glorify me." reference="Psalm 50:12-15" color="var(--teal)"/>
                 </div>
@@ -101,7 +100,7 @@ class Independent extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">Is God bound by creation?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Often God is rejected based on the Creator not adhering to all the laws of the world that is now observed. God is bound only by Who He is and not by what He has created.</p>
+                  <p className="is-size-6 leading-normal padded">Often God is rejected based on the Creator not adhering to all the laws of the world that we observe now. God is bound only by Who He is and not by what He has created.</p>
                   <p className="is-size-6 leading-normal padded">“Scientific laws or laws of science are statements, based on repeated experiments or observations, that describe or predict a range of natural phenomena…. Laws are developed from data and can be further developed through mathematics; in all cases they are directly or indirectly based on empirical evidence. ….As with other kinds of scientific knowledge, laws do not have absolute certainty (as mathematical theorems or identities do), and it is always possible for a law to be contradicted, restricted, or extended by future observations.” - Wikipedia</p>
                   <p className="is-size-6 leading-normal padded">"In theology, endless mistakes result from supposing that the conditions, bounds, and limits of our own finite existence apply to God…" - J.I. Packer</p>
                 </div>
@@ -120,7 +119,12 @@ class Independent extends Component {
                 <section>
                     <h1 className="title has-text-primary tracking-wide padded">"Rock of Ages" - Agustus M. Toplady</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Nothing in my hand I bring;  Simply to Thy Cross I cling;  Naked, come to Thee for dress;  Helpless, look to Thee for grace;  Foul, I to the fountain fly,  Wash me, Savior, or I die." - 2nd verse</p>
+                    <p className="is-size-6 leading-normal padded">"Nothing in my hand I bring;<br></br>
+                     Simply to Thy Cross I cling;<br></br>
+                     Naked, come to Thee for dress;<br></br>
+                     Helpless, look to Thee for grace;<br></br>
+                     Foul, I to the fountain fly,<br></br>
+                     Wash me, Savior, or I die." - 2nd verse</p>
                 </div>
 
             </main>
