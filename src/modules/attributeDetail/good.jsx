@@ -116,7 +116,7 @@ class Good extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">"Come Thou Fount of Every Blessing" - Robert Robison (Our need is to "tune our hearts" to what is truly good.)</h1>
+                    <h1 className="title has-text-primary tracking-wide padded">"Come Thou Fount of Every Blessing" - Robert Robison</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"Come, Thou Fount of every blessing<br></br>
 Tune my heart to sing Thy grace<br></br>
@@ -125,7 +125,8 @@ Call for songs of loudest praise<br></br>
 Teach me some melodious sonnet<br></br>
 Sung by flaming tongues above<br></br>
 Praise the mount, I'm fixed upon it<br></br>
-Mount of Thy unchanging love" - 1st verse</p>
+Mount of Thy unchanging love" - 1st verse<br></br><br></br>
+(Our biggest need is to "tune our hearts" to what is truly good.)</p>
                 </div>
 
             </main>
