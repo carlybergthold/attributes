@@ -136,11 +136,11 @@ class Patient extends Component {
                     <h1 className="title has-text-prpmaryary tracking-wide padded">“It Is Well With My Soul” - Horatio Spafford</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">
-                      We humans will always try to interject our own timetable into what God is doing (we want to “hasten the day).  Even so, we can always return to the knowledge that God’s timing is perfect.<br></br><br></br>
+                      We humans will always try to interject our own timetable into what God is doing (we want to 'hasten the day').  Even so, we can always return to the knowledge that God’s timing is perfect.<br></br><br></br>
                      "And Lord, haste the day when the faith shall be sight,<br></br>
 The clouds be rolled back as a scroll;<br></br>
 The trump shall resound, and the Lord shall descend,<br></br>
-Even so, it is well with my soul.""  - Last stanza</p>
+Even so, it is well with my soul."  - Last stanza</p>
                 </div>
 
             </main>
