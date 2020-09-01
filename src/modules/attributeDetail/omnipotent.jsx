@@ -124,7 +124,7 @@ class Omnipotent extends Component {
                     <p className="is-size-6 leading-normal padded">"A mighty Fortress is our God,<br></br>
 A Bulwark never failing;<br></br>
 Our Helper He amid the flood<br></br>
-Of mortal ills prevailing.""             - 1st half of verse #1</p>
+Of mortal ills prevailing."            - 1st half of verse #1</p>
                 </div>
 
             </main>
