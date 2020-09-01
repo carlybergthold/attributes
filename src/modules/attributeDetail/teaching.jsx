@@ -14,7 +14,7 @@ class Teaching extends Component {
 
     render() {
         return(
-            <body className="attPage">
+          <body className="attPage">
             <Hero title="Teaching" subtitle="To guide others perfectly" img="girl.png" />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside>
@@ -89,7 +89,7 @@ class Teaching extends Component {
                   <Quote scripture="A disciple is not above his teacher, but everyone when he is fully trained will be like his teacher." reference="Luke 6:40" color="var(--teal)"/>
                 </div>
 
-                  <div className="attSection" id="prayer">
+                <div className="attSection" id="prayer">
                   <section>
                   <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
                   </section>
@@ -104,11 +104,11 @@ class Teaching extends Component {
                   <p className="is-size-6 leading-normal padded">Jesus in the flesh provided the best example of an effective human teacher.  Consider the following effective teacher qualities that Pearson Ed found from a survey of both teachers and students, along with how Jesus demonstrated each.</p>
                   <p className="is-size-6 leading-normal padded">1. Ability to develop trusting, productive relationships<br></br>     - 11 of 12 disciples were willing to die (and most did) for their teacher <br>
                   </br>
-2. Patient, caring, kind<br></br>     - All godly attributes<br></br>
-3. Knowledge of learners<br></br>     - Omniscience of a Creator God covers this
-4. Dedication to teaching<br></br>     - Driven by the same love that sent Him to die on a cross<br></br>
-5. Subject matter knowledge (tie)<br></br>    - See #3 above<br></br>
-5. Engaging students in learning (tie)<br></br>    - Through His Spirit, Jesus teaches us through all we encounter in life </p>
+                  2. Patient, caring, kind<br></br>     - All godly attributes<br></br>
+                  3. Knowledge of learners<br></br>     - Omniscience of a Creator God covers this
+                  4. Dedication to teaching<br></br>     - Driven by the same love that sent Him to die on a cross<br></br>
+                  5. Subject matter knowledge (tie)<br></br>    - See #3 above<br></br>
+                  5. Engaging students in learning (tie)<br></br>    - Through His Spirit, Jesus teaches us through all we encounter in life </p>
                 </div>
 
                 <div className="attSection" id="history">
@@ -118,6 +118,7 @@ class Teaching extends Component {
                   <p className="is-size-6 leading-normal padded">Starting with the Jewish tradition and bolstered by Jesus’ teaching ministry, Christianity has consistently advocated for education - not only for the elite, but for the common man and woman. As a result, a 2016 Pew Center global study found that the two most educated religious groups around the world are Jews and Christians. </p>
                   <p className="is-size-6 leading-normal padded">In 9th century Europe, monasteries, convents and cathedrals operated virtually all schools and libraries.  By the 11th century, cathedral schools emerged as the primary centers for higher learning. The 15th century printing press made books widely available and the 16th century Reformers wanted all Church members to learn to read the Bible. Compulsory education for both boys and girls was introduced. In the new American colonies, 7 of the first 9 colonial colleges were founded by Christians including Harvard, Columbia, Brown, Rutgers and Yale.  In 1881, 80 percent of the colleges in the United States were church related and private (versus less than 20 percent today).</p>
                   <p className="is-size-6 leading-normal padded">As Europe colonized much of the world, it largely left the Church to establish the means to educate both colonists as well as indigenous peoples, building a foundation upon which evangelism could take place.  In some countries, the Church is still the main provider of education or significantly supplements government forms of education.</p>
+                  </div>
 
                 <div className="attSection" id="liturgy" >
                 <section>
@@ -133,13 +134,11 @@ More by faith, less by sight,<br></br>
 Lead me with heavnly light,<br></br>
   Teach me Thy way."" (First verse)</p>
                 </div>
-
             </main>
             </div>
           </body>
         )
     }
-
 }
 
 export default withRouter(Teaching);

@@ -46,10 +46,10 @@ class Sovereign extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">I fear what might happen if I do not have full control of my life.</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">Doing my best with what I can control is good.  However, believing I can control all outcomes or desiring a guaranteed future will eventually disappoint because life always brings unexpected events - some of which I will perceive to be good, but many I will not like.  The unexpected good is easy, but how do I respond to this unexpected bad?
-                  <br> <br>
-                  To stoically bear through the bad is often needed.  To squeeze any good I can find from it is admirable.  To believe good will eventually come from a bad makes it much more tolerable, if not acceptable.  To know God will lovingly work good from everything I experience can bring peace and joy even in the midst of the bad.
-                  </br></br></p>
+                  <p className="is-size-6 leading-normal padded">Doing my best with what I can control is good.  However, believing I can control all outcomes or desiring a guaranteed future will eventually disappoint because life always brings unexpected events - some of which I will perceive to be good, but many I will not like.  The unexpected good is easy, but how do I respond to this unexpected bad?</p>
+                  <br></br>
+                  <p>To stoically bear through the bad is often needed.  To squeeze any good I can find from it is admirable.  To believe good will eventually come from a bad makes it much more tolerable, if not acceptable.  To know God will lovingly work good from everything I experience can bring peace and joy even in the midst of the bad.</p>
+                  <br></br>
                   <Quote scripture="And we know that for those who love God all things work together for good, for those who are called according to his purpose." reference="Romans 8:28" color="var(--teal)"/>
                 </div>
 
@@ -84,8 +84,10 @@ class Sovereign extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Rest in what is not within my control (i.e. traffic, elections, all actions of others, etc.) and gratefully submit to God’s authority. <br> <br>
-                  Ask: What am I trying to control in my life that is not actually in my control?</br></br></p>
+                  <p className="is-size-6 leading-normal padded">Rest in what is not within my control (i.e. traffic, elections, all actions of others, etc.) and gratefully submit to God’s authority.</p> 
+                  <br></br>
+                  <p>Ask: What am I trying to control in my life that is not actually in my control?</p>
+                  <br></br>
                   <Quote scripture="The Lord does whatever He pleases in heaven and on earth, in the seas and all the depths." reference="Psalm 135:6"
                   color="var(--teal)"/>
                 </div>
