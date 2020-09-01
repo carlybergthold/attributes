@@ -40,8 +40,8 @@ import planning from './modules/attributeDetail/planning'
 import providing from './modules/attributeDetail/providing'
 import relational from './modules/attributeDetail/relational'
 import saving from './modules/attributeDetail/saving'
-// import sovereign from './modules/attributeDetail/sovereign'
-// import teaching from './modules/attributeDetail/teaching'
+import sovereign from './modules/attributeDetail/sovereign'
+import teaching from './modules/attributeDetail/teaching'
 // import shepherd from './modules/attributeDetail/shepherd'
 // import truthful from './modules/attributeDetail/truthful'
 // import unique from './modules/attributeDetail/unique'
@@ -106,9 +106,9 @@ class AppViews extends Component {
       <Route exact path="/attributes/providing" component={providing} user={this.props.user} />
       <Route exact path="/attributes/relational" component={relational} user={this.props.user} />
       <Route exact path="/attributes/saving" component={saving} user={this.props.user} />
-      {/* <Route exact path="/sovereign" component={sovereign} user={this.props.user} />
-      <Route exact path="/teaching" component={teaching} user={this.props.user} />
-      <Route exact path="/shepherd" component={shepherd} user={this.props.user} />
+      <Route exact path="/attributes/sovereign" component={sovereign} user={this.props.user} />
+      <Route exact path="/attributes/teaching" component={teaching} user={this.props.user} />
+      {/* <Route exact path="/shepherd" component={shepherd} user={this.props.user} />
       <Route exact path="/truthful" component={truthful} user={this.props.user} />
       <Route exact path="/unique" component={unique} user={this.props.user} />
       <Route exact path="/wise" component={wise} user={this.props.user} />
