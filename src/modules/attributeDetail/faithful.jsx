@@ -120,7 +120,7 @@ class Faithful extends Component {
                     <h1 className="title has-text-primary tracking-wide padded">"Steadfast" - Sandra McCracken   </h1>
 
                     </section>
-                    <p className="is-size-6 leading-normal padded">(Note the emphasis on trusting in God's faithfulness versus trusting in my faithfulness to God.)
+                    <p className="is-size-6 leading-normal padded">(Note the emphasis on trusting in God's faithfulness versus trusting in my faithfulness to God.)<br></br><br></br>
                     
                     "I will build my house<br></br>
                     Whether storm or drought<br></br>
