@@ -118,7 +118,7 @@ class Omniscient extends Component {
 When songs give place to sighing, when hope within me dies,<br></br>
 I draw the closer to Him, from care He sets me free;<br></br>
 His eye is on the sparrow, and I know He watches me;<br></br>
-His eye is on the sparrow, and I know He watches me.""  (last verse)</p>
+His eye is on the sparrow, and I know He watches me."  (last verse)</p>
                 </div>
 
             </main>
