@@ -3,7 +3,7 @@ const questionArray = [
     id: 1,
     attribute: 'accessible',
     category: 'reflect',
-    question: 'I enjoy interacting with others and have a sense of belonging to a group.'
+    question: 'I enjoy interacting with others or have a strong sense of belonging to a group.'
     },
     {
     id: 2,
