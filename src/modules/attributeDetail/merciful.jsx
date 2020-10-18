@@ -7,13 +7,9 @@ import AttributeSidebar from "../../components/attSidebar";
 
 class Merciful extends Component {
 
-    componentDidMount() {
-      window.scrollTo(0, 0);
-    }
-
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Merciful" subtitle="To have compassion for those in need" img="girl.png" />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside>
@@ -127,7 +123,7 @@ class Merciful extends Component {
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

@@ -114,7 +114,7 @@ class Saving extends Component {
                 <section>
                   <h1 className="title has-text-primary tracking-wide padded">Why is Christmas celebrated on December 25?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">”For unto you is born this day in the city of David a Savior, who is Christ the Lord." - Luke 2:11  
+                  <p className="is-size-6 leading-normal padded">”For unto you is born this day in the city of David a Savior, who is Christ the Lord." - Luke 2:11
                   Salvation brought by Christ is celebrated by both Christmas (His birth) and Easter (His resurrection from death on the cross).  The exact day of His birth was not recorded, but is celebrated around the globe.  How was this date established?</p>
                   <p className="is-size-6 leading-normal padded">December 25 was first identified as the date of Jesus’ birth by Sextus Julius Africanus (a Christian historian) in 221. It was first celebrated in 336 - but not widely until the 9th century. It was banned by the the Puritans in the 17th century because it often included drunkenness and other misbehavior.  The current tradition of including Santa Claus and gift giving came only a couple hundred years ago.</p>
                   <p className="is-size-6 leading-normal padded">So why December 25th?  It was customary to honor not the birth, but the death, of martyrs. Hence Good Friday and Easter were the predominant days observed theologically. Good Friday is tied to the Jewish Passover - when the Jews in Egypt were “passed over” (saved) from the 10th plague of death to all first-born by putting the blood of a lamb sacrifice on doorposts.  Passover timing was historically spring and it was also thought that Christ’s Spirit entered the world at the same day of year (celebrated March 25 as Annunciation Day, marking Gabriel telling Mary she would conceive).  Hence, Christmas was established nine months later! This thinking was bolstered by this day being the Roman winter solstice, the day from which light is daily added.</p>
@@ -123,11 +123,11 @@ class Saving extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">“There Is Power In The Blood” - Lewis Edgar Jones<br></br>
-                    <p className="is-size-6 leading-normal padded"></p>
-                    Propitiation: The act of appeasing a deity.  In the Old Testament, blood was annually spilled on top of the ark of the covenant, deflecting God's wrath from heaven.  This wrath came because of violations of the law which was physically located in the ark (stone tablets).  In the New Testament, Christ’s shed blood on the cross served the same saving purpose, though was a once-for-all-time sacrifice.</p>
-                    </section>
-                    <p className="is-size-6 leading-normal padded">"Would you be free from the burden of sin?<br></br>
+                    <h1 className="title has-text-primary tracking-wide padded">“There Is Power In The Blood” - Lewis Edgar Jones</h1><br></br>
+                </section>
+                  <p className="is-size-6 leading-normal padded">
+                Propitiation: The act of appeasing a deity.  In the Old Testament, blood was annually spilled on top of the ark of the covenant, deflecting God's wrath from heaven.  This wrath came because of violations of the law which was physically located in the ark (stone tablets).  In the New Testament, Christ’s shed blood on the cross served the same saving purpose, though was a once-for-all-time sacrifice.</p>
+                <p className="is-size-6 leading-normal padded">"Would you be free from the burden of sin?<br></br>
 There's power in the blood, Power in the blood<br></br>
 Would you o'er evil a victory win?<br></br>
 There's wonderful power in the blood<br></br><br></br>

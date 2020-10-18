@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Route } from 'react-router-dom'
-import attArray from './data/attributeArray'
 import Quiz from './modules/quiz'
 import QuizResults from './modules/quizResults'
 import Register from './components/users/register'
@@ -43,10 +42,10 @@ import saving from './modules/attributeDetail/saving'
 import sovereign from './modules/attributeDetail/sovereign'
 import teaching from './modules/attributeDetail/teaching'
 // import shepherd from './modules/attributeDetail/shepherd'
-// import truthful from './modules/attributeDetail/truthful'
-// import unique from './modules/attributeDetail/unique'
-// import wise from './modules/attributeDetail/wise'
-// import wrathful from './modules/attributeDetail/wrathful'
+import truthful from './modules/attributeDetail/truthful'
+import unique from './modules/attributeDetail/unique'
+import wise from './modules/attributeDetail/wise'
+import wrathful from './modules/attributeDetail/wrathful'
 
 class AppViews extends Component {
 
@@ -108,12 +107,11 @@ class AppViews extends Component {
       <Route exact path="/attributes/saving" component={saving} user={this.props.user} />
       <Route exact path="/attributes/sovereign" component={sovereign} user={this.props.user} />
       <Route exact path="/attributes/teaching" component={teaching} user={this.props.user} />
-      {/* <Route exact path="/shepherd" component={shepherd} user={this.props.user} />
-      <Route exact path="/truthful" component={truthful} user={this.props.user} />
-      <Route exact path="/unique" component={unique} user={this.props.user} />
-      <Route exact path="/wise" component={wise} user={this.props.user} />
-      <Route exact path="/truthful" component={truthful} user={this.props.user} />
-      <Route exact path="/wrathful" component={wrathful} /> */}
+      {/* <Route exact path="/shepherd" component={shepherd} user={this.props.user} /> */}
+      <Route exact path="/attributes/truthful" component={truthful} user={this.props.user} />
+      <Route exact path="/attributes/unique" component={unique} user={this.props.user} />
+      <Route exact path="/attributes/wise" component={wise} user={this.props.user} />
+      <Route exact path="/attributes/wrathful" component={wrathful} />
 
       {/*{
         attArray.map(a =>
