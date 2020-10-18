@@ -35,11 +35,11 @@
     font-weight: 300;
 }
 
-.homepage-personality {
+/* .homepage-personality {
     background-color: var(--yellow);
     height: 100vh;
     padding: 4rem;
-}
+} */
 
 .home-personality-container {
     display: flex;
@@ -121,4 +121,16 @@
 
 #homepage-svg {
     fill: #ffdd57;
+}
+
+.homepage-personality blockquote::before {
+    display: none;
+}
+
+.homepage-connectors .feature-card {
+    width: 16rem;
+}
+
+#home-illustration {
+    width: 70%;
 }
