@@ -64,7 +64,7 @@ class Creative extends Component {
 
                 <div className="attSection" id="whoAmI">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Only God can create something from absolutely nothing."</h1>
+                  <h1 className="title has-text-primary tracking-wide padded">Only God can create something from absolutely nothing.</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">He created me and all things.  I am created in His image and thus have His desire to create - so my ability, ingredients, and impulse to create come not from myself, but from God.</p>
                   <br></br>

@@ -113,12 +113,13 @@ class Joyful extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">"Joyful, Joyful, We Adore Thee" - Henry J. van Dyke (Adoration of God leads to the light of joy.)</h1>
+                    <h1 className="title has-text-primary tracking-wide padded">"Joyful, Joyful, We Adore Thee" - Henry J. van Dyke</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">“Joyful, joyful, we adore Thee,                 God of glory, Lord of love;<br></br>
                     Hearts unfold like flow’rs before Thee, Op’ning to the sun above.<br></br>
                     Melt the clouds of sin and sadness; Drive the dark of doubt away;<br></br>
-                    Giver of immortal gladness, Fill us with the light of day!” - 1st verse</p>
+                    Giver of immortal gladness, Fill us with the light of day!” - 1st verse<br></br> <br></br>
+                    (Adoration of God leads to our joy!)</p>
                 </div>
 
             </main>
