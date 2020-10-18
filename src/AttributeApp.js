@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import questions from './data/testArray'
-import fire from "./config/fire"
-import AppViews from './AppViews'
-import { withRouter } from "react-router-dom"
+import questions from './data/testArray';
+import fire from "./config/fire";
+import AppViews from './AppViews';
+import { withRouter } from "react-router-dom";
+import "./assets/scss/core.scss";
 
 class AttributeApp extends Component {
 

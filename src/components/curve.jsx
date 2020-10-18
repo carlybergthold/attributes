@@ -12,7 +12,7 @@ class Curve extends Component {
         return(
             <section style={margin}>
             {
-                this.props.color == "gray" ? <img src={grayCurve} id="curve"></img> :
+                this.props.color === "gray" ? <img src={grayCurve} id="curve"></img> :
                                              <img src={whiteCurve} id="curve" style={bg}></img>
             }
             </section>

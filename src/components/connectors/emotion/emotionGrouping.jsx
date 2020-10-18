@@ -11,7 +11,7 @@ class EmotionGrouping extends Component {
             </div>
             <div>
                 {
-                    emotionArray.where(x => x.group == this.props.emotion).map(emotion =>
+                    emotionArray.where(x => x.group === this.props.emotion).map(emotion =>
                         <section>{emotion.emotionName}</section>
                     )
                 }

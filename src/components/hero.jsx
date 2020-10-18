@@ -42,94 +42,94 @@ class Hero extends Component {
       }
 
     getIcon() {
-        if (this.props.title == "Creative") {
+        if (this.props.title === "Creative") {
             return <CreativeIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Eternal") {
+        if (this.props.title === "Eternal") {
             return <EternalIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Faithful") {
+        if (this.props.title === "Faithful") {
             return <FaithfulIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Glorious") {
+        if (this.props.title === "Glorious") {
             return <GloriousIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Good") {
+        if (this.props.title === "Good") {
             return <GoodIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Gracious") {
+        if (this.props.title === "Gracious") {
             return <GraciousIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Holy") {
+        if (this.props.title === "Holy") {
             return <HolyIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Humble") {
+        if (this.props.title === "Humble") {
             return <HumbleIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Immutable") {
+        if (this.props.title === "Immutable") {
             return <ImmutableIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Incomprehensible") {
+        if (this.props.title === "Incomprehensible") {
             return <IncomprehensibleIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Independent") {
+        if (this.props.title === "Independent") {
             return <IndependentIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Invisible") {
+        if (this.props.title === "Invisible") {
             return <InvisibleIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Jealous") {
+        if (this.props.title === "Jealous") {
             return <JealousIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Joyful") {
+        if (this.props.title === "Joyful") {
             return <JoyfulIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Just") {
+        if (this.props.title === "Just") {
             return <JustIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Loving") {
+        if (this.props.title === "Loving") {
             return <LovingIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Merciful") {
+        if (this.props.title === "Merciful") {
             return <MercifulIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Omnipotent") {
+        if (this.props.title === "Omnipotent") {
             return <OmnipotentIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Omniscient") {
+        if (this.props.title === "Omniscient") {
             return <OmniscientIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Patient") {
+        if (this.props.title === "Patient") {
             return <PatientIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Peaceful") {
+        if (this.props.title === "Peaceful") {
             return <PeacefulIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Planning") {
+        if (this.props.title === "Planning") {
             return <PlanningIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Providing") {
+        if (this.props.title === "Providing") {
             return <ProvidingIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Relational") {
+        if (this.props.title === "Relational") {
             return <RelationalIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Saving") {
+        if (this.props.title === "Saving") {
             return <SavingIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Sovereign") {
+        if (this.props.title === "Sovereign") {
             return <SovereignIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Teaching") {
+        if (this.props.title === "Teaching") {
             return <TeachingIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Truthful") {
+        if (this.props.title === "Truthful") {
             return <TruthfulIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Unique") {
+        if (this.props.title === "Unique") {
             return <UniqueIcon fill={this.state.fill} />
         }
-        if (this.props.title == "Wise") {
+        if (this.props.title === "Wise") {
             return <WiseIcon fill={this.state.fill} />
         }
     };
