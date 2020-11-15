@@ -11,7 +11,7 @@ class PersonalityTestList extends Component {
             <div className="card">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src={boy} alt="Placeholder image" className="personalityIcon"></img>
+                  <img src={boy} alt="Placeholder" className="personalityIcon"></img>
                 </figure>
               </div>
               <div className="card-content">
@@ -30,7 +30,7 @@ class PersonalityTestList extends Component {
             <div className="card">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src={boy} alt="Placeholder image" className="personalityIcon"></img>
+                  <img src={boy} alt="Placeholder" className="personalityIcon"></img>
                 </figure>
               </div>
               <div className="card-content">
@@ -49,7 +49,7 @@ class PersonalityTestList extends Component {
             <div className="card">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src={boy} alt="Placeholder image" className="personalityIcon"></img>
+                  <img src={boy} alt="Placeholder" className="personalityIcon"></img>
                 </figure>
               </div>
               <div className="card-content">

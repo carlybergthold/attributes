@@ -1,10 +1,11 @@
-import React, { Component }  from 'react';
+import React  from 'react';
 import { withRouter, Link } from "react-router-dom"
 import fire from '../config/fire'
 import '../styles/testScores.css'
-import Hero from '../components/hero'
 import attArray from '../data/attributeArray'
-
+import Face1 from "../assets/img/illustrations/faces/1.png";
+import Face2 from "../assets/img/illustrations/faces/2.png";
+import Face3 from "../assets/img/illustrations/faces/3.png";
 
 class QuizResults extends React.Component {
 
@@ -63,6 +64,7 @@ class QuizResults extends React.Component {
     }
 
     getDescription = (attribute) => {
+      console.log(attribute)
       if (attribute == undefined) return;
       const att = attArray.find(x => x.attributeName == attribute);
       return att != undefined ? <p>{att.description}</p> : ""
@@ -71,9 +73,55 @@ class QuizResults extends React.Component {
   render() {
     return(
         <>
-        <div className='page'>
-        <Hero title="Your results" img="girl.png"/>
-        <section className="section">
+        {/* <section className="section is-medium has-background-image" style={{backgroundImage: `url(https://source.unsplash.com/g30P1zcOzXo/1600x900)`}} data-color="#4FC1EA" data-color-opacity=".6">
+            <div className="overlay"></div> */}
+        <section className="section has-background-primary">
+
+        <div className='container'>
+        <div className="title-wrapper has-text-centered">
+          <h2 className="title is-2 is-spaced light-text">Here are your top three attributes.</h2>
+          <h3 className="subtitle is-5 light-text">some description.......</h3>
+        </div>
+
+        <div className="content-wrapper homepage-personality">
+          <div className="columns is-vcentered">
+              <div className="column is-4">
+                  <figure className="testimonial">
+                      <blockquote>
+                        {this.getDescription(this.state.topReflections[0])}
+                      </blockquote>
+                      <div className="author">
+                          <img src={Face1} alt=""></img>
+                          <h5><Link to={`/attributes/${this.state.topReflections[0]}`} className="link">{this.state.topReflections[0]}</Link></h5>
+                      </div>
+                  </figure>
+              </div>
+              <div className="column is-4">
+                  <figure className="testimonial">
+                    <blockquote>
+                        {this.getDescription(this.state.topReflections[1])}
+                      </blockquote>
+                      <div className="author">
+                          <img src={Face2} alt=""></img>
+                          <h5><Link to={`/attributes/${this.state.topReflections[1]}`} className="link">{this.state.topReflections[1]}</Link></h5>
+                      </div>
+                  </figure>
+              </div>
+              <div className="column is-4">
+                  <figure className="testimonial">
+                    <blockquote>
+                        {this.getDescription(this.state.topReflections[2])}
+                      </blockquote>
+                      <div className="author">
+                          <img src={Face3} alt=""></img>
+                          <h5><Link to={`/attributes/${this.state.topReflections[2]}`} className="link">{this.state.topReflections[2]}</Link></h5>
+                      </div>
+                  </figure>
+              </div>
+          </div>
+      </div>
+
+        {/* <section className="section">
           <div className="container">
             <h2 className="subtitle">These are your top three attributes.</h2>
 
@@ -148,8 +196,9 @@ class QuizResults extends React.Component {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         </div>
+        </section>
         </>
     )
   }

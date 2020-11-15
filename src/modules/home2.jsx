@@ -32,13 +32,11 @@ import {ReactComponent as TeachingIcon} from '../images/attributeIcons/SVG/teach
 import {ReactComponent as TruthfulIcon} from '../images/attributeIcons/SVG/truthful.svg';
 import {ReactComponent as UniqueIcon} from '../images/attributeIcons/SVG/unique.svg';
 import {ReactComponent as WiseIcon} from '../images/attributeIcons/SVG/wise.svg';
-import Worker from "../assets/img/illustrations/worker.svg";
 import FearIcon from "../assets/img/icons/fear.svg";
 import StrugglesIcon from "../assets/img/icons/struggle.svg";
 import PersonalityIcon from "../assets/img/icons/personality.svg";
 import EmotionIcon from "../assets/img/icons/emotion.svg";
 import Feature1 from "../assets/img/illustrations/features/feature-1.png";
-import Feature2 from "../assets/img/illustrations/features/feature-2.png";
 import Face1 from "../assets/img/illustrations/faces/1.png";
 import Face2 from "../assets/img/illustrations/faces/2.png";
 import Face3 from "../assets/img/illustrations/faces/3.png";
@@ -114,7 +112,7 @@ class home2 extends React.Component {
                             </h1>
                             <h2 className="subtitle is-5 is-muted"> You're made in His image. This image is blurred, but we all have evidence of it in ourselves.</h2>
                             <div className="button-wrap">
-                                <a className="button cta is-rounded primary-btn raised">
+                                <a className="button is-rounded is-primary raised">
                                     <Link to="/quiz">Take the Quiz</Link>
                                 </a>
                             </div>
@@ -167,7 +165,7 @@ class home2 extends React.Component {
                                 <p>This is some cool explanatory text that is on two rows</p>
                             </div>
                             <div className="card-action">
-                                <a href="#" className="button btn-align-md primary-btn raised">Free Trial</a>
+                                <a href="#" className="button btn-align-md is-primary raised">Free Trial</a>
                             </div>
                         </div>
                     </div>
@@ -183,7 +181,7 @@ class home2 extends React.Component {
                                 <p>This is some explanatory text that is on two rows</p>
                             </div>
                             <div className="card-action">
-                                <a href="#" className="button btn-align-md primary-btn raised">Get Started</a>
+                                <a href="#" className="button btn-align-md is-primary raised">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -199,7 +197,7 @@ class home2 extends React.Component {
                                 <p>This is some explanatory text that is on two rows</p>
                             </div>
                             <div className="card-action">
-                                <a href="#" className="button btn-align-md primary-btn raised">Get Started</a>
+                                <a href="#" className="button btn-align-md is-primary raised">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -215,7 +213,7 @@ class home2 extends React.Component {
                                 <p>This is some explanatory text that is on two rows</p>
                             </div>
                             <div className="card-action">
-                                <a href="#" className="button btn-align-md primary-btn raised">Get Started</a>
+                                <a href="#" className="button btn-align-md is-primary raised">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -237,7 +235,7 @@ class home2 extends React.Component {
                         <h3 className="title is-3 mb-10 is-title-reveal">{this.state.attribute}</h3>
                         <p className="subtitle is-5 is-muted">attribute description.....</p>
                         <div className="button-wrap">
-                                <a className="button cta is-rounded primary-btn raised">
+                                <a className="button cta is-rounded is-primary raised">
                                     <Link to={`/attributes/${this.state.attribute}`}>Learn More</Link>
                                 </a>
                         </div>
@@ -277,7 +275,7 @@ class home2 extends React.Component {
                                 </blockquote>
                                 <div className="author">
                                     <img src={Face1} alt=""></img>
-                                    <h5><Link to="/enneagram">Enneagram</Link></h5>
+                                    <h5><Link to="/enneagram" className="link">Enneagram</Link></h5>
                                 </div>
                             </figure>
                         </div>
@@ -288,7 +286,7 @@ class home2 extends React.Component {
                                 </blockquote>
                                 <div className="author">
                                     <img src={Face2} alt=""></img>
-                                    <h5><Link to="/myersbriggs">Myers Briggs</Link></h5>
+                                    <h5><Link to="/myersbriggs" className="link">Myers Briggs</Link></h5>
                                 </div>
                             </figure>
                         </div>
@@ -299,7 +297,7 @@ class home2 extends React.Component {
                                 </blockquote>
                                 <div className="author">
                                     <img src={Face3} alt=""></img>
-                                    <h5><Link to="/disc">DISC</Link></h5>
+                                    <h5><Link to="/disc" className="link">DISC</Link></h5>
                                 </div>
                             </figure>
                         </div>

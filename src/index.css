@@ -134,3 +134,7 @@ Link {
 .testimonial-quote cite {
     text-align: right;
 }
+
+.link {
+  color: hsl(204, 86%, 53%);
+}

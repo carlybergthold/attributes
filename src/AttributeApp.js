@@ -17,7 +17,7 @@ class AttributeApp extends Component {
     .then(user => {if(user.user) user.user.updateProfile({displayName: username})})
     .catch(error => alert(error.message));
 
-    if (username != 'undefined'  && username != 'anon') {
+    if (username !== 'undefined'  && username !== 'anon') {
       questions.forEach(q => {
         fire.database().ref(`/scores/${username}`).set({
           acceptScore: 0,
