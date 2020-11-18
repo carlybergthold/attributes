@@ -52,7 +52,7 @@ class AttributeSidebar extends Component {
                 <a href="#history">History</a>
               </span>
               <span className="navbar-item" onClick={this.handleClick}>
-                <a href="#liturgy">Liturgy</a>
+                <a href="#liturgy">Hymns</a>
               </span>
           </ul>
         </div>
