@@ -100,7 +100,7 @@ class Home extends React.Component {
           <div className="container welcome-container">
             <h1 className="title welcome-title">Who is God?</h1>
             <h2 className="subtitle welcome-subtitle">
-            You're made in His image. This image is blurred, but we all have evidence of it in ourselves - take the quiz to find how your life reflects God.
+            We are made in God's image. This does not make us gods, but it does give much evidence of who God is - take the quiz to find how your life reflects God.
             </h2>
             <button className="button is-large splash-btn" onClick={() => this.props.history.push("/quiz")}>
               Take the Quiz</button>
