@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import struggleArray from '../../data/struggleArray'
-import Media from '../../components/media'
 import Hero from '../hero'
+import Grouping from '../connectors/grouping'
 import '../../styles/connectors.css'
 
 class Struggles extends Component {
@@ -14,16 +13,11 @@ class Struggles extends Component {
         return(
             <>
             <div className="page">
-            <Hero title="Struggle" subtitle="struggle" img="girl.png" />
+            <Hero title="Emotions" subtitle="Emotions" />
                 <div className="section">
                     <div className="container">
-                        <section className="connectorContainer">
-                        {
-                            struggleArray.map(d =>
-                                <Media title={d.struggleName} description={d.description} attribute={d.attributeName} img="girl.png" className="personalityMedia" />
-                            )
-                        }
-                        </section>
+                        <h1>How are you feeling today?</h1>
+                        <Grouping />
                     </div>
                 </div>
             </div>

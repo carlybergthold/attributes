@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import '../../styles/connectors.css';
-import EmotionGrouping from './emotion/emotionGrouping';
+import GroupingDetail from './groupingDetail';
 
 class Group extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            currentGroup: "firstGroup"
+            currentGroup: "all"
         };
     }
 
@@ -15,35 +15,72 @@ class Group extends Component {
         this.setState({ currentGroup: group });
     }
 
-    group = () => {
-        if (this.state.currentGroup === "firstGroup") {
-          return (
-            <section className="connectorContainer">
-                <div className='connectorGroup' onClick={() => this.getCurrentGroup("pleasureGroup")}>Pleased</div>
-                <div className='connectorGroup' onClick={() => this.getCurrentGroup("sadnessGroup")}>SAD</div>
-                <div className='connectorGroup' onClick={() => this.getCurrentGroup("fearGroup")}>Afraid</div>
-                <div className='connectorGroup' onClick={() => this.getCurrentGroup("angerGroup")}>ANGRY</div>
-            </section>
-          )
-        } else if (this.state.currentGroup === "pleasureGroup") {
-            return <EmotionGrouping emotion="pleasure"></EmotionGrouping>
-        } else if (this.state.currentGroup === "sadnessGroup") {
-            return <EmotionGrouping emotion="sadness"></EmotionGrouping>
-        } else if (this.state.currentGroup === "fearGroup") {
-            return <EmotionGrouping emotion="fear"></EmotionGrouping>
-        } else if (this.state.currentGroup === "angerGroup") {
-            return <EmotionGrouping emotion="anger"></EmotionGrouping>
-        }
-    }
-
     render() {
         return(
             <>
-            {
-            this.group()
-            }
-            <div onClick={() => this.getCurrentGroup("firstGroup")}>Go back to beginning</div>
-            <div>Or see all emotions</div>
+            <section className="connectorContainer">
+                <div className="card"
+                     onClick={() => this.getCurrentGroup("pleasure")}
+                     style={{ display: this.state.currentGroup == "all" || this.state.currentGroup == "pleasure" ? "block" : "none" }}>
+                    <div className="card-content">
+                        <div className="media">
+                            <div className="media-content">
+                                <p className="title is-4">Pleased</p>
+                            </div>
+                        </div>
+                        <div className="content">
+                            Description?
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card"
+                     onClick={() => this.getCurrentGroup("sadness")}
+                     style={{ display: this.state.currentGroup == "all" || this.state.currentGroup == "sadness" ? "block" : "none" }}>
+                    <div className="card-content">
+                        <div className="media">
+                            <div className="media-content">
+                                <p className="title is-4">Sad</p>
+                            </div>
+                        </div>
+                        <div className="content">
+                        Description?
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card"
+                     onClick={() => this.getCurrentGroup("fear")}
+                     style={{ display: this.state.currentGroup == "all" || this.state.currentGroup == "fear" ? "block" : "none" }}>
+                    <div className="card-content">
+                        <div className="media">
+                            <div className="media-content">
+                                <p className="title is-4">Afraid</p>
+                            </div>
+                        </div>
+                        <div className="content">
+                        Description?
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card"
+                     onClick={() => this.getCurrentGroup("anger")}
+                     style={{ display: this.state.currentGroup == "all" || this.state.currentGroup == "anger" ? "block" : "none" }}>
+                    <div className="card-content">
+                        <div className="media">
+                            <div className="media-content">
+                                <p className="title is-4">Angry</p>
+                            </div>
+                        </div>
+                        <div className="content">
+                        Description?
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div onClick={() => this.getCurrentGroup("all")} style={{ display: this.state.currentGroup == "all" ? "none" : "block" }}>Go back to beginning</div>
+            <GroupingDetail connector="emotion" emotion={this.state.currentGroup}></GroupingDetail>
         </>
         )
     }

@@ -3,7 +3,7 @@ const emotionArray = [
     attributeName: 'creative',
     emotionName: 'Excitement',
     emotionDescription: 'Great enthusiasm and eagerness',
-    group: 'happiness'
+    group: 'pleasure'
     },
     {
     attributeName: 'eternal',
@@ -27,13 +27,13 @@ const emotionArray = [
     attributeName: 'good',
     emotionName: 'Satisfaction',
     emotionDescription: 'The feeling gained from fulfillment of a need or desire',
-    group: 'happiness'
+    group: 'pleasure'
     },
     {
     attributeName: 'gracious',
     emotionName: 'Love',
     emotionDescription: 'An intense feeling of deep affection',
-    group: 'happiness'
+    group: 'pleasure'
 },
     {
     attributeName: 'holy',
@@ -63,7 +63,7 @@ const emotionArray = [
     attributeName: 'independent',
     emotionName: 'Contentment',
     emotionDescription: 'Happiness and satisfaction with what you already have',
-    group: 'happiness'
+    group: 'pleasure'
 },
     {
     attributeName: 'invisible',
@@ -81,7 +81,7 @@ const emotionArray = [
     attributeName: 'joyful',
     emotionName: 'Happiness',
     emotionDescription: 'A feeling of pleasure, delight or gladness',
-    group: 'happiness'
+    group: 'pleasure'
 },
     {
     attributeName: 'just',
@@ -131,7 +131,7 @@ const emotionArray = [
     attributeName: 'peaceful',
     emotionName: 'Dissatisfaction',
     emotionDescription: 'Unfulfillment of expections',
-    group: 'anger'},
+    group: 'pleasure'},
     {
     attributeName: 'planning',
     emotionName: 'Worry',
@@ -176,7 +176,7 @@ const emotionArray = [
     attributeName: 'wise',
     emotionName: 'Regret',
     emotionDescription: 'Sadness or disappointment coming after an earlier decision or action',
-    group: 'pleasure'},
+    group: 'fear'},
     {
     attributeName: 'wrathful',
     emotionName: 'Contempt',
