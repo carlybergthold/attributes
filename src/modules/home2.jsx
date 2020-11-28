@@ -108,9 +108,9 @@ class home2 extends React.Component {
                     <div className="columns is-vcentered">
                         <div className="column is-5 is-offset-1 landing-caption">
                             <h1 className="title is-1 is-bold is-spaced">
-                                Who is God?
+                                Are you made in God's image?
                             </h1>
-                            <h2 className="subtitle is-5 is-muted"> You're made in His image. This image is blurred, but we all have evidence of it in ourselves.</h2>
+                            <h2 className="subtitle is-5 is-muted"> To answer this you have to know both yourself and God. This website will provide evidence of God's imprint on your life, helping you to understand both God and yourself even better!   </h2>
                             <div className="button-wrap">
                                 <a className="button is-rounded is-primary raised">
                                     <Link to="/quiz">Take the Quiz</Link>
@@ -146,7 +146,7 @@ class home2 extends React.Component {
         <div className="overlay"></div>
         <div className="container">
                 <div className="title-wrapper has-text-centered">
-                    <h2 className="title is-2">There are many ways to connect with God.</h2>
+                    <h2 className="title is-2">God's image in us shows up in many different ways.</h2>
                     <h3 className="subtitle is-5">Our humanity is from Him.</h3>
                     <div className="divider is-centered"></div>
                 </div>
@@ -162,10 +162,10 @@ class home2 extends React.Component {
                                 <img src={PersonalityIcon}></img>
                             </div>
                             <div className="card-text">
-                                <p>This is some cool explanatory text that is on two rows</p>
+                                <p>Your unique personality emphasizes a specific attribute of God.</p>
                             </div>
                             <div className="card-action">
-                                <a href="#" className="button btn-align-md is-primary raised">Free Trial</a>
+                                <a href="#" className="button btn-align-md is-primary raised">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,7 @@ class home2 extends React.Component {
                                 <img src={FearIcon}></img>
                             </div>
                             <div className="card-text">
-                                <p>This is some explanatory text that is on two rows</p>
+                                <p>Fear is common to all people.  Your strongest fear can lead you directly to God.</p>
                             </div>
                             <div className="card-action">
                                 <a href="#" className="button btn-align-md is-primary raised">Get Started</a>
@@ -194,7 +194,7 @@ class home2 extends React.Component {
                                 <img src={EmotionIcon}></img>
                             </div>
                             <div className="card-text">
-                                <p>This is some explanatory text that is on two rows</p>
+                                <p>God has emotions too!  What you are feeling right now is an invitation by God to experience Him more fully.</p>
                             </div>
                             <div className="card-action">
                                 <a href="#" className="button btn-align-md is-primary raised">Get Started</a>
@@ -210,7 +210,7 @@ class home2 extends React.Component {
                                 <img src={StrugglesIcon}></img>
                             </div>
                             <div className="card-text">
-                                <p>This is some explanatory text that is on two rows</p>
+                                <p>These are not just to make life difficult.  Within each struggle is a lesson designed by God.</p>
                             </div>
                             <div className="card-action">
                                 <a href="#" className="button btn-align-md is-primary raised">Get Started</a>
@@ -263,7 +263,7 @@ class home2 extends React.Component {
 
                 <div className="title-wrapper has-text-centered">
                     <h2 className="title is-2 light-text is-spaced">You are unique.</h2>
-                    <h3 className="subtitle is-5 light-text">Personality tests are a helpful way to understand yourself and others better. Browse the personality types below to see how your results reflect God.</h3>
+                    <h3 className="subtitle is-5 light-text">You have likely have already used one of these personality tests to better understand yourself and others. Browse your personality type below to see how you most strongly reflect God.</h3>
                 </div>
 
                 <div className="content-wrapper homepage-personality">
@@ -271,7 +271,7 @@ class home2 extends React.Component {
                         <div className="column is-4">
                             <figure className="testimonial">
                                 <blockquote>
-                                    Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+                                    Enneagram, named after the Greek word ennea meaning nine, is a typology that uses a geometric shape to identify both your type and how to relate to others of your or diiferent types. Link directly to an attribute of God using your number (1-9) or read the brief descriptions and discover your number first.
                                 </blockquote>
                                 <div className="author">
                                     <img src={Face1} alt=""></img>
@@ -282,7 +282,7 @@ class home2 extends React.Component {
                         <div className="column is-4">
                             <figure className="testimonial">
                                 <blockquote>
-                                    Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+                                    Myers-Briggs Type Indicator is an introspective self-report of how you perceive the world and make decisions. By picking the key letter from each of 4 categories - introversion or extraversion, sensing or intuition, thinking or feeling, judging or perceiving - you identify yourself as one of 16 personality types, like INFJ or ESTP.
                                 </blockquote>
                                 <div className="author">
                                     <img src={Face2} alt=""></img>
@@ -293,7 +293,7 @@ class home2 extends React.Component {
                         <div className="column is-4">
                             <figure className="testimonial">
                                 <blockquote>
-                                    Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+                                DISC is a behavior assessment tool which centers on four different personality traits identified by an industrial psychologist: Dominance (D), Influence (I), Steadiness (S), and Conscientiousness (C). Pick your letter and discover God in you.
                                 </blockquote>
                                 <div className="author">
                                     <img src={Face3} alt=""></img>
