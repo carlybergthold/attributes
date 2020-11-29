@@ -263,7 +263,7 @@ class home2 extends React.Component {
 
                 <div className="title-wrapper has-text-centered">
                     <h2 className="title is-2 light-text is-spaced">You are unique.</h2>
-                    <h3 className="subtitle is-5 light-text">You have likely have already used one of these personality tests to better understand yourself and others. Browse your personality type below to see how you most strongly reflect God.</h3>
+                    <h3 className="subtitle is-5 light-text">You have likely already used one of these personality tests to better understand yourself and others. Browse your personality type below to see how you most strongly reflect God.</h3>
                 </div>
 
                 <div className="content-wrapper homepage-personality">
@@ -271,7 +271,7 @@ class home2 extends React.Component {
                         <div className="column is-4">
                             <figure className="testimonial">
                                 <blockquote>
-                                    Enneagram, named after the Greek word ennea meaning nine, is a typology that uses a geometric shape to identify both your type and how to relate to others of your or diiferent types. Link directly to an attribute of God using your number (1-9) or read the brief descriptions and discover your number first.
+                                    The Enneagram describes nine types using the numbers 1-9. Link directly to an attribute of God with your number or by reading the brief descriptions first.
                                 </blockquote>
                                 <div className="author">
                                     <img src={Face1} alt=""></img>
@@ -282,7 +282,7 @@ class home2 extends React.Component {
                         <div className="column is-4">
                             <figure className="testimonial">
                                 <blockquote>
-                                    Myers-Briggs Type Indicator is an introspective self-report of how you perceive the world and make decisions. By picking the key letter from each of 4 categories - introversion or extraversion, sensing or intuition, thinking or feeling, judging or perceiving - you identify yourself as one of 16 personality types, like INFJ or ESTP.
+                                    Myers-Briggs uses a 4-letter acronym, like INFJ or ESTP, created from these groups - introversion or extraversion, sensing or intuition, thinking or feeling, judging or perceiving.
                                 </blockquote>
                                 <div className="author">
                                     <img src={Face2} alt=""></img>
@@ -293,7 +293,7 @@ class home2 extends React.Component {
                         <div className="column is-4">
                             <figure className="testimonial">
                                 <blockquote>
-                                DISC is a behavior assessment tool which centers on four different personality traits identified by an industrial psychologist: Dominance (D), Influence (I), Steadiness (S), and Conscientiousness (C). Pick your letter and discover God in you.
+                                DISC is a tool which centers on four different personality traits: Dominance (D), Influence (I), Steadiness (S), and Conscientiousness (C). Pick your letter and discover God in you.
                                 </blockquote>
                                 <div className="author">
                                     <img src={Face3} alt=""></img>
