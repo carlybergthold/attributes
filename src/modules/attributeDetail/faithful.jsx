@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { withRouter, Link } from "react-router-dom"
+import { withRouter } from "react-router-dom"
 import '../../styles/attribute.css'
 import Quote from '../../components/quote'
 import Hero from '../../components/hero'
@@ -48,8 +48,8 @@ class Faithful extends Component {
                   <p className="is-size-6 leading-normal padded">I should not fully trust another who has proven themselves to be unreliable. Trust can be built or rebuilt over time, but I must realize that trusting even the most trust-worthy person to do what only God can do, or provide what only God can give, is a trap.  My fear of being disappointed by others will only be fed when I expect more from them than I do from God.</p>
                   <p className="is-size-6 leading-normal padded">For example, I want to trust my driver to navigate us through icy mountain roads safely.  He may try his best, but he is not in control of all the circumstances that may happen. It is impossible for him to be fully trustworthy, so fully trusting him could very well end in disappointment.</p>
                   <br></br>
-                  <Quote scripture="Trusting in a treacherous man (i.e. unfaithful, or one who cannot be trusted) in time of trouble is like a bad tooth or a foot that slips." reference="Prov 25:19" color="var(--teal)"
-                  scripture="It is better to take refuge in the LORD than to trust in man." reference="Psalm 118:8" color="var(--teal)"/>
+                  <Quote scripture="Trusting in a treacherous man (i.e. unfaithful, or one who cannot be trusted) in time of trouble is like a bad tooth or a foot that slips." reference="Prov 25:19" color="var(--teal)"/>
+                  <Quote scripture="It is better to take refuge in the LORD than to trust in man." reference="Psalm 118:8" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="struggle">
@@ -68,7 +68,8 @@ class Faithful extends Component {
                   <p className="is-size-6 leading-normal padded">To believe that my loyalty to God is what makes me secure is faulty works-based theology.  God alone has the perfect track record.  Whenever I regard God as unfaithful, I am likely confusing my wants with His promises. His covenantal promises to Abraham/Israel are already being fulfilled in Jesus and are mine to enjoy.</p>
                   <br></br>
 
-                  <Quote scripture="Know therefore that the LORD your God is God, the faithful God who keeps covenant and steadfast love with those who love him and keep his commandments, to a thousand generations," reference="Deuteronomy 7:9" color="var(--teal)"quote="But the Lord is faithful. He will establish you and guard you against the evil one." reference="2 Thessalonians 3:3" color="var(--teal)"/>
+                  <Quote scripture="Know therefore that the LORD your God is God, the faithful God who keeps covenant and steadfast love with those who love him and keep his commandments, to a thousand generations," reference="Deuteronomy 7:9" color="var(--teal)"/>
+                  <Quote quote="But the Lord is faithful. He will establish you and guard you against the evil one." reference="2 Thessalonians 3:3" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="biblicalChristianity">

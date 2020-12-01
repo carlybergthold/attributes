@@ -20,7 +20,7 @@ class TopNav extends Component {
             <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor: this.state.navBackground}}>
             <div className="navbar-brand">
                 <Link to="/home" className="navbar-item">
-                    <img src={girl} className="nav-logo"></img>
+                    <img src={girl} className="nav-logo" alt="logo"></img>
                 </Link>
                 <span role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>

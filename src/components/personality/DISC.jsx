@@ -28,7 +28,7 @@ class DISC extends Component {
                     <div className="connectorContainer">
                     {
                         discArray.map(d =>
-                            <Media title={d.type} description={d.description} img="girl.png" className="personalityMedia" />
+                            <Media key={d.type} title={d.type} description={d.description} img="girl.png" className="personalityMedia" />
                         )
                     }
                     </div>

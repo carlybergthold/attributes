@@ -5,6 +5,10 @@ import struggleArray from '../../data/struggleArray';
 
 class GroupingDetail extends Component {
 
+    mounted() {
+        console.log(this.props.group)
+    }
+
     getArray = () => {
         if (this.props.connector === "emotion") {
             return emotionArray;
@@ -21,13 +25,13 @@ class GroupingDetail extends Component {
             <div className="connectorContainer">
                 {
                     this.getArray()
-                    .filter(x => x.group === this.props.emotion)
-                    .map(emotion =>
-                        <div className="card">
+                    .filter(x => x.group === this.props.group)
+                    .map(group =>
+                        <div key={group.name} className="card">
                             <div className="card-content">
                                 <div className="media">
                                     <div className="media-content">
-                                        <p className="subtitle is-6">{emotion.emotionName}</p>
+                                        <p className="subtitle is-6">{group.name}</p>
                                     </div>
                                 </div>
                             </div>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { withRouter, Link } from "react-router-dom"
+import { withRouter } from "react-router-dom"
 import '../../styles/attribute.css'
 import Quote from '../../components/quote'
 import Hero from '../../components/hero'

@@ -49,10 +49,6 @@ import wrathful from './modules/attributeDetail/wrathful'
 
 class AppViews extends Component {
 
-  constructor(props){
-    super(props);
-  }
-
   render() {
     return(
       <>
@@ -69,7 +65,7 @@ class AppViews extends Component {
       <Route exact path="/fear" render={(props) => (<Fear /> )} />
       <Route exact path="/emotion" render={(props) => (<Emotion /> )} />
       <Route exact path="/struggle" render={(props) => (<Struggle /> )} />
-{/* 
+{/*
       <Route exact path="/attributes/:attribute(\d+)" render={(props) => {
                 let attribute = attArray.find(att =>
                     att.attributeName === props.match.params.attribute

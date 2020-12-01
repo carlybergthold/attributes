@@ -28,7 +28,7 @@ class MyersBriggs extends Component {
                     <div className="connectorContainer">
                     {
                         myersBriggsArray.map(m =>
-                            <Media title={m.type} description={m.description} img="girl.png" className="personalityMedia" />
+                            <Media key={m.type} title={m.type} description={m.description} img="girl.png" className="personalityMedia" />
                         )
                     }
                     </div>

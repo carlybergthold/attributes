@@ -37,7 +37,7 @@ class Quiz extends Component {
       this.updateUserAttributes();
     }
 
-    if (button.textContent != 'Submit') {
+    if (button.textContent !== 'Submit') {
       this.nextPageClick()
     } else {
       this.props.history.push("/results");
@@ -76,8 +76,6 @@ class Quiz extends Component {
       {
         let attribute = radio.className.split("-")[0];
         let category = radio.className.split("-")[1];
-
-        console.log(attribute, radio.value)
 
         fire.database().ref(`/userAttributes/anonymous/${attribute}`).update({[category]: parseInt(radio.value)});
       }

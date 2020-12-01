@@ -8,7 +8,7 @@ class Media extends Component {
       <article className="media connectorMedia">
         <figure className="media-left">
           <p className="image is-64x64">
-            <img src={ require(`../images/${this.props.img}`) }></img>
+            <img src={ require(`../images/${this.props.img}`) } alt="foo"></img>
           </p>
         </figure>
         <div className="media-content">
@@ -18,9 +18,9 @@ class Media extends Component {
               <br></br>
               {this.props.description}
             </p>
-            <p>I am <Link to={`attributes/${this.props.attribute}#struggle`}>{this.props.attribute}</Link></p>
+            <p>I am ....attribute<Link to={`attributes/${this.props.attribute}#struggle`}>{this.props.attribute}</Link></p>
           </div>
-          <nav className="level is-mobile">
+          {/* <nav className="level is-mobile">
             <div className="level-left">
               <a className="level-item">
                 <span className="icon is-small"><i className="fas fa-reply"></i></span>
@@ -32,7 +32,7 @@ class Media extends Component {
                 <span className="icon is-small"><i className="fas fa-heart"></i></span>
               </a>
             </div>
-          </nav>
+          </nav> */}
         </div>
       </article>
     )

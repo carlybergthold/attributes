@@ -5,7 +5,6 @@ import atts from '../data/attributeArray'
 const userMethods = {
 
   addAtts: () => {
-    console.log("woah")
     atts.forEach(att => {
       fire.database().ref(`/attributeList/${att.attributeName}`).set({
         description: att.description,

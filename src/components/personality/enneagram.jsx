@@ -20,7 +20,7 @@ class Enneagram extends Component {
                         <section className="connectorContainer">
                         {
                             enneagramArray.map(e =>
-                                <Media title={e.type} description={e.description} img="girl.png" className="personalityMedia" />
+                                <Media key={e.type} title={e.type} description={e.description} img="girl.png" className="personalityMedia" />
                             )
                         }
                         </section>

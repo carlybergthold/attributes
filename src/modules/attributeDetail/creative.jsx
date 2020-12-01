@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom"
 import '../../styles/attribute.css'
-import Grid from '../../components/grid'
 import Quote from '../../components/quote'
 import BaseAttributeDetail from '../../modules/attributeDetail/baseAttributeDetail';
 
