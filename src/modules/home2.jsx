@@ -282,7 +282,7 @@ class home2 extends React.Component {
                         <div className="column is-4">
                             <figure className="testimonial">
                                 <blockquote>
-                                    Myers-Briggs uses a 4-letter acronym, like INFJ or ESTP, created from these groups - introversion or extraversion, sensing or intuition, thinking or feeling, judging or perceiving.
+                                    Myers-Briggs uses a 4-letter acronym, like INFJ or ESTP, using these groups - introversion or extraversion, sensing or intuition, thinking or feeling, judging or perceiving.
                                 </blockquote>
                                 <div className="author">
                                     <img src={Face2} alt=""></img>
@@ -293,7 +293,7 @@ class home2 extends React.Component {
                         <div className="column is-4">
                             <figure className="testimonial">
                                 <blockquote>
-                                DISC is a tool which centers on four different personality traits: Dominance (D), Influence (I), Steadiness (S), and Conscientiousness (C). Pick your letter and discover God in you.
+                                DISC centers on four different personality traits: Dominance (D), Influence (I), Steadiness (S), and Conscientiousness (C). Pick your letter and discover God in you.
                                 </blockquote>
                                 <div className="author">
                                     <img src={Face3} alt=""></img>
