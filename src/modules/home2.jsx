@@ -110,7 +110,7 @@ class home2 extends React.Component {
                             <h1 className="title is-1 is-bold is-spaced">
                                 Are you made in God's image?
                             </h1>
-                            <h2 className="subtitle is-5 is-muted"> To answer this you have to know both yourself and God. This website will provide evidence of God's imprint on your life, helping you to understand both God and yourself even better!   </h2>
+                            <h2 className="subtitle is-5 is-muted"> To answer this question, you have to know both yourself and God. This website will help you see how much you really are like God, as well as how God is quite different.</h2>
                             <div className="button-wrap">
                                 <a className="button is-rounded is-primary raised">
                                     <Link to="/quiz">Take the Quiz</Link>
@@ -162,7 +162,7 @@ class home2 extends React.Component {
                                 <img src={PersonalityIcon}></img>
                             </div>
                             <div className="card-text">
-                                <p>Your unique personality emphasizes a specific attribute of God.</p>
+                                <p>Your unique personality emphasizes a specific attribute of God in you.</p>
                             </div>
                             <div className="card-action">
                                 <a href="#" className="button btn-align-md is-primary raised">Get Started</a>
@@ -178,7 +178,7 @@ class home2 extends React.Component {
                                 <img src={FearIcon}></img>
                             </div>
                             <div className="card-text">
-                                <p>Fear is common to all people.  Your strongest fear can lead you directly to God.</p>
+                                <p>Fear is common to all people.  Your strongest fear points to God.</p>
                             </div>
                             <div className="card-action">
                                 <a href="#" className="button btn-align-md is-primary raised">Get Started</a>
@@ -194,7 +194,7 @@ class home2 extends React.Component {
                                 <img src={EmotionIcon}></img>
                             </div>
                             <div className="card-text">
-                                <p>God has emotions too!  What you are feeling right now is an invitation by God to experience Him more fully.</p>
+                                <p>God invites you to see Him in how you are feeling right now.</p>
                             </div>
                             <div className="card-action">
                                 <a href="#" className="button btn-align-md is-primary raised">Get Started</a>
@@ -210,7 +210,7 @@ class home2 extends React.Component {
                                 <img src={StrugglesIcon}></img>
                             </div>
                             <div className="card-text">
-                                <p>These are not just to make life difficult.  Within each struggle is a lesson designed by God.</p>
+                                <p>Each struggle is a lesson designed by God to learn from Him.</p>
                             </div>
                             <div className="card-action">
                                 <a href="#" className="button btn-align-md is-primary raised">Get Started</a>
@@ -282,7 +282,7 @@ class home2 extends React.Component {
                         <div className="column is-4">
                             <figure className="testimonial">
                                 <blockquote>
-                                    Myers-Briggs uses a 4-letter acronym, like INFJ or ESTP, using these groups - introversion or extraversion, sensing or intuition, thinking or feeling, judging or perceiving.
+                                    Myers-Briggs uses a 4-letter acronym, like INFJ or ESTP, which reflects introversion or extraversion, sensing or intuition, thinking or feeling, judging or perceiving.
                                 </blockquote>
                                 <div className="author">
                                     <img src={Face2} alt=""></img>
