@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import myersBriggsArray from '../../data/myersBriggsArray'
 import Hero from '../hero'
-import Media from '../../components/media'
+import MyersBriggsImg from "../../images/personality/myersBriggs.svg";
+import BasePersonality from "./basePersonality";
 
 class MyersBriggs extends Component {
 
@@ -9,14 +10,17 @@ class MyersBriggs extends Component {
         super(props);
 
         this.state = {
-            username: '',
-            email: '',
-            password: ''
+            imagePosition: "left"
         }
-    }
+      }
 
     componentDidMount() {
         window.scrollTo(0, 0);
+    }
+
+    leftOrRight() {
+        this.state.imagePosition === "left" ? this.state.imagePosition = "right" : this.state.imagePosition = "left";
+        return this.state.imagePosition;
     }
 
     render() {
@@ -24,14 +28,12 @@ class MyersBriggs extends Component {
             <>
             <div className="page">
             <Hero title="Myers Briggs" subtitle="Myers Briggs" img="girl.png" />
-                <div className="section">
-                    <div className="connectorContainer">
+                <div>
                     {
-                        myersBriggsArray.map(m =>
-                            <Media title={m.type} description={m.description} img="girl.png" className="personalityMedia" />
+                    myersBriggsArray.map(m =>
+                        <BasePersonality img={MyersBriggsImg} type={m.type} description={m.description} imagePosition={this.leftOrRight()} />
                         )
                     }
-                    </div>
                 </div>
             </div>
         </>

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import '../../styles/register.css'
-import fire from "../../config/fire"
 
 class Login extends Component {
 

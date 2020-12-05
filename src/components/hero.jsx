@@ -143,8 +143,8 @@ class Hero extends Component {
             this.getIcon()
         }
         <section className="heroTitle">
-        <h1 className="title" id="heroTitle">{this.props.title}  |</h1>
-        <h2 className="subtitle" id="heroSubtitle">&nbsp;&nbsp;{this.props.subtitle}</h2>
+        <h1 className="title light-text" id="heroTitle">{this.props.title}  |</h1>
+        <h2 className="subtitle light-text" id="heroSubtitle">&nbsp;&nbsp;{this.props.subtitle}</h2>
         </section>
         </div>
         </div>

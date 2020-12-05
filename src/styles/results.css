@@ -1,3 +1,7 @@
 .is-parent {
     display: flex;
 }
+
+.testimonial blockquote {
+    height: 20rem;
+}

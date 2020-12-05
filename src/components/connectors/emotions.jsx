@@ -11,13 +11,13 @@ class Emotions extends Component {
 
     render() {
         return(
-            <>
+        <>
             <div className="page">
             <Hero title="Emotions" subtitle="Emotions" />
                 <div className="section">
                     <div className="container">
                         <h1>How are you feeling today?</h1>
-                        <Grouping />
+                        <Grouping connector="emotion"/>
                     </div>
                 </div>
             </div>

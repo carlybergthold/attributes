@@ -198,9 +198,9 @@ main {
 /* SIDEBAR */
 
 aside {
-    flex: 0.6;
+    /* flex: 0.6; */
     text-align: left;
-    margin-top: 3rem;
+    padding-top: 3rem;
 }
 
 #sidebar {

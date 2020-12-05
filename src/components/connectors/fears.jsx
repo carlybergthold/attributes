@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import fearArray from '../../data/fearArray'
-import Media from '../../components/media'
 import Hero from '../hero'
+import Grouping from '../connectors/grouping'
 import '../../styles/connectors.css'
-
 
 
 class Fears extends Component {
@@ -16,16 +14,11 @@ class Fears extends Component {
         return(
             <>
             <div className="page">
-            <Hero title="Fear" subtitle="Fears" img="girl.png" />
+            <Hero title="Fears" subtitle="Fears" />
                 <div className="section">
                     <div className="container">
-                        <section className="connectorContainer">
-                        {
-                            fearArray.map(d =>
-                                <Media title={d.fearName} description={d.description} attribute={d.attributeName} img="girl.png" className="personalityMedia" />
-                            )
-                        }
-                        </section>
+                        <h1>What are you afraid of?</h1>
+                        <Grouping connector="fear"/>
                     </div>
                 </div>
             </div>

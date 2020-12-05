@@ -32,13 +32,11 @@ import {ReactComponent as TeachingIcon} from '../images/attributeIcons/SVG/teach
 import {ReactComponent as TruthfulIcon} from '../images/attributeIcons/SVG/truthful.svg';
 import {ReactComponent as UniqueIcon} from '../images/attributeIcons/SVG/unique.svg';
 import {ReactComponent as WiseIcon} from '../images/attributeIcons/SVG/wise.svg';
-import Worker from "../assets/img/illustrations/worker.svg";
 import FearIcon from "../assets/img/icons/fear.svg";
 import StrugglesIcon from "../assets/img/icons/struggle.svg";
 import PersonalityIcon from "../assets/img/icons/personality.svg";
 import EmotionIcon from "../assets/img/icons/emotion.svg";
 import Feature1 from "../assets/img/illustrations/features/feature-1.png";
-import Feature2 from "../assets/img/illustrations/features/feature-2.png";
 import Face1 from "../assets/img/illustrations/faces/1.png";
 import Face2 from "../assets/img/illustrations/faces/2.png";
 import Face3 from "../assets/img/illustrations/faces/3.png";
@@ -105,18 +103,18 @@ class home2 extends React.Component {
 
     return(
       <>
-        <div className="hero-body">
+        <div id="home-hero" className="hero-body">
                 <div className="container">
                     <div className="columns is-vcentered">
                         <div className="column is-5 is-offset-1 landing-caption">
                             <h1 className="title is-1 is-bold is-spaced">
                                 Who is God?
                             </h1>
-                            <h2 className="subtitle is-5 is-muted"> You're made in His image. This image is blurred, but we all have evidence of it in ourselves.</h2>
+                            <h2 className="subtitle is-5 is-muted">You're made in His image. This image is blurred, but we all have evidence of it in ourselves.</h2>
                             <div className="button-wrap">
-                                <a className="button cta is-rounded primary-btn raised">
+                                <span className="button is-rounded is-primary raised">
                                     <Link to="/quiz">Take the Quiz</Link>
-                                </a>
+                                </span>
                             </div>
                         </div>
                         <div className="column is-5">
@@ -124,25 +122,9 @@ class home2 extends React.Component {
                                 <img src={Thought} alt="Description" id="home-illustration"></img>
                             </figure>
                         </div>
-
                     </div>
                 </div>
         </div>
-
-        {/* <div className="hero-foot mb-20">
-            <div className="container">
-                <div className="tabs is-centered">
-                    <ul>
-                        <li><a><img className="partner-logo" src="../logos/clients/systek.svg"></img></a></li>
-                        <li><a><img className="partner-logo" src="../assets/img/logos/clients/tribe.svg"></img></a></li>
-                        <li><a><img className="partner-logo" src="../assets/img/logos/clients/kromo.svg"></img></a></li>
-                        <li><a><img className="partner-logo" src="../assets/img/logos/clients/infinite.svg"></img></a></li>
-                        <li><a><img className="partner-logo" src="../assets/img/logos/clients/gutwork.svg"></img>
-                            </a></li>
-                    </ul>
-                </div>
-            </div>
-        </div> */}
 
         <section className="section is-medium has-background-image" style={{backgroundImage: `url(https://source.unsplash.com/g30P1zcOzXo/1600x900)`}} data-color="#4FC1EA" data-color-opacity=".6">
         <div className="overlay"></div>
@@ -161,13 +143,13 @@ class home2 extends React.Component {
                                 <h4>Personality</h4>
                             </div>
                             <div className="card-icon">
-                                <img src={PersonalityIcon}></img>
+                                <img src={PersonalityIcon} alt="foo"></img>
                             </div>
                             <div className="card-text">
                                 <p>This is some cool explanatory text that is on two rows</p>
                             </div>
                             <div className="card-action">
-                                <a href="#" className="button btn-align-md primary-btn raised">Free Trial</a>
+                                <Link to="/personality" className="button btn-align-md is-primary raised">Go</Link>
                             </div>
                         </div>
                     </div>
@@ -177,13 +159,13 @@ class home2 extends React.Component {
                                 <h4>Fear</h4>
                             </div>
                             <div className="card-icon">
-                                <img src={FearIcon}></img>
+                                <img src={FearIcon} alt="foo"></img>
                             </div>
                             <div className="card-text">
                                 <p>This is some explanatory text that is on two rows</p>
                             </div>
                             <div className="card-action">
-                                <a href="#" className="button btn-align-md primary-btn raised">Get Started</a>
+                                <Link to="/fear" className="button btn-align-md is-primary raised">Go</Link>
                             </div>
                         </div>
                     </div>
@@ -193,13 +175,13 @@ class home2 extends React.Component {
                                 <h4>Emotion</h4>
                             </div>
                             <div className="card-icon">
-                                <img src={EmotionIcon}></img>
+                                <img src={EmotionIcon} alt="foo"></img>
                             </div>
                             <div className="card-text">
                                 <p>This is some explanatory text that is on two rows</p>
                             </div>
                             <div className="card-action">
-                                <a href="#" className="button btn-align-md primary-btn raised">Get Started</a>
+                                <Link to="/emotion" className="button btn-align-md is-primary raised">Go</Link>
                             </div>
                         </div>
                     </div>
@@ -209,13 +191,13 @@ class home2 extends React.Component {
                                 <h4>Struggles</h4>
                             </div>
                             <div className="card-icon">
-                                <img src={StrugglesIcon}></img>
+                                <img src={StrugglesIcon} alt="foo"></img>
                             </div>
                             <div className="card-text">
                                 <p>This is some explanatory text that is on two rows</p>
                             </div>
                             <div className="card-action">
-                                <a href="#" className="button btn-align-md primary-btn raised">Get Started</a>
+                                <Link to="/struggle" className="button btn-align-md is-primary raised">Go</Link>
                             </div>
                         </div>
                     </div>
@@ -233,29 +215,22 @@ class home2 extends React.Component {
                 </div>
 
                 <div className="columns is-vcentered side-feature mt-60">
-                    <div className="column is-4 is-offset-2">
-                        <h3 className="title is-3 mb-10 is-title-reveal">{this.state.attribute}</h3>
-                        <p className="subtitle is-5 is-muted">attribute description.....</p>
-                        <div className="button-wrap">
-                                <a className="button cta is-rounded primary-btn raised">
-                                    <Link to={`/attributes/${this.state.attribute}`}>Learn More</Link>
-                                </a>
-                        </div>
-                    </div>
-                    <div className="column is-5">
+                    <div className="column is-5 is-offset-1">
                         <img src={Feature1} alt=""></img>
                     </div>
-                </div>
-
-                {/* <div className="columns is-vcentered side-feature mt-60">
-                    <div className="column is-5 is-offset-1">
-                        <img src={Feature2} alt=""></img>
-                    </div>
                     <div className="column is-4 is-offset-1">
-                        <h3 className="title is-3 mb-10 is-title-reveal">Collaborate easily</h3>
+                        <h3 className="title is-3 mb-10 is-title-reveal">{this.state.attribute}</h3>
                         <p className="subtitle is-5 is-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum audissem Antiochum, Brute, ut solebam, cum M. Quae diligentissime contra Aristonem dicuntur a Chryippo.</p>
+                        <div className="button-wrap">
+                            <span className="button cta is-rounded is-primary raised">
+                                <Link to={`/attributes/${this.state.attribute}`}>Learn More</Link>
+                            </span>
+                            <span className="button is-rounded is-primary">
+                                <Link to={`/attributes/${this.state.attribute}`}>Or Get Another</Link>
+                            </span>
+                        </div>
                     </div>
-                </div> */}
+                </div>
             </div>
         </section>
 
@@ -276,8 +251,8 @@ class home2 extends React.Component {
                                     Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
                                 </blockquote>
                                 <div className="author">
-                                    <img src={Face1} alt=""></img>
-                                    <h5><Link to="/enneagram">Enneagram</Link></h5>
+                                    <img src={Face1} alt="foo"></img>
+                                    <h5><Link to="/enneagram" className="link">Enneagram</Link></h5>
                                 </div>
                             </figure>
                         </div>
@@ -287,8 +262,8 @@ class home2 extends React.Component {
                                     Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
                                 </blockquote>
                                 <div className="author">
-                                    <img src={Face2} alt=""></img>
-                                    <h5><Link to="/myersbriggs">Myers Briggs</Link></h5>
+                                    <img src={Face2} alt="foo"></img>
+                                    <h5><Link to="/myersbriggs" className="link">Myers Briggs</Link></h5>
                                 </div>
                             </figure>
                         </div>
@@ -298,8 +273,8 @@ class home2 extends React.Component {
                                     Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
                                 </blockquote>
                                 <div className="author">
-                                    <img src={Face3} alt=""></img>
-                                    <h5><Link to="/disc">DISC</Link></h5>
+                                    <img src={Face3} alt="foo"></img>
+                                    <h5><Link to="/disc" className="link">DISC</Link></h5>
                                 </div>
                             </figure>
                         </div>
