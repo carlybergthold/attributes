@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
-import Thought from "../../assets/img/illustrations/features/thought.png";
 import Enneagram from "../../images/personality/enneagram.svg";
 import MyersBriggs from "../../images/personality/myersBriggs.svg";
 import DISC from "../../images/personality/disc.svg";
