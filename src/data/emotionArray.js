@@ -129,9 +129,9 @@ const emotionArray = [
     group: 'anger'},
     {
     attributeName: 'peaceful',
-    name: 'Dissatisfaction',
-    description: 'Unfulfillment of expections',
-    group: 'pleasure'},
+    emotionName: 'Dissatisfaction',
+    emotionDescription: 'Unfulfillment of expections',
+    group: 'sadness'},
     {
     attributeName: 'planning',
     name: 'Worry',

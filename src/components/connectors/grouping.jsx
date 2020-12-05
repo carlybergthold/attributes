@@ -60,7 +60,7 @@ class Group extends Component {
                             </div>
                         </div>
                         <div className="content">
-                            Description?
+                            Great! Since you are in such a good mood, will you pick from one of these more specific choices?
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ class Group extends Component {
                             </div>
                         </div>
                         <div className="content">
-                        Description?
+                        So sorry to hear.  Can you help clarify by selecting one of these options?
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@ class Group extends Component {
                             </div>
                         </div>
                         <div className="content">
-                        Description?
+                        There sure are lots of fearful things out there.  Will you pick the one which is closest?
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@ class Group extends Component {
                             </div>
                         </div>
                         <div className="content">
-                        Description?
+                        It's probably understandable.  Pick the best option.
                         </div>
                     </div>
                 </div>
