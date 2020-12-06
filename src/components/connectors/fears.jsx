@@ -18,7 +18,7 @@ class Fears extends Component {
                 <div className="section">
                     <div className="container">
                         <h1>What is your biggest fear today?</h1>
-                        <Grouping connector="emotion"/>
+                        <Grouping />
                     </div>
                 </div>
             </div>
