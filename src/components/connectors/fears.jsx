@@ -17,7 +17,7 @@ class Fears extends Component {
             <Hero title="Emotions" subtitle="Emotions" />
                 <div className="section">
                     <div className="container">
-                        <h1>How are you feeling today?</h1>
+                        <h1>What is your biggest fear today?</h1>
                         <Grouping />
                     </div>
                 </div>
