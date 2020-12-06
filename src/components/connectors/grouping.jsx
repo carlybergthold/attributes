@@ -21,7 +21,7 @@ class Group extends Component {
             <section className="connectorContainer">
                 <div className="card"
                      onClick={() => this.getCurrentGroup("pleasure")}
-                     style={{ display: this.state.currentGroup == "all" || this.state.currentGroup == "pleasure" ? "block" : "none" }}>
+                     style={{ display: this.state.currentGroup == "all" || this.state.currentGroup == "Pleasure" ? "block" : "none" }}>
                     <div className="card-content">
                         <div className="media">
                             <div className="media-content">
@@ -36,7 +36,7 @@ class Group extends Component {
 
                 <div className="card"
                      onClick={() => this.getCurrentGroup("sadness")}
-                     style={{ display: this.state.currentGroup == "all" || this.state.currentGroup == "sadness" ? "block" : "none" }}>
+                     style={{ display: this.state.currentGroup == "all" || this.state.currentGroup == "Sadness" ? "block" : "none" }}>
                     <div className="card-content">
                         <div className="media">
                             <div className="media-content">
@@ -51,7 +51,7 @@ class Group extends Component {
 
                 <div className="card"
                      onClick={() => this.getCurrentGroup("fear")}
-                     style={{ display: this.state.currentGroup == "all" || this.state.currentGroup == "fear" ? "block" : "none" }}>
+                     style={{ display: this.state.currentGroup == "all" || this.state.currentGroup == "Fear" ? "block" : "none" }}>
                     <div className="card-content">
                         <div className="media">
                             <div className="media-content">
@@ -66,7 +66,7 @@ class Group extends Component {
 
                 <div className="card"
                      onClick={() => this.getCurrentGroup("anger")}
-                     style={{ display: this.state.currentGroup == "all" || this.state.currentGroup == "anger" ? "block" : "none" }}>
+                     style={{ display: this.state.currentGroup == "all" || this.state.currentGroup == "Anger" ? "block" : "none" }}>
                     <div className="card-content">
                         <div className="media">
                             <div className="media-content">
