@@ -14,11 +14,11 @@ class Fears extends Component {
         return(
             <>
             <div className="page">
-            <Hero title="Emotions" subtitle="Emotions" />
+            <Hero title="Fears" subtitle="Fears" />
                 <div className="section">
                     <div className="container">
-                        <h1>What is your biggest fear today?</h1>
-                        <Grouping />
+                        <h1>What are you afraid of?</h1>
+                        <Grouping connector="fear"/>
                     </div>
                 </div>
             </div>
