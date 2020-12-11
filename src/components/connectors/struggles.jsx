@@ -16,7 +16,7 @@ class Struggles extends Component {
             <Hero title="Struggles" subtitle="Struggles" />
                 <div className="section">
                     <div className="container">
-                        <h1>In what are are you struggling today?</h1>
+                        <h1>What are you struggling with the most today?</h1>
                         <Grouping connector="struggle" />
                     </div>
                 </div>
