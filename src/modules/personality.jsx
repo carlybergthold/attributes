@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { withRouter, Link } from "react-router-dom"
+import { withRouter } from "react-router-dom"
 import '../styles/personality.css'
 import PersonalityTestList from "../components/personality/personalityTestList";
 import Hero from '../components/hero'
@@ -13,14 +13,8 @@ class Personality extends Component {
       render() {
           return(
             <div className='page'>
-            <Hero title="Browse by personality" img="girl.png" />
-              <body className="personalityPage">
-              <section className="section">
-              <div className="container">
-                <PersonalityTestList />
-              </div>
-              </section>
-              </body>
+              <Hero title="Browse by personality" img="girl.png" />
+              <PersonalityTestList />
             </div>
           )
       }

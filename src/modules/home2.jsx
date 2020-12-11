@@ -103,7 +103,7 @@ class home2 extends React.Component {
 
     return(
       <>
-        <div className="hero-body">
+        <div id="home-hero" className="hero-body">
                 <div className="container">
                     <div className="columns is-vcentered">
                         <div className="column is-5 is-offset-1 landing-caption">
@@ -112,9 +112,9 @@ class home2 extends React.Component {
                             </h1>
                             <h2 className="subtitle is-5 is-muted"> To answer this question, you have to know both yourself and God. This website will help you see how much you really are like God, as well as how God is quite different.</h2>
                             <div className="button-wrap">
-                                <a className="button is-rounded is-primary raised">
+                                <span className="button is-rounded is-primary raised">
                                     <Link to="/quiz">Take the Quiz</Link>
-                                </a>
+                                </span>
                             </div>
                         </div>
                         <div className="column is-5">
@@ -122,25 +122,9 @@ class home2 extends React.Component {
                                 <img src={Thought} alt="Description" id="home-illustration"></img>
                             </figure>
                         </div>
-
                     </div>
                 </div>
         </div>
-
-        {/* <div className="hero-foot mb-20">
-            <div className="container">
-                <div className="tabs is-centered">
-                    <ul>
-                        <li><a><img className="partner-logo" src="../logos/clients/systek.svg"></img></a></li>
-                        <li><a><img className="partner-logo" src="../assets/img/logos/clients/tribe.svg"></img></a></li>
-                        <li><a><img className="partner-logo" src="../assets/img/logos/clients/kromo.svg"></img></a></li>
-                        <li><a><img className="partner-logo" src="../assets/img/logos/clients/infinite.svg"></img></a></li>
-                        <li><a><img className="partner-logo" src="../assets/img/logos/clients/gutwork.svg"></img>
-                            </a></li>
-                    </ul>
-                </div>
-            </div>
-        </div> */}
 
         <section className="section is-medium has-background-image" style={{backgroundImage: `url(https://source.unsplash.com/g30P1zcOzXo/1600x900)`}} data-color="#4FC1EA" data-color-opacity=".6">
         <div className="overlay"></div>
@@ -159,13 +143,13 @@ class home2 extends React.Component {
                                 <h4>Personality</h4>
                             </div>
                             <div className="card-icon">
-                                <img src={PersonalityIcon}></img>
+                                <img src={PersonalityIcon} alt="foo"></img>
                             </div>
                             <div className="card-text">
                                 <p>Your unique personality emphasizes a specific attribute of God in you.</p>
                             </div>
                             <div className="card-action">
-                                <a href="#" className="button btn-align-md is-primary raised">Get Started</a>
+                                <Link to="/personality" className="button btn-align-md is-primary raised">Go</Link>
                             </div>
                         </div>
                     </div>
@@ -175,13 +159,13 @@ class home2 extends React.Component {
                                 <h4>Fear</h4>
                             </div>
                             <div className="card-icon">
-                                <img src={FearIcon}></img>
+                                <img src={FearIcon} alt="foo"></img>
                             </div>
                             <div className="card-text">
                                 <p>Fear is common to all people.  Your strongest fear points to God.</p>
                             </div>
                             <div className="card-action">
-                                <a href="#" className="button btn-align-md is-primary raised">Get Started</a>
+                                <Link to="/fear" className="button btn-align-md is-primary raised">Go</Link>
                             </div>
                         </div>
                     </div>
@@ -191,13 +175,13 @@ class home2 extends React.Component {
                                 <h4>Emotion</h4>
                             </div>
                             <div className="card-icon">
-                                <img src={EmotionIcon}></img>
+                                <img src={EmotionIcon} alt="foo"></img>
                             </div>
                             <div className="card-text">
                                 <p>God invites you to see Him in how you are feeling right now.</p>
                             </div>
                             <div className="card-action">
-                                <a href="#" className="button btn-align-md is-primary raised">Get Started</a>
+                                <Link to="/emotion" className="button btn-align-md is-primary raised">Go</Link>
                             </div>
                         </div>
                     </div>
@@ -207,13 +191,13 @@ class home2 extends React.Component {
                                 <h4>Struggles</h4>
                             </div>
                             <div className="card-icon">
-                                <img src={StrugglesIcon}></img>
+                                <img src={StrugglesIcon} alt="foo"></img>
                             </div>
                             <div className="card-text">
                                 <p>Each struggle is a lesson designed by God to learn from Him.</p>
                             </div>
                             <div className="card-action">
-                                <a href="#" className="button btn-align-md is-primary raised">Get Started</a>
+                                <Link to="/struggle" className="button btn-align-md is-primary raised">Go</Link>
                             </div>
                         </div>
                     </div>
@@ -231,29 +215,22 @@ class home2 extends React.Component {
                 </div>
 
                 <div className="columns is-vcentered side-feature mt-60">
-                    <div className="column is-4 is-offset-2">
-                        <h3 className="title is-3 mb-10 is-title-reveal">{this.state.attribute}</h3>
-                        <p className="subtitle is-5 is-muted">attribute description.....</p>
-                        <div className="button-wrap">
-                                <a className="button cta is-rounded is-primary raised">
-                                    <Link to={`/attributes/${this.state.attribute}`}>Learn More</Link>
-                                </a>
-                        </div>
-                    </div>
-                    <div className="column is-5">
+                    <div className="column is-5 is-offset-1">
                         <img src={Feature1} alt=""></img>
                     </div>
-                </div>
-
-                {/* <div className="columns is-vcentered side-feature mt-60">
-                    <div className="column is-5 is-offset-1">
-                        <img src={Feature2} alt=""></img>
-                    </div>
                     <div className="column is-4 is-offset-1">
-                        <h3 className="title is-3 mb-10 is-title-reveal">Collaborate easily</h3>
+                        <h3 className="title is-3 mb-10 is-title-reveal">{this.state.attribute}</h3>
                         <p className="subtitle is-5 is-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum audissem Antiochum, Brute, ut solebam, cum M. Quae diligentissime contra Aristonem dicuntur a Chryippo.</p>
+                        <div className="button-wrap">
+                            <span className="button cta is-rounded is-primary raised">
+                                <Link to={`/attributes/${this.state.attribute}`}>Learn More</Link>
+                            </span>
+                            <span className="button is-rounded is-primary">
+                                <Link to={`/attributes/${this.state.attribute}`}>Or Get Another</Link>
+                            </span>
+                        </div>
                     </div>
-                </div> */}
+                </div>
             </div>
         </section>
 
@@ -274,7 +251,7 @@ class home2 extends React.Component {
                                     The Enneagram describes nine types using the numbers 1-9. Link directly to an attribute of God with your number or by reading the brief descriptions first.
                                 </blockquote>
                                 <div className="author">
-                                    <img src={Face1} alt=""></img>
+                                    <img src={Face1} alt="foo"></img>
                                     <h5><Link to="/enneagram" className="link">Enneagram</Link></h5>
                                 </div>
                             </figure>
@@ -285,7 +262,7 @@ class home2 extends React.Component {
                                     Myers-Briggs uses a 4-letter acronym, like INFJ or ESTP, which reflects introversion or extraversion, sensing or intuition, thinking or feeling, judging or perceiving.
                                 </blockquote>
                                 <div className="author">
-                                    <img src={Face2} alt=""></img>
+                                    <img src={Face2} alt="foo"></img>
                                     <h5><Link to="/myersbriggs" className="link">Myers Briggs</Link></h5>
                                 </div>
                             </figure>
@@ -296,7 +273,7 @@ class home2 extends React.Component {
                                 DISC centers on four different personality traits: Dominance (D), Influence (I), Steadiness (S), and Conscientiousness (C). Pick your letter and discover God in you.
                                 </blockquote>
                                 <div className="author">
-                                    <img src={Face3} alt=""></img>
+                                    <img src={Face3} alt="foo"></img>
                                     <h5><Link to="/disc" className="link">DISC</Link></h5>
                                 </div>
                             </figure>

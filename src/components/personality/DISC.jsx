@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import discArray from '../../data/discArray'
 import Hero from '../hero'
-import Media from '../../components/media'
+import DISCimg from "../../images/personality/disc.svg";
+import BasePersonality from "./basePersonality";
 
 class DISC extends Component {
 
@@ -9,14 +10,17 @@ class DISC extends Component {
         super(props);
 
         this.state = {
-            username: '',
-            email: '',
-            password: ''
+            imagePosition: "left"
         }
-    }
+      }
 
     componentDidMount() {
         window.scrollTo(0, 0);
+    }
+
+    leftOrRight() {
+        this.state.imagePosition === "left" ? this.state.imagePosition = "right" : this.state.imagePosition = "left";
+        return this.state.imagePosition;
     }
 
     render() {
@@ -24,15 +28,13 @@ class DISC extends Component {
             <>
             <div className="page">
                 <Hero title="DISC" subtitle="DISC" img="girl.png" />
-                <div className="section">
-                    <div className="connectorContainer">
+                <div>
                     {
                         discArray.map(d =>
-                            <Media title={d.type} description={d.description} img="girl.png" className="personalityMedia" />
+                            <BasePersonality img={DISCimg} type={d.type} description={d.description} imagePosition={this.leftOrRight()} />
                         )
                     }
                     </div>
-                </div>
             </div>
         </>
         )

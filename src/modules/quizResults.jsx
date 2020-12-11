@@ -23,13 +23,13 @@ class QuizResults extends React.Component {
       }
 
       componentDidMount() {
+        this.getUserData();
         window.scrollTo(0, 0);
       }
 
       getUserData = () => {
         let ref = fire.database().ref(`/scores/anonymous`);
         ref.on('value', snapshot => {
-          const state = snapshot.val();
           this.setState({acceptScore: this.state.acceptScore,
                          rejectScore: this.state.rejectScore,
                          reflectScore: this.state.reflectScore,
@@ -59,23 +59,16 @@ class QuizResults extends React.Component {
         });
     }
 
-    componentDidMount() {
-        this.getUserData();
-    }
-
     getDescription = (attribute) => {
-      console.log(attribute)
-      if (attribute == undefined) return;
-      const att = attArray.find(x => x.attributeName == attribute);
-      return att != undefined ? <p>{att.description}</p> : ""
+      if (attribute === undefined) return;
+      const att = attArray.find(x => x.attributeName === attribute);
+      return att !== undefined ? <p>{att.description}</p> : ""
     }
 
   render() {
     return(
         <>
-        {/* <section className="section is-medium has-background-image" style={{backgroundImage: `url(https://source.unsplash.com/g30P1zcOzXo/1600x900)`}} data-color="#4FC1EA" data-color-opacity=".6">
-            <div className="overlay"></div> */}
-        <section className="section has-background-primary">
+        <section className="section is-medium has-background-primary full-height">
 
         <div className='container'>
         <div className="title-wrapper has-text-centered">

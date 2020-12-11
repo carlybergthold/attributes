@@ -13,11 +13,11 @@ class Struggles extends Component {
         return(
             <>
             <div className="page">
-            <Hero title="Emotions" subtitle="Emotions" />
+            <Hero title="Struggles" subtitle="Struggles" />
                 <div className="section">
                     <div className="container">
                         <h1>What are you struggling with the most today?</h1>
-                        <Grouping />
+                        <Grouping connector="struggle" />
                     </div>
                 </div>
             </div>

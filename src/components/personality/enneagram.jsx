@@ -1,13 +1,26 @@
 import React, { Component } from "react";
 import enneagramArray from '../../data/enneagramArray'
 import Hero from '../hero'
-import Media from '../../components/media'
-
+import EnneagramImg from "../../images/personality/enneagram.svg";
+import BasePersonality from "./basePersonality";
 
 class Enneagram extends Component {
 
+    constructor(props){
+        super(props);
+
+        this.state = {
+            imagePosition: "left"
+        }
+      }
+
     componentDidMount() {
         window.scrollTo(0, 0);
+    }
+
+    leftOrRight() {
+        this.state.imagePosition === "left" ? this.state.imagePosition = "right" : this.state.imagePosition = "left";
+        return this.state.imagePosition;
     }
 
     render() {
@@ -15,17 +28,13 @@ class Enneagram extends Component {
             <>
             <div className="page">
             <Hero title="Enneagram" subtitle="Enneagram" img="girl.png"/>
-                <div className="section">
-                    <div className="container">
-                        <section className="connectorContainer">
+                <div>
                         {
                             enneagramArray.map(e =>
-                                <Media title={e.type} description={e.description} img="girl.png" className="personalityMedia" />
+                                <BasePersonality img={EnneagramImg} type={e.type} description={e.description} imagePosition={this.leftOrRight()} />
                             )
                         }
-                        </section>
                     </div>
-                </div>
             </div>
         </>
         )

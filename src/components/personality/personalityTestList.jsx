@@ -1,72 +1,85 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom"
-import boy from '../../images/man.png'
+import Enneagram from "../../images/personality/enneagram.svg";
+import MyersBriggs from "../../images/personality/myersBriggs.svg";
+import DISC from "../../images/personality/disc.svg";
 
 class PersonalityTestList extends Component {
 
     render() {
         return(
+          <>
+          <div className="hero-body">
             <div className="container">
-            <section className="home-personality-container">
-            <div className="card">
-              <div className="card-image">
-                <figure className="image is-4by3">
-                  <img src={boy} alt="Placeholder" className="personalityIcon"></img>
-                </figure>
-              </div>
-              <div className="card-content">
-                <div className="media">
-                  <div className="media-content">
-                    <p className="title is-4">The Enneagram</p>
+                <div className="columns is-vcentered">
+                  <div className="column is-5 is-offset-1 landing-caption">
+                      <h1 className="title is-1 is-bold is-spaced">
+                          Enneagram
+                      </h1>
+                      <h2 className="subtitle is-5 is-muted">This is a short description of this personality type.</h2>
+                      <div className="button-wrap">
+                          <span className="button is-rounded is-primary raised">
+                            <Link to="/enneagram" className="persLink">Read More</Link>
+                          </span>
+                      </div>
+                  </div>
+                  <div className="column is-5">
+                      <figure className="image">
+                          <img src={Enneagram} alt="Description" id="home-illustration"></img>
+                      </figure>
                   </div>
                 </div>
-                <div className="content">
-                This is a short description of this personality type.
-                  <br></br>
-                  <Link to="/enneagram" className="persLink">Read More</Link>
-                </div>
-              </div>
             </div>
-            <div className="card">
-              <div className="card-image">
-                <figure className="image is-4by3">
-                  <img src={boy} alt="Placeholder" className="personalityIcon"></img>
-                </figure>
-              </div>
-              <div className="card-content">
-                <div className="media">
-                  <div className="media-content">
-                    <p className="title is-4">Myers Briggs</p>
-                  </div>
-                </div>
-                <div className="content">
-                This is a short description of this personality type.
-                  <br></br>
-                  <Link to="/myersbriggs" className="persLink">Read More</Link>
-                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className="card-image">
-                <figure className="image is-4by3">
-                  <img src={boy} alt="Placeholder" className="personalityIcon"></img>
-                </figure>
-              </div>
-              <div className="card-content">
-                <div className="media">
-                  <div className="media-content">
-                    <p className="title is-4">DISC</p>
-                  </div>
-                </div>
-                <div className="content">
-                This is a short description of this personality type.
-                  <br></br>
-                  <Link to="/disc" className="persLink">Read More</Link>
-                </div>
-              </div>
-            </div>
-            </section>
           </div>
+
+          <section className="section has-background-primary">
+            <div className="hero-body">
+              <div className="container">
+                  <div className="columns is-vcentered">
+                    <div className="column is-5">
+                        <figure className="image">
+                            <img src={MyersBriggs} alt="Description" id="home-illustration"></img>
+                        </figure>
+                    </div>
+                    <div className="column is-5 is-offset-1 landing-caption">
+                        <h1 className="title is-1 is-bold is-spaced">
+                            Myers Briggs
+                        </h1>
+                        <h2 className="subtitle is-5 is-muted">This is a short description of this personality type.</h2>
+                        <div className="button-wrap">
+                            <span className="button is-rounded is-white raised">
+                              <Link to="/myersbriggs" className="persLink">Read More</Link>
+                            </span>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+
+          <div className="hero-body">
+            <div className="container">
+                <div className="columns is-vcentered">
+                  <div className="column is-5 is-offset-1 landing-caption">
+                      <h1 className="title is-1 is-bold is-spaced">
+                          DISC
+                      </h1>
+                      <h2 className="subtitle is-5 is-muted">This is a short description of this personality type.</h2>
+                      <div className="button-wrap">
+                          <span className="button is-rounded is-primary raised">
+                            <Link to="/disc" className="persLink">Read More</Link>
+                          </span>
+                      </div>
+                  </div>
+                  <div className="column is-5">
+                      <figure className="image">
+                          <img src={DISC} alt="Description" id="home-illustration"></img>
+                      </figure>
+                  </div>
+                </div>
+            </div>
+          </div>
+          </>
         )
     }
 }
