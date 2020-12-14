@@ -137,23 +137,7 @@ class home2 extends React.Component {
 
                 <div className="content-wrapper homepage-connectors">
                 <div className="columns">
-                    <div className="column is-3">
-                        <div className="feature-card is-bordered has-text-centered is-feature-reveal">
-                            <div className="card-title">
-                                <h4>Personality</h4>
-                            </div>
-                            <div className="card-icon">
-                                <img src={PersonalityIcon} alt="foo"></img>
-                            </div>
-                            <div className="card-text">
-                                <p>Your unique personality emphasizes a specific attribute of God in you.</p>
-                            </div>
-                            <div className="card-action">
-                                <Link to="/personality" className="button btn-align-md is-primary raised">Go</Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="column is-3">
+                    <div className="column is-4">
                         <div className="feature-card is-bordered has-text-centered is-feature-reveal">
                             <div className="card-title">
                                 <h4>Fear</h4>
@@ -169,7 +153,7 @@ class home2 extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="column is-3">
+                    <div className="column is-4">
                         <div className="feature-card is-bordered has-text-centered is-feature-reveal">
                             <div className="card-title">
                                 <h4>Emotion</h4>
@@ -185,7 +169,7 @@ class home2 extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="column is-3">
+                    <div className="column is-4">
                         <div className="feature-card is-bordered has-text-centered is-feature-reveal">
                             <div className="card-title">
                                 <h4>Struggles</h4>
@@ -219,15 +203,16 @@ class home2 extends React.Component {
                         <img src={Feature1} alt=""></img>
                     </div>
                     <div className="column is-4 is-offset-1">
+                        <figure className="image">
+                            <Icon id="homepage-svg" />
+                        </figure>
                         <h3 className="title is-3 mb-10 is-title-reveal">{this.state.attribute}</h3>
-                        <p className="subtitle is-5 is-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum audissem Antiochum, Brute, ut solebam, cum M. Quae diligentissime contra Aristonem dicuntur a Chryippo.</p>
+                        <p className="subtitle is-5 is-muted">{this.state.description}</p>
                         <div className="button-wrap">
                             <span className="button cta is-rounded is-primary raised">
                                 <Link to={`/attributes/${this.state.attribute}`}>Learn More</Link>
                             </span>
-                            <span className="button is-rounded is-primary">
-                                <Link to={`/attributes/${this.state.attribute}`}>Or Get Another</Link>
-                            </span>
+                            <span className="button is-rounded is-primary" onClick={this.randomize}>Or Get Another</span>
                         </div>
                     </div>
                 </div>

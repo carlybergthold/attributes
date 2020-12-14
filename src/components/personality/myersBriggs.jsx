@@ -19,7 +19,7 @@ class MyersBriggs extends Component {
     }
 
     leftOrRight() {
-        this.state.imagePosition === "left" ? this.state.imagePosition = "right" : this.state.imagePosition = "left";
+        this.state.imagePosition === "left" ? this.setState({ imagePosition: "right"}) : this.setState({ imagePosition: "left"});
         return this.state.imagePosition;
     }
 
@@ -31,7 +31,7 @@ class MyersBriggs extends Component {
                 <div>
                     {
                     myersBriggsArray.map(m =>
-                        <BasePersonality img={MyersBriggsImg} type={m.type} description={m.description} imagePosition={this.leftOrRight()} />
+                        <BasePersonality key={m.type} img={MyersBriggsImg} type={m.type} description={m.description} imagePosition={this.leftOrRight} />
                         )
                     }
                 </div>

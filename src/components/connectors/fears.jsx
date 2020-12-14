@@ -13,16 +13,12 @@ class Fears extends Component {
     render() {
         return(
             <>
-            <div className="page">
             <Hero title="Fears" subtitle="Fears" />
-                <div className="section">
-                    <div className="container">
-                        <h1>What are you afraid of?</h1>
-                        <Grouping connector="fear"/>
-                    </div>
-                </div>
-            </div>
-        </>
+                <section className="has-text-centered">
+                    <h1 className="title is-1 is-bold is-spaced">What are you afraid of?</h1>
+                    <Grouping connector="fear"/>
+                </section>
+            </>
         )
     }
 }

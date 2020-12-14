@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { withRouter, Link } from "react-router-dom"
 import AttributeDropdown from "../components/attDropdown"
-import '../styles/nav.css'
+import '../styles/nav.scss'
 import girl from '../images/attributeIcons/creative.png'
 
 class TopNav extends Component {
@@ -20,16 +20,17 @@ class TopNav extends Component {
             <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor: this.state.navBackground}}>
             <div className="navbar-brand">
                 <Link to="/home" className="navbar-item">
-                    <img src={girl} className="nav-logo" alt="logo"></img>
+                    {/* <img src={girl} className="nav-logo" alt="logo"></img> */}
+                    Home
                 </Link>
-                <span role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="attribute-navbar">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 </span>
             </div>
 
-            <div id="navbarBasicExample" className="navbar-menu">
+            <div id="attribute-navbar" className="navbar-menu">
 
             <div className="navbar-start">
 
@@ -50,16 +51,37 @@ class TopNav extends Component {
                 <Link to="/results">Results</Link>
                 </span>
 
-                <div className="navbar-item has-dropdown is-hoverable">
+
+                    <div className="navbar-item has-dropdown is-hoverable">
                     <span className="navbar-link">
                         Explore
                     </span>
 
                     <div className="navbar-dropdown">
-                        <span className="navbar-item">
-                        <Link to="/personality">By Personality</Link>
-                        </span>
-                        <span className="navbar-item">
+                    <div className="nested navbar-item dropdown">
+                        <div className="dropdown-trigger">
+                        <button aria-haspopup="true" aria-controls="dropdown-menu">
+                            <Link to="/personality">By Personality</Link>
+                            <span className="icon is-small">
+                                <i className="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                        </div>
+                        <div className="dropdown-menu" id="dropdown-menu" role="menu">
+                            <div className="dropdown-content">
+                                <span className="navbar-item">
+                                    <Link to="/enneagram">Enneagram</Link>
+                                </span>
+                                <span className="navbar-item">
+                                    <Link to="/disc">DISC</Link>
+                                </span>
+                                <span className="navbar-item">
+                                    <Link to="/myersbriggs">Myers Briggs</Link>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                <span className="navbar-item">
                         <Link to="/emotion">By Emotion</Link>
                         </span>
                         <span className="navbar-item">
@@ -70,6 +92,9 @@ class TopNav extends Component {
                         </span>
                     </div>
                 </div>
+
+
+
             </div>
             </div>
 

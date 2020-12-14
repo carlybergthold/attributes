@@ -130,58 +130,69 @@ const emotionArray = [
     {
     attributeName: 'peaceful',
     emotionName: 'Dissatisfaction',
-    emotionDescription: 'Unfulfillment of expections',
-    group: 'sadness'},
+    description: 'Unfulfillment of expections',
+    group: 'sadness'
+    },
     {
     attributeName: 'planning',
     name: 'Worry',
     description: 'Ongoing uneasiness from dwelling on a real or perceived problem',
-    group: 'fear'},
+    group: 'fear'
+    },
     {
     attributeName: 'providing',
     name: 'Pride',
     description: 'Deep pleasure or satisfaction derived from my own achievements',
-    group: 'happiness'},
+    group: 'happiness'
+    },
     {
     attributeName: 'relational',
     name: 'Frustration',
     description: 'When my persistent efforts to achieve are being blocked',
-    group: 'anger'},
+    group: 'anger'
+    },
     {
     attributeName: 'saving',
     name: 'Desperation',
     description: 'Losing almost all hope, but willing to do anything to achieve a goal',
-    group: 'anger'},
+    group: 'anger'
+    },
     {
     attributeName: 'sovereign',
     name: 'Sadness',
     description: 'The urge to withdraw and to seek comfort after a loss',
-    group: 'sadness'},
+    group: 'sadness'
+    },
     {
     attributeName: 'teaching',
     name: 'Reluctance',
     description: 'Not wanting to do something you should do',
-    group: 'fear'},
+    group: 'fear'
+    },
     {
     attributeName: 'truthful',
     name: 'Distrust',
     description: 'Being careful around a person who is not truthful or has poor intent',
-    group: 'fear'},
+    group: 'fear'
+    },
     {
     attributeName: 'unique',
     name: 'Humiliation',
     description: 'Pain from deliberate harm to your reputation',
-    group: 'sadness'},
+    group: 'sadness'
+    },
     {
     attributeName: 'wise',
     name: 'Regret',
     description: 'Sadness or disappointment coming after an earlier decision or action',
-    group: 'fear'},
+    group: 'fear'
+    },
     {
     attributeName: 'wrathful',
     name: 'Contempt',
     description: 'Looking down on someone and not wanting anything to do with them',
-    group: 'anger'}
+    group: 'anger'
+    }
 ]
 
 export default emotionArray;

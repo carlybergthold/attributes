@@ -12,16 +12,12 @@ class Struggles extends Component {
     render() {
         return(
             <>
-            <div className="page">
             <Hero title="Struggles" subtitle="Struggles" />
-                <div className="section">
-                    <div className="container">
-                        <h1>What are you struggling with the most today?</h1>
-                        <Grouping connector="struggle" />
-                    </div>
-                </div>
-            </div>
-        </>
+            <section className="has-text-centered">
+                <h1 className="title is-1 is-bold is-spaced">What are you struggling with the most today?</h1>
+                <Grouping connector="struggle" />
+            </section>
+            </>
         )
     }
 }

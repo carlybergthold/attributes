@@ -12,15 +12,12 @@ class Emotions extends Component {
     render() {
         return(
         <>
-            <div className="page">
             <Hero title="Emotions" subtitle="Emotions" />
-                <div className="section">
-                    <div className="container">
-                        <h1>What are you feeling today?</h1>
-                        <Grouping connector="emotion"/>
-                    </div>
-                </div>
-            </div>
+
+            <section className="has-text-centered">
+                <h1 className="title is-1 is-bold is-spaced">What are you feeling today?</h1>
+                <Grouping connector="emotion"/>
+            </section>
         </>
         )
     }
