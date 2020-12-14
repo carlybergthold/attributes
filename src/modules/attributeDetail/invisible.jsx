@@ -45,7 +45,7 @@ class Invisible extends Component {
                   <h1 className="title has-text-primary tracking-wide padded">Fear of the invisible can be very appropriate.</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">I wash my hands even when they look clean in order to remove germs which could give me a disease (thanks to Ignaz Semmelweis, a Hungarian doctor who clearly showed hand washing to reduce childbirth mortality, but was shunned by the 1850s medical community and died in an asylum without vindication).</p>
-                  <p className="is-size-6 leading-normal padded">The truth of the Bible says that sin, causing separation from God, is indeed a real problem for me.  God provides an effective solution in the form of His son, Jesus Christ, who willingly took on the penalty for my sin if I simply believe in Him.  Another simple, yet invisible, solution to an invisible, yet deadly, disease.</p>
+                  <p className="is-size-6 leading-normal padded">The truth of the Bible says that sin, causing separation from God, is indeed a real problem for me.  God provides an effective solution in the form of His son, Jesus Christ, who willingly took on the penalty for my sin if I simply believe in Him.  Another simple, yet effective, solution to an invisible, yet deadly, disease.</p>
                   <br></br>
 
                   <Quote scripture="For we do not wrestle against flesh and blood, but against the rulers, against the authorities, against the cosmic powers over this present darkness, against the spiritual forces of evil in the heavenly places." reference="Ephesians 6:12" color="var(--teal)"/>
