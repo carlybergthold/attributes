@@ -13,17 +13,17 @@
 }
 
 .attribute-dropdown-item:nth-child(-n+8) {
-    background-color: gainsboro;
+    background-color: var(--teal);
 }
 
 .attribute-dropdown-item:nth-child(n+9):nth-child(-n+16) {
-    background-color: lightsteelblue;
+    background-color: var(--yellow);
 }
 
 .attribute-dropdown-item:nth-child(n+17):nth-child(-n+24) {
-    background-color: lightslategrey;
+    background-color: var(--blue);
 }
 
 .attribute-dropdown-item:nth-child(n+25):nth-child(-n+32) {
-    background-color: gray;
+    background-color: var(--orange);
 }

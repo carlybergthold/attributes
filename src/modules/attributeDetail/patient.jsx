@@ -7,9 +7,9 @@ import AttributeSidebar from "../../components/attSidebar";
 
 class Patient extends Component {
 
-    componentDidMount() {
-      window.scrollTo(0, 0);
-    }
+    // componentDidMount() {
+    //   window.scrollTo(0, 0);
+    // }
 
     render() {
         return(
@@ -25,7 +25,7 @@ class Patient extends Component {
               <main>
                 <div className="attSection" id="definition">
                   <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Patient means to bear with suffering caused by others.
+                  <h1 className="title  tracking-wide padded">Patient means to bear with suffering caused by others.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">We expect patience from others and want it from ourselves.  We notice most when it is missing.  It seems a bit unfair to suffer from the hand of others, until we realize we need patience from others as much as they need it from us.</p>
                   <p className="is-size-6 leading-normal padded">We are an impatient people who recognize the abiding value of patience.  This excerpt from a Psychology Today article (1/3/17 issue) clarifies some of the misunderstandings of patience:</p>
@@ -65,17 +65,17 @@ class Patient extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">Perspective always matters while I wait.  Gaining long-term perspective (“until the coming of the Lord”) and a godly perspective (“I will ponder God’s work”) will help me through a situation, even if it does not end.</p>
                   <p className="is-size-6 leading-normal padded">David Guzik (Blue Letter Bible commentary) notes how a farmer is patient:
-· He waits with a reasonable hope and expectation of reward.
-· He waits a long time.
-· He waits working all the while.
-· He waits depending on things out of his own power; with his eye on the heavens.
-· He waits despite changing circumstances and many uncertainties.
-· He waits encouraged by the value of the harvest.
-· He waits encouraged by the work and harvest of others.
-· He waits because he really has no other option.
-· He waits because it does no good to give up.
-· He waits aware of how the seasons work.
-· He waits because as time goes on, it becomes more important and not less to do so.</p>
+                  · He waits with a reasonable hope and expectation of reward.
+                  · He waits a long time.
+                  · He waits working all the while.
+                  · He waits depending on things out of his own power; with his eye on the heavens.
+                  · He waits despite changing circumstances and many uncertainties.
+                  · He waits encouraged by the value of the harvest.
+                  · He waits encouraged by the work and harvest of others.
+                  · He waits because he really has no other option.
+                  · He waits because it does no good to give up.
+                  · He waits aware of how the seasons work.
+                  · He waits because as time goes on, it becomes more important and not less to do so.</p>
                   <br></br>
                   <Quote scripture="Be patient, therefore, brothers, until the coming of the Lord. See how the farmer waits for the precious fruit of the earth, being patient about it, until it receives the early and the late rains." reference="James 5:7" color="var(--teal)"/>
                 </div>

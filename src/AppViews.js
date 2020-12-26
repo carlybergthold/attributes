@@ -5,7 +5,7 @@ import QuizResults from './modules/quizResults'
 import Register from './components/users/register'
 import Login from './components/users/login.jsx'
 import TopNav from './components/nav.jsx'
-import Home from './modules/home2.jsx'
+import Home from './modules/home.jsx'
 import Personality from './modules/personality'
 import Enneagram from './components/personality/enneagram'
 import MyersBriggs from './components/personality/myersBriggs'
@@ -53,6 +53,7 @@ class AppViews extends Component {
     return(
       <>
       <TopNav user={this.props.user} signOut={this.props.signOut} />
+      <Route exact path="/" component={Home}  user={this.props.user} />
       <Route exact path="/home" component={Home}  user={this.props.user} />
       <Route exact path="/quiz" render={(props) => (<Quiz {...props} user={this.props.user} /> )} />
       <Route exact path="/results" render={(props) => (<QuizResults {...props} user={this.props.user} /> )} />

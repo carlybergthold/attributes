@@ -30,6 +30,7 @@ import {ReactComponent as TeachingIcon} from '../images/attributeIcons/SVG/teach
 import {ReactComponent as TruthfulIcon} from '../images/attributeIcons/SVG/truthful.svg';
 import {ReactComponent as UniqueIcon} from '../images/attributeIcons/SVG/unique.svg';
 import {ReactComponent as WiseIcon} from '../images/attributeIcons/SVG/wise.svg';
+import helperMethods from "../methods/helperMethods";
 
 class Hero extends Component {
 
@@ -37,7 +38,7 @@ class Hero extends Component {
         super(props);
 
         this.state = {
-            fill: '#fff',
+            fill: '#fff'
         }
       }
 
@@ -135,8 +136,11 @@ class Hero extends Component {
     };
 
     render() {
+
+        var backgroundColor = { backgroundColor: helperMethods.getAttributeColor(this.props.title) };
+
         return(
-        <section className="hero is-primary is-small">
+        <section className="hero is-small" style={backgroundColor}>
         <div className="hero-body">
         <div className={`container heroContainer ${this.props.title}`}>
         {

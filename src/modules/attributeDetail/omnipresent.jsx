@@ -25,7 +25,7 @@ class Omnipresent extends Component {
               <main>
                 <div className="attSection" id="definition">
                   <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Omnipresent means to exist everywhere.
+                  <h1 className="title  tracking-wide padded">Omnipresent means to exist everywhere.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded"> We often desire to be in more than one place at one time.  We try to at least optimize what time and presence we have, yet still experience the much dreaded FOMO (Fear Of Missing Out).</p>
                   <p className="is-size-6 leading-normal padded">The desire to extend our experiences can take many forms - simple calendar optimization (often resulting in over-scheduling), social media experience sharing, skyping, real or virtual assistants.  All these can "extend" our physical presence and maximize our experience of the world. </p>
@@ -34,7 +34,7 @@ class Omnipresent extends Component {
 
                 <div className="attSection" id="emotion">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">I can feel lonely even while I am with other people.</h1>
+                  <h1 className="title  tracking-wide padded">I can feel lonely even while I am with other people.</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">A short-term spell of being alone can encourage me to strengthen the depth and breadth of my relationships, but long-term loneliness has been proven to be hazardous to both physical and mental health. The psalmist below presents a believer’s perspective - that God’s continuing presence provides positive guidance and security.  And this guidance always encourages me to love other people, which is extremely helpful to combat loneliness.</p>
                   <br></br>
@@ -43,7 +43,7 @@ class Omnipresent extends Component {
 
                 <div className="attSection" id="fear">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">How do I seek JoMO versus FoMO?</h1>
+                  <h1 className="title  tracking-wide padded">How do I seek JoMO versus FoMO?</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">FoMO (Fear of Missing Out) was first identified by a marketing strategist in 1996 and is "a pervasive apprehension that others might be having rewarding experiences from which one is absent". This social anxiety is characterized by "a desire to stay continually connected with what others are doing".   Wikipedia</p>
                   <p className="is-size-6 leading-normal padded">FoMO's opposite, JoMO (Joy of Missing Out), is defined by the Urban Dictionary as "You’re enjoying what you’re doing in the here and now and not on social media broadcasting or seeing what everybody else is doing."</p>
@@ -54,7 +54,7 @@ class Omnipresent extends Component {
 
                 <div className="attSection" id="struggle">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">It seems God is not with me right now.</h1>
+                  <h1 className="title  tracking-wide padded">It seems God is not with me right now.</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">In the midst of suffering, pain, sickness, sorrow, warfare, and other natural disasters, it is hard to perceive a loving and merciful God simply watching it all go down.  I can deal with this apparent disconnect by denying His presence or by trusting that God is present and has a reason for allowing the difficulty.</p>
                   <br></br>
@@ -64,7 +64,7 @@ class Omnipresent extends Component {
 
                 <div className="attSection" id="whoAmI">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Only God is omnipresent.</h1></section>
+                  <h1 className="title  tracking-wide padded">Only God is omnipresent.</h1></section>
                   <p className="is-size-6 leading-normal padded">God is not the substance of things, but is transcendent over all things and is separate from His creation. Humans are not, and never will be, omnipresent.  Some classify attributes such as omnipresence as God's incommunicable attributes, meaning it will never be imparted on humans.  But having His image means I can still feel it in my desire.  Omnipresence does not mean God is everywhere in the same manner.</p>
                   <br></br>
                   <Quote scripture="God is in heaven in regard of the manifestation of glory, in hell by the expression of his justice, in the earth by the discoveries of his wisdom, power, patience, and compassion, in his people by the monuments of his grace, and in all in regard of his substance." reference="Stephen Charnock" color="var(--teal)"/>
@@ -72,7 +72,7 @@ class Omnipresent extends Component {
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Jesus is also omnipresent.</h1></section>
+                  <h1 className="title  tracking-wide padded">Jesus is also omnipresent.</h1></section>
                   <p className="is-size-6 leading-normal padded">Jesus, as God, shares all of God’s attributes.  Jesus willingly limited Himself to his physical body while on earth, but then affirmed His omnipresence for eternity. His blood is the means by which I am brought near to God.  God can be very close to me while I am yet far from Him.</p>
 
                   <Quote scripture="And behold, I (Jesus speaking) am with you always, to the end of the age." reference="Matthew 28:20" color="var(--teal)"/>
@@ -81,7 +81,7 @@ class Omnipresent extends Component {
 
                 <div className="attSection" id="soWhat">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
+                  <h1 className="title  tracking-wide padded">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Acknowledge the presence of God at any given moment and consider what His presence brings.  Realize God is always very tangibly present in His Word.  "A man may hide God from himself, and yet he cannot hide himself from God." - William Secker (Puritan author)  <br></br>Ask: How have I recently called on God?</p>
                   <Quote scripture="The LORD is near to all who call on him, to all who call on him in truth." reference="Psalm 145:18" color="var(--teal)"/>
@@ -89,7 +89,7 @@ class Omnipresent extends Component {
 
                   <div className="attSection" id="prayer">
                   <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
+                  <h1 className="title  tracking-wide padded">Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">God, You are with me always.  Remind me of this when I feel like you are not present.  Help me to feel Your image in me, as well as Your Spirit.</p>
                   <Quote scripture="Draw near to God, and he will draw near to you." reference="James 4:8a" color="var(--teal)"/>
@@ -97,7 +97,7 @@ class Omnipresent extends Component {
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Will I ever be able to be in two places at once?</h1>
+                  <h1 className="title  tracking-wide padded">Will I ever be able to be in two places at once?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">We’ve known for some time now that electrons can exist in more than one spot, so when will humans be able to do that?  Current research recently expanded the size and caused a 2,000-atom molecule to be two places at once.  No, it is not considered likely that humans will ever be able to exist in more than one location, but it should open the mind of an unbelieving physicist to the potential for an omnipresent God.</p>
                   <p className="is-size-6 leading-normal padded">“About 80 years ago, scientists discovered that it is possible to be in two locations at the same time—at least for an atom or a subatomic particle, such as an electron. For such tiny objects, the world is governed by a madhouse set of physical laws known as quantum mechanics. At that size range, every bit of matter and energy exists in a state of blurry flux, allowing it to occupy not just two locations but an infinite number of them simultaneously.” - Discover magazine, June 2005</p>
@@ -106,7 +106,7 @@ class Omnipresent extends Component {
 
                 <div className="attSection" id="history">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">How has God revealed His Presence throughout history?</h1>
+                  <h1 className="title  tracking-wide padded">How has God revealed His Presence throughout history?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Although God exists everywhere at all times, a clear understanding of who He is has not.  Even after Jesus was physically revealed on earth, He chose the means of further spreading this gospel message to be the Holy Spirit and the Bible, working together through faithful believers to bring this understanding to those who will receive it.</p>
                   <p className="is-size-6 leading-normal padded">Beginning with Pentecost, the Holy Spirit used the vastness of Rome to play a key role in widely dispersing the apostles and early believers' message - first through persecution, and then by formal adoption of the clear gospel message (Constantine in 313), resulting in the Nicene and Athanasian creeds and formal Biblical canon (all in 300s). But as Rome fell, the light was again dispersed and carried through the Dark and Medieval years by monastic pockets of believers (notably St. Patrick in Ireland), faithfully tending to the written scriptures, even if not in practice. It was then the printing press physically spread the Word, resulting in the Reformation. From there, the gospel message has permeated the entire globe.</p>
@@ -114,7 +114,7 @@ class Omnipresent extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">"God is Everywhere" - Ulysses Phillips</h1>
+                    <h1 className="title  tracking-wide padded">"God is Everywhere" - Ulysses Phillips</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"See, the Lord hath made us by His mighty pow’r,<br></br>
 And He watches o’er us every day and hour;<br></br>
