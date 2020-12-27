@@ -24,6 +24,11 @@ class GroupingDetail extends Component {
         }
     }
 
+    getConnector() {
+        if (this.state.attribute === "") return;
+        return this.getArray().find(x => x.attributeName === this.state.attribute).description;
+    }
+
     render() {
         return(
             <>
@@ -47,7 +52,7 @@ class GroupingDetail extends Component {
                     <div className="card-content">
                         <p className="title is-4 is-capitalized">{this.state.attribute}</p>
                         <div className="content card-desc">
-                            How this attribute matches with this emotion/fear/struggle...
+                            {this.getConnector()}
                         </div>
                     </div>
                     <footer className="card-footer">

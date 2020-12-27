@@ -28,7 +28,7 @@ class Good extends Component {
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("good")}}>Good means all that pleases God.
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">We want to live the good life and  truly want to be perceived as a good person.  We normally root for the good guys to win: Luke Skywalker vs. The Empire,   Harry Potter vs. Voldemort, Mother Teresa vs. Hitler.  The good deserve to win - and even seem entitled to it.  If we believe in heaven, we often think we get there by being “good enough,” whether this is following a set of rules or by just being “better than some.”</p>
+                  <p className="is-size-6 leading-normal padded">We want to live the good life and truly want to be perceived as a good person.  We normally root for the good guys to win: Luke Skywalker vs. The Empire,   Harry Potter vs. Voldemort, Mother Teresa vs. Hitler.  The good deserve to win - and even seem entitled to it.  If we believe in heaven, we often think we get there by being “good enough,” whether this is following a set of rules or by just being “better than some.”</p>
                   <p className="is-size-6 leading-normal padded">I tend to feel pleased when I get what I need and desire.  And it’s not just about me - I also like bringing good to others.  I worry, however, that I might not be good enough to attain all I need and desire, or that I might fail to please others or bring them good when it matters most.</p>
                 </div>
 
