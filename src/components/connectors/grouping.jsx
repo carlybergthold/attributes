@@ -83,7 +83,7 @@ class Group extends Component {
                         <img src={PleasureSVG} alt="pleasure"></img>
                     </div>
                     <div className="card-content">
-                        <p className="title is-4">Pleasure</p>
+                        <p className="title is-4">Pleased</p>
                         <div className={`content ${this.state.currentGroupIndex === 0 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(0)}>
                             {this.getGroupDescription(0)}
                         </div>
@@ -94,7 +94,7 @@ class Group extends Component {
                         <img src={SadnessSVG} alt="pleasure"></img>
                     </div>
                     <div className="card-content">
-                        <p className="title is-4">Sadness</p>
+                        <p className="title is-4">Sad</p>
                         <div className={`content ${this.state.currentGroupIndex === 1 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(1)}>
                             {this.getGroupDescription(1)}
                         </div>
@@ -105,7 +105,7 @@ class Group extends Component {
                         <img src={AngerSVG} alt="pleasure"></img>
                     </div>
                     <div className="card-content">
-                        <p className="title is-4">Anger</p>
+                        <p className="title is-4">Angry</p>
                         <div className={`content ${this.state.currentGroupIndex === 2 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(2)}>
                             {this.getGroupDescription(2)}
                         </div>
@@ -116,7 +116,7 @@ class Group extends Component {
                         <img src={FearSVG} alt="pleasure"></img>
                     </div>
                     <div className="card-content">
-                        <p className="title is-4">Fear</p>
+                        <p className="title is-4">Afraid</p>
                         <div className={`content ${this.state.currentGroupIndex === 3 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(3)}>
                             {this.getGroupDescription(3)}
                         </div>

@@ -152,7 +152,7 @@ class Home extends React.Component {
                                 <p>Fear is common to all people.  Your strongest fear points to God.</p>
                             </div>
                             <div className="card-action">
-                                <Link to="/fear" className="button btn-align-md is-primary raised">Go</Link>
+                                <Link to="/fear" className="button btn-align-md is-primary raised">Get Started</Link>
                             </div>
                         </div>
                     </div>
@@ -168,7 +168,7 @@ class Home extends React.Component {
                                 <p>God invites you to see Him in how you are feeling right now.</p>
                             </div>
                             <div className="card-action">
-                                <Link to="/emotion" className="button btn-align-md is-primary raised">Go</Link>
+                                <Link to="/emotion" className="button btn-align-md is-primary raised">Get Started</Link>
                             </div>
                         </div>
                     </div>
@@ -184,7 +184,7 @@ class Home extends React.Component {
                                 <p>Each struggle is a lesson designed by God to learn from Him.</p>
                             </div>
                             <div className="card-action">
-                                <Link to="/struggle" className="button btn-align-md is-primary raised">Go</Link>
+                                <Link to="/struggle" className="button btn-align-md is-primary raised">Get Started</Link>
                             </div>
                         </div>
                     </div>
