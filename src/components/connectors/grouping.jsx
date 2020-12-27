@@ -1,117 +1,130 @@
 import React, { Component } from "react";
 import '../../styles/connectors.css';
 import GroupingDetail from './groupingDetail';
-import Face1 from "../../assets/img/illustrations/faces/1.png";
-import Face2 from "../../assets/img/illustrations/faces/2.png";
-import Face3 from "../../assets/img/illustrations/faces/3.png";
+import AngerSVG from "../../images/explore/emotion/anger.svg";
+import FearSVG from "../../images/explore/emotion/fear.svg";
+import PleasureSVG from "../../images/explore/emotion/pleasure.svg";
+import SadnessSVG from "../../images/explore/emotion/sadness.svg";
 
 class Group extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            currentGroup: "all",
-            emotion: ["pleasure", "sadness", "fear", "anger"],
+            currentGroupIndex: 100,
+            emotion: ["pleasure", "sadness", "anger", "fear"],
             fear: ["shame", "loss of control", "rejection", "survival"],
             struggle: ["spiritual", "physical", "mental"]
         };
     }
 
     updateCurrentGroup = (group) => {
-        console.log("group changed to " + group)
-        this.setState({ currentGroup: group });
+        this.setState({ currentGroupIndex: group });
     }
 
     getGroupName(index) {
-        console.log(this.state.currentGroup)
         if (this.props.connector === "emotion") {
            return this.state.emotion[index]
         } else if (this.props.connector === "fear") {
             return this.state.fear[index]
-        } else {
+        } else if (this.props.connector === "struggle") {
             return this.state.struggle[index]
+        } else return null;
+    }
+
+    getGroupDescription(group) {
+        if (this.props.connector === "emotion" && group === 0) {
+            return "Great! Since you are in such a good mood, will you pick from one of these more specific choices?"
+        }
+        if (this.props.connector === "emotion" && group === 1) {
+            return "So sorry to hear.  Can you help clarify by selecting one of these options?"
+        }
+        if (this.props.connector === "emotion" && group === 2) {
+            return "It's probably understandable.  Pick the best option."
+        }
+        if (this.props.connector === "emotion" && group === 3) {
+            return "There sure are lots of fearful things out there.  Will you pick the one which is closest?"
+        }
+
+        if (this.props.connector === "fear" && group === 0) {
+            return "Great! Since you are in such a good mood, will you pick from one of these more specific choices?"
+        }
+        if (this.props.connector === "fear" && group === 1) {
+            return "There sure are lots of fearful things out there.  Will you pick the one which is closest?"
+        }
+        if (this.props.connector === "fear" && group === 2) {
+            return "So sorry to hear.  Can you help clarify by selecting one of these options?"
+        }
+        if (this.props.connector === "fear" && group === 3) {
+            return "It's probably understandable.  Pick the best option."
+        }
+
+        if (this.props.connector === "struggle" && group === 0) {
+            return "Great! Since you are in such a good mood, will you pick from one of these more specific choices?"
+        }
+        if (this.props.connector === "struggle" && group === 1) {
+            return "There sure are lots of fearful things out there.  Will you pick the one which is closest?"
+        }
+        if (this.props.connector === "struggle" && group === 2) {
+            return "So sorry to hear.  Can you help clarify by selecting one of these options?"
+        }
+        if (this.props.connector === "struggle" && group === 3) {
+            return "It's probably understandable.  Pick the best option."
         }
     }
 
     render() {
         return(
             <>
-            <div className="hero-foot mb-20">
-                <div className="container">
-                    <div className="tabs is-centered">
-                        <ul>
-                            <li><a><img className="partner-logo" src={Face1}></img></a></li>
-                            <li><a><img className="partner-logo" src={Face1}></img></a></li>
-                            <li><a><img className="partner-logo" src={Face1}></img></a></li>
-                            <li><a><img className="partner-logo" src={Face1}></img></a></li>
-                        </ul>
+            <div onClick={() => this.updateCurrentGroup(100)} className={this.state.currentGroupIndex === 100 ? "hidden" : ""}>Back to All</div>
+            <div className="connectorContainer">
+                <div className={`card ${this.state.currentGroupIndex === 100 || this.state.currentGroupIndex === 0 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(0)}>
+                    <div className="card-image">
+                        <img src={PleasureSVG} alt="pleasure"></img>
+                    </div>
+                    <div className="card-content">
+                        <p className="title is-4">Pleasure</p>
+                        <div className={`content ${this.state.currentGroupIndex === 0 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(0)}>
+                            {this.getGroupDescription(0)}
+                        </div>
+                    </div>
+                </div>
+                <div className={`card ${this.state.currentGroupIndex === 100 || this.state.currentGroupIndex === 1 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(1)}>
+                    <div className="card-image">
+                        <img src={SadnessSVG} alt="pleasure"></img>
+                    </div>
+                    <div className="card-content">
+                        <p className="title is-4">Sadness</p>
+                        <div className={`content ${this.state.currentGroupIndex === 1 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(1)}>
+                            {this.getGroupDescription(1)}
+                        </div>
+                    </div>
+                </div>
+                <div className={`card ${this.state.currentGroupIndex === 100 || this.state.currentGroupIndex === 2 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(2)}>
+                    <div className="card-image">
+                        <img src={AngerSVG} alt="pleasure"></img>
+                    </div>
+                    <div className="card-content">
+                        <p className="title is-4">Anger</p>
+                        <div className={`content ${this.state.currentGroupIndex === 2 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(2)}>
+                            {this.getGroupDescription(2)}
+                        </div>
+                    </div>
+                </div>
+                <div className={`card ${this.state.currentGroupIndex === 100 || this.state.currentGroupIndex === 3 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(3)}>
+                    <div className="card-image">
+                        <img src={FearSVG} alt="pleasure"></img>
+                    </div>
+                    <div className="card-content">
+                        <p className="title is-4">Fear</p>
+                        <div className={`content ${this.state.currentGroupIndex === 3 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(3)}>
+                            {this.getGroupDescription(3)}
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <section className="connectorContainer">
-                <div className="card"
-                     onClick={() => this.updateCurrentGroup(this.getGroupName(0))}
-                     style={{ display: this.state.currentGroup === "all" || this.props.currentGroup === this.getGroupName(0) ? "block" : "none" }}>
-                    <div className="card-content">
-                        <div className="media">
-                            <div className="media-content">
-                                <p className="title is-4">{this.getGroupName(0)}</p>
-                            </div>
-                        </div>
-                        <div className="content">
-                            Great! Since you are in such a good mood, will you pick from one of these more specific choices?
-                        </div>
-                    </div>
-                </div>
-
-                <div className="card"
-                     onClick={() => this.updateCurrentGroup(this.getGroupName(1))}
-                     style={{ display: this.state.currentGroup === "all" || this.state.currentGroup === this.getGroupName(1) ? "block" : "none" }}>
-                    <div className="card-content">
-                        <div className="media">
-                            <div className="media-content">
-                                <p className="title is-4">{this.getGroupName(1)}</p>
-                            </div>
-                        </div>
-                        <div className="content">
-                        So sorry to hear.  Can you help clarify by selecting one of these options?
-                        </div>
-                    </div>
-                </div>
-
-                <div className="card"
-                     onClick={() => this.updateCurrentGroup(this.getGroupName(2))}
-                     style={{ display: this.state.currentGroup === "all" || this.state.currentGroup === this.getGroupName(2) ? "block" : "none" }}>
-                    <div className="card-content">
-                        <div className="media">
-                            <div className="media-content">
-                                <p className="title is-4">{this.getGroupName(2)}</p>
-                            </div>
-                        </div>
-                        <div className="content">
-                        There sure are lots of fearful things out there.  Will you pick the one which is closest?
-                        </div>
-                    </div>
-                </div>
-
-                <div className="card"
-                     onClick={() => this.updateCurrentGroup(this.getGroupName(3))}
-                     style={{ display: this.state.currentGroup === "all" || this.state.currentGroup === this.getGroupName(3) ? "block" : "none" }}>
-                    <div className="card-content">
-                        <div className="media">
-                            <div className="media-content">
-                                <p className="title is-4">{this.getGroupName(3)}</p>
-                            </div>
-                        </div>
-                        <div className="content">
-                        It's probably understandable.  Pick the best option.
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <div onClick={() => this.updateCurrentGroup("all")} style={{ display: this.state.currentGroup === "all" ? "none" : "block" }}>Go back to beginning</div>
-            <GroupingDetail connector={this.props.connector} group={this.state.currentGroup}></GroupingDetail>
+            <GroupingDetail connector={this.props.connector} group={this.getGroupName(this.state.currentGroupIndex)}></GroupingDetail>
         </>
         )
     }

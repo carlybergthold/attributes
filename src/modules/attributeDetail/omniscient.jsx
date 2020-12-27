@@ -4,6 +4,7 @@ import '../../styles/attribute.css'
 import Quote from '../../components/quote'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
+import helperMethods from "../../methods/helperMethods";
 
 class Omniscient extends Component {
 
@@ -25,7 +26,7 @@ class Omniscient extends Component {
               <main>
                 <div className="attSection" id="definition">
                   <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Omniscient means to know all there is to know - past, present and future.
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("omniscient")}}>Omniscient means to know all there is to know - past, present and future.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">We like to know more because it usually benefits us.  Consequentially we spend much time and effort to attain even more knowledge.  We are even making significant progress on knowing the future through tools such as AI and predictive statistical models. </p>
                   <p className="is-size-6 leading-normal padded">Collectively our ability to know and understand is growing faster every day.  Buckminster Fuller created the “Knowledge Doubling Curve” - in 1900 the world’s knowledge doubled every century; in 1945, every 25 years; and about every year today. This rate acceleration is expected to attain daily doubling or more. - “Industry Tap into News”, 4/19/13 edition</p>
@@ -34,7 +35,7 @@ class Omniscient extends Component {
 
                 <div className="attSection" id="emotion">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">I think you misunderstood me.</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("omniscient")}}>I think you misunderstood me.</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Sometimes I might want to be misunderstood because my intentions or actions were not ideal.  However, I usually want to be fully understood, and I can get very frustrated or even hurt when I am misunderstood.  Sometimes I am the problem - I might only think something instead of actually saying it. Sometimes it is the other person who simply does not know me well.  God not only knows me, but knows my thoughts and intentions.  He knows me better than I know myself and will use that knowledge for my good.</p>
                   <br></br>
@@ -43,7 +44,7 @@ class Omniscient extends Component {
 
                 <div className="attSection" id="fear">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Can’t I get just a little more information, please?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("omniscient")}}>Can’t I get just a little more information, please?</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">I gather data for a decision and can learn only how much I still don’t know.  This can be a necessary and scary step, pondering how much I did not know before.  Even more scary is realizing how much more I will likely never know.</p>
                   <p className="is-size-6 leading-normal padded">God knows all I don’t know.  Think about that.  Knowing we as humans would not know all things, God gave us truth and wisdom through the Bible, along with the Holy Spirit, to help us see and live more clearly.</p>
@@ -53,7 +54,7 @@ class Omniscient extends Component {
 
                 <div className="attSection" id="struggle">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">I think I have information overload!</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("omniscient")}}>I think I have information overload!</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">I know obtaining knowledge is important, but too much is simply tiring.  I need to get critical information from many different sources, but true perspective on life has been concisely given by God through one book - the Bible.</p>
                   <p className="is-size-6 leading-normal padded">In the following Psalm, God is “the one Shepherd”.  His words inspire me to act (”like goads”), while keeping me grounded (“like nails”) as He constructs good through my life.  My uncomplicated job?  First and foremost, fear (i.e. revere) and obey God.</p>
@@ -63,7 +64,7 @@ class Omniscient extends Component {
 
                 <div className="attSection" id="whoAmI">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Only God is omniscient.</h1></section>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("omniscient")}}>Only God is omniscient.</h1></section>
                   <p className="is-size-6 leading-normal padded">The more I learn, the more I realize what I don’t know.  I honor God by realizing He has infinitely more knowledge than I have or will ever obtain (thru internet, education, experience, etc.).  This makes it logical for me to depend upon Him and His word.</p>
                   <p className="is-size-6 leading-normal padded">"God is omniscient. He knows everything: everything possible, everything actual; all events and all creatures, of the past, the present, and the future. He is perfectly acquainted with every detail in the life of every being in heaven, in earth, and in hell……. God foreknows what will be because He has decreed what shall be.” - A.W. Pink</p>
                   <br></br>
@@ -72,14 +73,14 @@ class Omniscient extends Component {
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Jesus is also omniscient.</h1></section>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("omniscient")}}>Jesus is also omniscient.</h1></section>
                   <p className="is-size-6 leading-normal padded">Jesus, as God, shares all of God’s attributes.  Jesus humbly set aside certain knowledge while He became fully man.  The cross was not plan B to fix what Adam and Eve broke, but the plan God understood to be necessary from the beginning of creation.</p>
                   <Quote scripture="Jesus said to her (the Samaritan woman), 'Go, call your husband, and come here.' The woman answered him, 'I have no husband.' Jesus said to her, 'You are right in saying, 'I have no husband'; for you have had five husbands, and the one you now have is not your husband. What you have said is true.' The woman said to him, 'Sir, I perceive that you are a prophet.’" reference="John 4:16-19" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("omniscient")}}>So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Pray - in full confidence that I will not only be heard, but fully understood, and with a response that considers all the options and other factors of which I am currently clueless.  Let my confession become more self-admittance and begin my true learning with God.  <br></br>Ask: How do I pray if God truly knows all?</p>
                   <Quote scripture="Before they call I will answer; while they are yet speaking I will hear." reference="Isaiah 65:24" color="var(--teal)"/>
@@ -87,7 +88,7 @@ class Omniscient extends Component {
 
                   <div className="attSection" id="prayer">
                   <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("omniscient")}}>Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">God, you know me - more than I know myself.  I can only know what you have revealed to me through the eyes and ears you have given me, and now, through your Spirit inside me.  Help me to depend upon You and your Word more than my own limited understanding.</p>
 
@@ -96,14 +97,14 @@ class Omniscient extends Component {
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">The human brain is a finite image of God’s omniscience.</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("omniscient")}}>The human brain is a finite image of God’s omniscience.</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">“The human brain may be able to hold as much information in its memory as is contained on the entire Internet, new research suggests. Researchers discovered that, unlike a classical computer that codes information as 0s and 1s, a brain cell uses 26 different ways to code its ‘bits.’ They calculated that the brain could store 1 petabyte (or a quadrillion bytes) of information. What's more, the human brain can store this mind-boggling amount of information while sipping just enough power to run a dim light bulb.  By contrast, a computer with the same memory and processing power would require 1 gigawatt of power, or basically a whole nuclear power station…” - livescience’.com 2/18/16 article</p>
                 </div>
 
                 <div className="attSection" id="history">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">The right hand often does not know the left. </h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("omniscient")}}>The right hand often does not know the left. </h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Getting good information has always been difficult - sharing it for good use within a business (or a family) has been even more onerous.  The ideal state is having an omni-channel experience.</p>
                   <p className="is-size-6 leading-normal padded">Many companies (think Bank of America and Disney) have been working hard toward making the the same data set available to multiple people (sales, manufacturing, customer service, shipping, customer…) from multiple platforms (I-phone, tablet, in-person, lap-top, call center…). Communication channels and their supporting resources are designed and orchestrated to cooperate.  New technology is good, but can end up complicating this goal.  However, a successful result mimics a small part of God's omniscience. </p>
@@ -112,7 +113,7 @@ class Omniscient extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">"His Eye Is On The Sparrow" - C.D. Martin</h1>
+                    <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("omniscient")}}>"His Eye Is On The Sparrow" - C.D. Martin</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"Whenever I am tempted, whenever clouds arise,<br></br>
 When songs give place to sighing, when hope within me dies,<br></br>

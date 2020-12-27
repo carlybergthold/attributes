@@ -19,7 +19,7 @@ class DISC extends Component {
     }
 
     leftOrRight() {
-        this.state.imagePosition === "left" ? this.state.imagePosition = "right" : this.state.imagePosition = "left";
+        this.state.imagePosition === "left" ? this.setState({ imagePosition: "right"}) : this.setState({ imagePosition: "left"});
         return this.state.imagePosition;
     }
 
@@ -31,7 +31,7 @@ class DISC extends Component {
                 <div>
                     {
                         discArray.map(d =>
-                            <BasePersonality img={DISCimg} type={d.type} description={d.description} imagePosition={this.leftOrRight()} />
+                            <BasePersonality key={d.type} img={DISCimg} type={d.type} description={d.description} imagePosition={this.leftOrRight} />
                         )
                     }
                     </div>

@@ -4,6 +4,7 @@ import '../../styles/attribute.css'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 import Quote from '../../components/quote'
+import helperMethods from "../../methods/helperMethods";
 
 class Relational extends Component {
 
@@ -25,7 +26,7 @@ class Relational extends Component {
               <main>
                 <div className="attSection" id="definition">
                   <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Relational means relating to or interacting with others.
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("relational")}}>Relational means relating to or interacting with others.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">Some of us want more of this than others, but we all need someone else.  We seek to belong or connect to others through groups - family, work, sports, church, or social networks (the average Facebook user has 200-300 “friends”).  Owning a pet can supplement this need for interaction (68% of households own a pet - up from 56% in 1988 - most commonly a dog, then cat, fish and birds - 2017 National Pet Owners survey).</p>
                   <p className="is-size-6 leading-normal padded">Solitary confinement has been reported to cause hypertension, headaches and migraines, profuse sweating, dizziness, and heart palpitations. Many inmates also experience extreme weight loss due to digestion complications and abdominal pain. Many of these symptoms are due to the intense anxiety and sensory deprivation. - Wikipedia</p>
@@ -34,7 +35,7 @@ class Relational extends Component {
 
                 <div className="attSection" id="emotion">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Why am I so frustrated with one of my closest friends?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("relational")}}>Why am I so frustrated with one of my closest friends?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Frustration comes with all relationships.  Two different wills, expectations and even loves will rarely join together perfectly.  The feeling can last momentarily or can threaten the relationship.  Frustration can sometimes be my feeling of holding back my other feelings - thus an urgent invitation to explore the root causes more deeply.</p>
                   <p className="is-size-6 leading-normal padded">I have an imperfect relationship with a perfect God, which will result in frustration as well.  The Psalmist below basically says “I know you are God, BUT…”  This Psalm ends with his need unmet, but with the frustration voiced - which is perhaps the most critical action I can take when feeling frustrated.</p>
@@ -44,7 +45,7 @@ class Relational extends Component {
 
                 <div className="attSection" id="fear">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">How do I keep from being lonely?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("relational")}}>How do I keep from being lonely?</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">Many are lonely even in the midst of many people.  The measure of my loneliness is the depth and breath of interaction I have with others versus the level I desire - the larger the gap, the more alone I will feel.  Loneliness is my call to love others more actively.  Fear of loneliness dismisses the reality of God and can result from not obeying His command to love others.  God is tangibly with each Christian through the Presence of the Holy Spirit, as well as through the gift of His Body, the Church (which consists of many local churches).</p>
                   <br></br>
@@ -53,7 +54,7 @@ class Relational extends Component {
 
                 <div className="attSection" id="struggle">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">How can I develop better relationships?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("relational")}}>How can I develop better relationships?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Struggles in developing good relationships are universal.  A relationship never even starts until one person initiates and the other responds.  Once begun, relationships require time, shared experiences, good communication, and flexibility during times of stress.  If I seek a relationship with God, it is because He initiated it and wants me to draw closer to Him.  And even when I act against all that God represents, my behavior will never cause Him to withdraw.  He never leaves and remains steadfast in relationship.</p>
                   <br></br>
@@ -71,14 +72,14 @@ class Relational extends Component {
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Jesus demonstrated care and intimacy in serving his disciples and close friends.</h1></section>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("relational")}}>Jesus demonstrated care and intimacy in serving his disciples and close friends.</h1></section>
                   <p className="is-size-6 leading-normal padded">Jesus is not only a good example for me, but also indicative of the relationship He wants me to have with Him for eternity. God extended this type of relationship to Adam and Eve; it was lost in the fall, but then restored by Jesus' work on the cross.</p>
                   <Quote scripture="Now this is eternal life: that they know you, the only true God, and Jesus Christ, whom you have sent." reference="John 17:3" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("relational")}}>So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Meditate on who God is as a real person versus an intellectual or theological concept (use the Bible as the key resource). Appreciate and take the initiative to invest further in your current relationships; develop new relationships (take the risk) and even join an organization with the intent to serve others - a family, church, volunteer or work group.  <br></br>Ask: How do I consider God to be a Person?</p>
                   <Quote scripture="Then God said, 'Let us make man in our image, after our likeness.'" reference="Genesis 1:26a" color="var(--teal)"/>
@@ -86,7 +87,7 @@ class Relational extends Component {
 
                   <div className="attSection" id="prayer">
                   <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("relational")}}>Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Father God, thank you for revealing yourself to me.  Forgive me for sometimes thinking of you as something less real, more distant, or less caring of me, than other people I know.  Help me to know you better and, as your image, to initiate healthy relationships with others so they can see You in me.</p>
                   <Quote scripture="You are my friends if you do what I command you. No longer do I call you servants, for the servant does not know what his master is doing; but I have called you friends, for all that I have heard from my Father I have made known to you." reference="John 15:14-15" color="var(--teal)"/>
@@ -94,7 +95,7 @@ class Relational extends Component {
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Good relationships bring good health!</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("relational")}}>Good relationships bring good health!</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Many studies show improved health derived from friendships, including improved recovery from illness, less stress and a longer and healthier life. Many of these health benefits have also extended to those who believe in (i.e. have a relationship with) God.  Our body, mind and soul are connected in ways that we are just only beginning to understand.  God made this connection long ago:</p>
                   <p className="is-size-6 leading-normal padded">"Gracious words are like a honeycomb, sweetness to the soul and health to the body." - Proverbs 16:24</p>
@@ -108,7 +109,7 @@ class Relational extends Component {
 
                 <div className="attSection" id="history">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Who was ‘Father Abraham’?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("relational")}}>Who was ‘Father Abraham’?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Abraham is traditionally considered to be the first Jew and had a covenant relationship with God. Because Judaism, Christianity, and Islam all recognize Abraham as their first prophet, they are also called the Abrahamic religions which together make up a majority of all world religions. God’s purpose for initiating a relationship with Abraham was to benefit many others - indeed, to “bless the whole world”.</p>
                   <p className="is-size-6 leading-normal padded">"Now the LORD said to Abram, 'Go from your country and your kindred and your father's house to the land that I will show you. And I will make of you a great nation, and I will bless you and make your name great, so that you will be a blessing. I will bless those who bless you, and him who dishonors you I will curse, and in you all the families of the earth shall be blessed.’ " - Genesis 12:1-3</p>
@@ -120,7 +121,7 @@ class Relational extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">What is communion?</h1>
+                    <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("relational")}}>What is communion?</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">Communion is the act of Christian worship in which bread and wine are consecrated and shared, reminding the believer of Christ’s body and blood given at the cross.  The word communion also means the sharing or exchanging of intimate thoughts and feelings, especially when the exchange is on a mental or spiritual level.</p>
                     <Quote scripture="And when he had given thanks, he broke it, and said, 'This is my body which is for you. Do this in remembrance of me.' In the same way also he took the cup, after supper, saying, 'This cup is the new covenant in my blood. Do this, as often as you drink it, in remembrance of me.' For as often as you eat this bread and drink the cup, you proclaim the Lord’s death until he comes." reference="1 Corinthians 11:24-26" color="var(--teal)"/>

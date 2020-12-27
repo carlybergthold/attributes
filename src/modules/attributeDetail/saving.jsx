@@ -4,6 +4,7 @@ import '../../styles/attribute.css'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 import Quote from '../../components/quote'
+import helperMethods from "../../methods/helperMethods";
 
 class Saving extends Component {
 
@@ -25,7 +26,7 @@ class Saving extends Component {
               <main>
                 <div className="attSection" id="definition">
                   <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Saving means to provide a remedy or heal.
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("saving")}}style={{color: helperMethods.getAttributeColor("saving")}}>Saving means to provide a remedy or heal.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">It often means restoring something to its original condition, like cars or furniture.  When we are sick, we seek healing in order to get back to the condition in which we can enjoy life.  Although we can get upset when things break or fall apart, restoration from this inferior condition may also bring a new level of satisfaction or gratitude.</p>
                   <p className="is-size-6 leading-normal padded">Americans spend about $11,000 annually per person for medical care (much of which is paid indirectly by employers or government), with the primary goal to restore us back to our normal health, a priceless status.  Although the medical system heroically saves lives, this level of spending does not change the inevitability of physical death.</p>
@@ -34,7 +35,7 @@ class Saving extends Component {
 
                 <div className="attSection" id="emotion">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">What am I desperately hoping for?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("saving")}}style={{color: helperMethods.getAttributeColor("saving")}}>What am I desperately hoping for?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">A Hail Mary pass.  An experimental medical treatment.  Refugees crowding into unseaworthy boats.  A trip to Las Vegas when already deep in debt.  A man committing adultery and murder, and then asking God for mercy.  The common thread is hope, resulting in a desperate act that could save.  But success is far from guaranteed.</p>
                   <p className="is-size-6 leading-normal padded">Most would take desperate measures to save their own life, even realizing it will be lost eventually.  Fewer desperately seek an eternal life reconciled with God, which can then never be lost.  David’s desperation (in the verses below) drove him to God as the only Person holding the remedy to his sin.  My sin is likely not as bad as David’s, but any sin puts me in a desperate position with a perfectly just and holy God.  Once I realize this, the only sensible action - which some may call desperate -  is to find mercy and salvation through faith in Christ Jesus’ death on the cross (i.e. God’s rescue). </p>
@@ -44,7 +45,7 @@ class Saving extends Component {
 
                 <div className="attSection" id="fear">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">What if I lose even hope?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("saving")}}style={{color: helperMethods.getAttributeColor("saving")}}>What if I lose even hope?</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">When I feel a difficult situation will never get better, I lose hope.  Sometimes the situation is as dire as I see it.  At other times my fatigue or emotions may be overwhelming my perspective.  But either circumstance can plunge my present into a real abyss of hopelessness.</p>
                   <p className="is-size-6 leading-normal padded">”There were more than twice as many suicides (44,193) in the United States as there were homicides (17,793). Suicide is the second leading cause of death among individuals between the ages of 15 and 34." - 2015 US CDC data</p>
@@ -55,7 +56,7 @@ class Saving extends Component {
 
                 <div className="attSection" id="struggle">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">What if God has appointed me to rescue another from their troubles?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("saving")}}style={{color: helperMethods.getAttributeColor("saving")}}>What if God has appointed me to rescue another from their troubles?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Every person should love and help other people.  Every person also has needs, some more than others (such as a small child or an aged parent with infirmities).  If I am pouring my life into another person, I may do well to ask a few questions:  
                   o Are my efforts helping or hurting the person long term?  
@@ -78,14 +79,14 @@ class Saving extends Component {
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Jesus was the perfect Lamb offered as Savior to the world.</h1></section>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("saving")}}style={{color: helperMethods.getAttributeColor("saving")}}>Jesus was the perfect Lamb offered as Savior to the world.</h1></section>
                   <p className="is-size-6 leading-normal padded">Jesus was not a cuddly pet lamb to play with, but a blood sacrifice.  The Gospel (meaning Good News) begins with the bad news that my sin is deserving of death. But Jesus’ death on the cross saves me from this penalty and restores believers to a right and eternal relationship with God.</p>
                   <Quote scripture="The next day he saw Jesus coming toward him, and said, 'Behold, the Lamb of God, who takes away the sin of the world!'" reference="John 1:29" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">So what do I do now?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("saving")}}style={{color: helperMethods.getAttributeColor("saving")}}>So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Stop trying to justify myself through my works and rely solely on Jesus’ work on the cross to save me.  Realizing I am free from the law and associated judgment, be motivated by my love of Christ in response to the remedy He provides.
                   <br></br>Ask:  Why am I doing this good work?</p>
@@ -94,7 +95,7 @@ class Saving extends Component {
 
                   <div className="attSection" id="prayer">
                   <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Prayer</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("saving")}}style={{color: helperMethods.getAttributeColor("saving")}}>Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Merciful God, you alone can restore our relationship.  Not my good works, not my church membership, nor even my sacrifice of praise.  Bring me to the point of realizing that my only hope is Your work in me.</p>
                   <Quote scripture="Hide your face from my sins, and blot out all my iniquities. Create in me a clean heart, O God, and renew a right spirit within me. Cast me not away from your presence, and take not your Holy Spirit from me. Restore to me the joy of your salvation, and uphold me with a willing spirit." reference="Psalm 51:9-12" color="var(--teal)"/>
@@ -102,7 +103,7 @@ class Saving extends Component {
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Is man good or bad?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("saving")}}style={{color: helperMethods.getAttributeColor("saving")}}>Is man good or bad?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Christianity assumes man is sinful - worthy of only God’s wrath - making the need for salvation obvious.  A secularist view typically views man as both good and bad, but getting better (evolving) with time. Which view has more evidence?</p>
                   <p className="is-size-6 leading-normal padded">The secularist view of man’s improvement often points to global stats like the following from a 10/17/18 article from VOX:  70% reduction in poverty over the last 30 years, lifespans doubling over the last century, homicide and violent crimes dropping over the last few decades, literacy and education levels soaring, improved internet accessibility and much lower costs of renewable energy sources. There is no doubt that life is indeed getting longer and much more comfortable. But is man truly getting better?</p>
@@ -111,7 +112,7 @@ class Saving extends Component {
 
                 <div className="attSection" id="history">
                 <section>
-                  <h1 className="title has-text-primary tracking-wide padded">Why is Christmas celebrated on December 25?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("saving")}}style={{color: helperMethods.getAttributeColor("saving")}}>Why is Christmas celebrated on December 25?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">”For unto you is born this day in the city of David a Savior, who is Christ the Lord." - Luke 2:11
                   Salvation brought by Christ is celebrated by both Christmas (His birth) and Easter (His resurrection from death on the cross).  The exact day of His birth was not recorded, but is celebrated around the globe.  How was this date established?</p>
@@ -122,7 +123,7 @@ class Saving extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-primary tracking-wide padded">“There Is Power In The Blood” - Lewis Edgar Jones</h1><br></br>
+                    <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("saving")}}style={{color: helperMethods.getAttributeColor("saving")}}>“There Is Power In The Blood” - Lewis Edgar Jones</h1><br></br>
                 </section>
                   <p className="is-size-6 leading-normal padded">
                 Propitiation: The act of appeasing a deity.  In the Old Testament, blood was annually spilled on top of the ark of the covenant, deflecting God's wrath from heaven.  This wrath came because of violations of the law which was physically located in the ark (stone tablets).  In the New Testament, Christ’s shed blood on the cross served the same saving purpose, though was a once-for-all-time sacrifice.</p>

@@ -19,7 +19,8 @@ class Enneagram extends Component {
     }
 
     leftOrRight() {
-        this.state.imagePosition === "left" ? this.state.imagePosition = "right" : this.state.imagePosition = "left";
+        console.log("bruh")
+        this.state.imagePosition === "left" ? this.setState({ imagePosition: "right"}) : this.setState({ imagePosition: "left"});
         return this.state.imagePosition;
     }
 
@@ -31,7 +32,7 @@ class Enneagram extends Component {
                 <div>
                         {
                             enneagramArray.map(e =>
-                                <BasePersonality img={EnneagramImg} type={e.type} description={e.description} imagePosition={this.leftOrRight()} />
+                                <BasePersonality key={e.type} img={EnneagramImg} type={e.type} description={e.description} imagePosition={this.leftOrRight} />
                             )
                         }
                     </div>

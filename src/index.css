@@ -13,11 +13,10 @@ code {
 }
 
 :root {
-  --purple: #540D6E;
-  --pink: #EE4266;
-  --yellow: #FFD23F;
   --teal: #00d1b2;
-  --green: #0EAD69;
+  --yellow: #fad355;
+  --blue: #1cbfd4;
+  --orange: #ec7b47;
 }
 
 .likeLink:hover {
@@ -141,4 +140,8 @@ Link {
 
 .full-height {
   height: 100vh;
+}
+
+.hidden {
+  display: none;
 }
