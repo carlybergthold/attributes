@@ -20,6 +20,7 @@ import {ReactComponent as JustIcon} from '../images/attributeIcons/SVG/just.svg'
 import {ReactComponent as LovingIcon} from '../images/attributeIcons/SVG/loving.svg';
 import {ReactComponent as MercifulIcon} from '../images/attributeIcons/SVG/merciful.svg';
 import {ReactComponent as OmnipotentIcon} from '../images/attributeIcons/SVG/omnipotent.svg';
+import {ReactComponent as OmnipresentIcon} from '../images/attributeIcons/SVG/omnipresent.svg';
 import {ReactComponent as OmniscientIcon} from '../images/attributeIcons/SVG/omniscient.svg';
 import {ReactComponent as PatientIcon} from '../images/attributeIcons/SVG/patient.svg';
 import {ReactComponent as PeacefulIcon} from '../images/attributeIcons/SVG/peaceful.svg';
@@ -31,6 +32,7 @@ import {ReactComponent as SovereignIcon} from '../images/attributeIcons/SVG/sove
 import {ReactComponent as TeachingIcon} from '../images/attributeIcons/SVG/teaching.svg';
 import {ReactComponent as TruthfulIcon} from '../images/attributeIcons/SVG/truthful.svg';
 import {ReactComponent as UniqueIcon} from '../images/attributeIcons/SVG/unique.svg';
+import {ReactComponent as WrathfulIcon} from '../images/attributeIcons/SVG/wrathful.svg';
 import {ReactComponent as WiseIcon} from '../images/attributeIcons/SVG/wise.svg';
 import FearIcon from "../assets/img/icons/fear.svg";
 import StrugglesIcon from "../assets/img/icons/struggle.svg";
@@ -71,6 +73,7 @@ class Home extends React.Component {
     loving: LovingIcon,
     merciful: MercifulIcon,
     omnipotent: OmnipotentIcon,
+    omnipresent: OmnipresentIcon,
     omniscient: OmniscientIcon,
     patient: PatientIcon,
     peaceful: PeacefulIcon,
@@ -82,6 +85,7 @@ class Home extends React.Component {
     teaching: TeachingIcon,
     truthful:	TruthfulIcon,
     unique: UniqueIcon,
+    wrathful: WrathfulIcon,
     wise: WiseIcon
   };
 
@@ -136,7 +140,7 @@ class Home extends React.Component {
 
                 <div className="content-wrapper homepage-connectors">
                 <div className="columns">
-                    <div className="column is-4">
+                    <div className="column is-one-third">
                         <div className="feature-card is-bordered has-text-centered is-feature-reveal">
                             <div className="card-title">
                                 <h4>Fear</h4>
@@ -152,7 +156,7 @@ class Home extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="column is-4">
+                    <div className="column is-one-third">
                         <div className="feature-card is-bordered has-text-centered is-feature-reveal">
                             <div className="card-title">
                                 <h4>Emotion</h4>
@@ -168,7 +172,7 @@ class Home extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="column is-4">
+                    <div className="column is-one-third">
                         <div className="feature-card is-bordered has-text-centered is-feature-reveal">
                             <div className="card-title">
                                 <h4>Struggles</h4>

@@ -4,6 +4,7 @@ import '../../styles/attribute.css'
 import Quote from '../../components/quote'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
+import helperMethods from "../../methods/helperMethods";
 
 class Just extends Component {
 

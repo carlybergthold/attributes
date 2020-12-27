@@ -21,4 +21,8 @@
     content: '';
     display: block;
     padding-bottom: 100%;
-  }
+}
+
+.card {
+    border-radius: 20px;
+}

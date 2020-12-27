@@ -4,6 +4,7 @@ import '../../styles/attribute.css'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 import Quote from '../../components/quote'
+import helperMethods from "../../methods/helperMethods";
 
 class Sovereign extends Component {
 

@@ -18,6 +18,7 @@ import {ReactComponent as JustIcon} from '../images/attributeIcons/SVG/just.svg'
 import {ReactComponent as LovingIcon} from '../images/attributeIcons/SVG/loving.svg';
 import {ReactComponent as MercifulIcon} from '../images/attributeIcons/SVG/merciful.svg';
 import {ReactComponent as OmnipotentIcon} from '../images/attributeIcons/SVG/omnipotent.svg';
+import {ReactComponent as OmnipresentIcon} from '../images/attributeIcons/SVG/omnipresent.svg';
 import {ReactComponent as OmniscientIcon} from '../images/attributeIcons/SVG/omniscient.svg';
 import {ReactComponent as PatientIcon} from '../images/attributeIcons/SVG/patient.svg';
 import {ReactComponent as PeacefulIcon} from '../images/attributeIcons/SVG/peaceful.svg';
@@ -29,6 +30,7 @@ import {ReactComponent as SovereignIcon} from '../images/attributeIcons/SVG/sove
 import {ReactComponent as TeachingIcon} from '../images/attributeIcons/SVG/teaching.svg';
 import {ReactComponent as TruthfulIcon} from '../images/attributeIcons/SVG/truthful.svg';
 import {ReactComponent as UniqueIcon} from '../images/attributeIcons/SVG/unique.svg';
+import {ReactComponent as WrathfulIcon} from '../images/attributeIcons/SVG/wrathful.svg';
 import {ReactComponent as WiseIcon} from '../images/attributeIcons/SVG/wise.svg';
 import helperMethods from "../methods/helperMethods";
 
@@ -97,6 +99,9 @@ class Hero extends Component {
         if (this.props.title === "Omnipotent") {
             return <OmnipotentIcon fill={this.state.fill} />
         }
+        if (this.props.title === "Omnipresent") {
+            return <OmnipresentIcon fill={this.state.fill} />
+        }
         if (this.props.title === "Omniscient") {
             return <OmniscientIcon fill={this.state.fill} />
         }
@@ -132,6 +137,9 @@ class Hero extends Component {
         }
         if (this.props.title === "Wise") {
             return <WiseIcon fill={this.state.fill} />
+        }
+        if (this.props.title === "Wrathful") {
+            return <WrathfulIcon fill={this.state.fill} />
         }
     };
 
