@@ -37,10 +37,10 @@ class GroupingDetail extends Component {
                     this.getArray()
                     .filter(x => x.group === this.props.group)
                     .map(group =>
-                        <div key={group.name} className="card">
+                        <div key={group.description} className="card">
                             <div className="card-content">
                                 <div className="content" onClick={() => this.setState({ groupClicked: group.name, attribute: group.attributeName })}>
-                                    <p className="subtitle is-6">{group.description}</p>
+                                    <p className="subtitle is-6">{group.name}</p>
                                 </div>
                             </div>
                         </div>
@@ -56,9 +56,9 @@ class GroupingDetail extends Component {
                         </div>
                     </div>
                     <footer className="card-footer">
-                        <a className="card-footer-item">
+                        <span className="card-footer-item">
                             <Link to={`/attributes/${this.state.attribute}`} className="has-text-primary">Go to Attribute</Link>
-                        </a>
+                        </span>
                     </footer>
                 </div>
             </section>

@@ -19,7 +19,6 @@ class Enneagram extends Component {
     }
 
     leftOrRight() {
-        console.log("bruh")
         this.state.imagePosition === "left" ? this.setState({ imagePosition: "right"}) : this.setState({ imagePosition: "left"});
         return this.state.imagePosition;
     }

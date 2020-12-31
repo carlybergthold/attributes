@@ -12,9 +12,9 @@ class Group extends Component {
         super(props);
         this.state = {
             currentGroupIndex: 100,
-            emotion: ["pleasure", "sadness", "anger", "fear"],
-            fear: ["shame", "loss of control", "rejection", "survival"],
-            struggle: ["spiritual", "physical", "mental"]
+            emotion: ["Pleased", "Sad", "Angry", "Afraid"],
+            fear: ["Shame", "Loss of Control", "Rejection", "Survival"],
+            struggle: ["Spiritual", "Physical", "Mental"]
         };
     }
 
@@ -24,7 +24,7 @@ class Group extends Component {
 
     getGroupName(index) {
         if (this.props.connector === "emotion") {
-           return this.state.emotion[index]
+            return this.state.emotion[index]
         } else if (this.props.connector === "fear") {
             return this.state.fear[index]
         } else if (this.props.connector === "struggle") {
@@ -83,7 +83,7 @@ class Group extends Component {
                         <img src={PleasureSVG} alt="pleasure"></img>
                     </div>
                     <div className="card-content">
-                        <p className="title is-4">Pleased</p>
+                        <p className="title is-4">{this.getGroupName(0)}</p>
                         <div className={`content ${this.state.currentGroupIndex === 0 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(0)}>
                             {this.getGroupDescription(0)}
                         </div>
@@ -94,7 +94,7 @@ class Group extends Component {
                         <img src={SadnessSVG} alt="pleasure"></img>
                     </div>
                     <div className="card-content">
-                        <p className="title is-4">Sad</p>
+                        <p className="title is-4">{this.getGroupName(1)}</p>
                         <div className={`content ${this.state.currentGroupIndex === 1 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(1)}>
                             {this.getGroupDescription(1)}
                         </div>
@@ -105,18 +105,18 @@ class Group extends Component {
                         <img src={AngerSVG} alt="pleasure"></img>
                     </div>
                     <div className="card-content">
-                        <p className="title is-4">Angry</p>
+                        <p className="title is-4">{this.getGroupName(2)}</p>
                         <div className={`content ${this.state.currentGroupIndex === 2 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(2)}>
                             {this.getGroupDescription(2)}
                         </div>
                     </div>
                 </div>
-                <div className={`card ${this.state.currentGroupIndex === 100 || this.state.currentGroupIndex === 3 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(3)}>
+                <div className={`card ${this.getGroupName(3) && (this.state.currentGroupIndex === 100 || this.state.currentGroupIndex === 3) ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(3)}>
                     <div className="card-image">
                         <img src={FearSVG} alt="pleasure"></img>
                     </div>
                     <div className="card-content">
-                        <p className="title is-4">Afraid</p>
+                        <p className="title is-4">{this.getGroupName(3)}</p>
                         <div className={`content ${this.state.currentGroupIndex === 3 ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(3)}>
                             {this.getGroupDescription(3)}
                         </div>

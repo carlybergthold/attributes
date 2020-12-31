@@ -82,7 +82,7 @@ class Faithful extends Component {
 
                 <div className="attSection" id="soWhat">
                 <section>
-                  <h1 className="title"></h1>
+                  <h1 className="title">So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Discover what God has actually promised through study of the Bible.  Then test His reliability and find Him faithful.  Along the way, discover that our ability to be reliably faithful to His commands falls short. This is yet another confirmation that what He has already said is true and that He can be trusted. <br></br>Ask: How have I discovered or tested God’s faithfulness?</p>
                   <Quote scripture="The works of his hands are faithful and just; all his precepts are trustworthy;" reference="Psalm 111:7" color="var(--teal)"/>

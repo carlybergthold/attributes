@@ -26,7 +26,7 @@ class Just extends Component {
               <main>
                 <div className="attSection" id="definition">
                   <section>
-                  <h1 className="title added">Just means to make all things right or good.
+                  <h1 className="title added" style={{color: helperMethods.getAttributeColor("just")}}>Just means to make all things right or good.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">We like being right and often assume we are right even when we are not. We like things to “be just right” - our relationships, our food, our commute, our jobs, and where we live.  And when they are not right, we become unsettled and may even begin to see life as “unfair.”</p>
                   <p className="is-size-6 leading-normal padded">I can become annoyed or angered when I perceive unfairness.  My sense of what is right fuels this indignation, and my need to be right can direct this feeling in the wrong direction.  It can drive me to blame others (i.e. traffic put me in a foul mood) or deny truth in order to protect myself from even the possibility of being wrong.</p>
@@ -34,7 +34,7 @@ class Just extends Component {
 
                 <div className="attSection" id="emotion">
                 <section>
-                  <h1 className="title added">So what do I do when faced with unfairness?</h1>
+                  <h1 className="title added" style={{color: helperMethods.getAttributeColor("just")}}>So what do I do when faced with unfairness?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Indignation can motivate me to try to immediately make things right - sometimes with poor timing, methods and motivation.  David’s prayer in Psalm 17 outlines a few good things to consider when we are filled with indignation:  1) Appeal to God as the final arbiter and rest in His protection and justice, realizing that God can use evil for ultimately good purposes.  2) Thoroughly and honestly search my own actions and motives in light of God's Word. 3) Realize what is most important.  While unbelievers’ goals are normally all tied to the good in this life, believers’ end game is to become more Christlike for God’s glory and rest in His presence.</p>
                   <br></br>
@@ -43,7 +43,7 @@ class Just extends Component {
 
                 <div className="attSection" id="fear">
                 <section>
-                  <h1 className="title added">What if I can’t stand being wrong?</h1>
+                  <h1 className="title added" style={{color: helperMethods.getAttributeColor("just")}}>What if I can’t stand being wrong?</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">My thirst for being right is God-given. I seek justice because God is just and I am made in His image.  My fear that I will be found wrong is also valid. Everyone has been wrong and will continue in a pattern of being wrong, in violation of God's standard of righteousness, and thus is also subject to His justice. I cannot fix what only God can - to make me fully acceptable in His eyes.</p>
                   <br></br>
@@ -53,7 +53,7 @@ class Just extends Component {
 
                 <div className="attSection" id="struggle">
                 <section>
-                  <h1 className="title added">“That’s not fair!”</h1>
+                  <h1 className="title added" style={{color: helperMethods.getAttributeColor("just")}}>“That’s not fair!”</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">It’s an expression most often heard from kids, but just as often thought by adults.  God's justice is consistent and always true, but fairness, like beauty, is found in the eye of the beholder.  While violations of God's justice always causes harm and demands remedy, any unfairness I perceive has already caused hurt and often creates a desire for remedy.  Then what I need most is to know how to truly forgive others.  Desmond Tutu said, "Forgiveness is not pretending that things are other than the way they are." Only when I realize and fully accept the real hurt caused by another can I then choose to be released from my desire to punish.</p>
                   <br></br>
@@ -62,7 +62,7 @@ class Just extends Component {
 
                 <div className="attSection" id="whoAmI">
                 <section>
-                  <h1 className="title added">Only God can make all things right.</h1></section>
+                  <h1 className="title added" style={{color: helperMethods.getAttributeColor("just")}}>Only God can make all things right.</h1></section>
                   <p className="is-size-6 leading-normal padded">I can have a part in making some things right, but I cannot make all things right about myself, let alone the world.  I can easily try to slip into God's place when I decide on my own what is just in a certain situation.</p>
                   <br></br>
 
@@ -71,7 +71,7 @@ class Just extends Component {
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
-                  <h1 className="title added">Jesus provided a way for me to be made completely right with God.</h1></section>
+                  <h1 className="title added" style={{color: helperMethods.getAttributeColor("just")}}>Jesus provided a way for me to be made completely right with God.</h1></section>
 
                   <p className="is-size-6 leading-normal padded">By going to the cross in obedience to His Father, Jesus dealt justly with sin - through righteousness. “Righteousness is similar to goodness and holiness, but differs in that it requires works to establish it. Something can be holy, but not righteous if good works do not accompany it. God is good, but He refers to Himself as righteous because He works the good as well. Christians are called righteous, not because they have any ability to accomplish good works, but because they reside in the good works (or righteousness) of Christ. Christ's obedience is transferred to us and God grants us eternal life as a result!” - Blue Letter Bible</p>
                   <Quote scripture="God has often forgiven sinners, but He never forgives sin; and the sinner is only forgiven on the ground of Another having born his punishment: for 'without shedding of blood there is no remission of sins'. (Hebrews 9:22)." reference="A.W.Pink" color="var(--teal)"/>
@@ -79,7 +79,7 @@ class Just extends Component {
 
                 <div className="attSection" id="soWhat">
                 <section>
-                  <h1 className="title added">So what do I do now?</h1>
+                  <h1 className="title added" style={{color: helperMethods.getAttributeColor("just")}}>So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Regularly remind myself that faith in Christ is the only thing that makes me right with God. Then rest in the certainty and goodness of God's judgment on any unfairness which is not within my given authority or control. And for those unfair things that are in my control, let God use me as His instrument for good through obedience to His word.  <br></br>Ask: What unfair thing has happened in my life?  And what is the righteous response to it?</p>
                   <Quote scripture="Do not present your members to sin as instruments for unrighteousness, but present yourselves to God as those who have been brought from death to life, and your members to God as instruments for righteousness." reference="Romans 6:13" color="var(--teal)"/>
@@ -87,7 +87,7 @@ class Just extends Component {
 
                   <div className="attSection" id="prayer">
                   <section>
-                  <h1 className="title added">Prayer</h1>
+                  <h1 className="title added" style={{color: helperMethods.getAttributeColor("just")}}>Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">You are fully just, God.  Thank you for sending Jesus, the Justifier, and for the gift of His grace given even to me, a creator of injustice for others.  Help me, when I see life as unfair or unjust, to simply obey your Word and rest in You.</p>
 
@@ -96,7 +96,7 @@ class Just extends Component {
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
                 <section>
-                  <h1 className="title added">Where do right and wrong come from - if not God?</h1>
+                  <h1 className="title added" style={{color: helperMethods.getAttributeColor("just")}}>Where do right and wrong come from - if not God?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Human morality certainly appears grounded in our very nature.  Explanations of human morality apart from God normally rest on evolutionary theory.  For example, "As a species of social primates, we have evolved a deep sense of right and wrong to accentuate and reward reciprocity and cooperation and to attenuate and punish excessive selfishness and free riding. On the constitution of human nature are built the constitutions of human societies." - Jan 2011 quote by Michael Shermer in Scientific American</p>
                   <p className="is-size-6 leading-normal padded">So has it collectively evolved to this point or is it God's image coming through each of us? I choose to trust a tested, centuries-old document that reasonably explains why I and others (in widely different cultures) respond to life the way we do. These ideals just seem more an inspiration of God than simply being the result of rewards and punishments.</p>
@@ -104,7 +104,7 @@ class Just extends Component {
 
                 <div className="attSection" id="history">
                 <section>
-                  <h1 className="title added">Is the #MeToo movement Biblical?</h1>
+                  <h1 className="title added" style={{color: helperMethods.getAttributeColor("just")}}>Is the #MeToo movement Biblical?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">#MeToo is a contemporary movement to raise awareness of the evil of sexual abuse. And most thoughtful people should and do realize that sexual abuse is indeed both unjust and evil.</p>
                   <p className="is-size-6 leading-normal padded">Jesus radically pushed against the culture of His time and toward the right perspective concerning proper treatment of women.  He publicly spoke to women many times, he taught women (specifically contrary to Jewish law), he healed women (even touching an "unclean" woman in Luke 8:43-48).  He revealed Himself to many women - as Messiah (to the Samaritan woman in John 4), as Resurrected Lord (to Mary at the tomb in John 20), and as Healer (to a woman who had been "bent over" for 18 years in Luke 13). If fact, He used the never-before-used term "Daughter of Abraham" in Luke 13:6 to recognize a woman benefitting from God's covenant (previously the only term used was "Son of Abraham"). </p>
@@ -116,7 +116,7 @@ class Just extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title added">"How Firm A Foundation" - Anonymous</h1>
+                    <h1 className="title added" style={{color: helperMethods.getAttributeColor("just")}}>"How Firm A Foundation" - Anonymous</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"How firm a foundation, ye saints of the Lord,<br></br>Is laid for your faith in His excellent word!<br></br>
                     What more can He say than to you He hath said—<br></br>
