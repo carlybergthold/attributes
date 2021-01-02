@@ -6,32 +6,24 @@ import BasePersonality from "./basePersonality";
 
 class MyersBriggs extends Component {
 
-    constructor(props){
-        super(props);
-
-        this.state = {
-            imagePosition: "left"
-        }
-      }
-
     componentDidMount() {
         window.scrollTo(0, 0);
-    }
-
-    leftOrRight() {
-        this.state.imagePosition === "left" ? this.setState({ imagePosition: "right"}) : this.setState({ imagePosition: "left"});
-        return this.state.imagePosition;
     }
 
     render() {
         return(
             <>
             <div className="page">
-            <Hero title="Myers Briggs" subtitle="Myers Briggs" img="girl.png" />
+            <Hero title="Myers Briggs" img="girl.png" />
                 <div>
                     {
-                    myersBriggsArray.map(m =>
-                        <BasePersonality key={m.type} img={MyersBriggsImg} type={m.type} description={m.description} imagePosition={this.leftOrRight} />
+                    myersBriggsArray.map((m, index) =>
+                        <BasePersonality
+                            {...m}
+                            key={m.type}
+                            img={MyersBriggsImg}
+                            imagePosition={index % 2 === 1 ? "left" : "right"}
+                        />
                         )
                     }
                 </div>

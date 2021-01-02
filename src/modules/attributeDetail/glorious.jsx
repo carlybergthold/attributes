@@ -4,7 +4,7 @@ import '../../styles/attribute.css'
 import Quote from '../../components/quote'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
-import helperMethods from "../../methods/helperMethods";
+import styleMethods from "../../methods/styleMethods";
 
 class Glorious extends Component {
 
@@ -26,7 +26,7 @@ class Glorious extends Component {
               <main>
                 <div className="attSection" id="definition">
                   <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("glorious")}}>Glorious describes the summation of all of God’s attributes, often known as God’s beauty. 
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("glorious")}}>Glorious describes the summation of all of God’s attributes, often known as God’s beauty. 
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">Every human is created in God’s image, so we not only reflect His glory, but are also attracted to it. We can also be attracted to false imitations of His glory like fame and pride. Like God, we are pleased when others listen to us, appreciate us, and value us for who we are and what we do.  Glory’s root word indicates “heaviness” - so what we glory is what lays heavy on our hearts, what we hold to be most important.  Who or what would you say is your own glory?</p>
                   <p className="is-size-6 leading-normal padded"> When I am not appreciated by others I can feel rejected.  I can obsess at times over what others think of me and work hard to make people think highly of me, maybe even better than who I really am.</p>
@@ -34,7 +34,7 @@ class Glorious extends Component {
 
                 <div className="attSection" id="emotion">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("glorious")}}>Will I be accepted for who I really am?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("glorious")}}>Will I be accepted for who I really am?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Rejection hurts, regardless of its source.  I can wonder what’s wrong with me and my “glory” - and whether I can ever be accepted for who I really am.  Our neural reaction to rejection is very similar to physical pain - studies have even shown that Tylenol reduces the emotional pain from rejection.  Ironically, when I reject God, it hurts me, not God (whose glory is full forever, unaffected by anyone's perspective of Him).  When I reject God, I reject His glory, His beauty, His image in me and those around me - leaving me with less than I was designed to have.  But when I ascribe (or attribute) all glory to God, I am strengthened by knowing I have His image and am given peace by His love and acceptance. </p>
                   <br></br>
@@ -44,7 +44,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
 
                 <div className="attSection" id="fear">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("glorious")}}>Should I be concerned about the opinions of others?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("glorious")}}>Should I be concerned about the opinions of others?</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">This question pops up in everyone’s life periodically (or very often!).  If others’ opinions reflect God, they may help and encourage me.  If the opinions oppose God, they will likely hurt me.  But whether helpful or harmful, when I place more weight on what others think than what God has said, I have made that person an idol and subjected myself to their power.  I have loved their glory more than God’s.</p>
                   <br></br>
@@ -53,7 +53,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
 
                 <div className="attSection" id="struggle">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("glorious")}}>Isn’t it beneficial to have a good reputation?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("glorious")}}>Isn’t it beneficial to have a good reputation?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Yes, when my reputation is based on fact and reflects God’s image, it is very beneficial.  And it feels good when someone thinks or speaks well of me, especially when I was not seeking it out.  But when I crave a good reputation, I am seeking my own glory and inevitably lessening God’s.</p>
                   <br></br>
@@ -64,7 +64,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
                 <div className="attSection" id="whoAmI">
                 <section>
 
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("glorious")}}>Only God originates glory.</h1></section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("glorious")}}>Only God originates glory.</h1></section>
                   <p className="is-size-6 leading-normal padded">All my true glory is a reflection of God's glory and can not add to His glory.  God's full glory must be diminished for me to safely perceive it.  Manmade glory is often marketed or exaggerated in order to capture my attention, which is its primary purpose.</p>
 
                   <br></br>
@@ -73,7 +73,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("glorious")}}>Jesus was glorious because He was both man and God.</h1></section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("glorious")}}>Jesus was glorious because He was both man and God.</h1></section>
 
                   <p className="is-size-6 leading-normal padded">Jesus was not just a man who was very godly, nor was He God in the shell of a man’s body.  He gloriously lived as fully God and fully man so that He could be the perfect, sinless sacrifice on the cross to fully cover man’s sins.</p>
                   <Quote scripture="And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth." reference="John 1:14" color="var(--teal)"/>
@@ -81,7 +81,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
 
                 <div className="attSection" id="soWhat">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("glorious")}}>So what do I do now?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("glorious")}}>So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Ask God to open my heart and mind to see Who God is with more clarity, to discover how perfect and beautiful are His attributes. Discern that any glory I see in other people is either a reflection of God or not true glory. Seek only His glory and not my own.  <br></br>Ask: Have I recently seen evidence of God’s glory in other people?</p>
                   <Quote scripture="The one who speaks on his own authority seeks his own glory; but the one who seeks the glory of him who sent him is true, and in him there is no falsehood." reference="John 7:18" color="var(--teal)"/>
@@ -89,7 +89,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
 
                   <div className="attSection" id="prayer">
                   <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("glorious")}}>Prayer</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("glorious")}}>Prayer</h1>
                   </section>
 
                   <p className="is-size-6 leading-normal padded">Lord, help me to see and savor your Glory and Beauty. Let this new understanding impact my priorities - what I choose to value as weighty. Help me to seek and prioritize your eternal Beauty rather than temporary glitter.</p>
@@ -98,7 +98,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("glorious")}}>How is God's glory like white light?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("glorious")}}>How is God's glory like white light?</h1>
 
                   </section>
                   <p className="is-size-6 leading-normal padded"> A dark object absorbs most of the light that strikes its surface, and thus reflects very little of the original light.  A red object reflects mostly red light, but absorbs the other colors.  A white object reflects all the incoming visible light wavelengths (or colors) equally. </p>
@@ -109,7 +109,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
                 <div className="attSection" id="history">
                 <section>
 
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("glorious")}}>Did Jonathan Edwards Preach More Wrath or Beauty? </h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("glorious")}}>Did Jonathan Edwards Preach More Wrath or Beauty? </h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Jonathan Edwards (1703-1758) was a revivalist preacher, philosopher, Congregationalist Protestant theologian and grandfather of Aaron Burr, third Vice President of the United States.  He entered Yale College at age 12 and played a critical role in the First Great Awakening. Although he delivered the classic sermon "Sinners in the Hands of an Angry God”, he was more shaped by God's beauty than by His wrath.</p>
                   <p className="is-size-6 leading-normal padded">“Few Americans have known that Edwards was actually obsessed not by God’s wrath but by God’s beauty….In fact, the historian of theological aesthetics Patrick Sherry has shown that Edwards made beauty more central to theology than anyone else in the history of Christian thought, including Augustine and (the 20th-century Swiss Catholic) Hans Urs von Balthasar….</p>
@@ -120,7 +120,7 @@ I realized afresh that He does not drive us by duty, but draws us by beauty, not
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("glorious")}}>"To God Be the Glory" - Fanny Crosby</h1>
+                    <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("glorious")}}>"To God Be the Glory" - Fanny Crosby</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"Praise the Lord, praise the Lord,<br></br>
   Let the earth hear His voice;<br></br>

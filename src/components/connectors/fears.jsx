@@ -13,7 +13,7 @@ class Fears extends Component {
     render() {
         return(
             <>
-            <Hero title="Fears" subtitle="Fears" />
+            <Hero title="Fears" />
                 <section className="has-text-centered">
                     <h1 className="title is-1 is-bold is-spaced">What are you afraid of?</h1>
                     <Grouping connector="fear"/>

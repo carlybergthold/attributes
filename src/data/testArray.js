@@ -19,37 +19,37 @@ const questionArray = [
     },
     {
     id: 4,
-    attribute: 'creator',
+    attribute: 'creative',
     category: 'reflect',
     question: 'I enjoy creating something new - music, art, literature, design, machines, crafts, food, photos, children, etc.'
     },
     {
     id: 5,
-    attribute: 'creator',
+    attribute: 'creative',
     category: 'reject',
     question: 'I don\'t see the purpose in living.'
     },
     {
     id: 6,
-    attribute: 'creator',
+    attribute: 'creative',
     category: 'accept',
     question: 'I gain insight and perspective into the world through connection with the One who created me.'
     },
     {
     id: 7,
-    attribute: 'infinite',
+    attribute: 'eternal',
     category: 'reflect',
     question: 'I want to make a lasting impact (children, fame, building wing, memorial).'
     },
     {
     id: 8,
-    attribute: 'infinite',
+    attribute: 'eternal',
     category: 'reject',
     question: 'This life is all there is.'
     },
     {
     id: 9,
-    attribute: 'infinite',
+    attribute: 'eternal',
     category: 'accept',
     question: 'I am investing in eternal things such as loving others and knowing God.'
     },
@@ -73,19 +73,19 @@ const questionArray = [
     },
     {
     id: 13,
-    attribute: 'glory',
+    attribute: 'glorious',
     category: 'reflect',
     question: 'I like others to listen to me and appreciate who I am.'
     },
     {
     id: 14,
-    attribute: 'glory',
+    attribute: 'glorious',
     category: 'reject',
-    question: 'God does not deserve any more glory than anyone else.'
+    question: 'God does not deserve any more glorious than anyone else.'
     },
     {
     id: 15,
-    attribute: 'glory',
+    attribute: 'glorious',
     category: 'accept',
     question: 'I make much of God and want to be more like Christ.'
     },
@@ -109,19 +109,19 @@ const questionArray = [
     },
     {
     id: 19,
-    attribute: 'grace',
+    attribute: 'gracious',
     category: 'reflect',
     question: 'I love giving gifts to people, especially when they are not expecting them.'
     },
     {
     id: 20,
-    attribute: 'grace',
+    attribute: 'gracious',
     category: 'reject',
     question: 'I am not wasting my time, money or effort on someone who doesn\'t deserve it.'
     },
     {
     id: 21,
-    attribute: 'grace',
+    attribute: 'gracious',
     category: 'accept',
     question: 'I accept God\'s forgiveness of my sins by believing in Jesus Christ and His work on the cross.'
     },
@@ -253,19 +253,19 @@ const questionArray = [
     },
     {
     id: 43,
-    attribute: 'joy',
+    attribute: 'joyful',
     category: 'reflect',
     question: 'I seek beauty and pleasure.'
     },
     {
     id: 44,
-    attribute: 'joy',
+    attribute: 'joyful',
     category: 'reject',
     question: 'My happiness comes from things and experiences apart from God.'
     },
     {
     id: 45,
-    attribute: 'joy',
+    attribute: 'joyful',
     category: 'accept',
     question: 'I find pleasure in Jesus Christ and His word.'
     },
@@ -289,37 +289,37 @@ const questionArray = [
     },
     {
     id: 49,
-    attribute: 'love',
+    attribute: 'loving',
     category: 'reflect',
     question: 'I love my family and am willing to sacrifice much for them.'
     },
     {
     id: 50,
-    attribute: 'love',
+    attribute: 'loving',
     category: 'reject',
     question: 'I love many things, but God does not really make the top ten.'
     },
     {
     id: 51,
-    attribute: 'love',
+    attribute: 'loving',
     category: 'accept',
     question: 'I realize that God\'s love for me is not dependent upon my performance.'
     },
     {
     id: 52,
-    attribute: 'mercy',
+    attribute: 'merciful',
     category: 'reflect',
     question: 'When I have a need, I want others to show me mercy.'
     },
     {
     id: 53,
-    attribute: 'mercy',
+    attribute: 'merciful',
     category: 'reject',
     question: 'I help those in need through my taxes - that\'s plenty!'
     },
     {
     id: 54,
-    attribute: 'mercy',
+    attribute: 'merciful',
     category: 'accept',
     question: 'I am absolutely dependent on God\'s mercy and forgiveness for my sins - else I could never know Him as I do.'
     },
@@ -379,91 +379,91 @@ const questionArray = [
     },
     {
     id: 64,
-    attribute: 'patience',
+    attribute: 'patient',
     category: 'reflect',
-    question: 'I would like to have more patience than I have.'
+    question: 'I would like to have more patient than I have.'
     },
     {
     id: 65,
-    attribute: 'patience',
+    attribute: 'patient',
     category: 'reject',
     question: 'I will deal harshly with anything or anyone that gets in my way.'
     },
     {
     id: 66,
-    attribute: 'patience',
+    attribute: 'patient',
     category: 'accept',
-    question: 'I see all that I cannot control as God\'s plan and seek Him in it.'
+    question: "I see all that I cannot control as God's plan and seek Him in it."
     },
     {
     id: 67,
-    attribute: 'peace',
+    attribute: 'peaceful',
     category: 'reflect',
     question: 'I always seek to be both physically and emotionally fit.'
     },
     {
     id: 68,
-    attribute: 'peace',
+    attribute: 'peaceful',
     category: 'reject',
     question: 'I will be at peace when I get what I want.'
     },
     {
     id: 69,
-    attribute: 'peace',
+    attribute: 'peaceful',
     category: 'accept',
     question: 'My only real peace comes from reconciling with God through Jesus as Lord.'
     },
     {
     id: 70,
-    attribute: 'perfect plan',
+    attribute: 'planning',
     category: 'reflect',
     question: 'I like to do whatever I want.'
     },
     {
     id: 71,
-    attribute: 'perfect plan',
+    attribute: 'planning',
     category: 'reject',
     question: 'No one else has the right to tell me what to do.'
     },
     {
     id: 72,
-    attribute: 'perfect plan',
+    attribute: 'planning',
     category: 'accept',
     question: 'I see my life as a part of God\'s perfect plan.'
     },
     {
     id: 73,
-    attribute: 'Provider',
+    attribute: 'providing',
     category: 'reflect',
     question: 'I will meet the needs of those who are depending on me.'
     },
     {
     id: 74,
-    attribute: 'Provider',
+    attribute: 'providing',
     category: 'reject',
     question: 'I have earned everything I have.'
     },
     {
     id: 75,
-    attribute: 'Provider',
+    attribute: 'providing',
     category: 'accept',
     question: 'I see God as the source of all good things.'
     },
     {
     id: 76,
-    attribute: 'Savior',
+    attribute: 'saving',
     category: 'reflect',
     question: 'I love to fix or restore things (or people) to their original condition.'
     },
     {
     id: 77,
-    attribute: 'Savior',
+    attribute: 'saving',
     category: 'reject',
     question: 'I have lost hope for something (acceptance, a job, my marriage, weight loss, etc.)'
     },
     {
     id: 78,
-    attribute: 'Savior',
+    attribute: 'saving',
     category: 'accept',
     question: 'I accept the fact that I need God - I am hopelessly lost in sin without Jesus.'
     },
@@ -487,91 +487,91 @@ const questionArray = [
     },
     {
     id: 82,
-    attribute: 'Teacher',
+    attribute: 'teaching',
     category: 'reflect',
     question: 'I like to help others learn and achieve their goals.'
     },
     {
     id: 83,
-    attribute: 'Teacher',
+    attribute: 'teaching',
     category: 'reject',
     question: 'I know best.'
     },
     {
     id: 84,
-    attribute: 'Teacher',
+    attribute: 'teaching',
     category: 'accept',
     question: 'I value God\'s guidance and see His commands as what is best for me.'
     },
     {
     id: 85,
-    attribute: 'Truth',
+    attribute: 'truthful',
     category: 'reflect',
     question: 'I want to understand and act upon only real truth.'
     },
     {
     id: 86,
-    attribute: 'Truth',
+    attribute: 'truthful',
     category: 'reject',
     question: 'I know that I am right and do not need to hear anything more.'
     },
     {
     id: 87,
-    attribute: 'Truth',
+    attribute: 'truthful',
     category: 'accept',
     question: "I view and act on God's Word in the Bible as real and true."
     },
     {
     id: 88,
-    attribute: 'Unique',
+    attribute: 'unique',
     category: 'reflect',
     question: 'I like to feel special and unique.'
     },
     {
     id: 89,
-    attribute: 'Unique',
+    attribute: 'unique',
     category: 'reject',
     question: 'I have nothing in common with God - everyone is simply a physical mix of DNA and environment.'
     },
     {
     id: 90,
-    attribute: 'Unique',
+    attribute: 'unique',
     category: 'accept',
     question: 'I believe every person is a unique and valuable creation, made in the image of God.'
     },
     {
     id: 91,
-    attribute: 'Wise',
+    attribute: 'wise',
     category: 'reflect',
     question: 'My intent is normally right and good.'
     },
     {
     id: 92,
-    attribute: 'Wise',
+    attribute: 'wise',
     category: 'reject',
     question: 'I am normally right and my perspective is almost always good.'
     },
     {
     id: 93,
-    attribute: 'Wise',
+    attribute: 'wise',
     category: 'accept',
     question: 'I find and fully trust God when I have a specific and difficult need.'
     },
     {
     id: 94,
-    attribute: 'Wrath',
+    attribute: 'wrathful',
     category: 'reflect',
     question: 'I desire to protect the innocent by punishment of the guilty.'
     },
     {
     id: 95,
-    attribute: 'Wrath',
+    attribute: 'wrathful',
     category: 'reject',
     question: 'I see no wrath of God coming on others who do whatever they want, so I might as well do whatever I want during life while I can.'
     },
     {
     id: 96,
-    attribute: 'Wrath',
+    attribute: 'wrathful',
     category: 'accept',
     question: 'I believe in a God who holds everyone accountable for their actions in this life.'
     }

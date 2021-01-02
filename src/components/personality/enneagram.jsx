@@ -6,32 +6,24 @@ import BasePersonality from "./basePersonality";
 
 class Enneagram extends Component {
 
-    constructor(props){
-        super(props);
-
-        this.state = {
-            imagePosition: "left"
-        }
-      }
-
     componentDidMount() {
         window.scrollTo(0, 0);
-    }
-
-    leftOrRight() {
-        this.state.imagePosition === "left" ? this.setState({ imagePosition: "right"}) : this.setState({ imagePosition: "left"});
-        return this.state.imagePosition;
     }
 
     render() {
         return(
             <>
             <div className="page">
-            <Hero title="Enneagram" subtitle="Enneagram" img="girl.png"/>
+            <Hero title="Enneagram" img="girl.png"/>
                 <div>
                         {
-                            enneagramArray.map(e =>
-                                <BasePersonality key={e.type} img={EnneagramImg} type={e.type} description={e.description} imagePosition={this.leftOrRight} />
+                            enneagramArray.map((e, index) =>
+                                <BasePersonality
+                                    {...e}
+                                    key={e.type}
+                                    img={EnneagramImg}
+                                    imagePosition={index % 2 === 1 ? "left" : "right"}
+                                />
                             )
                         }
                     </div>

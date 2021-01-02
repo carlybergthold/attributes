@@ -6,12 +6,22 @@ import struggleArray from '../../data/struggleArray';
 
 class GroupingDetail extends Component {
 
+    //need to scroll to new section when clicked
+    //need to update icons for fear and struggles
+
     constructor(props) {
         super(props);
+        this.handleClick = this.handleClick.bind(this);
         this.state = {
             groupClicked: null,
             attribute: ""
         };
+    }
+
+    componentDidUpdate(prevProps) {
+        if (this.props.group !== prevProps.group) {
+            this.setState({ attribute: "" })
+        }
     }
 
     getArray = () => {
@@ -29,6 +39,10 @@ class GroupingDetail extends Component {
         return this.getArray().find(x => x.attributeName === this.state.attribute).description;
     }
 
+    handleClick(name, attribute) {
+        this.setState({ groupClicked: name, attribute: attribute });
+    }
+
     render() {
         return(
             <>
@@ -37,9 +51,13 @@ class GroupingDetail extends Component {
                     this.getArray()
                     .filter(x => x.group === this.props.group)
                     .map(group =>
-                        <div key={group.description} className="card">
+                        <div
+                            key={group.description}
+                            className="card"
+                            onClick={() => this.handleClick(group.name, group.attributeName)}
+                        >
                             <div className="card-content">
-                                <div className="content" onClick={() => this.setState({ groupClicked: group.name, attribute: group.attributeName })}>
+                                <div className="content">
                                     <p className="subtitle is-6">{group.name}</p>
                                 </div>
                             </div>
@@ -48,7 +66,7 @@ class GroupingDetail extends Component {
                 }
             </div>
             <section className="connectorContainer">
-                <div className={`card ${this.props.group && this.state.groupClicked ? "" : "hidden"}`}>
+                <div className={`card ${this.state.attribute ? "" : "hidden"}`}>
                     <div className="card-content">
                         <p className="title is-4 is-capitalized">{this.state.attribute}</p>
                         <div className="content card-desc">
