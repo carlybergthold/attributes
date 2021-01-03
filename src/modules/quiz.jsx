@@ -103,7 +103,7 @@ class Quiz extends Component {
 
     this.setState( {startingIndex: newStart, endingIndex: newEnd}, () => this.getQuestions());
 
-    if (newEnd > questions.length) button.textContent = 'Submit';
+    if (newEnd >= questions.length) button.textContent = 'Submit';
   };
 
   render() {

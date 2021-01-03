@@ -45,9 +45,9 @@ class TopNav extends Component {
                 <Link to="/quiz">Take the Quiz</Link>
                 </span>
 
-                <span className="navbar-item">
+                {/* <span className="navbar-item">
                 <Link to="/results">Results</Link>
-                </span>
+                </span> */}
 
 
                     <div className="navbar-item has-dropdown is-hoverable">
@@ -95,22 +95,6 @@ class TopNav extends Component {
 
             </div>
             </div>
-
-        {/* <div className="navbar-end">
-            <div className="navbar-item">
-            <div className="buttons">
-                {
-                    this.props.user != 'anon' ?
-                    <span className="button is-primary" onClick={this.props.signOut}>
-                    Log Out
-                    </span> :
-                    <span className="button is-primary">
-                        <Link to="/login">Log In</Link>
-                    </span>
-                }
-            </div>
-            </div>
-            </div> */}
         </nav>
         </>
         )
