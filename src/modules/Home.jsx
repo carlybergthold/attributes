@@ -41,9 +41,12 @@ import Face1 from "../assets/img/illustrations/faces/1.png";
 import Face2 from "../assets/img/illustrations/faces/2.png";
 import Face3 from "../assets/img/illustrations/faces/3.png";
 import Thought from "../assets/img/illustrations/features/thought.png";
-import helperMethods from "../methods/helperMethods";
 
 class Home extends React.Component {
+
+  //need to update icon colors throughout the site
+  //need to update all attribute components to the new base
+  //need to update Results "face" svgs
 
   constructor(props){
     super(props);
@@ -206,7 +209,7 @@ class Home extends React.Component {
                         <Icon id="homepage-svg"></Icon>
                     </div>
                     <div className="column is-5 is-offset-1">
-                        <h3 className="title is-3 mb-10 is-title-reveal">{helperMethods.capitalize(this.state.attribute)}</h3>
+                        <h3 className="title is-3 mb-10 is-title-reveal is-capitalized">{this.state.attribute}</h3>
                         <p className="subtitle is-5 is-muted">{this.state.description}</p>
                         <div className="button-wrap">
                             <span className="button cta is-rounded is-primary raised">

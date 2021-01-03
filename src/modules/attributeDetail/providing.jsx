@@ -4,7 +4,7 @@ import '../../styles/attribute.css'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
 import Quote from '../../components/quote'
-import helperMethods from "../../methods/helperMethods";
+import styleMethods from "../../methods/styleMethods";
 
 class Providing extends Component {
 
@@ -26,7 +26,7 @@ class Providing extends Component {
               <main>
                 <div className="attSection" id="definition">
                   <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("providing")}}>Providing means to see the needs of another and supply whatever is best.
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("providing")}}>Providing means to see the needs of another and supply whatever is best.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">Whether our dependent is a child, a pet, or a plant, most of us rise to meet the needs we see.  There can be joy in fulfilling other’s needs, especially when we see flourishing results.   </p>
                   <p className="is-size-6 leading-normal padded">I can receive immense pleasure in providing for another or by having my own needs met.  But when I lack what I need, let alone what I need for others, it can be downright depressing.  What do I do if I run out of money or resources?  Will God really provide all I need?</p>
@@ -36,7 +36,7 @@ class Providing extends Component {
 
                 <div className="attSection" id="emotion">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("providing")}}>Is it OK to be proud of what I have done or provided to others?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("providing")}}>Is it OK to be proud of what I have done or provided to others?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Satisfaction with what I have done is a gift from God.  St. Augustine defined pride, however, as "the love of one's own excellence” - significantly beyond a feeling of satisfaction.  Pride will exaggerate my accomplishments and discount the contributions of others.  It can also be the single biggest barrier to seeing God clearly, especially as the true Provider He is.</p>
                   <p className="is-size-6 leading-normal padded">When I see God as who provided my talent, intellect, bank account, friends and life itself, I elevate Him above myself.   This is called praise, and it not only properly values God, it also lays a foundation to appropriately value myself and all others.</p>
@@ -47,7 +47,7 @@ to give them their food in due season...When you give it to them, they gather it
 
                 <div className="attSection" id="fear">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("providing")}}>Will poverty ever be eliminated?  Will I have enough money?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("providing")}}>Will poverty ever be eliminated?  Will I have enough money?</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">In 1800, 81% of people worldwide were in true poverty. By 1990 it dropped to 44% and, in the last few decades, plummeted to under 10% (data from CEPR).  Rates of poverty in the wealthy US are much lower, though food insecurity could still be found in 10-15% of US households over the last decade.</p>
                   <p className="is-size-6 leading-normal padded">God has not promised anyone material wealth or economic security.  Instead, He promised that some level of poverty would remain in this world.  My generosity may be used to alleviate some of this material poverty, but God encourages me to recognize my own and others’ poverty of spirit above all else.  The provisions of His kingdom are made available to all those who recognize the need.</p>
@@ -59,7 +59,7 @@ to give them their food in due season...When you give it to them, they gather it
 
                 <div className="attSection" id="struggle">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("providing")}}>Why does God seem to be ignoring my current need?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("providing")}}>Why does God seem to be ignoring my current need?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Faith in God inspires me to work hard to meet my own needs, since God gives me my ability to reason and work.  Faith in God also lets me trust that He will never withhold what is best for me. So my burning unmet need may simply be reminding me of what is truly important and what is not. But even if my unmet need is vitally important and fully aligned with God’s will, my faith can also trust Him with the right timing.</p>
                   <br></br>
@@ -77,14 +77,14 @@ to give them their food in due season...When you give it to them, they gather it
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("providing")}}>Jesus provided everything essential to us.</h1></section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("providing")}}>Jesus provided everything essential to us.</h1></section>
                   <p className="is-size-6 leading-normal padded">While on earth, Jesus provided bread, water, wine, healing, sight, understanding, friendship, and much more.  But most importantly He provided His own blood on the cross to reconcile man to God.</p>
                   <Quote scripture="Since, therefore, we have now been justified by his (Jesus’) blood, much more shall we be saved by him from the wrath of God. For if while we were enemies we were reconciled to God by the death of his Son, much more, now that we are reconciled, shall we be saved by his life." reference="Romans 5:9-10" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("providing")}}>So what do I do now?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("providing")}}>So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Accept my role of steward versus owner.  Recognize and be thankful for any God-given ability to work and earn a living.  <br></br>Ask: Who can I thank for either providing for my needs or for my ability to earn a living?</p>
                   <Quote scripture="And Isaac sowed in that land and reaped in the same year a hundredfold. The LORD blessed him." reference="Genesis 26:12" color="var(--teal)"/>
@@ -92,7 +92,7 @@ to give them their food in due season...When you give it to them, they gather it
 
                   <div className="attSection" id="prayer">
                   <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("providing")}}>Prayer</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("providing")}}>Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">God, you created me and even now provide my next breath.  I am fully dependent on you.  Help me to remember this and live in constant gratitude and praise of your Name.</p>
                   <Quote scripture="For although they knew God, they did not honor him as God or give thanks to him, but they became futile in their thinking, and their foolish hearts were darkened." reference="Romans 1:21" color="var(--teal)"/>
@@ -100,7 +100,7 @@ to give them their food in due season...When you give it to them, they gather it
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("providing")}}>How do I STOP and recognize what God provides?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("providing")}}>How do I STOP and recognize what God provides?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">During His ministry Jesus met some of the basic needs for a flourishing life, such as water, food, physical safety. As Creator, He knows these needs (by design).  But He also knows and supplies other needs which may not even be on our radar - such as patience, relationship, humility, truth, joy, peace, wisdom…. or, in other words, Himself. At times, we simply need to STOP.</p>
                   <p className="is-size-6 leading-normal padded">A recent article from the Guardian called “So you're lost in the wilderness – these tips could save your life”, used the acronym STOP.  You can apply it in the woods or in the woods of everyday life whenever you have a need:</p>
@@ -112,7 +112,7 @@ to give them their food in due season...When you give it to them, they gather it
 
                 <div className="attSection" id="history">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("providing")}}>Does God help those who help themselves?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("providing")}}>Does God help those who help themselves?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">He sure does, and God loves it when we seek Him with all we have.  But He also helps those who can’t help themselves and are not seeking Him.  He even helps those who are currently working against themselves!  Without God’s initiative, no one would ever be reconciled to God.  So the concept that God only helps those who seek Him or who take the initiative is not fully aligned with Biblical truth and is not derived from scripture.</p>
                   <p className="is-size-6 leading-normal padded">The idea that the gods wanted man to initiate action before they would begin to help was present in the Greek tragedies of 400 B.C.  But it was the English political theorist Algernon Sidney who originated the now familiar wording, "God helps those who help themselves.”  The phrase stresses the importance of both the free will of man and the sovereignty of God, but slights the Biblical concept of God's pure graciousness.</p>
@@ -123,7 +123,7 @@ to give them their food in due season...When you give it to them, they gather it
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("providing")}}>"Come, Thou Fount of Every Blessing" - Robert Robinson</h1>
+                    <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("providing")}}>"Come, Thou Fount of Every Blessing" - Robert Robinson</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">"Come, Thou Fount of every blessing<br></br>
 Tune my heart to sing Thy grace<br></br>

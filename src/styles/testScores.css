@@ -3,36 +3,36 @@
     flex-flow: row wrap;
     justify-content: space-evenly;
 }
-
 .bottom-3-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
 }
-
 .container {
     text-align: center;
 }
-
 .bottom3subtitle {
     margin-top: 2rem;
 }
-
 .is-child {
     display: flex;
     flex-flow: row nowrap;
 }
-
 .tile-head {
     flex: 1.5;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .tile-desc {
     flex: 2.5;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.result-description {
+    display: flex !important;
+    flex-flow: column !important;
+    align-items: center !important;
+    justify-content: center !important;
 }

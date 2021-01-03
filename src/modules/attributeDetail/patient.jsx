@@ -4,7 +4,7 @@ import '../../styles/attribute.css'
 import Quote from '../../components/quote'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
-import helperMethods from "../../methods/helperMethods";
+import styleMethods from "../../methods/styleMethods";
 
 class Patient extends Component {
 
@@ -26,7 +26,7 @@ class Patient extends Component {
               <main>
                 <div className="attSection" id="definition">
                   <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("patient")}}style={{color: helperMethods.getAttributeColor("patient")}}>Patient means to bear with suffering caused by others.
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>Patient means to bear with suffering caused by others.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">We expect patience from others and want it from ourselves.  We notice most when it is missing.  It seems a bit unfair to suffer from the hand of others, until we realize we need patience from others as much as they need it from us.</p>
                   <p className="is-size-6 leading-normal padded">We are an impatient people who recognize the abiding value of patience.  This excerpt from a Psychology Today article (1/3/17 issue) clarifies some of the misunderstandings of patience:</p>

@@ -4,7 +4,7 @@ import '../../styles/attribute.css'
 import Quote from '../../components/quote'
 import Hero from '../../components/hero'
 import AttributeSidebar from "../../components/attSidebar";
-import helperMethods from "../../methods/helperMethods";
+import styleMethods from "../../methods/styleMethods";
 
 class Loving extends Component {
 
@@ -26,7 +26,7 @@ class Loving extends Component {
               <main>
                 <div className="attSection" id="definition">
                   <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("loving")}}>Loving means to willingly self-sacrifice for the good of another without it being deserved or requiring reciprocation.
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>Loving means to willingly self-sacrifice for the good of another without it being deserved or requiring reciprocation.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">This is a definition from Paul Tripp which reflects Biblical love, which is quite different from what is normally meant in American culture.  It is most often found within a family in which the love relationship overrules all else. </p>
                   <p className="is-size-6 leading-normal padded">There are 40.4 million unpaid caregivers of adults ages 65 and older in the United States. These older adults are often parents or grandparents of the caregivers, who themselves are often balancing paid employment with this work of the heart. Among those who have helped their parents with finances, errands, housework, home repairs or personal care – 88% say it’s rewarding. - Bureau of Labor Statistics and Pew Research Center data from 2013-14</p>
@@ -36,7 +36,7 @@ class Loving extends Component {
 
                 <div className="attSection" id="emotion">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("loving")}}>What is the difference between guilt and shame?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>What is the difference between guilt and shame?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Guilt says “I did something bad” while shame says “I am bad.” Shame attacks my very being and self-worth.  A believer’s worth comes from identity in Christ (link to “Who you are in Christ”) instead of maintaining a certain performance level.</p>
                   <p className="is-size-6 leading-normal padded">From the shameful position of the cross, Christ publicly identified with His trusted Father by saying “Into your hands I commit my spirit”.  When I am “all in” with God, His love overrules feelings of shame that I or others may generate.</p>
@@ -46,7 +46,7 @@ class Loving extends Component {
 
                 <div className="attSection" id="fear">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("loving")}}>If they really knew me, they would not love me.</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>If they really knew me, they would not love me.</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">When I believe that I must earn love from others, I will also require others to earn my love. Believing that love is transactional or conditional is a cycle that must be broken by an example of truly unconditional love. But even then I can reject unconditional love with the stubborn notion that it is too good to be true.</p>
                   <br></br>
@@ -58,7 +58,7 @@ class Loving extends Component {
 
                 <div className="attSection" id="struggle">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("loving")}}>What if I just don’t feel like loving someone right now?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>What if I just don’t feel like loving someone right now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">How totally right and wrong the Beatles lyrics are in “All You Need Is Love”.  If love is defined as God, all we truly need is love.  Otherwise, love is a competing god or a magical ingredient that should make life easier.  True love is never easy, yet it is “everything”.  True love takes loving action even when there is no feeling pushing it along.</p>
                   <p className="is-size-6 leading-normal padded">"Nothing you can make that can't be made
@@ -73,7 +73,7 @@ It's easy"
 
                 <div className="attSection" id="whoAmI">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("loving")}}>Only God is love and the source of all love.</h1></section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>Only God is love and the source of all love.</h1></section>
                   <p className="is-size-6 leading-normal padded">Believing that I can fully love another without God's help dismisses His loving initiative and presence in my life. Without God, I invariably act in ways to maximize my own good, even if it has the appearance of self-sacrifice.</p>
                   <br></br>
                   <Quote scripture="We love because he first loved us." reference="1 John 4:19" color="var(--teal)"/>
@@ -81,14 +81,14 @@ It's easy"
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("loving")}}>Jesus willingly gave His life for our good.</h1></section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>Jesus willingly gave His life for our good.</h1></section>
                   <p className="is-size-6 leading-normal padded">Jesus willingly gave His life because it provided the greatest good (eternal life with God) to those who did not deserve it or who could never pay it back (all believers).</p>
                   <Quote scripture="For God so loved the world that He gave His one and only Son, that whoever believes in Him shall not perish but have eternal life." reference="John 3:16" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("loving")}}>So what do I do now?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Be committed to a secure (covenantal) relationship - first with Christ and then another, such as within a good marriage, church body, or friendship. Consider all my daily work first and foremost as a way to love and serve others.  <br></br>Ask: How am I loving others (according to the definition above)?</p>
                   <Quote scripture="And this commandment we have from him: whoever loves God must also love his brother." reference="1 John 4:21" color="var(--teal)"/>
@@ -96,7 +96,7 @@ It's easy"
 
                   <div className="attSection" id="prayer">
                   <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("loving")}}>Prayer</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Loving Father, thank you for the sacrifice of your Son on the Cross when it was least deserved.  Help me to remember and experience this love so that I may truly love others in the same way.</p>
                   <Quote scripture="Love is patient and kind; love does not envy or boast; it is not arrogant or rude. It does not insist on its own way; it is not irritable or resentful; it does not rejoice at wrongdoing, but rejoices with the truth. Love bears all things, believes all things, hopes all things, endures all things. Love never ends." reference="1 Corinthians 13:4-8a" color="var(--teal)"/>
@@ -104,7 +104,7 @@ It's easy"
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("loving")}}>What does social science say about altruism - a key component of love?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>What does social science say about altruism - a key component of love?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Social theories will continue the debate, but most important is our own inward look.  Why do we love another?  Is it really to benefit ourselves in some way?  Or are we truly wanting the best for another, despite the cost?</p>
                   <p className="is-size-6 leading-normal padded">Altruism or selflessness is the principle or practice of concern for the welfare of others. Evolutionists debate whether or not humans are truly capable of psychological altruism. Daniel Batson is a strong proponent that people often help others purely out of the goodness of their hearts - identifying four major motives for altruism: altruism to ultimately benefit the self (egoism), to ultimately benefit the other person (altruism), to benefit a group (collectivism), or to uphold a moral principle (principlism). - Wikipedia</p>
@@ -113,7 +113,7 @@ It's easy"
 
                 <div className="attSection" id="history">
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("loving")}}>Arranged marriage versus marriage for love?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>Arranged marriage versus marriage for love?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Arranged marriages are often considered the opposite of marrying for love, but that perspective is short-sighted.  Arranged marriages were predominant for centuries and are still customary in some cultures today.  Often these matches turned loving when the mutual aim was for what was best for the family - socially, financially, etc.  These couplings were understood to require adaptation to the other versus the modern notion of wanting a spouse who will best serve my needs.  Selfish attraction often fails to generate true love.</p>
                   <p className="is-size-6 leading-normal padded">"Marriage was a way of turning strangers into relatives, of making peace, and of making permanent trading connections." - 14th century marriage mindset</p>
@@ -124,7 +124,7 @@ It's easy"
                 <div className="attSection" id="liturgy" >
                 <section>
 
-                    <h1 className="title tracking-wide padded" style={{color: helperMethods.getAttributeColor("loving")}}>"The Love of God is Greater Far" - Lehman</h1>
+                    <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>"The Love of God is Greater Far" - Lehman</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">
                       "Could we with ink the ocean fill, And were the skies of parchment made;<br></br>

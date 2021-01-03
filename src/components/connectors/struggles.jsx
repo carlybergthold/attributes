@@ -12,7 +12,7 @@ class Struggles extends Component {
     render() {
         return(
             <>
-            <Hero title="Struggles" subtitle="Struggles" />
+            <Hero title="Struggles" />
             <section className="has-text-centered">
                 <h1 className="title is-1 is-bold is-spaced">What are you struggling with the most today?</h1>
                 <Grouping connector="struggle" />

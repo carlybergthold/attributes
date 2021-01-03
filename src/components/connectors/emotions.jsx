@@ -12,7 +12,7 @@ class Emotions extends Component {
     render() {
         return(
         <>
-            <Hero title="Emotions" subtitle="Emotions" />
+            <Hero title="Emotions" />
 
             <section className="has-text-centered">
                 <h1 className="title is-1 is-bold is-spaced">What are you feeling today?</h1>
