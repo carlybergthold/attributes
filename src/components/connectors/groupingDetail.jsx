@@ -40,13 +40,19 @@ class GroupingDetail extends Component {
     }
 
     handleClick(name, attribute) {
-        this.setState({ groupClicked: name, attribute: attribute });
+        this.setState({ groupClicked: name, attribute: attribute },
+            process.nextTick(() => {
+                document.querySelector("#groupConnector").scrollIntoView({
+                    behavior: 'smooth'
+                })
+            })
+        )
     }
 
     render() {
         return(
             <>
-            <div className="connectorContainer has-background-primary">
+            <div className="connectorContainer has-background-primary grouping-detail">
                 {
                     this.getArray()
                     .filter(x => x.group === this.props.group)
@@ -65,7 +71,7 @@ class GroupingDetail extends Component {
                     )
                 }
             </div>
-            <section className="connectorContainer">
+            <section className="connectorContainer" id="groupConnector">
                 <div className={`card ${this.state.attribute ? "" : "hidden"}`}>
                     <div className="card-content">
                         <p className="title is-4 is-capitalized">{this.state.attribute}</p>

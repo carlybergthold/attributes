@@ -35,7 +35,11 @@ class Group extends Component {
     }
 
     updateCurrentGroup = (group) => {
-        this.setState({ currentGroupIndex: group });
+        this.setState({ currentGroupIndex: group },
+            process.nextTick(() => {
+                this.scroll()
+              })
+        )
     }
 
     getGroupName(index) {
@@ -94,6 +98,12 @@ class Group extends Component {
         }
     }
 
+    scroll() {
+        document.querySelector(".grouping-detail").scrollIntoView({
+            behavior: 'smooth'
+        })
+    }
+
     render() {
         return(
             <>
@@ -101,7 +111,11 @@ class Group extends Component {
                 <div className="connectorContainer">
             {
                 this.state.struggle.map((x, index) =>
-                    <div key={x.name} className={`card connector-card ${this.state.currentGroupIndex === 100 || this.state.currentGroupIndex === index ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(index)}>
+                    <div
+                        key={x.name}
+                        className={`card connector-card ${this.state.currentGroupIndex === 100 || this.state.currentGroupIndex === index ? "" : "hidden"}`}
+                        onClick={() => this.updateCurrentGroup(index)}
+                    >
                         <div className="card-content">
                             <div className="media">
                                 <div className="media-left">
