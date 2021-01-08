@@ -19,10 +19,10 @@ class Group extends Component {
                 { name: "Afraid", image: FearSVG}
             ],
             fear: [
-                { name: "Shame", image: PleasureSVG},
-                { name: "Loss of Control", image: SadnessSVG},
-                { name: "Rejection", image: AngerSVG},
-                { name: "Survival", image: FearSVG}
+                { name: "Being Shamed", image: PleasureSVG},
+                { name: "Losing Control", image: SadnessSVG},
+                { name: "Being Rejected", image: AngerSVG},
+                { name: "Real Troubles", image: FearSVG}
             ],
             struggle: [
                 { name: "Spiritual", image: PleasureSVG},
@@ -91,10 +91,10 @@ class Group extends Component {
             return "Our brains are a gift from God, but our thoughts can really hurt.  Which thoughts are you struggling with the most today?"
         }
         if (this.props.connector === "struggle" && group === 3) {
-            return "Go back to the emotions list for specific ones.  But select here what you are struggling with most emotionally."
+            return "We were made to relate to other people, but that doesn’t make it easy.  Which of these comes closest to your biggest concern?"
         }
         if (this.props.connector === "struggle" && group === 4) {
-            return "We were made to relate to other people, but that doesn’t make it easy.  Which of these comes closest to your biggest concern?"
+            return "Only using 4 groupings, so this can be deleted."
         }
     }
 
