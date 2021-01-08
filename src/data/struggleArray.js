@@ -8,11 +8,11 @@ const struggleArray = [
     attributeName: 'eternal',
     name: 'Pessimism',
     description: 'When I struggle with pessimism, I need to lift my head towards an Eternal God and perspective.',
-    group: 'Emotional',
+    group: 'Mental',
 },
     {
     attributeName: 'faithful',
-    name: 'Reliability',
+    name: 'My Reliability',
     description: 'When I am often not very reliable for others, I need to lean on the commitment of a Faithful God.',
     group: 'Physical',
 },
@@ -30,7 +30,7 @@ const struggleArray = [
 },
     {
     attributeName: 'gracious',
-    name: 'No Free Lunch',
+    name: 'Workaholic',
     description: 'When I feel like I must work for everything I get in life, I need to realize the Graciousness of God.',
     group: 'Mental',
 },
@@ -42,7 +42,7 @@ const struggleArray = [
 },
     {
     attributeName: 'humble',
-    name: 'Urgent Schedule',
+    name: 'A Too Urgent Schedule',
     description: 'When I struggle with balancing all I have to do, I need to seek the Humility of God.',
     group: 'Physical',
 },
@@ -54,39 +54,39 @@ const struggleArray = [
 },
     {
     attributeName: 'incomprehensible',
-    name: 'Ability To Learn',
+    name: 'My Ability To Learn',
     description: 'When I struggle with being a slow learner, I need to learn that God is Incomprehensible.',
     group: 'Mental',
 },
     {
     attributeName: 'independent',
-    name: 'Must Do It Myself',
+    name: 'Must Do It All Myself',
     description: 'When I feel like I always have to do it myself, I need to connect with the Independence of God.',
-    group: 'Mental',
+    group: 'Social',
     },
     {
     attributeName: 'invisible',
     name: 'Worshipping Someone Unseen',
     description: 'When I struggle with worshiping a god I cannot see, I need to remember that God is Invisible for a reason.',
-    group: 'mSpiritual',
+    group: 'Spiritual',
     },
     {
     attributeName: 'jealous',
     name: 'Idols',
-    description: 'When I struggle with all those things are more urgent than God, I need to see the Jealousy of God.',
+    description: 'When I struggle with all those things that are more urgent than God, I need to see the Jealousy of God.',
     group: 'Spiritual',
     },
     {
     attributeName: 'joyful',
     name: 'Source Of Joy',
     description: 'When I struggle with finding true joy, I need to understand how God is Joyful.',
-    group: 'Emotional',
+    group: 'Mental',
     },
     {
     attributeName: 'just',
     name: 'What Is Fair',
     description: 'When I struggle with whether I am being treated fairly, I need to understand the Justice of God.',
-    group: 'Emotional',
+    group: 'Social',
     },
     {
     attributeName: 'loving',
@@ -120,7 +120,7 @@ const struggleArray = [
     },
     {
     attributeName: 'patient',
-    name: 'Ongoing Hardship',
+    name: 'An Ongoing Hardship',
     description: 'When I struggle with a never-ending hardship, I need to learn that God is Patient.',
     group: 'Physical',
     },
@@ -134,11 +134,11 @@ const struggleArray = [
     attributeName: 'planning',
     name: 'Perfectionism',
     description: 'When I always need a plan and then stick to my plan, I need to see God as the masterful Planner.',
-    group: 'Emotional',
+    group: 'Mental',
     },
     {
     attributeName: 'providing',
-    name: 'Unmet Needs',
+    name: 'An Unmet Need',
     description: 'When I struggle with whether God cares about my current need, I need to see Him as my Provider.',
     group: 'Physical',
     },
@@ -158,7 +158,7 @@ const struggleArray = [
     attributeName: 'sovereign',
     name: 'Maintaining Control',
     description: 'When I struggle with keeping what little control I still have, I need to see God as Sovereign.',
-    group: 'Emotional',
+    group: 'Mental',
     },
     {
     attributeName: 'teaching',
@@ -182,13 +182,13 @@ const struggleArray = [
     attributeName: 'wise',
     name: 'Keeping Perspective',
     description: 'When I struggle with keeping the right perspective, I need to search out the Wisdom of God.',
-    group: 'Emotional',
+    group: 'Mental',
     },
     {
     attributeName: 'wrathful',
-    name: 'Obedience',
+    name: 'Satisfying Others',
     description: 'When I struggle to satisfy others and their rigorous demands, I need to reflect of the Wrath of God.',
-    group: 'Mental',
+    group: 'Social',
     }
 ]
 
