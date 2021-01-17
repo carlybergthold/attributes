@@ -1,194 +1,258 @@
 const struggleArray = [
-    {
+{
+    id: 1,
     attributeName: 'creative',
     name: 'Purpose',
     description: 'When I struggle to find purpose, I need to seek my Creator and His purpose.',
-    group: 'Spiritual'},
-    {
+    group: 'Spiritual',
+groupId: 1},
+{
+    id: 2,
     attributeName: 'eternal',
     name: 'Pessimism',
     description: 'When I struggle with pessimism, I need to lift my head towards an Eternal God and perspective.',
     group: 'Emotional',
+groupId: 5,
 },
-    {
+{
+    id: 3,
     attributeName: 'faithful',
     name: 'Reliability',
     description: 'When I am often not very reliable for others, I need to lean on the commitment of a Faithful God.',
     group: 'Physical',
+groupId: 2,
 },
-    {
+{
+    id: 4,
     attributeName: 'glorious',
     name: 'Reputation',
     description: 'When I often want people to think more highly of me, I need to seek the Glory of God.',
     group: 'Social',
+groupId: 4,
 },
-    {
+{
+    id: 5,
     attributeName: 'good',
     name: 'Failure',
     description: 'When I seem to often fail God or others, I need to understand the Goodness of God.',
     group: 'Spiritual',
+groupId: 1,
 },
-    {
+{
+    id: 6,
     attributeName: 'gracious',
     name: 'No Free Lunch',
     description: 'When I feel like I must work for everything I get in life, I need to realize the Graciousness of God.',
     group: 'Mental',
+groupId: 3
 },
-    {
+{
+    id: 7,
     attributeName: 'holy',
     name: 'Making Comparisons',
     description: 'When I often compare myself to others, I need to see the Holiness of God.',
     group: 'Social',
+groupId: 4,
 },
-    {
+{
+    id: 8,
     attributeName: 'humble',
     name: 'Urgent Schedule',
     description: 'When I struggle with balancing all I have to do, I need to seek the Humility of God.',
     group: 'Physical',
+groupId: 2,
 },
-    {
+{
+    id: 9,
     attributeName: 'immutable',
     name: 'Security',
     description: 'When I feel like I have to protect myself and my family from everything, I need to lean into the Immutability of God.',
     group: 'Physical',
+groupId: 2,
 },
-    {
+{
+    id: 10,
     attributeName: 'incomprehensible',
     name: 'Ability To Learn',
     description: 'When I struggle with being a slow learner, I need to learn that God is Incomprehensible.',
     group: 'Mental',
+groupId: 3
 },
-    {
+{
+    id: 11,
     attributeName: 'independent',
     name: 'Must Do It Myself',
     description: 'When I feel like I always have to do it myself, I need to connect with the Independence of God.',
     group: 'Mental',
+groupId: 3
     },
-    {
+{
+    id: 12,
     attributeName: 'invisible',
     name: 'Worshipping Someone Unseen',
     description: 'When I struggle with worshiping a god I cannot see, I need to remember that God is Invisible for a reason.',
-    group: 'mSpiritual',
+    group: 'Spiritual',
+    groupId: 1
     },
-    {
+{
+    id: 13,
     attributeName: 'jealous',
     name: 'Idols',
     description: 'When I struggle with all those things are more urgent than God, I need to see the Jealousy of God.',
     group: 'Spiritual',
+groupId: 1,
     },
-    {
+{
+    id: 14,
     attributeName: 'joyful',
     name: 'Source Of Joy',
     description: 'When I struggle with finding true joy, I need to understand how God is Joyful.',
     group: 'Emotional',
+groupId: 5,
     },
-    {
+{
+    id: 15,
     attributeName: 'just',
     name: 'What Is Fair',
     description: 'When I struggle with whether I am being treated fairly, I need to understand the Justice of God.',
     group: 'Emotional',
+groupId: 5,
     },
-    {
+{
+    id: 16,
     attributeName: 'loving',
     name: 'Loving Others',
     description: 'When I struggle with loving certain people, I need to see how God is Loving to me.',
     group: 'Social',
+groupId: 4,
     },
-    {
+{
+    id: 17,
     attributeName: 'merciful',
     name: 'Forgiveness',
     description: 'When I struggle with forgiving or showing mercy to another, I need to see the Mercy that God gives me.',
     group: 'Spiritual',
+groupId: 1,
     },
-    {
+{
+    id: 18,
     attributeName: 'omnipotent',
     name: 'My Own Weakness',
     description: 'When I struggle with one of my weaknesses that holds me back, I need to feel the Omnipotence of God. ',
     group: 'Physical',
+groupId: 2,
     },
-    {
+{
+    id: 19,
     attributeName: 'omnipresent',
     name: 'Absent God',
     description: 'When it seems that God is absent, I need to meet an Omnipresent God.',
     group: 'Spiritual',
+groupId: 1,
     },
-    {
+{
+    id: 20,
     attributeName: 'omniscient',
     name: 'Information Overload',
     description: 'When I struggle with information overload, I need to realize the Omniscience of God.',
     group: 'Mental',
+groupId: 3
     },
-    {
+{
+    id: 21,
     attributeName: 'patient',
     name: 'Ongoing Hardship',
     description: 'When I struggle with a never-ending hardship, I need to learn that God is Patient.',
     group: 'Physical',
+groupId: 2,
     },
-    {
+{
+    id: 22,
     attributeName: 'peaceful',
     name: 'Ongoing Conflict',
     description: 'When I struggle with a conflict that seems never to resolve, I need to meet the God of Peace.',
     group: 'Social',
+groupId: 4,
     },
-    {
+{
+    id: 23,
     attributeName: 'planning',
     name: 'Perfectionism',
     description: 'When I always need a plan and then stick to my plan, I need to see God as the masterful Planner.',
     group: 'Emotional',
+groupId: 5,
     },
-    {
+{
+    id: 24,
     attributeName: 'providing',
     name: 'Unmet Needs',
     description: 'When I struggle with whether God cares about my current need, I need to see Him as my Provider.',
     group: 'Physical',
+groupId: 2,
     },
-    {
+{
+    id: 25,
     attributeName: 'relational',
     name: 'Good Relationships',
     description: 'When I struggle with how I can cultivate better relationships, I need to experience a Relational God.',
     group: 'Social',
+groupId: 4,
     },
-    {
+{
+    id: 26,
     attributeName: 'saving',
     name: 'Codependency',
     description: 'When I struggle with how best to fix someone else, I need to learn how God alone is Savior.',
     group: 'Social',
+groupId: 4,
     },
-    {
+{
+    id: 27,
     attributeName: 'sovereign',
     name: 'Maintaining Control',
     description: 'When I struggle with keeping what little control I still have, I need to see God as Sovereign.',
     group: 'Emotional',
+groupId: 5,
     },
-    {
+{
+    id: 28,
     attributeName: 'teaching',
     name: 'Difficulty In Learning',
     description: 'When I struggle to learn, I need to experience God as Teacher.',
     group: 'Mental',
+groupId: 3
     },
-    {
+{
+    id: 29,
     attributeName: 'truthful',
     name: 'Knowing What Is True',
     description: 'When I struggle to know what is really true, I need to go to the God of Truth.',
     group: 'Mental',
+groupId: 3
     },
-    {
+{
+    id: 30,
     attributeName: 'unique',
     name: 'Acceptance',
     description: 'When I struggle with being accepted by others, I need to understand the Uniqueness of God and myself.',
     group: 'Social',
+groupId: 4,
     },
-    {
+{
+    id: 31,
     attributeName: 'wise',
     name: 'Keeping Perspective',
     description: 'When I struggle with keeping the right perspective, I need to search out the Wisdom of God.',
     group: 'Emotional',
+groupId: 5,
     },
-    {
+{
+    id: 32,
     attributeName: 'wrathful',
     name: 'Obedience',
     description: 'When I struggle to satisfy others and their rigorous demands, I need to reflect of the Wrath of God.',
     group: 'Mental',
+groupId: 3
     }
 ]
 

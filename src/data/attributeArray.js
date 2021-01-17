@@ -70,6 +70,7 @@ const attributeArray = [
     color: 'teal'
     },
     {
+    id: 7,
     attributeName: 'humble',
     description: 'Rightly considering yourself and elevating others',
     symbol: 'Donkey colt',
@@ -79,6 +80,7 @@ const attributeArray = [
     color: 'teal'
     },
     {
+    id: 8,
     attributeName: 'immutable',
     description: 'Consistent for eternity',
     symbol: 'Rock',
@@ -88,6 +90,7 @@ const attributeArray = [
     color: 'yellow'
     },
     {
+    id: 9,
     attributeName: 'incomprehensible',
     description: 'More than we can humanly fathom',
     symbol: 'Mystery',
@@ -97,6 +100,7 @@ const attributeArray = [
     color: 'yellow'
     },
     {
+    id: 10,
     attributeName: 'independent',
     description: 'Self-existent - no need for man',
     symbol: 'I AM',
@@ -106,6 +110,7 @@ const attributeArray = [
     color: 'yellow'
     },
     {
+    id: 11,
     attributeName: 'invisible',
     description: 'Exists beyond our current senses',
     symbol: 'Wind',
@@ -115,6 +120,7 @@ const attributeArray = [
     color: 'yellow'
     },
     {
+    id: 12,
     attributeName: 'jealous',
     description: 'Eagerly desiring the best for His own and thus not tolerating rivals',
     symbol: 'Bridegroom',
@@ -124,6 +130,7 @@ const attributeArray = [
     color: 'yellow'
     },
     {
+    id: 13,
     attributeName: 'joyful',
     description: 'Cheerful, glad',
     symbol: 'Beauty of creation',
@@ -133,6 +140,7 @@ const attributeArray = [
     color: 'yellow'
     },
     {
+    id: 14,
     attributeName: 'just',
     description: 'Making all things right/holy',
     symbol: 'Judge',
@@ -142,6 +150,7 @@ const attributeArray = [
     color: 'yellow'
     },
     {
+    id: 15,
     attributeName: 'loving',
     description: 'Willing self-sacrifice for the good of another without being deserved or requiring reciprocation',
     symbol: 'Bridegroom',
@@ -151,6 +160,7 @@ const attributeArray = [
     color: 'yellow'
     },
     {
+    id: 16,
     attributeName: 'merciful',
     description: 'Active compassion for those in need/distress',
     symbol: 'Mercy Seat',
@@ -160,6 +170,7 @@ const attributeArray = [
     color: 'blue'
     },
     {
+    id: 17,
     attributeName: 'omnipotent',
     description: 'Unlimited power & authority',
     symbol: 'Earthquake',
@@ -169,6 +180,7 @@ const attributeArray = [
     color: 'blue'
     },
     {
+    id: 18,
     attributeName: 'omnipresent',
     description: 'Exists everywhere',
     symbol: 'Immanuel ',
@@ -178,6 +190,7 @@ const attributeArray = [
     color: 'blue'
     },
     {
+    id: 19,
     attributeName: 'omniscient',
     description: 'Knows all - past, present & future',
     symbol: 'Eyes',
@@ -187,6 +200,7 @@ const attributeArray = [
     color: 'blue'
     },
     {
+    id: 20,
     attributeName: 'patient',
     description: 'Bearing of suffering caused by others',
     symbol: 'The Cross',
@@ -196,6 +210,7 @@ const attributeArray = [
     color: 'blue'
     },
     {
+    id: 21,
     attributeName: 'peaceful',
     description: 'Source of unity & reconciliation',
     symbol: 'Dove',
@@ -205,6 +220,7 @@ const attributeArray = [
     color: 'blue'
     },
     {
+    id: 22,
     attributeName: 'planning',
     description: "How God's attributes perfectly fit together",
     symbol: 'The cross',
@@ -214,6 +230,7 @@ const attributeArray = [
     color: 'blue'
     },
     {
+    id: 23,
     attributeName: 'providing',
     description: 'See the needs of a dependent and supply whatever is best',
     symbol: 'Wedding Wine',
@@ -223,6 +240,7 @@ const attributeArray = [
     color: 'blue'
     },
     {
+    id: 24,
     attributeName: 'relational',
     description: 'Relational to God & people',
     symbol: 'Trinity',
@@ -232,6 +250,7 @@ const attributeArray = [
     color: 'orange'
     },
     {
+    id: 25,
     attributeName: 'saving',
     description: 'The remedy/atonement for sin',
     symbol: 'Lamb',
@@ -241,6 +260,7 @@ const attributeArray = [
     color: 'orange'
     },
     {
+    id: 26,
     attributeName: 'sovereign',
     description: 'Lord & King',
     symbol: 'Messiah',
@@ -250,6 +270,7 @@ const attributeArray = [
     color: 'orange'
     },
     {
+    id: 27,
     attributeName: 'teaching',
     description: 'Leads His own perfectly',
     symbol: 'Shepherd',
@@ -259,6 +280,7 @@ const attributeArray = [
     color: 'orange'
     },
     {
+    id: 28,
     attributeName: 'truthful',
     description: 'Unobscured Reality',
     symbol: 'Light, Word, Jesus, Belt, Gospel',
@@ -268,6 +290,7 @@ const attributeArray = [
     color: 'orange'
     },
     {
+    id: 29,
     attributeName: 'unique',
     description: 'Without Equal',
     symbol: 'I AM',
@@ -277,6 +300,7 @@ const attributeArray = [
     color: 'orange'
     },
     {
+    id: 30,
     attributeName: 'wise',
     description: 'Knowing Truth, doing good',
     symbol: 'Eyes Looking Up',
@@ -286,6 +310,7 @@ const attributeArray = [
     color: 'orange'
     },
     {
+    id: 31,
     attributeName: 'wrathful',
     description: 'A just & loving insistence on holiness',
     symbol: 'Reaper/ Consuming Fire',

@@ -13,23 +13,23 @@ class Group extends Component {
         this.state = {
             currentGroupIndex: 100,
             emotion: [
-                { name: "Pleased", image: PleasureSVG},
-                { name: "Sad", image: SadnessSVG},
-                { name: "Angry", image: AngerSVG},
-                { name: "Afraid", image: FearSVG}
+                { id: 1, name: "Pleased", image: PleasureSVG},
+                { id: 2, name: "Sad", image: SadnessSVG},
+                { id: 3, name: "Angry", image: AngerSVG},
+                { id: 4, name: "Afraid", image: FearSVG}
             ],
             fear: [
-                { name: "Shame", image: PleasureSVG},
-                { name: "Loss of Control", image: SadnessSVG},
-                { name: "Rejection", image: AngerSVG},
-                { name: "Survival", image: FearSVG}
+                { id: 1, name: "Being Shamed", image: PleasureSVG},
+                { id: 2, name: "Losing Control", image: SadnessSVG},
+                { id: 3, name: "Being Rejected", image: AngerSVG},
+                { id: 4, ame: "Real Troubles", image: FearSVG}
             ],
             struggle: [
-                { name: "Spiritual", image: PleasureSVG},
-                { name: "Physical", image: SadnessSVG},
-                { name: "Mental", image: AngerSVG},
+                { id: 1, name: "Spiritual", image: PleasureSVG},
+                { id: 2, name: "Physical", image: SadnessSVG},
+                { id: 3, name: "Mental", image: AngerSVG},
+                { id: 4, name: "Social", image: FearSVG}
                 // { name: "Emotional", image: FearSVG},
-                { name: "Social", image: FearSVG}
             ]
         };
     }
@@ -42,15 +42,27 @@ class Group extends Component {
         )
     }
 
+    getGroupId(index) {
+        if (index > 3) return;
+
+        if (this.props.connector === "emotion") {
+            return this.state.emotion[index].id;
+        } else if (this.props.connector === "fear") {
+            return this.state.fear[index].id;
+        } else if (this.props.connector === "struggle") {
+            return this.state.struggle[index].id;
+        } else return null;
+    }
+
     getGroupName(index) {
         if (index > 3) return;
 
         if (this.props.connector === "emotion") {
-            return this.state.emotion[index].name
+            return this.state.emotion[index].name;
         } else if (this.props.connector === "fear") {
-            return this.state.fear[index].name
+            return this.state.fear[index].name;
         } else if (this.props.connector === "struggle") {
-            return this.state.struggle[index].name
+            return this.state.struggle[index].name;
         } else return null;
     }
 
@@ -91,9 +103,6 @@ class Group extends Component {
             return "Our brains are a gift from God, but our thoughts can really hurt.  Which thoughts are you struggling with the most today?"
         }
         if (this.props.connector === "struggle" && group === 3) {
-            return "Go back to the emotions list for specific ones.  But select here what you are struggling with most emotionally."
-        }
-        if (this.props.connector === "struggle" && group === 4) {
             return "We were made to relate to other people, but that doesn’t make it easy.  Which of these comes closest to your biggest concern?"
         }
     }
@@ -118,11 +127,11 @@ class Group extends Component {
                     >
                         <div className="card-content">
                             <div className="media">
-                                <div className="media-left">
+                                {/* <div className="media-left">
                                     <figure className="image is-48x48">
                                         <img src={PleasureSVG} alt="pleasure"></img>
                                     </figure>
-                                </div>
+                                </div> */}
                                 <div className="media-content">
                                     <p className="title is-4">{this.getGroupName(index)}</p>
                                 </div>
@@ -136,7 +145,7 @@ class Group extends Component {
             }
             </div>
 
-            <GroupingDetail connector={this.props.connector} group={this.getGroupName(this.state.currentGroupIndex)}></GroupingDetail>
+            <GroupingDetail connector={this.props.connector} groupId={this.getGroupId(this.state.currentGroupIndex)}></GroupingDetail>
         </>
         )
     }
