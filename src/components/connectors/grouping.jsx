@@ -22,14 +22,13 @@ class Group extends Component {
                 { id: 1, name: "Being Shamed", image: PleasureSVG},
                 { id: 2, name: "Losing Control", image: SadnessSVG},
                 { id: 3, name: "Being Rejected", image: AngerSVG},
-                { id: 4, ame: "Real Troubles", image: FearSVG}
+                { id: 4, name: "Real Troubles", image: FearSVG}
             ],
             struggle: [
                 { id: 1, name: "Spiritual", image: PleasureSVG},
                 { id: 2, name: "Physical", image: SadnessSVG},
                 { id: 3, name: "Mental", image: AngerSVG},
                 { id: 4, name: "Social", image: FearSVG}
-                // { name: "Emotional", image: FearSVG},
             ]
         };
     }
