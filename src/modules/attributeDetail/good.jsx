@@ -17,9 +17,9 @@ class Good extends Component {
             <body className="attPage">
             <Hero title="Good" subtitle="All that pleases" img="girl.png" />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
-              <aside>
+              <aside className="has-background-grey-lighter">
                 <section id="sidebar">
-                  <AttributeSidebar />
+                  <AttributeSidebar attribute="good"/>
                 </section>
               </aside>
 

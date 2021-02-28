@@ -17,9 +17,9 @@ class Humble extends Component {
             <body className="attPage">
             <Hero title="Humble" subtitle="To rightly consider yourself and elevate others" img="girl.png" />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
-              <aside>
+              <aside className="has-background-grey-lighter">
                 <section id="sidebar">
-                  <AttributeSidebar />
+                  <AttributeSidebar attribute="humble"/>
                 </section>
               </aside>
 

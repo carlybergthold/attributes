@@ -14,12 +14,12 @@ class Wise extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Wise" subtitle="To know truth and do good with it" icon="wise" />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
-              <aside>
+              <aside className="has-background-grey-lighter">
                 <section id="sidebar">
-                  <AttributeSidebar />
+                  <AttributeSidebar attribute="wise"/>
                 </section>
               </aside>
 
@@ -127,7 +127,7 @@ class Wise extends Component {
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

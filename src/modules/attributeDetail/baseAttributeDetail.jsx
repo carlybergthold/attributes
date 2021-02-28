@@ -18,7 +18,7 @@ class BaseAttributeDetail extends Component {
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
                 <section id="sidebar">
-                  <AttributeSidebar />
+                  <AttributeSidebar attribute={this.props.title}/>
                 </section>
               </aside>
 

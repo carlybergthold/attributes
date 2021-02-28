@@ -17,9 +17,9 @@ class Invisible extends Component {
             <body className="attPage">
             <Hero title="Invisible" subtitle="To exist beyond our current senses" img="girl.png" />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
-              <aside>
+              <aside className="has-background-grey-lighter">
                 <section id="sidebar">
-                  <AttributeSidebar />
+                  <AttributeSidebar attribute="invisible"/>
                 </section>
               </aside>
 

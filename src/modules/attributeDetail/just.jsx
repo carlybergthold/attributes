@@ -17,9 +17,9 @@ class Just extends Component {
             <body className="attPage">
             <Hero title="Just" subtitle="To make all things right" img="girl.png" />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
-              <aside>
+              <aside className="has-background-grey-lighter">
                 <section id="sidebar">
-                  <AttributeSidebar />
+                  <AttributeSidebar attribute="just"/>
                 </section>
               </aside>
 

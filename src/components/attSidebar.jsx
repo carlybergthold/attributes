@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import '../styles/sidebar.css'
+import styleMethods from "../methods/styleMethods";
 
 class AttributeSidebar extends Component {
 
@@ -13,9 +14,11 @@ class AttributeSidebar extends Component {
 
     elements.forEach(el => {
       el.classList.remove("active");
+      el.style.color = "black";
     });
 
     e.target.classList.add("active");
+    e.target.style.color = styleMethods.getAttributeColor(this.props.attribute);
   }
 
   render() {
