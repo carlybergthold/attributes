@@ -6,7 +6,6 @@ import struggleArray from '../../data/struggleArray';
 
 class GroupingDetail extends Component {
 
-    //need to scroll to new section when clicked
     //need to update icons for fear and struggles
 
     constructor(props) {
@@ -25,6 +24,7 @@ class GroupingDetail extends Component {
     }
 
     getArray = () => {
+        console.log(this.props.groupId)
         if (this.props.connector === "emotion") {
             return emotionArray;
         } else if (this.props.connector === "fear") {
@@ -55,7 +55,7 @@ class GroupingDetail extends Component {
             <div className="connectorContainer has-background-primary grouping-detail">
                 {
                     this.getArray()
-                    .filter(x => x.group === this.props.group)
+                    .filter(x => x.groupId === this.props.groupId)
                     .map(group =>
                         <div
                             key={group.description}

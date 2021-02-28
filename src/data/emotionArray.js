@@ -1,118 +1,140 @@
 const emotionArray = [
     {
+    id: 1,
     attributeName: 'creative',
     name: 'Excitement',
     description: 'Excitement often comes from what is new to me - and God is the Creator and source of all new things!',
     group: 'Pleased'
     },
     {
+    id: 2,
     attributeName: 'eternal',
     name: 'Grief',
     description: 'Grief results when I suffer a loss or death - but God is Eternal and always remains to comfort me in my grief.',
     group: 'Sad'
     },
     {
+    id: 3,
     attributeName: 'faithful',
     name: 'Disappointment',
     description: 'Disappointment comes when my expectations are not met - but God is Faithful to do all that He has promised.',
     group: 'Sad'
     },
     {
+    id: 4,
     attributeName: 'glorious',
     name: 'Rejection',
     description: 'Rejection of who I am or what I offer hurts - but I actually suffer more harm when I reject God and His Glory.',
     group: 'Afraid'
     },
     {
+    id: 5,
     attributeName: 'good',
     name: 'Satisfaction',
     description: 'Satisfaction means my need or desire was met - and all my deepest needs and desires originate from God and are thus Good.',
     group: 'Pleased'
     },
     {
+    id: 6,
     attributeName: 'gracious',
     name: 'Love',
     description: 'True love is more a gift I give than an emotion I feel - and God is Gracious in giving me His love first.',
     group: 'Pleased'
 },
     {
+    id: 7,
     attributeName: 'holy',
     name: 'Guilt',
     description: 'Guilt comes when I do wrong and fear punishment - and a perfectly Holy God always brings guilt in some form to all people.',
     group: 'Afraid'
 },
     {
+    id: 8,
     attributeName: 'humble',
     name: 'Anger',
     description: 'My anger often seeks flawed justice or punishment - but God perfectly tempers anger with Humility.',
     group: 'Angry'
 },
     {
+    id: 9,
     attributeName: 'immutable',
     name: 'Insecurity',
     description: 'Insecurity comes from threats of change to what I hold dear - but God is Immutable and never changes.',
-    group: 'Afraid'
+    group: 'Afraid',
+    groupId: 4
 },
     {
+    id: 10,
     attributeName: 'incomprehensible',
     name: 'Doubt',
     description: 'Doubt lies between my belief and my disbelief - and is a very natural byproduct of an Incomprehensible God.',
     group: 'Angry'
 },
     {
+        id: 11,
     attributeName: 'independent',
     name: 'Contentment',
     description: 'Contentment is happiness with what I already have - and a fully Independent God can afford to give us contentment in Him.',
-    group: 'Pleased'
+    group: 'Pleased',
+    groupId: 1
 },
     {
+        id: 12,
     attributeName: 'invisible',
     name: 'Distress',
     description: 'Distress is my urgent need for tangible help - and an Invisible God will only be seen by those with faith in Him.',
     group: 'Afraid'
 },
     {
+        id: 13,
     attributeName: 'jealous',
     name: 'Fear',
     description: 'Fear anticipates danger to what I love - and a Jealous God is to be both feared and loved.',
     group: 'Afraid'
 },
     {
+        id: 14,
     attributeName: 'joyful',
     name: 'Happiness',
     description: 'Happiness is a feeling of pleasure and delight - and God is the source of all Joy, which feels much like happiness.',
     group: 'Pleased'
 },
     {
+    id: 15,
     attributeName: 'just',
     name: 'Indignation',
     description: 'Indignation makes me want to correct unfair treatment - because God is Just, but not always fair as I see fair.',
     group: 'Angry'
 },
     {
+        id: 16,
     attributeName: 'loving',
     name: 'Shame',
     description: 'Shame falsely tells me I am unworthy of love or belonging - but God always Loves me.',
     group: 'Sad'
 },
     {
+        id: 17,
     attributeName: 'merciful',
     name: 'Resentment',
     description: 'Resentment clings to an anger over real or imagined offenses - but God is Merciful even to those truly offensive and unworthy.',
     group: 'Angry'
     },
     {
+        id: 18,
     attributeName: 'omnipotent',
     name: 'Nervousness',
     description: 'Nervousness is knowing I am powerless in view of what could go wrong - but God is lovingly Omnipotent in all things.',
     group: 'Afraid'
     },
     {
+        id: 19,
     attributeName: 'omnipresent',
     name: 'Loneliness',
     description: 'Loneliness is my sadness in response to perceived isolation - but God is Omnipresent and is always with me.',
     group: 'Sad'},
     {
+        id: 20,
     attributeName: 'omniscient',
     name: 'Misunderstood',
     description: 'I feel misunderstood when others see me incorrectly - but God is Omniscient and knows me perfectly.',
