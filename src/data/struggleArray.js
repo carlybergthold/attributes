@@ -1,9 +1,19 @@
 const struggleArray = [
     {
     attributeName: 'creative',
-    name: 'Purpose',
+    name: 'My Purpose',
     description: 'When I struggle to find purpose, I need to seek my Creator and His purpose.',
     group: 'Spiritual'},
+    {
+    attributeName: 'creative',
+    name: 'No Meaning/Purpose',
+    description: 'When I struggle to find purpose, I need to seek my Creator and His purpose.',
+    group: 'Physical'},
+    {
+    attributeName: 'creative',
+    name: 'I Am Bored',
+    description: 'When I struggle with boredom or emptiness, I need to seek my Creator and His purpose.',
+    group: 'Mental'},
     {
     attributeName: 'eternal',
     name: 'Pessimism',
@@ -18,13 +28,13 @@ const struggleArray = [
 },
     {
     attributeName: 'glorious',
-    name: 'Reputation',
+    name: 'My Reputation',
     description: 'When I often want people to think more highly of me, I need to seek the Glory of God.',
     group: 'Social',
 },
     {
     attributeName: 'good',
-    name: 'Failure',
+    name: 'My Failure',
     description: 'When I seem to often fail God or others, I need to understand the Goodness of God.',
     group: 'Spiritual',
 },
@@ -36,19 +46,25 @@ const struggleArray = [
 },
     {
     attributeName: 'holy',
-    name: 'Making Comparisons',
+    name: 'Comparing Myself With Others',
     description: 'When I often compare myself to others, I need to see the Holiness of God.',
     group: 'Social',
 },
     {
     attributeName: 'humble',
-    name: 'A Too Urgent Schedule',
+    name: 'Just Way Too Busy',
     description: 'When I struggle with balancing all I have to do, I need to seek the Humility of God.',
+    group: 'Physical',
+},
+{
+    attributeName: 'humble',
+    name: 'Work Pressure/Stress',
+    description: 'When I struggle with all I need to do at work, I need to seek the Humility of God.',
     group: 'Physical',
 },
     {
     attributeName: 'immutable',
-    name: 'Security',
+    name: 'Keeping Safe and Secure',
     description: 'When I feel like I have to protect myself and my family from everything, I need to lean into the Immutability of God.',
     group: 'Physical',
 },
@@ -78,8 +94,8 @@ const struggleArray = [
     },
     {
     attributeName: 'joyful',
-    name: 'Source Of Joy',
-    description: 'When I struggle with finding true joy, I need to understand how God is Joyful.',
+    name: 'Unhappiness',
+    description: 'When I struggle with finding happiness, I need to understand how God is Joyful.',
     group: 'Mental',
     },
     {
@@ -90,7 +106,7 @@ const struggleArray = [
     },
     {
     attributeName: 'loving',
-    name: 'Loving Others',
+    name: 'Truly Loving Others',
     description: 'When I struggle with loving certain people, I need to see how God is Loving to me.',
     group: 'Social',
     },
@@ -102,13 +118,13 @@ const struggleArray = [
     },
     {
     attributeName: 'omnipotent',
-    name: 'My Own Weakness',
+    name: 'My Own Fault/Weakness',
     description: 'When I struggle with one of my weaknesses that holds me back, I need to feel the Omnipotence of God. ',
     group: 'Physical',
     },
     {
     attributeName: 'omnipresent',
-    name: 'Absent God',
+    name: 'God Seems Absent',
     description: 'When it seems that God is absent, I need to meet an Omnipresent God.',
     group: 'Spiritual',
     },
@@ -120,7 +136,7 @@ const struggleArray = [
     },
     {
     attributeName: 'patient',
-    name: 'An Ongoing Hardship',
+    name: 'Ongoing Health Issue',
     description: 'When I struggle with a never-ending hardship, I need to learn that God is Patient.',
     group: 'Physical',
     },
@@ -138,14 +154,26 @@ const struggleArray = [
     },
     {
     attributeName: 'providing',
-    name: 'An Unmet Need',
-    description: 'When I struggle with whether God cares about my current need, I need to see Him as my Provider.',
+    name: 'I Need More Money',
+    description: 'When I struggle with money, I need to see Him as my Provider.',
+    group: 'Physical',
+    },
+    {
+    attributeName: 'providing',
+    name: 'Lost My Job',
+    description: 'When I struggle with a job loss, I need to see Him as my Provider.',
     group: 'Physical',
     },
     {
     attributeName: 'relational',
-    name: 'Good Relationships',
+    name: 'Developing Good Relationships',
     description: 'When I struggle with how I can cultivate better relationships, I need to experience a Relational God.',
+    group: 'Social',
+    },
+    {
+    attributeName: 'relational',
+    name: 'A Relationship Just Ended',
+    description: 'When I struggle with a relationship that just ended, I need to experience a Relational God.',
     group: 'Social',
     },
     {
@@ -161,12 +189,6 @@ const struggleArray = [
     group: 'Mental',
     },
     {
-    attributeName: 'teaching',
-    name: 'Difficulty In Learning',
-    description: 'When I struggle to learn, I need to experience God as Teacher.',
-    group: 'Mental',
-    },
-    {
     attributeName: 'truthful',
     name: 'Knowing What Is True',
     description: 'When I struggle to know what is really true, I need to go to the God of Truth.',
@@ -174,7 +196,7 @@ const struggleArray = [
     },
     {
     attributeName: 'unique',
-    name: 'Acceptance',
+    name: 'Being Accepted By Others',
     description: 'When I struggle with being accepted by others, I need to understand the Uniqueness of God and myself.',
     group: 'Social',
     },
@@ -186,8 +208,8 @@ const struggleArray = [
     },
     {
     attributeName: 'wrathful',
-    name: 'Satisfying Others',
-    description: 'When I struggle to satisfy others and their rigorous demands, I need to reflect of the Wrath of God.',
+    name: 'Fully Satisfying Others',
+    description: 'When I struggle to satisfy others and their rigorous demands, I need to reflect on the Wrath of God.',
     group: 'Social',
     }
 ]
