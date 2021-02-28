@@ -17,9 +17,9 @@ class Gracious extends Component {
             <body className="attPage">
             <Hero title="Gracious" subtitle="To sacrificially love the undeserved" img="girl.png" />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
-              <aside>
+              <aside className="has-background-grey-lighter">
                 <section id="sidebar">
-                  <AttributeSidebar />
+                  <AttributeSidebar attribute="gracious"/>
                 </section>
               </aside>
 

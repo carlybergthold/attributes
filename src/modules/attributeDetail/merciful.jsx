@@ -13,9 +13,9 @@ class Merciful extends Component {
             <div className="attPage">
             <Hero title="Merciful" subtitle="To have compassion for those in need" img="girl.png" />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
-              <aside>
+              <aside className="has-background-grey-lighter">
                 <section id="sidebar">
-                  <AttributeSidebar />
+                  <AttributeSidebar attribute="merciful"/>
                 </section>
               </aside>
 

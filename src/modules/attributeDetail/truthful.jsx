@@ -17,9 +17,9 @@ class Truthful extends Component {
             <body className="attPage">
             <Hero title="Truthful" subtitle="To provide unobscured reality" icon="truthful" />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
-              <aside>
+              <aside className="has-background-grey-lighter">
                 <section id="sidebar">
-                  <AttributeSidebar />
+                  <AttributeSidebar attribute="truthful"/>
                 </section>
               </aside>
 
