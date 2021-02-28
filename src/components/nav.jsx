@@ -13,10 +13,6 @@ class TopNav extends Component {
         }
     }
 
-    openSidebar() {
-        console.log("open sidebar")
-    }
-
     render() {
         return (
             <>
