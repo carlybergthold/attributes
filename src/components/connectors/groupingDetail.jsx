@@ -24,7 +24,6 @@ class GroupingDetail extends Component {
     }
 
     getArray = () => {
-        console.log(this.props.groupId)
         if (this.props.connector === "emotion") {
             return emotionArray;
         } else if (this.props.connector === "fear") {

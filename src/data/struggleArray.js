@@ -4,17 +4,14 @@ const struggleArray = [
     attributeName: 'creative',
     name: 'My Purpose',
     description: 'When I struggle to find purpose, I need to seek my Creator and His purpose.',
-    group: 'Spiritual'},
-    {
-    attributeName: 'creative',
-    name: 'No Meaning/Purpose',
-    description: 'When I struggle to find purpose, I need to seek my Creator and His purpose.',
-    group: 'Physical'},
+    group: 'Spiritual',
+groupId: 1},
     {
     attributeName: 'creative',
     name: 'I Am Bored',
     description: 'When I struggle with boredom or emptiness, I need to seek my Creator and His purpose.',
-    group: 'Mental'},
+    group: 'Mental',
+    groupId: 3},
     {
     attributeName: 'eternal',
     name: 'Pessimism',
@@ -75,6 +72,7 @@ groupId: 2,
     name: 'Work Pressure/Stress',
     description: 'When I struggle with all I need to do at work, I need to seek the Humility of God.',
     group: 'Physical',
+    groupId: 2
 },
     {
     attributeName: 'immutable',
@@ -201,6 +199,7 @@ groupId: 5
     name: 'I Need More Money',
     description: 'When I struggle with money, I need to see Him as my Provider.',
     group: 'Physical',
+    groupId: 2
     },
     {
     attributeName: 'providing',
@@ -222,6 +221,7 @@ groupId: 4,
     name: 'A Relationship Just Ended',
     description: 'When I struggle with a relationship that just ended, I need to experience a Relational God.',
     group: 'Social',
+    groupId: 4
     },
     {
     attributeName: 'saving',

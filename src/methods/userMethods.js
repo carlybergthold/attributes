@@ -6,7 +6,6 @@ const userMethods = {
 
   addAtts: () => {
     atts.forEach(att => {
-      console.log(att)
       fire.database().ref(`/attributeList/${att.attributeName}`).set({
         description: att.description,
         symbol: att.symbol,
