@@ -81,7 +81,7 @@ const questionArray = [
     id: 14,
     attribute: 'glorious',
     category: 'reject',
-    question: 'God does not deserve any more glorious than anyone else.'
+    question: 'God does not deserve any more glory than anyone else.'
     },
     {
     id: 15,
@@ -381,7 +381,7 @@ const questionArray = [
     id: 64,
     attribute: 'patient',
     category: 'reflect',
-    question: 'I would like to have more patient than I have.'
+    question: 'I would like to have more patience than I have.'
     },
     {
     id: 65,
