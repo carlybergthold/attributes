@@ -20,10 +20,10 @@ class Modal extends Component {
       }
 
     return() {
-        <div class="modal">
-        <div class="modal-background"></div>
-        <div class="modal-content">{message}</div>
-        <button class="modal-close is-large" aria-label="close"></button>
+        <div className="modal">
+        <div className="modal-background"></div>
+        <div className="modal-content">{message}</div>
+        <button className="modal-close is-large" aria-label="close"></button>
         </div>
     }
 }
