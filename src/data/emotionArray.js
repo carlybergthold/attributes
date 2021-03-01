@@ -3,65 +3,57 @@ const emotionArray = [
     id: 1,
     attributeName: 'creative',
     name: 'Excitement',
-    description: 'Excitement often comes from what is new - and God is the Creator of all new things!',
-    group: 'Pleased',
-    groupId: 1
+    description: 'Excitement often comes from what is new to me - and God is the Creator and source of all new things!',
+    group: 'Pleased'
     },
     {
     id: 2,
     attributeName: 'eternal',
     name: 'Grief',
-    description: 'Grief is from suffering a loss or death - but God is Eternal and always remains to comfort my grief.',
-    group: 'Sad',
-    groupId: 2
+    description: 'Grief results when I suffer a loss or death - but God is Eternal and always remains to comfort me in my grief.',
+    group: 'Sad'
     },
     {
     id: 3,
     attributeName: 'faithful',
     name: 'Disappointment',
-    description: 'Disappointment is from unmet expectations - but God is Faithful to do all that He has promised.',
-    group: 'Sad',
-    groupId: 2
+    description: 'Disappointment comes when my expectations are not met - but God is Faithful to do all that He has promised.',
+    group: 'Sad'
     },
     {
     id: 4,
     attributeName: 'glorious',
     name: 'Rejection',
-    description: 'Rejection of who I am or what I offer hurts - but I am hurt even more when I reject God and His Glory.',
-    group: 'Afraid',
-    groupId: 4
+    description: 'Rejection of who I am or what I offer hurts - but I actually suffer more harm when I reject God and His Glory.',
+    group: 'Afraid'
     },
     {
     id: 5,
     attributeName: 'good',
     name: 'Satisfaction',
-    description: 'Satisfaction means my need or desire was met - and all my needs and desires ultimately come from God and are thus Good.',
-    group: 'Pleased',
-    groupId: 1
+    description: 'Satisfaction means my need or desire was met - and all my deepest needs and desires originate from God and are thus Good.',
+    group: 'Pleased'
     },
     {
     id: 6,
     attributeName: 'gracious',
     name: 'Love',
-    description: 'True love is more gift than emotion - and God is Gracious in giving us His love first.',
-    group: 'Pleased',
-    groupId: 1
+    description: 'True love is more a gift I give than an emotion I feel - and God is Gracious in giving me His love first.',
+    group: 'Pleased'
 },
     {
     id: 7,
     attributeName: 'holy',
     name: 'Guilt',
-    description: 'Guilt comes from doing wrong - and a Holy God always brings guilt in some form to all people.',
-    group: 'Afraid',
-    groupId: 4
+    description: 'Guilt comes when I do wrong and fear punishment - and a perfectly Holy God always brings guilt in some form to all people.',
+    group: 'Afraid'
 },
     {
     id: 8,
     attributeName: 'humble',
     name: 'Anger',
-    description: 'Anger often seeks flawed justice or punishment - but God tempers anger with Humility.',
-    group: 'Angry',
-    groupId: 3
+    description: 'My anger often seeks flawed justice or punishment - but God perfectly tempers anger with Humility.',
+    group: 'Angry'
 },
     {
     id: 9,
@@ -75,9 +67,8 @@ const emotionArray = [
     id: 10,
     attributeName: 'incomprehensible',
     name: 'Doubt',
-    description: 'Doubt lies between belief and disbelief - and is a very natural byproduct of an Incomprehensible God.',
-    group: 'Angry',
-    groupId: 3
+    description: 'Doubt lies between my belief and my disbelief - and is a very natural byproduct of an Incomprehensible God.',
+    group: 'Angry'
 },
     {
         id: 11,
@@ -91,172 +82,128 @@ const emotionArray = [
         id: 12,
     attributeName: 'invisible',
     name: 'Distress',
-    description: 'Distress is an urgent need for tangible help - and an Invisible God will be seen only by those with faith in Him.',
-    group: 'Afraid',
-    groupId: 4
+    description: 'Distress is my urgent need for tangible help - and an Invisible God will only be seen by those with faith in Him.',
+    group: 'Afraid'
 },
     {
         id: 13,
     attributeName: 'jealous',
     name: 'Fear',
-    description: 'Fear anticipates danger to what I love - and a Jealous God should be both feared and loved.',
-    group: 'Afraid',
-    groupId: 4
+    description: 'Fear anticipates danger to what I love - and a Jealous God is to be both feared and loved.',
+    group: 'Afraid'
 },
     {
         id: 14,
     attributeName: 'joyful',
     name: 'Happiness',
-    description: 'Happiness is a feeling of Pleased and delight - and God is the source of all Joy.',
-    group: 'Pleased',
-    groupId: 1
+    description: 'Happiness is a feeling of pleasure and delight - and God is the source of all Joy, which feels much like happiness.',
+    group: 'Pleased'
 },
     {
     id: 15,
     attributeName: 'just',
     name: 'Indignation',
-    description: 'Indignation makes me want to correct unfair treatment - but God is Just, not necessarily fair.',
-    group: 'Angry',
-    groupId: 3
+    description: 'Indignation makes me want to correct unfair treatment - because God is Just, but not always fair as I see fair.',
+    group: 'Angry'
 },
     {
         id: 16,
     attributeName: 'loving',
     name: 'Shame',
-    description: 'Shame tells me I am unworthy of love or belonging - but God is Loving to all.',
-    group: 'Sad',
-    groupId: 2
+    description: 'Shame falsely tells me I am unworthy of love or belonging - but God always Loves me.',
+    group: 'Sad'
 },
     {
         id: 17,
     attributeName: 'merciful',
     name: 'Resentment',
-    description: 'Resentment clings to an anger over real or imagined offenses - but God is Merciful to those unworthy.',
-    group: 'Angry',
-    groupId: 3
+    description: 'Resentment clings to an anger over real or imagined offenses - but God is Merciful even to those truly offensive and unworthy.',
+    group: 'Angry'
     },
     {
         id: 18,
     attributeName: 'omnipotent',
     name: 'Nervousness',
-    description: 'Nervousness is being powerless in view of all that could go wrong - but God is lovingly Omnipotent.',
-    group: 'Afraid',
-    groupId: 4
+    description: 'Nervousness is knowing I am powerless in view of what could go wrong - but God is lovingly Omnipotent in all things.',
+    group: 'Afraid'
     },
     {
         id: 19,
     attributeName: 'omnipresent',
     name: 'Loneliness',
-    description: 'Loneliness is Sad in response to perceived isolation - but God is Omnipresent.',
-    group: 'Sad',
-    groupId: 2},
+    description: 'Loneliness is my sadness in response to perceived isolation - but God is Omnipresent and is always with me.',
+    group: 'Sad'},
     {
         id: 20,
     attributeName: 'omniscient',
     name: 'Misunderstood',
-    description: 'I feel misunderstood when others see me incorrectly - but God is Omniscent.',
-    group: 'Afraid',
-    groupId: 4
-    },
+    description: 'I feel misunderstood when others see me incorrectly - but God is Omniscient and knows me perfectly.',
+    group: 'Afraid'},
     {
-        id: 21,
-        attributeName: 'patient',
-        name: 'Self Pity',
-        description: 'Self-pity is excessive, self-absorbed unhappiness over my own troubles - but God gives Patience in suffering.',
-        group: 'Sad',
-    groupId: 2
-    },
+    attributeName: 'patient',
+    name: 'Self Pity',
+    description: 'Self-pity is excessive, self-absorbed unhappiness over my own troubles - but God offers me Patience in suffering.',
+    group: 'Sad'},
     {
-        id: 22,
-        attributeName: 'patient',
-        name: 'Annoyance',
-        description: 'Annoyance blanes another for my suffering - but God gives Patience in suffering.',
-        group: 'Angry',
-    groupId: 3
-    },
+    attributeName: 'patient',
+    name: 'Annoyance',
+    description: 'Annoyance blanes another for my suffering - but God offers me Patience in suffering.',
+    group: 'Angry'},
     {
-        id: 23,
-        attributeName: 'peaceful',
-        name: 'Dissatisfaction',
-        description: 'Dissatisfaction stems from unfulfilled expectations - but God brings Peace.',
-        group: 'Sad',
-    groupId: 2
-    },
+    attributeName: 'peaceful',
+    name: 'Dissatisfaction',
+    description: 'Dissatisfaction springs from my unfulfilled expectations - but God brings a reconciling Peace to my life.',
+    group: 'Sad'},
     {
-        id: 24,
-        attributeName: 'planning',
-        name: 'Worry',
-        description: 'Worry is ongoing uneasiness over what could go wrong - but God is a perfect Planner.',
-        group: 'Afraid',
-    groupId: 4
-    },
+    attributeName: 'planning',
+    name: 'Worry',
+    description: 'Worry is my ongoing uneasiness over what could go wrong - but God is a perfect Planner who I can trust fully.',
+    group: 'Afraid'},
     {
-        id: 25,
-        attributeName: 'providing',
-        name: 'Pride',
-        description: 'Pride is deep satisfaction in my own achievements - but it is God who Provides.',
-        group: 'Pleased',
-    groupId: 1
-    },
+    attributeName: 'providing',
+    name: 'Pride',
+    description: 'Pride is deep satisfaction in my own achievements - and must be tempered with knowing it is God who Provides everything.',
+    group: 'Pleased'},
     {
-        id: 26,
-        attributeName: 'relational',
-        name: 'Frustration',
-        description: 'Frustration comes when my persistent efforts appear blocked by others - but God embraces Relationship.',
-        group: 'Angry',
-    groupId: 3
-    },
+    attributeName: 'relational',
+    name: 'Frustration',
+    description: 'Frustration comes when my persistent efforts appear blocked by others - but God embraces my need for Relationship.',
+    group: 'Angry'},
     {
-        id: 27,
-        attributeName: 'saving',
-        name: 'Desperation',
-        description: 'Desperation sees hope draining even with a willingness to do anything  - but only God can truly Save.',
-        group: 'Angry',
-    groupId: 3
-    },
+    attributeName: 'saving',
+    name: 'Desperation',
+    description: 'Desperation sees my hope draining even when I am willing to do just about anything - but only God can truly Save me and others.',
+    group: 'Angry'},
     {
-        id: 28,
-        attributeName: 'sovereign',
-        name: 'Sad',
-        description: 'Sad urges me to withdraw and seek comfort after a loss - but what I need is my Sovereign and Lord.',
-        group: 'Sad',
-    groupId: 2},
+    attributeName: 'sovereign',
+    name: 'Sad',
+    description: 'Sadness urges me to withdraw and seek comfort after a loss - but what I need is knowing my Sovereign Lord who is in full control.',
+    group: 'Sad'},
     {
-        id: 29,
-        attributeName: 'teaching',
-        name: 'Reluctance',
-        description: 'Reluctance keeps me from doing what I know I should - but God is a faithful Teacher.',
-        group: 'Afraid',
-    groupId: 4},
+    attributeName: 'teaching',
+    name: 'Reluctance',
+    description: 'Reluctance keeps me from doing what I know I should - but God is a faithful Teacher who shapes my very desire.',
+    group: 'Afraid'},
     {
-        id: 30,
-        attributeName: 'truthful',
-        name: 'Distrust',
-        description: 'Distrust is being careful around those who may have poor intent - but God is Truth, which builds trust.',
-        group: 'Afraid',
-    groupId: 4},
+    attributeName: 'truthful',
+    name: 'Distrust',
+    description: 'Distrust is being careful around those who may have poor intent - but God is Truth, which builds trust.',
+    group: 'Afraid'},
     {
-        id: 31,
-        attributeName: 'unique',
-        name: 'Humiliation',
-        description: 'Humiliation may deliberately cause pain to my reputation - but it changes not how a Unique God sees me.',
-        group: 'Sad',
-    groupId: 2},
+    attributeName: 'unique',
+    name: 'Humiliation',
+    description: 'Humiliation may deliberately cause pain to my reputation - but it can never change how a Unique God sees me.',
+    group: 'Sad'},
     {
-        id: 32,
-        attributeName: 'wise',
-        name: 'Regret',
-        description: 'Regret is Sad that follows an earlier action - but God is Wise and gives Wisdom to go forward.',
-        group: 'Afraid',
-    groupId: 4},
+    attributeName: 'wise',
+    name: 'Regret',
+    description: 'Regret is sadness that follows my earlier action - but God is Wise and gives me the wisdom to move forward.',
+    group: 'Sad'},
     {
-        id: 3,
-        attributeName: 'wrathful',
-        name: 'Contempt',
-        description: 'Contempt looks down on another and is driven by hate - but God is Wrathful, which is driven by love.',
-        group: 'Angry',
-    groupId: 3
-    }
+    attributeName: 'wrathful',
+    name: 'Contempt',
+    description: 'Contempt looks down on another and is driven by hate - but God is Wrathful, which is driven by intense love.',
+    group: 'Angry'}
 ]
 
 export default emotionArray;
