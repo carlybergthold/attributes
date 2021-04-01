@@ -15,7 +15,7 @@ class Eternal extends Component {
     render() {
         return(
             <body className="attPage">
-            <Hero title="Eternal" subtitle="To exist independent of time" img="girl.png" />
+            <Hero title="Eternal" subtitle="To exist independent of time"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
                 <section id="sidebar">

@@ -15,7 +15,7 @@ class Gracious extends Component {
     render() {
         return(
             <body className="attPage">
-            <Hero title="Gracious" subtitle="To sacrificially love the undeserved" img="girl.png" />
+            <Hero title="Gracious" subtitle="To sacrificially love the undeserved"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
                 <section id="sidebar">

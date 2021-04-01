@@ -15,7 +15,7 @@ class Faithful extends Component {
     render() {
         return(
             <body className="attPage">
-            <Hero title="Faithful" subtitle="Able to be trusted" img="girl.png" />
+            <Hero title="Faithful" subtitle="Able to be trusted" />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
                 <section id="sidebar">

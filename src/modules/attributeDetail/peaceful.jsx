@@ -15,7 +15,7 @@ class Peaceful extends Component {
     render() {
         return(
             <body className="attPage">
-            <Hero title="Peaceful" subtitle="To be safe, whole, healthy and complete" img="girl.png" />
+            <Hero title="Peaceful" subtitle="To be safe, whole, healthy and complete"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
                 <section id="sidebar">

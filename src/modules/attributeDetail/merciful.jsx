@@ -11,7 +11,7 @@ class Merciful extends Component {
     render() {
         return(
             <div className="attPage">
-            <Hero title="Merciful" subtitle="To have compassion for those in need" img="girl.png" />
+            <Hero title="Merciful" subtitle="To have compassion for those in need"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
                 <section id="sidebar">

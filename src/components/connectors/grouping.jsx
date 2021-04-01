@@ -115,22 +115,17 @@ class Group extends Component {
     render() {
         return(
             <>
-                <div onClick={() => this.updateCurrentGroup(100)} className={this.state.currentGroupIndex === 100 ? "hidden" : ""}>Back to All</div>
+                <div onClick={() => this.updateCurrentGroup(100)} className={this.state.currentGroupIndex === 100 ? "hidden" : "is-hoverable back-to-all"}>Back to All</div>
                 <div className="connectorContainer">
             {
                 this.state.struggle.map((x, index) =>
                     <div
                         key={x.name}
-                        className={`card connector-card ${this.state.currentGroupIndex === 100 || this.state.currentGroupIndex === index ? "" : "hidden"}`}
+                        className={`card connector-card is-hoverable ${this.state.currentGroupIndex === 100 || this.state.currentGroupIndex === index ? "" : "hidden"}`}
                         onClick={() => this.updateCurrentGroup(index)}
                     >
                         <div className="card-content">
                             <div className="media">
-                                {/* <div className="media-left">
-                                    <figure className="image is-48x48">
-                                        <img src={PleasureSVG} alt="pleasure"></img>
-                                    </figure>
-                                </div> */}
                                 <div className="media-content">
                                     <p className="title is-4">{this.getGroupName(index)}</p>
                                 </div>
@@ -144,7 +139,10 @@ class Group extends Component {
             }
             </div>
 
-            <GroupingDetail connector={this.props.connector} groupId={this.getGroupId(this.state.currentGroupIndex)}></GroupingDetail>
+            <GroupingDetail
+                connector={this.props.connector}
+                groupId={this.getGroupId(this.state.currentGroupIndex)}
+            ></GroupingDetail>
         </>
         )
     }

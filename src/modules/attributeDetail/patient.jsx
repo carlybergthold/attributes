@@ -15,7 +15,7 @@ class Patient extends Component {
     render() {
         return(
             <body className="attPage">
-            <Hero title="Patient" subtitle="To bear with suffering caused by others" img="girl.png" />
+            <Hero title="Patient" subtitle="To bear with suffering caused by others"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
                 <section id="sidebar">

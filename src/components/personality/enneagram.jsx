@@ -14,7 +14,7 @@ class Enneagram extends Component {
         return(
             <>
             <div className="page">
-            <Hero title="Enneagram" img="girl.png"/>
+            <Hero title="Enneagram" />
                 <div>
                         {
                             enneagramArray.map((e, index) =>

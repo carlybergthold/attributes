@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bulma": "^0.8.2",
+    "bulma": "^0.9.0",
     "bulma-extensions": "^6.2.7",
     "cors": "^2.8.5",
-    "cors-anywhere": "^0.4.3",
+    "cors-anywhere": "^0.4.4",
     "feather-icons": "^4.7.0",
     "firebase": "^7.24.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.6.0",
     "jquery-waypoints": "^2.0.5",
     "jquery.counterup": "^2.1.0",
     "linq": "^3.2.3",
@@ -20,7 +20,7 @@
     "react-scripts": "3.2.0",
     "scrollreveal": "^3.4.0",
     "slick-carousel": "^1.8.1",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.9"
   },
   "scripts": {
     "start": "react-scripts start",

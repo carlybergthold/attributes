@@ -34,9 +34,9 @@ import {ReactComponent as TruthfulIcon} from '../images/attributeIcons/SVG/truth
 import {ReactComponent as UniqueIcon} from '../images/attributeIcons/SVG/unique.svg';
 import {ReactComponent as WrathfulIcon} from '../images/attributeIcons/SVG/wrathful.svg';
 import {ReactComponent as WiseIcon} from '../images/attributeIcons/SVG/wise.svg';
-import FearIcon from "../assets/img/icons/fear.svg";
-import StrugglesIcon from "../assets/img/icons/struggle.svg";
-import EmotionIcon from "../assets/img/icons/emotion.svg";
+import FearIcon from "../assets/img/icons/connectors/fear.svg";
+import StrugglesIcon from "../assets/img/icons/connectors/struggle.svg";
+import EmotionIcon from "../assets/img/icons/connectors/emotion.svg";
 import Face1 from "../assets/img/illustrations/faces/1.png";
 import Face2 from "../assets/img/illustrations/faces/2.png";
 import Face3 from "../assets/img/illustrations/faces/3.png";
@@ -111,26 +111,26 @@ class Home extends React.Component {
     return(
       <>
         <div id="home-hero" className="hero-body">
-                <div className="container">
-                    <div className="columns is-vcentered">
-                        <div className="column is-5 is-offset-1 landing-caption">
-                            <h1 className="title is-1 is-bold is-spaced">
-                                Are you in God's image?
-                            </h1>
-                            <h2 className="subtitle is-5 is-muted"> To answer this question, you have to know both yourself and God. This website will help you see how much you really are like God - and how you are not!</h2>
-                            <div className="button-wrap">
-                                <span className="button is-rounded is-primary raised">
-                                    <Link to="/quiz">Take the Quiz</Link>
-                                </span>
-                            </div>
-                        </div>
-                        <div className="column is-5">
-                            <figure className="image">
-                                <img src={Thought} alt="Description" id="home-illustration"></img>
-                            </figure>
+            <div className="container">
+                <div className="columns is-vcentered">
+                    <div className="column is-5 is-offset-1 landing-caption">
+                        <h1 className="title is-1 is-bold is-spaced">
+                            Are you in God's image?
+                        </h1>
+                        <h2 className="subtitle is-5 is-muted"> To answer this question, you have to know both yourself and God. This website will help you see how much you really are like God - and how you are not!</h2>
+                        <div className="button-wrap">
+                            <span className="button is-rounded is-primary raised">
+                                <Link to="/quiz">Take the Quiz</Link>
+                            </span>
                         </div>
                     </div>
+                    <div className="column is-5">
+                        <figure className="image">
+                            <img src={Thought} alt="Description" id="home-illustration"></img>
+                        </figure>
+                    </div>
                 </div>
+            </div>
         </div>
 
         <section className="section is-medium has-background-image" style={{backgroundImage: `url(https://source.unsplash.com/g30P1zcOzXo/1600x900)`}} data-color="#4FC1EA" data-color-opacity=".6">
@@ -201,6 +201,7 @@ class Home extends React.Component {
             <div className="container">
                 <div className="title-wrapper has-text-centered">
                     <h2 className="title is-2">Discover the attributes of God.</h2>
+                    <h3 className="subtitle is-5">Which attribute will you discover today?</h3>
                     <div className="divider is-centered"></div>
                 </div>
 

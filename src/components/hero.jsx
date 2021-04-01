@@ -23,7 +23,7 @@ class Hero extends Component {
         var backgroundColor = { backgroundColor: styleMethods.getAttributeColor(this.props.title) };
 
         return(
-        <section className="hero is-small" style={backgroundColor}>
+        <section className="hero" style={backgroundColor}>
             <div className="hero-body">
                 <div className={`container heroContainer ${this.props.title}`}>
                     {

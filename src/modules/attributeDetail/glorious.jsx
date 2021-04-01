@@ -15,7 +15,7 @@ class Glorious extends Component {
     render() {
         return(
             <body className="attPage">
-            <Hero title="Glorious" subtitle="Who God is" img="girl.png" />
+            <Hero title="Glorious" subtitle="Who God is"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
                 <section id="sidebar">
