@@ -28,18 +28,18 @@ class Loving extends Component {
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>Loving means to willingly self-sacrifice for the good of another without it being deserved or requiring reciprocation.
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">This is a definition from Paul Tripp which reflects Biblical love, which is quite different from what is normally meant in American culture.  It is most often found within a family in which the love relationship overrules all else. </p>
-                  <p className="is-size-6 leading-normal padded">There are 40.4 million unpaid caregivers of adults ages 65 and older in the United States. These older adults are often parents or grandparents of the caregivers, who themselves are often balancing paid employment with this work of the heart. Among those who have helped their parents with finances, errands, housework, home repairs or personal care – 88% say it’s rewarding. - Bureau of Labor Statistics and Pew Research Center data from 2013-14</p>
+                  <p className="is-size-6 leading-normal padded">This definition from Paul Tripp reflects Biblical love, which is quite different from how love is normally defined in American culture.  This sacrificial love is most often found within a family in which the love relationship overrules all else. </p>
+                  <p className="is-size-6 leading-normal padded">There are 40.4 million unpaid caregivers of adults ages 65 and older in the United States. These older adults are often parents or grandparents of the caregivers, who themselves are often balancing paid employment with this work of the heart. Among those who have helped their parents with finances, errands, housework, home repairs or personal care, 88% say it’s rewarding (Bureau of Labor Statistics and Pew Research Center data from 2013-14).</p>
                   <p className="is-size-6 leading-normal padded">“To be loved but not known is comforting but superficial. To be known and not loved is our greatest fear. But to be fully known and truly loved is, well, a lot like being loved by God. It is what we need more than anything. It liberates us from pretense, humbles us out of our self-righteousness, and fortifies us for any difficulty life can throw at us.” - Tim Keller</p>
-                  <p className="is-size-6 leading-normal padded">This quote not only points out my greatest fear, but also explains why my shame can hurt so much.  I know my flaws well and the shame of uncovering them could certainly drive others away.  But the quote also points to the solution - when I feel unconditionally loved, it frees me to love others.</p>
+                  <p className="is-size-6 leading-normal padded">Keller's quote not only points out my greatest fear, but also explains why my shame can hurt so much.  I know my flaws well and am afraid the shame of uncovering them could drive others away.  But the quote also points to the solution - when I feel unconditionally loved, it frees me to love others.</p>
                 </div>
 
                 <div className="attSection" id="emotion">
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>What is the difference between guilt and shame?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Guilt says “I did something bad” while shame says “I am bad.” Shame attacks my very being and self-worth.  A believer’s worth comes from identity in Christ (link to “Who you are in Christ”) instead of maintaining a certain performance level.</p>
-                  <p className="is-size-6 leading-normal padded">From the shameful position of the cross, Christ publicly identified with His trusted Father by saying “Into your hands I commit my spirit”.  When I am “all in” with God, His love overrules feelings of shame that I or others may generate.</p>
+                  <p className="is-size-6 leading-normal padded">Guilt says “I DID something bad,” while shame says “I AM bad.” Shame attacks my very being and self-worth.  A believer’s worth comes from identity in Christ (future link to “Who you are in Christ”) instead of maintaining a certain performance level.</p>
+                  <p className="is-size-6 leading-normal padded">People intended to shame Jesus by hanging Him on the cross, but instead of personalizing that shameful punishment, Christ publicly identified with His trusted Father by saying, “Into your hands I commit my spirit.”  When we are “all in” with God, His love overrules feelings of shame that we or others may generate.</p>
                   <br></br>
                   <Quote scripture="In you, O LORD, do I take refuge; let me never be put to shame; in your righteousness deliver me! Incline your ear to me; rescue me speedily! Be a rock of refuge for me, a strong fortress to save me!   For you are my rock and my fortress; and for your name’s sake you lead me and guide me; you take me out of the net they have hidden for me, for you are my refuge. Into your hand I commit my spirit; you have redeemed me, O LORD, faithful God.  I hate those who pay regard to worthless idols, but I trust in the LORD. I will rejoice and be glad in your steadfast love, because you have seen my affliction; you have known the distress of my soul, and you have not delivered me into the hand of the enemy; you have set my feet in a broad place." reference="Psalm 31:1-8" color="var(--teal)"/>
                 </div>
@@ -60,13 +60,13 @@ class Loving extends Component {
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>What if I just don’t feel like loving someone right now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">How totally right and wrong the Beatles lyrics are in “All You Need Is Love”.  If love is defined as God, all we truly need is love.  Otherwise, love is a competing god or a magical ingredient that should make life easier.  True love is never easy, yet it is “everything”.  True love takes loving action even when there is no feeling pushing it along.</p>
+                  <p className="is-size-6 leading-normal padded">How totally right and wrong the Beatles lyrics are in “All You Need Is Love.”  If love is defined as God, all we truly need is love.  Otherwise, love is a competing god or a magical ingredient that should make life easier.  True love is never easy, since it includes self-sacrifice. Yet it is “everything” in that loving God and others is what we will do when we are knowing and obeying Christ.  True love takes loving action even when there is no feeling pushing it along.</p>
                   <p className="is-size-6 leading-normal padded">"Nothing you can make that can't be made
 No one you can save that can't be saved
 Nothing you can do, but you can learn how to be you in time
 It's easy"
       "All You Need is Love" - Beatles</p>
-                  <p className="is-size-6 leading-normal padded">Brian Epstein, the band's manager, said of "All You Need Is Love": "It was an inspired song and they really wanted to give the world a message. The nice thing about it is that it cannot be misinterpreted. It is a clear message saying that love is everything."</p>
+                  <p className="is-size-6 leading-normal padded">Brian Epstein, the band's manager, said of "All You Need Is Love:" "It was an inspired song and they really wanted to give the world a message. The nice thing about it is that it cannot be misinterpreted. It is a clear message saying that love is everything."</p>
                   <br></br>
                   <Quote scripture="God is love.  But love is not God. Don't turn love into a god." reference="Scott Patty" color="var(--teal)"/>
                 </div>
@@ -74,7 +74,7 @@ It's easy"
                 <div className="attSection" id="whoAmI">
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>Only God is love and the source of all love.</h1></section>
-                  <p className="is-size-6 leading-normal padded">Believing that I can fully love another without God's help dismisses His loving initiative and presence in my life. Without God, I invariably act in ways to maximize my own good, even if it has the appearance of self-sacrifice.</p>
+                  <p className="is-size-6 leading-normal padded">Believing that I can fully love another without God's help dismisses His loving initiative and presence in my life. Without God, I invariably act in ways to maximize my own good, even if my actions have the appearance of self-sacrifice.</p>
                   <br></br>
                   <Quote scripture="We love because he first loved us." reference="1 John 4:19" color="var(--teal)"/>
                 </div>
@@ -82,7 +82,7 @@ It's easy"
                 <div className="attSection" id="biblicalChristianity">
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>Jesus willingly gave His life for our good.</h1></section>
-                  <p className="is-size-6 leading-normal padded">Jesus willingly gave His life because it provided the greatest good (eternal life with God) to those who did not deserve it or who could never pay it back (all believers).</p>
+                  <p className="is-size-6 leading-normal padded">Jesus willingly sacrificed His life because it provided the greatest good (eternal life with God) to those who did not deserve it or who could never pay it back (all believers).</p>
                   <Quote scripture="For God so loved the world that He gave His one and only Son, that whoever believes in Him shall not perish but have eternal life." reference="John 3:16" color="var(--teal)"/>
                 </div>
 
@@ -90,7 +90,7 @@ It's easy"
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Be committed to a secure (covenantal) relationship - first with Christ and then another, such as within a good marriage, church body, or friendship. Consider all my daily work first and foremost as a way to love and serve others.  <br></br>Ask: How am I loving others (according to the definition above)?</p>
+                  <p className="is-size-6 leading-normal padded">Be committed to a secure (covenantal) relationship - first with Christ. Then I'll be able to be lovingly committed to another, such as within a good marriage, church body, or friendship. Consider all my daily work first and foremost as a way to love and serve others.  <br></br>Ask: How am I willingly self-sacrificiing for the good of another without it being deserved or requiring reciprocation?</p>
                   <Quote scripture="And this commandment we have from him: whoever loves God must also love his brother." reference="1 John 4:21" color="var(--teal)"/>
                 </div>
 
@@ -115,8 +115,8 @@ It's easy"
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>Arranged marriage versus marriage for love?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Arranged marriages are often considered the opposite of marrying for love, but that perspective is short-sighted.  Arranged marriages were predominant for centuries and are still customary in some cultures today.  Often these matches turned loving when the mutual aim was for what was best for the family - socially, financially, etc.  These couplings were understood to require adaptation to the other versus the modern notion of wanting a spouse who will best serve my needs.  Selfish attraction often fails to generate true love.</p>
-                  <p className="is-size-6 leading-normal padded">"Marriage was a way of turning strangers into relatives, of making peace, and of making permanent trading connections." - 14th century marriage mindset</p>
+                  <p className="is-size-6 leading-normal padded">Arranged marriages are often considered the opposite of marrying for love, but that perspective is short-sighted.  Arranged marriages were predominant for centuries and are still customary in some cultures today.  Often these matches turned loving when the mutual aim was for what was best for the family - socially, financially, etc.  These couplings were understood to require adaptation to the other versus the modern notion of wanting a spouse who will best serve our needs.  Selfish attraction often fails to generate true love.</p>
+                  <p className="is-size-6 leading-normal padded">"Marriage was a way of turning strangers into relatives, of making peace, and of making permanent trading connections". - 14th century marriage mindset</p>
                   <p className="is-size-6 leading-normal padded">"Husbands, love your wives, just as Christ loved the church and gave Himself up for her." - Ephesians 5:25</p>
                   <p className="is-size-6 leading-normal padded">The love of Christ allows us to enter into a marriage relationship that is very similar to the 14th century marriage mindset.  It transforms a stranger (even enemy) of God into a relative (even brother or sister). It brings peace with God where there was once eternal conflict and resulting judgment and wrath.  And it makes permanent (eternal) trading connections - prayer, fruit, sanctification, glory, and resurrected body.</p>
                 </div>
