@@ -14,7 +14,7 @@ class MyersBriggs extends Component {
         return(
             <>
             <div className="page">
-            <Hero title="Myers Briggs" img="girl.png" />
+            <Hero title="Myers Briggs"  />
                 <div>
                     {
                     myersBriggsArray.map((m, index) =>

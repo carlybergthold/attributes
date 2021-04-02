@@ -5,7 +5,6 @@ import fire from "../config/fire"
 import "../styles/quiz.css"
 import Hero from '../components/hero'
 
-
 class Quiz extends Component {
 
   constructor(props){
@@ -14,6 +13,7 @@ class Quiz extends Component {
     this.state = {
       startingIndex: 1,
       endingIndex: 6,
+      page: 1,
       questions: []
     }
   }
@@ -27,11 +27,12 @@ class Quiz extends Component {
     let radios = document.querySelectorAll('input');
     let checkedRadios = [];
     let button = document.querySelector('.quiz-btn');
+    let modal = document.querySelector('.modal');
 
     radios.forEach(radio => {if (radio.checked) checkedRadios.push(radio.key)});
 
     if (checkedRadios.length < this.state.questions.length) {
-      alert('Please select one option in each question.');
+      modal.classList.add("is-active");
       return;
     } else {
       this.updateUserAttributes();
@@ -100,54 +101,87 @@ class Quiz extends Component {
     let newStart = this.state.startingIndex + 6;
     let newEnd = this.state.endingIndex + 6;
     let button = document.querySelector('.quiz-btn');
+    this.setState({ page: this.state.page + 1})
 
     this.setState( {startingIndex: newStart, endingIndex: newEnd}, () => this.getQuestions());
 
     if (newEnd >= questions.length) button.textContent = 'Submit';
   };
 
+  backClick = () => {
+    let newStart = this.state.startingIndex - 6;
+    let newEnd = this.state.endingIndex - 6;
+
+    this.setState({ page: this.state.page - 1})
+    this.setState( {startingIndex: newStart, endingIndex: newEnd}, () => this.getQuestions());
+  }
+
+  closeModal = () => {
+    document.querySelector('.modal').classList.remove("is-active");
+  }
+
   render() {
     return(
       <div className='page'>
-      <Hero title="Take the Quiz!" img="girl.png" />
-      <div className="quizPage container">
-      <section id="quiz-flex">
-      {
-        this.state.questions
-        .map(q =>
-          <div key={q.id} id={q.id} className="question-card">
-            <p className="question-header">{q.id}. {q.question}</p>
-              <div className="question-inputs">
-                <label className="radio">
-                <input type="radio" className="is-hidden" disabled></input>
-                Least like me</label>
+        <Hero title="Take the Quiz!" icon="../images/attributeIcons/SVG/good.svg"/>
+        <div className="quizPage container">
+          <section id="quiz-flex">
+        {
+          this.state.questions
+          .map(q =>
+            <div key={q.id} id={q.id} className="question-card">
+              <p className="question-header">{q.id}. {q.question}</p>
+                <div className="question-inputs">
+                  <label className="radio">
+                  <input type="radio" className="is-hidden" disabled></input>
+                  Least like me</label>
 
-                <input type="radio" value="1" className={`${q.attribute}-${q.category}`} name={q.id}></input>
+                  <input type="radio" value="1" className={`${q.attribute}-${q.category}`} name={q.id}></input>
 
-                <input type="radio" value="2" className={`${q.attribute}-${q.category}`} name={q.id}></input>
+                  <input type="radio" value="2" className={`${q.attribute}-${q.category}`} name={q.id}></input>
 
-                <input type="radio" value="3" className={`${q.attribute}-${q.category}`} name={q.id}></input>
+                  <input type="radio" value="3" className={`${q.attribute}-${q.category}`} name={q.id}></input>
 
-                <input type="radio" value="4" className={`${q.attribute}-${q.category}`} name={q.id}></input>
+                  <input type="radio" value="4" className={`${q.attribute}-${q.category}`} name={q.id}></input>
 
-                <label className="radio">
-                <input type="radio" value="5" className={`${q.attribute}-${q.category}`} name={q.id}></input>
-                Most like me</label>
+                  <label className="radio">
+                  <input type="radio" value="5" className={`${q.attribute}-${q.category}`} name={q.id}></input>
+                  Most like me</label>
 
+                </div>
+            </div>
+            )
+            }
+          </section>
+          <div>
+          <section className="section quiz-footer">
+            <div className="control">
+              <button className="button is-outlined is-primary is-large" disabled={this.state.startingIndex === 1} onClick={this.backClick}>Back</button>
+              <button className="button is-primary is-large quiz-btn" onClick={this.validateQuiz} type="submit">
+              Next</button>
+              <div className="is-flex progess-bar">
+                <span>{this.state.page}</span>
+                <progress className="progress" value={this.state.page} max="16"></progress>
+                <span>16</span>
               </div>
+            </div>
+          </section>
           </div>
-          )
-          }
-        </section>
-        <div>
-        <section className="section quiz-footer">
-          <div className="control">
-          <button className="button is-primary is-large quiz-btn" onClick={this.validateQuiz} type="submit">
-          Next Page</button>
-          </div>
-        </section>
         </div>
-      </div>
+        <div className="modal">
+          <div className="modal-background"></div>
+          <div className="modal-card">
+            <header className="modal-card-head is-flex justify-end">
+              <button className="delete" aria-label="close" onClick={this.closeModal}></button>
+            </header>
+            <section className="modal-card-body">
+              Please select an answer for each question before moving ahead!
+            </section>
+            <footer className="modal-card-foot is-flex justify-end">
+              <button className="button" onClick={this.closeModal}>Okay</button>
+            </footer>
+          </div>
+        </div>
       </div>
     )
   }

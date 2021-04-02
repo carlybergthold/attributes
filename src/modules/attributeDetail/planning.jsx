@@ -15,7 +15,7 @@ class Planning extends Component {
     render() {
         return(
             <body className="attPage">
-            <Hero title="Planning" subtitle="To perfectly fit everything together" img="girl.png" />
+            <Hero title="Planning" subtitle="To perfectly fit everything together"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
                 <section id="sidebar">

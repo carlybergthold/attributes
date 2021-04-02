@@ -1,28 +1,25 @@
 .hero {
-    background-color: var(--teal);
+  background-color: var(--teal);
+  padding-top: 3rem;
 }
 
 .heroContainer {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .heroTitle {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 5rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5rem;
 }
 
 #heroTitle {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 #heroSubtitle {
-    margin-top: 0;
-}
-
-#heroImage {
-    fill: #ffffff;
+  margin-top: 0;
 }

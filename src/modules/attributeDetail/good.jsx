@@ -15,7 +15,7 @@ class Good extends Component {
     render() {
         return(
             <body className="attPage">
-            <Hero title="Good" subtitle="All that pleases" img="girl.png" />
+            <Hero title="Good" subtitle="All that pleases"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
                 <section id="sidebar">

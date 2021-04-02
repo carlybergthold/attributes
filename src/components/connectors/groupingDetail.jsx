@@ -58,7 +58,7 @@ class GroupingDetail extends Component {
                     .map(group =>
                         <div
                             key={group.description}
-                            className="card"
+                            className="card is-hoverable"
                             onClick={() => this.handleClick(group.name, group.attributeName)}
                         >
                             <div className="card-content">
@@ -71,7 +71,7 @@ class GroupingDetail extends Component {
                 }
             </div>
             <section className="connectorContainer" id="groupConnector">
-                <div className={`card ${this.state.attribute ? "" : "hidden"}`}>
+                <div className={`card connector-card ${this.state.attribute && this.props.groupId ? "" : "hidden"}`}>
                     <div className="card-content">
                         <p className="title is-4 is-capitalized">{this.state.attribute}</p>
                         <div className="content card-desc">

@@ -15,7 +15,7 @@ class Omnipotent extends Component {
     render() {
         return(
             <div className="attPage">
-            <Hero title="Omnipotent" subtitle="To have unlimited power and authority" img="girl.png" />
+            <Hero title="Omnipotent" subtitle="To have unlimited power and authority"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
                 <section id="sidebar">

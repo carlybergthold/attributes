@@ -15,7 +15,7 @@ class Invisible extends Component {
     render() {
         return(
             <body className="attPage">
-            <Hero title="Invisible" subtitle="To exist beyond our current senses" img="girl.png" />
+            <Hero title="Invisible" subtitle="To exist beyond our current senses"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
                 <section id="sidebar">

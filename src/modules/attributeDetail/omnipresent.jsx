@@ -15,7 +15,7 @@ class Omnipresent extends Component {
     render() {
         return(
             <body className="attPage">
-            <Hero title="Omnipresent" subtitle="To exist everywhere." img="girl.png" />
+            <Hero title="Omnipresent" subtitle="To exist everywhere."  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
                 <section id="sidebar">

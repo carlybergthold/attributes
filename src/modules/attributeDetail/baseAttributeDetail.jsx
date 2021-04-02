@@ -13,7 +13,7 @@ class BaseAttributeDetail extends Component {
     render() {
         return(
             <div>
-            <Hero title={this.props.title} subtitle={this.props.subtitle} img="girl.png" />
+            <Hero title={this.props.title} subtitle={this.props.subtitle}  />
 
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">

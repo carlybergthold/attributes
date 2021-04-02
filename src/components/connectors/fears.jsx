@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import Hero from '../hero'
 import Grouping from '../connectors/grouping'
 import '../../styles/connectors.css'
-
+import FearIcon from "../../images/connectors/fear.svg";
 
 class Fears extends Component {
 
@@ -13,9 +12,18 @@ class Fears extends Component {
     render() {
         return(
             <>
-            <Hero title="Fears" />
+            <section className="hero">
+            <div className="hero-body">
+                <div className="container heroContainer">
+                <img src={FearIcon} alt="fear"></img>
+
+                    <section className="heroTitle">
+                        <h1 className="title light-text" id="heroTitle">What are you afraid of?</h1>
+                    </section>
+                </div>
+            </div>
+        </section>
                 <section className="has-text-centered">
-                    <h1 className="title is-1 is-bold is-spaced">What are you afraid of?</h1>
                     <Grouping connector="fear"/>
                 </section>
             </>

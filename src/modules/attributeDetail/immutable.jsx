@@ -15,7 +15,7 @@ class Immutable extends Component {
     render() {
         return(
             <body className="attPage">
-            <Hero title="Immutable" subtitle="To be fully consistent or unchanging." img="girl.png" />
+            <Hero title="Immutable" subtitle="To be fully consistent or unchanging."  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
                 <section id="sidebar">

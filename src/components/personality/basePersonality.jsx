@@ -21,7 +21,9 @@ class BasePersonality extends Component {
                             </h1>
                             <h2 className="subtitle is-5 is-muted">{this.props.description}</h2>
                             <h2 className="subtitle is-5 is-muted has-text-weight-bold">{this.props.connector}</h2>
-                            <h5><Link to={`/attributes/${this.props.attribute}`} className="link">Go to {this.props.attribute}</Link></h5>
+                            <button className="is-large is-size-5">
+                                <Link to={`/attributes/${this.props.attribute}`}>Go to {this.props.attribute}</Link>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -40,7 +42,9 @@ class BasePersonality extends Component {
                             </h1>
                             <h2 className="subtitle is-5 is-muted">{this.props.description}</h2>
                             <h2 className="subtitle is-5 is-muted has-text-weight-bold">{this.props.connector}</h2>
-                            <h5><Link to={`/attributes/${this.props.attribute}`} className="link">Go to {this.props.attribute}</Link></h5>
+                            <button className="is-large is-size-5">
+                                <Link to={`/attributes/${this.props.attribute}`}>Go to {this.props.attribute}</Link>
+                            </button>
                         </div>
                         <div className="column is-5">
                             <figure className="image">

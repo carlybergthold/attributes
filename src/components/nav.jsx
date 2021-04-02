@@ -5,18 +5,18 @@ import '../styles/nav.scss'
 
 class TopNav extends Component {
 
-    constructor(props){
-        super(props);
+    // constructor(props){
+    //     super(props);
 
-        this.state = {
-            navBackground: 'white'
-        }
-    }
+    //     this.state = {
+    //         navBackground: 'white'
+    //     }
+    // }
 
     render() {
         return (
             <>
-            <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor: this.state.navBackground}}>
+            <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
                 <Link to="/home" className="navbar-item">
                     Home
@@ -37,7 +37,7 @@ class TopNav extends Component {
                 </div>
 
                 <span className="navbar-item">
-                <Link to="/quiz">Take the Quiz</Link>
+                <Link to="/quiz">Quiz</Link>
                 </span>
 
                 {/* <span className="navbar-item">
@@ -54,7 +54,7 @@ class TopNav extends Component {
                     <div className="nested navbar-item dropdown">
                         <div className="dropdown-trigger">
                         <button aria-haspopup="true" aria-controls="dropdown-menu">
-                            <Link to="/personality">By Personality</Link>
+                            <Link to="/enneagram">By Personality</Link>
                             <span className="icon is-small">
                                 <i className="fas fa-angle-down" aria-hidden="true"></i>
                             </span>

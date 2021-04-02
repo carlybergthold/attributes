@@ -15,7 +15,7 @@ class Sovereign extends Component {
     render() {
         return(
             <body className="attPage">
-            <Hero title="Sovereign" subtitle="To be lord and king" img="girl.png" />
+            <Hero title="Sovereign" subtitle="To be lord and king"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
                 <section id="sidebar">

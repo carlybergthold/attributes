@@ -14,7 +14,7 @@ class DISC extends Component {
         return(
             <>
             <div className="page">
-                <Hero title="DISC" img="girl.png" />
+                <Hero title="DISC"  />
                 <div>
                     {
                         discArray.map((d, index) =>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Hero from '../hero'
 import Grouping from '../connectors/grouping'
 import '../../styles/connectors.css'
+import StrugglesIcon from "../../images/connectors/struggle.svg";
 
 class Struggles extends Component {
 
@@ -12,9 +12,18 @@ class Struggles extends Component {
     render() {
         return(
             <>
-            <Hero title="Struggles" />
+            <section className="hero">
+            <div className="hero-body">
+                <div className={`container heroContainer`}>
+                <img src={StrugglesIcon} alt="Struggles"></img>
+
+                    <section className="heroTitle">
+                        <h1 className="title light-text" id="heroTitle">What are you struggling with the most today?</h1>
+                    </section>
+                </div>
+            </div>
+        </section>
             <section className="has-text-centered">
-                <h1 className="title is-1 is-bold is-spaced">What are you struggling with the most today?</h1>
                 <Grouping connector="struggle" />
             </section>
             </>
