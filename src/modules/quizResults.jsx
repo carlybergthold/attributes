@@ -3,7 +3,10 @@ import { withRouter, Link } from "react-router-dom"
 import fire from '../config/fire'
 import '../styles/testScores.css'
 import attArray from '../data/attributeArray'
-import Face1 from "../assets/img/illustrations/faces/1.png";
+import styleMethods from "../methods/styleMethods";
+import One from "../images/one.png";
+import Two from "../images/two.png";
+import Three from "../images/three.png";
 
 class QuizResults extends React.Component {
 
@@ -63,6 +66,18 @@ class QuizResults extends React.Component {
     return att !== undefined ? att.description : ""
   }
 
+  getPNG = (index) => {
+    if (index === 0) {
+      return One
+    }
+    if (index === 1) {
+      return Two
+    }
+    if (index === 2) {
+      return Three
+    }
+  }
+
   render() {
     return(
         <>
@@ -74,17 +89,22 @@ class QuizResults extends React.Component {
             <div className="content-wrapper homepage-personality">
               <div className="columns is-vcentered">
                 {
-                  this.state.topReflections.map(attribute =>
-                  <div key={attribute} className="column is-4">
+                  this.state.topReflections.map((attribute, index) =>
+                  <div key={index} className="column is-4">
                       <figure className="testimonial has-text-centered">
                           <blockquote className="result-description">
                             <span className="is-capitalized">{attribute}</span>
                             <br></br>
                             <span className="has-text-weight-normal">{this.getDescription(attribute)}</span>
+                          <figure>
+                          {
+                            styleMethods.getIcon(attribute, styleMethods.getAttributeColor(attribute))
+                          }
+                          </figure>
                           </blockquote>
                           <div className="author">
-                              <img src={Face1} alt=""></img>
-                              <h5><Link to={`/attributes/${attribute}`} className="link">Go to Attribute</Link></h5>
+                            <img src={this.getPNG(index)} alt="index"></img>
+                            <h5><Link to={`/attributes/${attribute}`} className="link">Go to {attribute}</Link></h5>
                           </div>
                       </figure>
                   </div>

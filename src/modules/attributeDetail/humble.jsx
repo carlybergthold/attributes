@@ -14,7 +14,7 @@ class Humble extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Humble" subtitle="To rightly consider yourself and elevate others"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -132,7 +132,7 @@ O Lamb of God, I come, I come." - 5th verse</p>
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

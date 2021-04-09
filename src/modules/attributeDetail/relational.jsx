@@ -14,7 +14,7 @@ class Relational extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Relational" subtitle="To relate to or interact with others"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -129,7 +129,7 @@ class Relational extends Component {
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

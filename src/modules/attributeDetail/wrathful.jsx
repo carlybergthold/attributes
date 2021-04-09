@@ -14,7 +14,7 @@ class Wrathful extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Wrathful" subtitle="A just and loving insistence on holiness and justice" icon="wrathful" />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -130,7 +130,7 @@ class Wrathful extends Component {
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

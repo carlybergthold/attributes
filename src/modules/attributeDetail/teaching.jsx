@@ -14,7 +14,7 @@ class Teaching extends Component {
 
     render() {
         return(
-          <body className="attPage">
+          <div className="attPage">
             <Hero title="Teaching" subtitle="To guide others perfectly"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -136,7 +136,7 @@ Lead me with heavnly light,<br></br>
                 </div>
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 }

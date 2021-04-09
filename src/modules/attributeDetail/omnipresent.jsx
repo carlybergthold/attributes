@@ -14,7 +14,7 @@ class Omnipresent extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Omnipresent" subtitle="To exist everywhere."  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -145,7 +145,7 @@ Help us know that Thou art present everywhere."</p>
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

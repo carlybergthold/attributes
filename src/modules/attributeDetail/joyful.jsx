@@ -14,7 +14,7 @@ class Joyful extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Joyful" subtitle="To be cheerful and glad"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -125,7 +125,7 @@ class Joyful extends Component {
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

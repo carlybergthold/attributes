@@ -14,7 +14,7 @@ class Providing extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Providing" subtitle="To see and meet the needs of another"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -137,7 +137,7 @@ Mount of Thy redeeming love." - First verse</p>
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

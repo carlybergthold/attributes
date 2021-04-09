@@ -14,7 +14,7 @@ class Omniscient extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Omniscient" subtitle="To know everything"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -124,7 +124,7 @@ His eye is on the sparrow, and I know He watches me."  (last verse)</p>
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

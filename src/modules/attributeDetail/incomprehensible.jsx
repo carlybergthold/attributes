@@ -14,7 +14,7 @@ class Incomprehensible extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Incomprehensible" subtitle="More than we can humanly fathom"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -128,7 +128,7 @@ class Incomprehensible extends Component {
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 
