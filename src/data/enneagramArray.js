@@ -46,7 +46,7 @@ const enneagramArray = [
     type: '7 - Enthusiast',
     description: 'I am the Busy, Fun-Loving Type: Spontaneous, Versatile, Distractible, and Scattered',
     attribute: 'Omnipresent',
-    attributeDescription: 'So God and I both like to be Omnipresent!',
+    connector: 'So God and I both like to be Omnipresent!',
     },
     {
         id: 8,

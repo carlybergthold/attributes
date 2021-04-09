@@ -14,7 +14,7 @@ class Immutable extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Immutable" subtitle="To be fully consistent or unchanging."  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -125,7 +125,7 @@ class Immutable extends Component {
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

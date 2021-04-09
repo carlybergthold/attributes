@@ -14,7 +14,7 @@ class Holy extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Holy" subtitle="To to be made worthy"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -129,7 +129,7 @@ Despite the numerical superiority of the Arab armies, Israel defended itself eac
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

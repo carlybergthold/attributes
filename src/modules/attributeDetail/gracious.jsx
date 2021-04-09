@@ -14,7 +14,7 @@ class Gracious extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Gracious" subtitle="To sacrificially love the undeserved"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -133,7 +133,7 @@ In her owns words - "For I had to do it–I knew that. The message that God forg
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

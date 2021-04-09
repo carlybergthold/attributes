@@ -91,7 +91,7 @@ class TopNav extends Component {
             </div>
             </div>
 
-            <a onClick={this.openSidebar} className="navbar-item is-hidden-desktop is-hidden-tablet">
+            <a onClick={this.openSidebar} className="navbar-item is-hidden-desktop is-hidden-tablet" href="/">
                 <div id="menu-icon-wrapper" className="menu-icon-wrapper">
                     <svg width="1000px" height="1000px" fill="848484">
                         <path className="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>

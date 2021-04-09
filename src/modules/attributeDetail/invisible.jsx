@@ -14,7 +14,7 @@ class Invisible extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Invisible" subtitle="To exist beyond our current senses"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -125,7 +125,7 @@ class Invisible extends Component {
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

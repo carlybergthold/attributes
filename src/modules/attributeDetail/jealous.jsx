@@ -14,7 +14,7 @@ class Jealous extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Jealous" subtitle="To desire the best  for our own"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -126,7 +126,7 @@ class Jealous extends Component {
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

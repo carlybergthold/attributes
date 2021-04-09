@@ -14,7 +14,7 @@ class Truthful extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Truthful" subtitle="To provide unobscured reality" icon="truthful" />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -136,7 +136,7 @@ class Truthful extends Component {
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

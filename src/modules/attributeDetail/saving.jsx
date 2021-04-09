@@ -14,7 +14,7 @@ class Saving extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Saving" subtitle="To provide a remedy or heal"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -139,7 +139,7 @@ In the precious blood of the Lamb" - First verse and chorus</p>
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

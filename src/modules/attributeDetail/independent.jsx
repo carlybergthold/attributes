@@ -14,7 +14,7 @@ class Independent extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Independent" subtitle="To depend on no others"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -130,7 +130,7 @@ class Independent extends Component {
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

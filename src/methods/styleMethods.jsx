@@ -42,6 +42,8 @@ const styleMethods = {
     },
 
     getIcon: (attribute, color) => {
+        attribute = attribute.charAt(0).toUpperCase() + attribute.slice(1);
+
         if (attribute === "Creative") {
             return <CreativeIcon fill={color} />
         }

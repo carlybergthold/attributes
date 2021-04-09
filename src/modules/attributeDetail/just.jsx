@@ -14,7 +14,7 @@ class Just extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Just" subtitle="To make all things right"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -125,7 +125,7 @@ class Just extends Component {
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 

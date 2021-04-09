@@ -14,7 +14,7 @@ class Sovereign extends Component {
 
     render() {
         return(
-            <body className="attPage">
+            <div className="attPage">
             <Hero title="Sovereign" subtitle="To be lord and king"  />
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -129,7 +129,7 @@ While I am waiting yielded and still  (1st verse)</p>
 
             </main>
             </div>
-          </body>
+          </div>
         )
     }
 
