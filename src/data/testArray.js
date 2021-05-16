@@ -21,7 +21,7 @@ const questionArray = [
     id: 4,
     attribute: 'creative',
     category: 'reflect',
-    question: 'I enjoy creating something new - music, art, literature, design, machines, crafts, food, photos, children, etc.'
+    question: 'I enjoy creating something new - music, art, literature, design, crafts, food, photos, children, etc.'
     },
     {
     id: 5,
@@ -33,7 +33,7 @@ const questionArray = [
     id: 6,
     attribute: 'creative',
     category: 'accept',
-    question: 'I gain insight and perspective into the world through connection with the One who created me.'
+    question: 'I gain insight and perspective into the world through a connection with God who created me.'
     },
     {
     id: 7,
@@ -105,7 +105,7 @@ const questionArray = [
     id: 18,
     attribute: 'good',
     category: 'accept',
-    question: 'I define good as whatever comes from God - not just what I want (i.e. what brings us pleasure and comfort).'
+    question: 'I define good as whatever comes from God - not just what I want or what brings me pleasure or comfort.'
     },
     {
     id: 19,
@@ -159,13 +159,13 @@ const questionArray = [
     id: 27,
     attribute: 'humble',
     category: 'accept',
-    question: 'I like who I am - a child of God.'
+    question: 'I believe that I am a child of God.'
     },
     {
     id: 28,
     attribute: 'immutable',
     category: 'reflect',
-    question: 'I like my own daily routines and habits (i.e. morning coffee, alone time, my \'to do\' list, etc.).'
+    question: 'I like my own daily routines and habits such as morning coffee, alone time, my \'to do\' list, etc.'
     },
     {
     id: 29,
@@ -189,7 +189,7 @@ const questionArray = [
     id: 32,
     attribute: 'incomprehensible',
     category: 'reject',
-    question: 'I believe that, given enough time and effort, man will collectively understand everything.'
+    question: 'I believe that, given enough time and effort, people will collectively understand everything.'
     },
     {
     id: 33,
@@ -219,7 +219,7 @@ const questionArray = [
     id: 37,
     attribute: 'invisible',
     category: 'reflect',
-    question: 'My intuition (or gut) is an important consideration in most of my decisions.'
+    question: 'My intuition or gut is an important consideration in most of my decisions.'
     },
     {
     id: 38,
@@ -231,7 +231,7 @@ const questionArray = [
     id: 39,
     attribute: 'invisible',
     category: 'accept',
-    question: 'I believe in and value a spiritual kingdom which I cannot physically see, but one that Jesus introduced while He was physically on earth.'
+    question: 'I believe in and value a current spiritual kingdom which I cannot physically see.'
     },
     {
     id: 40,
@@ -345,7 +345,7 @@ const questionArray = [
     id: 58,
     attribute: 'omnipresent',
     category: 'reflect',
-    question: 'I often would like to be two places at the same time.'
+    question: 'I often would like to be in two places at the same time.'
     },
     {
     id: 59,
@@ -453,7 +453,7 @@ const questionArray = [
     id: 76,
     attribute: 'saving',
     category: 'reflect',
-    question: 'I love to fix or restore things (or people) to their original condition.'
+    question: 'I love to fix or restore things (or people) to their intended condition.'
     },
     {
     id: 77,
@@ -465,7 +465,7 @@ const questionArray = [
     id: 78,
     attribute: 'saving',
     category: 'accept',
-    question: 'I accept the fact that I need God - I am hopelessly lost in sin without Jesus.'
+    question: 'I accept the fact that I am hopelessly lost in sin without Jesus.'
     },
     {
     id: 79,
@@ -567,7 +567,7 @@ const questionArray = [
     id: 95,
     attribute: 'wrathful',
     category: 'reject',
-    question: 'I see no wrath of God coming on others who do whatever they want, so I might as well do whatever I want during life while I can.'
+    question: 'I see no wrath of God coming on others who do whatever they want, so I might as well do whatever I want during life.'
     },
     {
     id: 96,
