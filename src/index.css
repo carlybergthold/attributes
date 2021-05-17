@@ -149,3 +149,19 @@ Link {
 .is-hoverable:hover {
   cursor: pointer;
 }
+
+.teal-background {
+  background-color: var(--teal);
+}
+
+.yellow-background {
+  background-color: var(--yellow);
+}
+
+.blue-background {
+  background-color: var(--blue);
+}
+
+.orange-background {
+  background-color: var(--orange);
+}
