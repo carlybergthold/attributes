@@ -6,6 +6,9 @@
 }
 .card {
   border-radius: 20px;
+  min-width: 220px;
+  max-width: 280px;
+  width: 100%;
 }
 .connector-card {
   width: 22rem;
@@ -23,4 +26,17 @@
   color: var(--orange);
   font-weight: 600;
   font-size: 1.2rem;
+}
+.media-image {
+  width: 5rem;
+  margin-top: 0.5rem;
+}
+.card-content {
+  align-items: center;
+}
+.struggle {
+  color: pink;
+}
+.grouping-detail .card {
+  max-width: 200px;
 }

@@ -44,19 +44,19 @@ class QuizResults extends React.Component {
                                     .orderByChild('reflect').limitToFirst(3);
 
       top3.on('value', snap => {
-        let foo = []
+        let topScores = []
         snap.forEach(att => {
-            foo.push(att.key)
+          topScores.push(att.key)
         });
-        this.setState({ topReflections: foo})
+        this.setState({ topReflections: topScores})
       });
 
       bottom3.on('value', snap => {
-        let foo = []
+        let bottomScores = []
         snap.forEach(att => {
-            foo.push(att.key)
+          bottomScores.push(att.key)
         });
-        this.setState({ bottomReflections: foo})
+        this.setState({ bottomReflections: bottomScores})
       });
   }
 
@@ -111,7 +111,39 @@ class QuizResults extends React.Component {
                     )
                 }
               </div>
+            </div>
           </div>
+
+          <div className='container'>
+            <div className="title-wrapper has-text-centered">
+              <h2 className="title is-2 is-spaced light-text">Your bottom three attributes:</h2>
+            </div>
+            <div className="content-wrapper homepage-personality">
+              <div className="columns is-vcentered">
+                {
+                  this.state.bottomReflections.map((attribute, index) =>
+                  <div key={index} className="column is-4">
+                      <figure className="testimonial has-text-centered">
+                          <blockquote className="result-description">
+                            <span className="is-capitalized">{attribute}</span>
+                            <br></br>
+                            <span className="has-text-weight-normal">{this.getDescription(attribute)}</span>
+                          <figure>
+                          {
+                            styleMethods.getIcon(attribute, styleMethods.getAttributeColor(attribute))
+                          }
+                          </figure>
+                          </blockquote>
+                          <div className="author">
+                            <img src={this.getPNG(index)} alt="index"></img>
+                            <h5><Link to={`/attributes/${attribute}`} className="link">Go to {attribute}</Link></h5>
+                          </div>
+                      </figure>
+                  </div>
+                    )
+                }
+              </div>
+            </div>
           </div>
         </section>
         </>

@@ -63,8 +63,9 @@ class BasePersonality extends Component {
 
     render() {
         return(
+             <div className={this.props.isMB ? 'personality-MB' : 'personality-box'}>
                 <div className="personality-column" id={this.props.type}>
-                    <h1 className="title is-1 is-bold is-spaced">
+                    <h1 className="title is-2 is-bold is-spaced">
                         {this.props.type}
                     </h1>
                     <h2 className="subtitle is-5 is-muted">{this.props.description}</h2>
@@ -81,6 +82,7 @@ class BasePersonality extends Component {
                         </div>
                     </Link>
                 </div>
+            </div>
         )
     }
 }

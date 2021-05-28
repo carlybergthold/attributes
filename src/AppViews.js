@@ -6,6 +6,7 @@ import Register from './components/users/register'
 import Login from './components/users/login.jsx'
 import TopNav from './components/nav.jsx'
 import Home from './modules/Home.jsx'
+import About from './modules/about.jsx'
 import Personality from './modules/personality'
 import Enneagram from './components/personality/enneagram'
 import MyersBriggs from './components/personality/myersBriggs'
@@ -41,7 +42,6 @@ import relational from './modules/attributeDetail/relational'
 import saving from './modules/attributeDetail/saving'
 import sovereign from './modules/attributeDetail/sovereign'
 import teaching from './modules/attributeDetail/teaching'
-// import shepherd from './modules/attributeDetail/shepherd'
 import truthful from './modules/attributeDetail/truthful'
 import unique from './modules/attributeDetail/unique'
 import wise from './modules/attributeDetail/wise'
@@ -55,6 +55,7 @@ class AppViews extends Component {
       <TopNav user={this.props.user} signOut={this.props.signOut} />
       <Route exact path="/" component={Home}  user={this.props.user} />
       <Route exact path="/home" component={Home}  user={this.props.user} />
+      <Route exact path="/about" component={About}  user={this.props.user} />
       <Route exact path="/quiz" render={(props) => (<Quiz {...props} user={this.props.user} /> )} />
       <Route exact path="/results" render={(props) => (<QuizResults {...props} user={this.props.user} /> )} />
       <Route exact path="/personality" component={Personality} user={this.props.user} />
@@ -104,7 +105,6 @@ class AppViews extends Component {
       <Route exact path="/attributes/saving" component={saving} user={this.props.user} />
       <Route exact path="/attributes/sovereign" component={sovereign} user={this.props.user} />
       <Route exact path="/attributes/teaching" component={teaching} user={this.props.user} />
-      {/* <Route exact path="/shepherd" component={shepherd} user={this.props.user} /> */}
       <Route exact path="/attributes/truthful" component={truthful} user={this.props.user} />
       <Route exact path="/attributes/unique" component={unique} user={this.props.user} />
       <Route exact path="/attributes/wise" component={wise} user={this.props.user} />

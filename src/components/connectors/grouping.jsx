@@ -6,6 +6,16 @@ import FearSVG from "../../images/explore/emotion/fear.svg";
 import PleasureSVG from "../../images/explore/emotion/pleasure.svg";
 import SadnessSVG from "../../images/explore/emotion/sadness.svg";
 
+import ControlSVG from "../../images/explore/fear/control.svg";
+import RejectionSVG from "../../images/explore/fear/rejection.svg";
+import ShameSVG from "../../images/explore/fear/shame.svg";
+import TroublesSVG from "../../images/explore/fear/troubles.svg";
+
+import SocialSVG from "../../images/explore/struggle/social.svg";
+import MentalSVG from "../../images/explore/struggle/mental.svg";
+import PhysicalSVG from "../../images/explore/struggle/physical.svg";
+import SpiritualSVG from "../../images/explore/struggle/spiritual.svg";
+
 class Group extends Component {
 
     constructor(props) {
@@ -112,6 +122,47 @@ class Group extends Component {
         })
     }
 
+    getImgSource(index) {
+        const foo = this.getGroupName(index);
+
+        if (this.props.connector === "emotion") {
+
+            if (foo === "Angry") {
+                return AngerSVG;
+            } else if (foo === "Afraid") {
+                return FearSVG;
+            } else if (foo === "Pleased") {
+                return PleasureSVG;
+            } else {
+                return SadnessSVG;
+            }
+
+        } else if (this.props.connector === "fear") {
+
+            if (foo === "Losing Control") {
+                return ControlSVG;
+            } else if (foo === "Being Rejected") {
+                return RejectionSVG;
+            } else if (foo === "Being Shamed") {
+                return ShameSVG;
+            } else {
+                return TroublesSVG;
+            }
+
+        } else { //struggle
+
+            if (foo === "Social") {
+                return SocialSVG;
+            } else if (foo === "Mental") {
+                return MentalSVG;
+            } else if (foo === "Spiritual") {
+                return SpiritualSVG;
+            } else {
+                return PhysicalSVG;
+            }
+        }
+    }
+
     render() {
         return(
             <>
@@ -130,6 +181,7 @@ class Group extends Component {
                                     <p className="title is-4">{this.getGroupName(index)}</p>
                                 </div>
                             </div>
+                            <img src={this.getImgSource(index)} alt="anger" className={`media-image ${this.props.connector}`}></img>
                             <div className={`content grouping-content ${this.state.currentGroupIndex === index ? "" : "hidden"}`} onClick={() => this.updateCurrentGroup(index)}>
                                 {this.getGroupDescription(index)}
                             </div>

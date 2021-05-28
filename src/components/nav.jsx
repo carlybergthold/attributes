@@ -27,6 +27,10 @@ class TopNav extends Component {
 
             <div className="navbar-start">
 
+                <span className="navbar-item">
+                    <Link to="/quiz" className="has-text-grey-dark">Quiz</Link>
+                </span>
+
                 <div className="navbar-item has-dropdown is-hoverable">
                     <span className="navbar-link">
                         All Attributes
@@ -36,16 +40,7 @@ class TopNav extends Component {
                     </div>
                 </div>
 
-                <span className="navbar-item">
-                <Link to="/quiz">Quiz</Link>
-                </span>
-
-                {/* <span className="navbar-item">
-                <Link to="/results">Results</Link>
-                </span> */}
-
-
-                    <div className="navbar-item has-dropdown is-hoverable">
+                <div className="navbar-item has-dropdown is-hoverable">
                     <span className="navbar-link">
                         Explore
                     </span>
@@ -74,21 +69,22 @@ class TopNav extends Component {
                             </div>
                         </div>
                     </div>
-                <span className="navbar-item">
-                        <Link to="/emotion">By Emotion</Link>
-                        </span>
-                        <span className="navbar-item">
-                        <Link to="/fear">By Fear</Link>
-                        </span>
-                        <span className="navbar-item">
-                        <Link to="/struggle">By Struggle</Link>
-                        </span>
+                    <span className="navbar-item">
+                            <Link to="/emotion">By Emotion</Link>
+                            </span>
+                            <span className="navbar-item">
+                            <Link to="/fear">By Fear</Link>
+                            </span>
+                            <span className="navbar-item">
+                            <Link to="/struggle">By Struggle</Link>
+                            </span>
+                        </div>
                     </div>
                 </div>
 
-
-
-            </div>
+                <span className="navbar-item">
+                    <Link to="/about" className="has-text-grey-dark">About</Link>
+                </span>
             </div>
 
             <a onClick={this.openSidebar} className="navbar-item is-hidden-desktop is-hidden-tablet" href="/">
