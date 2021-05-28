@@ -84,6 +84,7 @@ class MyersBriggs extends Component {
                             {...m}
                             key={m.type}
                             img={MyersBriggsImg}
+                            isMB="true"
                             imagePosition={index % 2 === 1 ? "left" : "right"}
                         />
                         )
