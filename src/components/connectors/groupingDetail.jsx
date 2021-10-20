@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import emotionArray from '../../data/emotionArray';
 import fearArray from '../../data/fearArray';
 import struggleArray from '../../data/struggleArray';
+import basicNeedsArray from '../../data/basicNeedsArray';
 
 class GroupingDetail extends Component {
 
@@ -28,14 +29,18 @@ class GroupingDetail extends Component {
             return emotionArray;
         } else if (this.props.connector === "fear") {
             return fearArray;
-        } else {
+        } else if (this.props.connector === "struggle") {
             return struggleArray;
+        } else {
+            return basicNeedsArray;
         }
     }
 
     getConnector() {
         if (this.state.attribute === "") return;
-        return this.getArray().find(x => x.attributeName === this.state.attribute).description;
+        return this.props.connector !== "basicNeeds"
+            ? this.getArray().find(x => x.attributeName === this.state.attribute).description
+            : this.getArray().find(x => x.name === this.state.groupClicked).longDesc;
     }
 
     handleClick(name, attribute) {
@@ -57,7 +62,7 @@ class GroupingDetail extends Component {
                     .filter(x => x.groupId === this.props.groupId)
                     .map(group =>
                         <div
-                            key={group.description}
+                            key={group.id}
                             className="card is-hoverable"
                             onClick={() => this.handleClick(group.name, group.attributeName)}
                         >
@@ -72,17 +77,17 @@ class GroupingDetail extends Component {
             </div>
             <section className="connectorContainer" id="groupConnector">
                 <div className={`card connector-card ${this.state.attribute && this.props.groupId ? "" : "hidden"}`}>
-                    <div className="card-content">
-                        <p className="title is-4 is-capitalized">{this.state.attribute}</p>
-                        <div className="content card-desc">
-                            {this.getConnector()}
-                        </div>
+                <div className="card-content">
+                    <p className="title is-4 is-capitalized">{this.props.connector !== "basicNeeds" ? this.state.attribute : this.state.groupClicked}</p>
+                    <div className="content card-desc">
+                        {this.getConnector()}
                     </div>
-                    <footer className="card-footer">
-                        <span className="card-footer-item">
-                            <Link to={`/attributes/${this.state.attribute}`} className="has-text-primary">Go to Attribute</Link>
-                        </span>
-                    </footer>
+                </div>
+                <footer className="card-footer">
+                    <span className="card-footer-item">
+                        <Link to={`/attributes/${this.state.attribute}`} className="has-text-primary">Go to Attribute</Link>
+                    </span>
+                </footer>
                 </div>
             </section>
         </>

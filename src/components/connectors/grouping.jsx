@@ -16,6 +16,10 @@ import MentalSVG from "../../images/explore/struggle/mental.svg";
 import PhysicalSVG from "../../images/explore/struggle/physical.svg";
 import SpiritualSVG from "../../images/explore/struggle/spiritual.svg";
 
+import SecurePNG from "../../images/explore/basicNeeds/secure.png";
+import SignificantPNG from "../../images/explore/basicNeeds/significant.png";
+import AcceptedPNG from "../../images/explore/basicNeeds/accepted.png";
+
 class Group extends Component {
 
     constructor(props) {
@@ -39,6 +43,20 @@ class Group extends Component {
                 { id: 2, name: "Physical", image: SadnessSVG},
                 { id: 3, name: "Mental", image: AngerSVG},
                 { id: 4, name: "Social", image: FearSVG}
+            ],
+            basicNeeds: [
+                {id: 1,
+                    name: "Security",
+                    image: SecurePNG
+                },
+                {id: 2,
+                    name: "Significance",
+                    image: SignificantPNG
+                },
+                {id: 3,
+                    name: "Acceptance",
+                    image: AcceptedPNG
+                }
             ]
         };
     }
@@ -53,6 +71,7 @@ class Group extends Component {
 
     getGroupId(index) {
         if (index > 3) return;
+        if (this.props.connector === "basicNeeds" && index > 2) return;
 
         if (this.props.connector === "emotion") {
             return this.state.emotion[index].id;
@@ -60,11 +79,14 @@ class Group extends Component {
             return this.state.fear[index].id;
         } else if (this.props.connector === "struggle") {
             return this.state.struggle[index].id;
+        } else if (this.props.connector === "basicNeeds") {
+            return this.state.basicNeeds[index].id;
         } else return null;
     }
 
     getGroupName(index) {
         if (index > 3) return;
+        if (this.props.connector === "basicNeeds" && index > 2) return;
 
         if (this.props.connector === "emotion") {
             return this.state.emotion[index].name;
@@ -72,6 +94,8 @@ class Group extends Component {
             return this.state.fear[index].name;
         } else if (this.props.connector === "struggle") {
             return this.state.struggle[index].name;
+        } else if (this.props.connector === "basicNeeds") {
+            return this.state.basicNeeds[index].name;
         } else return null;
     }
 
@@ -114,6 +138,16 @@ class Group extends Component {
         if (this.props.connector === "struggle" && group === 3) {
             return "We were made to relate to other people, but that doesn’t make it easy.  Which of these comes closest to your biggest concern?"
         }
+
+        if (this.props.connector === "basicNeeds" && group === 0) {
+            return "Prompt for security..."
+        }
+        if (this.props.connector === "basicNeeds" && group === 1) {
+            return "Prompt for significance..."
+        }
+        if (this.props.connector === "basicNeeds" && group === 2) {
+            return "Prompt for acceptance..."
+        }
     }
 
     scroll() {
@@ -123,15 +157,15 @@ class Group extends Component {
     }
 
     getImgSource(index) {
-        const foo = this.getGroupName(index);
+        const groupName = this.getGroupName(index);
 
         if (this.props.connector === "emotion") {
 
-            if (foo === "Angry") {
+            if (groupName === "Angry") {
                 return AngerSVG;
-            } else if (foo === "Afraid") {
+            } else if (groupName === "Afraid") {
                 return FearSVG;
-            } else if (foo === "Pleased") {
+            } else if (groupName === "Pleased") {
                 return PleasureSVG;
             } else {
                 return SadnessSVG;
@@ -139,26 +173,34 @@ class Group extends Component {
 
         } else if (this.props.connector === "fear") {
 
-            if (foo === "Losing Control") {
+            if (groupName === "Losing Control") {
                 return ControlSVG;
-            } else if (foo === "Being Rejected") {
+            } else if (groupName === "Being Rejected") {
                 return RejectionSVG;
-            } else if (foo === "Being Shamed") {
+            } else if (groupName === "Being Shamed") {
                 return ShameSVG;
             } else {
                 return TroublesSVG;
             }
 
-        } else { //struggle
+        } else if (this.props.connector === "struggle") {
 
-            if (foo === "Social") {
+            if (groupName === "Social") {
                 return SocialSVG;
-            } else if (foo === "Mental") {
+            } else if (groupName === "Mental") {
                 return MentalSVG;
-            } else if (foo === "Spiritual") {
+            } else if (groupName === "Spiritual") {
                 return SpiritualSVG;
             } else {
                 return PhysicalSVG;
+            }
+        } else { // basic needs
+            if (groupName === "Security") {
+                return SecurePNG;
+            } else if (groupName === "Significance") {
+                return SignificantPNG;
+            } else {
+                return AcceptedPNG;
             }
         }
     }
@@ -169,7 +211,7 @@ class Group extends Component {
                 <div onClick={() => this.updateCurrentGroup(100)} className={this.state.currentGroupIndex === 100 ? "hidden" : "is-hoverable back-to-all"}>Back to All</div>
                 <div className="connectorContainer">
             {
-                this.state.struggle.map((x, index) =>
+                this.state[this.props.connector].map((x, index) =>
                     <div
                         key={x.name}
                         className={`card connector-card is-hoverable ${this.state.currentGroupIndex === 100 || this.state.currentGroupIndex === index ? "" : "hidden"}`}

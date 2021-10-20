@@ -14,6 +14,7 @@ import DISC from './components/personality/DISC'
 import Fear from './components/connectors/fears'
 import Emotion from './components/connectors/emotions'
 import Struggle from './components/connectors/struggles'
+import BasicNeeds from './components/connectors/basicNeeds'
 import Creative from './modules/attributeDetail/creative'
 import eternal from './modules/attributeDetail/eternal'
 import faithful from './modules/attributeDetail/faithful'
@@ -67,6 +68,7 @@ class AppViews extends Component {
       <Route exact path="/fear" render={(props) => (<Fear /> )} />
       <Route exact path="/emotion" render={(props) => (<Emotion /> )} />
       <Route exact path="/struggle" render={(props) => (<Struggle /> )} />
+      <Route exact path="/basicneeds" render={(props) => (<BasicNeeds /> )} />
 {/*
       <Route exact path="/attributes/:attribute(\d+)" render={(props) => {
                 let attribute = attArray.find(att =>
