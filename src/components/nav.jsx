@@ -78,6 +78,9 @@ class TopNav extends Component {
                             <span className="navbar-item">
                             <Link to="/struggle">By Struggle</Link>
                             </span>
+                            <span className="navbar-item">
+                            <Link to="/basicneeds">By Who You Are in Christ</Link>
+                            </span>
                         </div>
                     </div>
                 </div>
