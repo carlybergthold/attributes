@@ -25,7 +25,7 @@ class Hero extends Component {
         return(
         <section className="hero" style={backgroundColor}>
             <div className="hero-body">
-                <div className={`container heroContainer ${this.props.title}`}>
+                <div className="container heroContainer">
                     {
                         styleMethods.getIcon(this.props.title, this.state.fill)
                     }

@@ -99,10 +99,13 @@
 }
 
 #home-hero {
-  padding-bottom: 0rem;
-  padding: 6rem 1.5rem 0rem 1.5rem;
+  padding: 6rem 1.5rem 1rem 1.5rem;
 }
 
 .about-image {
   width: 20rem;
+}
+
+.about-hero .container {
+  padding: 1rem;
 }
