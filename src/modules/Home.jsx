@@ -45,10 +45,6 @@ import styleMethods from "../methods/styleMethods";
 
 class Home extends React.Component {
 
-  //need to update icon colors throughout the site
-  //need to update all attribute components to the new base
-  //need to update Results "face" svgs
-
   constructor(props){
     super(props);
 

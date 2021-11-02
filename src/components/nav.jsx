@@ -2,30 +2,58 @@ import React, { Component } from "react"
 import { withRouter, Link } from "react-router-dom"
 import AttributeDropdown from "../components/attDropdown"
 import '../styles/nav.scss'
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class TopNav extends Component {
 
-    // constructor(props){
-    //     super(props);
 
-    //     this.state = {
-    //         navBackground: 'white'
-    //     }
-    // }
+    state = {
+        attDropdownActive: false,
+        exploreDropdownActive: false
+    }
+
+    toggleAttActive = () => {
+        this.setState({ attDropdownActive: !this.state.attDropdownActive });
+
+        if (this.state.exploreDropdownActive) {
+            this.setState({ exploreDropdownActive: false });
+        }
+    }
+
+    toggleExploreActive = () => {
+        this.setState({ exploreDropdownActive: !this.state.exploreDropdownActive });
+
+        if (this.state.attDropdownActive) {
+            this.setState({ attDropdownActive: false });
+        }
+    }
+
+    exitMobileMenu = () => {
+        const checkbox = document.getElementById('openSidebarMenu');
+        checkbox.checked = false;
+
+        if (this.state.attDropdownActive) {
+            this.setState({ attDropdownActive: false });
+        }
+
+        if (this.state.exploreDropdownActive) {
+            this.setState({ exploreDropdownActive: false });
+        }
+    }
 
     render() {
         return (
-            <>
-            <nav className="navbar" role="navigation" aria-label="main navigation">
-            <div className="navbar-brand">
-                <Link to="/home" className="navbar-item">
-                    Home
-                </Link>
-            </div>
-
+        <>
+        {/* desktop menu */}
+        <nav className="navbar" role="navigation" aria-label="main navigation">
             <div id="attribute-navbar" className="navbar-menu">
 
-            <div className="navbar-start">
+                <div className="navbar-start">
+
+                <span className="navbar-item">
+                <Link to="/home" className="navbar-item">Home</Link>
+                </span>
 
                 <span className="navbar-item">
                     <Link to="/quiz" className="has-text-grey-dark">Quiz</Link>
@@ -46,42 +74,42 @@ class TopNav extends Component {
                     </span>
 
                     <div className="navbar-dropdown">
-                    <div className="nested navbar-item dropdown">
-                        <div className="dropdown-trigger">
-                        <button aria-haspopup="true" aria-controls="dropdown-menu">
-                            <Link to="/enneagram">By Personality</Link>
-                            <span className="icon is-small">
-                                <i className="fas fa-angle-down" aria-hidden="true"></i>
-                            </span>
-                        </button>
-                        </div>
-                        <div className="dropdown-menu" id="dropdown-menu" role="menu">
-                            <div className="dropdown-content">
-                                <span className="navbar-item">
-                                    <Link to="/enneagram">Enneagram</Link>
+                        <div className="nested navbar-item dropdown">
+                            <div className="dropdown-trigger">
+                            <button aria-haspopup="true" aria-controls="dropdown-menu">
+                                <Link to="/enneagram">By Personality</Link>
+                                <span className="icon is-small">
+                                    <i className="fas fa-angle-down" aria-hidden="true"></i>
                                 </span>
-                                <span className="navbar-item">
-                                    <Link to="/disc">DISC</Link>
-                                </span>
-                                <span className="navbar-item">
-                                    <Link to="/myersbriggs">Myers Briggs</Link>
-                                </span>
+                            </button>
+                            </div>
+                            <div className="dropdown-menu" id="dropdown-menu" role="menu">
+                                <div className="dropdown-content">
+                                    <span className="navbar-item">
+                                        <Link to="/enneagram">Enneagram</Link>
+                                    </span>
+                                    <span className="navbar-item">
+                                        <Link to="/disc">DISC</Link>
+                                    </span>
+                                    <span className="navbar-item">
+                                        <Link to="/myersbriggs">Myers Briggs</Link>
+                                    </span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <span className="navbar-item">
+                        <span className="navbar-item">
                             <Link to="/emotion">By Emotion</Link>
-                            </span>
-                            <span className="navbar-item">
+                        </span>
+                        <span className="navbar-item">
                             <Link to="/fear">By Fear</Link>
-                            </span>
-                            <span className="navbar-item">
+                        </span>
+                        <span className="navbar-item">
                             <Link to="/struggle">By Struggle</Link>
-                            </span>
-                            <span className="navbar-item">
+                        </span>
+                        <span className="navbar-item">
                             <Link to="/basicneeds">By Who You Are in Christ</Link>
-                            </span>
-                        </div>
+                        </span>
+                    </div>
                     </div>
                 </div>
 
@@ -89,18 +117,63 @@ class TopNav extends Component {
                     <Link to="/about" className="has-text-grey-dark">About</Link>
                 </span>
             </div>
-
-            <a onClick={this.openSidebar} className="navbar-item is-hidden-desktop is-hidden-tablet" href="/">
-                <div id="menu-icon-wrapper" className="menu-icon-wrapper">
-                    <svg width="1000px" height="1000px" fill="848484">
-                        <path className="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
-                        <path className="path2" d="M 300 500 L 700 500"></path>
-                        <path className="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
-                    </svg>
-                    <button id="menu-icon-trigger" className="menu-icon-trigger"></button>
-                </div>
-            </a>
         </nav>
+
+        {/* mobile menu */}
+        <input type="checkbox" className="openSidebarMenu" id="openSidebarMenu"></input>
+        <label htmlFor="openSidebarMenu" className="sidebarIconToggle is-hidden-desktop">
+            <div className="spinner diagonal part-1"></div>
+            <div className="spinner horizontal"></div>
+            <div className="spinner diagonal part-2"></div>
+        </label>
+        <div id="sidebarMenu">
+            <div className="sidebarMenuInner has-text-white">
+                <li><Link to="/home" onClick={this.exitMobileMenu}>Home</Link></li>
+                <li><Link to="/quiz" onClick={this.exitMobileMenu}>Quiz</Link></li>
+                <div className={this.state.attDropdownActive ? 'dropdown mobile-dropdown is-active' : 'mobile-dropdown dropdown'}>
+                    <div className="dropdown-trigger" onClick={this.toggleAttActive}>
+                        <div aria-haspopup="true" aria-controls="dropdown-menu4" className="is-flex">
+                            <span>Attributes</span>
+                            <FontAwesomeIcon icon={faAngleDown} className="angle-down"/>
+                        </div>
+                    </div>
+                    <div className="dropdown-menu" id="dropdown-menu4" role="menu">
+                        <div className="dropdown-content">
+                            <AttributeDropdown mobile="true" exitMobileMenu={this.exitMobileMenu} />
+                        </div>
+                    </div>
+                </div>
+                <div className={this.state.exploreDropdownActive ? 'dropdown mobile-dropdown is-active' : 'mobile-dropdown dropdown'}>
+                    <div className="dropdown-trigger" onClick={this.toggleExploreActive}>
+                        <div aria-haspopup="true" aria-controls="dropdown-menu4" className="is-flex">
+                            <span>Explore</span>
+                            <FontAwesomeIcon icon={faAngleDown} className="angle-down"/>
+                        </div>
+                    </div>
+                    <div className="dropdown-menu" id="dropdown-menu4" role="menu">
+                        <div className="dropdown-content">
+                            <div className="dropdown-item is-capitalized">
+                               <div className="mobile-dropdown-item">
+                                   <Link to="/enneagram" className="has-text-grey" onClick={this.exitMobileMenu}>By Enneagram</Link></div>
+                                <div className="mobile-dropdown-item">
+                                   <Link to="/disc" className="has-text-grey" onClick={this.exitMobileMenu}>By DISC</Link></div>
+                                <div className="mobile-dropdown-item">
+                                   <Link to="/myersbriggs" className="has-text-grey" onClick={this.exitMobileMenu}>By Myers Briggs</Link></div>
+                                <div className="mobile-dropdown-item">
+                                   <Link to="/emotion" className="has-text-grey" onClick={this.exitMobileMenu}>By Emotion</Link></div>
+                                <div className="mobile-dropdown-item">
+                                   <Link to="/fear" className="has-text-grey" onClick={this.exitMobileMenu}>By Fear</Link></div>
+                                <div className="mobile-dropdown-item">
+                                   <Link to="/struggle" className="has-text-grey" onClick={this.exitMobileMenu}>By Struggle</Link></div>
+                                <div className="mobile-dropdown-item">
+                                   <Link to="/basicneeds" className="has-text-grey" onClick={this.exitMobileMenu}>By Who You Are in Christ</Link></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <li><Link to="/about" onClick={this.exitMobileMenu}>About</Link></li>
+            </div>
+        </div>
         </>
         )
     }

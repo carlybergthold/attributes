@@ -287,19 +287,19 @@ const basicNeedsArray = [
 // }
 ]
 
-const categoryArray = [
-    {
-        id: 1,
-        name: "secure"
-    },
-    {
-        id: 2,
-        name: "significant"
-    },
-    {
-        id: 3,
-        name: "accepted"
-    }
-]
+// const categoryArray = [
+//     {
+//         id: 1,
+//         name: "secure"
+//     },
+//     {
+//         id: 2,
+//         name: "significant"
+//     },
+//     {
+//         id: 3,
+//         name: "accepted"
+//     }
+// ]
 
 export default basicNeedsArray;
