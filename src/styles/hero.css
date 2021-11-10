@@ -6,6 +6,7 @@
 .heroContainer {
   display: flex;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .heroTitle {
@@ -22,4 +23,19 @@
 
 #heroSubtitle {
   margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-body {
+    padding: 2rem !important;
+  }
+  .heroContainer {
+    justify-content: center;
+  }
+  .heroTitle {
+    padding-left: 0;
+  }
+  .title {
+    word-break: normal;
+  }
 }

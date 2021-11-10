@@ -1,19 +1,19 @@
 const questionArray = [
     {
     id: 1,
-    attribute: 'accessible',
+    attribute: 'relational',
     category: 'reflect',
     question: 'I enjoy interacting with others or have a strong sense of belonging to a group.'
     },
     {
     id: 2,
-    attribute: 'accessible',
+    attribute: 'relational',
     category: 'reject',
     question: 'I just want to be alone and not be bothered by anyone.'
     },
     {
     id: 3,
-    attribute: 'accessible',
+    attribute: 'relational',
     category: 'accept',
     question: 'I desire to be a part of a body of local Christian believers.'
     },
@@ -477,7 +477,7 @@ const questionArray = [
     id: 80,
     attribute: 'Sovereign',
     category: 'reject',
-    question: 'My will and pleasure is what is most important to me.'
+    question: 'My will and pleasure are what is most important to me.'
     },
     {
     id: 81,

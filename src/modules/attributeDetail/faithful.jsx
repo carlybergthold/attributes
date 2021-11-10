@@ -26,7 +26,7 @@ class Faithful extends Component {
               <main>
                 <div className="attSection" id="definition">
                   <section>
-                  <h1 className="title added">Faithful means able to be trusted.</h1>
+                  <h1 className="title added" style={{color: styleMethods.getAttributeColor("faithful")}}>Faithful means able to be trusted.</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">We want to be considered trustworthy and are distressed when we find others who we cannot trust.  We desire to be faithful to our favorite sports team, certain brand or personal habit, or to our spouse. 78-90% of Americans (depending on the poll) believe it is morally wrong to commit an adulterous act. But we also fear that our (and other’s) faithfulness may prove to be faulty - from weakness, fatigue, doubt or a change of will.</p>
                   <p className="is-size-6 leading-normal padded">Disappointment, however, seems to be a constant companion to my effort to be faithful and in my attempts to fully trust others.  I work hard to prove myself a reliable person, but it seems a single failure can ruin a hundred successes.  It almost seems like you can’t trust anyone these days!</p>
@@ -34,7 +34,7 @@ class Faithful extends Component {
 
                 <div className="attSection" id="emotion">
                 <section>
-                  <h1 className="title">avoid being disappointed by others?</h1>
+                  <h1 className="title" style={{color: styleMethods.getAttributeColor("faithful")}}>How do I avoid being disappointed by others?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">All people will eventually disappoint me, including God.  The key question then is who I will trust.  God is one I can trust even if I am disappointed with Him. </p>
                   <p className="is-size-6 leading-normal padded">After opening with praise and belief in God’s faithful covenant, the psalmist below reveals deep disappointment in God’s apparent lack of faithfulness. His trust in God actually causes his disappointment when circumstances make it seem that a promise may not be kept.  God’s enemies were declaring that no Messiah would ever come (i.e. footsteps), yet the psalmist ends with ‘so be it, I will bless God forever.’  He decided to trust God for what God had not done yet, but had promised to do in the future. And the footsteps of Messiah eventually did come!</p>
@@ -75,14 +75,14 @@ class Faithful extends Component {
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
-                  <h1 className="title added">Jesus was faithful to His Father.</h1></section>
+                  <h1 className="title added" style={{color: styleMethods.getAttributeColor("faithful")}}>Jesus was faithful to His Father.</h1></section>
                   <p className="is-size-6 leading-normal padded">In obedient faithfulness to His Father, Jesus took on human form and went to the cross as the sacrificial offering which allows for imperfect people to be reconciled to God.  After He completed this work, He joined God in heaven to continue His faithfulness as an advocate, interceding for those who believe in Him.</p>
                   <Quote scripture="Who is to condemn? Christ Jesus is the one who died—more than that, who was raised—who is at the right hand of God, who indeed is interceding for us." reference="Romans 8:34" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
                 <section>
-                  <h1 className="title">So what do I do now?</h1>
+                  <h1 className="title" style={{color: styleMethods.getAttributeColor("faithful")}}>So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Discover what God has actually promised through study of the Bible.  Then test His reliability and find Him faithful.  Along the way, discover that our ability to be reliably faithful to His commands falls short. This is yet another confirmation that what He has already said is true and that He can be trusted. <br></br>Ask: How have I discovered or tested God’s faithfulness?</p>
                   <Quote scripture="The works of his hands are faithful and just; all his precepts are trustworthy;" reference="Psalm 111:7" color="var(--teal)"/>

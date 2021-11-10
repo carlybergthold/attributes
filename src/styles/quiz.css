@@ -77,3 +77,28 @@ label {
 .justify-end {
   justify-content: flex-end;
 }
+
+@media only screen and (max-width: 600px) {
+  .question-header {
+    font-size: 1rem;
+  }
+  .desktop-label {
+    font-size: 0.8rem;
+  }
+  .question-card {
+    padding: 1.5rem 0;
+  }
+  input {
+    margin: 0.8rem;
+  }
+  .quiz-btn,
+  .quizz-btn {
+    font-size: 1.1rem !important;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .desktop-label {
+    font-size: 0.5rem;
+  }
+}

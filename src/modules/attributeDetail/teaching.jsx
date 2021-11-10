@@ -102,10 +102,9 @@ class Teaching extends Component {
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("teaching")}}>How was Jesus such a good teacher?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Jesus in the flesh provided the best example of an effective human teacher.  Consider the following effective teacher qualities that Pearson Ed found from a survey of both teachers and students, along with how Jesus demonstrated each.</p>
-                  <p className="is-size-6 leading-normal padded">1. Ability to develop trusting, productive relationships<br></br>     - 11 of 12 disciples were willing to die (and most did) for their teacher <br>
-                  </br>
+                  <p className="is-size-6 leading-normal padded">1. Ability to develop trusting, productive relationships<br></br>- 11 of 12 disciples were willing to die (and most did) for their teacher <br></br>
                   2. Patient, caring, kind<br></br>     - All godly attributes<br></br>
-                  3. Knowledge of learners<br></br>     - Omniscience of a Creator God covers this
+                  3. Knowledge of learners<br></br>     - Omniscience of a Creator God covers this<br></br>
                   4. Dedication to teaching<br></br>     - Driven by the same love that sent Him to die on a cross<br></br>
                   5. Subject matter knowledge (tie)<br></br>    - See #3 above<br></br>
                   5. Engaging students in learning (tie)<br></br>    - Through His Spirit, Jesus teaches us through all we encounter in life </p>

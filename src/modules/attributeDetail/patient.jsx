@@ -43,7 +43,7 @@ class Patient extends Component {
 
                 <div className="attSection" id="emotion">
                 <section>
-                  <h1 className="title has-text-prpmaryary tracking-wide padded">Would I rather seek pity or be annoyed?</h1>
+                  <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>Would I rather seek pity or be annoyed?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">As I suffer, I can move either to self-pity or annoyance.  Self-pity overly focuses on myself; annoyance seeks to blame the apparent source of my troubles.  Both of these can move me away from God and toward impatience.  In extreme suffering, Jesus spoke the first words of this Psalm with a raw  emotion much beyond self pity or mere annoyance.  Yet He returned to trusting His Father, even when the circumstances made it next to impossible.  My troubles belong to the Lord - I need to take them to Him.</p>
                   <br></br>
@@ -52,7 +52,7 @@ class Patient extends Component {
 
                 <div className="attSection" id="fear">
                 <section>
-                  <h1 className="title has-text-prpmaryary tracking-wide padded">I worry about what trouble may come my way.</h1>
+                  <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>I worry about what trouble may come my way.</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">“We take the good things for granted and blow up the problems. As a consequence, we tend to fall prey to the petty concerns and annoyances in our lives, letting them determine our well-being….A growing number of studies inspired by Acceptance and Commitment Therapy and  Mindfulness are showing that - rather than resisting them - embracing difficult situations (e.g. pain or dependency due to illness) increases well-being. We can either choose to let the negative experiences we encounter bring us down, or we can choose to embrace them and thereby rise above them…..Learn from it….Appreciate what you do have….Use it to help others….” - Psychology Today, 6/29/15 article</p>
                   <p className="is-size-6 leading-normal padded">Patient hope is powerful.  It realizes all troubles eventually leave and, when they do, can lift me up more than a large dose of happy news.  Ecclesiastes 7:1 says our day of death is actually better than the day of our birth.  This makes sense only by comparing the joyful eternal reality of heaven versus our temporal life, which always contains a mixture of happiness and hardship.</p>
@@ -62,7 +62,7 @@ class Patient extends Component {
 
                 <div className="attSection" id="struggle">
                 <section>
-                  <h1 className="title has-text-prpmaryary tracking-wide padded">But it seems my hardship will never end!</h1>
+                  <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>But it seems my hardship will never end!</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Perspective always matters while I wait.  Gaining long-term perspective (“until the coming of the Lord”) and a godly perspective (“I will ponder God’s work”) will help me through a situation, even if it does not end.</p>
                   <p className="is-size-6 leading-normal padded">David Guzik (Blue Letter Bible commentary) notes how a farmer is patient:
@@ -83,7 +83,7 @@ class Patient extends Component {
 
                 <div className="attSection" id="whoAmI">
                 <section>
-                  <h1 className="title has-text-prpmaryary tracking-wide padded">Only God is always patient.</h1></section>
+                  <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>Only God is always patient.</h1></section>
                   <p className="is-size-6 leading-normal padded">God is patient while I am often impatient.  Most people might envy God, thinking He has no need or use for patience.  He can have instant gratification if He wanted!  But God deliberately bears with His creation as He planned from the beginning, always working toward my greatest good which includes patience.</p>
                   <br></br>
                   <Quote scripture="Be still before the LORD and wait patiently for him;" reference="Psalm 37:7a" color="var(--teal)"/>
@@ -91,14 +91,14 @@ class Patient extends Component {
 
                 <div className="attSection" id="biblicalChristianity">
                   <section>
-                  <h1 className="title has-text-prpmaryary tracking-wide padded">Jesus patiently gave of Himself to help others know Him more.</h1></section>
+                  <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>Jesus patiently gave of Himself to help others know Him more.</h1></section>
                   <p className="is-size-6 leading-normal padded">God meticulously set-up the cross since creation (foreseeing Adam’s sin), and is even now patiently waiting for our collective response to the message of the Cross.</p>
                   <Quote scripture="The Lord is not slow to fulfill his promise as some count slowness, but is patient toward you, not wishing that any should perish, but that all should reach repentance." reference="2 Peter 3:9" color="var(--teal)"/>
                 </div>
 
                 <div className="attSection" id="soWhat">
                 <section>
-                  <h1 className="title has-text-prpmaryary tracking-wide padded">So what do I do now?</h1>
+                  <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>So what do I do now?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Be slow to anger, even with true injustices, especially given others’ need to be patient with me.  Be content, even joyful, in the present hard circumstances.  Accept as God's timing whatever is outside of my control or influence. God's patience is often expressed as 'slow to anger' - Ex 34:6, Nu 14:18, Psalm 103:8 & more.   <br></br>Ask: What resulted from my most recent impatience?</p>
                   <Quote scripture="Not only that, but we rejoice in our sufferings, knowing that suffering produces endurance, and endurance produces character, and character produces hope, and hope does not put us to shame, because God’s love has been poured into our hearts through the Holy Spirit who has been given to us." reference="Romans 5:3-5" color="var(--teal)"/>
@@ -106,7 +106,7 @@ class Patient extends Component {
 
                   <div className="attSection" id="prayer">
                   <section>
-                  <h1 className="title has-text-prpmaryary tracking-wide padded">Prayer</h1>
+                  <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">God, thank you for being patient with me when I do not listen, obey or glorify You.  Help me to remember Your patience on the cross and with me when I need to be patient with others.</p>
                   <Quote scripture="Looking to Jesus, the founder and perfecter of our faith, who for the joy that was set before him endured the cross," reference="Hebrews 12:2a" color="var(--teal)"/>
@@ -114,7 +114,7 @@ class Patient extends Component {
 
                 <div className="attSection has-background-light" id="scienceAndHealth">
                 <section>
-                  <h1 className="title has-text-prpmaryary tracking-wide padded">What tangible benefits to patience have been found?</h1>
+                  <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>What tangible benefits to patience have been found?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Patience allows greater future rewards to be achieved versus settling on the best short-term reward.  It allows for optimization of the whole over time, such as saving for retirement and earning a degree.</p>
                   <p className="is-size-6 leading-normal padded">"A study by multiple American universities found that young adults who scored high on tests designed to measure impatience had an 18.4 per cent risk of developing hypertension within 15 years, compared to an 11.6 per cent risk among their more patient counterparts. One potential cause? Impatience may be correlated with higher rates of smoking, drinking and unhealthy eating…</p>
@@ -123,7 +123,7 @@ class Patient extends Component {
 
                 <div className="attSection" id="history">
                 <section>
-                  <h1 className="title has-text-prpmaryary tracking-wide padded">How were George Washington and Jesus both patient and humble?</h1>
+                  <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>How were George Washington and Jesus both patient and humble?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Just as young George Washington, Jesus was surely tempted to be impatient during His first 30 years of life, waiting for His ministry to begin.  Unlike Washington, He did not give in.</p>
                   <p className="is-size-6 leading-normal padded">However, Jesus, like Washington, also surrendered His power at the absolute height of His earthly ministry, in favor of going home.  Washington was later called out of Mount Vernon into the presidency of the fledging republic.  The honor he surrendered willingly was lavishly returned to him later.</p>
@@ -134,7 +134,7 @@ class Patient extends Component {
 
                 <div className="attSection" id="liturgy" >
                 <section>
-                    <h1 className="title has-text-prpmaryary tracking-wide padded">“It Is Well With My Soul” - Horatio Spafford</h1>
+                    <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>“It Is Well With My Soul” - Horatio Spafford</h1>
                     </section>
                     <p className="is-size-6 leading-normal padded">
                       We humans will always try to interject our own timetable into what God is doing (we want to 'hasten the day').  Even so, we can always return to the knowledge that God’s timing is perfect.<br></br><br></br>

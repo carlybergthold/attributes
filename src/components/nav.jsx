@@ -46,19 +46,15 @@ class TopNav extends Component {
         return (
         <>
         {/* desktop menu */}
-        <nav className="navbar" role="navigation" aria-label="main navigation">
+        <nav className="navbar is-transparent" role="navigation" aria-label="main navigation">
             <div id="attribute-navbar" className="navbar-menu">
-
                 <div className="navbar-start">
-
-                <span className="navbar-item">
-                <Link to="/home" className="navbar-item">Home</Link>
-                </span>
-
-                <span className="navbar-item">
-                    <Link to="/quiz" className="has-text-grey-dark">Quiz</Link>
-                </span>
-
+                    <span className="navbar-item">
+                    <Link to="/home" className="navbar-item">Home</Link>
+                    </span>
+                    <span className="navbar-item">
+                        <Link to="/quiz" className="has-text-grey-dark">Quiz</Link>
+                    </span>
                 <div className="navbar-item has-dropdown is-hoverable">
                     <span className="navbar-link">
                         All Attributes
@@ -67,12 +63,10 @@ class TopNav extends Component {
                         <AttributeDropdown />
                     </div>
                 </div>
-
                 <div className="navbar-item has-dropdown is-hoverable">
                     <span className="navbar-link">
                         Explore
                     </span>
-
                     <div className="navbar-dropdown">
                         <div className="nested navbar-item dropdown">
                             <div className="dropdown-trigger">
@@ -86,13 +80,13 @@ class TopNav extends Component {
                             <div className="dropdown-menu" id="dropdown-menu" role="menu">
                                 <div className="dropdown-content">
                                     <span className="navbar-item">
-                                        <Link to="/enneagram">Enneagram</Link>
+                                        <Link to="/enneagram" onClick={this.exitDesktopMenu}>Enneagram</Link>
                                     </span>
                                     <span className="navbar-item">
-                                        <Link to="/disc">DISC</Link>
+                                        <Link to="/disc" onClick={this.exitDesktopMenu}>DISC</Link>
                                     </span>
                                     <span className="navbar-item">
-                                        <Link to="/myersbriggs">Myers Briggs</Link>
+                                        <Link to="/myersbriggs" onClick={this.exitDesktopMenu}>Myers Briggs</Link>
                                     </span>
                                 </div>
                             </div>
@@ -112,7 +106,6 @@ class TopNav extends Component {
                     </div>
                     </div>
                 </div>
-
                 <span className="navbar-item">
                     <Link to="/about" className="has-text-grey-dark">About</Link>
                 </span>
