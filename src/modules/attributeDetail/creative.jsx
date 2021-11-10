@@ -55,7 +55,7 @@ class Creative extends Component {
               <Quote scripture="Through him all things were made, without him nothing was made that has been made." reference="John 1:3" /></section>}
 
             biblicalChristianity={<section>              <section>
-              <h1 className="title  tracking-wide padded">Jesus made possible something completely new - to live “in Christ.”</h1></section>
+              <h1 className="title  tracking-wide padded" style={{color: styleMethods.getAttributeColor("creative")}}>Jesus made possible something completely new - to live “in Christ.”</h1></section>
               <p className="is-size-6 leading-normal padded">Being “in Christ” means I believe that Jesus is actually God who died on the cross to pay the penalty for my sins and, in turn, provides me with His righteousness, allowing me to fellowship with God forever.  With this new relationship comes a completely different perspective to my life and my present circumstances, along with a magnified awareness and value for Creator God.</p>
               <Quote scripture="Therefore, if anyone is in Christ, he is a new creation." reference="2 Corinthians 5:17" color="var(--teal)"/></section>}
 

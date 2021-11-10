@@ -15,9 +15,9 @@ class Emotions extends Component {
         <section className="hero">
             <div className="hero-body">
                 <div className={`container heroContainer`}>
-                <img class="longingIcon" src={LongingIcon} alt="Struggles"></img>
+                <img className="longingIcon" src={LongingIcon} alt="Struggles"></img>
                     <section className="heroTitle">
-                        <h1 className="title light-text" id="heroTitle">What do you long for the most?</h1>
+                        <h1 className="title light-text" id="heroTitle">Being a Christ follower immediately brings us all the Security we need to live confidently, the Significance we need to live purposefully, and the Acceptance we need to combat all rejection. Choose the category you need most today.</h1>
                     </section>
                 </div>
             </div>

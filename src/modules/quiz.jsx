@@ -132,9 +132,8 @@ class Quiz extends Component {
             <div key={q.id} id={q.id} className="question-card">
               <p className="question-header">{q.id}. {q.question}</p>
                 <div className="question-inputs">
-                  <label className="radio">
+                  <label className="radio desktop-label">Least like me</label>
                   <input type="radio" className="is-hidden" disabled></input>
-                  Least like me</label>
 
                   <input type="radio" value="1" className={`${q.attribute}-${q.category}`} name={q.id}></input>
 
@@ -144,9 +143,8 @@ class Quiz extends Component {
 
                   <input type="radio" value="4" className={`${q.attribute}-${q.category}`} name={q.id}></input>
 
-                  <label className="radio">
                   <input type="radio" value="5" className={`${q.attribute}-${q.category}`} name={q.id}></input>
-                  Most like me</label>
+                  <label className="radio desktop-label">Most like me</label>
 
                 </div>
             </div>
@@ -156,7 +154,7 @@ class Quiz extends Component {
           <div>
           <section className="section quiz-footer">
             <div className="control">
-              <button className="button is-outlined is-primary is-large" disabled={this.state.startingIndex === 1} onClick={this.backClick}>Back</button>
+              <button className="button is-outlined is-primary is-large quizz-btn" disabled={this.state.startingIndex === 1} onClick={this.backClick}>Back</button>
               <button className="button is-primary is-large quiz-btn" onClick={this.validateQuiz} type="submit">
               Next</button>
               <div className="is-flex progess-bar">

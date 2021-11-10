@@ -108,7 +108,7 @@ class Gracious extends Component {
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("gracious")}}>Corrie ten Boom was part of a gracious Dutch family.</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">The ten Booms helped many Jews escape the Natzis during World War II by hiding them in their home.  They were caught, arrested and sent to a concentration camp.  The following story happened after the war.</p>
+                  <p className="is-size-6 leading-normal padded">The ten Booms helped many Jews escape the Nazis during World War II by hiding them in their home.  They were caught, arrested and sent to a concentration camp.  The following story happened after the war.</p>
                   <p className="is-size-6 leading-normal padded">“When we confess our sins,” Corrie said, “God casts them into the deepest ocean, gone forever."  After saying these words to conclude a talk in Germany in 1947, Corrie ten Boom saw her former prison guard in the audience.  Although he did not recognize Corrie, he approached her, extended a hand and said, “You mentioned Ravensbrück in your talk. I was a guard there. But since that time,” he went on, “I have become a Christian. I know that God has forgiven me for the cruel things I did there, but I would like to hear it from your lips as well. Fräulein”–again the hand came out–“will you forgive me?”
 
 Corrie's sister, Betsie, had died in that place. She hesitated, considering her sister's slow terrible death. Could she forgive so freely, simply for the asking?

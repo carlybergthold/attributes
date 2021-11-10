@@ -4,6 +4,7 @@ import emotionArray from '../../data/emotionArray';
 import fearArray from '../../data/fearArray';
 import struggleArray from '../../data/struggleArray';
 import basicNeedsArray from '../../data/basicNeedsArray';
+import styleMethods from "../../methods/styleMethods";
 
 class GroupingDetail extends Component {
 
@@ -62,7 +63,7 @@ class GroupingDetail extends Component {
                     .filter(x => x.groupId === this.props.groupId)
                     .map(group =>
                         <div
-                            key={group.id}
+                            key={group.name}
                             className="card is-hoverable"
                             onClick={() => this.handleClick(group.name, group.attributeName)}
                         >
@@ -85,7 +86,16 @@ class GroupingDetail extends Component {
                 </div>
                 <footer className="card-footer">
                     <span className="card-footer-item">
-                        <Link to={`/attributes/${this.state.attribute}`} className="has-text-primary">Go to Attribute</Link>
+                        <Link to={`/attributes/${this.state.attribute}`} className="personality-connector-link">
+                        <div className="personality-connector-flex">
+                            <span>
+                            {
+                                styleMethods.getIcon(this.state.attribute, styleMethods.getAttributeColor(this.state.attribute))
+                            }
+                            </span>
+                            <span>Go to {this.state.attribute}</span>
+                        </div>
+                    </Link>
                     </span>
                 </footer>
                 </div>

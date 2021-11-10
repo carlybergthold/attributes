@@ -71,7 +71,6 @@ class Group extends Component {
 
     getGroupId(index) {
         if (index > 3) return;
-        if (this.props.connector === "basicNeeds" && index > 2) return;
 
         if (this.props.connector === "emotion") {
             return this.state.emotion[index].id;
@@ -139,14 +138,8 @@ class Group extends Component {
             return "We were made to relate to other people, but that doesn’t make it easy.  Which of these comes closest to your biggest concern?"
         }
 
-        if (this.props.connector === "basicNeeds" && group === 0) {
-            return "Prompt for security..."
-        }
-        if (this.props.connector === "basicNeeds" && group === 1) {
-            return "Prompt for significance..."
-        }
-        if (this.props.connector === "basicNeeds" && group === 2) {
-            return "Prompt for acceptance..."
+        if (this.props.connector === "basicNeeds") {
+            return "Select a Specific Benefit"
         }
     }
 

@@ -84,7 +84,7 @@ class QuizResults extends React.Component {
         <section className="section is-medium has-background-primary full-height">
           <div className='container'>
             <div className="title-wrapper has-text-centered">
-              <h2 className="title is-2 is-spaced light-text">Your top three attributes:</h2>
+              <h2 className="title is-2 is-spaced light-text">The three attributes you reflect the most:</h2>
             </div>
             <div className="content-wrapper homepage-personality">
               <div className="columns is-vcentered">

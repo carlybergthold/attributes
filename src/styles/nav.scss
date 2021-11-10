@@ -1,6 +1,5 @@
 .navbar {
   background-color: transparent;
-  position: absolute;
 }
 
 a {
@@ -227,4 +226,16 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   margin-left: 1rem;
   font-size: 1.5rem;
   color: var(--orange);
+}
+.navbar-item.is-hoverable:hover .navbar-dropdown {
+  display: block !important;
+}
+.navbar-item.is-hoverable:focus-within .navbar-dropdown {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    display: none;
+  }
 }
