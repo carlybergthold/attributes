@@ -25,6 +25,23 @@
   margin-top: 0;
 }
 
+.heroContainer-mobile {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.heroTitle-mobile {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hero-body-mobile {
+  padding-bottom: 2rem;
+}
+
 @media only screen and (max-width: 600px) {
   .hero-body {
     padding: 2rem !important;

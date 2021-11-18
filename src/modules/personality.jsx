@@ -8,7 +8,7 @@ import Face3 from "../assets/img/illustrations/faces/3.png";
 class Personality extends Component {
 
   componentDidMount() {
-    window.scrollTo(0, 0);
+    document.querySelector(".navbar").scrollIntoView();
   }
 
       render() {

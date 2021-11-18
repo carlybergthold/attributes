@@ -6,7 +6,7 @@ import LongingIcon from "../../images/connectors/longing.svg";
 class Emotions extends Component {
 
     componentDidMount() {
-        window.scrollTo(0, 0);
+        document.querySelector(".navbar").scrollIntoView();
     }
 
     render() {
@@ -14,15 +14,21 @@ class Emotions extends Component {
         <>
         <section className="hero">
             <div className="hero-body">
-                <div className={`container heroContainer`}>
-                <img className="longingIcon" src={LongingIcon} alt="Struggles"></img>
+                <div className="container basic-need-container is-hidden-mobile">
+                <img className="longingIcon" src={LongingIcon} alt="Longing"></img>
                     <section className="heroTitle">
-                        <h1 className="title light-text" id="heroTitle">Being a Christ follower immediately brings us all the Security we need to live confidently, the Significance we need to live purposefully, and the Acceptance we need to combat all rejection. Choose the category you need most today.</h1>
+                        <h1 className="subtitle light-text" id="heroTitle">Being a Christ follower immediately brings us all the Security we need to live confidently, the Significance we need to live purposefully, and the Acceptance we need to combat all rejection. Choose the category you need most today.</h1>
+                    </section>
+                </div>
+                <div className="container heroContainer is-hidden-tablet">
+                    <img className="longingIcon" src={LongingIcon} alt="Longing"></img>
+                    <section className="heroTitle">
+                        <h1 className="subtitle light-text" id="heroTitle">Being a Christ follower immediately brings us all the Security we need to live confidently, the Significance we need to live purposefully, and the Acceptance we need to combat all rejection. Choose the category you need most today.</h1>
                     </section>
                 </div>
             </div>
         </section>
-        <section className="has-text-centered">
+        <section className="has-text-centered grouping-container">
             <Grouping connector="basicNeeds"/>
         </section>
         </>

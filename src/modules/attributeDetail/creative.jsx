@@ -7,10 +7,6 @@ import styleMethods from "../../methods/styleMethods";
 
 class Creative extends Component {
 
-    // componentDidMount() {
-    //   window.scrollTo(0, 0);
-    // }
-
     render() {
         return(
           <BaseAttributeDetail

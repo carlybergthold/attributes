@@ -6,8 +6,8 @@ import EmotionIcon from "../../images/connectors/emotion.svg";
 class Emotions extends Component {
 
     componentDidMount() {
-        window.scrollTo(0, 0);
-    }
+        document.querySelector(".navbar").scrollIntoView();
+      }
 
     render() {
         return(
@@ -22,7 +22,7 @@ class Emotions extends Component {
                 </div>
             </div>
         </section>
-        <section className="has-text-centered">
+        <section className="has-text-centered grouping-container">
             <Grouping connector="emotion"/>
         </section>
         </>

@@ -1,221 +1,229 @@
 #attributeContainer {
-    display: flex;
-    flex-flow: row nowrap;
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 main {
-    flex: 3;
+  flex: 3;
 }
 
 #header h1 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .attHeader {
-    margin-top: 0rem;
+  margin-top: 0rem;
 }
 
 .heroImage {
-    width: 10rem;
-    height: auto;
+  width: 10rem;
+  height: auto;
 }
 
 .section-header {
-    display: flex;
-    justify-content: center;
-    border: 1px dotted lightgray;
-    margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+  border: 1px dotted lightgray;
+  margin-bottom: 0.5rem;
 }
 
 .definition-header {
-    background-color: var(--green);
+  background-color: var(--green);
 }
 
 .attributeListContainer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .attListItem {
-    border: 1px solid lightgray;
-    width: 100%;
-    padding: 0.3rem;
-    text-transform: uppercase;
-    font-weight: 400;
-    color: white;
+  border: 1px solid lightgray;
+  width: 100%;
+  padding: 0.3rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
 }
 
 .attListItem:hover {
-    cursor: pointer;
-    filter: brightness(85%);
+  cursor: pointer;
+  filter: brightness(85%);
 }
 
 .attList {
-    background-color: var(--green);
+  background-color: var(--green);
 }
 
 .att-image {
-    width: 3rem;
+  width: 3rem;
 }
 
 .att-detail-header {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }
 
 .att-detail-definition {
-    background-color: white;
-    display: flex;
-    flex-flow: column nowrap;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .att-detail-distinctives {
-    background-color: white
+  background-color: white;
 }
 
 .att-detail-definition-container {
-    display: flex;
-    display: row nowrap;
-    margin-bottom: 2rem;
-    border: 1px solid black;
+  display: flex;
+  display: row nowrap;
+  margin-bottom: 2rem;
+  border: 1px solid black;
 }
 
 .att-detail-definition-container h2 {
-    color: var(--green);
+  color: var(--green);
 }
 
 .att-detail-definition-subtitle {
-    padding: 1rem;
-    display: flex;
-    flex: 0.5;
+  padding: 1rem;
+  display: flex;
+  flex: 0.5;
 }
 
 .att-detail-definition-p {
-    padding: 1rem;
-    flex: 0.5;
+  padding: 1rem;
+  flex: 0.5;
 }
 
 .att-detail-display-container {
-    display: flex;
-    display: row nowrap;
-    margin-bottom: 2rem;
-    border: 1px solid black;
+  display: flex;
+  display: row nowrap;
+  margin-bottom: 2rem;
+  border: 1px solid black;
 }
 
 .display-header {
-    background-color: var(--purple);
+  background-color: var(--purple);
 }
 
 .att-detail-display-container h2 {
-    color: var(--purple);
+  color: var(--purple);
 }
 
 .att-detail-display-subtitle {
-    padding: 1rem;
-    display: flex;
-    flex: 0.5;
+  padding: 1rem;
+  display: flex;
+  flex: 0.5;
 }
 
 .att-detail-display-p {
-    padding: 1rem;
-    flex: 0.5;
+  padding: 1rem;
+  flex: 0.5;
 }
 
 .att-detail-distinctives-container {
-    display: flex;
-    display: row nowrap;
-    margin-bottom: 2rem;
-    border: 1px solid black;
+  display: flex;
+  display: row nowrap;
+  margin-bottom: 2rem;
+  border: 1px solid black;
 }
 
 .distinctives-header {
-    background-color: var(--teal);
+  background-color: var(--teal);
 }
 
 .att-detail-distinctives-container h2 {
-    color: var(--teal);
+  color: var(--teal);
 }
 
 .att-detail-distinctives-subtitle {
-    padding: 1rem;
-    display: flex;
-    flex: 0.5;
+  padding: 1rem;
+  display: flex;
+  flex: 0.5;
 }
 
 .att-detail-distinctives-p {
-    padding: 1rem;
-    flex: 0.5;
+  padding: 1rem;
+  flex: 0.5;
 }
 
 .att-detail-other-container {
-    display: flex;
-    display: row nowrap;
-    margin-bottom: 2rem;
-    border: 1px solid black;
+  display: flex;
+  display: row nowrap;
+  margin-bottom: 2rem;
+  border: 1px solid black;
 }
 
 .other-header {
-    background-color: var(--pink);
+  background-color: var(--pink);
 }
 
 .att-detail-other-container h2 {
-    color: var(--pink);
+  color: var(--pink);
 }
 
 .att-detail-other-subtitle {
-    padding: 1rem;
-    display: flex;
-    flex: 0.5;
+  padding: 1rem;
+  display: flex;
+  flex: 0.5;
 }
 
 .att-detail-other-p {
-    padding: 1rem;
-    flex: 0.5;
+  padding: 1rem;
+  flex: 0.5;
 }
 
 .padded {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .attSection {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .doubleSided {
-    display: flex;
+  display: flex;
 }
 
 .service-icon {
-    max-width: 6rem;
+  max-width: 6rem;
 }
 
 .grid-container {
-    margin: 2rem 0 2rem 0;
+  margin: 2rem 0 2rem 0;
 }
 
 /* SIDEBAR */
 
 aside {
-    /* flex: 0.6; */
-    text-align: left;
-    padding-top: 3rem;
+  /* flex: 0.6; */
+  text-align: left;
+  padding-top: 3rem;
 }
 
 #sidebar {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 2rem;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar-li:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .padded {
-    padding: 1rem;
+  padding: 1rem;
+}
+
+.current {
+  display: block;
+}
+
+.hidden {
+  display: none;
 }

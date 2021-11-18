@@ -6,14 +6,52 @@ import Hero from '../../components/hero'
 
 class BaseAttributeDetail extends Component {
 
-    componentDidMount() {
-      window.scrollTo(0, 0);
-    }
+  componentDidMount() {
+    document.querySelector(".navbar").scrollIntoView();
+  }
 
     render() {
         return(
-            <div>
-            <Hero title={this.props.title} subtitle={this.props.subtitle}  />
+          <>
+          <Hero title={this.props.title} subtitle={this.props.subtitle} />
+
+          {/* mobile */}
+          <div className="is-hidden-tablet">
+              <AttributeSidebar attribute={this.props.title}/>
+                <div className="attSection current" id="definitionMobile">
+                  {this.props.definition}
+                </div>
+                <div className="attSection hidden" id="emotionMobile">
+                  {this.props.emotion}
+                </div>
+                <div className="attSection hidden" id="fearMobile">
+                  {this.props.fear}
+                </div>
+                <div className="attSection hidden" id="struggleMobile">
+                  {this.props.struggle}
+                </div>
+                <div className="attSection hidden" id="whoAmIMobile">
+                  {this.props.whoAmI}
+                </div>
+                <div className="attSection hidden" id="biblicalChristianityMobile">
+                  {this.props.biblicalChristianity}
+                </div>
+                <div className="attSection hidden" id="soWhatMobile">
+                  {this.props.soWhat}
+                </div>
+                <div className="attSection hidden" id="prayerMobile">
+                  {this.props.prayer}
+                </div>
+                <div className="attSection hidden" id="scienceAndHealthMobile">
+                  {this.props.scienceAndHealth}
+                </div>
+                <div className="attSection hidden" id="liturgyMobile">
+                  {this.props.liturgy}
+                </div>
+          </div>
+
+          {/* desktop */}
+            <div className="is-hidden-mobile">
 
             <div className="container is-fullhd has-text-left relativeMaybe" id="attributeContainer">
               <aside className="has-background-grey-lighter">
@@ -21,7 +59,6 @@ class BaseAttributeDetail extends Component {
                   <AttributeSidebar attribute={this.props.title}/>
                 </section>
               </aside>
-
               <main>
               <div className="attSection" id="definition">
                   {this.props.definition}
@@ -50,15 +87,13 @@ class BaseAttributeDetail extends Component {
                 <div className="attSection" id="scienceAndHealth">
                   {this.props.scienceAndHealth}
                 </div>
-                {/* <div className="attSection" id="history">
-                  {this.props.history}
-                </div> */}
                 <div className="attSection" id="liturgy">
                   {this.props.liturgy}
                 </div>
               </main>
             </div>
           </div>
+          </>
         )
     }
 
