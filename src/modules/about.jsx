@@ -5,6 +5,10 @@ import UnlockImg from "../images/unlock.svg";
 
 class About extends React.Component {
 
+  componentDidMount() {
+    document.querySelector(".navbar").scrollIntoView();
+  }
+
   render() {
     return(
         <>

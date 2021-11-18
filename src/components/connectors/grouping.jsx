@@ -144,7 +144,7 @@ class Group extends Component {
     }
 
     scroll() {
-        document.querySelector(".grouping-detail").scrollIntoView({
+        document.querySelector(".grouping-container").scrollIntoView({
             behavior: 'smooth'
         })
     }

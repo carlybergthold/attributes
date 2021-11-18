@@ -43,3 +43,8 @@
 .longingIcon {
   height: 100px;
 }
+
+.basic-need-container {
+  display: flex;
+  flex-flow: row nowrap;
+}

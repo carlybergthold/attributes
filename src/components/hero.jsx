@@ -23,7 +23,24 @@ class Hero extends Component {
         var backgroundColor = { backgroundColor: styleMethods.getAttributeColor(this.props.title) };
 
         return(
-        <section className="hero" style={backgroundColor}>
+            <>
+        {/* mobile */}
+        <section className="hero is-hidden-tablet">
+            <div className="hero-body-mobile">
+                <div className="container heroContainer-mobile">
+                    <div className="heroTitle-mobile">
+                        <h1 className="title light-text" id="heroTitle">{this.props.title}</h1>
+                    </div>
+                    <div className="subtitle light-text" id="heroSubtitle">{this.props.subtitle}</div>
+                    {
+                        styleMethods.getIcon(this.props.title, this.state.fill)
+                    }
+                </div>
+            </div>
+        </section>
+
+        {/* desktop */}
+        <section className="hero is-hidden-mobile" style={backgroundColor}>
             <div className="hero-body">
                 <div className="container heroContainer">
                     {
@@ -36,6 +53,7 @@ class Hero extends Component {
                 </div>
             </div>
         </section>
+        </>
     )}
 }
 

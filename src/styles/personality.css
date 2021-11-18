@@ -41,6 +41,14 @@
   align-items: center;
 }
 
+.heroTitle-mobile {
+  padding-bottom: 1rem;
+}
+
+.heroSubtitle-mobile {
+  padding: 1rem;
+}
+
 @media screen and (max-width: 980px) {
   .personality-box {
     height: 30rem;

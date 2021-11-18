@@ -25,7 +25,7 @@ class QuizResults extends React.Component {
 
   componentDidMount() {
     this.getUserData();
-    window.scrollTo(0, 0);
+    document.querySelector(".navbar").scrollIntoView();
   }
 
   getUserData = () => {

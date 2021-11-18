@@ -20,7 +20,7 @@ class Quiz extends Component {
 
   componentDidMount() {
     this.getQuestions();
-    window.scrollTo(0, 0);
+    document.querySelector(".navbar").scrollIntoView();
   }
 
   validateQuiz = () => {
@@ -94,7 +94,7 @@ class Quiz extends Component {
     let questionsSection = questions.filter(q => q.id >= this.state.startingIndex &&
                                                  q.id <= this.state.endingIndex);
     this.setState( {questions: questionsSection} );
-    window.scrollTo(0, 0);
+    document.querySelector(".navbar").scrollIntoView();
   }
 
   nextPageClick = () => {
