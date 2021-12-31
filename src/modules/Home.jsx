@@ -111,9 +111,9 @@ class Home extends React.Component {
                 <div className="columns is-vcentered">
                     <div className="column is-5 is-offset-1 landing-caption">
                         <h1 className="title is-1 is-bold is-spaced">
-                            Are you in God's image?
+                        Who is God?  How am I like Him?  How am I not? 
                         </h1>
-                        <h2 className="subtitle is-5 is-muted"> To answer this question, you have to know both yourself and God. This website will help you see how much you really are like God - and how you are not!</h2>
+                        <h2 className="subtitle is-5 is-muted">Explore this website to better understand both yourself and God!</h2>
                         <div className="button-wrap">
                             <span className="button is-rounded is-primary raised">
                                 <Link to="/quiz">Take the Quiz</Link>
@@ -133,8 +133,8 @@ class Home extends React.Component {
             <div className="overlay"></div>
             <div className="container">
                 <div className="title-wrapper has-text-centered">
-                    <h2 className="title is-2">God's image shows up in many ways.</h2>
-                    <h3 className="subtitle is-5">Our humanity comes from Him - including our fears, emotions and struggles.</h3>
+                    <h2 className="title is-2">God shows up in our lives every day.</h2>
+                    <h3 className="subtitle is-5">Our very humanity comes from Him.  Pick which human trait you are dealing with most today.</h3>
                     <div className="divider is-centered"></div>
                 </div>
 
@@ -149,7 +149,7 @@ class Home extends React.Component {
                                 <img src={FearIcon} alt="foo"></img>
                             </div>
                             <div className="card-text">
-                                <p>Fear is common to all people.  Your strongest fear points to God.</p>
+                                <p>Fear is common to all people.  And each fear points to God.</p>
                             </div>
                             <div className="card-action">
                                 <Link to="/fear" className="button btn-align-md is-primary raised">Explore More</Link>
@@ -165,7 +165,7 @@ class Home extends React.Component {
                                 <img src={EmotionIcon} alt="foo"></img>
                             </div>
                             <div className="card-text">
-                                <p>God invites you to see Him in how you are feeling right now.</p>
+                                <p>No matter the emotion, it can be a path to God.</p>
                             </div>
                             <div className="card-action">
                                 <Link to="/emotion" className="button btn-align-md is-primary raised">Explore More</Link>
@@ -181,7 +181,7 @@ class Home extends React.Component {
                                 <img src={StrugglesIcon} alt="foo"></img>
                             </div>
                             <div className="card-text">
-                                <p>Each struggle is a lesson designed by God to learn of Him.</p>
+                                <p>Tough day?  Each struggle can connect us with God.</p>
                             </div>
                             <div className="card-action">
                                 <Link to="/struggle" className="button btn-align-md is-primary raised">Explore More</Link>
@@ -225,7 +225,7 @@ class Home extends React.Component {
 
                 <div className="title-wrapper has-text-centered">
                     <h2 className="title is-2 light-text is-spaced">You are unique.</h2>
-                    <h3 className="subtitle is-5 light-text">You have likely already used one of these personality tests to better understand yourself and others. Browse your personality type below to see how you most strongly reflect God.</h3>
+                    <h3 className="subtitle is-5 light-text">Browse your personality type below to see how you most strongly reflect God.</h3>
                 </div>
 
                 <div className="content-wrapper homepage-personality">
