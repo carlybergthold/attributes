@@ -19,7 +19,7 @@ class Personality extends Component {
 
                 <div className="title-wrapper has-text-centered">
                     <h2 className="title is-2 light-text is-spaced">You are unique.</h2>
-                    <h3 className="subtitle is-5 light-text">You have likely already used one of these personality tests to better understand yourself and others. Browse your personality type below to see how you most strongly reflect God.</h3>
+                    <h3 className="subtitle is-5 light-text">Browse your personality type below to see how you most strongly reflect God.</h3>
                 </div>
 
                 <div className="content-wrapper homepage-personality">
