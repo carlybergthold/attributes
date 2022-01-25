@@ -53,7 +53,10 @@ class AppViews extends Component {
   render() {
     return(
       <>
-      <TopNav user={this.props.user} signOut={this.props.signOut} />
+      {this.props.showLogIn
+        ? (<Login showHideLogIn={this.props.showHideLogIn} addUser={this.props.addUser} signIn={this.props.signIn} signOut={this.props.signOut} loginError={this.props.loginError} resetLoginError={this.props.resetLoginError} forgotPassword={this.props.forgotPassword} />)
+        : null}
+      <TopNav user={this.props.user} signOut={this.props.signOut} showHideLogIn={this.props.showHideLogIn} />
       <Route exact path="/" component={Home}  user={this.props.user} />
       <Route exact path="/home" component={Home}  user={this.props.user} />
       <Route exact path="/about" component={About}  user={this.props.user} />
