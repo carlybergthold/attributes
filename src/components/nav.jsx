@@ -42,6 +42,14 @@ class TopNav extends Component {
         }
     }
 
+    logInClick = (isMobile) => {
+        if (isMobile) this.exitMobileMenu();
+
+        this.props.user
+            ? this.props.signOut()
+            : this.props.showHideLogIn(true);
+    }
+
     render() {
         return (
         <>
@@ -109,6 +117,8 @@ class TopNav extends Component {
                 <span className="navbar-item">
                     <Link to="/about" className="has-text-grey-dark">About</Link>
                 </span>
+                <span className="navbar-item has-text-grey-dark is-hoverable" onClick={() => this.logInClick(false)}>{this.props.user ? 'Sign Out' : 'Log In'}
+                </span>
             </div>
         </nav>
 
@@ -165,6 +175,7 @@ class TopNav extends Component {
                     </div>
                 </div>
                 <li><Link to="/about" onClick={this.exitMobileMenu}>About</Link></li>
+                <li><span className="orange-text" onClick={() => this.logInClick(true)}>{this.props.user ? 'Sign Out' : 'Log In'}</span></li>
             </div>
         </div>
         </>

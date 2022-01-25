@@ -165,3 +165,11 @@ Link {
 .orange-background {
   background-color: var(--orange);
 }
+
+.orange-text {
+  color: var(--orange) !important;
+}
+
+.blue-text {
+  color: var(--blue) !important;
+}
