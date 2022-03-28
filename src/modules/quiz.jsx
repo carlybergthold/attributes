@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom"
 import questions from "../data/testArray"
 import fire from "../config/fire"
 import "../styles/quiz.css"
-import Hero from '../components/hero'
+import Hero from '../components/hero';
 
 class Quiz extends Component {
 
@@ -14,25 +14,101 @@ class Quiz extends Component {
       startingIndex: 1,
       endingIndex: 6,
       page: 1,
-      questions: []
+      questions: [],
+      questionsAnswered: [],
+      modalInUserMode: false,
+      showPage: false
     }
   }
 
   componentDidMount() {
-    this.getQuestions();
     document.querySelector(".navbar").scrollIntoView();
+    this.checkForUser();
+  }
+
+  checkForUser = () => {
+    if (!this.props.user) {
+      this.setState({ modalInUserMode: true });
+      this.openModal();
+    } else {
+      this.getUserQuestionsAnswered();
+    }
+  }
+
+  getUserQuestionsAnswered = () => {
+    let questionsAnswered = [];
+
+    fire.database().ref(`/userQuiz/${this.props.user}/questionsAnswered`)
+      .once('value', snap => {
+        const ids = snap.val();
+
+        for (const key in ids) {
+          const questionId = key;
+          const score = ids[key].score;
+
+          questionsAnswered.push({ questionId: parseInt(questionId), score: score});
+        }
+
+        this.setStartingAndEndingIndices(questionsAnswered);
+      });
+  }
+
+  setStartingAndEndingIndices = (questionsAnswered) => {
+    //what happens here if it's undefined or 0 or 1?
+    const highestQuestionIdAnswered = Math.max(...questionsAnswered.map(o => o.questionId), 0);
+
+    const page = (highestQuestionIdAnswered / 6) + 1;
+    const startingIndex = highestQuestionIdAnswered + 1;
+    const endingIndex = highestQuestionIdAnswered + 6;
+
+    this.setState({ startingIndex: startingIndex, endingIndex: endingIndex, page: page });
+
+    this.updateQuestionArrayWithAnswers(questionsAnswered);
+    this.getQuestions();
+  }
+
+  updateQuestionArrayWithAnswers = (questionsAnswered) => {
+    questionsAnswered.forEach(questionAnswered => {
+      const match = questions.find(question => question.id === questionAnswered.questionId);
+      match.score = questionAnswered.score;
+    })
+  }
+
+  getIsChecked = (inputValue, question) => {
+    if (question.score && inputValue === question.score) {
+      return true;
+    }
+
+    return false;
+  }
+
+  getQuestions = () => {
+    let questionsSection = questions.filter(q => q.id >= this.state.startingIndex && q.id <= this.state.endingIndex);
+
+    this.setState( {questions: questionsSection} );
+  }
+
+  openModal = () => {
+    const modal = document.querySelector('.modal');
+    modal.classList.add("is-active");
+  }
+
+  closeModal = () => {
+    document.querySelector('.modal').classList.remove("is-active");
+    if (this.state.modalInUserMode) {
+      this.setState({ modalInUserMode: false });
+    }
   }
 
   validateQuiz = () => {
     let radios = document.querySelectorAll('input');
     let checkedRadios = [];
     let button = document.querySelector('.quiz-btn');
-    let modal = document.querySelector('.modal');
 
     radios.forEach(radio => {if (radio.checked) checkedRadios.push(radio.key)});
 
     if (checkedRadios.length < this.state.questions.length) {
-      modal.classList.add("is-active");
+      this.openModal();
       return;
     } else {
       this.updateUserAttributes();
@@ -41,6 +117,7 @@ class Quiz extends Component {
     if (button.textContent !== 'Submit') {
       this.nextPageClick()
     } else {
+      fire.database().ref(`/${this.props.user}`).set({quizTaken: true});
       this.props.history.push("/results");
     }
   }
@@ -53,55 +130,62 @@ class Quiz extends Component {
     let totalReflectionScore = 0;
     let salvationScore = 0;
 
+    let questionsAnswered = [];
+
     radios.forEach(radio => {
       if (radio.checked)
       {
+        const questionId = radio.name;
+        const chosenScore = parseInt(radio.value);
+
+        questionsAnswered.push({ questionId: parseInt(questionId), score: chosenScore})
+
         let attribute = radio.className.split("-")[0];
         let category = radio.className.split("-")[1];
 
         if (category === 'accept' && attribute === 'grace')
         {
-          salvationScore = parseInt(radio.value);
+          salvationScore = chosenScore;
         }
         else if (category === 'accept')
         {
-          totalAcceptanceScore += parseInt(radio.value);
+          totalAcceptanceScore += chosenScore;
 
         } else if (category === 'reject')
         {
-          totalRejectionScore += parseInt(radio.value);
-        } else totalReflectionScore += parseInt(radio.value);
-      }
+          totalRejectionScore += chosenScore;
+        } else totalReflectionScore += chosenScore;
 
-      if (radio.checked)
-      {
-        let attribute = radio.className.split("-")[0];
-        let category = radio.className.split("-")[1];
+        fire.database().ref(`/userAttributes/${this.props.user}/${attribute}`)
+          .update({ [category]: {"score": parseInt(radio.value), "questionId": radio.name} });
 
-        fire.database().ref(`/userAttributes/anonymous/${attribute}`).update({[category]: parseInt(radio.value)});
+        this.updateQuestionsAnswered(questionId, chosenScore);
       }
     })
 
-    fire.database().ref(`/scores/anonymous`).update({
+    fire.database().ref(`/scores/${this.props.user}`).update({
       acceptScore: totalAcceptanceScore,
       rejectScore: totalRejectionScore,
       reflectScore: totalReflectionScore,
       salvationScore: salvationScore
     });
+
+    this.updateQuestionArrayWithAnswers(questionsAnswered);
+
   }
 
-  getQuestions = () => {
-    let questionsSection = questions.filter(q => q.id >= this.state.startingIndex &&
-                                                 q.id <= this.state.endingIndex);
-    this.setState( {questions: questionsSection} );
-    document.querySelector(".navbar").scrollIntoView();
+  updateQuestionsAnswered = (questionId, score) => {
+    fire.database().ref(`/userQuiz/${this.props.user}/questionsAnswered/${questionId}`)
+      .set({
+        score: score
+      });
   }
 
   nextPageClick = () => {
     let newStart = this.state.startingIndex + 6;
     let newEnd = this.state.endingIndex + 6;
     let button = document.querySelector('.quiz-btn');
-    this.setState({ page: this.state.page + 1})
+    this.setState({ page: this.state.page + 1 })
 
     this.setState( {startingIndex: newStart, endingIndex: newEnd}, () => this.getQuestions());
 
@@ -116,15 +200,16 @@ class Quiz extends Component {
     this.setState( {startingIndex: newStart, endingIndex: newEnd}, () => this.getQuestions());
   }
 
-  closeModal = () => {
-    document.querySelector('.modal').classList.remove("is-active");
+  loginClick = () => {
+    this.closeModal();
+    this.props.showHideLogIn(true);
   }
 
   render() {
     return(
       <div className='page'>
         <Hero title="Take the Quiz!" icon="../images/attributeIcons/SVG/good.svg"/>
-        <div className="quizPage container">
+        <div className={`quizPage container ${this.state.questions.length > 0 ? '' : 'hidden'}`}>
           <section id="quiz-flex">
         {
           this.state.questions
@@ -135,15 +220,15 @@ class Quiz extends Component {
                   <label className="radio desktop-label">Least like me</label>
                   <input type="radio" className="is-hidden" disabled></input>
 
-                  <input type="radio" value="1" className={`${q.attribute}-${q.category}`} name={q.id}></input>
+                  <input type="radio" value="1" className={`${q.attribute}-${q.category}`} name={q.id} defaultChecked={this.getIsChecked(1, q)}></input>
 
-                  <input type="radio" value="2" className={`${q.attribute}-${q.category}`} name={q.id}></input>
+                  <input type="radio" value="2" className={`${q.attribute}-${q.category}`} name={q.id} defaultChecked={this.getIsChecked(2, q)}></input>
 
-                  <input type="radio" value="3" className={`${q.attribute}-${q.category}`} name={q.id}></input>
+                  <input type="radio" value="3" className={`${q.attribute}-${q.category}`} name={q.id} defaultChecked={this.getIsChecked(3, q)}></input>
 
-                  <input type="radio" value="4" className={`${q.attribute}-${q.category}`} name={q.id}></input>
+                  <input type="radio" value="4" className={`${q.attribute}-${q.category}`} name={q.id} defaultChecked={this.getIsChecked(4, q)}></input>
 
-                  <input type="radio" value="5" className={`${q.attribute}-${q.category}`} name={q.id}></input>
+                  <input type="radio" value="5" className={`${q.attribute}-${q.category}`} name={q.id} defaultChecked={this.getIsChecked(5, q)}></input>
                   <label className="radio desktop-label">Most like me</label>
 
                 </div>
@@ -168,15 +253,18 @@ class Quiz extends Component {
         </div>
         <div className="modal">
           <div className="modal-background"></div>
-          <div className="modal-card">
+          <div className="modal-content">
             <header className="modal-card-head is-flex justify-end">
               <button className="delete" aria-label="close" onClick={this.closeModal}></button>
             </header>
             <section className="modal-card-body">
-              Please select an answer for each question before moving ahead!
+              {this.state.modalInUserMode
+                ? "In order to save your quiz results, please register or log in."
+                : 'Please select an answer for each question before moving ahead!'}
             </section>
             <footer className="modal-card-foot is-flex justify-end">
-              <button className="button" onClick={this.closeModal}>Okay</button>
+            <button className={this.state.modalInUserMode ? 'button' : 'hidden'} onClick={this.loginClick}>Log In</button>
+            <button className="button orange-background" onClick={this.closeModal}>Got it!</button>
             </footer>
           </div>
         </div>

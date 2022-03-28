@@ -19,11 +19,16 @@ class AttributeApp extends Component {
         if(user.user) user.user.updateProfile({displayName: username});
         this.showHideLogIn(false);
       })
+      .then(() => this.handleUserChange(username))
       .catch(error => {
         this.setState({ loginError: error.message})
       });
 
       if (username !== 'undefined'  && username !== 'anon') {
+        fire.database().ref(`/userQuiz/${username}`).set(
+          {quizTaken: false}
+        );
+
         questions.forEach(q => {
           fire.database().ref(`/scores/${username}`).set({
             acceptScore: 0,
@@ -39,7 +44,6 @@ class AttributeApp extends Component {
         })
         })
       }
-      this.handleUserChange();
     }
 
     signIn = (email, password) => {
@@ -72,17 +76,16 @@ class AttributeApp extends Component {
         // });
     }
 
-    handleUserChange = () => {
+    handleUserChange = (username) => {
       fire.auth().onAuthStateChanged(user => {
         if (user) {
-          const displayName = user.displayName ? user.displayName : user.email;
+          let displayName = username ? username : user.displayName;
+          if (!displayName) displayName = user.email;
           localStorage.setItem('user', displayName);
           this.setState({ user: displayName});
-          console.log('user set to ', displayName)
         } else {
           localStorage.removeItem('user');
           this.setState({ user: null});
-          console.log('user signed out')
         }
       });
     }

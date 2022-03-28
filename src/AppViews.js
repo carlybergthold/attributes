@@ -60,7 +60,7 @@ class AppViews extends Component {
       <Route exact path="/" component={Home}  user={this.props.user} />
       <Route exact path="/home" component={Home}  user={this.props.user} />
       <Route exact path="/about" component={About}  user={this.props.user} />
-      <Route exact path="/quiz" render={(props) => (<Quiz {...props} user={this.props.user} /> )} />
+      <Route exact path="/quiz" render={(props) => (<Quiz {...props} user={this.props.user} showHideLogIn={this.props.showHideLogIn} /> )} />
       <Route exact path="/results" render={(props) => (<QuizResults {...props} user={this.props.user} /> )} />
       <Route exact path="/personality" component={Personality} user={this.props.user} />
       <Route exact path="/register" render={(props) => (<Register {...props} addUser={this.props.addUser} user={this.props.user} /> )} />
