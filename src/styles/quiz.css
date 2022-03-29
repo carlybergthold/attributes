@@ -3,6 +3,13 @@
   padding: 1rem;
 }
 
+.quiz-taken-message {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-top: 10%;
+}
+
 #header {
   font-size: 4rem;
   padding: 0rem 1.5rem;

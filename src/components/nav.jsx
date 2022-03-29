@@ -10,7 +10,8 @@ class TopNav extends Component {
 
     state = {
         attDropdownActive: false,
-        exploreDropdownActive: false
+        exploreDropdownActive: false,
+        userDropdownActive: false
     }
 
     toggleAttActive = () => {
@@ -18,6 +19,10 @@ class TopNav extends Component {
 
         if (this.state.exploreDropdownActive) {
             this.setState({ exploreDropdownActive: false });
+        }
+
+        if (this.state.userDropdownActive) {
+            this.setState({ userDropdownActive: false });
         }
     }
 
@@ -27,11 +32,14 @@ class TopNav extends Component {
         if (this.state.attDropdownActive) {
             this.setState({ attDropdownActive: false });
         }
+
+        if (this.state.userDropdownActive) {
+            this.setState({ userDropdownActive: false });
+        }
     }
 
-    exitMobileMenu = () => {
-        const checkbox = document.getElementById('openSidebarMenu');
-        checkbox.checked = false;
+    toggleUserActive = () => {
+        this.setState({ userDropdownActive: !this.state.userDropdownActive });
 
         if (this.state.attDropdownActive) {
             this.setState({ attDropdownActive: false });
@@ -42,12 +50,20 @@ class TopNav extends Component {
         }
     }
 
+    exitMobileMenu = () => {
+        const checkbox = document.getElementById('openSidebarMenu');
+        checkbox.checked = false;
+
+        this.setMobileDropdownStateToFalse();
+    }
+
+    setMobileDropdownStateToFalse = () => {
+        this.setState({ attDropdownActive: false, exploreDropdownActive: false, userDropdownActive: false });
+    }
+
     logInClick = (isMobile) => {
         if (isMobile) this.exitMobileMenu();
-
-        this.props.user
-            ? this.props.signOut()
-            : this.props.showHideLogIn(true);
+        this.props.showHideLogIn(true);
     }
 
     render() {
@@ -112,18 +128,30 @@ class TopNav extends Component {
                             <Link to="/basicneeds">By Who You Are in Christ</Link>
                         </span>
                     </div>
-                    </div>
+                </div>
                 </div>
                 <span className="navbar-item">
                     <Link to="/about" className="has-text-grey-dark">About</Link>
                 </span>
-                <span className="navbar-item has-text-grey-dark is-hoverable" onClick={() => this.logInClick(false)}>{this.props.user ? 'Sign Out' : 'Log In'}
-                </span>
+                <span className={this.props.user ? 'hidden' : 'navbar-item has-text-grey-dark is-hoverable'} onClick={() => this.logInClick(false)}>Log In</span>
+                <div className={this.props.user ? 'navbar-item has-dropdown is-hoverable' : 'hidden'}>
+                    <span className="navbar-link">
+                        {this.props.user}
+                    </span>
+                    <div className="navbar-dropdown user-dropdown">
+                        <span className="navbar-item">
+                            <Link to="/results">Quiz Results</Link>
+                        </span>
+                        <span className="navbar-item" onClick={this.props.signOut}>
+                            Sign Out
+                        </span>
+                    </div>
+                </div>
             </div>
         </nav>
 
         {/* mobile menu */}
-        <input type="checkbox" className="openSidebarMenu" id="openSidebarMenu"></input>
+        <input type="checkbox" className="openSidebarMenu" id="openSidebarMenu" onClick={this.setMobileDropdownStateToFalse}></input>
         <label htmlFor="openSidebarMenu" className="sidebarIconToggle is-hidden-desktop">
             <div className="spinner diagonal part-1"></div>
             <div className="spinner horizontal"></div>
@@ -175,7 +203,26 @@ class TopNav extends Component {
                     </div>
                 </div>
                 <li><Link to="/about" onClick={this.exitMobileMenu}>About</Link></li>
-                <li><span className="orange-text" onClick={() => this.logInClick(true)}>{this.props.user ? 'Sign Out' : 'Log In'}</span></li>
+                <li className={this.props.user ? 'hidden' : ''}><span className="orange-text" onClick={() => this.logInClick(true)}>Log In</span></li>
+                <span className={this.props.user ? '' : 'hidden'}>
+                    <div className={this.state.userDropdownActive ? 'dropdown mobile-dropdown is-active' : 'mobile-dropdown dropdown'}>
+                        <div className="dropdown-trigger" onClick={this.toggleUserActive}>
+                            <div aria-haspopup="true" aria-controls="dropdown-menu4" className="is-flex">
+                                <span className="orange-text">{this.props.user}</span>
+                                <FontAwesomeIcon icon={faAngleDown} className="angle-down"/>
+                            </div>
+                        </div>
+                        <div className="dropdown-menu" id="dropdown-menu4" role="menu">
+                            <div className="dropdown-content">
+                                <div className="dropdown-item is-capitalized">
+                                <div className="mobile-dropdown-item">
+                                    <Link to="/results" className="has-text-grey">Quiz Results</Link></div>
+                                        <div className="mobile-dropdown-item has-text-grey" onClick={this.props.signOut}>Sign Out</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </span>
             </div>
         </div>
         </>

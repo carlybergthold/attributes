@@ -14,6 +14,8 @@ class QuizResults extends React.Component {
       super(props);
 
       this.state = {
+          quizChecked: false,
+          quizTaken: false,
           acceptScore: 0,
           rejectScore: 0,
           reflectScore: 0,
@@ -24,40 +26,53 @@ class QuizResults extends React.Component {
   }
 
   componentDidMount() {
-    this.getUserData();
     document.querySelector(".navbar").scrollIntoView();
+
+    if (!this.props.user) this.props.history.push('/home');
+
+    this.getUserData();
   }
 
   getUserData = () => {
-      let ref = fire.database().ref(`/scores/anonymous`);
-      ref.on('value', snapshot => {
-        this.setState({acceptScore: this.state.acceptScore,
-                        rejectScore: this.state.rejectScore,
-                        reflectScore: this.state.reflectScore,
-                        salvationScore: this.state.salvationScore});
+    fire.database().ref(`/userQuiz/${this.props.user}/quizTaken`)
+      .on('value', snap => {
+        this.setState({ quizTaken: snap.val(), quizChecked: true })
       });
 
-      let top3 = fire.database().ref(`/userAttributes/anonymous`)
-                                .orderByChild('reflect').limitToLast(3);
 
-      let bottom3 = fire.database().ref(`/userAttributes/anonymous`)
-                                    .orderByChild('reflect').limitToFirst(3);
 
-      top3.on('value', snap => {
-        let topScores = []
-        snap.forEach(att => {
-          topScores.push(att.key)
-        });
-        this.setState({ topReflections: topScores})
+    let ref = fire.database().ref(`/scores/${this.props.user}`);
+    ref.on('value', snapshot => {
+      this.setState({acceptScore: this.state.acceptScore,
+                      rejectScore: this.state.rejectScore,
+                      reflectScore: this.state.reflectScore,
+                      salvationScore: this.state.salvationScore});
+    });
+
+    const reflectionScores = fire.database().ref(`/userAttributes/${this.props.user}`);
+
+    reflectionScores.on('value', snap => {
+      let reflections = [];
+
+      snap.forEach(att => {
+        const attribute = att.key;
+        const reflectScore = att.val().reflect.score === undefined ? 0 : att.val().reflect.score;
+        reflections.push({ "attribute": attribute, "score": reflectScore });
       });
 
-      bottom3.on('value', snap => {
-        let bottomScores = []
-        snap.forEach(att => {
-          bottomScores.push(att.key)
-        });
-        this.setState({ bottomReflections: bottomScores})
-      });
+      reflections = reflections.sort((a, b) => a.score - b.score);
+
+      const top3 = reflections.slice(-3);
+      const bottom3 = reflections.slice(0, 3);
+
+      const topList = [];
+      const bottomList = [];
+
+      top3.forEach(x => topList.push(x.attribute));
+      bottom3.forEach(x => bottomList.push(x.attribute));
+
+      this.setState({ topReflections: topList, bottomReflections: bottomList });
+    });
   }
 
   getDescription = (attribute) => {
@@ -81,7 +96,18 @@ class QuizResults extends React.Component {
   render() {
     return(
         <>
-        <section className="section is-medium has-background-primary full-height">
+        {/* if hasn't taken quiz */}
+        <section className={this.state.quizTaken ? 'hidden' : 'section is-medium has-background-primary full-height'}>
+        <div className='container'>
+          <div className="title-wrapper has-text-centered">
+            <h2 className="title is-2 is-spaced light-text">You haven't finished the quiz yet!</h2>
+            <div className="button"><Link to="/quiz">Take the Quiz</Link></div>
+          </div>
+        </div>
+        </section>
+
+        {/* if quiz results are available */}
+        <section className={this.state.quizChecked && this.state.quizTaken ? 'section is-medium has-background-primary full-height' : 'hidden'}>
           <div className='container'>
             <div className="title-wrapper has-text-centered">
               <h2 className="title is-2 is-spaced light-text">The three attributes you reflect the most:</h2>

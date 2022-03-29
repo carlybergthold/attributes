@@ -26,7 +26,7 @@ class Login extends Component {
 
     submitForm = () => {
         this.state.register
-            ? this.props.addUser(this.state.email, this.state.password)
+            ? this.props.addUser(this.state.email, this.state.password, this.state.username)
             : this.props.signIn(this.state.email, this.state.password);
     }
 
@@ -96,9 +96,6 @@ class Login extends Component {
                                     </div>
                                 </div>
                         }
-
-
-
                         <div className="disclaimer">
                             <div>{this.state.register ? "Already have an account?" : "Haven't made an account yet?"}&nbsp;
                             </div>

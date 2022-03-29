@@ -111,7 +111,7 @@ class Home extends React.Component {
                 <div className="columns is-vcentered">
                     <div className="column is-5 is-offset-1 landing-caption">
                         <h1 className="title is-1 is-bold is-spaced">
-                        Who is God?  How am I like Him?  How am I not? 
+                        Who is God?  How am I like Him?  How am I not?
                         </h1>
                         <h2 className="subtitle is-5 is-muted">Explore this website to better understand both yourself and God!</h2>
                         <div className="button-wrap">
@@ -120,7 +120,7 @@ class Home extends React.Component {
                             </span>
                         </div>
                     </div>
-                    <div className="column is-5">
+                    <div className="column is-5 home-illustration-column">
                         <figure className="image">
                             <img src={Thought} alt="Description" id="home-illustration"></img>
                         </figure>

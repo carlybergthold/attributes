@@ -1,30 +1,16 @@
+import React, { Component } from "react";
+
 class Modal extends Component {
 
-    constructor(props){
-        super(props);
 
-        this.state = {
-            isActive: false,
-            message: ''
-        }
-      }
-
-      componentDidMount() {
-        fire.auth().onAuthStateChanged(user => {
-          if (user) {
-            this.setState({ isActive: true });
-          } else {
-            this.setState({ isActive: false });
-           }
-        });
-      }
-
-    return() {
-        <div className="modal">
-        <div className="modal-background"></div>
-        <div className="modal-content">{message}</div>
-        <button className="modal-close is-large" aria-label="close"></button>
-        </div>
+    render() {
+      return(
+          <div className={this.props.openModal ? 'modal is-active' : 'hidden'}>
+            <div className="modal-background"></div>
+            <div className="modal-content">{this.props.message}</div>
+            <button className="modal-close is-large" aria-label="close" onClick={this.props.closeUserModal}></button>
+          </div>
+      )
     }
 }
 
