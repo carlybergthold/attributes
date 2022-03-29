@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { withRouter } from "react-router-dom"
 import questions from "../data/testArray"
 import fire from "../config/fire"
 import "../styles/quiz.css"
 import Hero from '../components/hero';
+import { withRouter, Link } from "react-router-dom"
 
 class Quiz extends Component {
 
@@ -17,7 +17,9 @@ class Quiz extends Component {
       questions: [],
       questionsAnswered: [],
       modalInUserMode: false,
-      showPage: false
+      showPage: false,
+      quizChecked: false,
+      quizTaken: false
     }
   }
 
@@ -31,8 +33,17 @@ class Quiz extends Component {
       this.setState({ modalInUserMode: true });
       this.openModal();
     } else {
-      this.getUserQuestionsAnswered();
+      this.getQuizTaken();
     }
+  }
+
+  getQuizTaken = () => {
+    fire.database().ref(`/userQuiz/${this.props.user}/quizTaken`)
+    .on('value', snap => {
+      this.setState({ quizTaken: snap.val(), quizChecked: true }, () => {
+        if (!this.state.quizTaken) this.getUserQuestionsAnswered();
+      })
+    });
   }
 
   getUserQuestionsAnswered = () => {
@@ -54,12 +65,16 @@ class Quiz extends Component {
   }
 
   setStartingAndEndingIndices = (questionsAnswered) => {
-    //what happens here if it's undefined or 0 or 1?
     const highestQuestionIdAnswered = Math.max(...questionsAnswered.map(o => o.questionId), 0);
+    let page = 1;
+    let startingIndex = 1;
+    let endingIndex = 6;
 
-    const page = (highestQuestionIdAnswered / 6) + 1;
-    const startingIndex = highestQuestionIdAnswered + 1;
-    const endingIndex = highestQuestionIdAnswered + 6;
+    if (questionsAnswered.length !== questions.length) {
+      page = (highestQuestionIdAnswered / 6) + 1;
+      startingIndex = highestQuestionIdAnswered + 1;
+      endingIndex = highestQuestionIdAnswered + 6;
+    }
 
     this.setState({ startingIndex: startingIndex, endingIndex: endingIndex, page: page });
 
@@ -97,6 +112,7 @@ class Quiz extends Component {
     document.querySelector('.modal').classList.remove("is-active");
     if (this.state.modalInUserMode) {
       this.setState({ modalInUserMode: false });
+      this.getUserQuestionsAnswered();
     }
   }
 
@@ -117,7 +133,7 @@ class Quiz extends Component {
     if (button.textContent !== 'Submit') {
       this.nextPageClick()
     } else {
-      fire.database().ref(`/${this.props.user}`).set({quizTaken: true});
+      fire.database().ref(`/userQuiz/${this.props.user}`).update({quizTaken: true});
       this.props.history.push("/results");
     }
   }
@@ -175,10 +191,12 @@ class Quiz extends Component {
   }
 
   updateQuestionsAnswered = (questionId, score) => {
-    fire.database().ref(`/userQuiz/${this.props.user}/questionsAnswered/${questionId}`)
-      .set({
-        score: score
-      });
+    if (this.props.user) {
+      fire.database().ref(`/userQuiz/${this.props.user}/questionsAnswered/${questionId}`)
+        .set({
+          score: score
+        });
+    }
   }
 
   nextPageClick = () => {
@@ -203,6 +221,12 @@ class Quiz extends Component {
   loginClick = () => {
     this.closeModal();
     this.props.showHideLogIn(true);
+  }
+
+  showTakenQuiz = () => {
+    this.setState({ quizTaken: false, page: 1, startingIndex: 1, endingIndex: 6 }, () => {
+      this.getUserQuestionsAnswered();
+    });
   }
 
   render() {
@@ -249,6 +273,13 @@ class Quiz extends Component {
               </div>
             </div>
           </section>
+          </div>
+        </div>
+        <div className={this.state.quizTaken ? 'quiz-taken-message' : 'hidden'}>
+          <h2 className="title is-2 is-spaced primary-text">You've already finished the quiz!</h2>
+          <div>
+            <div className="button"><Link to="/results">See Your Results</Link></div>
+            <div className="button orange-background" onClick={this.showTakenQuiz}>Or Go to Quiz</div>
           </div>
         </div>
         <div className="modal">
