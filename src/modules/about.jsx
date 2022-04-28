@@ -44,9 +44,9 @@ class About extends React.Component {
               </li>
             </ul>
             <h2 className="subtitle is-4">What is your theology?</h2>
-            <p>I seek to adhere to orthodox non-denominational Christian Biblical doctrine.  Each of these 32 attributes flow from God’s image to all humans in some finite form.  We can never become God, but believers can and should become more godly through the work of the Holy Spirit.  And even those attributes which may normally be considered incompatible with man will manifest in areas such as our desires (i.e. we will never be omnipotent like God, but we all do like control).</p>
+            <p>I seek to adhere to orthodox non-denominational Christian Biblical doctrine.  Each of these 32 attributes flow from God’s image to all humans in some finite form.  We can never become God, but believers can and should become more godly through the work of the Holy Spirit.  And even those attributes which may normally be considered incompatible with man will manifest in areas such as our desires (i.e. we will never be omnipotent like God, but we all do like control). I cite many well-known theologians (especially A.W. Pink, whose works inspired this project), but also many secular articles, such as from Psychology Today, because God often reveals His wisdom through such secular means.  We can, of course, only recognize this by its alignment with Scripture.</p>
             <h2 className="subtitle is-4">How can you help?</h2>
-            <p>This website was launched in 2021 and I would love to receive your feedback on it - how it might have helped you, as well as any constructive suggestions on how to improve (including edits, new functionality, even major new content or ideas).  You may also share freely with others!</p>
+            <p>This website was launched in 2022 and I would love to receive your feedback on it - how it might have helped you, as well as any constructive suggestions on how to improve (including edits, new functionality, even major new content or ideas).  You may also share freely with others!</p>
             <p>Have feedback? <u><a href="mailto:ronbergthold6@gmail.com">Contact me!</a></u></p>
             <br/>
             <br/>

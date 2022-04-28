@@ -96,7 +96,7 @@ class Merciful extends Component {
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("merciful")}}>How are we “hard-wired" to be merciful?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">We want to help others in need.  It is when we selfishly consider the cost we may endure that we often back away from merciful actions.  But we step forward when we selflessly consider the cost which another is enduring by imagining it as our own.</p>
-                  <p className="is-size-6 leading-normal padded">Research shows that when we see others being harmed, our brains react in similar ways as if we were being harmed....These events also stimulate us to think of our own experiences of pain or trauma; in other words, our 'autobiographical memory'. We remember the times when we were in danger or in pain and our brain, in a sense, reaches out and imagines how the actual victims are thinking and feeling. - Psychology Today (Mar 2011)</p>                
+                  <p className="is-size-6 leading-normal padded">Research shows that when we see others being harmed, our brains react in similar ways as if we were being harmed....These events also stimulate us to think of our own experiences of pain or trauma; in other words, our 'autobiographical memory'. We remember the times when we were in danger or in pain and our brain, in a sense, reaches out and imagines how the actual victims are thinking and feeling. - Psychology Today Mar 2011 (God's wisdom shining though a secular source)</p>                
               </section>
             }
             history={
