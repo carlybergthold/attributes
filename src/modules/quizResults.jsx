@@ -142,7 +142,7 @@ class QuizResults extends React.Component {
 
           <div className='container'>
             <div className="title-wrapper has-text-centered">
-              <h2 className="title is-2 is-spaced light-text">Your bottom three attributes:</h2>
+              <h2 className="title is-2 is-spaced light-text">The three attributes you reflect the least:</h2>
             </div>
             <div className="content-wrapper homepage-personality">
               <div className="columns is-vcentered">
