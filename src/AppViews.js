@@ -47,6 +47,7 @@ import truthful from './modules/attributeDetail/truthful'
 import unique from './modules/attributeDetail/unique'
 import wise from './modules/attributeDetail/wise'
 import wrathful from './modules/attributeDetail/wrathful'
+import Movies from './components/connectors/movies'
 
 class AppViews extends Component {
 
@@ -72,6 +73,7 @@ class AppViews extends Component {
       <Route exact path="/emotion" render={(props) => (<Emotion /> )} />
       <Route exact path="/struggle" render={(props) => (<Struggle /> )} />
       <Route exact path="/basicneeds" render={(props) => (<BasicNeeds /> )} />
+      <Route exact path="/movies" render={(props) => (<Movies /> )} />
 {/*
       <Route exact path="/attributes/:attribute(\d+)" render={(props) => {
                 let attribute = attArray.find(att =>

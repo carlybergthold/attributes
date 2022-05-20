@@ -13,6 +13,9 @@
 .connector-card {
   width: 22rem;
 }
+.movie-card {
+  max-width: 100%;
+}
 .media {
   display: flex;
   align-items: center;
@@ -47,4 +50,20 @@
 .basic-need-container {
   display: flex;
   flex-flow: row nowrap;
+}
+
+.see-more {
+  padding: 1rem;
+  text-align: left;
+}
+.movie-attribute {
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+.movie-card-content {
+  padding: 1rem;
+}
+.movie-title {
+  margin-bottom: 0.5rem;
 }
