@@ -1,8 +1,27 @@
 .form {
-    margin: 3rem 10rem 3rem 10rem;
-    padding: 3rem;
+  background: white;
+  padding: 2rem;
 }
 
 #password {
-    -webkit-text-security: disc;
+  -webkit-text-security: disc;
+}
+
+.input {
+  width: 90%;
+}
+
+.register-title {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.disclaimer {
+  display: flex;
+  justify-content: right;
+  font-size: 0.8rem;
+}
+
+.is-grouped {
+  margin-top: 1rem;
 }

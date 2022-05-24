@@ -47,17 +47,21 @@ import truthful from './modules/attributeDetail/truthful'
 import unique from './modules/attributeDetail/unique'
 import wise from './modules/attributeDetail/wise'
 import wrathful from './modules/attributeDetail/wrathful'
+import Movies from './components/connectors/movies'
 
 class AppViews extends Component {
 
   render() {
     return(
       <>
-      <TopNav user={this.props.user} signOut={this.props.signOut} />
+      {this.props.showLogIn
+        ? (<Login showHideLogIn={this.props.showHideLogIn} addUser={this.props.addUser} signIn={this.props.signIn} signOut={this.props.signOut} loginError={this.props.loginError} resetLoginError={this.props.resetLoginError} forgotPassword={this.props.forgotPassword} />)
+        : null}
+      <TopNav user={this.props.user} signOut={this.props.signOut} showHideLogIn={this.props.showHideLogIn} />
       <Route exact path="/" component={Home}  user={this.props.user} />
       <Route exact path="/home" component={Home}  user={this.props.user} />
       <Route exact path="/about" component={About}  user={this.props.user} />
-      <Route exact path="/quiz" render={(props) => (<Quiz {...props} user={this.props.user} /> )} />
+      <Route exact path="/quiz" render={(props) => (<Quiz {...props} user={this.props.user} showHideLogIn={this.props.showHideLogIn} /> )} />
       <Route exact path="/results" render={(props) => (<QuizResults {...props} user={this.props.user} /> )} />
       <Route exact path="/personality" component={Personality} user={this.props.user} />
       <Route exact path="/register" render={(props) => (<Register {...props} addUser={this.props.addUser} user={this.props.user} /> )} />
@@ -69,6 +73,7 @@ class AppViews extends Component {
       <Route exact path="/emotion" render={(props) => (<Emotion /> )} />
       <Route exact path="/struggle" render={(props) => (<Struggle /> )} />
       <Route exact path="/basicneeds" render={(props) => (<BasicNeeds /> )} />
+      <Route exact path="/movies" render={(props) => (<Movies /> )} />
 {/*
       <Route exact path="/attributes/:attribute(\d+)" render={(props) => {
                 let attribute = attArray.find(att =>

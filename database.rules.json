@@ -1,5 +1,12 @@
 {
   "rules": {
+    "userAttributes": {
+      "$userId": {
+        "$attributeId": {
+          ".indexOn": "reflect"
+        }
+      }
+    },
     ".read": true,
     ".write": true
   }
