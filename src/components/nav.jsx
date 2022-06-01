@@ -162,8 +162,8 @@ class TopNav extends Component {
         </label>
         <div id="sidebarMenu">
             <div className="sidebarMenuInner has-text-white">
-                <li><Link to="/home" onClick={this.exitMobileMenu}>Home</Link></li>
-                <li><Link to="/quiz" onClick={this.exitMobileMenu}>Quiz</Link></li>
+                <li><Link to="/home" onClick={this.exitMobileMenu} className="has-text-white">Home</Link></li>
+                <li><Link to="/quiz" onClick={this.exitMobileMenu} className="has-text-white">Quiz</Link></li>
                 <div className={this.state.attDropdownActive ? 'dropdown mobile-dropdown is-active' : 'mobile-dropdown dropdown'}>
                     <div className="dropdown-trigger" onClick={this.toggleAttActive}>
                         <div aria-haspopup="true" aria-controls="dropdown-menu4" className="is-flex">
@@ -207,7 +207,7 @@ class TopNav extends Component {
                         </div>
                     </div>
                 </div>
-                <li><Link to="/about" onClick={this.exitMobileMenu}>About</Link></li>
+                <li><Link to="/about" onClick={this.exitMobileMenu} className="has-text-white">About</Link></li>
                 <li className={this.props.user ? 'hidden' : ''}><span className="orange-text" onClick={() => this.logInClick(true)}>Log In</span></li>
                 <span className={this.props.user ? '' : 'hidden'}>
                     <div className={this.state.userDropdownActive ? 'dropdown mobile-dropdown is-active' : 'mobile-dropdown dropdown'}>

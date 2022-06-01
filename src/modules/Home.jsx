@@ -133,8 +133,8 @@ class Home extends React.Component {
             <div className="overlay"></div>
             <div className="container">
                 <div className="title-wrapper has-text-centered">
-                    <h2 className="title is-2">God shows up in our lives every day.</h2>
-                    <h3 className="subtitle is-5">Our very humanity comes from Him.  Pick which human trait you are dealing with most today.</h3>
+                    <h2 className="title is-2 has-text-white">God shows up in our lives every day.</h2>
+                    <h3 className="subtitle is-5 has-text-white">Our very humanity comes from Him.  Pick which human trait you are dealing with most today.</h3>
                     <div className="divider is-centered"></div>
                 </div>
 
@@ -198,16 +198,16 @@ class Home extends React.Component {
                 <div className="title-wrapper has-text-centered">
                     <h2 className="title is-2">Discover the attributes of God.</h2>
                     <h3 className="subtitle is-5">Which attribute will you discover today?</h3>
-                    <div className="divider is-centered"></div>
                 </div>
-
-                <div className="columns is-vcentered side-feature mt-60">
-                    <div className="column is-4 is-offset-1">
-                        <Icon style={{fill: styleMethods.getAttributeColor(this.state.attribute)}}></Icon>
-                    </div>
-                    <div className="column is-5 is-offset-1">
+                <div className="attribute-discovery-container">
+                    <div className="attribute-discover">
+                        <div>
+                            <Icon style={{fill: styleMethods.getAttributeColor(this.state.attribute)}}></Icon>
+                        </div>
                         <h3 className="title is-3 mb-10 is-title-reveal is-capitalized">{this.state.attribute}</h3>
                         <p className="subtitle is-5 is-muted">{this.state.description}</p>
+                    </div>
+                    <div>
                         <div className="button-wrap">
                             <span className="button cta is-rounded is-primary raised">
                                 <Link to={`/attributes/${this.state.attribute}`}>Learn More</Link>
