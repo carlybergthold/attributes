@@ -113,6 +113,20 @@
   padding: 1rem;
 }
 
+.attribute-discovery-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribute-discover {
+  border: 1px solid var(--yellow);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 2rem;
+}
+
 @media only screen and (min-width: 769px) and (max-width: 811px) {
   .home-illustration-column {
     margin-bottom: -12rem;
