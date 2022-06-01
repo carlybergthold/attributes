@@ -56,8 +56,12 @@ class QuizResults extends React.Component {
 
       snap.forEach(att => {
         const attribute = att.key;
-        const reflectScore = att.val().reflect.score === undefined ? 0 : att.val().reflect.score;
-        reflections.push({ "attribute": attribute, "score": reflectScore });
+        const score = att.val();
+
+        if (score !== undefined && score.reflect !== undefined) {
+          const reflectScore = att.val().reflect.score === undefined ? 0 : att.val().reflect.score;
+          reflections.push({ "attribute": attribute, "score": reflectScore });
+        }
       });
 
       reflections = reflections.sort((a, b) => a.score - b.score);

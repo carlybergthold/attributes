@@ -54,6 +54,7 @@ class Movies extends Component {
                                 <div>{x.Commentary}</div>
                                 <br></br>
                                 <Quote scripture={x.Quote} v-if={x.Quote} />
+                                <br></br>
                                 <Link to={`/attributes/${x.Attribute}`} className="link movie-attribute">God is {x.Attribute}</Link>
                             </div>
                             <div className="is-hoverable back-to-all" onClick={() => this.expandMovie(index)}>{x.SeeMore ? 'See Less' : 'See More'}</div>
