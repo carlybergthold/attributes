@@ -8,6 +8,12 @@
   flex-flow: column nowrap;
   align-items: center;
   margin-top: 10%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.quiz-taken-buttons {
+  text-align: center;
 }
 
 #header {

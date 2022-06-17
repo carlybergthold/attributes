@@ -1,5 +1,11 @@
 .navbar {
   background-color: transparent;
+  height: 0;
+  min-height: 0;
+}
+
+#attribute-navbar {
+  height: 3rem;
 }
 
 a {

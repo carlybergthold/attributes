@@ -7,12 +7,23 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class TopNav extends Component {
 
-
     state = {
         attDropdownActive: false,
         exploreDropdownActive: false,
-        userDropdownActive: false
+        userDropdownActive: false,
+        isHomepage: true
     }
+
+    // componentDidMount() {
+    //     this.unlisten = this.props.history.listen((location, action) => {
+    //         const isHomepage = location.pathname === '/home';
+    //         this.setState({ isHomepage: isHomepage });
+    //     });
+    // }
+
+    // componentWillUnmount() {
+    //     this.unlisten();
+    // }
 
     toggleAttActive = () => {
         this.setState({ attDropdownActive: !this.state.attDropdownActive });
