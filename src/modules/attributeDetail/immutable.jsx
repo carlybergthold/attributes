@@ -41,7 +41,7 @@ class Immutable extends Component {
                   <p className="is-size-6 leading-normal padded">Nobel prize research in economics showed the psychological impact of a loss is two and a half times as powerful as that for a gain.  About half of all people fear losing their job.  90% of people worry their phone may run out of battery charge.  Fear of loss grows with the more we have.  And when we have so much already, gaining more is not as important as losing what we have.  But change, especially loss, is a constant part of our human existence.</p>
                   <br></br>
 
-                  <Quote scripture="How long will all of you attack a man to batter him, like a leaning wall, a tottering fence? They only plan to thrust him down from his high position. They take pleasure in falsehood.  They bless with their mouths, but inwardly they curse. For God alone, O my soul, wait in silence, for my hope is from him. He only is my rock and my salvation, my fortress; I shall not be shaken. On God rests my salvation and my glory; my mighty rock, my refuge is God. Trust in him at all times, O people; pour out your heart before him; God is a refuge for us." reference="Psalm 62:3-8" color="var(--teal)" />
+                  <Quote scripture="How long will all of you attack a man to batter him, like a leaning wall, a tottering fence?  They only plan to thrust him down from his high position. They take pleasure in falsehood.  They bless with their mouths, but inwardly they curse. For God alone, O my soul, wait in silence, for my hope is from him.He only is my rock and my salvation, my fortress; I shall not be shaken.  On God rests my salvation and my glory; my mighty rock, my refuge is God. Trust in him at all times, O people; pour out your heart before him; God is a refuge for us." reference="Psalm 62:3-8" color="var(--teal)" />
               </section>
             }
             struggle={
@@ -51,7 +51,7 @@ class Immutable extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">We do expend great effort and cost simply to maintain what we have.  55% of car owners who purchased an extended warranty hadn't used it for repairs during the lifetime of the policy, even though the median price paid for the coverage was over $1,200. And, on average, those who did use it spent hundreds more for the coverage than they saved in repair costs (2013 Consumer Reports research).  Sometimes letting go of a good now will be better for me in the long run.  I can miss what is best by clinging to what is average.   God offers me what is best and most lasting - Himself.</p>
                   <br></br>
-                  <Quote scripture="And he (Jesus) said to all, If anyone would come after me, let him deny himself and take up his cross daily and follow me. For whoever would save his life will lose it, but whoever loses his life for my sake will save it. For what does it profit a man if he gains the whole world and loses or forfeits himself?" reference="Luke 9:23-25" color="var(--teal)"/>                
+                  <Quote scripture="And he (Jesus) said to all, If anyone would come after me, let him deny himself and take up his cross daily and follow me. For whoever would save his life will lose it, but whoever loses his life for my sake will save it. For what does it profit a man if he gains the whole world and loses or forfeits himself?" reference="Luke 9:23-25" color="var(--teal)"/>
               </section>
             }
             whoAmI={
@@ -61,7 +61,7 @@ class Immutable extends Component {
                   <p className="is-size-6 leading-normal padded">To understand that I am not immutable is easy - I change constantly, physically, emotionally, intellectually and more.  It is more difficult to comprehend One Who has not, does not, and will never change. For anyone who depends upon God for salvation and guidance, immutability is vital and may be a bit under-appreciated.  What if He kept changing His laws and truths?</p>
                   <br></br>
 
-                  <Quote scripture="For I the LORD do not change." reference="Malachi 3:6a" color="var(--teal)"/>
+                  <Quote scripture="For I the LORD do not change;" reference="Malachi 3:6a" color="var(--teal)"/>
               </section>
             }
             biblicalChristianity={

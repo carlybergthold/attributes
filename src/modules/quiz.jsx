@@ -277,7 +277,7 @@ class Quiz extends Component {
         </div>
         <div className={this.state.quizTaken ? 'quiz-taken-message' : 'hidden'}>
           <h2 className="title is-2 is-spaced primary-text">You've already finished the quiz!</h2>
-          <div>
+          <div className="quiz-taken-buttons">
             <div className="button"><Link to="/results">See Your Results</Link></div>
             <div className="button orange-background" onClick={this.showTakenQuiz}>Or Go to Quiz</div>
           </div>

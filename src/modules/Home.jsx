@@ -111,9 +111,9 @@ class Home extends React.Component {
                 <div className="columns is-vcentered">
                     <div className="column is-5 is-offset-1 landing-caption">
                         <h1 className="title is-1 is-bold is-spaced">
-                        Who is God?  How am I like Him?  How am I not?
+                        Who is God?<br></br>How am I like Him?<br></br>How am I not?
                         </h1>
-                        <h2 className="subtitle is-5 is-muted">Explore this website to better understand both yourself and God!</h2>
+                        <h2 className="subtitle is-5 is-muted">Explore God by way of your fears, emotions, and struggles. Or even your personality or favorite movie!</h2>
                         <div className="button-wrap">
                             <span className="button is-rounded is-primary raised">
                                 <Link to="/quiz">Take the Quiz</Link>
