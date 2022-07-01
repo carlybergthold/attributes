@@ -64,6 +64,7 @@ class AttributeApp extends Component {
         this.setState({ loginError: error.message})
       });
       this.handleUserChange();
+      this.props.history.push("/home");
     }
 
     forgotPassword = (email) => {
