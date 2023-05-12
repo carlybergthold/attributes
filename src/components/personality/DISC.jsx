@@ -47,7 +47,7 @@ class DISC extends Component {
                                     <a href="#Steadiness">Type S</a>
                                 </span>
                                 <span className="tag">
-                                    <a href="#Conscientiousness">Type C</a>
+                                    <a href="#Conscientiousness">Type cccccC</a>
                                 </span>
                             </div>
                         </div>
