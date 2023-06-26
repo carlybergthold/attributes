@@ -18,8 +18,8 @@ class Providing extends Component {
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("providing")}}>Providing means to see the needs of another and supply whatever is best.
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">Whether our dependent is a child, a pet, or a plant, most of us rise to meet the needs we see.  There can be joy in fulfilling other’s needs, especially when we see flourishing results.   </p>
-                  <p className="is-size-6 leading-normal padded">I can receive immense pleasure in providing for another or by having my own needs met.  But when I lack what I need, let alone what I need for others, it can be downright depressing.  What do I do if I run out of money or resources?  Will God really provide all I need?</p>
+                  <p className="is-size-6 leading-normal padded">Whether our dependent is a child, a pet, or a plant, most of us rise to meet the needs we see.  There can be joy in fulfilling others' needs, especially when we see flourishing results.   </p>
+                  <p className="is-size-6 leading-normal padded">I can receive immense pleasure in providing for another or by having my own needs met.  But when I lack what I need, let alone what I need to help others, it can be downright depressing.  What do I do if I run out of money or resources?  Will God really provide all I need?</p>
                   <br></br>
                   <Quote scripture="But if anyone does not provide for his relatives, and especially for members of his household, he has denied the faith and is worse than an unbeliever." reference="1 Timothy 5:8" color="var(--teal)"/>
               </section>
@@ -64,7 +64,7 @@ to give them their food in due season...When you give it to them, they gather it
                  <section>
                   <Hero title="Only God is an actual provider."></Hero>
                 </section>
-                  <p className="is-size-6 leading-normal padded">I am simply a steward of what God has already provided.  When I believe that everything I have came from me and never consider asking the Provider for what I currently need, I have become, in my own mind, God.</p>
+                  <p className="is-size-6 leading-normal padded">I am simply a steward of what God has already provided.  If I believe that everything I have came from me and my abilities, and never consider asking the Provider for what I currently need, I have become, in my own mind, God.</p>
                   <br></br>
                   <Quote scripture="Pray then like this: ‘Our Father in heaven, hallowed be your name. Your kingdom come, your will be done, on earth as it is in heaven. Give us this day our daily bread,…’ " reference="Matthew 6:9-11" />               
               </section>
@@ -73,7 +73,7 @@ to give them their food in due season...When you give it to them, they gather it
               <section>
                    <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("providing")}}>Jesus provided everything essential to us.</h1></section>
-                  <p className="is-size-6 leading-normal padded">While on earth, Jesus provided bread, water, wine, healing, sight, understanding, friendship, and much more.  But most importantly He provided His own blood on the cross to reconcile man to God.</p>
+                  <p className="is-size-6 leading-normal padded">While on earth, Jesus provided bread, water, wine, healing, sight, understanding, friendship, and much more.  But most importantly He provided His own blood on the cross to reconcile man to God, completely and forever fulfilling our spiritual needs.</p>
                   <Quote scripture="Since, therefore, we have now been justified by his (Jesus’) blood, much more shall we be saved by him from the wrath of God. For if while we were enemies we were reconciled to God by the death of his Son, much more, now that we are reconciled, shall we be saved by his life." reference="Romans 5:9-10" color="var(--teal)"/>               
               </section>
             }
@@ -82,7 +82,8 @@ to give them their food in due season...When you give it to them, they gather it
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("providing")}}>So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Accept my role of steward versus owner.  Recognize and be thankful for any God-given ability to work and earn a living.  <br></br>Ask: Who can I thank for either providing for my needs or for my ability to earn a living?</p>
+                  <p className="is-size-6 leading-normal padded">Accept my role as God's steward versus an owner.  Recognize and be thankful for any God-given ability to work and earn a living.  <br></br>Ask: God often works through people to provide my needs.  Ask who can I thank for either providing for my needs or for my ability to earn a living?</p>
+                  <Quote scripture="For although they knew God, they did not honor him as God or give thanks to him, but they became futile in their thinking, and their foolish hearts were darkened." reference="Romans 1:21" color="var(--teal)"/> <br></br>
                   <Quote scripture="And Isaac sowed in that land and reaped in the same year a hundredfold. The LORD blessed him." reference="Genesis 26:12" color="var(--teal)"/>               
               </section>
             }
@@ -92,7 +93,7 @@ to give them their food in due season...When you give it to them, they gather it
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("providing")}}>Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">God, you created me and even now provide my next breath.  I am fully dependent on you.  Help me to remember this and live in constant gratitude and praise of your Name.</p>
-                  <Quote scripture="For although they knew God, they did not honor him as God or give thanks to him, but they became futile in their thinking, and their foolish hearts were darkened." reference="Romans 1:21" color="var(--teal)"/>               
+                  <Quote scripture="Praise the LORD! Oh give thanks to the LORD, for he is good, for his steadfast love endures forever!" reference="Psalm 106:1" color="var(--teal)"/>               
               </section>
             }
             scienceAndHealth={
@@ -100,12 +101,17 @@ to give them their food in due season...When you give it to them, they gather it
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("providing")}}>How do I STOP and recognize what God provides?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">During His ministry Jesus met some of the basic needs for a flourishing life, such as water, food, physical safety. As Creator, He knows these needs (by design).  But He also knows and supplies other needs which may not even be on our radar - such as patience, relationship, humility, truth, joy, peace, wisdom…. or, in other words, Himself. At times, we simply need to STOP.</p>
-                  <p className="is-size-6 leading-normal padded">A recent article from the Guardian called “So you're lost in the wilderness – these tips could save your life”, used the acronym STOP.  You can apply it in the woods or in the woods of everyday life whenever you have a need:</p>
+                  <p className="is-size-6 leading-normal padded">During His ministry Jesus met some of the basic needs for the people around Him to live a flourishing life, such as water, food, physical safety. As Creator of life itself, He knows these physical needs.  But He also knows and supplies other needs which may not even be on our radar - such as patience, relationship, humility, truth, joy, peace, wisdom…. or, in other words, Himself. At times, we simply need to STOP.</p>
+                  <p className="is-size-6 leading-normal padded">A recent article from the Guardian called “So you're lost in the wilderness – these tips could save your life"”, used the acronym STOP.  You can apply it in the woods or in the woods of everyday life whenever you have a need:</p>
                   <p className="is-size-6 leading-normal padded">   “S is to simply stop. Frantically moving faster will only get you more lost. Sit, and breathe from your belly… Drink and eat….
    T stands for think. Ask yourself some basic questions. Which direction were you going? …..How far have you come since? …..Where was the last time you knew where you were?
    O is for observe. Look around you ….How do you feel? ….Is there natural shelter nearby?
-   P means plan. Don’t move until you have a plan. If and when you do move, do so methodically and observantly. ….And finally – can you make a call? Can you text? If you do get through, can you tell anyone where you are?”</p>               
+   P means plan. Don’t move until you have a plan. If and when you do move, do so methodically and observantly. ….And finally – can you make a call? Can you text? If you do get through, can you tell anyone where you are?” <br></br>
+   So when caught in the woods of life, we can STOP:<br></br>
+   S - Stop: Sit and breathe in the gospel and the attributes of God.  <br></br>
+   T - Think and ask basic questions: Who can I always depend upon?  How has God already provided for me?<br></br>
+   O - Observe: Look at what God has done in the lives of His poeple.  Ask yourself if you are trying to respond to this problem independently of God.<br></br>
+   P - Plan: Use God's Word as a guide.  And finally, make a call.  The Holy Spirit is waiting to help you!</p>               
               </section>
             }
             history={
