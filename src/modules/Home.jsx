@@ -34,6 +34,7 @@ import {ReactComponent as TruthfulIcon} from '../images/attributeIcons/SVG/truth
 import {ReactComponent as UniqueIcon} from '../images/attributeIcons/SVG/unique.svg';
 import {ReactComponent as WrathfulIcon} from '../images/attributeIcons/SVG/wrathful.svg';
 import {ReactComponent as WiseIcon} from '../images/attributeIcons/SVG/wise.svg';
+import MountainImg from '../assets/img/mountains.jpg';
 import FearIcon from "../assets/img/icons/connectors/fear.svg";
 import StrugglesIcon from "../assets/img/icons/connectors/struggle.svg";
 import EmotionIcon from "../assets/img/icons/connectors/emotion.svg";
@@ -129,7 +130,7 @@ class Home extends React.Component {
             </div>
         </div>
 
-        <section className="section is-medium has-background-image" style={{backgroundImage: `url(https://source.unsplash.com/g30P1zcOzXo/1600x900)`}} data-color="#4FC1EA" data-color-opacity=".6">
+        <section className="section is-medium has-background-image" style={{backgroundImage: `url(${MountainImg})`}} data-color="#4FC1EA" data-color-opacity=".6">
             <div className="overlay"></div>
             <div className="container">
                 <div className="title-wrapper has-text-centered">
@@ -219,7 +220,7 @@ class Home extends React.Component {
             </div>
         </section>
 
-        <section className="section is-medium has-background-image" style={{backgroundImage: `url(https://source.unsplash.com/g30P1zcOzXo/1600x900)`}} data-color="#4FC1EA" data-color-opacity=".6">
+        <section className="section is-medium has-background-image" style={{backgroundImage: `url(${MountainImg})`}} data-color="#4FC1EA" data-color-opacity=".6">
             <div className="overlay"></div>
             <div className="container">
 
