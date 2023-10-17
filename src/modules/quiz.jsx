@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import questions from "../data/testArray"
-import fire from "../config/fire"
-import "../styles/quiz.css"
+import questions from "../data/testArray";
+import fire from "../config/fire";
+import "../styles/quiz.css";
 import Hero from '../components/hero';
-import { withRouter, Link } from "react-router-dom"
+import { withRouter, Link } from "react-router-dom";
 
 class Quiz extends Component {
 
@@ -25,215 +25,218 @@ class Quiz extends Component {
 
   componentDidMount() {
     document.querySelector(".navbar").scrollIntoView();
-    this.checkForUser();
+    // this.checkForUser();
   }
 
-  checkForUser = () => {
-    if (!this.props.user) {
-      this.setState({ modalInUserMode: true });
-      this.openModal();
-    } else {
-      this.getQuizTaken();
-    }
-  }
+  // checkForUser = () => {
+  //   if (!this.props.user) {
+  //     this.setState({ modalInUserMode: true });
+  //     this.openModal();
+  //   } else {
+  //     this.getQuizTaken();
+  //   }
+  // }
 
-  getQuizTaken = () => {
-    fire.database().ref(`/userQuiz/${this.props.user}/quizTaken`)
-    .on('value', snap => {
-      this.setState({ quizTaken: snap.val(), quizChecked: true }, () => {
-        if (!this.state.quizTaken) this.getUserQuestionsAnswered();
-      })
-    });
-  }
+  // getQuizTaken = () => {
+  //   fire.database().ref(`/userQuiz/${this.props.user}/quizTaken`)
+  //   .on('value', snap => {
+  //     this.setState({ quizTaken: snap.val(), quizChecked: true }, () => {
+  //       if (!this.state.quizTaken) this.getUserQuestionsAnswered();
+  //     })
+  //   });
+  // }
 
-  getUserQuestionsAnswered = () => {
-    let questionsAnswered = [];
+  // getUserQuestionsAnswered = () => {
+  //   let questionsAnswered = [];
 
-    fire.database().ref(`/userQuiz/${this.props.user}/questionsAnswered`)
-      .once('value', snap => {
-        const ids = snap.val();
+  //   fire.database().ref(`/userQuiz/${this.props.user}/questionsAnswered`)
+  //     .once('value', snap => {
+  //       const ids = snap.val();
 
-        for (const key in ids) {
-          const questionId = key;
-          const score = ids[key].score;
+  //       for (const key in ids) {
+  //         const questionId = key;
+  //         const score = ids[key].score;
 
-          questionsAnswered.push({ questionId: parseInt(questionId), score: score});
-        }
+  //         questionsAnswered.push({ questionId: parseInt(questionId), score: score});
+  //       }
 
-        this.setStartingAndEndingIndices(questionsAnswered);
-      });
-  }
+  //       this.setStartingAndEndingIndices(questionsAnswered);
+  //     });
+  // }
 
-  setStartingAndEndingIndices = (questionsAnswered) => {
-    const highestQuestionIdAnswered = Math.max(...questionsAnswered.map(o => o.questionId), 0);
-    let page = 1;
-    let startingIndex = 1;
-    let endingIndex = 6;
+  // setStartingAndEndingIndices = (questionsAnswered) => {
+  //   const highestQuestionIdAnswered = Math.max(...questionsAnswered.map(o => o.questionId), 0);
+  //   let page = 1;
+  //   let startingIndex = 1;
+  //   let endingIndex = 6;
 
-    if (questionsAnswered.length !== questions.length) {
-      page = (highestQuestionIdAnswered / 6) + 1;
-      startingIndex = highestQuestionIdAnswered + 1;
-      endingIndex = highestQuestionIdAnswered + 6;
-    }
+  //   if (questionsAnswered.length !== questions.length) {
+  //     page = (highestQuestionIdAnswered / 6) + 1;
+  //     startingIndex = highestQuestionIdAnswered + 1;
+  //     endingIndex = highestQuestionIdAnswered + 6;
+  //   }
 
-    this.setState({ startingIndex: startingIndex, endingIndex: endingIndex, page: page });
+  //   this.setState({ startingIndex: startingIndex, endingIndex: endingIndex, page: page });
 
-    this.updateQuestionArrayWithAnswers(questionsAnswered);
-    this.getQuestions();
-  }
+  //   this.updateQuestionArrayWithAnswers(questionsAnswered);
+  //   this.getQuestions();
+  // }
 
-  updateQuestionArrayWithAnswers = (questionsAnswered) => {
-    questionsAnswered.forEach(questionAnswered => {
-      const match = questions.find(question => question.id === questionAnswered.questionId);
-      match.score = questionAnswered.score;
-    })
-  }
+  // updateQuestionArrayWithAnswers = (questionsAnswered) => {
+  //   questionsAnswered.forEach(questionAnswered => {
+  //     const match = questions.find(question => question.id === questionAnswered.questionId);
+  //     match.score = questionAnswered.score;
+  //   })
+  // }
 
-  getIsChecked = (inputValue, question) => {
-    if (question.score && inputValue === question.score) {
-      return true;
-    }
+  // getIsChecked = (inputValue, question) => {
+  //   if (question.score && inputValue === question.score) {
+  //     return true;
+  //   }
 
-    return false;
-  }
+  //   return false;
+  // }
 
-  getQuestions = () => {
-    let questionsSection = questions.filter(q => q.id >= this.state.startingIndex && q.id <= this.state.endingIndex);
+  // getQuestions = () => {
+  //   let questionsSection = questions.filter(q => q.id >= this.state.startingIndex && q.id <= this.state.endingIndex);
 
-    this.setState( {questions: questionsSection} );
-  }
+  //   this.setState( {questions: questionsSection} );
+  // }
 
-  openModal = () => {
-    const modal = document.querySelector('.modal');
-    modal.classList.add("is-active");
-  }
+  // openModal = () => {
+  //   const modal = document.querySelector('.modal');
+  //   modal.classList.add("is-active");
+  // }
 
-  closeModal = () => {
-    document.querySelector('.modal').classList.remove("is-active");
-    if (this.state.modalInUserMode) {
-      this.setState({ modalInUserMode: false });
-      this.getUserQuestionsAnswered();
-    }
-  }
+  // closeModal = () => {
+  //   document.querySelector('.modal').classList.remove("is-active");
+  //   if (this.state.modalInUserMode) {
+  //     this.setState({ modalInUserMode: false });
+  //     this.getUserQuestionsAnswered();
+  //   }
+  // }
 
-  validateQuiz = () => {
-    let radios = document.querySelectorAll('input');
-    let checkedRadios = [];
-    let button = document.querySelector('.quiz-btn');
+  // validateQuiz = () => {
+  //   let radios = document.querySelectorAll('input');
+  //   let checkedRadios = [];
+  //   let button = document.querySelector('.quiz-btn');
 
-    radios.forEach(radio => {if (radio.checked) checkedRadios.push(radio.key)});
+  //   radios.forEach(radio => {if (radio.checked) checkedRadios.push(radio.key)});
 
-    if (checkedRadios.length < this.state.questions.length) {
-      this.openModal();
-      return;
-    } else {
-      this.updateUserAttributes();
-    }
+  //   if (checkedRadios.length < this.state.questions.length) {
+  //     this.openModal();
+  //     return;
+  //   } else {
+  //     this.updateUserAttributes();
+  //   }
 
-    if (button.textContent !== 'Submit') {
-      this.nextPageClick()
-    } else {
-      fire.database().ref(`/userQuiz/${this.props.user}`).update({quizTaken: true});
-      this.props.history.push("/results");
-    }
-  }
+  //   if (button.textContent !== 'Submit') {
+  //     this.nextPageClick()
+  //   } else {
+  //     fire.database().ref(`/userQuiz/${this.props.user}`).update({quizTaken: true});
+  //     this.props.history.push("/results");
+  //   }
+  // }
 
-  updateUserAttributes = () => {
-    var baseElement = document.querySelector("#quiz-flex");
-    let radios = baseElement.querySelectorAll('input');
-    let totalAcceptanceScore = 0;
-    let totalRejectionScore = 0;
-    let totalReflectionScore = 0;
-    let salvationScore = 0;
+  // updateUserAttributes = () => {
+  //   var baseElement = document.querySelector("#quiz-flex");
+  //   let radios = baseElement.querySelectorAll('input');
+  //   let totalAcceptanceScore = 0;
+  //   let totalRejectionScore = 0;
+  //   let totalReflectionScore = 0;
+  //   let salvationScore = 0;
 
-    let questionsAnswered = [];
+  //   let questionsAnswered = [];
 
-    radios.forEach(radio => {
-      if (radio.checked)
-      {
-        const questionId = radio.name;
-        const chosenScore = parseInt(radio.value);
+  //   radios.forEach(radio => {
+  //     if (radio.checked)
+  //     {
+  //       const questionId = radio.name;
+  //       const chosenScore = parseInt(radio.value);
 
-        questionsAnswered.push({ questionId: parseInt(questionId), score: chosenScore})
+  //       questionsAnswered.push({ questionId: parseInt(questionId), score: chosenScore})
 
-        let attribute = radio.className.split("-")[0];
-        let category = radio.className.split("-")[1];
+  //       let attribute = radio.className.split("-")[0];
+  //       let category = radio.className.split("-")[1];
 
-        if (category === 'accept' && attribute === 'grace')
-        {
-          salvationScore = chosenScore;
-        }
-        else if (category === 'accept')
-        {
-          totalAcceptanceScore += chosenScore;
+  //       if (category === 'accept' && attribute === 'grace')
+  //       {
+  //         salvationScore = chosenScore;
+  //       }
+  //       else if (category === 'accept')
+  //       {
+  //         totalAcceptanceScore += chosenScore;
 
-        } else if (category === 'reject')
-        {
-          totalRejectionScore += chosenScore;
-        } else totalReflectionScore += chosenScore;
+  //       } else if (category === 'reject')
+  //       {
+  //         totalRejectionScore += chosenScore;
+  //       } else totalReflectionScore += chosenScore;
 
-        fire.database().ref(`/userAttributes/${this.props.user}/${attribute}`)
-          .update({ [category]: {"score": parseInt(radio.value), "questionId": radio.name} });
+  //       fire.database().ref(`/userAttributes/${this.props.user}/${attribute}`)
+  //         .update({ [category]: {"score": parseInt(radio.value), "questionId": radio.name} });
 
-        this.updateQuestionsAnswered(questionId, chosenScore);
-      }
-    })
+  //       this.updateQuestionsAnswered(questionId, chosenScore);
+  //     }
+  //   })
 
-    fire.database().ref(`/scores/${this.props.user}`).update({
-      acceptScore: totalAcceptanceScore,
-      rejectScore: totalRejectionScore,
-      reflectScore: totalReflectionScore,
-      salvationScore: salvationScore
-    });
+  //   fire.database().ref(`/scores/${this.props.user}`).update({
+  //     acceptScore: totalAcceptanceScore,
+  //     rejectScore: totalRejectionScore,
+  //     reflectScore: totalReflectionScore,
+  //     salvationScore: salvationScore
+  //   });
 
-    this.updateQuestionArrayWithAnswers(questionsAnswered);
+  //   this.updateQuestionArrayWithAnswers(questionsAnswered);
 
-  }
+  // }
 
-  updateQuestionsAnswered = (questionId, score) => {
-    if (this.props.user) {
-      fire.database().ref(`/userQuiz/${this.props.user}/questionsAnswered/${questionId}`)
-        .set({
-          score: score
-        });
-    }
-  }
+  // updateQuestionsAnswered = (questionId, score) => {
+  //   if (this.props.user) {
+  //     fire.database().ref(`/userQuiz/${this.props.user}/questionsAnswered/${questionId}`)
+  //       .set({
+  //         score: score
+  //       });
+  //   }
+  // }
 
-  nextPageClick = () => {
-    let newStart = this.state.startingIndex + 6;
-    let newEnd = this.state.endingIndex + 6;
-    let button = document.querySelector('.quiz-btn');
-    this.setState({ page: this.state.page + 1 })
+  // nextPageClick = () => {
+  //   let newStart = this.state.startingIndex + 6;
+  //   let newEnd = this.state.endingIndex + 6;
+  //   let button = document.querySelector('.quiz-btn');
+  //   this.setState({ page: this.state.page + 1 })
 
-    this.setState( {startingIndex: newStart, endingIndex: newEnd}, () => this.getQuestions());
+  //   this.setState( {startingIndex: newStart, endingIndex: newEnd}, () => this.getQuestions());
 
-    if (newEnd >= questions.length) button.textContent = 'Submit';
-  };
+  //   if (newEnd >= questions.length) button.textContent = 'Submit';
+  // };
 
-  backClick = () => {
-    let newStart = this.state.startingIndex - 6;
-    let newEnd = this.state.endingIndex - 6;
+  // backClick = () => {
+  //   let newStart = this.state.startingIndex - 6;
+  //   let newEnd = this.state.endingIndex - 6;
 
-    this.setState({ page: this.state.page - 1})
-    this.setState( {startingIndex: newStart, endingIndex: newEnd}, () => this.getQuestions());
-  }
+  //   this.setState({ page: this.state.page - 1})
+  //   this.setState( {startingIndex: newStart, endingIndex: newEnd}, () => this.getQuestions());
+  // }
 
-  loginClick = () => {
-    this.closeModal();
-    this.props.showHideLogIn(true);
-  }
+  // loginClick = () => {
+  //   this.closeModal();
+  //   this.props.showHideLogIn(true);
+  // }
 
-  showTakenQuiz = () => {
-    this.setState({ quizTaken: false, page: 1, startingIndex: 1, endingIndex: 6 }, () => {
-      this.getUserQuestionsAnswered();
-    });
-  }
+  // showTakenQuiz = () => {
+  //   this.setState({ quizTaken: false, page: 1, startingIndex: 1, endingIndex: 6 }, () => {
+  //     this.getUserQuestionsAnswered();
+  //   });
+  // }
 
   render() {
     return(
       <div className='page'>
         <Hero title="Take the Quiz!" icon="../images/attributeIcons/SVG/good.svg"/>
-        <div className={`quizPage container ${this.state.questions.length > 0 ? '' : 'hidden'}`}>
+        <div className="has-text-centered temp-message">
+          <div className="title is-4">Coming Soon!</div>
+        </div>
+        {/* <div className={`quizPage container ${this.state.questions.length > 0 ? '' : 'hidden'}`}>
           <section id="quiz-flex">
         {
           this.state.questions
@@ -298,7 +301,7 @@ class Quiz extends Component {
             <button className="button orange-background" onClick={this.closeModal}>Got it!</button>
             </footer>
           </div>
-        </div>
+        </div> */}
       </div>
     )
   }
