@@ -1,31 +1,15 @@
-import React, { Component } from "react";
-import Grouping from '../connectors/grouping'
-import '../../styles/connectors.css'
+import React from "react";
+import '../../styles/connectors.css';
+import fearArray from "../../data/fearArray";
+import ConnectorCard from './connectorCard';
 
-class Fears extends Component {
-
-    componentDidMount() {
-        document.querySelector(".navbar").scrollIntoView();
-      }
-
-    render() {
-        return(
-            <>
-            <section className="hero">
-            <div className="hero-body">
-                <div className="container heroContainer">
-                    <section className="heroTitle">
-                        <h1 className="title light-text" id="heroTitle">What are you afraid of?</h1>
-                    </section>
-                </div>
-            </div>
-        </section>
-                <section className="has-text-centered grouping-container">
-                    <Grouping connector="fear"/>
-                </section>
-            </>
-        )
-    }
+export default function Fears() {
+    return(
+        <ConnectorCard
+            connector="fear"
+            array={fearArray}
+            introText="Fear is common to all people. And each fear points to God."
+            introSubtitle="What are you afraid of?"
+        ></ConnectorCard>
+    )
 }
-
-export default Fears;
