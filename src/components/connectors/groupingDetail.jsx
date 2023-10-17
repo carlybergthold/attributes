@@ -1,108 +1,32 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom"
-import emotionArray from '../../data/emotionArray';
-import fearArray from '../../data/fearArray';
-import struggleArray from '../../data/struggleArray';
-import basicNeedsArray from '../../data/basicNeedsArray';
-import styleMethods from "../../methods/styleMethods";
+import React from "react";
 
-class GroupingDetail extends Component {
-
-    //need to update icons for fear and struggles
-
-    constructor(props) {
-        super(props);
-        this.handleClick = this.handleClick.bind(this);
-        this.state = {
-            groupClicked: null,
-            attribute: ""
-        };
+export default function GroupingDetail(props) {
+    const updateAttribute = (attribute) => {
+        props.changeGrouping(3);
+        props.changeAttribute(attribute);
     }
 
-    componentDidUpdate(prevProps) {
-        if (this.props.group !== prevProps.group) {
-            this.setState({ attribute: "" })
-        }
-    }
-
-    getArray = () => {
-        if (this.props.connector === "emotion") {
-            return emotionArray;
-        } else if (this.props.connector === "fear") {
-            return fearArray;
-        } else if (this.props.connector === "struggle") {
-            return struggleArray;
-        } else {
-            return basicNeedsArray;
-        }
-    }
-
-    getConnector() {
-        if (this.state.attribute === "") return;
-        return this.props.connector !== "basicNeeds"
-            ? this.getArray().find(x => x.attributeName === this.state.attribute).description
-            : this.getArray().find(x => x.name === this.state.groupClicked).longDesc;
-    }
-
-    handleClick(name, attribute) {
-        this.setState({ groupClicked: name, attribute: attribute },
-            process.nextTick(() => {
-                document.querySelector("#groupConnector").scrollIntoView({
-                    behavior: 'smooth'
-                })
-            })
-        )
-    }
-
-    render() {
-        return(
-            <>
-            <div className="connectorContainer has-background-primary grouping-detail">
-                {
-                    this.getArray()
-                    .filter(x => x.groupId === this.props.groupId)
-                    .map(group =>
-                        <div
-                            key={group.name}
-                            className="card is-hoverable"
-                            onClick={() => this.handleClick(group.name, group.attributeName)}
-                        >
-                            <div className="card-content">
-                                <div className="content">
-                                    <p className="subtitle is-6">{group.name}</p>
-                                </div>
+    return(
+        <>
+        <div className="connector-container grouping-detail">
+            {
+                props.cardArray
+                .map(group =>
+                    <div
+                        key={group.name}
+                        className="card connector-card is-hoverable"
+                        onClick={() => updateAttribute(group)}
+                    >
+                        <div className="card-content">
+                            <div className="content">
+                                <p className="subtitle is-6">{group.name}</p>
+                                <img className="media-image" src={props.image} alt={group.name}></img>
                             </div>
                         </div>
-                    )
-                }
-            </div>
-            <section className="connectorContainer" id="groupConnector">
-                <div className={`card connector-card ${this.state.attribute && this.props.groupId ? "" : "hidden"}`}>
-                <div className="card-content">
-                    <p className="title is-4 is-capitalized">{this.props.connector !== "basicNeeds" ? this.state.attribute : this.state.groupClicked}</p>
-                    <div className="content card-desc">
-                        {this.getConnector()}
                     </div>
-                </div>
-                <footer className="card-footer">
-                    <span className="card-footer-item">
-                        <Link to={`/attributes/${this.state.attribute}`} className="personality-connector-link">
-                        <div className="personality-connector-flex">
-                            <span>
-                            {
-                                styleMethods.getIcon(this.state.attribute, styleMethods.getAttributeColor(this.state.attribute))
-                            }
-                            </span>
-                            <span>Go to {this.state.attribute}</span>
-                        </div>
-                    </Link>
-                    </span>
-                </footer>
-                </div>
-            </section>
-        </>
-        )
-    }
+                )
+            }
+        </div>
+    </>
+    )
 }
-
-export default GroupingDetail;

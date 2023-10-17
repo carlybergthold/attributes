@@ -1,31 +1,15 @@
-import React, { Component } from "react";
-import Grouping from '../connectors/grouping'
-import '../../styles/connectors.css'
+import React from "react";
+import '../../styles/connectors.css';
+import emotionArray from "../../data/emotionArray";
+import ConnectorCard from './connectorCard';
 
-class Emotions extends Component {
-
-    componentDidMount() {
-        document.querySelector(".navbar").scrollIntoView();
-      }
-
-    render() {
-        return(
-        <>
-        <section className="hero">
-            <div className="hero-body">
-                <div className={`container heroContainer`}>
-                    <section className="heroTitle">
-                        <h1 className="title light-text" id="heroTitle">How are you feeling today?</h1>
-                    </section>
-                </div>
-            </div>
-        </section>
-        <section className="has-text-centered grouping-container">
-            <Grouping connector="emotion"/>
-        </section>
-        </>
-        )
-    }
+export default function Emotions() {
+    return (
+        <ConnectorCard
+            connector="emotion"
+            array={emotionArray}
+            introText="No matter the emotion, it can be a path to God."
+            introSubtitle="How are you feeling today?"
+        ></ConnectorCard>
+    );
 }
-
-export default Emotions;
