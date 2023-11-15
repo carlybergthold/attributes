@@ -1,17 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Modal extends Component {
-
-
-    render() {
-      return(
-          <div className={this.props.openModal ? 'modal is-active' : 'hidden'}>
-            <div className="modal-background"></div>
-            <div className="modal-content">{this.props.message}</div>
-            <button className="modal-close is-large" aria-label="close" onClick={this.props.closeUserModal}></button>
-          </div>
-      )
-    }
+export default function Modal(props) {
+  return (
+    <div className={props.showModal ? 'modal is-active' : 'hidden'}>
+      <div className="modal-background"></div>
+      <div className="modal-content">{props.message}</div>
+      <div>{props.children}</div>
+      <button className="modal-close is-large" aria-label="close" onClick={props.toggleModal}></button>
+    </div>
+  );
 }
-
-export default Modal;

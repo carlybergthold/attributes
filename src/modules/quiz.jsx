@@ -1,261 +1,182 @@
-import React, { Component } from "react";
-import questions from "../data/testArray";
-import fire from "../config/fire";
+import React from "react";
+import { useEffect, useState } from "react";
+import { withRouter, Link } from "react-router-dom";
+import questionArray from "../data/testArray";
 import "../styles/quiz.css";
 import Hero from '../components/hero';
-import { withRouter, Link } from "react-router-dom";
+import Modal from '../components/modal';
+import userMethods from "../methods/supabaseMethods";
 
-class Quiz extends Component {
+function Quiz(props) {
+  const [page, setPage] = useState(1);
+  const [startingIndex, setStartingIndex] = useState(1);
+  const [endingIndex, setEndingIndex] = useState(6);
+  const [indexAmount, setIndexAmount] = useState(6);
+  const [questions, setQuestions] = useState([]);
+  const [quizFinished, setQuizFinished] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
-  constructor(props){
-    super(props);
+  useEffect(() => {
+    if (props.userId) {
+      getUserQuizQuestions();
+    } else {
+      resetQuiz();
+    }
+  }, [props.userId]);
 
-    this.state = {
-      startingIndex: 1,
-      endingIndex: 6,
-      page: 1,
-      questions: [],
-      questionsAnswered: [],
-      modalInUserMode: false,
-      showPage: false,
-      quizChecked: false,
-      quizTaken: false
+  function resetQuiz() {
+    questionArray.forEach(q => q.value = 0);
+    setQuestions(questionArray);
+
+    setStartingIndex(1);
+    setEndingIndex(6);
+
+    setShowModal(true);
+  }
+
+  function getUserQuizQuestions() {
+    userMethods.getUserQuiz(props.userId).then(response => {
+      if (response.length > 0) {
+        response.forEach(question => {
+          const match = questionArray.find(q => q.id === question.questionId);
+
+          if (match) {
+            match.value = question.questionValue;
+          }
+        })
+      }
+
+      setQuizFinished(questionArray.every(q => q.value > 0));
+      setQuestions(questionArray);
+      goToLastPageAnswered(questionArray);
+    })
+  }
+
+  function goToLastPageAnswered(questions) {
+    const answeredQuestions = questions.filter(q => q.value > 0);
+
+    if (answeredQuestions.length > 0) {
+      const lastQuestionAnswered = answeredQuestions.pop();
+
+      const indexAmount = lastQuestionAnswered.id - 6;
+      const pageAmount = (lastQuestionAnswered.id / 6) - 1;
+
+      if (lastQuestionAnswered.id === 12) {
+        updateIndices(true);
+      } else if (lastQuestionAnswered.id > 12) {
+        updateIndices(true, indexAmount, pageAmount);
+      }
     }
   }
 
-  componentDidMount() {
-    document.querySelector(".navbar").scrollIntoView();
-    // this.checkForUser();
+  function saveUserQuizQuestion(questionId, questionValue) {
+    userMethods.addUserQuizQuestion(props.userId, questionId, questionValue);
   }
 
-  // checkForUser = () => {
-  //   if (!this.props.user) {
-  //     this.setState({ modalInUserMode: true });
-  //     this.openModal();
-  //   } else {
-  //     this.getQuizTaken();
-  //   }
-  // }
+  function getQuestions() {
+    return questions.filter(q => q.id >= startingIndex && q.id <= endingIndex);
+  }
 
-  // getQuizTaken = () => {
-  //   fire.database().ref(`/userQuiz/${this.props.user}/quizTaken`)
-  //   .on('value', snap => {
-  //     this.setState({ quizTaken: snap.val(), quizChecked: true }, () => {
-  //       if (!this.state.quizTaken) this.getUserQuestionsAnswered();
-  //     })
-  //   });
-  // }
+  function nextPageClick() {
+    if (props.user) {
+      if (page !== getPageMax()) {
+        getQuestions().forEach(question => {
+          saveUserQuizQuestion(question.id, question.value);
+        });
+        updateIndices(true);
+      } else {
+        setQuizFinished(true);
+      }
+    } else {
+      setShowModal();
+    }
+  }
 
-  // getUserQuestionsAnswered = () => {
-  //   let questionsAnswered = [];
+  function backClick() {
+    updateIndices(false);
+  }
 
-  //   fire.database().ref(`/userQuiz/${this.props.user}/questionsAnswered`)
-  //     .once('value', snap => {
-  //       const ids = snap.val();
+  function updateIndices(addIndices, indexAmountOverride = indexAmount, pageAmount = 1) {
+    const newStart = addIndices ? startingIndex + indexAmountOverride : startingIndex - indexAmountOverride;
+    const newEnd = addIndices ? endingIndex + indexAmountOverride : endingIndex - indexAmountOverride;
+    const newPage = addIndices ? page + pageAmount : page - pageAmount;
 
-  //       for (const key in ids) {
-  //         const questionId = key;
-  //         const score = ids[key].score;
+    setStartingIndex(newStart);
+    setEndingIndex(newEnd);
+    setPage(Math.round(newPage));
+  };
 
-  //         questionsAnswered.push({ questionId: parseInt(questionId), score: score});
-  //       }
+  function validateQuiz() {
+    const hasUnansweredQuestions = getQuestions().some(q => q.value === 0) || getQuestions().some(q => q.value === undefined);
 
-  //       this.setStartingAndEndingIndices(questionsAnswered);
-  //     });
-  // }
+    if (hasUnansweredQuestions) {
+      setShowModal(true);
+    } else {
+      nextPageClick();
+    }
+  }
 
-  // setStartingAndEndingIndices = (questionsAnswered) => {
-  //   const highestQuestionIdAnswered = Math.max(...questionsAnswered.map(o => o.questionId), 0);
-  //   let page = 1;
-  //   let startingIndex = 1;
-  //   let endingIndex = 6;
+  function assignScore(questionId, value) {
+    setQuestions([
+      ...questions,
+      questions.find(q => q.id === questionId).value = value
+    ])
+  }
 
-  //   if (questionsAnswered.length !== questions.length) {
-  //     page = (highestQuestionIdAnswered / 6) + 1;
-  //     startingIndex = highestQuestionIdAnswered + 1;
-  //     endingIndex = highestQuestionIdAnswered + 6;
-  //   }
+  function getInputs(question) {
+    let list = [<input key="0" type="radio" className="is-hidden" disabled></input>];
 
-  //   this.setState({ startingIndex: startingIndex, endingIndex: endingIndex, page: page });
+    for (let i = 1; i < 6; i++) {
+      list.push(<input key={i} type="radio" value={i} className={`${question.attribute}-${question.category}`} name={question.id}
+      checked={question.value === i} onChange={() => assignScore(question.id, i)}></input>);
+    }
 
-  //   this.updateQuestionArrayWithAnswers(questionsAnswered);
-  //   this.getQuestions();
-  // }
+    return list;
+  }
 
-  // updateQuestionArrayWithAnswers = (questionsAnswered) => {
-  //   questionsAnswered.forEach(questionAnswered => {
-  //     const match = questions.find(question => question.id === questionAnswered.questionId);
-  //     match.score = questionAnswered.score;
-  //   })
-  // }
+  function getModalMessage() {
+    const message = props.userId
+      ? 'Please select an answer for each question before moving ahead!'
+      : 'In order to take the quiz, please register or log in.';
 
-  // getIsChecked = (inputValue, question) => {
-  //   if (question.score && inputValue === question.score) {
-  //     return true;
-  //   }
-
-  //   return false;
-  // }
-
-  // getQuestions = () => {
-  //   let questionsSection = questions.filter(q => q.id >= this.state.startingIndex && q.id <= this.state.endingIndex);
-
-  //   this.setState( {questions: questionsSection} );
-  // }
-
-  // openModal = () => {
-  //   const modal = document.querySelector('.modal');
-  //   modal.classList.add("is-active");
-  // }
-
-  // closeModal = () => {
-  //   document.querySelector('.modal').classList.remove("is-active");
-  //   if (this.state.modalInUserMode) {
-  //     this.setState({ modalInUserMode: false });
-  //     this.getUserQuestionsAnswered();
-  //   }
-  // }
-
-  // validateQuiz = () => {
-  //   let radios = document.querySelectorAll('input');
-  //   let checkedRadios = [];
-  //   let button = document.querySelector('.quiz-btn');
-
-  //   radios.forEach(radio => {if (radio.checked) checkedRadios.push(radio.key)});
-
-  //   if (checkedRadios.length < this.state.questions.length) {
-  //     this.openModal();
-  //     return;
-  //   } else {
-  //     this.updateUserAttributes();
-  //   }
-
-  //   if (button.textContent !== 'Submit') {
-  //     this.nextPageClick()
-  //   } else {
-  //     fire.database().ref(`/userQuiz/${this.props.user}`).update({quizTaken: true});
-  //     this.props.history.push("/results");
-  //   }
-  // }
-
-  // updateUserAttributes = () => {
-  //   var baseElement = document.querySelector("#quiz-flex");
-  //   let radios = baseElement.querySelectorAll('input');
-  //   let totalAcceptanceScore = 0;
-  //   let totalRejectionScore = 0;
-  //   let totalReflectionScore = 0;
-  //   let salvationScore = 0;
-
-  //   let questionsAnswered = [];
-
-  //   radios.forEach(radio => {
-  //     if (radio.checked)
-  //     {
-  //       const questionId = radio.name;
-  //       const chosenScore = parseInt(radio.value);
-
-  //       questionsAnswered.push({ questionId: parseInt(questionId), score: chosenScore})
-
-  //       let attribute = radio.className.split("-")[0];
-  //       let category = radio.className.split("-")[1];
-
-  //       if (category === 'accept' && attribute === 'grace')
-  //       {
-  //         salvationScore = chosenScore;
-  //       }
-  //       else if (category === 'accept')
-  //       {
-  //         totalAcceptanceScore += chosenScore;
-
-  //       } else if (category === 'reject')
-  //       {
-  //         totalRejectionScore += chosenScore;
-  //       } else totalReflectionScore += chosenScore;
-
-  //       fire.database().ref(`/userAttributes/${this.props.user}/${attribute}`)
-  //         .update({ [category]: {"score": parseInt(radio.value), "questionId": radio.name} });
-
-  //       this.updateQuestionsAnswered(questionId, chosenScore);
-  //     }
-  //   })
-
-  //   fire.database().ref(`/scores/${this.props.user}`).update({
-  //     acceptScore: totalAcceptanceScore,
-  //     rejectScore: totalRejectionScore,
-  //     reflectScore: totalReflectionScore,
-  //     salvationScore: salvationScore
-  //   });
-
-  //   this.updateQuestionArrayWithAnswers(questionsAnswered);
-
-  // }
-
-  // updateQuestionsAnswered = (questionId, score) => {
-  //   if (this.props.user) {
-  //     fire.database().ref(`/userQuiz/${this.props.user}/questionsAnswered/${questionId}`)
-  //       .set({
-  //         score: score
-  //       });
-  //   }
-  // }
-
-  // nextPageClick = () => {
-  //   let newStart = this.state.startingIndex + 6;
-  //   let newEnd = this.state.endingIndex + 6;
-  //   let button = document.querySelector('.quiz-btn');
-  //   this.setState({ page: this.state.page + 1 })
-
-  //   this.setState( {startingIndex: newStart, endingIndex: newEnd}, () => this.getQuestions());
-
-  //   if (newEnd >= questions.length) button.textContent = 'Submit';
-  // };
-
-  // backClick = () => {
-  //   let newStart = this.state.startingIndex - 6;
-  //   let newEnd = this.state.endingIndex - 6;
-
-  //   this.setState({ page: this.state.page - 1})
-  //   this.setState( {startingIndex: newStart, endingIndex: newEnd}, () => this.getQuestions());
-  // }
-
-  // loginClick = () => {
-  //   this.closeModal();
-  //   this.props.showHideLogIn(true);
-  // }
-
-  // showTakenQuiz = () => {
-  //   this.setState({ quizTaken: false, page: 1, startingIndex: 1, endingIndex: 6 }, () => {
-  //     this.getUserQuestionsAnswered();
-  //   });
-  // }
-
-  render() {
-    return(
-      <div className='page'>
-        <Hero title="Take the Quiz!" icon="../images/attributeIcons/SVG/good.svg"/>
-        <div className="has-text-centered temp-message">
-          <div className="title is-4">Coming Soon!</div>
+      return (
+        <div>
+          <div>{message}</div>
+          <div className="flex justify-content-center">
+            <div className="button mt-20" onClick={() => setShowModal(false)}>Got it</div>
+            <div className="button is-light mt-20" onClick={registerClick}>Log In</div>
+          </div>
         </div>
-        {/* <div className={`quizPage container ${this.state.questions.length > 0 ? '' : 'hidden'}`}>
+      );
+  }
+
+  function registerClick() {
+    setShowModal(false);
+    props.showHideLogIn(true);
+  }
+
+  function getButtonText() {
+    return page === getPageMax() ? 'Submit' : 'Next';
+  }
+
+  function getPageMax() {
+    return Math.round(questionArray.length / indexAmount);
+  }
+
+  return (
+    <>
+    <div className='page'>
+        <Hero title="Take the Quiz!" />
+        <div className={`quizPage container ${questions.length > 0 && !quizFinished ? '' : 'hidden'}`}>
           <section id="quiz-flex">
         {
-          this.state.questions
+          getQuestions()
           .map(q =>
             <div key={q.id} id={q.id} className="question-card">
               <p className="question-header">{q.id}. {q.question}</p>
                 <div className="question-inputs">
                   <label className="radio desktop-label">Least like me</label>
-                  <input type="radio" className="is-hidden" disabled></input>
-
-                  <input type="radio" value="1" className={`${q.attribute}-${q.category}`} name={q.id} defaultChecked={this.getIsChecked(1, q)}></input>
-
-                  <input type="radio" value="2" className={`${q.attribute}-${q.category}`} name={q.id} defaultChecked={this.getIsChecked(2, q)}></input>
-
-                  <input type="radio" value="3" className={`${q.attribute}-${q.category}`} name={q.id} defaultChecked={this.getIsChecked(3, q)}></input>
-
-                  <input type="radio" value="4" className={`${q.attribute}-${q.category}`} name={q.id} defaultChecked={this.getIsChecked(4, q)}></input>
-
-                  <input type="radio" value="5" className={`${q.attribute}-${q.category}`} name={q.id} defaultChecked={this.getIsChecked(5, q)}></input>
+                    {getInputs(q)}
                   <label className="radio desktop-label">Most like me</label>
 
                 </div>
@@ -266,45 +187,27 @@ class Quiz extends Component {
           <div>
           <section className="section quiz-footer">
             <div className="control">
-              <button className="button is-outlined is-primary is-large quizz-btn" disabled={this.state.startingIndex === 1} onClick={this.backClick}>Back</button>
-              <button className="button is-primary is-large quiz-btn" onClick={this.validateQuiz} type="submit">
-              Next</button>
+              <button className="button is-outlined is-primary is-large quizz-btn" disabled={startingIndex === 1} onClick={backClick}>Back</button>
+              <button className="button is-primary is-large quiz-btn" onClick={validateQuiz} type="submit">{getButtonText()}</button>
               <div className="is-flex progess-bar">
-                <span>{this.state.page}</span>
-                <progress className="progress" value={this.state.page} max="16"></progress>
-                <span>16</span>
+                <span>{page}</span>
+                <progress className="progress" value={page} max={getPageMax()}></progress>
+                <span>{getPageMax()}</span>
               </div>
             </div>
           </section>
           </div>
         </div>
-        <div className={this.state.quizTaken ? 'quiz-taken-message' : 'hidden'}>
+        <div className={quizFinished ? 'quiz-taken-message' : 'hidden'}>
           <h2 className="title is-2 is-spaced primary-text">You've already finished the quiz!</h2>
           <div className="quiz-taken-buttons">
             <div className="button"><Link to="/results">See Your Results</Link></div>
-            <div className="button orange-background" onClick={this.showTakenQuiz}>Or Go to Quiz</div>
           </div>
         </div>
-        <div className="modal">
-          <div className="modal-background"></div>
-          <div className="modal-content">
-            <header className="modal-card-head is-flex justify-end">
-              <button className="delete" aria-label="close" onClick={this.closeModal}></button>
-            </header>
-            <section className="modal-card-body">
-              {this.state.modalInUserMode
-                ? "In order to save your quiz results, please register or log in."
-                : 'Please select an answer for each question before moving ahead!'}
-            </section>
-            <footer className="modal-card-foot is-flex justify-end">
-            <button className={this.state.modalInUserMode ? 'button' : 'hidden'} onClick={this.loginClick}>Log In</button>
-            <button className="button orange-background" onClick={this.closeModal}>Got it!</button>
-            </footer>
-          </div>
-        </div> */}
-      </div>
-    )
-  }
+    </div>
+    <Modal showModal={showModal} toggleModal={() => setShowModal((prev) => !prev)} message={getModalMessage()} />
+    </>
+  );
 }
 
 export default withRouter(Quiz);
