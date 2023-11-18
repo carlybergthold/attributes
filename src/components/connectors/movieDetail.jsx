@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import '../../styles/connectors.css';
 import GoToAttributeCard from './goToAttributeCard';
+import { scrollIntoView } from "seamless-scroll-polyfill";
 
 export default function MovieDetail(props) {
+    useEffect(() => {
+        scrollIntoView(document.querySelector(".progress-bar-container"), { behavior: "smooth", block: "start" } );
+    });
 
     const Quote = () => {
         if (props.quote !== null) {

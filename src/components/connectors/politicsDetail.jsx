@@ -6,9 +6,7 @@ import { scrollIntoView } from "seamless-scroll-polyfill";
 export default function PoliticsDetail(props) {
 
     useEffect(() => {
-        // setTimeout(() => {
-            scrollIntoView(document.querySelector(".progress-bar-container"), { behavior: "auto", block: "start" } );
-        // }, 0)
+        scrollIntoView(document.querySelector(".progress-bar-container"), { behavior: "smooth", block: "start" } );
     });
 
     return (
