@@ -1,7 +1,8 @@
 .personality-quiz-section {
   background-color: var(--yellow);
   padding-top: 4rem;
-  height: 100vh;
+  min-height: 100vh;
+  height: fit-content;
 }
 
 .quiz-card {

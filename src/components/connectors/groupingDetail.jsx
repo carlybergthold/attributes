@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { scrollIntoView } from "seamless-scroll-polyfill";
 
 export default function GroupingDetail(props) {
+    useEffect(() => {
+        scroll();
+    });
+
     const cardClicked = (attribute) => {
         scroll();
         updateAttribute(attribute);
