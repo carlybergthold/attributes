@@ -1,6 +1,7 @@
 .personality-quiz-section {
   background-color: var(--yellow);
   padding-top: 4rem;
+  height: 100vh;
 }
 
 .quiz-card {
