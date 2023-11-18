@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import questions from "../data/testArray";
-import fire from "../config/fire";
 import "../styles/quiz.css";
 import Hero from '../components/hero';
-import { withRouter, Link } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 
 class Quiz extends Component {
 

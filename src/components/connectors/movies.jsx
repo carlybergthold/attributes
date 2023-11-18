@@ -11,7 +11,7 @@ export default function Movies() {
             array={movieArray}
             introText="How do some of your favorite movies reflect God?"
             introSubtitle="Choose a movie to see more."
-            isMovie={true}
+            isMovies={true}
         ></ConnectorCard>
     );
 }
