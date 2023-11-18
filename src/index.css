@@ -177,3 +177,7 @@ Link {
 .blue-text {
   color: var(--blue) !important;
 }
+
+.media-content {
+  overflow: visible !important;
+}

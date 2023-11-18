@@ -14,17 +14,6 @@ class TopNav extends Component {
         isHomepage: true
     }
 
-    // componentDidMount() {
-    //     this.unlisten = this.props.history.listen((location, action) => {
-    //         const isHomepage = location.pathname === '/home';
-    //         this.setState({ isHomepage: isHomepage });
-    //     });
-    // }
-
-    // componentWillUnmount() {
-    //     this.unlisten();
-    // }
-
     toggleAttActive = () => {
         this.setState({ attDropdownActive: !this.state.attDropdownActive });
 
@@ -81,7 +70,7 @@ class TopNav extends Component {
         return (
         <>
         {/* desktop menu */}
-        <nav className="navbar is-transparent" role="navigation" aria-label="main navigation">
+        <nav id="main-navbar" className="navbar is-transparent" role="navigation" aria-label="main navigation">
             <div id="attribute-navbar" className="navbar-menu">
                 <div className="navbar-start">
                     <span className="navbar-item">
@@ -140,6 +129,9 @@ class TopNav extends Component {
                         </span>
                         <span className="navbar-item">
                             <Link to="/movies">By Your Favorite Movie</Link>
+                        </span>
+                        <span className="navbar-item">
+                            <Link to="/politics">By Political Issue</Link>
                         </span>
                     </div>
                 </div>
@@ -214,6 +206,8 @@ class TopNav extends Component {
                                    <Link to="/basicneeds" className="has-text-grey" onClick={this.exitMobileMenu}>By Who You Are in Christ</Link></div>
                                 <div className="mobile-dropdown-item">
                                    <Link to="/movies" className="has-text-grey" onClick={this.exitMobileMenu}>By Your Favorite Movie</Link></div>
+                                <div className="mobile-dropdown-item">
+                                   <Link to="/politics" className="has-text-grey" onClick={this.exitMobileMenu}>By Political Issue</Link></div>
                             </div>
                         </div>
                     </div>

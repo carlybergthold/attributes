@@ -48,6 +48,7 @@ import unique from './modules/attributeDetail/unique'
 import wise from './modules/attributeDetail/wise'
 import wrathful from './modules/attributeDetail/wrathful'
 import Movies from './components/connectors/movies'
+import Politics from './components/connectors/politics'
 
 class AppViews extends Component {
 
@@ -74,16 +75,7 @@ class AppViews extends Component {
       <Route exact path="/struggle" render={(props) => (<Struggle /> )} />
       <Route exact path="/basicneeds" render={(props) => (<BasicNeeds /> )} />
       <Route exact path="/movies" render={(props) => (<Movies /> )} />
-{/*
-      <Route exact path="/attributes/:attribute(\d+)" render={(props) => {
-                let attribute = attArray.find(att =>
-                    att.attributeName === props.match.params.attribute
-                )
-
-                return <AttributeDetail attribute={attribute} />
-      }} /> */}
-
-      {/* attributes */}
+      <Route exact path="/politics" render={(props) => (<Politics /> )} />
       <Route exact path="/attributes/creative" component={Creative} user={this.props.user} />
       <Route exact path="/attributes/eternal" component={eternal} user={this.props.user} />
       <Route exact path="/attributes/faithful" component={faithful} user={this.props.user} />
@@ -116,13 +108,6 @@ class AppViews extends Component {
       <Route exact path="/attributes/unique" component={unique} user={this.props.user} />
       <Route exact path="/attributes/wise" component={wise} user={this.props.user} />
       <Route exact path="/attributes/wrathful" component={wrathful} />
-
-      {/*{
-        attArray.map(a =>
-          <Route exact path={`/attributes/${a.attributeName}`} render={(props) => (<Creative /> )} />
-        )
-      }*/}
-
       </>
     )
   }
