@@ -19,7 +19,7 @@ class Teaching extends Component {
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">Proper teaching knows the direction, the speed, and the method of getting there.  It requires in-depth knowledge of the student as well as the subject.  We honor the best teachers with awards and fond memories from school.  We appreciate coworkers who are willing to impart wisdom.  We know that teaching and learning is simply the way of life.</p>
                   <p className="is-size-6 leading-normal padded">“Children learn more when they initiate an activity and are actively engaged in it. Curiosity is the birthplace of learning. If you follow a two-year-old around for even a couple of hours, you will watch as he explores the world organically, following his innate curiosity about how things work, taste, feel, look, and sound. When a parent or teacher can harness the power of that curiosity, it is like riding a wave that already has momentum…..To give a child a chance to initiate learning, the caregiver must remain in the background, supporting the child’s natural curiosity and offering helpful ways to explore. This is different from the traditional model of instruction, where a teacher doles out knowledge and asks the student to learn the information.” - 10/6/19 article from TeachThought</p>
-                  <p className="is-size-6 leading-normal padded">My natural curiosity and ability to learn is enhanced by a good teacher, who will lead and coach me to overcome whatever reluctance I might be feeling.  I know continued learning is vital to success - I just need to figure out what learning is most important to me and then begin the work to take it all in.</p>
+                  <p className="is-size-6 leading-normal padded">My natural curiosity and ability to learn is enhanced by a good teacher, who will lead and coach me to overcome whatever reluctance I might be feeling or knowledge I lack.  I know continued learning is vital to success - I just need to figure out what learning is most important to me and then begin the work to take it all in.</p>
               </section>
             }
             emotion={
@@ -28,7 +28,7 @@ class Teaching extends Component {
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("teaching")}}>Why do I sometimes need a coach or encourager?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Want to exercise more?  Make new friends?  Learn a new language or instrument?  Or tackle that next hard thing at work or a difficult conversation with a friend?  How about simply learning more about who God is?</p>
-                  <p className="is-size-6 leading-normal padded">I have many inner struggles, often knowing what is best for me long-term, but am blocked by an immediate emotional hurdle called reluctance.  This hurdle simply says “I don’t feel like doing that right now.”  I need a coach - one who guides and encourages me to move past my fears and on toward future benefits.  It can be my spouse, a good friend, or someone I hire because I realize the value of external encouragement.  The Holy Spirit is my spiritual coach.</p>
+                  <p className="is-size-6 leading-normal padded">I have many inner struggles, often knowing what is best for me long-term, but am blocked by an immediate emotional hurdle called reluctance.  This hurdle simply says, “I don’t feel like doing that right now,” or "I don't feel able to do that right now."  I need a coach - one who guides and encourages me to move past my fears and on toward future benefits.  It can be my spouse, a good friend, or someone I hire because I realize the value of external encouragement.  The perfect spiritual coach is the Holy Spirit, who guides and encourages me in all situations.</p>
                   <br></br>
                   <Quote scripture="The LORD is my shepherd; I shall not want.  He makes me lie down in green pastures. He leads me beside still waters.  He restores my soul.  He leads me in paths of righteousness for his name’s sake.  Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.  You prepare a table before me in the presence of my enemies; you anoint my head with oil; my cup overflows.  Surely goodness and mercy shall follow me all the days of my life, and I shall dwell in the house of the LORD forever." reference="Psalm 23:1-6"/>               
               </section>
@@ -38,8 +38,8 @@ class Teaching extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("teaching")}}>I am afraid I may not be able to learn all I need to be successful.</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">Choosing what to learn is a critical decision.  Since no one can learn everything, I need to deliberately decide what I most need and then start, which includes applying effort.  What seems impossible at the start has a way of unfolding and unlocking what has previously been a mystery.</p>
-                  <p className="is-size-6 leading-normal padded">All knowledge must have a foundation on which to build.  I must know how to read, listen, interpret and understand the information I need, and then put all these in the right perspective.  In Christianity, “fearing God”, or putting sincere effort toward knowing and appreciating God, is critical to all successful learning, understanding and life wisdom.</p>
+                  <p className="is-size-6 leading-normal padded">Choosing what to learn is a critical decision.  Since no one can learn everything, I need to deliberately decide what I most need and then start, which includes applying effort.  What seems impossible at the start has a way of gradually unfolding and unlocking what has previously been a mystery.</p>
+                  <p className="is-size-6 leading-normal padded">All knowledge must have a foundation on which to build.  I must possess the fundamentals of how to read, listen, interpret and understand the information I need, and then put all these in the right perspective.  In Christianity, “fearing God”, or putting sincere effort toward knowing and appreciating God, is critical to all successful learning, understanding and life wisdom.</p>
                   <br></br>
                   <Quote scripture="Let the wise hear and increase in learning, and the one who understands obtain guidance, to understand a proverb and a saying, the words of the wise and their riddles.  The fear of the Lord is the beginning of knowledge; fools despise wisdom and instruction." reference="Proverbs 1:5-7" color="var(--teal)"/>               
               </section>
@@ -49,8 +49,8 @@ class Teaching extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("teaching")}}>When learning itself is a struggle…</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">The perfect learning environment rarely exists.  My teachers or mentors may be harsh, uncaring, incompetent, or even nonexistent.  Or I might be the main problem - I either can’t or won’t because of the significant effort required.  What do I do?</p>
-                  <p className="is-size-6 leading-normal padded">The easiest and most obvious truth to accept is that obstacles will always be present.  In the verse below, it is easy to see the obstacles: What is this yoke? Doesn’t it imply heavy work and constriction? Can any burden really be termed ‘light’?  And how can I rest when you are giving me even more work?  All good questions to ask in time, but God’s guidance begins with a simple call - “Come to me…”.   The truth is that I need a Master Teacher to help me and God is always ready to help all who come to Him.</p>
+                  <p className="is-size-6 leading-normal padded">The perfect learning environment rarely exists.  My teachers or mentors may be harsh, uncaring, incompetent, or even nonexistent.  Or I may have a learning difference or disability that makes learning so much more of a struggle.  Or I might be the main problem - I either can’t or won’t learn because of the significant effort required.  What do I do?</p>
+                  <p className="is-size-6 leading-normal padded">The most obvious but difficult truth to accept is that obstacles will always be present.  In the verse below, it is easy to see the obstacles: What is this yoke? Doesn’t it imply heavy work and constriction? Can any burden really be termed ‘light’?  And how can I rest when you are giving me even more work?  All good questions to ask in time, but God’s guidance begins with a simple call - “Come to me…”.   The truth is that I need a Master Teacher to help me, especially in the midst of struggle.  God is that Master Teacher, always caring, gentle, and ready to help all who come to Him.</p>
                   <br></br>
                   <Quote scripture="Come to me, all who labor and are heavy laden, and I will give you rest. Take my yoke upon you, and learn from me, for I am gentle and lowly in heart, and you will find rest for your souls. For my yoke is easy, and my burden is light." reference="Matthew 11:28-30" />               
               </section>
@@ -60,7 +60,7 @@ class Teaching extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("teaching")}}>Only God teaches perfectly.</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">One common error is to believe that Jesus was simply a good teacher and not God.  In His teachings, Jesus clearly self-identified as God (and others supported this claim).  So He was most likely either crazy or truly God.  The least likely scenario is that He was a model teacher who happened to believe He was God.</p>
+                  <p className="is-size-6 leading-normal padded">One common error is to believe that Jesus was simply a great teacher and not the one and only God.  In His teachings, Jesus clearly self-identified as God.  So He was most likely either crazy or truly God.  The least likely of these two scenarios is that He was a model teacher who taught great truths while mistakenly believing He was God.  He is the perfect God and everything He spoke was the perfect truth.</p>
                   <br></br>
                   <Quote scripture="Jesus said to them, 'Truly, truly, I say to you, before Abraham was, I am.' So they picked up stones to throw at him, but Jesus hid himself and went out of the temple." reference="John 8:58-59" />               
               </section>
@@ -69,7 +69,7 @@ class Teaching extends Component {
               <section>
                    <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("teaching")}}>Jesus is the perfect teacher.</h1></section>
-                  <p className="is-size-6 leading-normal padded">Jesus taught everyone He came into contact with, whether through parables, miracles or admonishment. And when He physically left His disciples, He emphasized the importance of continuing to learn from Him through the Holy Spirit.  I learn today from what God has spoken through the Bible and what He says through the Spirit - these two sources will never contradict, but harmonize.</p>
+                  <p className="is-size-6 leading-normal padded">Jesus taught everyone He came into contact with, whether through parables, miracles or admonishment. And when He physically left His disciples, He emphasized to them the importance of continuing to learn from Him through the Holy Spirit.  I learn today from what God has spoken through the Bible and what He says through the Spirit - these two sources will never contradict, but harmonize to clearly teach me the truth.</p>
                   <Quote scripture="You call me Teacher and Lord, and you are right, for so I am." reference="John 13:13" color="var(--teal)"/><br>
                   </br>
                   <Quote scripture="But the Helper, the Holy Spirit, whom the Father will send in my name, he will teach you all things and bring to your remembrance all that I have said to you." reference="John 14:26" color="var(--teal)"/>               
@@ -80,7 +80,7 @@ class Teaching extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("teaching")}}>So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Approach the Bible with a learning heart and see God as an engaged teacher.  Consider the ultimate goal of becoming more like my ultimate teacher - Christ Jesus.  <br></br>Ask: What have I learned or how have I taken guidance from the Bible recently?</p>
+                  <p className="is-size-6 leading-normal padded">Approach the Bible with a learning heart and see God as an engaged teacher.  Be patient as I gradually await the unfolding and unlocking of what has previously been a mystery.  Consider listening to and learning from the Holy Spirit as He uses the Bible to guide me toward the ultimate goal of becoming more like my ultimate teacher - Christ Jesus.  <br></br>Ask: What have I learned or how have I taken guidance from the Bible recently?</p>
                   <Quote scripture="A disciple is not above his teacher, but everyone when he is fully trained will be like his teacher." reference="Luke 6:40" color="var(--teal)"/>               
               </section>
             }
@@ -89,7 +89,7 @@ class Teaching extends Component {
                    <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("teaching")}}>Prayer</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Teach me, Lord!  Help me to listen to Your words with a humility that leads to thoughts and actions which glorify You.  Uncover my foolish thoughts which seem right to me, but which grieve You.</p>
+                  <p className="is-size-6 leading-normal padded">Teach me, Lord!  Uncover my foolish thoughts which seem right to me, but which grieve You.  Help me to listen to Your words with a humility that leads to wise thoughts and actions which glorify You.</p>
                   <Quote scripture="The way of a fool is right in his own eyes, but a wise man listens to advice." reference="Proverbs 12:15" color="var(--teal)"/>               
               </section>
             }
@@ -101,10 +101,10 @@ class Teaching extends Component {
                   <p className="is-size-6 leading-normal padded">Jesus in the flesh provided the best example of an effective human teacher.  Consider the following effective teacher qualities that Pearson Ed found from a survey of both teachers and students, along with how Jesus demonstrated each.</p>
                   <p className="is-size-6 leading-normal padded">1. Ability to develop trusting, productive relationships<br></br>- 11 of 12 disciples were willing to die (and most did) for their teacher <br></br>
                   2. Patient, caring, kind<br></br>     - All godly attributes<br></br>
-                  3. Knowledge of learners<br></br>     - Omniscience of a Creator God covers this<br></br>
+                  3. Knowledge of learners - God is omniscient, knowing those He created better than they know themselves.<br></br>
                   4. Dedication to teaching<br></br>     - Driven by the same love that sent Him to die on a cross<br></br>
-                  5. Subject matter knowledge (tie)<br></br>    - See #3 above<br></br>
-                  5. Engaging students in learning (tie)<br></br>    - Through His Spirit, Jesus teaches us through all we encounter in life </p>               
+                  5. Subject matter knowledge (tie)<br></br>    - John 14:6 (ESV) Jesus said to him, "I am the way, and the truth, and the life.  No one comes to the Father except through me."<br></br>
+                  5. Engaging students in learning (tie)<br></br>    - Through His Spirit, Jesus individually and uniquely teaches each of us through all we encounter in life </p>               
               </section>
             }
             history={
