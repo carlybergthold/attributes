@@ -36,12 +36,24 @@ import {ReactComponent as WiseIcon} from '../images/attributeIcons/SVG/wise.svg'
 const styleMethods = {
 
     getAttributeColor: (attribute) => {
+        if (!attribute) {
+            return 'var(--teal)';
+        };
+
         const name = attributeArray.find(x => x.attributeName === attribute.toLowerCase());
-        if (name === undefined ) return 'var(--teal)';
+
+        if (!name) {
+            return 'var(--teal)';
+        }
+
         return `var(--${name.color})`;
     },
 
     getIcon: (attribute, color) => {
+        if (!attribute) {
+            return null;
+        }
+
         attribute = attribute.charAt(0).toUpperCase() + attribute.slice(1);
 
         if (attribute === "Creative") {

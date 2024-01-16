@@ -6,7 +6,6 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class TopNav extends Component {
-
     state = {
         attDropdownActive: false,
         exploreDropdownActive: false,
@@ -64,6 +63,53 @@ class TopNav extends Component {
     logInClick = (isMobile) => {
         if (isMobile) this.exitMobileMenu();
         this.props.showHideLogIn(true);
+    }
+
+    userIsLoggedIn = () => {
+        return this.props.userId !== null && this.props.userId !== 0;
+    }
+
+    signOutClicked = () => {
+        this.props.signOut();
+        this.props.history.push('/home');
+    }
+
+    getLastNavItem() {
+        if (!this.userIsLoggedIn()) {
+            return <span className='navbar-item has-text-grey-dark is-hoverable' onClick={() => this.logInClick(false)}>Log In</span>
+        } else {
+            return (
+                <div className="navbar-item has-dropdown is-hoverable">
+                    <span className="navbar-link">My Account</span>
+                    <div className="navbar-dropdown">
+                        {this.getQuizResultsDropdown()}
+                        <span className="navbar-item">
+                            <div onClick={this.signOutClicked}>Log Out</div>
+                        </span>
+                    </div>
+                </div>
+            )
+        }
+    }
+
+    getQuizResultsDropdown() {
+        if (this.props.getUserQuizFinished()) {
+            return <span className="navbar-item">
+                      <Link to="/results">Quiz Results</Link>
+                   </span>
+        } else {
+            return null;
+        }
+    }
+
+    getQuizResultsDropdownMobile() {
+        if (this.props.getUserQuizFinished()) {
+            return <div className="mobile-dropdown-item">
+                     <Link to="/results" className="has-text-grey">Quiz Results</Link>
+                   </div>
+        } else {
+            return null;
+        }
     }
 
     render() {
@@ -139,20 +185,7 @@ class TopNav extends Component {
                 <span className="navbar-item">
                     <Link to="/about" className="has-text-grey-dark">About</Link>
                 </span>
-                <span className={this.props.user ? 'hidden' : 'navbar-item has-text-grey-dark is-hoverable'} onClick={() => this.logInClick(false)}>Log In</span>
-                <div className={this.props.user ? 'navbar-item has-dropdown is-hoverable' : 'hidden'}>
-                    <span className="navbar-link">
-                        {this.props.user}
-                    </span>
-                    <div className="navbar-dropdown user-dropdown">
-                        <span className="navbar-item">
-                            <Link to="/results">Quiz Results</Link>
-                        </span>
-                        <span className="navbar-item" onClick={this.props.signOut}>
-                            Sign Out
-                        </span>
-                    </div>
-                </div>
+                {this.getLastNavItem()}
             </div>
         </nav>
 
@@ -213,21 +246,22 @@ class TopNav extends Component {
                     </div>
                 </div>
                 <li><Link to="/about" onClick={this.exitMobileMenu} className="has-text-white">About</Link></li>
-                <li className={this.props.user ? 'hidden' : ''}><span className="orange-text" onClick={() => this.logInClick(true)}>Log In</span></li>
-                <span className={this.props.user ? '' : 'hidden'}>
+                <li className={this.userIsLoggedIn() ? 'hidden' : ''}>
+                    <span className="orange-text" onClick={() => this.logInClick(true)}>Log In</span>
+                </li>
+                <span className={this.userIsLoggedIn() ? '' : 'hidden'}>
                     <div className={this.state.userDropdownActive ? 'dropdown mobile-dropdown is-active' : 'mobile-dropdown dropdown'}>
                         <div className="dropdown-trigger" onClick={this.toggleUserActive}>
                             <div aria-haspopup="true" aria-controls="dropdown-menu4" className="is-flex">
-                                <span className="orange-text">{this.props.user}</span>
+                                <span className="orange-text">My Account</span>
                                 <FontAwesomeIcon icon={faAngleDown} className="angle-down"/>
                             </div>
                         </div>
                         <div className="dropdown-menu" id="dropdown-menu4" role="menu">
                             <div className="dropdown-content">
                                 <div className="dropdown-item is-capitalized">
-                                <div className="mobile-dropdown-item">
-                                    <Link to="/results" className="has-text-grey">Quiz Results</Link></div>
-                                        <div className="mobile-dropdown-item has-text-grey" onClick={this.props.signOut}>Sign Out</div>
+                                    {this.getQuizResultsDropdownMobile()}
+                                    <div className="mobile-dropdown-item has-text-grey" onClick={this.signOutClicked}>Log Out</div>
                                 </div>
                             </div>
                         </div>

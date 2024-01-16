@@ -1,91 +1,62 @@
 import React  from 'react';
+import { useEffect } from "react";
 import { withRouter, Link } from "react-router-dom"
-import fire from '../config/fire'
 import '../styles/testScores.css'
 import attArray from '../data/attributeArray'
 import styleMethods from "../methods/styleMethods";
 import One from "../images/one.png";
 import Two from "../images/two.png";
 import Three from "../images/three.png";
+import quizArray from "../data/testArray";
 
-class QuizResults extends React.Component {
+function QuizResults(props) {
+  useEffect(() => {
+    const userNotLoggedIn = props.userId === null || props.userId === undefined;
 
-  constructor(props){
-      super(props);
+    if (userNotLoggedIn) {
+      props.history.push('/home');
+    }
+  });
 
-      this.state = {
-          quizChecked: false,
-          quizTaken: false,
-          acceptScore: 0,
-          rejectScore: 0,
-          reflectScore: 0,
-          salvationScore: 0,
-          topReflections: [],
-          bottomReflections: []
-      }
-  }
+  function getTopUserAttributes() {
+    if (props.userQuiz !== null && props.userQuiz.length > 0) {
+      props.userQuiz.forEach(x => {
+        const match = quizArray.find(q => q.id === x.questionId);
 
-  componentDidMount() {
-    document.querySelector(".navbar").scrollIntoView();
-
-    if (!this.props.user) this.props.history.push('/home');
-
-    this.getUserData();
-  }
-
-  getUserData = () => {
-    fire.database().ref(`/userQuiz/${this.props.user}/quizTaken`)
-      .on('value', snap => {
-        this.setState({ quizTaken: snap.val(), quizChecked: true })
-      });
-
-
-
-    let ref = fire.database().ref(`/scores/${this.props.user}`);
-    ref.on('value', snapshot => {
-      this.setState({acceptScore: this.state.acceptScore,
-                      rejectScore: this.state.rejectScore,
-                      reflectScore: this.state.reflectScore,
-                      salvationScore: this.state.salvationScore});
-    });
-
-    const reflectionScores = fire.database().ref(`/userAttributes/${this.props.user}`);
-
-    reflectionScores.on('value', snap => {
-      let reflections = [];
-
-      snap.forEach(att => {
-        const attribute = att.key;
-        const score = att.val();
-
-        if (score !== undefined && score.reflect !== undefined) {
-          const reflectScore = att.val().reflect.score === undefined ? 0 : att.val().reflect.score;
-          reflections.push({ "attribute": attribute, "score": reflectScore });
+        if (match) {
+          x.attribute = match.attribute;
         }
       });
 
-      reflections = reflections.sort((a, b) => a.score - b.score);
+      const summedValues = {};
 
-      const top3 = reflections.slice(-3);
-      const bottom3 = reflections.slice(0, 3);
+      return props.userQuiz
+        .reduce((accumulator, obj) => {
+          const { attribute, questionValue } = obj;
 
-      const topList = [];
-      const bottomList = [];
+          if (!summedValues[attribute]) {
+            summedValues[attribute] = { attribute, questionValue };
+            accumulator.push(summedValues[attribute]);
+          } else {
+            summedValues[attribute].questionValue += questionValue;
+          }
 
-      top3.forEach(x => topList.push(x.attribute));
-      bottom3.forEach(x => bottomList.push(x.attribute));
-
-      this.setState({ topReflections: topList, bottomReflections: bottomList });
-    });
+          return accumulator;
+        }, [])
+        .sort((a, b) => b.questionValue - a.questionValue)
+        .slice(0, 3);
+    } else {
+      return [];
+    }
   }
 
-  getDescription = (attribute) => {
+  function getDescription(attribute) {
     if (attribute === undefined) return;
     const att = attArray.find(x => x.attributeName === attribute);
     return att !== undefined ? att.description : ""
   }
 
-  getPNG = (index) => {
+  function getPNG(index) {
     if (index === 0) {
       return One
     }
@@ -97,88 +68,49 @@ class QuizResults extends React.Component {
     }
   }
 
-  render() {
-    return(
-        <>
-        {/* if hasn't taken quiz */}
-        <section className={this.state.quizTaken ? 'hidden' : 'section is-medium has-background-primary full-height'}>
+  function getResultsHtml() {
+    return props.userQuiz ? (
+      <div className="columns is-vcentered">
+      {
+        getTopUserAttributes().map((obj, index) =>
+        <div key={index} className="column is-4">
+            <figure className="testimonial has-text-centered">
+                <blockquote className="result-description">
+                  <span className="is-capitalized">{obj.attribute}</span>
+                  <br></br>
+                  <span className="has-text-weight-normal">{getDescription(obj.attribute)}</span>
+                <figure>
+                {
+                  styleMethods.getIcon(obj.attribute, styleMethods.getAttributeColor(obj.attribute))
+                }
+                </figure>
+                </blockquote>
+                <div className="author">
+                  <img src={getPNG(index)} alt="index"></img>
+                  <h5><Link to={`/attributes/${obj.attribute}`} className="link">Go to {obj.attribute}</Link></h5>
+                </div>
+            </figure>
+        </div>
+          )
+      }
+    </div>
+    ) : (<div>no quiz</div>);
+  }
+
+  return(
+      <>
+      <section className='section is-medium has-background-primary full-height'>
         <div className='container'>
           <div className="title-wrapper has-text-centered">
-            <h2 className="title is-2 is-spaced light-text">You haven't finished the quiz yet!</h2>
-            <div className="button"><Link to="/quiz">Take the Quiz</Link></div>
+            <h2 className="title is-2 is-spaced light-text">The three attributes you reflect the most:</h2>
+          </div>
+          <div className="content-wrapper homepage-personality">
+            {getResultsHtml()}
           </div>
         </div>
-        </section>
-
-        {/* if quiz results are available */}
-        <section className={this.state.quizChecked && this.state.quizTaken ? 'section is-medium has-background-primary full-height' : 'hidden'}>
-          <div className='container'>
-            <div className="title-wrapper has-text-centered">
-              <h2 className="title is-2 is-spaced light-text">The three attributes you reflect the most:</h2>
-            </div>
-            <div className="content-wrapper homepage-personality">
-              <div className="columns is-vcentered">
-                {
-                  this.state.topReflections.map((attribute, index) =>
-                  <div key={index} className="column is-4">
-                      <figure className="testimonial has-text-centered">
-                          <blockquote className="result-description">
-                            <span className="is-capitalized">{attribute}</span>
-                            <br></br>
-                            <span className="has-text-weight-normal">{this.getDescription(attribute)}</span>
-                          <figure>
-                          {
-                            styleMethods.getIcon(attribute, styleMethods.getAttributeColor(attribute))
-                          }
-                          </figure>
-                          </blockquote>
-                          <div className="author">
-                            <img src={this.getPNG(index)} alt="index"></img>
-                            <h5><Link to={`/attributes/${attribute}`} className="link">Go to {attribute}</Link></h5>
-                          </div>
-                      </figure>
-                  </div>
-                    )
-                }
-              </div>
-            </div>
-          </div>
-
-          <div className='container'>
-            <div className="title-wrapper has-text-centered">
-              <h2 className="title is-2 is-spaced light-text">The three attributes you reflect the least:</h2>
-            </div>
-            <div className="content-wrapper homepage-personality">
-              <div className="columns is-vcentered">
-                {
-                  this.state.bottomReflections.map((attribute, index) =>
-                  <div key={index} className="column is-4">
-                      <figure className="testimonial has-text-centered">
-                          <blockquote className="result-description">
-                            <span className="is-capitalized">{attribute}</span>
-                            <br></br>
-                            <span className="has-text-weight-normal">{this.getDescription(attribute)}</span>
-                          <figure>
-                          {
-                            styleMethods.getIcon(attribute, styleMethods.getAttributeColor(attribute))
-                          }
-                          </figure>
-                          </blockquote>
-                          <div className="author">
-                            <img src={this.getPNG(index)} alt="index"></img>
-                            <h5><Link to={`/attributes/${attribute}`} className="link">Go to {attribute}</Link></h5>
-                          </div>
-                      </figure>
-                  </div>
-                    )
-                }
-              </div>
-            </div>
-          </div>
-        </section>
-        </>
-    )
-  }
+      </section>
+      </>
+  )
 }
 
 export default withRouter(QuizResults);

@@ -178,6 +178,29 @@ Link {
   color: var(--blue) !important;
 }
 
+.modal-content {
+  background-color: white;
+  padding: 4rem;
+  font-size: 1.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.modal.is-active {
+  padding: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
 .media-content {
   overflow: visible !important;
 }
