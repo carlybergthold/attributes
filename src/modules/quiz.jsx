@@ -17,7 +17,6 @@ function Quiz(props) {
   const [showTakenQuiz, setShowTakenQuiz] = useState(false);
 
   useEffect(() => {
-    console.log(questionArray.length)
     if (props.userId) {
       getUserQuizQuestions();
     } else {
@@ -28,7 +27,6 @@ function Quiz(props) {
   function resetQuiz() {
     questionArray.forEach(q => q.value = 0);
     setQuestions(questionArray);
-    console.log(questions)
 
     setStartingIndex(1);
     setEndingIndex(6);
@@ -48,7 +46,6 @@ function Quiz(props) {
     }
 
     setQuestions(questionArray);
-    console.log(questions)
 
     goToLastPageAnswered(questionArray);
   }
@@ -124,8 +121,6 @@ function Quiz(props) {
       ...questions,
       questions.find(q => q.id === questionId).value = value
     ])
-    console.log(questions)
-
   }
 
   function getInputs(question) {
@@ -169,6 +164,7 @@ function Quiz(props) {
   }
 
   function editQuizClicked() {
+    getUserQuizQuestions();
     setStartingIndex(1);
     setEndingIndex(6);
     setPage(1);

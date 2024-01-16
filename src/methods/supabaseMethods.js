@@ -51,7 +51,7 @@ const userMethods = {
         return data;
     },
     async addUserQuizQuestion(userId, questionId, questionValue) {
-        const { data, error } = await supabase
+        const { error } = await supabase
             .from('userQuiz')
             .upsert({ questionId: questionId, questionValue: questionValue, userId: userId },
                     { onConflict: ['questionId', 'userId'] }

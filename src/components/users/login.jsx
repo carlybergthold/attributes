@@ -1,19 +1,6 @@
 import React, { Component } from "react";
 import '../../styles/register.css';
 
-// function Login() {
-//     const [email, setEmail] = useState('');
-//     const [password, setPassword] = useState('');
-//     const [register, setRegister] = useState(false);
-//     const [forgotPassword, setForgotPassword] = useState(false);
-//     const [userAddedOrLoggedIn, setUserAddedOrLoggedIn] = useState(false);
-//     const [message, setErrorMessage] = useState(null);
-
-//     handleChange = (e) => {
-//         this.setState({[e.target.id]: e.target.value})
-//     }
-// }
-
 class Login extends Component {
 
     constructor(props){

@@ -69,6 +69,11 @@ class TopNav extends Component {
         return this.props.userId !== null && this.props.userId !== 0;
     }
 
+    signOutClicked = () => {
+        this.props.signOut();
+        this.props.history.push('/home');
+    }
+
     getLastNavItem() {
         if (!this.userIsLoggedIn()) {
             return <span className='navbar-item has-text-grey-dark is-hoverable' onClick={() => this.logInClick(false)}>Log In</span>
@@ -79,7 +84,7 @@ class TopNav extends Component {
                     <div className="navbar-dropdown">
                         {this.getQuizResultsDropdown()}
                         <span className="navbar-item">
-                            <div onClick={this.props.signOut}>Log Out</div>
+                            <div onClick={this.signOutClicked}>Log Out</div>
                         </span>
                     </div>
                 </div>
@@ -106,8 +111,6 @@ class TopNav extends Component {
             return null;
         }
     }
-
-
 
     render() {
         return (
@@ -253,7 +256,7 @@ class TopNav extends Component {
                             <div className="dropdown-content">
                                 <div className="dropdown-item is-capitalized">
                                     {this.getQuizResultsDropdownMobile()}
-                                    <div className="mobile-dropdown-item has-text-grey" onClick={this.props.signOut}>Log Out</div>
+                                    <div className="mobile-dropdown-item has-text-grey" onClick={this.signOutClicked}>Log Out</div>
                                 </div>
                             </div>
                         </div>

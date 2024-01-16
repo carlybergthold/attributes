@@ -108,7 +108,6 @@ class AppViews extends Component {
 
   getUserQuiz = (userIdPassedIn) => {
     let userId = userIdPassedIn ? userIdPassedIn : this.state.userId;
-console.log(userId, userIdPassedIn, this.state.userId)
     userMethods.getUserQuiz(userId).then(response => {
       this.setState({ userQuiz: response});
 
@@ -121,7 +120,7 @@ console.log(userId, userIdPassedIn, this.state.userId)
     userMethods.signOut().then(() => {
       localStorage.removeItem('userId');
       localStorage.removeItem('userQuiz');
-      this.setState({ userId: null })
+      this.setState({ userId: null, userQuiz: null })
     });
   }
 
