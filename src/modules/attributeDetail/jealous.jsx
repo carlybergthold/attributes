@@ -17,7 +17,7 @@ class Jealous extends Component {
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("jealous")}}>Jealous means to eagerly desire the best for our own and thus not tolerate rivals.
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">We want what is good for those we care for - and we expect those who care for us to want and do good for us as well.  84% of Americans surveyed in a 2013 Pew Research Center study believed cheating on one’s spouse was morally unacceptable.  At least 60% of respondents viewed infidelity as wrong in 38 of 39 nations polled (only exception: France). </p>
+                  <p className="is-size-6 leading-normal padded">We want what is good for those we care for - and we expect those who care for us to want and do good for us as well.  84% of Americans surveyed in a 2013 Pew Research Center study believed cheating on one’s spouse was morally unacceptable (and a 2021 Gallup poll has shown this has been increasing and is now 91%).  At least 60% of respondents viewed infidelity as wrong in 38 of 39 nations polled (only exception: France). </p>
                   <p className="is-size-6 leading-normal padded">My biggest fears show what I value the most.  Fear is often about potential loss and I work hard to avoid losing what I value most.  When others take away what I value, it seems like punishment, for which I may blame God.  But when I sense God’s jealous love for me, I realize the high value He has for me and that every action He takes is for my good.</p>
               </section>
             }
@@ -102,7 +102,7 @@ class Jealous extends Component {
                   <p className="is-size-6 leading-normal padded">"Let love be genuine. Abhor what is evil; hold fast to what is good." - Romans 12:9</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("jealous")}}>How does jealousy connect the Jewish and Christian religions?</h1>

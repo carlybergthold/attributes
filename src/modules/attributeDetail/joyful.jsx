@@ -99,7 +99,7 @@ class Joyful extends Component {
                   <p className="is-size-6 leading-normal padded">“Beauty is in the eye of the beholder” - Margaret Wolfe Hungerford, 1878</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("joyful")}}>How did Aristotle define happiness?</h1>

@@ -37,7 +37,7 @@ class Merciful extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("merciful")}}>I need mercy, but probably don’t deserve it.</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">No one deserves mercy, especially God’s mercy.  But conviction of wrong-doing and a sense that mercy is needed are the critical first two steps to receiving mercy.  The next step is asking for it - but it may or may not come, depending upon the one in position to grant the mercy.</p>
+                  <p className="is-size-6 leading-normal padded">No one deserves mercy, especially God’s mercy.  But conviction of wrong-doing and a sense that mercy is needed are the critical first two steps to receiving mercy. We do not execute either of these first steps when it comes to our relationship with God - they are both products of the Holy Spirit.  Indeed, Martyn Lloyd-Jones (minister of Westminster Chapel in London for over 30 years) reflected on this, saying "You will never make yourself feel that you are a sinner, because there is a mechanism in you as a result of sin that will always be defending you against every accusation."  The next step to receiving mercy stems from the first two - we ask for it. With humans, mercy may or may not come, depending upon the one in position to grant the mercy. With God, He always desires to grant mercy to those who ask of Him,</p>
                   <br></br>
                   <Quote scripture="For he says to Moses, 'I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.' So then it depends not on human will or exertion, but on God, who has mercy." reference="Romans 9:15-16" color="var(--teal)"/>               
               </section>
@@ -99,7 +99,7 @@ class Merciful extends Component {
                   <p className="is-size-6 leading-normal padded">Research shows that when we see others being harmed, our brains react in similar ways as if we were being harmed....These events also stimulate us to think of our own experiences of pain or trauma; in other words, our 'autobiographical memory'. We remember the times when we were in danger or in pain and our brain, in a sense, reaches out and imagines how the actual victims are thinking and feeling. - Psychology Today Mar 2011 (God's wisdom shining though a secular source)</p>                
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("merciful")}}>How did David go from adultery and murder to being known as  the "father" of Jesus?</h1>

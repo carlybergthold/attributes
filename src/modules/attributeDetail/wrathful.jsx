@@ -101,7 +101,7 @@ class Wrathful extends Component {
                   <p className="is-size-6 leading-normal padded">“Anger gets a bad rap partly because it is often erroneously associated with violence, experts note….But a number of studies show that in the places where anger is usually played out--especially on the domestic front--it is often beneficial….angry episodes helped strengthen relationships about half the time…. Several factors can make the difference between constructive and destructive anger, say psychologists who study and treat everyday anger. For one, constructive anger expression usually involves both people, not just the angry party. In the best-case scenario, the angry person expresses his or her anger to the target, and the target hears the person and reacts appropriately… Relatedly, anger can be constructive when people frame it in terms of solving a mutual problem rather than as a chance to vent their feelings.” - Mar’03 APA article “When Anger’s A Plus” (God's wisdom shining though a secular source)</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("wrathful")}}>How is wrath delegated to governments?</h1>

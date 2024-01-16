@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { scrollIntoView } from "seamless-scroll-polyfill";
 
 export default function GroupingDetail(props) {
+    useEffect(() => {
+        scroll();
+    });
+
+    const cardClicked = (attribute) => {
+        scroll();
+        updateAttribute(attribute);
+    }
+
     const updateAttribute = (attribute) => {
         props.changeGrouping(3);
         props.changeAttribute(attribute);
+    }
+
+    const scroll = () => {
+        scrollIntoView(document.querySelector(".personality-quiz-section"), { behavior: "smooth", block: "start" } );
     }
 
     return(
@@ -15,7 +29,7 @@ export default function GroupingDetail(props) {
                     <div
                         key={group.name}
                         className="card connector-card is-hoverable"
-                        onClick={() => updateAttribute(group)}
+                        onClick={() => cardClicked(group)}
                     >
                         <div className="card-content">
                             <div className="content">

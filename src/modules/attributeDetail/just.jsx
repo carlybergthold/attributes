@@ -99,7 +99,7 @@ class Just extends Component {
                   <p className="is-size-6 leading-normal padded">So has it collectively evolved to this point or is it God's image coming through each of us? I choose to trust a tested, centuries-old document that reasonably explains why I and others (in widely different cultures) respond to life the way we do. These ideals just seem more an inspiration of God than simply being the result of rewards and punishments.</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                 <section>
                   <h1 className="title added" style={{color: styleMethods.getAttributeColor("just")}}>Is the #MeToo movement Biblical?</h1>

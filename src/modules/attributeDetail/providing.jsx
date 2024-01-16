@@ -114,7 +114,7 @@ to give them their food in due season...When you give it to them, they gather it
    P - Plan: Use God's Word as a guide.  And finally, make a call.  The Holy Spirit is waiting to help you!</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("providing")}}>Does God help those who help themselves?</h1>

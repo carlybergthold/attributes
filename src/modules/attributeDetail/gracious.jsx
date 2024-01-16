@@ -99,7 +99,7 @@ class Gracious extends Component {
                   <p className="is-size-6 leading-normal padded">Compared to eternity, my current life has the brevity of a grace note.  It is nonessential to God's existence, but God as composer purposefully wrote it in.  In doing so, God graciously displays the tenuous life I live when apart from Him.  My life can’t and won’t last forever, but it is the perfect arrangement to bring Him glory in the long run.</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("gracious")}}>Corrie ten Boom was part of a gracious Dutch family.</h1>

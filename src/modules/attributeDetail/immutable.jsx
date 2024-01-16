@@ -49,7 +49,7 @@ class Immutable extends Component {
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("immutable")}}>How can I keep what I already have?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">We do expend great effort and cost simply to maintain what we have.  55% of car owners who purchased an extended warranty hadn't used it for repairs during the lifetime of the policy, even though the median price paid for the coverage was over $1,200. And, on average, those who did use it spent hundreds more for the coverage than they saved in repair costs (2013 Consumer Reports research).  Sometimes letting go of a good now will be better for me in the long run.  I can miss what is best by clinging to what is average.   God offers me what is best and most lasting - Himself.</p>
+                  <p className="is-size-6 leading-normal padded">We do expend great effort and cost simply to maintain what we have.  73% of car owners who purchased an extended warranty hadn't used it for repairs during the lifetime of the policy, even though the average price paid for the coverage was $1,000 per year of coverage. And, on average, those who did use it spent hundreds more for the coverage than they saved in repair costs (Sept 2023 Consumer Affairs research).  Sometimes letting go of a good now will be better for me in the long run.  I can miss what is best by clinging to what is average.   God offers me what is best and most lasting - Himself.</p>
                   <br></br>
                   <Quote scripture="And he (Jesus) said to all, If anyone would come after me, let him deny himself and take up his cross daily and follow me. For whoever would save his life will lose it, but whoever loses his life for my sake will save it. For what does it profit a man if he gains the whole world and loses or forfeits himself?" reference="Luke 9:23-25" color="var(--teal)"/>
               </section>
@@ -100,7 +100,7 @@ class Immutable extends Component {
                   <p className="is-size-6 leading-normal padded">Even the sun coming up in the morning changes - and not just from Daylight Savings time!  Both the earth's and the sun's rotations are slowing over time.  The sun will eventually go out and the earth will stop spinning, but it is not expected soon.  The actual length of earth days are being extended about 2.3 milliseconds (added to the nominal 24 hour day) every 100 years.</p>                
               </section>
             }
-            history={
+            attHistory={
               <section>
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("immutable")}}>History proves our mutability in that we are constantly changing.</h1>

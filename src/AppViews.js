@@ -50,6 +50,7 @@ import wrathful from './modules/attributeDetail/wrathful'
 import Movies from './components/connectors/movies';
 import userMethods from './methods/supabaseMethods';
 import testArray from './data/testArray.js';
+import Politics from './components/connectors/politics'
 
 class AppViews extends Component {
   state = {

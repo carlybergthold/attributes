@@ -57,7 +57,7 @@ class Incomprehensible extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("incomprehensible")}}>Only God is incomprehensible.</h1></section>
                   <p className="is-size-6 leading-normal padded">I will never fully understand this infinite being.  So how do I know Him to any extent?  I know only what He has revealed to me. </p>
-                  <p className="is-size-6 leading-normal padded">In just the last 5 years (2012-2017) Americans who view themselves as religious has plummeted from 65% to 54%.  Self-describing as "religious" appears to be heading to a minority view.  Being spiritual, however, has held strong during this same time, with far more (75%) adherents. This trend is even more apparent in millennials.  Why?  Speculation is that "being spiritual, yet not religious" stems from a consumeristic attitude toward religion ("I pick and choose parts I want and make something unique that is just right for me") on one end, and on the other end a numbness from too many religious choices ("I see all the world's religions and can't or don't want to choose - so I will simply believe there is more that what I can see in this life"). - Pew Research data </p>
+                  <p className="is-size-6 leading-normal padded">In just 10 years Americans who view themselves as religious has plummeted from 77% to 65%.  Being spiritual, however, has held strong during this same time, with over 70% adherents. This trend is even more apparent in millennials.  Why?  Speculation is that "being spiritual, yet not religious" stems from a consumeristic attitude toward religion ("I pick and choose parts I want and make something unique that is just right for me") on one end, and on the other end a numbness from too many religious choices ("I see all the world's religions and can't or don't want to choose - so I will simply believe there is more that what I can see in this life"). - 2023 Pew Research data </p>
                   <br></br>
                   <Quote scripture="Man in his pomp yet without understanding is like the beasts that perish." reference="Psalm 49:20" color="var(--teal)"/>               
               </section>
@@ -102,7 +102,7 @@ class Incomprehensible extends Component {
                   <Quote scripture="For his invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world, in the things that have been made. (So they are without excuse.)" reference="Romans 1:20" color="var(--teal)"/>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("incomprehensible")}}>The historical Biblical death and resurrection of Jesus reveal a mystery.</h1>

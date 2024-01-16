@@ -75,13 +75,11 @@ class Creative extends Component {
               <p className="is-size-6 leading-normal padded">The discovery of cosmic microwave background radiation (CMB) in 1941 constitutes a major development in modern physical cosmology….. In 1964, US physicist Arno Penzias and radio-astronomer Robert Woodrow Wilson rediscovered the CMB…. and new measurements were accepted as important evidence for a hot early Universe (Big Bang theory) and as evidence against the rival steady state theory.[4] In 1978, Penzias and Wilson were awarded the Nobel Prize for Physics for their joint measurement.</p>
               <p className="is-size-6 leading-normal padded">Evolutionary Beliefs and Creation (2/6/19 article from Pew Research): Roughly 1/3 of US adults believe humans have always existed in their current form (i.e. consistent with Biblical conservative creation account). Another 1/3 believe humans evolved over time, but that this process was guided by God or a higher power (i.e. consistent with a more liberal Biblical account or intelligent design theory). And 1/3 believe in evolution with no higher power role.</p></section>}
 
-            history={<section><section>
+            attHistory={<section><section>
               <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("creative")}}>Have we created life on our own yet?</h1>
               </section>
               <p className="is-size-6 leading-normal padded">Recent scientific advancement has created headlines like "Can We Create Life From Scratch?". The answer is no, at least for now. A "synthetic bacteria" was created in 2010 (by Venter), but that was introducing a synthetic DNA into an already living cell, and this cell was then able to replicate. But making the cell winds up being the hardest part.</p>
               <p className="is-size-6 leading-normal padded">If this is ever done, it would be difficult to prove that God was not behind it.  After all, He is the author and sustainer of life, with physical life only being the lesser part of the story.  Spiritual life creation is much more important!</p>
-
-              {/* <Grid /> */}
               </section>}
 
             liturgy={<section>            <section>

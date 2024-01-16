@@ -17,7 +17,7 @@ class Holy extends Component {
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("holy")}}>Holy means to be made worthy and separated from sin.
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">We want to be found worthy in our relationships - as children, spouses/partners, friends and employees - worthy of acceptance, love and reward.  Most of us also seek to be worthy of God. 63% of adults believe in God and are absolutely certain of His existence.  26% more believe in God with some doubts.  Only 11% say they either don't believe in God or don't know. 72% believe in heaven (where "good" people are eternally rewarded) and 58% in hell (where people who led "bad" lives and die without being sorry are eternally punished). - 2014 Pew Research Center Religious Landscape Study</p>
+                  <p className="is-size-6 leading-normal padded">We want to be found worthy in our relationships - as children, spouses/partners, friends and employees - worthy of acceptance, love and reward.  Most of us also seek to be worthy of God. 63% of adults believe in God and are absolutely certain of His existence.  26% more believe in God with some doubts.  Only 11% say they either don't believe in God or don't know. 73% believe in heaven (where "good" people are eternally rewarded) and 62% in hell (where people who led "bad" lives and die without being sorry are eternally punished). - 2014 and 2021 Pew Research Center Religious Landscape Study</p>
                   <p className="is-size-6 leading-normal padded">If I do believe in a holy God, acting contrary to this God can give me feelings of guilt. This could crush me with a sense of unworthiness.  But, more likely, I will look around and compare my actions to those around me. As long as I am “better than most” (especially if I get to pick the criteria) God should let me into the “good” place when I die.</p>
               </section>
             }
@@ -99,7 +99,7 @@ class Holy extends Component {
                   <p className="is-size-6 leading-normal padded">“Healthy life expectancy (HALE) is a form of health expectancy that applies disability weights to health states to compute the equivalent number of years of good health that a newborn can expect.  Overall, global HALE at birth in 2015 for males and females combined was 63.1 years, 8.3 years lower than total life expectancy at birth. In other words, poor health resulted in a loss of nearly 8 years of healthy life, on average globally. Global HALE at birth for females was only 3 years greater than that for males. In comparison, female life expectancy at birth was almost 5 years higher than that for males.” - World Health Organization</p>                
               </section>
             }
-            history={
+            attHistory={
               <section>
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("holy")}}>The Jewish nation of Israel was created by God in order to receive God's word, be separate from those around it, and represent God to the world. </h1>

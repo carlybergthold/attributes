@@ -18,7 +18,7 @@ class Loving extends Component {
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>Loving means to willingly self-sacrifice for the good of another without it being deserved or requiring reciprocation.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">This definition from Paul Tripp reflects Biblical love, which is quite different from how love is normally defined in American culture.  This sacrificial love is most often found within a family in which the love relationship overrules all else. </p>
-                  <p className="is-size-6 leading-normal padded">There are 40.4 million unpaid caregivers of adults ages 65 and older in the United States. These older adults are often parents or grandparents of the caregivers, who themselves are often balancing paid employment with this work of the heart. Among those who have helped their parents with finances, errands, housework, home repairs or personal care, 88% say it’s rewarding (Bureau of Labor Statistics and Pew Research Center data from 2013-14).</p>
+                  <p className="is-size-6 leading-normal padded">There are 41.8 million unpaid caregivers of adults ages 65 and older in the United States. These older adults are often parents or grandparents of the caregivers, who themselves are often balancing paid employment with this work of the heart. Among those who have helped their parents with finances, errands, housework, home repairs or personal care, 88% say it’s rewarding (Bureau of Labor Statistics from 2020 and Pew Research Center data from 2013-14).</p>
                   <p className="is-size-6 leading-normal padded">“To be loved but not known is comforting but superficial. To be known and not loved is our greatest fear. But to be fully known and truly loved is, well, a lot like being loved by God. It is what we need more than anything. It liberates us from pretense, humbles us out of our self-righteousness, and fortifies us for any difficulty life can throw at us.” - Tim Keller</p>
                   <p className="is-size-6 leading-normal padded">Keller's quote not only points out my greatest fear, but also explains why my shame can hurt so much.  I know my flaws well and am afraid the shame of uncovering them could drive others away.  But the quote also points to the solution - when I feel unconditionally loved, it frees me to love others.</p>
               </section>
@@ -107,7 +107,7 @@ It's easy"
                   <p className="is-size-6 leading-normal padded">Altruism or selflessness is the principle or practice of concern for the welfare of others. Evolutionists debate whether or not humans are truly capable of psychological altruism. Daniel Batson is a strong proponent that people often help others purely out of the goodness of their hearts - identifying four major motives for altruism: altruism to ultimately benefit the self (egoism), to ultimately benefit the other person (altruism), to benefit a group (collectivism), or to uphold a moral principle (principlism). - Wikipedia</p>              
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>Arranged marriage versus marriage for love?</h1>

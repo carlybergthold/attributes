@@ -99,7 +99,7 @@ class Omniscient extends Component {
                   <p className="is-size-6 leading-normal padded">“The human brain may be able to hold as much information in its memory as is contained on the entire Internet, new research suggests. Researchers discovered that, unlike a classical computer that codes information as 0s and 1s, a brain cell uses 26 different ways to code its ‘bits.’ They calculated that the brain could store 1 petabyte (or a quadrillion bytes) of information. What's more, the human brain can store this mind-boggling amount of information while sipping just enough power to run a dim light bulb.  By contrast, a computer with the same memory and processing power would require 1 gigawatt of power, or basically a whole nuclear power station…” - livescience’.com 2/18/16 article</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("omniscient")}}>The right hand often does not know the left. </h1>

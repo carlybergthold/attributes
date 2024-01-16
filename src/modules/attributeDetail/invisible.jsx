@@ -17,7 +17,7 @@ class Invisible extends Component {
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("invisible")}}>Invisible means to exist beyond our current senses.
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">Each of our senses have design limitations, making many realities unheard, untouched and unseen.   However, with ingenuity we have begun to measure and then even manipulate these invisible objects, such as the data waves constantly hitting my I-phone.  Others are a bit more fuzzy -  that periodic gut feeling I have, or who I really am but don’t realize right now. Another term to describe invisible might be spiritual (75% of Americans want to be “spiritual” - Pew Research).</p>
+                  <p className="is-size-6 leading-normal padded">Each of our senses have design limitations, making many realities unheard, untouched and unseen.   However, with ingenuity we have begun to measure and then even manipulate these invisible objects, such as the data waves constantly hitting my I-phone.  Others are a bit more fuzzy -  that periodic gut feeling I have, or who I really am but don’t realize right now. Another term to describe invisible might be spiritual (70% of Americans consider themselves to be “spiritual” and 81% say there is something spiritual beyond the natural world, even if we cannot see it - 2023 Pew Research).</p>
                   <p className="is-size-6 leading-normal padded">My fears often stem from what I cannot see - what I imagine or from what is unknown to me.  Whether the basis for these fears is real or not makes the impact on my life no less real or substantial.  Praying to a God I cannot physically sense certainly takes faith.  Worshipping an invisible God in a time of urgent distress with no relief in sight would seem nearly crazy - but can be more helpful than I can imagine.</p>
               </section>
             }
@@ -101,7 +101,7 @@ class Invisible extends Component {
                   <p className="is-size-6 leading-normal padded">We can now see individual molecules with a microscope, other galaxies with a telescope, and inside our bodies with MRIs and ultrasounds. We can detect levels of radiation and listen to and even watch different signals that race through space invisibly if we simply have the right sensor to capture them.  <br></br>None of these "mystical" capabilities were present just a few centuries ago.  Although there are many tangible evidences of God, He and His Kingdom are still largely invisible to us. However, that does not mean they are not real. The Holy Spirit and time will reveal more and more of God and His Kingdom.</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("invisible")}}>God is revealing who He is and who we are over history.</h1>

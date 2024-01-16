@@ -120,7 +120,7 @@ class Patient extends Component {
                   <p className="is-size-6 leading-normal padded">In a 2015 American study, researchers offered students compensation for their time. Individuals could immediately receive a cheque for a small sum or wait two weeks for a larger payout. Almost 57 per cent of those who opted for the former took more than two weeks to cash their cheques." - 12/2/16 article in Reader’s Digest</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>How were George Washington and Jesus both patient and humble?</h1>

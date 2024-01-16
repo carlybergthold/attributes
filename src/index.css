@@ -200,3 +200,7 @@ Link {
 .justify-content-center {
   justify-content: center;
 }
+
+.media-content {
+  overflow: visible !important;
+}

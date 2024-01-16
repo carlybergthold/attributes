@@ -102,7 +102,7 @@ class Unique extends Component {
                   <p className="is-size-6 leading-normal padded">Biometrics uses individual physical and behavioral identifiers unique to each person.  We are all familiar with fingerprint and facial recognition, both used to help ID the owner of a cell phone. But less familiar are retinal or iris scanning, hand geometry, palm vein or ear recognition.  Others include voice and signature recognition and, of course, DNA sequencing.  Each person has 3 billion DNA letters and researchers have found 88 million can vary between individuals. Much work is also being invested in behavioral identifiers, such as typing and walking patterns.  And because the need to identify is great with computers, even how a person navigates or engages specific technology has been found to be unique. </p>              
               </section>
             }
-            history={
+            attHistory={
               <section>
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("unique")}}>When and where were you born?</h1>

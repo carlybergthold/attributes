@@ -6,6 +6,12 @@ export default function Group(props) {
         props.changeConnector(connectorId);
     }
 
+    const getImage = (image) => {
+        return image != null
+            ? <img src={image} alt={image} className={`media-image ${props.connector}`}></img>
+            : null;
+    }
+
     return(
         <div className="connector-container">
         {
@@ -21,7 +27,7 @@ export default function Group(props) {
                                 <p className="title is-4">{x.name}</p>
                             </div>
                         </div>
-                        <img src={x.image} alt={x.name} className={`media-image ${props.connector}`}></img>
+                        {getImage(x.image)}
                     </div>
                 </div>
             )
