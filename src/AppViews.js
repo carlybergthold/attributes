@@ -160,6 +160,7 @@ class AppViews extends Component {
       <Route exact path="/struggle" render={(props) => (<Struggle /> )} />
       <Route exact path="/basicneeds" render={(props) => (<BasicNeeds /> )} />
       <Route exact path="/movies" render={(props) => (<Movies /> )} />
+      <Route exact path="/politics" render={(props) => (<Politics /> )} />      
       <Route exact path="/attributes/creative" component={Creative}  />
       <Route exact path="/attributes/eternal" component={eternal}  />
       <Route exact path="/attributes/faithful" component={faithful}  />
