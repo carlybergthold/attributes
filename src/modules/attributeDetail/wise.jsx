@@ -103,7 +103,7 @@ class Wise extends Component {
                   <p className="is-size-6 leading-normal padded">“It was only during the nineteenth century that science began to have any practical applications… Before then, the only reason to study science was curiosity or religious piety. Christians believed that God created the universe and ordained the laws of nature. To study the natural world was to admire the work of God….It was faith that led Copernicus to reject the ugly Ptolemaic universe; that drove Johannes Kepler to discover the constitution of the solar system; and that convinced James Clerk Maxwell he could reduce electromagnetism to a set of equations so elegant they take the breathe away…. It was only during the ‘enlightenment’ that the idea took root that Christianity had been a serious impediment to science. Voltaire and his fellow philosophies opposed the Catholic Church because of its close association with France’s absolute monarchy. Accusing clerics of holding back scientific development was a safe way to make a political point.” - Thoughts from The Genesis of Science: How the Christian Middle Ages Launched the Scientific Revolution by James Hannam</p>                
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("wise")}}>Does more knowledge lead to more wisdom?</h1>

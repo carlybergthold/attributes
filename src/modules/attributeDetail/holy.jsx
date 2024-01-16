@@ -99,7 +99,7 @@ class Holy extends Component {
                   <p className="is-size-6 leading-normal padded">“Healthy life expectancy (HALE) is a form of health expectancy that applies disability weights to health states to compute the equivalent number of years of good health that a newborn can expect.  Overall, global HALE at birth in 2015 for males and females combined was 63.1 years, 8.3 years lower than total life expectancy at birth. In other words, poor health resulted in a loss of nearly 8 years of healthy life, on average globally. Global HALE at birth for females was only 3 years greater than that for males. In comparison, female life expectancy at birth was almost 5 years higher than that for males.” - World Health Organization</p>                
               </section>
             }
-            history={
+            attHistory={
               <section>
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("holy")}}>The Jewish nation of Israel was created by God in order to receive God's word, be separate from those around it, and represent God to the world. </h1>

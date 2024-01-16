@@ -104,7 +104,7 @@ class Faithful extends Component {
                   <p className="is-size-6 leading-normal padded">“…he makes his wind blow and the waters flow.” - Psalm 147:18b</p>                
               </section>
             }
-            history={
+            attHistory={
               <section>
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("faithful")}}>The 2000-year global growth of Christianity</h1>

@@ -109,7 +109,7 @@ class Eternal extends Component {
               </section>
 
             }
-            history={
+            attattHistory={
               <section>
               <section>
               <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("eternal")}}>Is the fountain of youth real?</h1>

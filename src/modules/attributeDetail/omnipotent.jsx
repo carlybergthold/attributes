@@ -102,7 +102,7 @@ class Omnipotent extends Component {
                   <p className="is-size-6 leading-normal padded">"For his invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world, in the things that have been made. So they are without excuse." - Romans 1:20</p>              
               </section>
             }
-            history={
+            attHistory={
               <section>
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("omnipotent")}}>Why do we celebrate Easter?</h1>

@@ -97,7 +97,7 @@ class Humble extends Component {
                   <p className="is-size-6 leading-normal padded">But humble individuals are also oriented towards others, they value the welfare of other people and have the ability to ‘forget themselves’ as well, when appropriate. Interestingly, the empirical research on humility shows that this trait has great value. Humility has been linked with better academic performance, job performance, and excellence in leadership. Humble people have better social relationships, avoid deception in their social interactions, and they tend to be forgiving, grateful, and cooperative. A recent set of studies also shows that humility is a consistent predictor of generosity…. with both their time and their money.” - Psychology Today, 6/27/12 article by Michael W. Austin Ph.D. (God's wisdom shining though a secular source)</p>                
               </section>
             }
-            history={
+            attHistory={
               <section>
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("humble")}}>Abraham Lincoln, often considered one of the greatest American presidents, was also one of the most humble.</h1>

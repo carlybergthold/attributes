@@ -105,7 +105,7 @@ class Sovereign extends Component {
                   <p className="is-size-6 leading-normal padded">A free market economy has nurtured this desire for personal sovereignty quite well.  In the last 20 years, the number of items found at a typical grocery store has grown from 7000 to 40-50,000.  Want coffee?  From basically two different beans (arabica or robusta), we need to choose from beans, ground or instant - then decaf, flavored, and type of roast - grown in what part of the world - organic, fair trade, or rainforest alliance certified?  Not to mention brand.  And then there's the milk that you can choose to add (or not) - cream, whole, 2%, skim, coconut, almond, soy, oat, rice, hemp, cashew.....</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title added" style={{color: styleMethods.getAttributeColor("sovereign")}}>What has long been considered the key to all power and control?</h1>

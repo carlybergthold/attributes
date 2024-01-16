@@ -101,7 +101,7 @@ class Omnipresent extends Component {
                   <p className="is-size-6 leading-normal padded">“About 80 years ago, scientists discovered that it is possible to be in two locations at the same time—at least for an atom or a subatomic particle, such as an electron. For such tiny objects, the world is governed by a madhouse set of physical laws known as quantum mechanics. At that size range, every bit of matter and energy exists in a state of blurry flux, allowing it to occupy not just two locations but an infinite number of them simultaneously.” - Discover magazine, June 2005</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("omnipresent")}}>How has God revealed His Presence throughout history?</h1>

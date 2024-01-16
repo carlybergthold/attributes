@@ -111,7 +111,7 @@ class Truthful extends Component {
                   <p className="is-size-6 leading-normal padded">31% of people globally consider themselves to be Christian, making it the largest religion in the world.  The next largest group is Muslim at 23%. - Pew Research</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("truthful")}}>Should a doctor tell a patient the truth of a fatal prognosis?</h1>

@@ -55,6 +55,7 @@ class AttributeSidebar extends Component {
             <li onClick={this.handleClickMobile}><a href="#soWhatMobile">So What?</a></li>
             <li onClick={this.handleClickMobile}><a href="#prayerMobile">Prayer</a></li>
             <li onClick={this.handleClickMobile}><a href="#scienceAndHealthMobile">Science and Health</a></li>
+            <li onClick={this.handleClickMobile}><a href="#historyMobile">History</a></li>
             <li onClick={this.handleClickMobile}><a href="#liturgyMobile">Hymns and Rituals</a></li>
           </ul>
         </div>
@@ -89,6 +90,9 @@ class AttributeSidebar extends Component {
             </span>
             <span className="navbar-item" onClick={this.handleClick}>
               <a href="#scienceAndHealth">Science and Health</a>
+            </span>
+            <span className="navbar-item" onClick={this.handleClick}>
+              <a href="#history">History</a>
             </span>
             <span className="navbar-item" onClick={this.handleClick}>
               <a href="#liturgy">Hymns and Rituals</a>

@@ -101,7 +101,7 @@ class Planning extends Component {
                   <p className="is-size-6 leading-normal padded">People with a strong sense of purpose were 63% less likely to have sleep apnea and 52% less likely to have restless leg syndrome - "Sleep Science and Practice"</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("planning")}}>Why Jesus came at the perfect time in history?</h1>
