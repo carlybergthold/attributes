@@ -100,7 +100,7 @@ class Good extends Component {
                   <p className="is-size-6 leading-normal padded">‘The placebo effect is more than positive thinking — believing a treatment or procedure will work. It's about creating a stronger connection between the brain and body and how they work together’….they have been shown to be most effective for conditions like pain management, stress-related insomnia, and cancer treatment side effects like fatigue and nausea.” - “The power of the placebo effect” from Harvard Health on 8/9/19</p>                
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("good")}}>When did Thanksgiving become an officially observed holiday?</h1>

@@ -102,7 +102,7 @@ class Jealous extends Component {
                   <p className="is-size-6 leading-normal padded">"Let love be genuine. Abhor what is evil; hold fast to what is good." - Romans 12:9</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("jealous")}}>How does jealousy connect the Jewish and Christian religions?</h1>

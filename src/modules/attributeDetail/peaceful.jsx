@@ -113,7 +113,7 @@ class Peaceful extends Component {
                   <p className="is-size-6 leading-normal padded">"Therefore I tell you, do not be anxious about your life, what you will eat or what you will drink, nor about your body, what you will put on. Is not life more than food, and the body more than clothing?"" - Matthew 6:25</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("peaceful")}}>Has the world ever seen true peace?</h1>

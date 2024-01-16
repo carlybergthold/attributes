@@ -100,7 +100,7 @@ class Immutable extends Component {
                   <p className="is-size-6 leading-normal padded">Even the sun coming up in the morning changes - and not just from Daylight Savings time!  Both the earth's and the sun's rotations are slowing over time.  The sun will eventually go out and the earth will stop spinning, but it is not expected soon.  The actual length of earth days are being extended about 2.3 milliseconds (added to the nominal 24 hour day) every 100 years.</p>                
               </section>
             }
-            history={
+            attHistory={
               <section>
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("immutable")}}>History proves our mutability in that we are constantly changing.</h1>

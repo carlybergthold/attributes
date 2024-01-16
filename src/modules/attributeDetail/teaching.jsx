@@ -107,7 +107,7 @@ class Teaching extends Component {
                   5. Engaging students in learning (tie)<br></br>    - Through His Spirit, Jesus individually and uniquely teaches each of us through all we encounter in life </p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("teaching")}}>Does Christianity really support learning?</h1>

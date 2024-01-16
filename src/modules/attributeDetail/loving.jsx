@@ -107,7 +107,7 @@ It's easy"
                   <p className="is-size-6 leading-normal padded">Altruism or selflessness is the principle or practice of concern for the welfare of others. Evolutionists debate whether or not humans are truly capable of psychological altruism. Daniel Batson is a strong proponent that people often help others purely out of the goodness of their hearts - identifying four major motives for altruism: altruism to ultimately benefit the self (egoism), to ultimately benefit the other person (altruism), to benefit a group (collectivism), or to uphold a moral principle (principlism). - Wikipedia</p>              
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>Arranged marriage versus marriage for love?</h1>

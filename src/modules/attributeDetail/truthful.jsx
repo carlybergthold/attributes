@@ -111,7 +111,7 @@ class Truthful extends Component {
               
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("truthful")}}>Should a doctor tell a patient the truth of a fatal prognosis?</h1>

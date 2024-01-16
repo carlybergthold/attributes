@@ -103,7 +103,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
                   <p className="is-size-6 leading-normal padded">“Scientists have engineered perhaps the whitest natural substance, using the same physics behind one ghostly white Southeast Asian beetle….A team of European scientists have essentially created the whitest paper using this physical property. … white materials should scatter light of all wavelengths equally—and the key to creating a white material is creating a rough, porous surface that light can bounce around in….The researchers were inspired by the white Cyphochilus beetle, whose scales scatter light through a complex web of a biological structure called chitin. The new material uses cellulose nanofibrils—nanometer-scale fibers of cellulose, a plant-based material similar to chitin used to make paper.” - 3/13/18 article in Gizmodo</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("glorious")}}>Did Jonathan Edwards Preach More Wrath or Beauty? </h1>

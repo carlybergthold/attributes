@@ -103,7 +103,7 @@ class Independent extends Component {
                   <p className="is-size-6 leading-normal padded">"In theology, endless mistakes result from supposing that the conditions, bounds, and limits of our own finite existence apply to God…" - J.I. Packer</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("independent")}}>The US sought independence from Britain - shouldn’t I seek independence from God? </h1>

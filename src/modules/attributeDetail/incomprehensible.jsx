@@ -102,7 +102,7 @@ class Incomprehensible extends Component {
                   <Quote scripture="For his invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world, in the things that have been made. (So they are without excuse.)" reference="Romans 1:20" color="var(--teal)"/>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("incomprehensible")}}>The historical Biblical death and resurrection of Jesus reveal a mystery.</h1>

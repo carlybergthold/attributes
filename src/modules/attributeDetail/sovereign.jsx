@@ -110,7 +110,7 @@ class Sovereign extends Component {
                   <p className="is-size-6 leading-normal padded">The good news is that no matter how overwhelmed and out of control we may feel, thankfully nothing, large or small, hinders God's control.</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                  <section>
                   <h1 className="title added" style={{color: styleMethods.getAttributeColor("sovereign")}}>What has long been considered the key to all power and control?</h1>

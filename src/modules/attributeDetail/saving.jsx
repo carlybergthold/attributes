@@ -109,7 +109,7 @@ class Saving extends Component {
                   <p className="is-size-6 leading-normal padded">Christianity’s measures of better are God in us and His attributes reflected within and through us.  Are we more truthful? More patient, humble and loving? Do we live with more peace and joy? Are we faithful to our commitments?</p>               
               </section>
             }
-            history={
+            attHistory={
               <section>
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("saving")}}>Why is Christmas celebrated on December 25?</h1>
