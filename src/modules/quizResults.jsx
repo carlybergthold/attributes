@@ -1,5 +1,5 @@
 import React  from 'react';
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { withRouter, Link } from "react-router-dom"
 import '../styles/testScores.css'
 import attArray from '../data/attributeArray'
@@ -7,31 +7,20 @@ import styleMethods from "../methods/styleMethods";
 import One from "../images/one.png";
 import Two from "../images/two.png";
 import Three from "../images/three.png";
-import userMethods from "../methods/supabaseMethods";
 import quizArray from "../data/testArray";
 
 function QuizResults(props) {
-  const [userQuiz, setUserQuiz] = useState([]);
-
   useEffect(() => {
     const userNotLoggedIn = props.userId === null || props.userId === undefined;
 
     if (userNotLoggedIn) {
       props.history.push('/home');
-    } else {
-      getUserQuiz();
     }
   });
 
-  function getUserQuiz() {
-    userMethods.getUserQuiz(props.userId).then(response => {
-      setUserQuiz(response);
-    });
-  }
-
   function getTopUserAttributes() {
-    if (userQuiz !== null && userQuiz.length > 0) {
-      userQuiz.forEach(x => {
+    if (props.userQuiz !== null && props.userQuiz.length > 0) {
+      props.userQuiz.forEach(x => {
         const match = quizArray.find(q => q.id === x.questionId);
 
         if (match) {
@@ -41,17 +30,17 @@ function QuizResults(props) {
 
       const summedValues = {};
 
-      return userQuiz
+      return props.userQuiz
         .reduce((accumulator, obj) => {
           const { attribute, questionValue } = obj;
-  
+
           if (!summedValues[attribute]) {
             summedValues[attribute] = { attribute, questionValue };
             accumulator.push(summedValues[attribute]);
           } else {
             summedValues[attribute].questionValue += questionValue;
           }
-  
+
           return accumulator;
         }, [])
         .sort((a, b) => b.questionValue - a.questionValue)
@@ -80,7 +69,7 @@ function QuizResults(props) {
   }
 
   function getResultsHtml() {
-    return userQuiz ? (
+    return props.userQuiz ? (
       <div className="columns is-vcentered">
       {
         getTopUserAttributes().map((obj, index) =>
@@ -105,7 +94,7 @@ function QuizResults(props) {
           )
       }
     </div>
-    ) : null;
+    ) : (<div>no quiz</div>);
   }
 
   return(

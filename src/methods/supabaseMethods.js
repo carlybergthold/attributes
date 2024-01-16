@@ -25,11 +25,6 @@ const userMethods = {
 
         return response.data.user;
     },
-    // async userIsSignedIn() {
-    //     const user = await this.getUser();
-
-    //     return user !== null && user.id !== 0;
-    // },
     async getUserEmail() {
         let email = null;
 
@@ -48,7 +43,11 @@ const userMethods = {
             .from('userQuiz')
             .select()
             .eq('userId', userId);
-        if (error) console.log("error", error);
+
+        if (error) {
+            console.log("error", error);
+        }
+
         return data;
     },
     async addUserQuizQuestion(userId, questionId, questionValue) {
@@ -59,8 +58,6 @@ const userMethods = {
             );
         if (error) {
             console.log("error", error);
-        } else {
-            console.log(data)
         }
     }
 }

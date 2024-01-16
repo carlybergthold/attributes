@@ -50,6 +50,10 @@ const styleMethods = {
     },
 
     getIcon: (attribute, color) => {
+        if (!attribute) {
+            return null;
+        }
+
         attribute = attribute.charAt(0).toUpperCase() + attribute.slice(1);
 
         if (attribute === "Creative") {

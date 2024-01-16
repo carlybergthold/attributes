@@ -11,12 +11,13 @@ function Quiz(props) {
   const [page, setPage] = useState(1);
   const [startingIndex, setStartingIndex] = useState(1);
   const [endingIndex, setEndingIndex] = useState(6);
-  const [indexAmount, setIndexAmount] = useState(6);
+  const [indexAmount] = useState(6);
   const [questions, setQuestions] = useState([]);
-  const [quizFinished, setQuizFinished] = useState(false);
   const [showModal, setShowModal] = useState(false);
+  const [showTakenQuiz, setShowTakenQuiz] = useState(false);
 
   useEffect(() => {
+    console.log(questionArray.length)
     if (props.userId) {
       getUserQuizQuestions();
     } else {
@@ -27,6 +28,7 @@ function Quiz(props) {
   function resetQuiz() {
     questionArray.forEach(q => q.value = 0);
     setQuestions(questionArray);
+    console.log(questions)
 
     setStartingIndex(1);
     setEndingIndex(6);
@@ -35,21 +37,20 @@ function Quiz(props) {
   }
 
   function getUserQuizQuestions() {
-    userMethods.getUserQuiz(props.userId).then(response => {
-      if (response.length > 0) {
-        response.forEach(question => {
-          const match = questionArray.find(q => q.id === question.questionId);
+    if (props.userQuiz !== null && props.userQuiz.length > 0) {
+      props.userQuiz.forEach(question => {
+        const match = questionArray.find(q => q.id === question.questionId);
 
-          if (match) {
-            match.value = question.questionValue;
-          }
-        })
-      }
+        if (match) {
+          match.value = question.questionValue;
+        }
+      })
+    }
 
-      setQuizFinished(questionArray.every(q => q.value > 0));
-      setQuestions(questionArray);
-      goToLastPageAnswered(questionArray);
-    })
+    setQuestions(questionArray);
+    console.log(questions)
+
+    goToLastPageAnswered(questionArray);
   }
 
   function goToLastPageAnswered(questions) {
@@ -78,14 +79,16 @@ function Quiz(props) {
   }
 
   function nextPageClick() {
-    if (props.user) {
+    if (props.userId) {
+      getQuestions().forEach(question => {
+        saveUserQuizQuestion(question.id, question.value);
+      });
       if (page !== getPageMax()) {
-        getQuestions().forEach(question => {
-          saveUserQuizQuestion(question.id, question.value);
-        });
         updateIndices(true);
       } else {
-        setQuizFinished(true);
+        setShowTakenQuiz(true);
+        props.getUserQuiz();
+        props.history.push('/results');
       }
     } else {
       setShowModal();
@@ -121,6 +124,8 @@ function Quiz(props) {
       ...questions,
       questions.find(q => q.id === questionId).value = value
     ])
+    console.log(questions)
+
   }
 
   function getInputs(question) {
@@ -160,14 +165,25 @@ function Quiz(props) {
   }
 
   function getPageMax() {
-    return Math.round(questionArray.length / indexAmount);
+    return Math.round(96 / indexAmount);
+  }
+
+  function editQuizClicked() {
+    setStartingIndex(1);
+    setEndingIndex(6);
+    setPage(1);
+    setShowTakenQuiz(true);
+  }
+
+  function showQuiz() {
+    return questions.length > 0 && (!props.getUserQuizFinished() || showTakenQuiz);
   }
 
   return (
     <>
     <div className='page'>
         <Hero title="Take the Quiz!" />
-        <div className={`quizPage container ${questions.length > 0 && !quizFinished ? '' : 'hidden'}`}>
+        <div className={`quizPage container ${showQuiz() ? '' : 'hidden'}`}>
           <section id="quiz-flex">
         {
           getQuestions()
@@ -198,10 +214,11 @@ function Quiz(props) {
           </section>
           </div>
         </div>
-        <div className={quizFinished ? 'quiz-taken-message' : 'hidden'}>
+        <div className={!showQuiz() ? 'quiz-taken-message' : 'hidden'}>
           <h2 className="title is-2 is-spaced primary-text">You've already finished the quiz!</h2>
           <div className="quiz-taken-buttons">
-            <div className="button"><Link to="/results">See Your Results</Link></div>
+          <div className="button"><Link to="/results">See Your Results</Link></div>
+          <div className="button is-light" onClick={editQuizClicked}>Edit Your Answers</div>
           </div>
         </div>
     </div>

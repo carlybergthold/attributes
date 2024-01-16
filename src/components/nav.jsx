@@ -77,9 +77,7 @@ class TopNav extends Component {
                 <div className="navbar-item has-dropdown is-hoverable">
                     <span className="navbar-link">My Account</span>
                     <div className="navbar-dropdown">
-                        <span className="navbar-item">
-                            <Link to="/results">Quiz Results</Link>
-                        </span>
+                        {this.getQuizResultsDropdown()}
                         <span className="navbar-item">
                             <div onClick={this.props.signOut}>Log Out</div>
                         </span>
@@ -88,6 +86,28 @@ class TopNav extends Component {
             )
         }
     }
+
+    getQuizResultsDropdown() {
+        if (this.props.getUserQuizFinished()) {
+            return <span className="navbar-item">
+                      <Link to="/results">Quiz Results</Link>
+                   </span>
+        } else {
+            return null;
+        }
+    }
+
+    getQuizResultsDropdownMobile() {
+        if (this.props.getUserQuizFinished()) {
+            return <div className="mobile-dropdown-item">
+                     <Link to="/results" className="has-text-grey">Quiz Results</Link>
+                   </div>
+        } else {
+            return null;
+        }
+    }
+
+
 
     render() {
         return (
@@ -232,8 +252,7 @@ class TopNav extends Component {
                         <div className="dropdown-menu" id="dropdown-menu4" role="menu">
                             <div className="dropdown-content">
                                 <div className="dropdown-item is-capitalized">
-                                <div className="mobile-dropdown-item">
-                                    <Link to="/results" className="has-text-grey">Quiz Results</Link></div>
+                                    {this.getQuizResultsDropdownMobile()}
                                     <div className="mobile-dropdown-item has-text-grey" onClick={this.props.signOut}>Log Out</div>
                                 </div>
                             </div>

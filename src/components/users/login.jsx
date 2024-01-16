@@ -44,6 +44,13 @@ class Login extends Component {
         }
     }
 
+    keyDown = (e) => {
+        if (e.key === "Enter") {
+            e.preventDefault();
+            this.submitForm();
+        }
+    }
+
     getFields = () => {
         return (
             <div>
@@ -64,7 +71,10 @@ class Login extends Component {
                     <div className={this.state.forgotPassword ? 'hidden' : 'field'}>
                     <label className="label">Password</label>
                         <div className="control has-icons-left has-icons-right">
-                            <input className="input" type="text" placeholder="Password" id="password" onChange={this.handleChange.bind(this)}></input>
+                            <input className="input" type="text" placeholder="Password" id="password" onChange={this.handleChange.bind(this)}
+                            onKeyDown={(e) => {
+                                this.keyDown(e)
+                            }}></input>
                             <span className="icon is-small is-left">
                             <i className="fas fa-user"></i>
                             </span>
@@ -110,8 +120,11 @@ class Login extends Component {
                                                             onClick={(e) => {
                                                             e.preventDefault()
                                                             this.submitForm();
-                                                            }
-                                                            }>{this.state.register ? 'Register' : 'Log In'}</button>
+                                                            }}
+                                                            onKeyDown={(e) => {
+                                                                this.keyDown(e)
+                                                            }}
+                                                            >{this.state.register ? 'Register' : 'Log In'}</button>
                                     </div>
                                     <div className="control">
                                         <button className="button is-light" onClick={this.closeWindow}>Cancel</button>

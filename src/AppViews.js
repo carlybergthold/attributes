@@ -49,12 +49,14 @@ import wise from './modules/attributeDetail/wise'
 import wrathful from './modules/attributeDetail/wrathful'
 import Movies from './components/connectors/movies';
 import userMethods from './methods/supabaseMethods';
+import testArray from './data/testArray.js';
 
 class AppViews extends Component {
   state = {
     showLogIn: false,
     loginMessage: null,
-    userId: localStorage.getItem('userId')
+    userId: localStorage.getItem('userId'),
+    userQuiz: JSON.parse(localStorage.getItem('userQuiz')),
   }
 
   showHideLogIn = (showLogIn) => {
@@ -98,29 +100,55 @@ class AppViews extends Component {
         localStorage.setItem('userId', response.data.user.id);
         this.setState({ userId: response.data.user.id })
         this.setState({ loginMessage: 'Successfully logged in.' });
+
+        this.getUserQuiz(response.data.user.id);
       }
+    });
+  }
+
+  getUserQuiz = (userIdPassedIn) => {
+    let userId = userIdPassedIn ? userIdPassedIn : this.state.userId;
+console.log(userId, userIdPassedIn, this.state.userId)
+    userMethods.getUserQuiz(userId).then(response => {
+      this.setState({ userQuiz: response});
+
+      let storageString = JSON.stringify(response);
+      localStorage.setItem('userQuiz', storageString);
     });
   }
 
   signOut = () => {
     userMethods.signOut().then(() => {
       localStorage.removeItem('userId');
+      localStorage.removeItem('userQuiz');
       this.setState({ userId: null })
     });
+  }
+
+  getUserQuizFinished = () => {
+    let quizFinished = false;
+
+    if (this.state.userQuiz !== null && this.state.userQuiz.length > 0) {
+      const lastQuestionId = testArray[testArray.length - 1].id;
+      quizFinished = this.state.userQuiz.some(q => q.questionId === lastQuestionId);
+    }
+
+    return quizFinished;
   }
 
   render() {
     return(
       <>
       {this.getLoginComponent()}
-      <TopNav showHideLogIn={this.showHideLogIn} userId={this.state.userId} signOut={this.signOut} />
+      <TopNav showHideLogIn={this.showHideLogIn} userId={this.state.userId} signOut={this.signOut} userQuiz={this.state.userQuiz} getUserQuizFinished={this.getUserQuizFinished} />
       <Route exact path="/" component={Home} />
       <Route exact path="/home" component={Home} />
       <Route exact path="/about" component={About} />
       <Route exact path="/quiz" render={(props) =>
-        <Quiz {...props} showHideLogIn={this.showHideLogIn} userId={this.state.userId} /> }
+        <Quiz {...props} showHideLogIn={this.showHideLogIn} userId={this.state.userId} userQuiz={this.state.userQuiz} getUserQuizFinished={this.getUserQuizFinished} setUserQuizFinished={this.setUserQuizFinished} 
+        getUserQuiz={this.getUserQuiz} /> }
       />
-      <Route exact path="/results" render={(props) => (<QuizResults {...props} userId={this.state.userId} /> )} />
+      <Route exact path="/results" render={(props) => (<QuizResults {...props} userId={this.state.userId} userQuiz={this.state.userQuiz} getUserQuizFinished={this.getUserQuizFinished} /> )} />
       <Route exact path="/personality" component={Personality}  />
       <Route exact path="/register" render={(props) => (<Register {...props} /> )} />
       <Route exact path="/login" render={(props) => (<Login {...props} /> )} />
