@@ -9,8 +9,8 @@ export default function Politics() {
         <ConnectorCard
             connector="politics"
             array={politicsArray}
-            introText="Politics is becoming one of the fastest-growing religions in America. Political angst grows as more people see their party as substituting for God (and the opposition taking the role of Satan!)."
-            introSubtitle="In reality, both Democratic and Republican platforms reflect God's image on major issues, often finding rare agreement, while sometimes both understandably missing the mark. Click on an issue and see how each party's official platform pursues the One True God:"
+            introText="Politics is becoming one of the fastest-growing religions in America. Political angst grows as more people see their party as substituting for God, with the opposition party divisively viewed as Satan!"
+            introSubtitle="In reality, both Democratic and Republican platforms not only reflect God's image on major issues, they often find agreement within the focal attribute. At other times, both parties miss the essence of the attribute. Click on an issue and see how each party's official platform pursues the One True God (positions listed at top of page are quoted from the latest party platform):"
             isPolitics={true}
         ></ConnectorCard>
     );
