@@ -11,11 +11,11 @@ class Truthful extends Component {
         return(
           <BaseAttributeDetail
             title="Truthful"
-            subtitle="To provide unobscured reality"
+            subtitle="To reveal what is real"
             definition={
               <section>
                   <section>
-                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("truthful")}}>Truthful means providing unobscured reality.
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("truthful")}}>Truthful means revealing what is real.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">We desperately want and need truth to decide and act appropriately - whether it comes from our doctor, spouse or media source.  Shades of truth, biases, misperceptions, fear, embarrassment, hidden motives and much more can obscure truth and detach us from reality. This makes truth both elusive and valuable - valuable enough to seek diligently.</p>
                   <p className="is-size-6 leading-normal padded">God is either real or not - if real, this truth will impact our lives whether we believe in Him or not.  But our best and most productive life will come only when we accept and live according to reality.</p>
