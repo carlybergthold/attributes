@@ -50,12 +50,14 @@ import wrathful from './modules/attributeDetail/wrathful'
 import Movies from './components/connectors/movies';
 import userMethods from './methods/supabaseMethods';
 import testArray from './data/testArray.js';
-import Politics from './components/connectors/politics'
+import Politics from './components/connectors/politics';
+import ResetPassword from './components/users/resetPassword.jsx';
 
 class AppViews extends Component {
   state = {
     showLogIn: false,
     loginMessage: null,
+    resetPasswordMessage: null,
     userId: localStorage.getItem('userId'),
     userQuiz: JSON.parse(localStorage.getItem('userQuiz')),
   }
@@ -78,6 +80,7 @@ class AppViews extends Component {
         addUser={this.addUser} logInUser={this.logInUser}
         setLoginMessage={this.setLoginMessage}
         message={this.state.loginMessage}
+        sendResetPasswordEmail={this.sendResetPasswordEmail}
       /> : null;
   }
 
@@ -96,7 +99,7 @@ class AppViews extends Component {
   logInUser = (email, password) => {
     userMethods.signIn(email, password).then(response => {
       if (response.error !== null) {
-        this.setState({ loginMessage: 'Please attempt to log in again.' });
+        this.setState({ loginMessage: 'Invalid email/password combination. Please try again.' });
       } else if (response.data.user !== null) {
         localStorage.setItem('userId', response.data.user.id);
         this.setState({ userId: response.data.user.id })
@@ -125,6 +128,28 @@ class AppViews extends Component {
     });
   }
 
+  sendResetPasswordEmail = (email) => {
+    userMethods.sendResetPasswordEmail(email).then(() => {
+      this.setLoginMessage('Reset email sent.');
+    });
+  }
+
+  updatePassword = (password) => {
+    userMethods.updatePassword(password).then(response => {
+      if (response.error !== null) {
+        this.setResetPasswordMessage('Password updated.');
+      } else {
+        this.setResetPasswordMessage('Something went wrong. Please try again.');
+      }
+    });
+  }
+
+  setResetPasswordMessage = (message) => {
+    this.setState({
+      resetPasswordMessage: message
+    })
+  }
+
   getUserQuizFinished = () => {
     let quizFinished = false;
 
@@ -144,6 +169,7 @@ class AppViews extends Component {
       <Route exact path="/" component={Home} />
       <Route exact path="/home" component={Home} />
       <Route exact path="/about" component={About} />
+      <Route exact path="/resetpassword" render={(props) => (<ResetPassword {...props} setResetPasswordMessage={this.setResetPasswordMessage} updatePassword={this.updatePassword} resetPasswordMessage={this.state.resetPasswordMessage} /> )} />
       <Route exact path="/quiz" render={(props) =>
         <Quiz {...props} showHideLogIn={this.showHideLogIn} userId={this.state.userId} userQuiz={this.state.userQuiz} getUserQuizFinished={this.getUserQuizFinished} setUserQuizFinished={this.setUserQuizFinished} 
         getUserQuiz={this.getUserQuiz} /> }
