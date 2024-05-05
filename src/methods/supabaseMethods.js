@@ -20,6 +20,13 @@ const userMethods = {
     async signOut() {
         return await supabase.auth.signOut();
     },
+    async sendResetPasswordEmail(email) {
+        return await supabase.auth.resetPasswordForEmail(email, {redirectTo: 'https://attributesofgod.org/resetpassword'});
+    },
+    async updatePassword(newPassword) {
+        const response = await supabase.auth.updateUser({ password: newPassword });
+        return response;
+    },
     async getUser() {
         const response = await supabase.auth.getUser();
 
