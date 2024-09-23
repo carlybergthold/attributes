@@ -15,7 +15,7 @@ class Testimonial extends Component {
                 <div className="hero-body">
                     <div className="container is-fluid">
                         <div className="has-text-centered">
-                            <img src={quotes} alt="" className="testimonial-img"></img>
+                            <img src={quotes} className="testimonial-img"></img>
                         </div>
                         <div className="has-text-centered">
                             <p className="is-size-4 has-text-white" id="quote-text">{this.props.quote}</p>

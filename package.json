@@ -9,19 +9,14 @@
     "@fortawesome/react-fontawesome": "^0.1.19",
     "@supabase/supabase-js": "^2.38.1",
     "bulma": "^0.9.4",
-    "bulma-extensions": "^6.2.7",
     "cors": "^2.8.5",
     "cors-anywhere": "^0.4.4",
-    "feather-icons": "^4.29.1",
-    "jquery": "^3.7.1",
-    "jquery-waypoints": "^2.0.5",
-    "jquery.counterup": "^2.1.0",
     "linq": "^3.2.4",
-    "node-sass": "^4.14.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-router-dom": "^5.3.4",
-    "react-scripts": "3.2.0",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.79.3",
     "scrollreveal": "^3.4.0",
     "seamless-scroll-polyfill": "^2.3.4",
     "slick-carousel": "^1.8.1",
@@ -50,7 +45,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^6.1.1"
   },
   "homepage": "http://carlybergthold.github.io"
 }

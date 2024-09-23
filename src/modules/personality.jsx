@@ -30,7 +30,7 @@ class Personality extends Component {
                                     The Enneagram describes nine types using the numbers 1-9. Link directly to an attribute of God with your number or by reading the brief descriptions first.
                                 </blockquote>
                                 <div className="author">
-                                    <img src={Face1} alt="foo"></img>
+                                    <img src={Face1}></img>
                                     <h5><Link to="/enneagram" className="link">Enneagram</Link></h5>
                                 </div>
                             </figure>
@@ -41,7 +41,7 @@ class Personality extends Component {
                                     Myers-Briggs uses a 4-letter acronym, like INFJ or ESTP, which reflects introversion or extraversion, sensing or intuition, thinking or feeling, judging or perceiving.
                                 </blockquote>
                                 <div className="author">
-                                    <img src={Face2} alt="foo"></img>
+                                    <img src={Face2}></img>
                                     <h5><Link to="/myersbriggs" className="link">Myers Briggs</Link></h5>
                                 </div>
                             </figure>
@@ -52,7 +52,7 @@ class Personality extends Component {
                                 DISC centers on four different personality traits: Dominance (D), Influence (I), Steadiness (S), and Conscientiousness (C). Pick your letter and discover God in you.
                                 </blockquote>
                                 <div className="author">
-                                    <img src={Face3} alt="foo"></img>
+                                    <img src={Face3}></img>
                                     <h5><Link to="/disc" className="link">DISC</Link></h5>
                                 </div>
                             </figure>

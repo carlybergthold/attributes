@@ -123,7 +123,7 @@ class Home extends React.Component {
                     </div>
                     <div className="column is-5 home-illustration-column">
                         <figure className="image">
-                            <img src={Thought} alt="Description" id="home-illustration"></img>
+                            <img src={Thought} alt="Thinking woman" id="home-illustration"></img>
                         </figure>
                     </div>
                 </div>
@@ -147,7 +147,7 @@ class Home extends React.Component {
                                 <h4>Fears</h4>
                             </div>
                             <div className="card-icon">
-                                <img src={FearIcon} alt="foo"></img>
+                                <img alt="fear" src={FearIcon}></img>
                             </div>
                             <div className="card-text">
                                 <p>Fear is common to all people.  And each fear points to God.</p>
@@ -163,7 +163,7 @@ class Home extends React.Component {
                                 <h4>Emotions</h4>
                             </div>
                             <div className="card-icon">
-                                <img src={EmotionIcon} alt="foo"></img>
+                                <img alt="emotion" src={EmotionIcon} ></img>
                             </div>
                             <div className="card-text">
                                 <p>No matter the emotion, it can be a path to God.</p>
@@ -179,7 +179,7 @@ class Home extends React.Component {
                                 <h4>Struggles</h4>
                             </div>
                             <div className="card-icon">
-                                <img src={StrugglesIcon} alt="foo"></img>
+                                <img alt="struggles" src={StrugglesIcon}></img>
                             </div>
                             <div className="card-text">
                                 <p>Tough day?  Each struggle can connect us with God.</p>
@@ -237,7 +237,7 @@ class Home extends React.Component {
                                     The Enneagram describes nine types using the numbers 1-9. Link directly to an attribute of God with your number or by reading the brief descriptions first.
                                 </blockquote>
                                 <div className="author">
-                                    <img src={Face1} alt="foo"></img>
+                                    <img alt="smiling person" src={Face1}></img>
                                     <h5><Link to="/enneagram" className="link">Enneagram</Link></h5>
                                 </div>
                             </figure>
@@ -248,7 +248,7 @@ class Home extends React.Component {
                                     Myers-Briggs uses a 4-letter acronym, like INFJ or ESTP, which reflects introversion or extraversion, sensing or intuition, thinking or feeling, judging or perceiving.
                                 </blockquote>
                                 <div className="author">
-                                    <img src={Face2} alt="foo"></img>
+                                    <img alt="smiling person" src={Face2}></img>
                                     <h5><Link to="/myersbriggs" className="link">Myers Briggs</Link></h5>
                                 </div>
                             </figure>
@@ -259,7 +259,7 @@ class Home extends React.Component {
                                 DISC centers on four different personality traits: Dominance (D), Influence (I), Steadiness (S), and Conscientiousness (C). Pick your letter and discover God in you.
                                 </blockquote>
                                 <div className="author">
-                                    <img src={Face3} alt="foo"></img>
+                                    <img alt="smiling person" src={Face3}></img>
                                     <h5><Link to="/disc" className="link">DISC</Link></h5>
                                 </div>
                             </figure>
