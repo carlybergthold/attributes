@@ -46,8 +46,8 @@
 
 .connector-card {
   border-radius: 10px;
-  width: 13rem;
-  height: 13rem;
+  max-width: 14rem;
+  flex-grow: 1;
 }
 
 .go-to-attribute-card {
@@ -103,6 +103,10 @@
 
 .conservative {
   border: 1px solid var(--orange);
+}
+
+.intro-description {
+  font-size: small;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { scrollIntoView } from "seamless-scroll-polyfill";
+import '../../styles/connectors.css';
 
 export default function GroupingDetail(props) {
     useEffect(() => {
@@ -34,7 +35,8 @@ export default function GroupingDetail(props) {
                         <div className="card-content">
                             <div className="content">
                                 <p className="subtitle is-6">{group.name}</p>
-                                <img className="media-image" src={props.image} alt={group.name}></img>
+                                <img className={`${props.image ? 'media-image' : 'hidden'}`} src={props.image} alt={group.name}></img>
+                                <p className="intro-description">{group.introDescription}</p>
                             </div>
                         </div>
                     </div>
