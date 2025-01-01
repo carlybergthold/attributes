@@ -13,6 +13,7 @@ import MyersBriggs from './components/personality/myersBriggs'
 import DISC from './components/personality/DISC'
 import Fear from './components/connectors/fears'
 import Emotion from './components/connectors/emotions'
+import Law from './components/connectors/law'
 import Struggle from './components/connectors/struggles'
 import BasicNeeds from './components/connectors/basicNeeds'
 import Creative from './modules/attributeDetail/creative'
@@ -157,6 +158,7 @@ class AppViews extends Component {
       <Route exact path="/disc" render={(props) => (<DISC /> )} />
       <Route exact path="/fear" render={(props) => (<Fear /> )} />
       <Route exact path="/emotion" render={(props) => (<Emotion /> )} />
+      <Route exact path="/law" render={(props) => (<Law /> )} />
       <Route exact path="/struggle" render={(props) => (<Struggle /> )} />
       <Route exact path="/basicneeds" render={(props) => (<BasicNeeds /> )} />
       <Route exact path="/movies" render={(props) => (<Movies /> )} />

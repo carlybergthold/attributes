@@ -46,8 +46,9 @@
 
 .connector-card {
   border-radius: 10px;
-  width: 13rem;
-  height: 13rem;
+  max-width: 15rem;
+  min-height: 8rem;
+  flex-grow: 1;
 }
 
 .go-to-attribute-card {

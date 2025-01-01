@@ -178,6 +178,9 @@ class TopNav extends Component {
                         </span>
                         <span className="navbar-item">
                             <Link to="/politics">By Political Issue</Link>
+                        </span>                        
+                        <span className="navbar-item">
+                            <Link to="/law">By Area of Law</Link>
                         </span>
                     </div>
                 </div>
@@ -241,6 +244,8 @@ class TopNav extends Component {
                                    <Link to="/movies" className="has-text-grey" onClick={this.exitMobileMenu}>By Your Favorite Movie</Link></div>
                                 <div className="mobile-dropdown-item">
                                    <Link to="/politics" className="has-text-grey" onClick={this.exitMobileMenu}>By Political Issue</Link></div>
+                                <div className="mobile-dropdown-item">
+                                   <Link to="/law" className="has-text-grey" onClick={this.exitMobileMenu}>By Area of Law</Link></div>
                             </div>
                         </div>
                     </div>

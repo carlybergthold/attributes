@@ -37,6 +37,11 @@ export default function ConnectorCard(props) {
                             attribute={selectedConnector.attribute}
                         />
             }
+        } else if (grouping === 3 && props.isLaw) {
+            return (<>
+                <div>{attribute.description}</div>
+            <GoToAttributeCard attribute={attribute.attributeName}></GoToAttributeCard>
+            </>)
         } else if (grouping === 3) {
             return <GoToAttributeCard attribute={attribute.attributeName}></GoToAttributeCard>;
         }
@@ -58,6 +63,8 @@ export default function ConnectorCard(props) {
                     <div className="conservative">{selectedConnector.conservativePosition}</div>
                 </div>
                 );
+        } else if (grouping === 3 && props.isLaw) {
+            return <div className="title is-4">{attribute.introDescription}</div>;
         } else if (grouping === 3) {
             return  <>
                 <div className="title is-4">{attribute.description}</div>
