@@ -36,7 +36,6 @@ export default function GroupingDetail(props) {
                             <div className="content">
                                 <p className="subtitle is-6">{group.name}</p>
                                 <img className={`${props.image ? 'media-image' : 'hidden'}`} src={props.image} alt={group.name}></img>
-                                <p className="intro-description">{group.introDescription}</p>
                             </div>
                         </div>
                     </div>

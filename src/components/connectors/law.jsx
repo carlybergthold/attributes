@@ -10,6 +10,7 @@ export default function Law() {
             array={lawArray}
             introText="Our laws today have many roots in Biblical law, whether directly from Christian influence or from our culture's collective insight of how people can live together successfully."
             introSubtitle="Pick the part of law you would like to explore:"
+            isLaw={true}
         ></ConnectorCard>
     );
 }
