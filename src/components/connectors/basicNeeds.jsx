@@ -8,7 +8,7 @@ export default function BasicNeeds() {
         <ConnectorCard
             connector="basicNeed"
             array={basicNeedsArray}
-            introSubtitle="HELLO"
+            introSubtitle="A CHANGE"
         ></ConnectorCard>
     )
 }
