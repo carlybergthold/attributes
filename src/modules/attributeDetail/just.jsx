@@ -26,7 +26,7 @@ class Just extends Component {
                 <section>
                   <h1 className="title added" style={{color: styleMethods.getAttributeColor("just")}}>So what do I do when faced with unfairness?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Indignation can motivate me to try to immediately make things right - sometimes with poor timing, methods and motivation.  David’s prayer in Psalm 17 outlines a few good things to consider when we are filled with indignation:  1) Appeal to God as the final arbiter and rest in His protection and justice, realizing that God can use evil for ultimately good purposes.  2) Thoroughly and honestly search my own actions and motives in light of God's Word. 3) Realize what is most important.  While unbelievers’ goals are normally all tied to the good in this life, believers’ end game is to become more Christlike for God’s glory and rest in His presence.</p>
+                  <p className="is-size-6 leading-normal padded">Indignation can motivate me to try to immediately make things right - sometimes with poor timing, methods and motivation.  David’s prayer in Psalm 17 outlines a few good things to consider when we are filled with indignation:  1) Appeal to God as the final arbiter and rest in His protection and justice, realizing that God can use evil for ultimately good purposes.  2) Thoroughly and honestly search my own actions and motives in light of God's Word. 3) Realize what is most important.  While unbelievers’ goals are normally all tied to the good in this life, believers’ end game is to become more Christlike for God’s glory and rest in His presence for eternity.</p>
                   <br></br>
                   <Quote scripture="Hear a just cause, O LORD; attend to my cry!  Give ear to my prayer from lips free of deceit!  From your presence let my vindication come! Let your eyes behold the right!  You have tried my heart, you have visited me by night, you have tested me, and you will find nothing; I have purposed that my mouth will not transgress.  With regard to the works of man, by the word of your lips I have avoided the ways of the violent.  My steps have held fast to your paths; my feet have not slipped. I call upon you, for you will answer me, O God; incline your ear to me; hear my words.  Wondrously show your steadfast love, O Savior of those who seek refuge from their adversaries at your right hand.  Keep me as the apple of your eye; hide me in the shadow of your wings, from the wicked who do me violence, my deadly enemies who surround me. " reference="Psalm 17:1-9" color="var(--teal)"/>                
               </section>
@@ -52,11 +52,21 @@ class Just extends Component {
                   <Quote scripture="And whenever you stand praying, forgive, if you have anything against anyone, so that your Father also who is in heaven may forgive you your trespasses." reference="Mark 11:25" color="var(--teal)"/>               
               </section>
             }
+            question={
+              <section>
+                 <section>
+                  <h1 className="title added" style={{color: styleMethods.getAttributeColor("just")}}>How important is it to seek justice in this obviously unjust world?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">Injustice is never far from us now.  We know perfect justice comes later when God consummates the age, but rather than rest on that knowledge and do nothing now, we should honor God’s image and work to actively seek justice wherever possible. This includes violations of both criminal and social justice - both rooted in the concept that all people were created, and should be treated, as equals in the sight of God.</p>
+                  <br></br>
+                  <Quote scripture="Therefore, my beloved brothers, be steadfast, immovable, always abounding in the work of the Lord, knowing that in the Lord your labor is not in vain." reference="1 Corinthians 15:58" color="var(--teal)"/>               
+              </section>
+            }
             whoAmI={
               <section>
                  <section>
                   <h1 className="title added" style={{color: styleMethods.getAttributeColor("just")}}>Only God can make all things right.</h1></section>
-                  <p className="is-size-6 leading-normal padded">I can have a part in making some things right, but I cannot make all things right about myself, let alone the world.  I can easily try to slip into God's place when I decide on my own what is just in a certain situation.</p>
+                  <p className="is-size-6 leading-normal padded">I can have a part in making some things right, but I cannot make all things right about myself, let alone the world.  I can easily try to slip into God's place when I decide on my own what is perfectly just in a certain situation.</p>
                   <br></br>
 
                   <Quote scripture="There is a way that seems right to a man, but its end is the way to death." reference="Proverbs 14:12" color="var(--teal)"/>               

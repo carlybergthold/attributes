@@ -27,10 +27,10 @@ class Immutable extends Component {
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("immutable")}}>Why are the things I most enjoy also being threatened the most?
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">Threats lurk all around me, but I am more concerned about some than others.  It could be finances, reputation, physical health or looks.  My worst insecurity is about losing what is most important to me.  Unless that most important thing is God, I will constantly live as a “tottering fence”.</p>
-                  <p className="is-size-6 leading-normal padded">What am I most concerned about losing?</p> 
+                  <p className="is-size-6 leading-normal padded">Ask: What am I most concerned about losing?</p> 
                   <br></br>
 
-                  <Quote scripture=" 'For the mountains may depart and the hills be removed, but my steadfast love shall not depart from you, and my covenant of peace shall not be removed,' says the LORD, who has compassion on you." reference="Isaiah 54:10" color="var(--teal)"/>                 
+                  <Quote scripture="How long will all of you attack a man to batter him, like a leaning wall, a tottering fence?  They only plan to thrust him down from his high position. They take pleasure in falsehood.  They bless with their mouths, but inwardly they curse. For God alone, O my soul, wait in silence, for my hope is from him.He only is my rock and my salvation, my fortress; I shall not be shaken.  On God rests my salvation and my glory; my mighty rock, my refuge is God. Trust in him at all times, O people; pour out your heart before him; God is a refuge for us." reference="Psalm 62:3-8" color="var(--teal)" />                
               </section>
             }
             fear={
@@ -41,7 +41,8 @@ class Immutable extends Component {
                   <p className="is-size-6 leading-normal padded">Nobel prize research in economics showed the psychological impact of a loss is two and a half times as powerful as that for a gain.  About half of all people fear losing their job.  90% of people worry their phone may run out of battery charge.  Fear of loss grows with the more we have.  And when we have so much already, gaining more is not as important as losing what we have.  But change, especially loss, is a constant part of our human existence.</p>
                   <br></br>
 
-                  <Quote scripture="How long will all of you attack a man to batter him, like a leaning wall, a tottering fence?  They only plan to thrust him down from his high position. They take pleasure in falsehood.  They bless with their mouths, but inwardly they curse. For God alone, O my soul, wait in silence, for my hope is from him.He only is my rock and my salvation, my fortress; I shall not be shaken.  On God rests my salvation and my glory; my mighty rock, my refuge is God. Trust in him at all times, O people; pour out your heart before him; God is a refuge for us." reference="Psalm 62:3-8" color="var(--teal)" />
+                  <Quote scripture=" 'For the mountains may depart and the hills be removed, but my steadfast love shall not depart from you, and my covenant of peace shall not be removed,' says the LORD, who has compassion on you." reference="Isaiah 54:10" color="var(--teal)"/> 
+
               </section>
             }
             struggle={
@@ -49,16 +50,26 @@ class Immutable extends Component {
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("immutable")}}>How can I keep what I already have?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">We do expend great effort and cost simply to maintain what we have.  73% of car owners who purchased an extended warranty hadn't used it for repairs during the lifetime of the policy, even though the average price paid for the coverage was $1,000 per year of coverage. And, on average, those who did use it spent hundreds more for the coverage than they saved in repair costs (Sept 2023 Consumer Affairs research).  Sometimes letting go of a good now will be better for me in the long run.  I can miss what is best by clinging to what is average.   God offers me what is best and most lasting - Himself.</p>
+                  <p className="is-size-6 leading-normal padded">We expend great effort and cost simply to maintain what we have.  73% of car owners who purchased an extended warranty (costing an average of $1000/yr) never used it for repairs during the lifetime of the policy, spending much more for the coverage than they saved in repair costs (Sept 2023 Consumer Affairs research).  Sometimes letting go of a good now will be better for me in the long run.  And I can often miss what is really best by stubbornly clinging to what is average.  God offers me what is best and most lasting - Himself.</p>
                   <br></br>
                   <Quote scripture="And he (Jesus) said to all, If anyone would come after me, let him deny himself and take up his cross daily and follow me. For whoever would save his life will lose it, but whoever loses his life for my sake will save it. For what does it profit a man if he gains the whole world and loses or forfeits himself?" reference="Luke 9:23-25" color="var(--teal)"/>
+              </section>
+            }
+            question={
+              <section>
+                <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("immutable")}}>Does my unwavering security in Christ cause me to lose freedom?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">In this world, freedom is often at odds with security.  We lock our doors to live more securely, but then must always keep track of a key. But our security in Christ brings new freedoms, such as the ability to not sin, potentially saving us from much grief and harm. Even more, it actually frees us from the law and associated guilt and shame, freeing us to serve God wholeheartedly. We also gain freedom from our own selfishness so we can experience more generosity and purpose.  It provides to us a love, hope and happiness which are not so dependent on circumstances of the moment.  It also frees us from the fear of others' opinions and even death. In Christ, we can experience a true and enduring freedom!</p>
+                  <br></br>
+                  <Quote scripture="For freedom Christ has set us free; stand firm therefore, and do not submit again to a yoke of slavery." reference="Galatians 5:1" color="var(--teal)"/>
               </section>
             }
             whoAmI={
               <section>
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("immutable")}}>Only God is immutable for eternity.</h1></section>
-                  <p className="is-size-6 leading-normal padded">To understand that I am not immutable is easy - I change constantly, physically, emotionally, intellectually and more.  It is more difficult to comprehend One Who has not, does not, and will never change. For anyone who depends upon God for salvation and guidance, immutability is vital and may be a bit under-appreciated.  What if He kept changing His laws and truths?</p>
+                  <p className="is-size-6 leading-normal padded">To understand that I am not immutable is easy - I change constantly, physically, emotionally, intellectually and more.  It is more difficult to comprehend One Who has not, does not, and will never change. For anyone who depends upon God for salvation and guidance, immutability is vital and may be a bit under-appreciated.  Ask: What if He kept changing His laws and truths?</p>
                   <br></br>
 
                   <Quote scripture="For I the LORD do not change;" reference="Malachi 3:6a" color="var(--teal)"/>
@@ -88,7 +99,7 @@ class Immutable extends Component {
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("immutable")}}>Prayer</h1>
                   </section>
 
-                  <p className="is-size-6 leading-normal padded">God, thank you for never changing - for being an anchor in the windy and stormy sea that is my life.  Help me to trust you and your Word even as it seems I shouldn’t.  Help me to build my life on what will last.</p>
+                  <p className="is-size-6 leading-normal padded">God, thank you for never changing - for being an anchor in the windy and stormy sea that is my life.  Help me to trust you and your Word even as it seems I shouldn't.  Help me to build my life on what will last.</p>
                   <Quote scripture="But he is unchangeable, and who can turn him back?  What he desires, that he does." reference="Job 23:13" color="var(--teal)"/>                
               </section>
             }
@@ -97,7 +108,7 @@ class Immutable extends Component {
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("immutable")}}>We know of nothing in creation which is truly immutable.</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Even the sun coming up in the morning changes - and not just from Daylight Savings time!  Both the earth's and the sun's rotations are slowing over time.  The sun will eventually go out and the earth will stop spinning, but it is not expected soon.  The actual length of earth days are being extended about 2.3 milliseconds (added to the nominal 24 hour day) every 100 years.</p>                
+                  <p className="is-size-6 leading-normal padded">Even the sun coming up in the morning changes - and not just from Daylight Savings time!  Both the earth's and the sun's rotations are slowing over time, with the actual length of earth days being extended about 2.3 milliseconds every 100 years.  The sun will eventually go out and the earth will stop spinning, but don't worry, it is not expected soon - it won't run out of its core hydrogen for roughly 5 billion years. At that point, it will expand into a red giant, likely engulfing Mercury, Venus, and potentially Earth, before shedding its outer layers and shrinking into a white dwarf, which will cool and fade over potentially trillions of years.</p>                
               </section>
             }
             attHistory={
@@ -105,7 +116,7 @@ class Immutable extends Component {
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("immutable")}}>History proves our mutability in that we are constantly changing.</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Fashions and trends are a way of life - if something remains relevant for a decade, it’s rare.  But the historical account of Abraham and the birth of the nation Israel has been relevant for 3500 years.</p>
+                  <p className="is-size-6 leading-normal padded">Fashions and trends are a way of life - if something remains relevant for a decade, it's rare.  But the historical account of Abraham and the birth of the nation Israel has been relevant for 3500 years.</p>
                   <p className="is-size-6 leading-normal padded">Abraham lived  about 4000 years ago and is considered the father of Judaism, Christianity and Islam - which together includes over half the world population as followers today.  We learn about Abraham in the Christian Old Testament and the Jewish Tanakh, which are very similar.  Islam refers to Ibrahim 69 times in the Quran, with a number of those accounts tracking the Christian record. The Christian New Testament (written around 2000 years ago) describes Jesus as the expected Messiah, fulfilling the covenant which God made with Abraham 2000 years previously. Islam views Jesus as Messiah as well, though not the son of God.  Thus Abraham and Jesus remain key historical and theological figures, even after multiple millenia.</p>                
               </section>
             }

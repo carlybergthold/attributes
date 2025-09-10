@@ -28,7 +28,7 @@ class Loving extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>What is the difference between guilt and shame?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Guilt says “I DID something bad,” while shame says “I AM bad.” Shame attacks my very being and self-worth.  A believer’s worth comes from identity in Christ (future link to “Who you are in Christ”) instead of maintaining a certain performance level.</p>
+                  <p className="is-size-6 leading-normal padded">Guilt says “I DID something bad,” while shame says “I AM bad.” Shame attacks my very being and self-worth.  A believer’s worth comes from identity in Christ instead of maintaining a certain performance level (go to the "Explore" tab above to see “Who you are in Christ”).</p>
                   <p className="is-size-6 leading-normal padded">People intended to shame Jesus by hanging Him on the cross, but instead of personalizing that shameful punishment, Christ publicly identified with His trusted Father by saying, “Into your hands I commit my spirit.”  When we are “all in” with God, His love overrules feelings of shame that we or others may generate.</p>
                   <br></br>
                   <Quote scripture="In you, O LORD, do I take refuge; let me never be put to shame; in your righteousness deliver me! Incline your ear to me; rescue me speedily! Be a rock of refuge for me, a strong fortress to save me!   For you are my rock and my fortress; and for your name’s sake you lead me and guide me; you take me out of the net they have hidden for me, for you are my refuge. Into your hand I commit my spirit; you have redeemed me, O LORD, faithful God.  I hate those who pay regard to worthless idols, but I trust in the LORD. I will rejoice and be glad in your steadfast love, because you have seen my affliction; you have known the distress of my soul, and you have not delivered me into the hand of the enemy; you have set my feet in a broad place." reference="Psalm 31:1-8" color="var(--teal)"/>               
@@ -61,6 +61,16 @@ It's easy"
                   <p className="is-size-6 leading-normal padded">Brian Epstein, the band's manager, said of "All You Need Is Love:" "It was an inspired song and they really wanted to give the world a message. The nice thing about it is that it cannot be misinterpreted. It is a clear message saying that love is everything."</p>
                   <br></br>
                   <Quote scripture="God is love.  But love is not God. Don't turn love into a god." reference="Scott Patty" color="var(--teal)"/>               
+              </section>
+            }
+            question={
+              <section>
+                 <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("loving")}}>Is idol worship just a thing of the past?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">Idolatry is whatever we seek or love more than our Creator God, ultimately ourself.  We pick a brand or a political party based on how well it meets our desires, and then let it shape our view of good and bad.  We don’t even speak of idolatry today because our society no longer distinguishes between true and false worship - it is only “people of faith” (i.e. those who choose to sincerely believe in something unproven) and the “reasonable people” (who deal only in verifiable “facts”).  The only way we avoid idols is to seek what is both greater and outside of ourselves, and which is grounded in truth and reality.</p>
+                  <br></br>
+                  <Quote scripture="No servant can serve two masters, for either he will hate the one and love the other, or he will be devoted to the one and despise the other." reference="Luke 16:13a" color="var(--teal)"/>               
               </section>
             }
             whoAmI={

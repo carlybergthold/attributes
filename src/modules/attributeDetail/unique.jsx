@@ -17,8 +17,8 @@ class Unique extends Component {
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("unique")}}>Unique means without equal.
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">We like to feel special. We may attempt to attain uniqueness through whom we associate with (or avoid), by what we do or don't do, by what we believe or how we identify ourselves.  We will fight vigorously against being seen as common or average.</p>
-                  <p className="is-size-6 leading-normal padded">But being relational beings, we also want to be accepted by certain people, so we seek common ground and purpose in order to fit in. But once I become a part of that group, I want my differences to matter. Sometimes these differences do make me feel special and unique, but just as often they can lead to my embarrassment, humiliation, or even rejection.</p>
+                  <p className="is-size-6 leading-normal padded">We like to feel special. We may attempt to attain uniqueness through whom we associate (or avoid), by what we do or don't do, by what we believe or how we identify ourselves.  We will fight vigorously against being seen as common or average.</p>
+                  <p className="is-size-6 leading-normal padded">But being relational beings, we also want to be accepted by certain people, so we seek common ground and purpose in order to fit in. But once I become a part of that group, I want my differences to matter again. Sometimes these differences do make me feel special and unique, but just as often they can lead to my embarrassment, humiliation, or even rejection.</p>
               </section>
             }
             emotion={
@@ -39,7 +39,7 @@ class Unique extends Component {
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("unique")}}>I really don’t want to be like everyone else!</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">I want my own identity and differences. I want to be considered unique and special by others. The Bible affirms the unique value of each person while secular scientific thought can reduce each human to a slightly different combination of very similar genes (97% of our DNA is identical) and chemical elements. Science then lowers humanity even further by finding  more similarity to apes and earthworms rather than as the only creation God made in His own image. When I fail to see myself as a unique creation of God, I end up working hard to distinguish myself by whatever means I can possibly control - whether good (excelling in sports) or bad (the shoplifter) or whether visible (talents, tattoos, clothes, car…) or hidden (beliefs, secret habits…).
+                  <p className="is-size-6 leading-normal padded">I want my own identity and differences. I want to be considered unique and special by others. The Bible affirms the unique value of each person while secular scientific thought can reduce each human to a slightly different combination of very similar genes and chemical elements (97% of our DNA is identical). Science then lowers humanity even further by finding  more similarity to apes and earthworms rather than as the only creation God made in His own image. When I fail to see myself as a unique creation of God, I end up working hard to distinguish myself by whatever means I can possibly control - whether good (excelling in sports) or bad (the shoplifter) or whether visible (talents, tattoos, clothes, car…) or hidden (beliefs, secret habits…).
 </p>
                   <br></br>
                   <Quote scripture="For you formed my inward parts; you knitted me together in my mother’s womb.  I praise you, for I am fearfully and wonderfully made.  Wonderful are your works; my soul knows it very well." reference="Psalm 139:13-14" color="var(--teal)"/>                
@@ -50,8 +50,7 @@ class Unique extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("unique")}}>Will others accept my differences?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">What differences do I have that cause me the greatest concern? Visible differences may be the most obvious and problematic - my height, age, race, facial symetry, body type, clothes, etc. - but these are likely the least important. It is who I really am that matters much more - my purpose, identity, character, struggles, and thoughts. These are unfortunately much less obvious to casual observers. And as a Christian, my identity in Christ should transcend all else, differentiating me from the world while, at the same time, glorifying God.
-</p>
+                  <p className="is-size-6 leading-normal padded">What differences do I have that cause me the greatest concern? Visible differences may be the most obvious and problematic - my height, age, race, facial symetry, body type, clothes, etc. - but these are likely the least important. It is who I really am that matters much more - my purpose, identity, character, struggles, and thoughts. These are unfortunately much less obvious to casual observers. And as a Christian, my identity in Christ should transcend all else, differentiating me from the world while, at the same time, glorifying God.</p>
                   <p className="is-size-6 leading-normal padded">Others’ acceptance (or rejection) of me actually speaks more about who they are than who I am. I cannot control others’ acceptance of me, but I can control how accepting I am of others who differ from me.  And though I may object to fragments of others’ lives, I can remind myself that everyone is a unique creation, also made in God’s image.</p>
                   <br></br>
                   <Quote scripture="But the Lord said to Samuel, ‘Do not look on his appearance or on the height of his stature, because I have rejected him. For the Lord sees not as man sees: man looks on the outward appearance, but the Lord looks on the heart.’" reference="1 Samuel 16:7" />
@@ -59,12 +58,23 @@ class Unique extends Component {
                   <Quote scripture="But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light." reference="1 Peter 2:9"/>               
               </section>
             }
+            question={
+              <section>
+                 <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("unique")}}>Are humans “little gods” or just another animal?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">Neither.  Secularism attempts to strip all God-likeness away from humans, freeing all from superstition and irrational thinking (Biblical “emancipation!”) and leaving only the rational individual. Yet God-likeness remains even while our culture becomes more secular - we still see forms of confession (i.e. coming out, therapy, talk shows about sex), worship (i.e. I-phones, celebrities, sports, money, political drives), evangelism (i.e. exporting democracy, buy this brand or watch this movie, progressive or conservative thinking). Humans alone (not any other animal) reflect God’s image and attributes, yet are also clearly not gods (despite what some may think of themselves!).</p>
+                  <br></br>
+                  <Quote scripture="Then God said, 'Let us make man in our image, after our likeness. And let them have dominion …over all the earth…'" reference="Genesis1:26a"/>               
+              </section>
+            }
+      
             whoAmI={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("unique")}}>Only God is fully unique from humans in every attribute.</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">Although I was made in God’s image, no part of me is identical or equal to God. All humanity falls miserably short of each attribute of God, Who is distinctly different and separate from man. In fact, my biggest theological error is stripping God-ness from God and assuming He should think and act just like me (i.e. if I were God, I would…..).
+                  <p className="is-size-6 leading-normal padded">Although I was made in God’s image, no part of me is identical or equal to God. All humanity falls miserably short of attaining the ideal of each attribute of God, Who is distinctly different and separate from man. In fact, my biggest theological error is stripping God-ness from God and assuming He should think and act just like me (i.e. if I were God, I would…..).
 </p>
                   <br></br>
                   <Quote scripture="Who is like you, O LORD, among the gods? Who is like you, majestic in holiness, awesome in glorious deeds, doing wonders?" reference="Exodus 15:11" />               
@@ -101,7 +111,7 @@ class Unique extends Component {
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("unique")}}>Science finds the uniqueness which God created in each of us.</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Whether I feel like it or not, I am uniquely and wonderfully made.  When I don’t feel like it, I can still go out and get a tattoo.  But when I really feel it, I can praise the Creator!</p>
+                  <p className="is-size-6 leading-normal padded">Whether I feel like it or not, I am uniquely and wonderfully made.  When I don’t feel like this is true, I can either listen to God or follow the science (since both agree on this point!) - or I can just go out and get a tattoo like none other's.  But when I really believe this truth, I can praise the Creator!</p>
                   <p className="is-size-6 leading-normal padded">Biometrics uses individual physical and behavioral identifiers unique to each person.  We are all familiar with fingerprint and facial recognition, both used to help ID the owner of a cell phone. But less familiar are retinal or iris scanning, hand geometry, palm vein or ear recognition.  Others include voice and signature recognition and, of course, DNA sequencing.  Each person has 3 billion DNA letters and researchers have found 88 million can vary between individuals. Much work is also being invested in behavioral identifiers, such as typing and walking patterns.  And because the need to identify is great with computers, even how a person navigates or engages specific technology has been found to be unique. </p>              
               </section>
             }

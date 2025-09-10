@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import { withRouter } from "react-router-dom"
 import '../../styles/attribute.css'
-import Hero from '../../components/hero'
 import Quote from '../../components/quote'
 import styleMethods from "../../methods/styleMethods";
 import BaseAttributeDetail from '../../modules/attributeDetail/baseAttributeDetail';
@@ -28,7 +27,7 @@ class Planning extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("planning")}}>Why do I worry so much?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Worry is started by a real signal event - past or present - which may signal a much worse future event.  Many events can pose as signals - a breast lump or a news article about unemployment.  My mind appropriately considers what could result - breast cancer or loss of my own job.  But then I may begin to obsess over these possibilities, especially those outside of my control.  Worrying about what could happen to people I love is even easier because I have even less control over their lives.  Worry really questions whether anyone is in control.</p>
+                  <p className="is-size-6 leading-normal padded">Worry is started by a real signal event - past or present - which may forebode a much worse future event.  Many events can pose as signals - a breast lump or a news article about unemployment.  My mind appropriately considers what could result - breast cancer or loss of my own job.  But then I may begin to obsess over these possibilities, especially those outside of my control.  Worrying about what could happen to people I love is even easier because I have even less control over their lives.  Worry really questions whether anyone is in control.</p>
                   <p className="is-size-6 leading-normal padded">Thankfully, our good God is in control, and He has a good plan and purpose for each of our lives.  Without His sustaining hand, I do not live past the next minute.  The psalmist below is walking through real troubles, yet recognizes his complete dependence on God.  Depending on God does not prevent my possible worrisome events from happening, but can help ground my present thoughts in both reality and thankfulness to God.</p>
                   <br></br>
                   <Quote scripture="Though I walk in the midst of trouble, you preserve my life; you stretch out your hand against the wrath of my enemies, and your right hand delivers me.  The LORD will fulfill his purpose for me; your steadfast love, O LORD, endures forever.  Do not forsake the work of your hands." reference="Psalm 138:7-8"/>
@@ -40,7 +39,7 @@ class Planning extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("planning")}}>Why even plan when the future looks so uncertain and scary?</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">Seeking and depending on God does not eliminate the need to plan.  Proverbs gives much guidance on how to plan while seeking and depending on God.   And don’t worry - life will always bring scary things we dislike and cannot control, but if I am seeking God, I will find reconciliation with God as well as all other things He allows into my life.</p>
+                  <p className="is-size-6 leading-normal padded">Seeking and depending on God does not eliminate the need to plan.  Proverbs gives much guidance on how to plan while seeking and depending on God.   And don’t worry - life will always bring scary things we dislike and cannot control, but if I am seeking God, I can experience His peace and joy even in the midst of what He allows.</p>
                   <br></br>
                   <Quote scripture="Deceit is in the heart of those who devise evil, but those who plan peace have joy….  Without counsel plans fail, but with many advisers they succeed….  Commit your work to the LORD, and your plans will be established…..  The plans of the diligent lead surely to abundance, but everyone who is hasty comes only to poverty." reference="Proverbs 12:20, 15:22, 16:3, 21:5" color="var(--teal)"/>               
               </section>
@@ -55,10 +54,19 @@ class Planning extends Component {
                   <Quote scripture="And whatever you do, in word or deed, do everything in the name of the Lord Jesus, giving thanks to God the Father through him." reference="Colossians 3:17" />               
               </section>
             }
-            whoAmI={
+            question={
               <section>
                  <section>
-                  <Hero title="Only God plans perfectly."></Hero>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("planning")}}>Is it better to plan on being poor or rich?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">God warns of extremes in both poverty and wealth. Much wealth can bring greed, stress, pride, excessive indulgences and other woes, making a life of poverty seem virtuous in comparison. But poverty can lead to poor health, stress, curtailed opportunities and much more.  God values and uses people from the full spectrum of net worth, while encouraging everyone to be poor in spirit (humble) and rich in knowing Christ! Monetary wealth normally comes from our physical identity, whether through inheritance, good genes, or beneficial education and networks (though these can often be self-perceived as earned though our hard work).  Spiritual wealth also comes from our identity - our identity in Christ - though this wealth can also be misperceived as merited by our works.</p>
+                  <br></br>
+                  <Quote scripture="For the love of money is a root of all kinds of evils. It is through this craving that some have wandered away from the faith and pierced themselves with many pangs." reference="1 Timothy 6:10" />               
+              </section>
+            }
+            whoAmI={
+              <section>
+                 <section><h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("planning")}}>Only God plans perfectly.</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">That’s because only He is omniscient and knows what could go wrong.  Only He is omnipotent and can ensure all factors adhere to His plan.  Only He is fully wise and good, ensuring worthy outcomes.  I desire a perfect will, but only God has that.  At times, I may think ”Father - not your will, but mine be done.”  But my failed plans can remind me quite graciously that I am not God.</p>
                   <br></br>
@@ -104,7 +112,7 @@ class Planning extends Component {
             attHistory={
               <section>
                  <section>
-                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("planning")}}>Why Jesus came at the perfect time in history?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("planning")}}>How Jesus came at the perfect time in history.</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Jesus came to earth at around 0 B.C. - the perfect time to allow His message to spread globally. The Population Reference Bureau estimates that the number of people who have ever lived is about 105 billion people - more than 98% of these came after the birth of Christ.</p>
                   <p className="is-size-6 leading-normal padded">300 B.C. thru 500 A.D. - Vast network of Roman roads built to sustain Roman empire allowed early missionary efforts to proceed;  Koine Greek, widely used for diplomacy and trade throughout the empire allowed good communication of the Gospel.</p>

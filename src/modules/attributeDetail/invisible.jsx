@@ -17,8 +17,8 @@ class Invisible extends Component {
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("invisible")}}>Invisible means to exist beyond our current senses.
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">Each of our senses have design limitations, making many realities unheard, untouched and unseen.   However, with ingenuity we have begun to measure and then even manipulate these invisible objects, such as the data waves constantly hitting my I-phone.  Others are a bit more fuzzy -  that periodic gut feeling I have, or who I really am but don’t realize right now. Another term to describe invisible might be spiritual (70% of Americans consider themselves to be “spiritual” and 81% say there is something spiritual beyond the natural world, even if we cannot see it - 2023 Pew Research).</p>
-                  <p className="is-size-6 leading-normal padded">My fears often stem from what I cannot see - what I imagine or from what is unknown to me.  Whether the basis for these fears is real or not makes the impact on my life no less real or substantial.  Praying to a God I cannot physically sense certainly takes faith.  Worshipping an invisible God in a time of urgent distress with no relief in sight would seem nearly crazy - but can be more helpful than I can imagine.</p>
+                  <p className="is-size-6 leading-normal padded">Each of our senses have design limitations, making many realities unheard, untouched and unseen.   However, with ingenuity we have begun to measure and then even manipulate these invisible objects, such as the data waves constantly hitting my I-phone.  Others are a bit more fuzzy -  that periodic gut feeling I have, or who I really am, but don’t realize it right now. Another term to describe invisible might be spiritual (70% of Americans consider themselves to be “spiritual” and 81% say there is something spiritual beyond the natural world, even if we cannot see it - 2023 Pew Research).</p>
+                  <p className="is-size-6 leading-normal padded">My fears often stem from what I cannot see - what I may imagine or from what is unknown to me.  Whether the basis for these fears is real or not makes the impact on my life no less real or substantial.  Praying to a God I cannot physically sense certainly takes faith.  Worshipping an invisible God in a time of urgent distress with no relief in sight would seem nearly crazy - but can be more helpful than I can imagine.</p>
               </section>
             }
             emotion={
@@ -48,17 +48,28 @@ class Invisible extends Component {
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("invisible")}}>How can I see an invisible God?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">"Blessed are the pure in heart, for they shall see God." - Matt 5:8   A truly pure heart comes only from Jesus and is rooted in faith.  It does not magically display God clearly, but allows me to begin a daily discovery of who He is.  His attributes may form an outline of His image and His fruit may provide colors within the outline.  I can now catch wonderful glimpses of Him, but will not be able to bring His full being into focus in this life.  But it will be sufficient.  </p>
+                  <p className="is-size-6 leading-normal padded">"Blessed are the pure in heart, for they shall see God." (Matt 5:8)   A truly pure heart comes only from Jesus and is rooted in faith.  It does not magically display God clearly, but allows me to begin a daily discovery of who He is.  His attributes may form an outline of His image and His fruit may provide colors within the outline.  I can now catch wonderful glimpses of Him, but will not be able to bring His full being into focus in this life.  But it will be sufficient for now.  </p>
                   <br></br>
 
                   <Quote scripture="But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness and self-control.  Against such things there is no law." reference="Galatians 5:22-23" color="var(--teal)"/>                
+              </section>
+            }
+            question={
+              <section>
+                <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("invisible")}}>Will we be invisible in heaven?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">No.  Jesus, the Invisible Word and Creator, was made flesh, purposefully taking on a lowly human body.  He then transformed into a glorious and physical resurrected body, the ultimate form each believer will also take.  So while we will always be in the image of the Invisible God, we will never be invisible souls without bodily form.  Instead, Jesus provides a way for us to bodily experience eternity with Him.</p>
+                  <br></br>
+
+                  <Quote scripture="But our citizenship is in heaven, and from it we await a Savior, the Lord Jesus Christ, who will transform our lowly body to be like his glorious body, by the power that enables him even to subject all things to himself." reference="Philippians 3:20-21" color="var(--teal)"/>                
               </section>
             }
             whoAmI={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("invisible")}}>Only God is aware of all things invisible.</h1></section>
-                  <p className="is-size-6 leading-normal padded">God designed my body not to be able to see Him directly, but, by faith, to perceive Him as He reveals Himself.  Having limited sensors biases my physical body from what is invisible.  I may assume that death fully eliminates the person, when in reality, it only removes the sensors and leaves the spirit.</p>
+                  <p className="is-size-6 leading-normal padded">God designed my body not to be able to see Him directly, but, by faith, to perceive Him as He reveals Himself.  Having limited sensors now can bias my physical body away from what is invisible, including God.  And while I might assume that death fully eliminates my body and its sensors, in reality it enhances the sensors to experience God even more fully.</p>
                   <br></br>
                   <Quote scripture="God is spirit, and those who worship Him must worship Him in spirit and truth." reference="John 4:24" color="var(--teal)"/>               
               </section>
@@ -67,7 +78,7 @@ class Invisible extends Component {
               <section>
                    <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("invisible")}}>Jesus in human form was the actual image of invisible God.</h1></section>
-                  <p className="is-size-6 leading-normal padded">Although Christianity is based in faith, it is grounded in sensory evidence and truth.  Jesus spoke of His kingdom which was not of this world, but which was being revealed and now exists.</p>
+                  <p className="is-size-6 leading-normal padded">Although Christianity is based in faith, it is grounded in sensory evidence and truth.  Jesus spoke of His kingdom which was not of this world, but which was being revealed in this world and even now exists.</p>
 
                   <Quote scripture="He (Jesus) is the image of the invisible God." reference="Colossians 1:15a" color="var(--teal)"/>
                   <Quote scripture="Faith is…being convinced of what we do not see." reference="Hebrews 11:1" color="var(--teal)"/>               
@@ -78,7 +89,7 @@ class Invisible extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("invisible")}}>So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">By faith, embrace what I cannot yet sense, all the while tasting the spiritual through what can be sensed.  Compare the truth which God has already revealed through the Bible with what I can observe all around me.   <br></br>Ask: What evidence do I see of an invisible God?</p>
+                  <p className="is-size-6 leading-normal padded">Experience the invisible God through what can be sensed in this world, and then by faith embrace what I cannot yet sense.  Compare the truth which God has already revealed through the Bible with what I can observe all around me.   <br></br>Ask: What evidence do I see of an invisible God?</p>
                   <Quote scripture="Oh, taste and see that the LORD is good! Blessed is the man who takes refuge in him!" reference="Psalm 34:8" color="var(--teal)"/>               
               </section>
             }
@@ -98,7 +109,8 @@ class Invisible extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("invisible")}}>How can we see what is invisible?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">We can now see individual molecules with a microscope, other galaxies with a telescope, and inside our bodies with MRIs and ultrasounds. We can detect levels of radiation and listen to and even watch different signals that race through space invisibly if we simply have the right sensor to capture them.  <br></br>None of these "mystical" capabilities were present just a few centuries ago.  Although there are many tangible evidences of God, He and His Kingdom are still largely invisible to us. However, that does not mean they are not real. The Holy Spirit and time will reveal more and more of God and His Kingdom.</p>               
+                  <p className="is-size-6 leading-normal padded">We can now see individual molecules with a microscope, other galaxies with a telescope, and inside our bodies with MRIs, CT scans and ultrasounds. We can detect levels of radiation and listen to and even watch different signals that race through space invisibly if we simply have the right sensor to capture them.</p>
+                  <p className="is-size-6 leading-normal padded">None of these "mystical" capabilities were present just a few centuries ago.  Although there are many tangible evidences of God, He and His Kingdom are still largely invisible to us. However, that does not mean they are not real. The Holy Spirit and time will reveal more and more of God and His Kingdom.</p>               
               </section>
             }
             attHistory={
@@ -107,7 +119,7 @@ class Invisible extends Component {
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("invisible")}}>God is revealing who He is and who we are over history.</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">God will reveal what cannot now be seen by restoring what was once lost.  God was visible to Adam and Eve in Eden, but this benefit was lost when they were banned from the garden.  But they also began to see who they actually were - in God’s image, but not with His perfection.  God then progressively revealed Himself through history (as recorded in the Bible), as well as to individual believers (through sanctification).  Heaven restores the full visibility of God.</p>
-                  <p className="is-size-6 leading-normal padded">"For what can be known about God is plain to them, because God has shown it to them. For his invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world, in the things that have been made. So they are without excuse." - Romans 1:19-20</p>                
+                    <Quote scripture="For what can be known about God is plain to them, because God has shown it to them. For his invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world, in the things that have been made. So they are without excuse." reference="Romans 1:19-20" color="var(--teal)"/>   
               </section>
             }
             liturgy={

@@ -47,9 +47,19 @@ class Good extends Component {
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("good")}}>How can I find good in my last failure?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Failure is an integral part of life, but it should never define a life.  It brings to me experience, resilience, learning and growth.  Failure can point out my own limitations and help me rely upon others. Sanctification in a believer’s life implies a lifetime of failure, as well as redemption. </p>
+                  <p className="is-size-6 leading-normal padded">Failure is an integral part of life, but it should never define a life.  It brings to me experience, resilience, learning and growth.  Failure can point out my own limitations and help me to rely upon others. Sanctification in a believer’s life implies a lifetime of failure, as well as redemption. </p>
                   <br></br>
                   <Quote scripture="Nearness to God—intimate fellowship with God—is our highest good. We may say then that whatever interferes with our nearness to God, our fellowship with Him, is actually evil. And whatever draws us into a deeper fellowship with God is actually “good.” When God brings suffering and adversity into our lives, our confidence in His goodness should not be undermined. Instead, we should be reassured of His goodness to us." reference="Deffinbaugh" color="var(--teal)"/>                
+              </section>
+            }
+            question={
+              <section>
+                <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("good")}}>Will my life ever get better?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">Many believe life in this world will continually improve due to the innovations of man - and modern medicine, technology, and standards of living have indeed vastly improved.  However, people have remained stubbornly sinful, suffering lingers, and the ways in which we can utterly destroy this world have actually increased. God lets us glimpse what human goodness looks like through His Word and the example of Christ, but we will not see it fully until our own transfiguration at the end - whether through our death or Christ’s return.  And then, it becomes a fascinating beginning of bountiful goodness!</p>
+                  <br></br>
+                  <Quote scripture="Being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus." reference="Philippians 1:6" color="var(--teal)"/>                
               </section>
             }
             whoAmI={
@@ -66,7 +76,7 @@ class Good extends Component {
                    <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("good")}}>Jesus was called good by many.</h1></section>
 
-                  <p className="is-size-6 leading-normal padded">Many called Him good, but few saw that He was also God.  Jesus equated the two in this verse to confess the truth that He was not just "good," but was indeed God. A merely “good” man would never say He is God, because he wouldn't want to confess what is not true.  Only our good God can and does use for good what I may see as evil, such as the cross - a shameful instrument of Jesus' death transformed into saving grace through love.</p>
+                  <p className="is-size-6 leading-normal padded">Many called Jesus good, but few saw that He was also God.  Jesus equated the two in this verse to confess the truth that He was not just "good," but was indeed God. A merely “good” man would never say He is God, because he wouldn't want to confess what is not true.  Our good God used for good what many saw as evil, the cross - a shameful instrument of Jesus' death transformed into saving grace through love.</p>
                   <Quote scripture="And Jesus said to him, 'Why do you call me good? No one is good except God alone.'" reference="Mark 10:18" color="var(--teal)"/>               
               </section>
             }
@@ -94,7 +104,7 @@ class Good extends Component {
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("good")}}>Good is not always simply the absence of bad.</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Good can include the vigorous ability to adapt in the midst of threatening bad. “Good” health is very complex, going beyond what can be measured, tested or fully understood.</p>
+                  <p className="is-size-6 leading-normal padded">True goodness includes much more - like the vigorous ability to adapt in the midst of threatening bad. Such goodness theologically helps explain why a good God allows what we perceive as bad into His creation.  Likewise, “Good” health is very complex, going beyond what can be measured, tested or fully understood.</p>
                   <p className="is-size-6 leading-normal padded">"Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity." - WHO, 1948.</p>
                   <p className="is-size-6 leading-normal padded">“Your mind can be a powerful healing tool when given the chance. The idea that your brain can convince your body a fake treatment is the real thing — the so-called placebo effect — and thus stimulate healing has been around for millennia. Now science has found that under the right circumstances, a placebo can be just as effective as traditional treatments.</p>
                   <p className="is-size-6 leading-normal padded">‘The placebo effect is more than positive thinking — believing a treatment or procedure will work. It's about creating a stronger connection between the brain and body and how they work together’….they have been shown to be most effective for conditions like pain management, stress-related insomnia, and cancer treatment side effects like fatigue and nausea.” - “The power of the placebo effect” from Harvard Health on 8/9/19</p>                
@@ -105,7 +115,7 @@ class Good extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("good")}}>When did Thanksgiving become an officially observed holiday?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">When I experience much good and should be most grateful, I tend to presume its continuation.  When I eventually experience bad, the contrast shakes thankfulness out of what good there is left.</p>
+                  <p className="is-size-6 leading-normal padded">When I experience much good and should be most grateful, I tend to presume its continuation.  When I eventually experience bad, the contrast shakes sincere thankfulness out of what good there is left.</p>
 
                   <p className="is-size-6 leading-normal padded">In 1789, George Washington called for an official celebratory “day of public thanksgiving and prayer.” While Congress overwhelmingly agreed to Washington’s suggestion, the holiday did not become an annual event until 1863, during the difficulties of the Civil War.  While expressing gratitude for a pivotal Union Army victory at Gettysburg, President Abraham Lincoln announced an official Thanksgiving holiday. </p>
                   <Quote scripture="Gratitude is the return justly required from the objects of His beneficence, yet is it often withheld from our great Benefactor simply because His goodness is so constant and so abundant. It is lightly esteemed because it is exercised toward us in the common course of events. It is not felt because we daily experience it." reference="A. W. Pink" color="var(--teal)"/>               

@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import { withRouter } from "react-router-dom"
 import '../../styles/attribute.css'
-import Hero from '../../components/hero'
 import Quote from '../../components/quote'
 import styleMethods from "../../methods/styleMethods";
 import BaseAttributeDetail from '../../modules/attributeDetail/baseAttributeDetail';
@@ -64,10 +63,20 @@ class Peaceful extends Component {
                   <Quote scripture="I have said these things to you, that in me you may have peace. In the world you will have tribulation. But take heart; I have overcome the world." reference="John 16:33" />               
               </section>
             }
+            question={
+              <section>
+                 <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("peaceful")}}>Why am I stressed out all the time?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">To answer that question, we need to ask what we love most.  Disordered loves create a disordered life.  Augustine wrote about the City of God (the Church) and the Earthly City (the World). The Earthly City is cobbled together in a common love of self, with each person clashing with others as they each desire to dominate.  Ultimate self-love necessarily brings a contempt for God and, with it, an unsettled life, fueled by the myths of  “you can be whatever you want to be", "the best way to be free is to be yourself", "don’t succumb to what 'they' want from you", and many, many more. This consumer desire (me!) overwhelms intimacy desire (me and another).  The City of God is united by a common love from God, and a love of God and His truth, dispelling an excessive love of self and making a path for peace in the midst of adversity.</p>
+                  <br></br>
+                  <Quote scripture="For where jealousy and selfish ambition exist, there will be disorder and every vile practice." reference="James 3:16" />               
+              </section>
+            }
             whoAmI={
               <section>
                  <section>
-                  <Hero title="Only God can bring me true peace."></Hero>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("peaceful")}}>Only God can bring me true peace.</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">Striving for peace without God shows that I view myself as a god who can control enough circumstances to satisfy all of my needs and wants.  But only the Creator God can reconcile me to Himself, bringing me peace, or oneness, with Him. Only through believing that God keeps His word can we experience how peace is defined above - believing we are safe, whole, healthy and complete.</p>
                   <br></br>
@@ -89,7 +98,7 @@ class Peaceful extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">Reconcile my beliefs and life with the foundational truths of the Bible. Bring the current situation to Him and Him to the situation with an intent to reconcile the two.  
 
-                  Let all artificial barriers to unity fall in the one body of Christ (i.e. Jew/Gentile, race/gender, denomination, social class or severity of sin, worship style, etc.).  Rejoice in this peaceful unity!  <br></br>Ask: Where in my life do I not see peace?</p>
+                  Let all artificial barriers to unity (i.e. race/gender, denomination, social class or severity of sin, worship style, etc.) fall away in light of the One Body of Christ.  Rejoice in this peaceful unity!  <br></br>Ask: Where in my life do I not see peace?</p>
                   <Quote scripture="You keep him in perfect peace whose mind is stayed on you, because he trusts in you." reference="Isaiah 26:3" color="var(--teal)"/>                
               </section>
             }
@@ -99,7 +108,7 @@ class Peaceful extends Component {
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("peaceful")}}>Prayer</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">God of Peace, thank you for reconciling me to You through the righteousness of Jesus.  Although this brings me peace with You, I confess that I am often unsettled and dissatisfied with things in this life.  Help me to remember that this life is not my ultimate home and to clearly perceive what you have promised on this earth.</p>
-                  <p className="is-size-6 leading-normal padded">The Greek word for peace is “eirene”, which has as its root the word “eiro”, meaning “to join”. Only when we join God and be unified with Him are we truly at peace.</p>
+                  <p className="is-size-6 leading-normal padded">The Greek word for peace is “eirene”, which has as its root the word “eiro”, meaning “to join”. Only when I join God and am unified with Him am I truly at peace.</p>
                   <Quote scripture="I (Jesus speaking) have said these things to you, that in me you may have peace. In the world you will have tribulation. But take heart; I have overcome the world." reference="John 16:36" color="var(--teal)"/>               
               </section>
             }
@@ -110,7 +119,7 @@ class Peaceful extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">“Chronic worrying can affect your daily life so much that it may interfere with your appetite, lifestyle habits, relationships, sleep, and job performance. Many people who worry excessively are so anxiety-ridden that they seek relief in harmful lifestyle habits such as overeating, cigarette smoking, or using alcohol and drugs….The problem occurs when fight or flight is triggered daily by excessive worrying and anxiety. The fight or flight response causes the body’s sympathetic nervous system to release stress hormones such as cortisol. These hormones can boost blood sugar levels and triglycerides that can be used by the body for fuel. The hormones also cause physical reactions such as difficulty swallowing, dizziness, fast heartbeat, fatigue, headaches, irritability, muscle aches and tension, and much more.""
                                           - WebMD</p>
-                  <p className="is-size-6 leading-normal padded">"Therefore I tell you, do not be anxious about your life, what you will eat or what you will drink, nor about your body, what you will put on. Is not life more than food, and the body more than clothing?"" - Matthew 6:25</p>               
+                  <Quote scripture="Therefore I tell you, do not be anxious about your life, what you will eat or what you will drink, nor about your body, what you will put on. Is not life more than food, and the body more than clothing?" reference="Matthew 6:25" color="var(--teal)"/>               
               </section>
             }
             attHistory={
@@ -118,8 +127,8 @@ class Peaceful extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("peaceful")}}>Has the world ever seen true peace?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Man’s history is one of constant conflict and war.  True peace offered by Christ is in vivid contrast to war and begins in my heart.</p>
-                  <p className="is-size-6 leading-normal padded">According to a New York Times article on July 6, 2003, of the past 3,400 years, humans have been entirely at peace for 268 of them, or just 8 percent of recorded history. This is by defining war as an active conflict that has claimed more than 1,000 lives. In reality, the world has never been fully “at peace.”  According to Wikipedia’s timeline of just the US government military operations, there has been some type of military conflict nearly every year of its existence.  The longest stretch of “peace” is from 1935-1939, an isolationist period initiated by The Good Neighbor Policy, implemented by Franklin Roosevelt. Unfortunately, this period also saw civil war in Spain and a major conflict in Palestine, not to mention the build-up in Japan and Germany toward WWII. </p>
+                  <p className="is-size-6 leading-normal padded">Man’s history is one of constant conflict and war.  True peace offered by Christ is in vivid contrast to war and it begins in my heart.</p>
+                  <p className="is-size-6 leading-normal padded">According to a New York Times article on July 6, 2003, of the past 3,400 years, humans have been entirely at peace for 268 of them, or just 8 percent of recorded history. This is by defining war as an active conflict that has claimed more than 1,000 lives. In reality, the world has never been fully “at peace.”  According to Wikipedia’s timeline of just the US government military operations, there has been some type of military conflict nearly every year of its existence.  The longest stretch of “peace” was from 1935-1939, an isolationist period initiated by The Good Neighbor Policy, implemented by Franklin Roosevelt. Unfortunately, this period also saw civil war in Spain and a major conflict in Palestine, not to mention the build-up in Japan and Germany toward WWII. </p>
                   <p className="is-size-6 leading-normal padded">The Pax Romana (Latin for "Roman Peace") was a long period of relative peace and stability experienced by the Roman Empire from 27 BC to AD 180 and covered a third of the world’s population. In Roman history, the "Gates of Janus" were closed in times of peace and opened in times of war.  These doors stood open much more often than closed - and this did not consider conflicts in other parts of the world.
 
 Even peace-loving Switzerland had a civil war as recently as 1847, called the Sonderbund War.</p>               
@@ -130,11 +139,11 @@ Even peace-loving Switzerland had a civil war as recently as 1847, called the So
                  <section>
                     <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("peaceful")}}>"It Is Well With My Soul" - Horatio Spafford</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"Oh that you had paid attention to my commandments! Then your peace would have been like a river, and your righteousness like the waves of the sea;" - Isa 48:18</p>
                     <p className="is-size-6 leading-normal padded">"When peace, like a river, attendeth my way,<br></br>
 When sorrows like sea billows roll;<br></br>
 Whatever my lot, Thou hast taught me to say,<br></br>
-It is well, it is well with my soul." - First verse</p>               
+It is well, it is well with my soul." - First verse<br></br></p>
+                    <Quote scripture="Oh that you had paid attention to my commandments! Then your peace would have been like a river, and your righteousness like the waves of the sea;" reference="Isa 48:18" color="var(--teal)"/>              
               </section>
             }
           />

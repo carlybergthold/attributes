@@ -15,8 +15,8 @@ class Creative extends Component {
             definition={<section><section>
             <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("creative")}}>Creative means to make something new.
             </h1></section>
-            <p className="is-size-6 leading-normal padded">We love to watch new movies and dine in the newest restaurants. Our personal creativity can take many forms - noodling on a guitar, building a new deck, or adding our twist to Uncle Wayne’s chili recipe. Not only do we enjoy the newness, we often end up loving our creations.</p>
-            <p className="is-size-6 leading-normal padded">Creativity and newness can lead to a wonderful feeling of excitement, but it can also leave me wondering whether I am creative enough - whether I have significance in this big world.  It can also cause me to question my life’s purpose.</p></section>}
+            <p className="is-size-6 leading-normal padded">We love to watch new movies and dine in the newest restaurants. And our personal creativity can take many forms - noodling on a guitar, building a new deck, or adding our own twist to Uncle Wayne’s chili recipe. Not only do we enjoy the newness, we often end up loving our creations.</p>
+            <p className="is-size-6 leading-normal padded">Creativity and newness can lead to a wonderful feeling of excitement, but it can also leave me wondering whether I am creative enough - whether I have significance in this big world of change.  It can also cause me to question my life’s purpose.</p></section>}
 
             emotion={<section>
             <section>
@@ -43,43 +43,50 @@ class Creative extends Component {
               <br></br>
               <Quote scripture="For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope." reference="Jeremiah 29:11" /></section>}
 
+            question={<section>            <section>
+              <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("creative")}}>What if my desires aren’t very godly?</h1>
+              </section>
+              <p className="is-size-6 leading-normal padded">The Jews hoped for enough power to overthrow Rome's authority.  The Greeks were looking for earthly wisdom - a full understanding of their world.  While the Cross of Christ first appeared to have neither power nor wisdom, God transformed both through the resurrection into new creations - the multiplied power of the Holy Spirit and the very wisdom of the Creator of all things.  We need a similar game-changer, a circuit-breaker in our thinking.  Consider the “ungodly” desire I am experiencing, how our culture normally satisfies it (which may need to die in the light of God), and then how God may best want me to meet it.  And while this desire may at first appear ungodly, it likely has God-given roots and is only in need of being re-created by the Cross.</p>
+              <br></br>
+              <Quote scripture="For the foolishness of God is wiser than men, and the weakness of God is stronger than men." reference="1 Corinthians 1:25" /></section>}
+
+
             whoAmI={<section>            <section>
               <h1 className="title  tracking-wide padded" style={{color: styleMethods.getAttributeColor("creative")}}>Only God can create something from absolutely nothing.</h1>
             </section>
-              <p className="is-size-6 leading-normal padded">He created me and all things.  I am created in His image and thus have His desire to create - so my ability, ingredients, and impulse to create come not from myself, but from God.</p>
+              <p className="is-size-6 leading-normal padded">I cannot do this.  He created me and all things. Without Him, I can create nothing. I am created in His image and thus have His desire to create - so my ability, ingredients, and impulse to create come not from myself, but from God.</p>
               <br></br>
               <Quote scripture="Through him all things were made, without him nothing was made that has been made." reference="John 1:3" /></section>}
 
             biblicalChristianity={<section>              <section>
               <h1 className="title  tracking-wide padded" style={{color: styleMethods.getAttributeColor("creative")}}>Jesus made possible something completely new - to live “in Christ.”</h1></section>
-              <p className="is-size-6 leading-normal padded">Being “in Christ” means I believe that Jesus is actually God who died on the cross to pay the penalty for my sins and, in turn, provides me with His righteousness, allowing me to fellowship with God forever.  With this new relationship comes a completely different perspective to my life and my present circumstances, along with a magnified awareness and value for Creator God.</p>
+              <p className="is-size-6 leading-normal padded">Being “in Christ” means I believe that Jesus is actually God who died on the cross to pay the penalty for my sins and, in turn, provides me with His righteousness, allowing me to fellowship with God forever.  With this new relationship comes a completely different perspective to my life and my present circumstances, along with a magnified awareness of and value for Creator God.</p>
               <Quote scripture="Therefore, if anyone is in Christ, he is a new creation." reference="2 Corinthians 5:17" color="var(--teal)"/></section>}
 
             soWhat={<section>            <section>
               <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("creative")}}>So what do I do now?</h1>
               </section>
-              <p className="is-size-6 leading-normal padded">In humility and gratitude, give credit and appreciation to others who have made it possible for me to create, including our ultimate Creator. <br></br>Ask: Who has helped me most in forming one of my creative endeavors?</p>
+              <p className="is-size-6 leading-normal padded">In humility and gratitude, I can give credit and appreciation to others who have made it possible for me to create, including my ultimate Creator. <br></br>Ask: Who has helped me most in forming one of my creative endeavors?</p>
               <Quote scripture="So, whether you eat or drink, or whatever you do, do all to the glory of God." reference="1 Corinthians 10:31" color="var(--teal)"/></section>}
 
             prayer={<section>              <section>
               <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("creative")}}>Prayer</h1>
               </section>
-              <p className="is-size-6 leading-normal padded">Creator God, thank you for making me a person with creative purpose. Forgive me for thinking I am the ultimate creator of things when I am really your creation. I am creative because I am of your image.  Help me to create to your glory alone.</p>
+              <p className="is-size-6 leading-normal padded">Creator God, thank you for making me a person with creative purpose. Forgive me for thinking I am the ultimate creator of things when I am really your creation. I am creative because I am in your image.  Help me to create to your glory alone.</p>
               <Quote scripture="Through him all things were made, without him nothing was made that has been made." reference="John 1:3" color="var(--teal)"/></section>}
 
             scienceAndHealth={<section>            <section>
               <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("creative")}}>Science does not rule out the potential of a Creator God</h1>
               </section>
               <p className="is-size-6 leading-normal padded">In fact, the current theory of the “Big Bang” aligns well with all matter being created with a spoken word from God. Evolution and/or creation of man is in much greater gridlock. Science camps on one end of the spectrum, seeking to answer all the “How” questions.  Christianity and the Bible occupy the other end, mostly seeking to answer “Who and Why.” Intelligent design theory sits squarely in the center, seeking the compatible middle ground.</p>
-              <p className="is-size-6 leading-normal padded">Big Bang theory and creation (Data from Wikipedia): “By the middle of the 20th century, cosmologists had developed two different theories to explain the creation of the universe. Some supported the steady-state theory, which states that the universe has always existed and will continue to survive without noticeable change. Others believed in the Big Bang theory, which states that the universe was created in a massive explosion-like event billions of years ago (later determined to be approximately 13.8 billion years).</p>
-              <p className="is-size-6 leading-normal padded">The discovery of cosmic microwave background radiation (CMB) in 1941 constitutes a major development in modern physical cosmology….. In 1964, US physicist Arno Penzias and radio-astronomer Robert Woodrow Wilson rediscovered the CMB…. and new measurements were accepted as important evidence for a hot early Universe (Big Bang theory) and as evidence against the rival steady state theory.[4] In 1978, Penzias and Wilson were awarded the Nobel Prize for Physics for their joint measurement.</p>
-              <p className="is-size-6 leading-normal padded">Evolutionary Beliefs and Creation (2/6/19 article from Pew Research): Roughly 1/3 of US adults believe humans have always existed in their current form (i.e. consistent with Biblical conservative creation account). Another 1/3 believe humans evolved over time, but that this process was guided by God or a higher power (i.e. consistent with a more liberal Biblical account or intelligent design theory). And 1/3 believe in evolution with no higher power role.</p></section>}
+              <p className="is-size-6 leading-normal padded">Big Bang theory and creation (Data from Wikipedia): “By the middle of the 20th century, cosmologists had developed two different theories to explain the creation of the universe. Some supported the steady-state theory, which states that the universe has always existed and will continue to survive without noticeable change. Others believed in the Big Bang theory, which states that the universe was created in a massive explosion-like event billions of years ago (later determined to be approximately 13.8 billion years). The discovery of cosmic microwave background radiation (CMB) constitutes a major development in modern physical cosmology….. and new measurements were accepted as important evidence for a hot early Universe (Big Bang theory) and as evidence against the rival steady state theory.</p>
+              <p className="is-size-6 leading-normal padded">Evolutionary Beliefs and Creation (2/6/19 article from Pew Research): Roughly 1/3 of US adults believe humans have always existed in their current form (i.e. consistent with Biblical conservative creation account). Another 1/3 believe humans evolved over time, but that this process was guided by God or a higher power (i.e. consistent with a more liberal Biblical account or intelligent design theory). And 1/3 believe in evolution with no higher power role (despite the constant role of entropy in this world!).</p></section>}
 
             attHistory={<section><section>
               <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("creative")}}>Have we created life on our own yet?</h1>
               </section>
-              <p className="is-size-6 leading-normal padded">Recent scientific advancement has created headlines like "Can We Create Life From Scratch?". The answer is no, at least for now. A "synthetic bacteria" was created in 2010 (by Venter), but that was introducing a synthetic DNA into an already living cell, and this cell was then able to replicate. But making the cell winds up being the hardest part.</p>
-              <p className="is-size-6 leading-normal padded">If this is ever done, it would be difficult to prove that God was not behind it.  After all, He is the author and sustainer of life, with physical life only being the lesser part of the story.  Spiritual life creation is much more important!</p>
+              <p className="is-size-6 leading-normal padded">Recent scientific advancement has created headlines like "Can We Create Life From Scratch?" The answer is no - the created has never been able to create life itself. A synthetic bacteria was 'created' in 2010 (by Venter), but that was by introducing a synthetic DNA into an already living cell, and this cell was then able to replicate. But making the cell winds up being the hardest part!</p>
+              <p className="is-size-6 leading-normal padded">And even if this is ever done, it would be difficult to prove that God was not behind it.  After all, He is the author and sustainer of life, with physical life only being the lesser part of the story.  Spiritual life creation (for eternity) is of much more importance!</p>
               </section>}
 
             liturgy={<section>            <section>

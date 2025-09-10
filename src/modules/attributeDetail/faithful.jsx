@@ -17,7 +17,7 @@ class Faithful extends Component {
                   <section>
                   <h1 className="title added" style={{color: styleMethods.getAttributeColor("faithful")}}>Faithful means able to be trusted.</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">We want to be considered trustworthy and are distressed when we find others who we cannot trust.  We desire to be faithful to our favorite sports team, certain brand or personal habit, or to our spouse. 78-90% of Americans (depending on the poll) believe it is morally wrong to commit an adulterous act. But we also fear that our (and other’s) faithfulness may prove to be faulty - from weakness, fatigue, doubt or a change of will.</p>
+                  <p className="is-size-6 leading-normal padded">We want to be considered trustworthy and are distressed when we find others whom we cannot trust.  We desire to be faithful to our favorite sports team, a certain brand or personal habit, or to our spouse. 78-90% of Americans (depending on the poll) believe it is morally wrong to commit an adulterous act. But we also fear that our (and other’s) faithfulness may prove to be faulty - from weakness, fatigue, doubt or a change of will.</p>
                   <p className="is-size-6 leading-normal padded">Disappointment, however, seems to be a constant companion to my effort to be faithful and in my attempts to fully trust others.  I work hard to prove myself a reliable person, but it seems a single failure can ruin a hundred successes.  It almost seems like you can’t trust anyone these days!</p>
               </section>
             }
@@ -26,8 +26,8 @@ class Faithful extends Component {
                  <section>
                   <h1 className="title" style={{color: styleMethods.getAttributeColor("faithful")}}>How do I avoid being disappointed by others?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">All people will eventually disappoint me, including God.  The key question then is who I will trust.  God is one I can trust even if I am disappointed with Him. </p>
-                  <p className="is-size-6 leading-normal padded">After opening with praise and belief in God’s faithful covenant, the psalmist below reveals deep disappointment in God’s apparent lack of faithfulness. His trust in God actually causes his disappointment when circumstances make it seem that a promise may not be kept.  God’s enemies were declaring that no Messiah would ever come (i.e. footsteps), yet the psalmist ends with ‘so be it, I will bless God forever.’  He decided to trust God for what God had not done yet, but had promised to do in the future. And the footsteps of Messiah eventually did come!</p>
+                  <p className="is-size-6 leading-normal padded">Everyone will eventually disappoint me, including God.  The key question then is who I will trust.  God is one I can trust even if I am disappointed with Him. </p>
+                  <p className="is-size-6 leading-normal padded">After opening with praise and belief in God’s faithful covenant, the psalmist below reveals deep disappointment in God’s apparent lack of faithfulness. His trust in God actually causes his disappointment when circumstances make it seem that a promise may not be kept.  God’s enemies were declaring that no Messiah would ever come (i.e. footsteps), yet the psalmist ends with ‘so be it, I will bless God forever.’  He decides to trust God for what God has not yet done, but had promised to do in the future. And the footsteps of Messiah eventually did come!</p>
                   <br></br>
                   <Quote scripture="But now you have cast off and rejected; you are full of wrath against your anointed. You have renounced the covenant with your servant; you have defiled his crown in the dust…..Lord, where is your steadfast love of old, which by your faithfulness you swore to David? Remember, O Lord, how your servants are mocked, and how I bear in my heart the insults of all the many nations, with which your enemies mock, O LORD, with which they mock the footsteps of your anointed. Blessed be the LORD forever! Amen and Amen." reference="Psalm 89:38-39, 49-52" color="var(--teal)"/>               
               </section>
@@ -37,7 +37,7 @@ class Faithful extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("faithful")}}>So when should I ever trust another person?</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">I should not fully trust another who has proven themselves to be unreliable. Trust can be built or rebuilt over time, but I must realize that trusting even the most trust-worthy person to do what only God can do, or provide what only God can give, is a trap.  My fear of being disappointed by others will only be fed when I expect more from them than I do from God.</p>
+                  <p className="is-size-6 leading-normal padded">I should not fully trust another who has proven themselves to be unreliable. Trust can be built or rebuilt over time, but I must realize that trusting even the most trust-worthy person to do what only God can do, or provide what only God can give, is a trap.  My fear of being disappointed by others will only grow when I expect more from them than I do from God.</p>
                   <p className="is-size-6 leading-normal padded">For example, I want to trust my driver to navigate us through icy mountain roads safely.  He may try his best, but he is not in control of all the circumstances that may happen. It is impossible for him to be fully trustworthy, so fully trusting him could very well end in disappointment.</p>
                   <br></br>
                   <Quote scripture="Trusting in a treacherous man (i.e. unfaithful, or one who cannot be trusted) in time of trouble is like a bad tooth or a foot that slips." reference="Prov 25:19" color="var(--teal)"/>
@@ -55,6 +55,17 @@ class Faithful extends Component {
                   <Quote scripture="Let what you say be simply ‘Yes’ or ‘No’; anything more than this comes from evil." reference="Matthew 5:37" color="var(--teal)"/>               
               </section>
             }
+            question={
+              <section>
+                 <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("faithful")}}>Is reason better than faith?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">Faith and reason can appear to be opposites, with reason backed by hard science and faith often linked to superstitious ignorance. In reality, science must (and does) continually change based on new information while Biblical faith rests on unchanging reliable promises of God backed by substantial historical and experiential proof of their truth.  And the most tangible outcome of this faith is love for God and people, making it quite reasonable indeed to choose the path of faith!</p>
+                  <br></br>
+
+                  <Quote scripture="Jesus said to them, “Is this not the reason you are wrong, because you know neither the Scriptures nor the power of God?" reference="Mark 12:24" color="var(--teal)"/>               
+              </section>
+            }
             whoAmI={
               <section>
                 <section>
@@ -62,8 +73,7 @@ class Faithful extends Component {
                   <p className="is-size-6 leading-normal padded">To believe that my loyalty to God is what makes me secure is faulty works-based theology.  God alone has the perfect track record.  Whenever I regard God as unfaithful, I am likely confusing my wants with His promises. His covenantal promises to Abraham/Israel are already being fulfilled in Jesus and are mine to enjoy.</p>
                   <br></br>
 
-                  <Quote scripture="Know therefore that the LORD your God is God, the faithful God who keeps covenant and steadfast love with those who love him and keep his commandments, to a thousand generations," reference="Deuteronomy 7:9" color="var(--teal)"/>
-                  <Quote quote="But the Lord is faithful. He will establish you and guard you against the evil one." reference="2 Thessalonians 3:3" color="var(--teal)"/>                
+                  <Quote scripture="Know therefore that the LORD your God is God, the faithful God who keeps covenant and steadfast love with those who love him and keep his commandments, to a thousand generations," reference="Deuteronomy 7:9" color="var(--teal)"/>               
               </section>
             }
             biblicalChristianity={
@@ -95,22 +105,23 @@ class Faithful extends Component {
             scienceAndHealth={
               <section>
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("faithful")}}>God faithfully reveals Himself to us through every part of His creation. </h1>
-                  </section>
-                  <p className="is-size-6 leading-normal padded">We can either seek the One who is the Cause and Faithful Sustainer of all we discover - or we can simply take pride in our own self-sufficiency and power.  The latter appears to be like a baby who just discovered her hands - it can prove to be quite useful, but it is not of ultimate importance.</p>
-                  <p className="is-size-6 leading-normal padded">“In our time, deistic views (i.e. God started it all and now we are in charge) are influenced by the predominance of science and its technological benefits. Science, it is thought, shows us what the world is like. And the world that it shows us is one in which most things undergo causal developments under their own power. That is, our world is either a world completely without God or a deistic world, in which God mostly leaves the world to its own inner working.</p>
+<h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("faithful")}}>God faithfully reveals Himself to us through every part of His creation.</h1>
+                </section>
+                  <p className="is-size-6 leading-normal padded">We can either seek the One who is the Cause and Faithful Sustainer of all we discover - or we can simply take pride in our own self-sufficiency and power. The latter appears to be like a baby who just discovered her hands - it can prove to be quite useful, but it is not of ultimate importance.</p>
+                    <p className="is-size-6 leading-normal padded">“In our time, deistic views (i.e. God started it all and now we are in charge) are influenced by the predominance of science and its technological benefits. Science, it is thought, shows us what the world is like. And the world that it shows us is one in which most things undergo causal developments under their own power. That is, our world is either a world completely without God or a deistic world, in which God mostly leaves the world to its own inner working.</p>
                   <p className="is-size-6 leading-normal padded">But such thinking is a product not of the scientific data, but of analyzing the scientific data in a deistic way. In other words, deism is built into the implicit framework that people assume and use when thinking about science. They interpret the process of causation as self-sufficient, ignoring the presence of God working all things according to his will (Eph. 1:11). They assume self-sufficiency rather than demonstrate it. By contrast, the person who genuinely believes that God is intimately involved in growing grass and making the winds blow sees scientific data as a description of the faithfulness of God. God is so faithful in the ways in which he makes grass grow and the winds blow that we can give detailed descriptions of the regularities. Scientists at their best are merely describing some of the regular ways that God comprehensively rules the world.” - Excerpt from 5/1/19 post by Vern Poythress on Westminster Theological Seminary website, The Faithfulness of God in Science</p>
-                  <p className="is-size-6 leading-normal padded">“You cause the grass to grow for the livestock and plants for man to cultivate, that he may bring forth food from the earth.” - Psalm 104:14</p>
-                  <p className="is-size-6 leading-normal padded">“…he makes his wind blow and the waters flow.” - Psalm 147:18b</p>                
+                  <br></br>
+                  <Quote scripture="You cause the grass to grow for the livestock and plants for man to cultivate, that he may bring forth food from the earth." reference="Psalm 104:14" color="var(--teal)"/>
+                  <Quote scripture="…he makes his wind blow and the waters flow." reference="Psalm 147:18b" color="var(--teal)"/>               
               </section>
             }
             attHistory={
               <section>
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("faithful")}}>The 2000-year global growth of Christianity</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("faithful")}}>The 2000-year history of global growth of Christianity</h1>
 
                   </section>
-                  <p className="is-size-6 leading-normal padded">The key leader was killed on a Roman cross while his few disciples foundered in doubt and mourning.  However, after the resurrection, they were so sure it happened that it gave them the faith to risk their very lives based on its truth. The humble beginning has grown into the most global and diverse movement ever.</p>
+                  <p className="is-size-6 leading-normal padded">The key leader was killed on a Roman cross while his few disciples foundered in doubt and mourning.  However, after the resurrection, they were so sure it happened that it gave them the faith to risk their very lives based on its truth. This humble beginning has grown into the most global and diverse movement ever.</p>
                   <p className="is-size-6 leading-normal padded">Christianity is 29% of global population (with Islam at 24%, Hindu at 15% and "Unaffiliated/Secular" at 14%). This is down from 1900 on a percentage basis (from 34.8%), but up overall since total population has quadrupled since 1900.  Meanwhile, Christianity has become much more global over that period of time. In 1900, Europe and the Americas had the vast majority of the world’s Christians (93%). Sub-Saharan Africa, Asia and the Pacific has seen tremendous growth - in 2010, 26% of the world’s Christians lived in Europe, followed by 24.4% in Latin America and the Caribbean, 23.8% in Sub-Saharan Africa, 13.2% in Asia and the Pacific, 12.3% in North America, and 1% in the Middle East and North Africa. - Data from Wikipedia 2020</p>                
               </section>
             }

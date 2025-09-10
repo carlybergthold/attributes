@@ -171,6 +171,9 @@ class TopNav extends Component {
                             <Link to="/struggle">By Struggle</Link>
                         </span>
                         <span className="navbar-item">
+                            <Link to="/question">By Life Question</Link>
+                        </span>
+                        <span className="navbar-item">
                             <Link to="/basicneeds">By Who You Are in Christ</Link>
                         </span>
                         <span className="navbar-item">
@@ -238,6 +241,8 @@ class TopNav extends Component {
                                    <Link to="/fear" className="has-text-grey" onClick={this.exitMobileMenu}>By Fear</Link></div>
                                 <div className="mobile-dropdown-item">
                                    <Link to="/struggle" className="has-text-grey" onClick={this.exitMobileMenu}>By Struggle</Link></div>
+                                <div className="mobile-dropdown-item">
+                                   <Link to="/question" className="has-text-grey" onClick={this.exitMobileMenu}>By Life Question</Link></div>
                                 <div className="mobile-dropdown-item">
                                    <Link to="/basicneeds" className="has-text-grey" onClick={this.exitMobileMenu}>By Who You Are in Christ</Link></div>
                                 <div className="mobile-dropdown-item">

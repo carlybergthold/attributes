@@ -52,6 +52,16 @@ class Holy extends Component {
                   <Quote scripture="His (i.e. man's) own idea of sin is practically limited to what the world calls 'crime' Anything short of that, man palliates as 'defects', 'mistakes', 'infirmities', etc. And even where sin is owned at all, excuses and extenuations are made for it." reference="A.W. Pink" color="var(--teal)"/>                
               </section>
             }
+            question={
+              <section>
+                <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("holy")}}>As a Christian, is everything I do holy because of whose I am, or sinful because of where I am?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">Being “in Christ” means God sees only Christ’s perfection and holiness, covering our sins, which continue in us until we leave this world.  Our actions in this world, however, need not all be sinful - some can be redeemed by the Holy Spirit as holy when done in sincere service to God and others, which results in both our good and God’s glory.</p>
+                  <br></br>
+                  <Quote scripture="I appeal to you therefore, brothers, by the mercies of God, to present your bodies as a living sacrifice, holy and acceptable to God, which is your spiritual worship." reference="Romans 12:1" color="var(--teal)"/>                
+              </section>
+            }
             whoAmI={
               <section>
                  <section>
@@ -75,7 +85,7 @@ class Holy extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("holy")}}>So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Recognize that any unworthiness I feel in this life can be traced back to my true unworthiness with God.  Seek God on His merciful terms alone - surrender in repentance and become holy through faith in Jesus Christ.  <br></br>Ask: Just how holy is my life?</p>
+                  <p className="is-size-6 leading-normal padded">Recognize that any unworthiness I feel in this life can be traced back to my true unworthiness with God.  Seek God on His merciful terms alone - surrender in repentance and become holy through faith in Jesus Christ.  <br></br>Ask: Just how wholly is my life given to Christ?</p>
                   <Quote scripture="Remember that you were at that time separated from Christ, alienated from the commonwealth of Israel and strangers to the covenants of promise, having no hope and without God in the world." reference="Ephesians 2:12" color="var(--teal)"/>               
               </section>
             }
@@ -105,13 +115,13 @@ class Holy extends Component {
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("holy")}}>The Jewish nation of Israel was created by God in order to receive God's word, be separate from those around it, and represent God to the world. </h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Israel today remains quite separate from all those nearby, but the Christian faith is found in only 2% of its population.  However, the two largest religions of the world (Christianity and Islam), today covering over half the world's population, have their roots in this tiny nation.  "And I will make of you a great nation, and I will bless you and make your name great, so that you will be a blessing. I will bless those who bless you, and him who dishonors you I will curse, and in you all the families of the earth shall be blessed.” - Genesis 12:2-3</p>
-                  <p className="is-size-6 leading-normal padded">"Israel is the very embodiment of Jewish continuity: It is the only nation on earth that inhabits the same land, bears the same name, speaks the same language, and worships the same God that it did 3,000 years ago. You dig the soil and you find pottery from Davidic times, coins from Bar Kokhba, and 2,000-year-old scrolls written in a script remarkably like the one that today advertises ice cream at the corner candy store." - Quote from Charles Krauthammer - The Weekly Standard, May 11, 1998</p><p className="is-size-6 leading-normal padded">A day after the declaration of independence of the State of Israel in 1948, armies of five Arab countries, Egypt, Syria, Transjordan, Lebanon and Iraq, invaded Israel. This marked the beginning of the War of Independence. Arab states have jointly waged four full scale wars against Israel:<br></br>
-1948 War of Independence<br></br>
-1956 Sinai War<br></br>
-1967 Six Day War<br></br>
-1973 Yom Kippur War<br></br>
-
-Despite the numerical superiority of the Arab armies, Israel defended itself each time and won. After each war the Israeli army withdrew from most of the areas it captured. This is unprecedented in world history and shows Israel's willingness to reach peace even at the risk of fighting for its very existence.</p>                
+                  <p className="is-size-6 leading-normal padded">"Israel is the very embodiment of Jewish continuity: It is the only nation on earth that inhabits the same land, bears the same name, speaks the same language, and worships the same God that it did 3,000 years ago. You dig the soil and you find pottery from Davidic times, coins from Bar Kokhba, and 2,000-year-old scrolls written in a script remarkably like the one that today advertises ice cream at the corner candy store." - Quote from Charles Krauthammer - The Weekly Standard, May 11, 1998</p><p className="is-size-6 leading-normal padded">A day after the declaration of independence of the State of Israel in 1948, armies of five Arab countries, Egypt, Syria, Transjordan, Lebanon and Iraq, invaded Israel. This marked the beginning of the War of Independence. Enemy states have jointly waged at least five major wars against Israel:<br></br>
+                     1948 War of Independence<br></br>
+                     1956 Sinai War<br></br>
+                     1967 Six Day War<br></br>
+                     1973 Yom Kippur War<br></br>
+                     2023- Hamas, Hezbollah, Houthis and Iran War (continuing)</p>
+<p className="is-size-6 leading-normal padded">Despite the numerical superiority of enemy armies, Israel defended itself each time and won. After each war the Israeli army withdrew from most of the areas it captured. This is unprecedented in world history and shows Israel's willingness to reach peace even at the risk of fighting for its very existence.</p>                
               </section>
             }
             liturgy={

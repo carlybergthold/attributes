@@ -17,7 +17,7 @@ class Glorious extends Component {
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("glorious")}}>Glorious describes the summation of all of God’s attributes, often known as God’s beauty. 
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">Every human is created in God’s image, so we not only reflect His glory, but are also attracted to it. We can also be attracted to false imitations of His glory like fame and pride. Like God, we are pleased when others listen to us, appreciate us, and value us for who we are and what we do.  Glory’s root word indicates “heaviness” - so what we glory is what lays heavy on our hearts, what we hold to be most important.  Who or what would you say is your own glory?</p>
+                  <p className="is-size-6 leading-normal padded">Every human is created in God’s image, so we not only reflect His glory, but are also attracted to it. We can also be attracted to false imitations of His glory like fame and pride. Like God, we are pleased when others listen to us, appreciate us, and value us for who we are and what we do.  Glory’s root word indicates “heaviness” - so what we glory in is what lays heavy on our hearts, what we hold to be most important.  Who or what would you say is your own glory?</p>
                   <p className="is-size-6 leading-normal padded"> When I am not appreciated by others I can feel rejected.  I can obsess at times over what others think of me and work hard to make people think highly of me, maybe even better than who I really am.</p>
               </section>
             }
@@ -47,10 +47,21 @@ May the LORD give strength to his people! May the LORD bless his people with pea
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("glorious")}}>Isn’t it beneficial to have a good reputation?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Yes, when my reputation is based on fact and reflects God’s image, it is very beneficial.  And it feels good when someone thinks or speaks well of me, especially when I was not seeking it out.  But when I crave a good reputation, I am seeking my own glory and inevitably lessening God’s.</p>
+                  <p className="is-size-6 leading-normal padded">Yes, when my reputation is based on fact and reflects God’s image, it is very beneficial.  And it feels good when someone thinks or speaks well of me, especially when I am not seeking it out.  But when I crave a good reputation, I am seeking my own glory and inevitably lessening God’s.</p>
                   <br></br>
 
                   <Quote scripture="It is not good to eat much honey, nor is it glorious to seek one's own glory." reference="Proverbs 25:27" color="var(--teal)"/>               
+              </section>
+            }
+            question={
+              <section>
+                 <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("glorious")}}>Does God receive more glory from what I do, or who I am?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">Both matter a lot; yet also both fall way short. Meritocracy (what I do) rules much of the world today - it is all up to us, as if no one else or no circumstances of our birth contribute to our success.  Hundreds of years ago, I would have been born into a certain class (royalty - great!, slave - not so great!).  Blood line, birth order and social status were paramount - and unchangeable. But God subverted both first-born (i.e. Joseph) and works-based (rich young ruler) privileges so that we could focus more on Him than ourselves.  God receives glory from us only to the extent that our beliefs, actions and character reflect His nature and purpose.</p>
+                  <br></br>
+
+                  <Quote scripture="And if children, then heirs—heirs of God and fellow heirs with Christ, provided we suffer with him in order that we may also be glorified with him." reference="Romans 8:17" color="var(--teal)"/>               
               </section>
             }
             whoAmI={
@@ -58,7 +69,7 @@ May the LORD give strength to his people! May the LORD bless his people with pea
                  <section>
 
 <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("glorious")}}>Only God originates glory.</h1></section>
-<p className="is-size-6 leading-normal padded">All my true glory is a reflection of God's glory and can not add to His glory.  God's full glory must be diminished for me to safely perceive it.  Manmade glory is often marketed or exaggerated in order to capture my attention, which is its primary purpose.</p>
+<p className="is-size-6 leading-normal padded">All my true glory is a reflection of God's glory and cannot add to His glory.  While God's full glory must be diminished for me to safely perceive it, mman-made glory is often marketed or exaggerated in order to capture my attention.</p>
 
 <br></br>
 <Quote scripture="I (Jesus speaking) do not receive glory from people….How can you believe, when you receive glory from one another and do not seek the glory that comes from the only God?" reference="John 5:41,44" color="var(--teal)"/>               

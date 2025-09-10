@@ -17,8 +17,8 @@ class Incomprehensible extends Component {
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("incomprehensible")}}>Incomprehensible means more than we can humanly fathom.
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">We humans are very inquisitive and exploring beings from birth.  We prioritize learning and have uncovered much through our science and questioning, and we will go further because we seek what we do not fully know. </p>
-                  <p className="is-size-6 leading-normal padded">Regardless of my prior education, I still have plenty to learn.  Life requires me to keep up - I sometimes wonder if I will be able to learn all I need at the depth that I really need to be effective.  Even when I have all the data right in front of me, it can be hard to discern what information and conclusions I can fully trust.</p>
+                  <p className="is-size-6 leading-normal padded">We humans are inquisitive and exploring beings from birth.  We prioritize learning and have uncovered much through our science and questioning, and we will go further because we seek what we do not fully know. </p>
+                  <p className="is-size-6 leading-normal padded">Regardless of my prior education, I still have plenty to learn.  Life requires me to keep up - I sometimes wonder if I will be able to learn all I need at the depth that I really need to be effective.  Even when I have all the data right in front of me, it can be hard to discern at times what information and conclusions I can fully trust.</p>
               </section>
             }
             emotion={
@@ -52,6 +52,17 @@ class Incomprehensible extends Component {
                   <Quote scripture="He said to them, 'But who do you say that I am?' Simon Peter replied, 'You are the Christ, the Son of the living God.' And Jesus answered him, 'Blessed are you, Simon Bar-Jonah! For flesh and blood has not revealed this to you, but my Father who is in heaven.' " reference="Matthew 16:15-17" color="var(--teal)"/>               
               </section>
             }
+            question={
+              <section>
+                 <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("incomprehensible")}}>How do I make sense of truths that seem to oppose each other?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">Some apparently opposing truths are actually both true.  Are believers in Christ chosen by God or do they choose to follow God? I can certainly believe that I decided to follow Christ while God fully initiated that decision. How can Jesus be fully human AND fully God?  Current science cannot even explain the creation of energy and matter, let alone God, but that does not make God untrue.  Given God’s complexity, some truths will have to be held in faith because humans cannot comprehend everything of God.</p>
+                  <br></br>
+
+                  <Quote scripture="For my thoughts are not your thoughts, neither are your ways my ways, declares the Lord. For as the heavens are higher than the earth, so are my ways higher than your ways and my thoughts than your thoughts." reference="Isaiah 55:8-9" color="var(--teal)"/>               
+              </section>
+            }
             whoAmI={
               <section>
                  <section>
@@ -68,7 +79,7 @@ class Incomprehensible extends Component {
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("incomprehensible")}}>Jesus in the flesh was the most comprehensible form of an incomprehensible God.</h1></section>
                   <p className="is-size-6 leading-normal padded"> Jesus was fully God and fully man.  A mystery prophesied, born, lived and revealed in the Bible, yet still mysterious. </p>
 
-                  <Quote scripture="He said to them, 'But who do you say that I am?' Simon Peter replied, 'You are the Christ, the Son of the living God.' And Jesus answered him, 'Blessed are you, Simon Bar-Jonah! For flesh and blood has not revealed this to you, but my Father who is in heaven.' " reference="Matthew 16:15-17" color="var(--teal)"/>               
+                  <Quote scripture="He is the image of the invisible God, the firstborn of all creation. For by him all things were created, in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities—all things were created through him and for him. And he is before all things, and in him all things hold together. And he is the head of the body, the church. He is the beginning, the firstborn from the dead, that in everything he might be preeminent. For in him all the fullness of God was pleased to dwell, and through him to reconcile to himself all things, whether on earth or in heaven, making peace by the blood of his cross." reference="Colosians 1:15-20" color="var(--teal)"/>               
               </section>
             }
             soWhat={
@@ -95,9 +106,9 @@ class Incomprehensible extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("incomprehensible")}}>The more we learn, the more we discover what we don't know.</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">As we learn, complexity increases and we catch only glimpses of new horizons that beckon.  We know of God only what He has revealed and what we can deduce from His creation.  And one of things we know is that there is so much more.</p>
+                  <p className="is-size-6 leading-normal padded">As we learn, complexity increases and we catch only glimpses of new horizons that beckon.  We know of God only what He has revealed and what we can deduce from His creation.  And one of the things we know is that there is so much more to know!</p>
                   <p className="is-size-6 leading-normal padded">Much of what we consider true today was developed using the scientific process - a systematic way of learning about the world around us.  The basic 6 steps are 1) Ask a question. 2) Conduct research into what has been determined to date. 3) Propose a hypothesis - an educated guess about what you expect is the answer.  4) Design and perform a structured experiment to test your hypothesis 5) Record observations and analyze what the data means. 6) Accept (or reject) your hypothesis and communicate your results.</p>
-                  <p className="is-size-6 leading-normal padded">Most new theories today go through a peer review process in which knowledgeable people provide feedback.  If supported, the theory may be published in a scientific journal and allow others to either validate or disprove. In doing so, a consensus is developed as to what the best explanation is - until the theory is disproved or a more accurate theory is developed.</p>
+                  <p className="is-size-6 leading-normal padded">Most new theories today go through a peer review process in which knowledgeable people provide feedback.  If supported, the theory may be published in a scientific journal and others either validate or disprove. In doing so, a consensus is developed as to what the best explanation is - until the theory is disproved or a more accurate theory is developed.</p>
                   <p className="is-size-6 leading-normal padded">All this is tremendously valuable and has developed a huge foundation of knowledge.  However rigorous, the process falls short of defining absolute truth, and at times has simply reached the wrong conclusion.  Man's ability to grasp, detect, and measure what we don't know necessarily results in what is "forever tentative" (term used by Dallin Oaks).</p>
                   <Quote scripture="For his invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world, in the things that have been made. (So they are without excuse.)" reference="Romans 1:20" color="var(--teal)"/>               
               </section>

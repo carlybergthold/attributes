@@ -15,10 +15,10 @@ class Jealous extends Component {
             definition={
               <section>
                   <section>
-                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("jealous")}}>Jealous means to eagerly desire the best for our own and thus not tolerate rivals.
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("jealous")}}>Jealous means to eagerly desire the best for our own and thus to not tolerate rivals.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">We want what is good for those we care for - and we expect those who care for us to want and do good for us as well.  84% of Americans surveyed in a 2013 Pew Research Center study believed cheating on one’s spouse was morally unacceptable (and a 2021 Gallup poll has shown this has been increasing and is now 91%).  At least 60% of respondents viewed infidelity as wrong in 38 of 39 nations polled (only exception: France). </p>
-                  <p className="is-size-6 leading-normal padded">My biggest fears show what I value the most.  Fear is often about potential loss and I work hard to avoid losing what I value most.  When others take away what I value, it seems like punishment, for which I may blame God.  But when I sense God’s jealous love for me, I realize the high value He has for me and that every action He takes is for my good.</p>
+                  <p className="is-size-6 leading-normal padded">My biggest fears show what I value the most.  Fear is often about potential loss and I work hard to avoid losing what I value most.  When others take away what I value, it seems like punishment, for which I may choose to blame God.  But when I sense God’s jealous love for me, I realize the high value He has for me and that every action He takes is for my good.</p>
               </section>
             }
             emotion={
@@ -54,6 +54,17 @@ class Jealous extends Component {
                   <Quote scripture=" 'You shall have no other gods before me. You shall not make for yourself a carved image, or any likeness of anything that is in heaven above, or that is in the earth beneath, or that is in the water under the earth. You shall not bow down to them or serve them, for I the LORD your God am a jealous God...'" reference="Exodus 20:3-5a" color="var(--teal)"/>               
               </section>
             }
+            question={
+              <section>
+                 <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("jealous")}}>How do I win God’s acceptance?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">God always gives to us first, even before we first consider trying to 'win him over'.  And then when we finally begin to think, plan, decide, and do for Him, it is only done with His power and assistance.  So we do nothing to cajole Him into accepting and blessing us.  Trying to do so is like a 2-yr old wanting to take the family car out on the interstate alone to run an errand - it is an impossible task that is also quite dangerous.  God’s jealousy protects and nurtures, giving bountiful gifts (first) like His image, freedom, life, health, purpose and more. Our only valid response is to gratefully depend on theis Initiator and Giver.</p>
+                  <br></br>
+
+                  <Quote scripture="For you shall worship no other god, for the Lord, whose name is Jealous, is a jealous God." reference="Exodus 34:14" color="var(--teal)"/>               
+              </section>
+            }
             whoAmI={
               <section>
                 <section>
@@ -78,7 +89,7 @@ class Jealous extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("jealous")}}>So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Recognize and lean into God’s loving protection as a bride into her bridegroom’s arms.  Become His prized possession by fully trusting His promises and accepting His commands as what is best for me.   <br></br>Ask: Which promises or commands of God do I see as not ultimately for my own good?</p>
+                  <p className="is-size-6 leading-normal padded">Recognize and lean into God’s loving protection as a bride may lean into her bridegroom’s arms.  Become His prized possession by fully trusting His promises and accepting His commands as what is best.   <br></br>Ask: Which promises or commands of God do I see as not ultimately for my own good?</p>
                   <Quote scripture="But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light." reference="1 Peter 2:9" color="var(--teal)"/>               
               </section>
             }
@@ -87,7 +98,7 @@ class Jealous extends Component {
                    <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("jealous")}}>Prayer</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">You are Jealous, God, and I am thankful for that.  Your jealousy desires only your best for me.  Help me to see that and live a life in which your protective love casts out all my earthly fears.</p>
+                  <p className="is-size-6 leading-normal padded">You are Jealous, God, and I am thankful for that.  Your jealousy desires only what is best for me.  Help me to see that and live a life in which your protective love casts out all my earthly fears.</p>
                   <Quote scripture="So we have come to know and to believe the love that God has for us. God is love, and whoever abides in love abides in God, and God abides in him. By this is love perfected with us, so that we may have confidence for the day of judgment, because as he is so also are we in this world. There is no fear in love, but perfect love casts out fear." reference="1 John 4:16-18a" color="var(--teal)"/>               
               </section>
             }
@@ -99,7 +110,7 @@ class Jealous extends Component {
                   <p className="is-size-6 leading-normal padded">The top causes of divorce include infidelity, addictions, lack of commitment and/or communication, or major stressors, such as death of a child, spouse with major illness, or money issues.</p>
                   <p className="is-size-6 leading-normal padded">Real love includes both love and hate, each seeking what is best for the relationship.  This hate is proactively directed toward whatever may hurt the relationship - whether it be an addiction, a philanderer, or a too-busy schedule.   "Love sees sharply, hatred sees even more sharp, but jealousy sees the sharpest for it is love and hate at the same time” - Arab Proverb</p>
                   <p className="is-size-6 leading-normal padded">“….Jealousy is an anticipatory emotion. It seeks to prevent loss," said Ralph Hupka, Professor of Psychology, Emeritus at California State University at Long Beach. "Jealousy causes us to take precautionary measures. Should those fail and the partner has an affair, the new situation arouses anger, depression, disappointment, and so on.” - 8/18/16 article “How Jealousy Works” in Spirit Mind Body Connection</p>
-                  <p className="is-size-6 leading-normal padded">"Let love be genuine. Abhor what is evil; hold fast to what is good." - Romans 12:9</p>               
+                    <Quote scripture="Let love be genuine. Abhor what is evil; hold fast to what is good." reference="Romans 12:9" color="var(--teal)"/>             
               </section>
             }
             attHistory={
@@ -107,8 +118,8 @@ class Jealous extends Component {
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("jealous")}}>How does jealousy connect the Jewish and Christian religions?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Jews have pursued God through a religion of works for centuries.  And although God chose Israel and the Jewish people to be His faithful ones, many refused to accept Jesus in faith as Messiah.  This rejection allowed this gift to be offered to Gentiles (all non-Jews), resulting in Christianity. Some Jews now and more in the future will become jealous of this gracious faith and be drawn to Jesus.</p>
-                  <p className="is-size-6 leading-normal padded">"Now I am speaking to you Gentiles. Inasmuch then as I am an apostle to the Gentiles, I magnify my ministry in order somehow to make my fellow Jews jealous, and thus save some of them." - Romans 11:13-14</p>                
+                  <p className="is-size-6 leading-normal padded">Jews have pursued God through a religion of works for centuries.  And although God chose Israel and the Jewish people to be His faithful ones, many refused to accept Jesus in faith as Messiah.  This rejection allowed this gift to be offered to Gentiles (all non-Jews), resulting in Christianity. Some Jews now, and more in the future, become jealous of this gracious faith and are drawn to Jesus.</p>
+                    <Quote scripture="Now I am speaking to you Gentiles. Inasmuch then as I am an apostle to the Gentiles, I magnify my ministry in order somehow to make my fellow Jews jealous, and thus save some of them." reference="Romans 11:13-14" color="var(--teal)"/>        
               </section>
             }
             liturgy={

@@ -17,7 +17,7 @@ class Humble extends Component {
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("humble")}}>Humble means rightly considering yourself and elevating others.
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">Being humble does not mean to demean yourself or only think of others.  We work hard to accurately assess ourselves - to get a true picture of who we are.</p>
+                  <p className="is-size-6 leading-normal padded">Being humble does not mean to demean yourself or only think of others.  We work hard to accurately assess ourselves - to get a true picture of who we are. We also assess others, a more difficult task, so we do so optimistically, presuming the best.</p>
                   <p className="is-size-6 leading-normal padded">Being often aggravated or too busy for others can be two key warning signs that I am missing humility. And, though accurately assessing who I am is at the heart of humility, letting others’ opinions shape me more than God destroys my humility.</p>
               </section>
             }
@@ -51,10 +51,20 @@ class Humble extends Component {
                   <Quote scripture="Now as they went on their way, Jesus entered a village. And a woman named Martha welcomed him into her house. And she had a sister called Mary, who sat at the Lord's feet and listened to his teaching. But Martha was distracted with much serving. And she went up to him and said, “Lord, do you not care that my sister has left me to serve alone? Tell her then to help me.” But the Lord answered her, “Martha, Martha, you are anxious and troubled about many things, but one thing is necessary. Mary has chosen the good portion, which will not be taken away from her." reference="Luke 10:38-42" color="var(--teal)"/>                
               </section>
             }
+            question={
+              <section>
+                <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("humble")}}>How do I discover who I really am?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">C. S. Lewis penned “I become my own only when I give myself to another”, but we might today say “I am what I love.”  Our identity then hinges on what we love - “I am a …Vols fan, alcoholic, lawyer, quilter, Mom, gay, Baptist, etc.”  Our essence can then easily become a commoditized identity - limited to who I am paid to be or what I pay to be. Followers of Christ focus more on who we are IN Christ (a relationship which does not vary) and who we will become because of that relationship.  This alleviates the burden of self-actualization in this life, allowing my temporary identity to be messy, confusing, or even frustrating for me now, knowing that my true identity will be revealed over time through knowing God more fully.</p>
+                  <br></br>
+                  <Quote scripture="Whoever finds his life will lose it, and whoever loses his life for my sake will find it." reference="Matthew 10:39" color="var(--teal)"/>                
+              </section>
+            }
             whoAmI={
               <section>
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("humble")}}>Only God fully knows Himself and Always elevates others.</h1></section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("humble")}}>Only God fully knows Himself and always elevates others.</h1></section>
                   <p className="is-size-6 leading-normal padded">God elevates others through sanctification and salvation. Does God’s humility cause Him to see me as above Himself?  Of course not.  He accurately assesses Himself as perfect, and knows I am imperfect; yet He still chooses to serve me and elevate me in many ways.</p>
                   <br></br>
                   <Quote scripture="When he had washed their feet and put on his outer garments and resumed his place, he said to them, “Do you understand what I have done to you? You call me Teacher and Lord, and you are right, for so I am. If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another’s feet. For I have given you an example, that you also should do just as I have done to you." reference="John 13:12-15" color="var(--teal)"/>                
@@ -74,7 +84,7 @@ class Humble extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("humble")}}>So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Humbly trust that what God says is right and true - then humbly build life on this foundation, one day at a time.  Part of this construction work is realizing who I am in Christ.  <br></br>Humbly ask: If a Christian: Do I know and rest in who I am in Christ?  <br></br>If not a Christian: Do I know who I am in relation to Jesus according to the Bible?</p>
+                  <p className="is-size-6 leading-normal padded">Humbly trust that what God says is right and true - then humbly build life on this foundation, one day at a time.  Part of this construction work is realizing who I am in Christ.  <br></br>Humbly ask, if a Christian: Do I know and rest in who I am in Christ?  <br></br>If not a Christian: Do I know who I am in relation to Jesus according to the Bible?</p>
                   <Quote scripture="He has told you, O man, what is good; and what does the LORD require of you but to do justice, and to love kindness, and to walk humbly with your God?" reference="Micah 6:8" color="var(--teal)"/>               
               </section>
             }
