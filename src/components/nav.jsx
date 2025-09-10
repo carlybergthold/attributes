@@ -171,6 +171,9 @@ class TopNav extends Component {
                             <Link to="/struggle">By Struggle</Link>
                         </span>
                         <span className="navbar-item">
+                            <Link to="/question">By Life Question</Link>
+                        </span>
+                        <span className="navbar-item">
                             <Link to="/basicneeds">By Who You Are in Christ</Link>
                         </span>
                         <span className="navbar-item">

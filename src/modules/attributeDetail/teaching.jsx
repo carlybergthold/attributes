@@ -27,8 +27,8 @@ class Teaching extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("teaching")}}>Why do I sometimes need a coach or encourager?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Want to exercise more?  Make new friends?  Learn a new language or instrument?  Or tackle that next hard thing at work or a difficult conversation with a friend?  How about simply learning more about who God is?</p>
-                  <p className="is-size-6 leading-normal padded">I have many inner struggles, often knowing what is best for me long-term, but am blocked by an immediate emotional hurdle called reluctance.  This hurdle simply says, “I don’t feel like doing that right now,” or "I don't feel able to do that right now."  I need a coach - one who guides and encourages me to move past my fears and on toward future benefits.  It can be my spouse, a good friend, or someone I hire because I realize the value of external encouragement.  The perfect spiritual coach is the Holy Spirit, who guides and encourages me in all situations.</p>
+                  <p className="is-size-6 leading-normal padded">Want to exercise more?  Make new friends?  Learn a new language or instrument?  Or tackle that next hard thing at work or a difficult conversation with a friend?  How about simply learning more about who God is? So what's holding me back?</p>
+                  <p className="is-size-6 leading-normal padded">I have many inner struggles, often knowing what is best for me long-term, but am blocked by an immediate emotional hurdle called reluctance.  This hurdle simply says, “I don’t feel like doing that right now,” or "I'm not able to do that right now."  I need a coach - one who guides and encourages me to move past my fears and on toward future benefits.  It can be my spouse, a good friend, or someone I hire because I realize the value of external encouragement.  The perfect spiritual coach is the Holy Spirit, who guides and encourages me in all situations.</p>
                   <br></br>
                   <Quote scripture="The LORD is my shepherd; I shall not want.  He makes me lie down in green pastures. He leads me beside still waters.  He restores my soul.  He leads me in paths of righteousness for his name’s sake.  Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.  You prepare a table before me in the presence of my enemies; you anoint my head with oil; my cup overflows.  Surely goodness and mercy shall follow me all the days of my life, and I shall dwell in the house of the LORD forever." reference="Psalm 23:1-6"/>               
               </section>
@@ -49,10 +49,20 @@ class Teaching extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("teaching")}}>When learning itself is a struggle…</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">The perfect learning environment rarely exists.  My teachers or mentors may be harsh, uncaring, incompetent, or even nonexistent.  Or I may have a learning difference or disability that makes learning so much more of a struggle.  Or I might be the main problem - I either can’t or won’t learn because of the significant effort required.  What do I do?</p>
-                  <p className="is-size-6 leading-normal padded">The most obvious but difficult truth to accept is that obstacles will always be present.  In the verse below, it is easy to see the obstacles: What is this yoke? Doesn’t it imply heavy work and constriction? Can any burden really be termed ‘light’?  And how can I rest when you are giving me even more work?  All good questions to ask in time, but God’s guidance begins with a simple call - “Come to me…”.   The truth is that I need a Master Teacher to help me, especially in the midst of struggle.  God is that Master Teacher, always caring, gentle, and ready to help all who come to Him.</p>
+                  <p className="is-size-6 leading-normal padded">The perfect learning environment rarely exists.  My teachers or mentors may be harsh, uncaring, incompetent, or even nonexistent.  Or I may have a learning difference or disability that makes learning so much more of a struggle.  Or I might just not want to learn because of the significant effort required.  What do I do?</p>
+                  <p className="is-size-6 leading-normal padded">The most obvious but difficult truth to accept is that obstacles will always be present.  In the verse from Matthew 11 below, it is easy to see the potential obstacles: How heavy is this yoke that Jesus is offering? Doesn’t any yoke constrict movement, however light?  Can any burden really be termed ‘light’?  And how can I rest when you are giving me even more work?  All good questions to ask in time, but God’s guidance begins with a simple call - “Come to me…”.   The truth is that I need a Master Teacher to help me, especially in the midst of struggle.  God is that Master Teacher, always caring, gentle, and ready to help all who come to Him.</p>
                   <br></br>
                   <Quote scripture="Come to me, all who labor and are heavy laden, and I will give you rest. Take my yoke upon you, and learn from me, for I am gentle and lowly in heart, and you will find rest for your souls. For my yoke is easy, and my burden is light." reference="Matthew 11:28-30" />               
+              </section>
+            }
+            question={
+              <section>
+                 <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("teaching")}}>If God is my sovereign guide, do I even have any responsibility?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">It is easy to assume no responsibility when I see God as fully responsible.  However, it is in God’s sovereignty that He established both significance and a role for man, from which our responsibility is born.  We have the unique role to reflect God's character and authority on Earth - to rule over creation, be fruitful, and tend to the world around us, as stewards of God's creation. This Biblical responsibility can be rejected, but only to our detriment. It is core to our purpose for living and beautifully reflects God's glory, resulting in much kind benevolence, equality of all people, enjoyed freedom, and so much more.</p>
+                  <br></br>
+                  <Quote scripture="Then God said, “Let us make man in our image, after our likeness… And God blessed them. And God said to them, “Be fruitful and multiply and fill the earth and subdue it, and have dominion over the fish of the sea and over the birds of the heavens and over every living thing that moves on the earth.”" reference="Genesis 1:26a,28" />               
               </section>
             }
             whoAmI={
@@ -101,10 +111,10 @@ class Teaching extends Component {
                   <p className="is-size-6 leading-normal padded">Jesus in the flesh provided the best example of an effective human teacher.  Consider the following effective teacher qualities that Pearson Ed found from a survey of both teachers and students, along with how Jesus demonstrated each.</p>
                   <p className="is-size-6 leading-normal padded">1. Ability to develop trusting, productive relationships<br></br>- 11 of 12 disciples were willing to die (and most did) for their teacher <br></br>
                   2. Patient, caring, kind<br></br>     - All godly attributes<br></br>
-                  3. Knowledge of learners - God is omniscient, knowing those He created better than they know themselves.<br></br>
+                  3. Knowledge of learners<br></br> - God is omniscient, knowing those He created better than they know themselves.<br></br>
                   4. Dedication to teaching<br></br>     - Driven by the same love that sent Him to die on a cross<br></br>
-                  5. Subject matter knowledge (tie)<br></br>    - John 14:6 (ESV) Jesus said to him, "I am the way, and the truth, and the life.  No one comes to the Father except through me."<br></br>
-                  5. Engaging students in learning (tie)<br></br>    - Through His Spirit, Jesus individually and uniquely teaches each of us through all we encounter in life </p>               
+                  5. Subject matter knowledge (tied in survey ranking)<br></br>    - Jesus not only is the Creator and Sustainer of all things, He is The way (to the Father), the Truth, and the Life.<br></br>
+                  5. Engaging students in learning (tied in survey ranking)<br></br>    - Through His Spirit and Word, Jesus individually and uniquely teaches each of us through all we encounter in life </p>               
               </section>
             }
             attHistory={

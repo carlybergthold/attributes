@@ -50,6 +50,7 @@ class AttributeSidebar extends Component {
             <li onClick={this.handleClickMobile}><a href="#emotionMobile">My Emotion</a></li>
             <li onClick={this.handleClickMobile}><a href="#fearMobile">My Fear</a></li>
             <li onClick={this.handleClickMobile}><a href="#struggleMobile">My Struggle</a></li>
+            <li onClick={this.handleClickMobile}><a href="#questionMobile">My Culture's FAQs</a></li>
             <li onClick={this.handleClickMobile}><a href="#whoAmIMobile">Who is God?</a></li>
             <li onClick={this.handleClickMobile}><a href="#biblicalChristianityMobile">Who is Jesus?</a></li>
             <li onClick={this.handleClickMobile}><a href="#soWhatMobile">So What?</a></li>
@@ -75,6 +76,9 @@ class AttributeSidebar extends Component {
             </span>
             <span className="navbar-item" onClick={this.handleClick}>
               <a href="#struggle">My Struggle</a>
+            </span>
+            <span className="navbar-item" onClick={this.handleClick}>
+              <a href="#question">My Culture's FAQs</a>
             </span>
             <span className="navbar-item" onClick={this.handleClick}>
               <a href="#whoAmI">Who is God?</a>

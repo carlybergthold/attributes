@@ -19,7 +19,7 @@ class Merciful extends Component {
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">When directly faced with someone in obvious need, we may not help - but we still want to.  We see that kind of action as “right” and often rewarding.</p>
                   <p className="is-size-6 leading-normal padded">Americans typically make donations within six weeks of a big disaster, when media coverage is the most intense. Their contributions usually slow to a crawl six months later, once the cameras stop rolling and the news cycle moves on.  Hurricane Katrina brought the highest giving amount ever - $4.2B (with almost half of all Americans responding).  The 9/11 disaster is second at $2.6B (with almost 3/4 of Americans giving!). - The Conversation (Sept 2017)</p>
-                  <p className="is-size-6 leading-normal padded">Mercy sometimes seems to compete with justice (i.e. making things right).  I might withhold mercy from another because it might make their behavior worse, or because I am too resentful over the unfairness of it all.  Of course, someone else might do the same to me, even when I plead for and need mercy the most.</p>
+                  <p className="is-size-6 leading-normal padded">Mercy, however, sometimes seems to compete with justice (i.e. making things right).  I might withhold mercy from another because I think it might make their bad behavior worse (will the panhandler just use money to buy booze?), or because I am too resentful over some real or perceived unfairness (you really expect me to do this for you when you did this to me?).  Of course, someone else might withhold mercy from me, even when I am experiencing my greatest need.</p>
               </section>
             }
             emotion={
@@ -37,7 +37,7 @@ class Merciful extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("merciful")}}>I need mercy, but probably don’t deserve it.</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">No one deserves mercy, especially God’s mercy.  But conviction of wrong-doing and a sense that mercy is needed are the critical first two steps to receiving mercy. We do not execute either of these first steps when it comes to our relationship with God - they are both products of the Holy Spirit.  Indeed, Martyn Lloyd-Jones (minister of Westminster Chapel in London for over 30 years) reflected on this, saying "You will never make yourself feel that you are a sinner, because there is a mechanism in you as a result of sin that will always be defending you against every accusation."  The next step to receiving mercy stems from the first two - we ask for it. With humans, mercy may or may not come, depending upon the one in position to grant the mercy. With God, He always desires to grant mercy to those who ask of Him,</p>
+                  <p className="is-size-6 leading-normal padded">No one deserves mercy, especially God’s mercy.  But conviction of wrong-doing and a sense that mercy is even needed are the critical first two steps to receiving mercy. We do not muster either of these first steps when it comes to our relationship with God - they are both products of the Holy Spirit.  Indeed, Martyn Lloyd-Jones (minister of Westminster Chapel in London for over 30 years) reflected on this, saying "You will never make yourself feel that you are a sinner, because there is a mechanism in you as a result of sin that will always be defending you against every accusation."  The next step to receiving mercy stems from the first two - we ask for it. With human interactions, mercy may or may not come, depending upon the one in position to grant the mercy. With God, He always desires to grant mercy to those who sincerely ask it of Him.</p>
                   <br></br>
                   <Quote scripture="For he says to Moses, 'I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.' So then it depends not on human will or exertion, but on God, who has mercy." reference="Romans 9:15-16" color="var(--teal)"/>               
               </section>
@@ -54,11 +54,22 @@ class Merciful extends Component {
                   <Quote scripture="He has told you, O man, what is good; and what does the LORD require of you but to do justice, and to love kindness, and to walk humbly with your God?" reference="Micah 6:8" color="var(--teal)"/>               
               </section>
             }
+            question={
+              <section>
+                 <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("merciful")}}>To whom should I show the most mercy?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">Christianity has for over 2000 years encouraged benevolence to the poor and, more recently, the concept of international aid.  We can now give compassionately to others very far away, increasing the number of people we can potentially help to literally billions.  While helping others in remote places can be worthwhile, Jesus demonstrated to whom we should be most compassionate, merciful and loving - our neighbor.  Not necessarily the one across the street, but whoever we are with right now, giving room for immediate action.  Jesus clearly approached every person before Him with love and compassion, encouraging us to do the same.
+                  </p>
+                  <br></br>
+                  <Quote scripture="When he went ashore he saw a great crowd, and he had compassion on them, because they were like sheep without a shepherd. And he began to teach them many things." reference="Mark 6:34" color="var(--teal)"/>               
+              </section>
+            }
             whoAmI={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("merciful")}}>Only God can grant merciful forgiveness of sin.</h1></section>
-                  <p className="is-size-6 leading-normal padded">God's mercy can  restore a right relationship with our Creator.  Man can act mercifully to others, but can never attain God's forgiveness apart from Christ. </p>
+                  <p className="is-size-6 leading-normal padded">Only God's mercy can restore a right relationship with our Creator.  We can consistently act mercifully to every person we encounter, but we can never attain God's forgiveness apart from Christ. </p>
                   <br></br>
                   <Quote scripture="But God shows his love for us in that while we were still sinners, Christ died for us." reference="Romans 5:8" color="var(--teal)"/>               
               </section>
@@ -77,7 +88,7 @@ class Merciful extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("merciful")}}>So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Praise God for the mercy He shows me.  Let me eagerly and cheerfully show mercy to others.  While helping others in need, help me to realize that every person has the need to know Christ better.  <br></br>Ask: When is the last time I have needed mercy?  <br></br>When is the last time I have shown mercy?</p>
+                  <p className="is-size-6 leading-normal padded">Praise God for the mercy He has shown me and continues to show.  Let me eagerly and cheerfully show mercy to others.  While helping others in need, help me to realize that every person has the ultimate need to know Christ better.  <br></br>Ask: When is the last time I have needed mercy?  <br></br>When is the last time I have shown mercy?</p>
                   <Quote scripture="Blessed are the merciful, for they shall receive mercy." reference="Matthew 5:7" color="var(--teal)"/>               
               </section>
             }
@@ -95,8 +106,8 @@ class Merciful extends Component {
                 <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("merciful")}}>How are we “hard-wired" to be merciful?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">We want to help others in need.  It is when we selfishly consider the cost we may endure that we often back away from merciful actions.  But we step forward when we selflessly consider the cost which another is enduring by imagining it as our own.</p>
-                  <p className="is-size-6 leading-normal padded">Research shows that when we see others being harmed, our brains react in similar ways as if we were being harmed....These events also stimulate us to think of our own experiences of pain or trauma; in other words, our 'autobiographical memory'. We remember the times when we were in danger or in pain and our brain, in a sense, reaches out and imagines how the actual victims are thinking and feeling. - Psychology Today Mar 2011 (God's wisdom shining though a secular source)</p>                
+                  <p className="is-size-6 leading-normal padded">Our desire to help others in need seems natural.  It is when we selfishly consider the cost that we often back away from merciful actions.  It is only when we take on the burden of another as if it were our own do we selflessly step in to help.</p>
+                  <p className="is-size-6 leading-normal padded">"Research shows that when we see others being harmed, our brains react in similar ways as if we were being harmed....These events also stimulate us to think of our own experiences of pain or trauma; in other words, our 'autobiographical memory'. We remember the times when we were in danger or in pain and our brain, in a sense, reaches out and imagines how the actual victims are thinking and feeling."" - Psychology Today Mar 2011 (God's wisdom shining though a secular source)</p>                
               </section>
             }
             attHistory={
@@ -104,9 +115,9 @@ class Merciful extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("merciful")}}>How did David go from adultery and murder to being known as  the "father" of Jesus?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">It was only because of God's abundant mercy, lavishly poured out from God on one who understood his despicable actions and desperate need for God's forgiveness.  David came to the point of recognizing his sin and his need and asked God for mercy.  Much later, two blind men also asked for mercy from Jesus while calling Him the ‘Son of David’.</p>
-                  <p className="is-size-6 leading-normal padded">"A Psalm of David, when Nathan the prophet went to him, after he had gone in to Bathsheba.  Have mercy on me, O God, according to your steadfast love; according to your abundant mercy blot out my transgressions." - Psalm 51</p>
-                  <p className="is-size-6 leading-normal padded">"And as Jesus passed on from there, two blind men followed him, crying aloud, “Have mercy on us, Son of David.” - Matthew 9:27</p>               
+                  <p className="is-size-6 leading-normal padded">It was only because of God's abundant mercy, lavishly poured out from God on one who came to understand that his actions grieved God and that he had a desperate need for God's forgiveness, culminating in David asking God for mercy.  Much later, two blind men also asked for mercy from Jesus while calling Him the ‘Son of David’.</p>
+                  <Quote scripture="A Psalm of David, when Nathan the prophet went to him, after he had gone in to Bathsheba.  Have mercy on me, O God, according to your steadfast love; according to your abundant mercy blot out my transgressions." reference="Psalm 51:1" color="var(--teal)"/>
+                  <Quote scripture="And as Jesus passed on from there, two blind men followed him, crying aloud, “Have mercy on us, Son of David." reference="Matthew 9:27" color="var(--teal)"/>              
               </section>
             }
             liturgy={

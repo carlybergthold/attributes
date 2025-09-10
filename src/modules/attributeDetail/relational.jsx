@@ -29,7 +29,7 @@ class Relational extends Component {
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("relational")}}>Why am I so frustrated with one of my closest friends?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Frustration comes with all relationships.  Two different wills, expectations and even loves will rarely join together perfectly.  The frustration can last momentarily or can threaten the relationship, but its presence at some level and duration is absolutely normal.</p>
-                  <p className="is-size-6 leading-normal padded">Since I am imperfect, I relate imperfectly to a perfect God, which results in frustration for me as well.  The Psalmist below basically says “I know you are God, BUT…”  This Psalm ends with his need unmet, but with the frustration voiced - which is perhaps the most critical action I can take when feeling frustrated. God even desires for us to cry out our needs to Him - that alone can remind us of His perfect sovereignty, leading to hope rather than more frustration.</p>
+                  <p className="is-size-6 leading-normal padded">Since I am imperfect, I relate imperfectly to a perfect God, which also can make me frustrated.  The Psalmist below basically says “I know you are God, BUT…”  This Psalm ends with his need unmet, but with the frustration voiced - which is perhaps the most critical action I can take when feeling frustrated. God even desires for us to cry out our needs to Him - that alone can remind us of His perfect sovereignty, leading to hope rather than more frustration.</p>
                   <br></br>
                   <Quote scripture="But you have rejected us and disgraced us and have not gone out with our armies.  You have made us turn back from the foe, and those who hate us have gotten spoil. You have made us like sheep for slaughter and have scattered us among the nations.  You have sold your people for a trifle, demanding no high price for them.  You have made us the taunt of our neighbors, the derision and scorn of those around us…  ...For our soul is bowed down to the dust; our belly clings to the ground.  Rise up; come to our help!  Redeem us for the sake of your steadfast love!" reference="Psalm 44:9-13, 25-26"/>               
               </section>
@@ -54,12 +54,22 @@ class Relational extends Component {
                   <Quote scripture="Then Isaiah is so bold as to say, 'I have been found by those who did not seek me;  I have shown myself to those who did not ask for me. But of Israel he says, 'All day long I have held out my hands to a disobedient and contrary people.' " reference="Romans 10:20-21" />               
               </section>
             }
+            question={
+              <section>
+                 <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("relational")}}>How can I best relate to other people?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">As unique images of God.  While many view individuals as simply one more of a certain family, class, or nation, with their own associated rights and privileges, Jesus saw the individual before Him - an outcast woman, a man born blind, a rich and selfish ruler - all equal in standing.  Not only did He see the person as unique images of God, He expanded the coveted Roman “citizenship” (only earned by birth or money) and made it available to all people through faith in Christ - a new citizenship in a global and eternal kingdom.  He introduced the enduring values of equality, freedom and individualism which we enjoy today.</p>
+                  <br></br>
+                  <Quote scripture="There is neither Jew nor Greek, there is neither slave nor free, there is no male and female, for you are all one in Christ Jesus." reference="Galatians 3:28" />               
+              </section>
+            }
             whoAmI={
               <section>
                  <section>
-                  <Hero title="Only God can be fully intimate in an infinite number of relationships."></Hero>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("relational")}}>Only God can be fully intimate in an infinite number of relationships.</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">Each person of the Trinity (Father, Son & Holy Spirit) had relationship with each other before creation was made.  Each closely interacted with each other in full intimacy - or oneness. My relationships are finite and always flawed. I strive for intimacy or oneness with others, but it can be elusive or fleeting.</p>
+                  <p className="is-size-6 leading-normal padded">Each person of the Trinity (Father, Son & Holy Spirit) had relationship with each other before creation was made.  Each closely interacted with each other in full intimacy - or oneness. My relationships are finite and always flawed. While I may strive for perfect intimacy or oneness with others, it can be elusive or fleeting.</p>
                   <br></br>
                   <Quote scripture="Then the LORD God said, 'It is not good that the man should be alone;'" reference="Genesis 2:18a" />               
               </section>
@@ -68,7 +78,7 @@ class Relational extends Component {
               <section>
                    <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("relational")}}>Jesus demonstrated care and intimacy in serving his disciples and close friends.</h1></section>
-                  <p className="is-size-6 leading-normal padded">Jesus is not only a good example for me, but also indicative of the relationship He wants me to have with Him now and for eternity. God extended the humanly ultimate intimacy with Adam and Eve in the Garden of Eden; it was lost in the fall, but then restored by Jesus' work on the cross.</p>
+                  <p className="is-size-6 leading-normal padded">Jesus is not only a good example for me, but also indicative of the relationship He wants me to have with Him now and for eternity. God extended the humanly-ultimate intimacy with Adam and Eve in the Garden of Eden (i.e. a relationship with God); it was lost in the fall, but then restored by Jesus' work on the cross.</p>
                   <Quote scripture="Now this is eternal life: that they know you, the only true God, and Jesus Christ, whom you have sent." reference="John 17:3" color="var(--teal)"/>               
               </section>
             }
@@ -96,7 +106,8 @@ class Relational extends Component {
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("relational")}}>Good relationships bring good health!</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Many studies show healthy friendships can benefit health, including improved recovery from illness, less stress and a longer and healthier life. Many of these health benefits also stem from having a relationship with God.  Our body, mind and soul are connected in ways that we are just only beginning to understand.  God made this connection long ago:</p>
-                  <p className="is-size-6 leading-normal padded">"Gracious words are like a honeycomb, sweetness to the soul and health to the body." - Proverbs 16:24</p>
+                  <Quote scripture="Gracious words are like a honeycomb, sweetness to the soul and health to the body." reference="Proverbs 16:24" /> 
+
                   <p className="is-size-6 leading-normal padded">A study of 3000 nurses with breast cancer showed those with no friends were 4X more likely to die than those with 10 friends, regardless of their proximity.  
                   An Australian Longitudinal Study of Aging followed 1500 seniors over 10 years and found those with many friends outlived those with few or no friends by 22%.  
                   A Swedish survey of women 75 years and older showed less dementia in those who kept in contact with a variety of friends.  

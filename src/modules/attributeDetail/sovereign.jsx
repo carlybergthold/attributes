@@ -19,7 +19,7 @@ class Sovereign extends Component {
                   <h1 className="title added" style={{color: styleMethods.getAttributeColor("sovereign")}}>Sovereign means to be lord and king, subject to no other authority.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">We like to be in charge - if not of others, at least of our own lives.  We like to choose what we want and when we want it.  We tend to bristle when others impose their will upon us - whether this be the government, employers, or even our own friends and family.  Money often is seen as a key to keeping or boosting our personal sovereignty.</p>
-                  <p className="is-size-6 leading-normal padded">The more I like being in control, the more I will fear losing it - because something bad will likely happen if I don’t prevent it.  So both suffering the bad or losing control will bring sadness and anxiety into my life, when my goal is quite the opposite - to be happy and at peace. Of course, if God is truly sovereign, do I really have any control?</p>
+                  <p className="is-size-6 leading-normal padded">The more I like being in control, the more I will fear losing it - because something bad may happen if I don’t prevent it.  This suffering will bring me sadness and losing control will produce anxiety, when my goal in life is quite the opposite - to be happy and at peace. Of course, if God is truly sovereign, do I really have any control?</p>
               </section>
             }
             emotion={
@@ -30,8 +30,8 @@ class Sovereign extends Component {
                   <p className="is-size-6 leading-normal padded">Sadness is the natural result of loss.  Most of what I gain in this life I will eventually lose, often multiple times. Since losses typically impact people twice as powerfully as a similar gain, this emotion can predominate life. And the more I value what I lost, the deeper and longer my sadness will be, and the more I will withdraw and seek comfort.</p>
                   <p className="is-size-6 leading-normal padded">Ironically, many losses come with an associated, yet distinctly different, gain, which I do well to seek and fully embrace.  Focusing only on a past or expected loss can prevent me from even noticing the gain right before me.  When I accept God as my Lord and Sovereign, I give up much, including my own will that is opposed to God. Perceived as a loss, I may grieve over and naturally cling to this old will.  However, meditating on the gain, as this psalmist does, allows me to see the Spirit as good leadership to guide me through life.</p>
                   <br></br>
-                  <Quote scripture="For the enemy has pursued my soul; he has crushed my life to the ground; he has made me sit in darkness like those long dead. Therefore my spirit faints within me; my heart within me is appalled. I remember the days of old; I meditate on all that you have done; I ponder the work of your hands. I stretch out my hands to you; my soul thirsts for you like a parched land. Selah. </p>
-                  <p….Deliver me from my enemies, O LORD!  I have fled to you for refuge. Teach me to do your will, for you are my God!  Let your good Spirit lead me on level ground! For your name’s sake, O LORD, preserve my life!  In your righteousness bring my soul out of trouble! And in your steadfast love you will cut off my enemies, and you will destroy all the adversaries of my soul, for I am your servant." reference="Psalm 143:3-6,9-12"/>               
+                  <Quote scripture="For the enemy has pursued my soul; he has crushed my life to the ground; he has made me sit in darkness like those long dead. Therefore my spirit faints within me; my heart within me is appalled. I remember the days of old; I meditate on all that you have done; I ponder the work of your hands. I stretch out my hands to you; my soul thirsts for you like a parched land. Selah.
+                  ….Deliver me from my enemies, O LORD!  I have fled to you for refuge. Teach me to do your will, for you are my God!  Let your good Spirit lead me on level ground! For your name’s sake, O LORD, preserve my life!  In your righteousness bring my soul out of trouble! And in your steadfast love you will cut off my enemies, and you will destroy all the adversaries of my soul, for I am your servant." reference="Psalm 143:3-6,9-12"/>               
               </section>
             }
             fear={
@@ -40,7 +40,7 @@ class Sovereign extends Component {
                   <h1 className="title added" style={{color: styleMethods.getAttributeColor("sovereign")}}>I fear what might happen if I do not have full control of my life.</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">Doing my best with what I can control is good.  However, believing I can control all outcomes or desiring a guaranteed future will eventually disappoint because life always brings unexpected events - some of which I will perceive to be good, but many I will not like.  The unexpected good is easy, but how do I respond to this unexpected bad?</p>
-                  <br></br>
+                  
                   <p className="is-size-6 leading-normal padded">To stoically bear through the bad is often needed. 
                   <br></br>To squeeze any good I can find from it is admirable.  
                   <br></br>To believe good will eventually come from a bad makes it much more tolerable, if not acceptable.  
@@ -61,10 +61,20 @@ class Sovereign extends Component {
                   <Quote scripture="You will say to me then, 'Why does he still find fault? For who can resist his will?'  But who are you, O man, to answer back to God?  Will what is molded say to its molder, 'Why have you made me like this?' Has the potter no right over the clay, to make out of the same lump one vessel for honorable use and another for dishonorable use?" reference="Romans 9:19-21" />               
               </section>
             }
+            question={
+              <section>
+                 <section>
+                  <h1 className="title added" style={{color: styleMethods.getAttributeColor("sovereign")}}>How much in life am I really free to decide?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">Maybe what to have for dinner - or maybe not!  While Sartre felt humans were always free to act, modern science reduces our will to only reactions to stimuli (the religion of cause and effect).  My freedom to decide will result in my enslavement to something - free elections result in abiding by the elected official’s will, freedom from economic regulation brings subservience to capital markets, freedom of speech forces me to live with oppressive words.  Exodus demonstrates Israel being freed from Egypt to… serve God.  Freedom always uncovers a master (self, other people, business, greed, etc.) - but only God is truly worthy of the role.</p>
+                  <br></br>
+                  <Quote scripture="You did not choose me, but I chose you and appointed you that you should go and bear fruit…" reference="John 15:16a" />               
+              </section>
+            }
             whoAmI={
               <section>
                  <section>
-                  <Hero title="Only God is sovereign."></Hero>
+                  <h1 className="title added" style={{color: styleMethods.getAttributeColor("sovereign")}}>Only God is sovereign.</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">I must concede that much in my life is not within my control.  I might then look at my own limitations and erroneously assume God is similarly constrained.  Must the sovereign Creator even conform to the scientific norms of His own creation?  No, His sovereignty soars even above His created works.</p>
                   <br></br>
@@ -106,8 +116,8 @@ class Sovereign extends Component {
                   <h1 className="title added" style={{color: styleMethods.getAttributeColor("sovereign")}}>An abundance of choice in our free market caters to my perceived personal sovereignty.</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">A free market economy has nearly satiated our desire for personal sovereignty.  In the last 20 years, the number of items found at a typical grocery store has grown from 7000 to 40-50,000.  Want coffee?  From basically two different beans (arabica or robusta), we need to choose from whole beans, ground or instant - then decaf, flavored, and type of roast - grown in what part of the world - organic, fair trade, or rainforest alliance certified?  Not to mention brand.  And then there's the milk that you can choose to add (or not) - cream, whole, 2%, skim, coconut, almond, soy, oat, rice, hemp, cashew.....</p>
-                  <p className="is-size-6 leading-normal padded">I really like being able to choose what I want.  However, once I experience nearly unlimited choice, a lack of choice can diminish my sense of control and invoke an intense feeling of personal loss.  How do I feel loss even in little things - when I see an empty shelf instead of the product I really want to buy?  Or when I cannot get any faster than 2-day shipping from Amazon?</p> 
-                  <p className="is-size-6 leading-normal padded">The good news is that no matter how overwhelmed and out of control we may feel, thankfully nothing, large or small, hinders God's control.</p>               
+                  <p className="is-size-6 leading-normal padded">I really like being able to choose what I want.  However, once I experience nearly unlimited choice, a lack of choice can diminish my sense of control, invoking a feeling of personal loss.  How can I feel such intense loss even in what amounts to a small matter - like when I see an empty shelf instead of the product I really wanted to buy?  Or when I cannot get it any faster than 2-day shipping from Amazon?</p> 
+                  <p className="is-size-6 leading-normal padded">The good news is that no matter how overwhelmed and out of control we may begin to feel, thankfully nothing, large or small, hinders God's control.</p>               
               </section>
             }
             attHistory={

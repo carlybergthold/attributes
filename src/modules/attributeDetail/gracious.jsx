@@ -18,7 +18,7 @@ class Gracious extends Component {
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("gracious")}}>Gracious means sacrificially loving the undeserved.
                   </h1></section>
                   <p className="is-size-6 leading-normal padded">We identify with the underdog (the Rocky movies), the weakling (David and Goliath), the defenseless (victims of crime) because most of us have experienced being one of these in some form in the past, or can imagine experiencing them in our future.  Sometimes we simply want to help - to graciously meet a need.</p>
-                  <p className="is-size-6 leading-normal padded">But to be truly gracious can be hard.  Grace flows from my love for another, but often love ebbs when I am not receiving anything in return, or worse, I am receiving only abuse as acknowledgement of my grace.</p>
+                  <p className="is-size-6 leading-normal padded">But to be truly gracious can be hard.  Grace flows from my love for another, but sometimes my love ebbs when I am not receiving anything in return, or worse, I am receiving only abuse as acknowledgement of my grace.</p>
               </section>
             }
             emotion={
@@ -44,18 +44,28 @@ class Gracious extends Component {
             struggle={
               <section>
                 <section>
-                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("gracious")}}>What’s wrong with hard work?</h1>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("gracious")}}>Won't hard work fix pretty much everything?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Hard work is good for the soul and beneficial for earning a living, building relationships and completing projects around the house.  However, the most generous people often have a hard time receiving anything for which they do not have to work.  Gracious yet self-sufficient people generally live well, but may completely miss salvation, which can never be earned and can only be received by God’s grace.</p>
+                  <p className="is-size-6 leading-normal padded">Hard work is good for the soul and beneficial for earning a living, building relationships and completing projects around the house.  However, the most generous people often have a hard time receiving anything for which they do not have to work.  Gracious yet self-sufficient people generally live well, but may completely miss God's salvation, which can never be earned by hard work, but can only be received by God’s grace.</p>
                   <br></br>
                   <Quote scripture="And if by grace, then it is no longer by works; if it were, grace would no longer be grace." reference="Romans 11:6" color="var(--teal)"/>                
+              </section>
+            }
+            question={
+              <section>
+                <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("gracious")}}>Do I need to hate all the things of this world in order to love God?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">No.  We should avoid both radicalism (hating the world and loving only the ultimate, the Gospel) and compromise (working to destroy the ultimate).  Hate of everything in the world (which He created) does not improve our love for God.  We should love all creation deeply, just not ultimately. This kind of love perceives both the bad and the good present, never misrepresents or confuses, but seeks to understand well and then do good to all, keeping an ultimate goal of loving God. Although Jesus counseled giving to Caesar what is his and to God His, even the worldly coin had an image of God (i.e. Caesar) imprinted upon it, thus transforming even the mundane worldly duty of paying taxes into an offering to God. </p>
+                  <br></br>
+                  <Quote scripture="Is it lawful to pay taxes to Caesar, or not? Should we pay them, or should we not?  But, knowing their hypocrisy, he said to them, “Why put me to the test? Bring me a denarius and let me look at it.  And they brought one. And he said to them, “Whose likeness and inscription is this?” They said to him, “Caesar’s.”  Jesus said to them, “Render to Caesar the things that are Caesar’s, and to God the things that are God’s.” And they marveled at him." reference="Mark 12:14b-17" color="var(--teal)"/>                
               </section>
             }
             whoAmI={
               <section>
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("gracious")}}>Only God is truly gracious.</h1></section>
-                  <p className="is-size-6 leading-normal padded">My human graciousness toward someone can quickly be overwhelmed when I learn how truly undeserving that person is - at fault, ungrateful, potentially dangerous, etc.  Unless I have an obvious gain, I am often quick to back away and help someone a bit more deserving.  However, God heaps His graciousness on those who are “yet sinners.”  And then even provides me with the means to be truly gracious to others.</p>
+                  <p className="is-size-6 leading-normal padded">My human graciousness toward someone can quickly be overwhelmed when I learn how truly undeserving that person is - at fault, ungrateful, potentially dangerous, etc.  Unless I have an obvious gain, I am often quick to back away and help someone a bit more deserving.  However, God heaps His graciousness on those who are “yet sinners”, and then even provides me with the means to be truly gracious to others.</p>
                   <br></br>
                   <Quote scripture="Grace is a truth peculiar to divine revelation. It is a concept to which the unaided powers of man's mind never rises. Proof of this is in the fact that where the Bible has not gone 'grace' is unknown. Very often missionaries have found, when translating the Scriptures into native tongues of the heathen, they were unable to discover a word which in any way corresponds to the Bible word ‘grace'. Grace is absent from all the great heathen religions—Brahmanism, Buddhism, Mohammedanism, Confucianism, Zoroastrianism. Even nature does not teach grace: break her laws and you must suffer the penalty." reference="A.W. Pink" color="var(--teal)"/>               
               </section>

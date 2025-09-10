@@ -17,7 +17,7 @@ class Truthful extends Component {
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("truthful")}}>Truthful means revealing what is real.
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">We desperately want and need truth to decide and act appropriately - whether it comes from our doctor, spouse or media source.  Shades of truth, biases, misperceptions, fear, embarrassment, hidden motives and much more can obscure truth and detach us from reality. This makes truth both elusive and valuable - valuable enough to seek diligently.</p>
+                  <p className="is-size-6 leading-normal padded">We desperately want and need truth to decide and act appropriately - whether it comes from our doctor, spouse or media source.  Shades of truth, biases, misperceptions, fear, hidden motives and much more can obscure truth and detach us from reality. This makes truth both elusive and valuable - valuable enough to seek diligently.</p>
                   <p className="is-size-6 leading-normal padded">God is either real or not - if real, this truth will impact our lives whether we believe in Him or not.  But our best and most productive life will come only when we accept and live according to reality.</p>
                   <p className="is-size-6 leading-normal padded">Even if I trust in the reality of God I may distrust others because I have found they have not been truthful in the past. My distrust of others can cause me to disconnect from them.  As I struggle to determine who and what is true around me, I also need to consider my own truthfulness - not only what comes out of my mouth, but what I tell myself about who I am and why I do what I do.  Self-deception may be the most difficult untruthfulness I must address.</p>
               </section>
@@ -39,7 +39,7 @@ class Truthful extends Component {
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("truthful")}}>How can I know if I am believing a lie?</h1>
                 </section>
                   <p className="is-size-6 leading-normal padded">If I believe another person until I have good reason to disbelieve them, I will be vulnerable to deception. If I disbelieve everyone, I will likely miss out on needed truth.  So how can I decide if I am hearing truth?  Knowing the source and the reliability of prior information from them is always helpful - and the more I experience verifiable truth from them, the better. Considering the other's motives may also be helpful. Most people lie so they can 1) protect or promote themselves, 2) get what they want, or 3) harm another.  So past experience with a person and reasoning out likely motives are two good ways to help determine truthfulness.</p>
-                  <p className="is-size-6 leading-normal padded">However, the most difficult lie to detect can be the one I am telling myself.  Listening to and relying on God’s word and trusted, loving friends will help truth emerge.  I can also still follow the guidance above - to know myself and my motives:  Have I been susceptible to certain deceptions in the past?  Am I behaving out of step with whom I claim or aim to be?  Is something motivating me to believe things about myself that are false?</p>
+                  <p className="is-size-6 leading-normal padded">However, the most difficult lie to detect can be the one I am telling myself.  Listening to and relying on God’s word and trusted, loving friends will help truth emerge.  I can also still follow the guidance above - to know myself and my motives:  Have I been susceptible to certain deceptions in the past?  Am I behaving out of step with who I claim or aim to be?  Is something motivating me to believe things about myself that are false?</p>
                   <br></br>
                   <Quote scripture="If anyone thinks they are something when they are not, they deceive themselves." reference="Galatians 6:3" color="var(--teal)"/>
                   <br></br>
@@ -52,11 +52,21 @@ class Truthful extends Component {
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("truthful")}}>How do I know what is true?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Reality endures, so what is true eventually reveals itself over time.  The truth of gravity reveals itself repeatedly - leaves fall to the ground and water seeks the lowest point.  Tangible evidence will point toward truth.</p>
-                  <p className="is-size-6 leading-normal padded">Is the Biblical God true?  The Bible describes God with certain immutable attributes and declares that man was created in God’s image (reflecting many of these same attributes), but man is also marred by sin which rebels against those very same attributes. We have continual evidence that the Biblical God is true because we, His creations, aspire to His attributes (like really wanting to know that is true), even as we also struggle to rebel against that aspiration (like wanting to tell a "white" lie).  These attributes of God and man can readily be found in all cultures, across all times.  Such enduring evidence points to the One True God, Who I can trust - freeing me to best  understand and live life.</p>
+                  <p className="is-size-6 leading-normal padded">Is the Biblical God true?  The Bible describes God with certain immutable attributes and declares that man was created in God’s image (reflecting many of these same attributes), but man is also marred by sin which rebels against those very same attributes. We have continual evidence that the Biblical God is true because we, His creations, aspire to His attributes (like really wanting to know that is true), even as we also struggle to rebel against that aspiration (like wanting to tell a "white" lie to protect ourself).  These attributes of God and man can readily be found in all cultures, across all times.  Such enduring evidence points to the One True God, Who I can trust - freeing me to best  understand and live life.</p>
                   <br></br>
                   <Quote scripture="Pilate said to him (Jesus), 'What is truth?' " reference="John 18:38a" />
                   <br></br>
                   <Quote scripture="So Jesus said to the Jews who had believed him, ‘If you abide in my word, you are truly my disciples, and you will know the truth, and the truth will set you free.’ " reference="John 8:31-32" />               
+              </section>
+            }
+            question={
+              <section>
+                 <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("truthful")}}>How can I know the Bible is really true?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">As noted above, truth (or reality) endures. The Bible as unique literature has impacted the world more than any other.  The diversity of its literary forms - narrative, poetry, law, wisdom, prophecy, parables, letters, and apocalyptic literature - all depict an amazingly real and complex view of the people within. All these people have significant flaws and unique circumstances, yet they also all point to the one without any defect, Jesus Christ. </p>
+                  <br></br>
+                  <Quote scripture="All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be complete, equipped for every good work." reference="2 Timothy 3:16-17" />               
               </section>
             }
             whoAmI={
@@ -64,7 +74,7 @@ class Truthful extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("truthful")}}>Only God knows what is true.</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">Although I may confidently believe that all my thoughts are true, they are very likely not.  Truth can be uncovered through a combination of observance (science), educated reason (logic), and faith (which every person holds to something in some degree).  But real truth can only be found if my faith is in God.</p>
+                  <p className="is-size-6 leading-normal padded">Although I may confidently believe that all my thoughts are true, they are very likely not.  Truth can be uncovered through a combination of observance (science), educated reason (logic), and faith (which every person holds to something in some degree).  But real truth can only be found if my faith is in God, the Author of our reality.</p>
                   <br></br>
                   <Quote scripture="Jesus said, 'I am the light of the world.  Whoever follows me will never walk in darkness, but will have the light of life." reference="John 8:12" />               
               </section>
@@ -86,7 +96,7 @@ class Truthful extends Component {
                   </section>
                   <p className="is-size-6 leading-normal padded">Let the Bible anchor me in truth, knowing that it represents the unobscured truth, able to dispel my many possible misperceptions or self-deceptions.  I need to test, in my day-to-day life, the reality of these truths that God has revealed and consequently be strengthened in my faith (for example, if circumstances cause me to doubt that God cares about me, I can remind myself that His true Word from 1 Peter 5:7 says "...casting all your anxieties on him, because He cares for you.").  I also need to remind myself of who I am in Christ - an identity grounded in truth.<br>
                   </br>
-                  Ask:  How do I determine if something is actually true?
+                  Ask:  How do I determine if something is actually true now?
                   </p>
                   <Quote scripture="Do not merely listen to the word, and so deceive yourselves. Do what it says." reference="James 1:22" color="var(--teal)"/>               
               </section>
@@ -125,23 +135,23 @@ class Truthful extends Component {
                  <section>
                     <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("truthful")}}>"Open My Eyes, That I May See" - Clara H. Scott</h1>
                     </section>
-                    <p className="is-size-6 leading-normal padded">"1 - Open my eyes, that I may see<br></br>
+                    <p className="is-size-6 leading-normal padded">1 - Open my eyes, that I may see<br></br>
                     Glimpses of truth Thou hast for me;<br></br>
                     Place in my hands the wonderful key<br></br>
-                    That shall unclasp and set me free."</p> 
-                    <p className="is-size-6 leading-normal padded">"2 - Open my ears, that I may hear<br></br>
+                    That shall unclasp and set me free.</p> 
+                    <p className="is-size-6 leading-normal padded">2 - Open my ears, that I may hear<br></br>
                     Voices of truth Thou sendest clear;<br></br>
                     And while the wave notes fall on my ear,<br></br>
-                    Everything false will disappear."</p> 
-                    <p className="is-size-6 leading-normal padded">"3 - Open my mind, that I may read<br></br>
+                    Everything false will disappear.</p> 
+                    <p className="is-size-6 leading-normal padded">3 - Open my mind, that I may read<br></br>
                     More of Thy love in word and deed;<br></br>
                     What shall I fear while yet Thou dost lead?<br></br>
-                    Only for light from Thee I plead."</p> 
-                    <p className="is-size-6 leading-normal padded">"4 - Open my mouth, and let me bear,<br></br>
+                    Only for light from Thee I plead.</p> 
+                    <p className="is-size-6 leading-normal padded">4 - Open my mouth, and let me bear,<br></br>
                     Gladly the warm truth everywhere;<br></br>
                     Open my heart and let me prepare<br></br>
                     Love with Thy children thus to share.</p> 
-                    <p className="is-size-6 leading-normal padded">"Refrain - Silently now I wait for Thee,<br></br>
+                    <p className="is-size-6 leading-normal padded">Refrain - Silently now I wait for Thee,<br></br>
                     Ready my God, Thy will to see,<br></br>
                     Open my heart, illumine me,<br></br>
                     Spirit divine!</p>               

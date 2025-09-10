@@ -30,6 +30,9 @@ class BaseAttributeDetail extends Component {
                 <div className="attSection hidden" id="struggleMobile">
                   {this.props.struggle}
                 </div>
+                <div className="attSection hidden" id="questionMobile">
+                  {this.props.question}
+                </div>
                 <div className="attSection hidden" id="whoAmIMobile">
                   {this.props.whoAmI}
                 </div>
@@ -74,6 +77,9 @@ class BaseAttributeDetail extends Component {
                 </div>
                 <div className="attSection" id="struggle">
                   {this.props.struggle}
+                </div>
+                <div className="attSection" id="question">
+                  {this.props.question}
                 </div>
                 <div className="attSection" id="whoAmI">
                   {this.props.whoAmI}

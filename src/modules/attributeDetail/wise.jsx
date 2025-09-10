@@ -51,12 +51,24 @@ class Wise extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("wise")}}>How can I keep a healthy perspective?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Living for something higher than myself is key.  A driving purpose, well-honed principles, or knowing God all helps to keep life in proper perspective.  An unguided perspective will be misshaped by fatigue, selfishness, or a short-sighted, yet compelling, argument for which I fall.</p>
+                  <p className="is-size-6 leading-normal padded">Living for something higher than myself is key.  A driving purpose, well-honed principles, or knowing God all help to keep life in proper perspective.  An unguided perspective will be misshaped by fatigue, selfishness, or a short-sighted, yet compelling, argument for which I fall.</p>
                   <p className="is-size-6 leading-normal padded">Eve lost sight of a good God and focused on her own hunger and self-interest. Adam’s perspective was bent to please Eve versus God. They both lost sight of their Creator God who desperately wanted them to enjoy all He had given them and avoid the one thing that would ruin them - to live for themselves. </p>
                   <br></br>
                   <Quote scripture="So when the woman saw that the tree was good for food, and that it was a delight to the eyes, and that the tree was to be desired to make one wise, she took of its fruit and ate, and she also gave some to her husband who was with her, and he ate." reference="Genesis 3:6" />
                   <br></br>
                   <Quote scripture="Contrariwise, the 'wise' (in Scripture) are not the highly intellectual or the brilliantly educated, but those who honestly seek to put God first in their lives. God 'honors' those who honor Him (1 Sam. 2:30)." reference="A.W. Pink"/>               
+              </section>
+            }
+            question={
+              <section>
+                 <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("wise")}}>Will having God’s wisdom save me from suffering?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">No.  We like the order and predictability of the wisdom sayings found in Proverbs.  We desire them to be 100% true so that we can always count on them in all our life circumstances, becoming disappointed at any exceptions. But Job and Ecclesiastes lead us to expect an unpredictable randomness in the way our lives unfold.  The Bible’s collective wisdom describes life as only the Creator can.</p>
+                  <br></br>
+                  <Quote scripture="Blessed are those who find wisdom, those who gain understanding." reference="Proverbs 3:13" />
+                  <br></br>
+                  <Quote scripture="For with much wisdom comes much sorrow; the more knowledge, the more grief." reference="Ecclesiastes 1:13"/>               
               </section>
             }
             whoAmI={
@@ -66,7 +78,7 @@ class Wise extends Component {
                 </section>
                   <p className="is-size-6 leading-normal padded">God combines omniscience (perfect knowledge) with complete goodness to be all-wise in all things. Even when I have the truth before me and start acting with the best of intentions, I can still easily fall short.</p>
                   <br></br>
-                  <Quote scripture="Although about two-thirds of Americans have a prescription medication, approximately 50% of people do not take their medications as prescribed….Most people don’t realize it but of dying from your own medication non-adherence are about 10 times greater than dying of homicide, or about 30 times greater for somebody who is over the age of 50….younger people often have worse medication adherence rates than the elderly….In addition, most people do not consciously decide to stop taking their medication. Instead, they intend to take it. Then, they forget a few times they get out of the habit until they eventually stop taking it altogether." reference="5/16/18 article from Pillsy" />               
+                  <Quote scripture="Although about two-thirds of Americans have a prescription medication, approximately 50% of people do not take their medications as prescribed….Most people don’t realize it but odds of dying from your own medication non-adherence are about 10 times greater than dying of homicide, or about 30 times greater for somebody who is over the age of 50….younger people often have worse medication adherence rates than the elderly….In addition, most people do not consciously decide to stop taking their medication. Instead, they intend to take it. Then, they forget a few times and they get out of the habit until they eventually stop taking it altogether." reference="5/16/18 article from Pillsy" />               
               </section>
             }
             biblicalChristianity={
@@ -109,7 +121,7 @@ class Wise extends Component {
                  <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("wise")}}>Does more knowledge lead to more wisdom?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Increasing knowledge creates wisdom only if it is applied for good. Knowledge is neutral facts and figures that become good or bad depending upon how it is used.  It thus needs something wise to guide its development and use.</p>
+                  <p className="is-size-6 leading-normal padded">Increasing knowledge creates wisdom only if it is applied for good. Knowledge is neutral facts and figures that become good or bad depending upon how they are used.  Knowledge thus needs something wise to guide its development and use.</p>
                   <p className="is-size-6 leading-normal padded">Rocket engineer Wernher von Braun, the public face and key architect of the American space program, earlier built rockets for Hitler.  More than 3,000 missiles of his design against the Allies killed ~5,000 people, while as many as 20,000 concentration camp prisoners died assembling the weapons. During the 1930s, the German medical establishment was admired as a world leader in innovative public health and medical research. They correctly identified the dangers of tobacco, asbestos, DDT, alcohol and lumps in the breast. They developed the first high-powered electron microscope. But to what end? Hitler spoke of Germany as a body and himself as the doctor who wanted to make the nation healthy by eliminating the diseased parts - beginning with forced sterilization and ending, of course, with six million deaths in concentration camps.</p>               
               </section>
             }

@@ -17,7 +17,7 @@ class Patient extends Component {
                   <section>
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>Patient means to bear with suffering caused by others.
                   </h1></section>
-                  <p className="is-size-6 leading-normal padded">We expect patience from others and want to be patient toward others.  We notice more when patience is missing rather than when it is shared.  It seems a bit unfair to be patient when suffering from the hands of others, until we realize we need patience from others as much as they need it from us.</p>
+                  <p className="is-size-6 leading-normal padded">We expect patience from others and want to be patient toward others.  We usually notice the absence of patience (whether in us or others) much more than when it is being exercised properly.  However, it seems a bit unfair to be patient when suffering from the hands of others, until we realize we need patience from others as much as they need it from us.</p>
                   <p className="is-size-6 leading-normal padded">We are an impatient people who recognize the abiding value of patience.  The following excerpt from Psychology Today, 1/3/17 issue (God's wisdom shining though a secular source) clarifies some of the misunderstandings of patience:</p>
                   <p className="is-size-6 leading-normal padded">“The world does not see patience as a position of strength but rather as a position of weakness, of wanting, of lack.  Patience allows you to take back control over the capricious and unstable world and plant that control firmly within yourself.  Patience does not give you the power over circumstances; patience allows you to control yourself in the midst of circumstances. 
                   Patience is not apathy or surrender.  Being patient means accepting both how you feel about a given situation and what you can realistically do about it. 
@@ -35,7 +35,7 @@ class Patient extends Component {
                  <section>
                   <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>Would I rather seek pity or be annoyed?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">As I suffer, I can move either to self-pity or annoyance.  Self-pity overly focuses on myself; annoyance seeks to blame the apparent source of my troubles.  Both of these move my focus away from God and toward the object of my impatience.  In extreme suffering, Jesus spoke the first words of this Psalm with a raw  emotion much beyond self pity or mere annoyance.  Yet He returned to trusting His Father, praising God even when the circumstances made it next to impossible.  My troubles belong to the Lord - I can take them to Him, knowing that He is good and has the power to take care of the situation.</p>
+                  <p className="is-size-6 leading-normal padded">As I suffer, I can move either to self-pity or annoyance.  Self-pity overly focuses on myself; annoyance seeks to blame the apparent source of my troubles.  Both of these move my focus away from God and toward the object of my impatience.  In extreme suffering, Jesus spoke the first words of this Psalm with a raw emotion far exceeding self pity or mere annoyance.  Yet He returned to trusting His Father, praising God even when the circumstances made it next to impossible.  My troubles belong to the Lord - I can take them to Him, knowing that He is good and has the power to take care of the situation.</p>
                   <br></br>
                   <Quote scripture="My God, my God, why have you forsaken me? Why are you so far from saving me, from the words of my groaning?  O my God, I cry by day, but you do not answer, and by night, but I find no rest...But you, O LORD, do not be far off!  O you my help, come quickly to my aid!  Deliver my soul from the sword, my precious life from the power of the dog!  Save me from the mouth of the lion!  You have rescued me from the horns of the wild oxen!  I will tell of your name to my brothers; in the midst of the congregation I will praise you: You who fear the LORD, praise him!  All you offspring of Jacob, glorify him, and stand in awe of him, all you offspring of Israel!  For he has not despised or abhorred the affliction of the afflicted, and he has not hidden his face from him, but has heard, when he cried to him." reference="Psalm 22:1-2,19-24" color="var(--teal)"/>               
               </section>
@@ -45,8 +45,8 @@ class Patient extends Component {
                  <section>
                   <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>I worry about what trouble may come my way.</h1>
                 </section>
-                  <p className="is-size-6 leading-normal padded">“We take the good things for granted and blow up the problems. As a consequence, we tend to fall prey to the petty concerns and annoyances in our lives, letting them determine our well-being….A growing number of studies inspired by Acceptance and Commitment Therapy and  Mindfulness are showing that - rather than resisting them - embracing difficult situations (e.g. pain or dependency due to illness) increases well-being. We can either choose to let the negative experiences we encounter bring us down, or we can choose to embrace them and thereby rise above them…..Learn from it….Appreciate what you do have….Use it to help others….” - Psychology Today, 6/29/15.</p>
-                  <p className="is-size-6 leading-normal padded">Patient hope is powerful.  It realizes all troubles eventually leave and, when they do, can lift me up more than a large dose of happy news.  Ecclesiastes 7:1 says our day of death is actually better than the day of our birth.  This makes sense only by comparing the joyful eternal reality of heaven, where there is no evil, versus our temporal life where the mixture of happiness and hardship never ends because evil abounds.</p>
+                  <p className="is-size-6 leading-normal padded">“We take the good things for granted and blow up the problems. As a consequence, we tend to fall prey to the petty concerns and annoyances in our lives, letting them determine our well-being….A growing number of studies inspired by Acceptance and Commitment Therapy and  Mindfulness are showing that - rather than resisting them - embracing difficult situations (e.g. pain or dependency due to illness) increases well-being. We can either choose to let the negative experiences we encounter bring us down, or we can choose to embrace them and thereby rise above them…..Learn from it….Appreciate what you do have….Use it to help others….” - Psychology Today, 6/29/15 (God's wisdom shining though a secular source).</p>
+                  <p className="is-size-6 leading-normal padded">Patient hope is powerful.  It realizes all troubles eventually leave and, when they do, can lift me up more than a large dose of happy news.  Ecclesiastes 7:1 says our day of death is actually better than the day of our birth.  This makes sense only by comparing the joyful eternal reality of heaven, where there is no evil, versus our temporal life where our happiness is always mixed with hardship because evil abounds.</p>
                   <br></br>
                   <Quote scripture="Better is the end of a thing than its beginning, and the patient in spirit is better than the proud in spirit." reference="Ecclesiastes 7:8" color="var(--teal)"/>               
               </section>
@@ -56,7 +56,7 @@ class Patient extends Component {
                  <section>
                   <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>But it seems my hardship will never end!</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Perspective always matters while I wait.  Gaining long-term perspective (“until the coming of the Lord”) and a present perspective (“I will ponder God’s work”) will help me through a situation, even if I see no end to it.</p>
+                  <p className="is-size-6 leading-normal padded">My perspective always matters while I am waiting.  Having both a long-term perspective (such as Christ's return) and a present perspective which is focused on God will help me through a situation, even if I see no end to it.</p>
                   <p className="is-size-6 leading-normal padded">David Guzik (Blue Letter Bible commentary) notes how a farmer is patient:<br></br>
                   · He waits with a reasonable hope and expectation of reward.<br></br>
                   · He waits a long time.<br></br>
@@ -70,16 +70,26 @@ class Patient extends Component {
                   · He waits aware of how the seasons work.<br></br>
                   · He waits because as time goes on, it becomes more important and not less to do so.</p>
                   <br></br>
-                  <p className="is-size-6 leading-normal padded">Mr. Guzik and Psychology Today both agree that the tenacity of our patience depends on what we are looking toward. When our hope is fixed on an eternal, perfect life in heaven with Jesus, our patience can abound.</p>
+                  <p className="is-size-6 leading-normal padded">Mr. Guzik and 'Psychology Today' both agree that the tenacity of our patience depends on what we are looking toward. When our hope is fixed on an eternal, perfect life in heaven with Jesus, our patience now can abound.</p>
                   <br></br>
                   <Quote scripture="Be patient, therefore, brothers, until the coming of the Lord. See how the farmer waits for the precious fruit of the earth, being patient about it, until it receives the early and the late rains." reference="James 5:7" color="var(--teal)"/>               
+              </section>
+            }
+            question={
+              <section>
+                 <section>
+                  <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>Should a Christian love or hate the world in which we are living?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">Both!  In this short life we live as exiles. While Israel was in Babylonian exile, God encouraged them to enjoy the life they had - to invest in and seek the best for their family and local community.  But we dare not make our “Now” (the life we are currently experiencing) our all-important indulgence, nor threat - since we know the “Not Yet” (eternity with God) will be far better and much more enduring.  This feeling of temporary homelessness will be discomforting at times, but God can bring shalom to any earthly circumstance through this patient and eternal perspective.</p>
+                  <br></br>
+                  <Quote scripture="The Father refreshes us on our journey with some pleasant inns, but will not encourage us to mistake them for home." reference="C.S. Lewis" color="var(--teal)"/>               
               </section>
             }
             whoAmI={
               <section>
                  <section>
                   <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>Only God is always patient.</h1></section>
-                  <p className="is-size-6 leading-normal padded">God is patient while I am often impatient.  Most people might envy God, thinking He has no need or use for patience.  He can have instant gratification if He wanted!  But God deliberately bears with His creation as He planned from the beginning, always working toward my greatest good which includes patience.</p>
+                  <p className="is-size-6 leading-normal padded">God is patient while I am often impatient.  Most people might envy God, thinking He has no need or use for patience.  He can have instant gratification if He wanted!  But God deliberately bears with His creation as He planned from the beginning, always working toward my greatest good, which includes patience.</p>
                   <br></br>
                   <Quote scripture="Be still before the LORD and wait patiently for him;" reference="Psalm 37:7a" color="var(--teal)"/>               
               </section>
@@ -97,7 +107,7 @@ class Patient extends Component {
                  <section>
                   <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>So what do I do now?</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">Be slow to anger, even with true injustices, especially given others’ need to be patient with me and knowing that our just God will deal with all injustice in His timing.  Be content, even joyful, in the present hard circumstances, knowing God loves you and will use this to refine you.  Accept as God's timing whatever is outside of my control or influence, knowing He is in control. God's patience is often expressed as 'slow to anger' - Ex 34:6, Nu 14:18, Psalm 103:8 & more.   <br></br>Ask: What resulted from my most recent impatience?</p><br></br>
+                  <p className="is-size-6 leading-normal padded">Be slow to anger, even with true injustices, especially given others’ need to be patient with me and knowing that our just God will deal with all injustice in His timing.  Be content, even joyful, in present hard circumstances, knowing God loves me and will use this to refine me.  Accept as God's timing whatever is outside of my control or influence, knowing He is in control. God's patience is often expressed as 'slow to anger' - Ex 34:6, Nu 14:18, Psalm 103:8 & more.   <br></br>Ask: What resulted from my most recent impatience?</p><br></br>
                   <Quote scripture="Not only that, but we rejoice in our sufferings, knowing that suffering produces endurance, and endurance produces character, and character produces hope, and hope does not put us to shame, because God’s love has been poured into our hearts through the Holy Spirit who has been given to us." reference="Romans 5:3-5" color="var(--teal)"/>               
               </section>
             }
@@ -106,14 +116,14 @@ class Patient extends Component {
                    <section>
                   <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>Prayer</h1>
                   </section>
-                  <p className="is-size-6 leading-normal padded">God, thank you for being patient with me when I do not listen, obey or glorify You.  Help me to remember Your patience on the cross and with me when I need to be patient with others.</p>
+                  <p className="is-size-6 leading-normal padded">God, thank you for being patient with me when I do not listen, obey or glorify You.  Help me to remember Your patience on the cross and help me when I need to be patient with others.</p>
                   <Quote scripture="Looking to Jesus, the founder and perfecter of our faith, who for the joy that was set before him endured the cross," reference="Hebrews 12:2a" color="var(--teal)"/>               
               </section>
             }
             scienceAndHealth={
               <section>
                  <section>
-                  <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>What tangible benefits to patience have been found?</h1>
+                  <h1 className="title has-text-prpmaryary tracking-wide padded" style={{color: styleMethods.getAttributeColor("patient")}}>What tangible benefits are found in patience?</h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Patience allows greater future rewards to be achieved versus settling on the best short-term reward.  It allows for optimization of the whole over time, such as saving for retirement and earning a degree.</p>
                   <p className="is-size-6 leading-normal padded">"A study by multiple American universities found that young adults who scored high on tests designed to measure impatience had an 18.4 per cent risk of developing hypertension within 15 years, compared to an 11.6 per cent risk among their more patient counterparts. One potential cause? Impatience may be correlated with higher rates of smoking, drinking and unhealthy eating…</p>

@@ -54,6 +54,16 @@ class Omniscient extends Component {
                   <Quote scripture="Besides being wise, the Preacher also taught the people knowledge, weighing and studying and arranging many proverbs with great care. The Preacher sought to find words of delight, and uprightly he wrote words of truth. The words of the wise are like goads, and like nails firmly fixed are the collected sayings; they are given by one Shepherd. My son, beware of anything beyond these. Of making many books there is no end, and much study is a weariness of the flesh. The end of the matter; all has been heard. Fear God and keep his commandments, for this is the whole duty of man." reference="Ecclesiates 12:9-13" color="var(--teal)"/>               
               </section>
             }
+            question={
+              <section>
+                 <section>
+                  <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("omniscient")}}>Does God know of and consider my motivations?</h1>
+                  </section>
+                  <p className="is-size-6 leading-normal padded">Yes, and God knows our real motives better than we do.  God is most pleased when His opinion rises above ours or others - and His opinion is best revealed through the Bible, which has been given so that we live as our Creator knows is best for us.</p>
+                  <br></br>
+                  <Quote scripture="All the ways of a man are pure in his own eyes, but the Lord weighs the spirit." reference="Proverbs 16:2" color="var(--teal)"/>               
+              </section>
+            }
             whoAmI={
               <section>
                  <section>
@@ -105,8 +115,8 @@ class Omniscient extends Component {
                   <h1 className="title tracking-wide padded" style={{color: styleMethods.getAttributeColor("omniscient")}}>The right hand often does not know the left. </h1>
                   </section>
                   <p className="is-size-6 leading-normal padded">Gathering good information has always been difficult - sharing it for good use within a business (or a family) can be even more onerous.  The ideal state is having an omni-channel experience.</p>
-                  <p className="is-size-6 leading-normal padded">Many companies (think Bank of America and Disney) have been working hard toward making the same data set available to multiple people (sales, manufacturing, customer service, shipping, customer…) from multiple platforms (phone, tablet, in-person, lap-top, call center…). Communication channels and their supporting resources are designed and orchestrated to cooperate.  When successful, these omni-channel experiences mimic a small part of God's omniscience. For example, what I think and declare to be true is well-known by God as, or even before, I know it.</p>
-                  <p className="is-size-6 leading-normal padded">"So everyone who acknowledges me before men, I also will acknowledge before my Father who is in heaven, but whoever denies me before men, I also will deny before my Father who is in heaven." - Matthew 10:32-33</p>               
+                  <p className="is-size-6 leading-normal padded">Many companies (think Bank of America and Disney) have been working hard toward making the same data set available to multiple people (sales, manufacturing, customer service, shipping, customer…) from multiple platforms (phone, tablet, in-person, lap-top, call center…). Communication channels and their supporting resources are designed and orchestrated to cooperate, giving everyone involved the most accurate view of what is going on.  When successful, these omni-channel experiences mimic a small part of God's omniscience. For example, what I think and declare to be true is well-known by God, except He knows it even before I do.</p>
+                  <Quote scripture="So everyone who acknowledges me before men, I also will acknowledge before my Father who is in heaven, but whoever denies me before men, I also will deny before my Father who is in heaven." reference="Matthew 10:32-33" color="var(--teal)"/>              
               </section>
             }
             liturgy={
