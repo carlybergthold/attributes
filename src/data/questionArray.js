@@ -2,7 +2,7 @@ import SinSVG from "../images/explore/struggle/mental.svg";
 import PerspectiveSVG from "../images/explore/struggle/spiritual.svg";
 import WisdomSVG from "../images/explore/emotion/pleasure.svg";
 
-const emotionArray = [
+const questionArray = [
     {
         id: 1,
         name: "Life Wisdom",
@@ -250,4 +250,4 @@ const emotionArray = [
     }
 ];
 
-export default emotionArray;
+export default questionArray;

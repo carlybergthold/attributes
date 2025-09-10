@@ -242,6 +242,8 @@ class TopNav extends Component {
                                 <div className="mobile-dropdown-item">
                                    <Link to="/struggle" className="has-text-grey" onClick={this.exitMobileMenu}>By Struggle</Link></div>
                                 <div className="mobile-dropdown-item">
+                                   <Link to="/question" className="has-text-grey" onClick={this.exitMobileMenu}>By Life Question</Link></div>
+                                <div className="mobile-dropdown-item">
                                    <Link to="/basicneeds" className="has-text-grey" onClick={this.exitMobileMenu}>By Who You Are in Christ</Link></div>
                                 <div className="mobile-dropdown-item">
                                    <Link to="/movies" className="has-text-grey" onClick={this.exitMobileMenu}>By Your Favorite Movie</Link></div>

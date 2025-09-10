@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import { withRouter } from "react-router-dom"
 import '../../styles/attribute.css'
-import Hero from '../../components/hero'
 import Quote from '../../components/quote'
 import styleMethods from "../../methods/styleMethods";
 import BaseAttributeDetail from '../../modules/attributeDetail/baseAttributeDetail';
